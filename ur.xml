@@ -1,139 +1,1837 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <marcedit language="">
 <MarcEdit_Field_Count>
-<mnuExtract>ریکارڈ سے اقتباس</mnuExtract><cmenuClipboard>تختہ تراشہ پر نقل کریں</cmenuClipboard><cmenuSubfields>کا شمار سبفیلڈس</cmenuSubfields><menuItem3>-</menuItem3><cmenuHelp>مدد</cmenuHelp><cmd_OK>بند کریں</cmd_OK><cmd_Report>رپورٹ تیار</cmd_Report><lb_ReportStyle>رپورٹ طرز:</lb_ReportStyle><opt_tab>تحدیدی رپورٹ کا ٹیب</opt_tab><opt_xml>XML کی رپورٹ</opt_xml><opt_html>HTML کی رپورٹ</opt_html><this>میدان کا شمار</this></MarcEdit_Field_Count>
+<mnuExtract>ریکارڈ سے اقتباس</mnuExtract>
+<cmenuClipboard>تختہ تراشہ پر نقل کریں</cmenuClipboard>
+<cmenuSubfields>کا شمار سبفیلڈس</cmenuSubfields>
+<menuItem3>-</menuItem3>
+<cmenuHelp>مدد</cmenuHelp>
+<cmd_OK>بند کریں</cmd_OK>
+<cmd_Report>رپورٹ تیار</cmd_Report>
+<lb_ReportStyle>رپورٹ طرز:</lb_ReportStyle>
+<opt_tab>تحدیدی رپورٹ کا ٹیب</opt_tab>
+<opt_xml>XML کی رپورٹ</opt_xml>
+<opt_html>HTML کی رپورٹ</opt_html>
+<this>میدان کا شمار</this>
+</MarcEdit_Field_Count>
 <MarcEdit_FindReplace>
-<tbFind>تلاش کریں</tbFind><btn_findall>تمام ڈھونڈیں</btn_findall><groupBox1>اختیارات تلاش کریں:</groupBox1><ck_f_whole_word>فقط پورا لفظ ڈھونڈیں</ck_f_whole_word><ck_find_regex>تعبیرات کا استعمال کرتے</ck_find_regex><ck_f_match_case>مشابہ حالت حروف</ck_f_match_case><lbPreview>صرف تلاش لوڈ کوائف پیش منظر موڈ میں تلاش کریں ۔</lbPreview><cmdFClose>بند کریں</cmdFClose><cmdFFind>تلاش کریں</cmdFFind><lb_FindWhat>کیا ڈھونڈیں:</lb_FindWhat><tbReplace>بدل دیں</tbReplace><cmd_R_Close>بند کریں</cmd_R_Close><cmd_R_All>تمام بدل دیں</cmd_R_All><cmd_R_Replace>بدل دیں</cmd_R_Replace><groupBox2>اختیارات تلاش کریں:</groupBox2><ck_R_RegExp>تعبیرات کا استعمال کرتے</ck_R_RegExp><ck_R_Case>مشابہ حالت حروف</ck_R_Case><lb_ReplaceWith>بدلیں مع:</lb_ReplaceWith><lb_R_FindWhat>کیا ڈھونڈیں:</lb_R_FindWhat><groupBox3>سمت:</groupBox3><rd_up>اپ</rd_up><rd_down>نیچے</rd_down><this>ڈھونڈیں بدل:</this></MarcEdit_FindReplace>
+<tbFind>تلاش کریں</tbFind>
+<groupBox3>سمت:</groupBox3>
+<rd_down>نیچے</rd_down>
+<rd_up>اپ</rd_up>
+<btn_findall>تمام ڈھونڈیں</btn_findall>
+<groupBox1>اختیارات تلاش کریں:</groupBox1>
+<ck_f_whole_word>فقط پورا لفظ ڈھونڈیں</ck_f_whole_word>
+<ck_find_regex>تعبیرات کا استعمال کرتے</ck_find_regex>
+<ck_f_match_case>مشابہ حالت حروف</ck_f_match_case>
+<lbPreview>صرف تلاش لوڈ کوائف پیش منظر موڈ میں تلاش کریں ۔</lbPreview>
+<cmdFClose>بند کریں</cmdFClose>
+<cmdFFind>تلاش کریں</cmdFFind>
+<lb_FindWhat>کیا ڈھونڈیں:</lb_FindWhat>
+<tbReplace>بدل دیں</tbReplace>
+<cmd_R_Close>بند کریں</cmd_R_Close>
+<cmd_R_All>تمام بدل دیں</cmd_R_All>
+<cmd_R_Replace>بدل دیں</cmd_R_Replace>
+<groupBox2>اختیارات تلاش کریں:</groupBox2>
+<ck_R_RegExp>تعبیرات کا استعمال کرتے</ck_R_RegExp>
+<ck_R_Case>مشابہ حالت حروف</ck_R_Case>
+<lb_ReplaceWith>بدلیں مع:</lb_ReplaceWith>
+<lb_R_FindWhat>کیا ڈھونڈیں:</lb_R_FindWhat>
+<this>ڈھونڈیں بدل:</this>
+</MarcEdit_FindReplace>
 <MarcEdit_frm008>
-<label11>قسم: کتاب</label11><lbbTitle>006/008 اختیارات:</lbbTitle><lnkbBiog>بااوگ:</lnkbBiog><lnkbLitF>لاٹف:</lnkbLitF><lnkbIndx>اندن:</lnkbIndx><lnkbFest>فیسٹیول:</lnkbFest><lnkbConf>Conf:</lnkbConf><lnkbGPub>گپوب:</lnkbGPub><lnkbCont>Cont:</lnkbCont><lnkbForm>فارم:</lnkbForm><lnkbAudn>اودن:</lnkbAudn><lnkbIlls>برائیوں کا آسان شکار:</lnkbIlls><lnkbType>قسم:</lnkbType><label12>قسم: الیکٹرانک وسیلہ</label12><label5>006/008 اختیارات:</label5><lnkcFile>مسل:</lnkcFile><lnkcGPub>گپوب:</lnkcGPub><lnkcAudn>اودن:</lnkcAudn><lnkcType>قسم:</lnkcType><label2>,</label2><lnkbDates>تواریخ:</lnkbDates><lnkbDtSt>دٹ:</lnkbDtSt><lnkbCtry>کٹری:</lnkbCtry><lnkbLang>اطراف سے داخل ہوگئى ۔</lnkbLang><lnkbMRec>مریک:</lnkbMRec><label1>008 اختیارات:</label1><label13>قسم: نقشہ</label13><label3>006/008 اختیارات:</label3><lnkmSpFm>سپفم:</lnkmSpFm><lnkmIndx>اندن:</lnkmIndx><lnkmForm>فارم:</lnkmForm><lnkmGPub>گپوب:</lnkmGPub><lnkmCrTp>کرٹپ:</lnkmCrTp><lnkmProj>پراوج:</lnkmProj><lnkmRelf>ریلف:</lnkmRelf><lnkmType>قسم:</lnkmType><label14>قسم: مخلوط مواد</label14><label4>006/008 اختیارات:</label4><lnkmmForm>فارم:</lnkmmForm><lnkmmType>قسم:</lnkmmType><label15>قسم: سکور</label15><label6>006/008 اختیارات:</label6><lnkscLTxt>لٹ:</lnkscLTxt><lnkscAccM>اککم:</lnkscAccM><lnkscForm>فارم:</lnkscForm><lnkscAudn>اودن:</lnkscAudn><lnkscFMus>فموس:</lnkscFMus><lnkscComp>کعمپ:</lnkscComp><lnkscType>قسم:</lnkscType><label10>قسم: وسائل جاری</label10><lnkslEntW>انتو:</lnkslEntW><lnkslS_L>S/L:</lnkslS_L><label7>006/008 اختیارات:</label7><lnkslAlph>الپہ:</lnkslAlph><lnkslConf>Conf:</lnkslConf><lnkslGPub>گپوب:</lnkslGPub><lnkslCont>Cont:</lnkslCont><lnkslForm>فارم:</lnkslForm><lnkslOrig>اوراگ:</lnkslOrig><lnkslSrTp>SrTp:</lnkslSrTp><lnkslISSN>اسسن:</lnkslISSN><lnkslRegl>ریگل:</lnkslRegl><lnkslFreq>فریق:</lnkslFreq><lnkslType>قسم:</lnkslType><label16>قسم: ریکارڈنگ کی آواز</label16><label8>006/008 اختیارات:</label8><lnksdLTxt>لٹ:</lnksdLTxt><lnksdAccM>اککم:</lnksdAccM><lnksdForm>فارم:</lnksdForm><lnksdAudn>اودن:</lnksdAudn><lnksdFMus>فموس:</lnksdFMus><lnksdComp>کعمپ:</lnksdComp><lnksdType>قسم:</lnksdType><label17>قسم: بصری مواد</label17><label9>006/008 اختیارات:</label9><lnkvmTech>ٹیک:</lnkvmTech><lnkvmTMat>ٹمہٹ:</lnkvmTMat><lnkvmForm>فارم:</lnkvmForm><lnkvmGPub>گپوب:</lnkvmGPub><lnkvmAudn>اودن:</lnkvmAudn><lnkvmTime>وقت:</lnkvmTime><lnkvmType>قسم:</lnkvmType><cmd_Ok>ٹھيک ہے</cmd_Ok><cmd_Close>بند کریں</cmd_Close><lnkSrce>سرسی:</lnkSrce><linkLabel1>فارم:</linkLabel1><this>006/008</this></MarcEdit_frm008>
+<label11>قسم: کتاب</label11>
+<lbbTitle>006/008 اختیارات:</lbbTitle>
+<lnkbBiog>بااوگ:</lnkbBiog>
+<lnkbLitF>لاٹف:</lnkbLitF>
+<lnkbIndx>اندن:</lnkbIndx>
+<lnkbFest>فیسٹیول:</lnkbFest>
+<lnkbConf>Conf:</lnkbConf>
+<lnkbGPub>گپوب:</lnkbGPub>
+<lnkbCont>Cont:</lnkbCont>
+<lnkbForm>فارم:</lnkbForm>
+<lnkbAudn>اودن:</lnkbAudn>
+<lnkbIlls>برائیوں کا آسان شکار:</lnkbIlls>
+<lnkbType>قسم:</lnkbType>
+<label12>قسم: الیکٹرانک وسیلہ</label12>
+<label5>006/008 اختیارات:</label5>
+<lnkcFile>مسل:</lnkcFile>
+<lnkcGPub>گپوب:</lnkcGPub>
+<lnkcAudn>اودن:</lnkcAudn>
+<lnkcType>قسم:</lnkcType>
+<label2>,</label2>
+<lnkbDates>تواریخ:</lnkbDates>
+<lnkbDtSt>دٹ:</lnkbDtSt>
+<lnkbCtry>کٹری:</lnkbCtry>
+<lnkbLang>اطراف سے داخل ہوگئى ۔</lnkbLang>
+<lnkbMRec>مریک:</lnkbMRec>
+<label1>008 اختیارات:</label1>
+<label13>قسم: نقشہ</label13>
+<label3>006/008 اختیارات:</label3>
+<lnkmSpFm>سپفم:</lnkmSpFm>
+<lnkmIndx>اندن:</lnkmIndx>
+<lnkmForm>فارم:</lnkmForm>
+<lnkmGPub>گپوب:</lnkmGPub>
+<lnkmCrTp>کرٹپ:</lnkmCrTp>
+<lnkmProj>پراوج:</lnkmProj>
+<lnkmRelf>ریلف:</lnkmRelf>
+<lnkmType>قسم:</lnkmType>
+<label14>قسم: مخلوط مواد</label14>
+<label4>006/008 اختیارات:</label4>
+<lnkmmForm>فارم:</lnkmmForm>
+<lnkmmType>قسم:</lnkmmType>
+<label15>قسم: سکور</label15>
+<label6>006/008 اختیارات:</label6>
+<lnkscLTxt>لٹ:</lnkscLTxt>
+<lnkscAccM>اککم:</lnkscAccM>
+<lnkscForm>فارم:</lnkscForm>
+<lnkscAudn>اودن:</lnkscAudn>
+<lnkscFMus>فموس:</lnkscFMus>
+<lnkscComp>کعمپ:</lnkscComp>
+<lnkscType>قسم:</lnkscType>
+<label10>قسم: وسائل جاری</label10>
+<lnkslEntW>انتو:</lnkslEntW>
+<lnkslS_L>S/L:</lnkslS_L>
+<label7>006/008 اختیارات:</label7>
+<lnkslAlph>الپہ:</lnkslAlph>
+<lnkslConf>Conf:</lnkslConf>
+<lnkslGPub>گپوب:</lnkslGPub>
+<lnkslCont>Cont:</lnkslCont>
+<lnkslForm>فارم:</lnkslForm>
+<lnkslOrig>اوراگ:</lnkslOrig>
+<lnkslSrTp>SrTp:</lnkslSrTp>
+<lnkslISSN>اسسن:</lnkslISSN>
+<lnkslRegl>ریگل:</lnkslRegl>
+<lnkslFreq>فریق:</lnkslFreq>
+<lnkslType>قسم:</lnkslType>
+<label16>قسم: ریکارڈنگ کی آواز</label16>
+<label8>006/008 اختیارات:</label8>
+<lnksdLTxt>لٹ:</lnksdLTxt>
+<lnksdAccM>اککم:</lnksdAccM>
+<lnksdForm>فارم:</lnksdForm>
+<lnksdAudn>اودن:</lnksdAudn>
+<lnksdFMus>فموس:</lnksdFMus>
+<lnksdComp>کعمپ:</lnksdComp>
+<lnksdType>قسم:</lnksdType>
+<label17>قسم: بصری مواد</label17>
+<label9>006/008 اختیارات:</label9>
+<lnkvmTech>ٹیک:</lnkvmTech>
+<lnkvmTMat>ٹمہٹ:</lnkvmTMat>
+<lnkvmForm>فارم:</lnkvmForm>
+<lnkvmGPub>گپوب:</lnkvmGPub>
+<lnkvmAudn>اودن:</lnkvmAudn>
+<lnkvmTime>وقت:</lnkvmTime>
+<lnkvmType>قسم:</lnkvmType>
+<cmd_Ok>ٹھيک ہے</cmd_Ok>
+<cmd_Close>بند کریں</cmd_Close>
+<lnkSrce>سرسی:</lnkSrce>
+<linkLabel1>فارم:</linkLabel1>
+<this>006/008</this>
+</MarcEdit_frm008>
 <MarcEdit_frmBatchEdit>
-<lnk_Edit_Fields>قطعات کی تدوین کریں</lnk_Edit_Fields><lnkCopy>قطعہ کوائف نقل کریں</lnkCopy><lnkSwapFields>قطعات سویپ</lnkSwapFields><lnkIndicators>اشارے کی تدوین کریں</lnkIndicators><lnkSubfield>سبفیلڈ کوائف تدوین کریں</lnkSubfield><lnkAddDelete>قطعہ ا ضافہ/حذف</lnkAddDelete><label1>کیا ڈھونڈیں:</label1><cmd_A_Close>بند کریں</cmd_A_Close><cmd_A_Add>قطعہ کا ا ضافہ کریں</cmd_A_Add><cmd_A_Delete>قطعہ حذف کریں</cmd_A_Delete><groupBox1>اختیارات:</groupBox1><ck_delete_batch>عمل کاری کے بیچ آپریشن</ck_delete_batch><ck_AddIfPresent>اگر موجود ہو تو قطعہ ا ضافہ کریں</ck_AddIfPresent><ck_RemoveIfNot>اگر کوائف قطعہ نہیں مشابہ ہٹائیں</ck_RemoveIfNot><ck_last>آخری داخل کریں</ck_last><ck_dedup>مثنی کوائف ہٹائیں</ck_dedup><ck_A_regular_Expression>مستقل تعبیر استعمال کریں</ck_A_regular_Expression><ck_A_not_present>فقط قطعہ کا ا ضافہ کریں نہیں تو پیش</ck_A_not_present><ck_A_Insert>سے قبل داخل کریں</ck_A_Insert><ck_A_Case>مشابہ حالت حروف</ck_A_Case><label3>فیلڈ ڈیٹا:</label3><lb_A_Field>قطعہ:</lb_A_Field><lb_A_Title>ا ضافہ کریں/قطعہ کی افادیت ختم</lb_A_Title><cmd_Sub_Close>بند کریں</cmd_Sub_Close><cmd_Sub_Remove>متن حذف کریں</cmd_Sub_Remove><cmd_Sub_Replace>متن بدل دیں</cmd_Sub_Replace><groupBox2>اختیارات تلاش کریں:</groupBox2><ck_edit_subfield_delete_subfield>سبفیلڈ حذف کریں</ck_edit_subfield_delete_subfield><ck_move_subfield>سبفیلڈ کوائف منتقل</ck_move_subfield><ck_Reg_Express>مستقل تعبیر استعمال کریں</ck_Reg_Express><ck_Sub_Case>مشابہ حالت حروف</ck_Sub_Case><ck_Sub_New>صرف نئی سبفیلڈ</ck_Sub_New><ck_Sub_NotPresent>سبفیلڈ کا ا ضافہ کریں نہیں تو پیش</ck_Sub_NotPresent><label8>بدلیں مع:</label8><label7>فیلڈ ڈیٹا:</label7><label6>سبفیلڈ:</label6><label5>قطعہ:</label5><lb_Sub_Title>سبفیلڈ کی افادیت کی تدوین کریں</lb_Sub_Title><cmd_I_Close>بند کریں</cmd_I_Close><cmd_I_Replace>بدل دیں</cmd_I_Replace><lb_Ind_Replace>اشارے کے ساتھ بدل دیں</lb_Ind_Replace><label12>فیلڈ ڈیٹا:</label12><label11>اشارے</label11><label10>قطعہ:</label10><lb_Ind_Title>نشان کار کی افادیت کی تدوین کریں</lb_Ind_Title><ck_swap_expression>علاج کے طور پر باقاعدہ اظہار</ck_swap_expression><label4>تلاش کریں:</label4><cmd_Swap_Close>بند کریں</cmd_Swap_Close><cmd_Swap_Process>عمل</cmd_Swap_Process><groupBox3>تلاش اختیارات</groupBox3><ck_swap_once_per>تبادلہ فی ایک میدان عمل میں لاتا ہے</ck_swap_once_per><ck_swap_sort>قطعہ ترمیم چھانٹیں</ck_swap_sort><ck_Swap_Override>موجودہ/نیا بنانے کے لیے ا ضافہ کریں</ck_Swap_Override><ck_Swap_Add>موجودہ قطعہ کا ا ضافہ کریں</ck_Swap_Add><ck_Swap_Copy>ماخذ نقل کریں</ck_Swap_Copy><label20>ترمیم شدہ کوائف:</label20><label22>سبفیلڈس</label22><label23>اشارے</label23><label24>قطعہ</label24><label19>اصل کوائف:</label19><label18>تلاش کریں:</label18><label17>سبفیلڈس</label17><label16>اشارے</label16><label15>قطعہ</label15><lb_Swap_Title>قطعہ کی افادیت کا مبادلہ کریں</lb_Swap_Title><label14>سبفیلڈ:</label14><lbFindInField>قطعہ میں ڈھونڈیں</lbFindInField><groupBox4>اختیارات</groupBox4><ck_copy_delete>ماخذ قطعہ حذف کریں</ck_copy_delete><label2>مقصود قطعہ:</label2><cmdCopyClose>بند کریں</cmdCopyClose><cmdCopy>نقل</cmdCopy><label9>ماخذ قطعہ:</label9><label13>قطعہ کوائف نقل کریں</label13><label26>مقام:</label26><label21>بدل دیں از:</label21><label25>تلاش کریں:</label25><groupBox5>اختیارات</groupBox5><ck_editfield_match_case>مشابہ حالت حروف</ck_editfield_match_case><ck_UserRegularExpressions>تعبیرات کا استعمال کرتے</ck_UserRegularExpressions><cmdFieldEdit_Close>بند کریں</cmdFieldEdit_Close><cmdEditField_Process>عمل</cmdEditField_Process><label27>قطعہ:</label27><label28>کوائف قطعہ تدوین کریں</label28><this>MarcEdit.NET بیچ تدوین کرنے کے لیے ٹول</this></MarcEdit_frmBatchEdit>
+<lnk_Edit_Fields>قطعات کی تدوین کریں</lnk_Edit_Fields>
+<lnkCopy>قطعہ کوائف نقل کریں</lnkCopy>
+<lnkSwapFields>قطعات سویپ</lnkSwapFields>
+<lnkIndicators>اشارے کی تدوین کریں</lnkIndicators>
+<lnkSubfield>سبفیلڈ کوائف تدوین کریں</lnkSubfield>
+<lnkAddDelete>قطعہ ا ضافہ/حذف</lnkAddDelete>
+<label1>کیا ڈھونڈیں:</label1>
+<cmd_A_Close>بند کریں</cmd_A_Close>
+<cmd_A_Add>قطعہ کا ا ضافہ کریں</cmd_A_Add>
+<cmd_A_Delete>قطعہ حذف کریں</cmd_A_Delete>
+<groupBox1>اختیارات:</groupBox1>
+<ck_delete_batch>عمل کاری کے بیچ آپریشن</ck_delete_batch>
+<ck_AddIfPresent>اگر موجود ہو تو قطعہ ا ضافہ کریں</ck_AddIfPresent>
+<ck_RemoveIfNot>اگر کوائف قطعہ نہیں مشابہ ہٹائیں</ck_RemoveIfNot>
+<ck_last>آخری داخل کریں</ck_last>
+<ck_dedup>مثنی کوائف ہٹائیں</ck_dedup>
+<ck_A_regular_Expression>مستقل تعبیر استعمال کریں</ck_A_regular_Expression>
+<ck_A_not_present>فقط قطعہ کا ا ضافہ کریں نہیں تو پیش</ck_A_not_present>
+<ck_A_Insert>سے قبل داخل کریں</ck_A_Insert>
+<ck_A_Case>مشابہ حالت حروف</ck_A_Case>
+<label3>فیلڈ ڈیٹا:</label3>
+<lb_A_Field>قطعہ:</lb_A_Field>
+<lb_A_Title>ا ضافہ کریں/قطعہ کی افادیت ختم</lb_A_Title>
+<cmd_Sub_Close>بند کریں</cmd_Sub_Close>
+<cmd_Sub_Remove>متن حذف کریں</cmd_Sub_Remove>
+<cmd_Sub_Replace>متن بدل دیں</cmd_Sub_Replace>
+<groupBox2>اختیارات تلاش کریں:</groupBox2>
+<ck_edit_subfield_delete_subfield>سبفیلڈ حذف کریں</ck_edit_subfield_delete_subfield>
+<ck_move_subfield>سبفیلڈ کوائف منتقل</ck_move_subfield>
+<ck_Reg_Express>مستقل تعبیر استعمال کریں</ck_Reg_Express>
+<ck_Sub_Case>مشابہ حالت حروف</ck_Sub_Case>
+<ck_Sub_New>صرف نئی سبفیلڈ</ck_Sub_New>
+<ck_Sub_NotPresent>سبفیلڈ کا ا ضافہ کریں نہیں تو پیش</ck_Sub_NotPresent>
+<label8>بدلیں مع:</label8>
+<label7>فیلڈ ڈیٹا:</label7>
+<label6>سبفیلڈ:</label6>
+<label5>قطعہ:</label5>
+<lb_Sub_Title>سبفیلڈ کی افادیت کی تدوین کریں</lb_Sub_Title>
+<cmd_I_Close>بند کریں</cmd_I_Close>
+<cmd_I_Replace>بدل دیں</cmd_I_Replace>
+<lb_Ind_Replace>اشارے کے ساتھ بدل دیں</lb_Ind_Replace>
+<label12>فیلڈ ڈیٹا:</label12>
+<label11>اشارے</label11>
+<label10>قطعہ:</label10>
+<lb_Ind_Title>نشان کار کی افادیت کی تدوین کریں</lb_Ind_Title>
+<ck_swap_expression>علاج کے طور پر باقاعدہ اظہار</ck_swap_expression>
+<label4>تلاش کریں:</label4>
+<cmd_Swap_Close>بند کریں</cmd_Swap_Close>
+<cmd_Swap_Process>عمل</cmd_Swap_Process>
+<groupBox3>تلاش اختیارات</groupBox3>
+<ck_swap_once_per>تبادلہ فی ایک میدان عمل میں لاتا ہے</ck_swap_once_per>
+<ck_swap_sort>قطعہ ترمیم چھانٹیں</ck_swap_sort>
+<ck_Swap_Override>موجودہ/نیا بنانے کے لیے ا ضافہ کریں</ck_Swap_Override>
+<ck_Swap_Add>موجودہ قطعہ کا ا ضافہ کریں</ck_Swap_Add>
+<ck_Swap_Copy>ماخذ نقل کریں</ck_Swap_Copy>
+<label20>ترمیم شدہ کوائف:</label20>
+<label22>سبفیلڈس</label22>
+<label23>اشارے</label23>
+<label24>قطعہ</label24>
+<label19>اصل کوائف:</label19>
+<label18>تلاش کریں:</label18>
+<label17>سبفیلڈس</label17>
+<label16>اشارے</label16>
+<label15>قطعہ</label15>
+<lb_Swap_Title>قطعہ کی افادیت کا مبادلہ کریں</lb_Swap_Title>
+<label14>سبفیلڈ:</label14>
+<lbFindInField>قطعہ میں ڈھونڈیں</lbFindInField>
+<groupBox4>اختیارات</groupBox4>
+<ck_copy_delete>ماخذ قطعہ حذف کریں</ck_copy_delete>
+<label2>مقصود قطعہ:</label2>
+<cmdCopyClose>بند کریں</cmdCopyClose>
+<cmdCopy>نقل</cmdCopy>
+<label9>ماخذ قطعہ:</label9>
+<label13>قطعہ کوائف نقل کریں</label13>
+<label26>مقام:</label26>
+<label21>بدل دیں از:</label21>
+<label25>تلاش کریں:</label25>
+<groupBox5>اختیارات</groupBox5>
+<ck_editfield_match_case>مشابہ حالت حروف</ck_editfield_match_case>
+<ck_UserRegularExpressions>تعبیرات کا استعمال کرتے</ck_UserRegularExpressions>
+<cmdFieldEdit_Close>بند کریں</cmdFieldEdit_Close>
+<cmdEditField_Process>عمل</cmdEditField_Process>
+<label27>قطعہ:</label27>
+<label28>کوائف قطعہ تدوین کریں</label28>
+<this>MarcEdit.NET بیچ تدوین کرنے کے لیے ٹول</this>
+</MarcEdit_frmBatchEdit>
 <MarcEdit_frmBibframe>
-<cmdProcess>عمل</cmdProcess><cmdClose>بند کریں</cmdClose><label1>بابفریمی ٹیسٹب مابعد کوائف کے ماہرین اپنے ڈیٹا بابفریمی تصورات کو استعمال کرتے ہوئے ماڈل کرنے کی صلاحیت کی اجازت دینے کے لئے ڈیزائن کیا گیا افادیت استعمال کرنے کے لئے ایک سادہ ہے ۔</label1><label2>ماخذ مسل:</label2><label3>مسل محفوظ کریں:</label3><label4>سراالیزاشن کوائف:</label4><cmbSerialization>ردفامل</cmbSerialization><label5>اقواری راہ:</label5><xqueryPath>http://marcedit.reeset.net/software/xquery/modules/</xqueryPath><label6>باسیورا:</label6><lnkEditXQuery>تدوین کریں</lnkEditXQuery><label7>فائل کی قسم:</label7><this>بابفریمی ٹیسٹب</this></MarcEdit_frmBibframe>
+<cmdProcess>عمل</cmdProcess>
+<cmdClose>بند کریں</cmdClose>
+<label1>مابعد کوائف سپیکیا کی اجازت دینے کے لئے ڈیزائن کیا گیا افادیت استعمال کرنے کے لئے ایک سادہ بابفریمی ٹیسٹب ہے </label1>
+<label2>ماخذ مسل:</label2>
+<label3>مسل محفوظ کریں:</label3>
+<label4>سراالیزاشن کوائف:</label4>
+<cmbSerialization>ردفامل</cmbSerialization>
+<label5>اقواری راہ:</label5>
+<xqueryPath>http://marcedit.reeset.net/software/xquery/modules/</xqueryPath>
+<label6>باسیورا:</label6>
+<lnkEditXQuery>تدوین کریں</lnkEditXQuery>
+<label7>فائل کی قسم:</label7>
+<this>بابفریمی ٹیسٹب</this>
+</MarcEdit_frmBibframe>
 <MarcEdit_frmBuildLinks>
-<label3>مسل محفوظ کریں:</label3><label2>ماخذ مسل:</label2><label1>مربوط ڈیٹا ذریعہ مارک ریکارڈ انڈرفتالوی رسائی مقامات میں 1xx، 6xx، اور اپنے مربوط ڈیٹا end-points کے لیے 7xx کوائف عناصر کا ایک سیٹ کے ذریعے لوپ کریں کے لئے ڈیزائن کیا گیا ہے ۔</label1><cmdProcess>عمل</cmdProcess><cmdCancel>منسوخ کریں</cmdCancel><groupBox1>ID کی خدمات</groupBox1><ck_loc>لائبریری کی کانگریس (id.loc.gov)</ck_loc><ck_viaf>اوکلک ویاف</ck_viaf><this>مربوط ریکارڈ کی تعمیر</this></MarcEdit_frmBuildLinks>
+<label3>مسل محفوظ کریں:</label3>
+<label2>ماخذ مسل:</label2>
+<label1>مربوط ڈیٹا ذریعہ مارک کے ریکارڈ کی ایک سیٹ کے ذریعے لوپ بنائیں اور رسائی مقامات 1xx، 6xx، اور 7xx کوائف عناصر میں ان سے منسلک dat ایک end-points کو حل کرنے کے لئے ڈیزائن کیا گیا ہے ۔</label1>
+<cmdProcess>عمل</cmdProcess>
+<cmdCancel>منسوخ کریں</cmdCancel>
+<groupBox1>ID کی خدمات</groupBox1>
+<ck_loc>لائبریری کی کانگریس (id.loc.gov)</ck_loc>
+<ck_viaf>اوکلک ویاف</ck_viaf>
+<this>مربوط ریکارڈ کی تعمیر</this>
+</MarcEdit_frmBuildLinks>
 <MarcEdit_frmCatalogCalculator>
-<lnkFind>تلاش کریں</lnkFind><lbResults>نتائج:</lbResults><lnkCatalog>Kyle بنرجی ست کیلکولیٹر</lnkCatalog><cmdClose>بند کریں</cmdClose><label1>LC کوٹارس</label1><this>کیلکولیٹر کیٹیلاگ کر رہا ہے ۔</this></MarcEdit_frmCatalogCalculator>
+<lnkFind>تلاش کریں</lnkFind>
+<lbResults>نتائج:</lbResults>
+<lnkCatalog>Kyle بنرجی ست کیلکولیٹر</lnkCatalog>
+<cmdClose>بند کریں</cmdClose>
+<label1>LC کوٹارس</label1>
+<this>کیلکولیٹر کیٹیلاگ کر رہا ہے ۔</this>
+</MarcEdit_frmCatalogCalculator>
 <MarcEdit_frmClassify>
-<label1>اوکلک کی درجہ بندی کرتے ویب سروس کا استعمال اس کی خدمت کرتا ہے ۔  کی درجہ بندی ریکوممانداٹاونسری اوکلک کنٹرول نمبر کے ریکارڈ سے بھیجنے کی طرف سے بنائی ہے ۔  اوکلک کی ویب خدمت واپس ٹومآرکاداٹ اکثر یہ ریکارڈ کے ساتھ وابستہ دیوی اعشاری یا LC کی درجہ بندی واپس آ جائیں گے ۔</label1><lnkClassify>اوکلک کے بارے میں کی خدمت کی درجہ بندی کرتے</lnkClassify><label2>شمول ہدایات:</label2><ck_all>تمام ریکارڈ کرنے کا ا ضافہ کریں</ck_all><ck_single>منتخب ریکارڈ کرنے کا ا ضافہ کریں</ck_single><ck_lc>کانگریس دارالکتب</ck_lc><ck_dewey>دیوی اعشاری</ck_dewey><label3>درجہ بندی:</label3><cmdProcess>درجہ بندی کرتے</cmdProcess><cmdClose>بند کریں</cmdClose><label5>اگر درج ذیل خانے موجود نہ ہوں تو داخل کریں (مثال کے طور پر: 050؛ 060؛ 090؛ 092)</label5><label4>درجہ بندی کے نتیجے میں مندرجہ ذیل قطعہ داخل کریں:</label4><label7>اختیارات:</label7><ck_cutters>کوٹارس اور تواریخ کا حساب کریں</ck_cutters><ck_use_z>مشابہ کے لیے استعمال سبفیلڈ z</ck_use_z><ck_DateMod>پرچم تاریخ کو ملائیں</ck_DateMod><ck_omit_serial>تاریخ سیریلز کے لئے ترک کریں</ck_omit_serial><ck_omit_integrated>انٹیگریٹڈ وسائل کے لئے تاریخ کو ترک کریں</ck_omit_integrated><ck_omit>تاریخ مستثنیات ملائیں</ck_omit><label8>موضوع سرخیاں:</label8><ck_always_fast>ہمیشہ روزہ سرخیاں کا ا ضافہ کریں</ck_always_fast><ck_conditional_fast>جب کوئی موضوع سرخیاں موجود ہیں روزہ سرخیاں کا ا ضافہ کریں</ck_conditional_fast><label6>اشارے:</label6><this>تخلیق کی درجہ بندی</this></MarcEdit_frmClassify>
+<label1>اوکلک کی درجہ بندی کرتے ویب سروس کا استعمال اس کی خدمت کرتا ہے ۔  درجہ بندی سفارشات اوکلک کنٹرول نمبر کے ریکارڈ سے بھیجنے کی طرف سے پیدا ہوتے ہیں ۔  اوکلک کی ویب خدمت مآرکاداٹ سے واپس دیوی اعشاری یا LC کی درجہ بندی میں اکثر یہ ریکارڈ کے ساتھ وابستہ لوٹ جائے گی ۔</label1>
+<lnkClassify>اوکلک کے بارے میں کی خدمت کی درجہ بندی کرتے</lnkClassify>
+<label2>شمول ہدایات:</label2>
+<ck_all>تمام ریکارڈ کرنے کا ا ضافہ کریں</ck_all>
+<ck_single>منتخب ریکارڈ کرنے کا ا ضافہ کریں</ck_single>
+<ck_lc>کانگریس دارالکتب</ck_lc>
+<ck_dewey>دیوی اعشاری</ck_dewey>
+<label3>درجہ بندی:</label3>
+<cmdProcess>درجہ بندی کرتے</cmdProcess>
+<cmdClose>بند کریں</cmdClose>
+<label5>اگر درج ذیل خانے موجود نہ ہوں تو داخل کریں (مثال کے طور پر: 050؛ 060؛ 090؛ 092)</label5>
+<label4>درجہ بندی کے نتیجے میں مندرجہ ذیل قطعہ داخل کریں:</label4>
+<label7>اختیارات:</label7>
+<ck_cutters>کوٹارس اور تواریخ کا حساب کریں</ck_cutters>
+<ck_use_z>مشابہ کے لیے استعمال سبفیلڈ z</ck_use_z>
+<ck_DateMod>پرچم تاریخ کو ملائیں</ck_DateMod>
+<ck_omit_serial>تاریخ سیریلز کے لئے ترک کریں</ck_omit_serial>
+<ck_omit_integrated>انٹیگریٹڈ وسائل کے لئے تاریخ کو ترک کریں</ck_omit_integrated>
+<ck_omit>تاریخ مستثنیات ملائیں</ck_omit>
+<label8>موضوع سرخیاں:</label8>
+<ck_always_fast>ہمیشہ روزہ سرخیاں کا ا ضافہ کریں</ck_always_fast>
+<ck_conditional_fast>جب کوئی موضوع سرخیاں موجود ہیں روزہ سرخیاں کا ا ضافہ کریں</ck_conditional_fast>
+<label6>اشارے:</label6>
+<this>تخلیق کی درجہ بندی</this>
+</MarcEdit_frmClassify>
 <MarcEdit_frmConstantData>
-<columnHeader1>مسلسل کوائف</columnHeader1><columnHeader3>تیز راہ</columnHeader3><cmdClose>بند کریں</cmdClose><lnkKey>اہم تفویض اختیار کی</lnkKey><lnkEdit>منتخب سلک کی تدوین کریں</lnkEdit><lnkDelete>منتخب سلک حذف کریں</lnkDelete><lnkNew>نئی لڑی بنائیں</lnkNew><lbActions>اعمال:</lbActions><lbMacro>مسلسل کوائف:</lbMacro><this>مسلسل کوائف تدوین کریں</this></MarcEdit_frmConstantData>
+<columnHeader1>مسلسل کوائف</columnHeader1>
+<columnHeader3>تیز راہ</columnHeader3>
+<cmdClose>بند کریں</cmdClose>
+<lnkKey>اہم تفویض اختیار کی</lnkKey>
+<lnkEdit>منتخب سلک کی تدوین کریں</lnkEdit>
+<lnkDelete>منتخب سلک حذف کریں</lnkDelete>
+<lnkNew>نئی لڑی بنائیں</lnkNew>
+<lbActions>اعمال:</lbActions>
+<lbMacro>مسلسل کوائف:</lbMacro>
+<this>مسلسل کوائف تدوین کریں</this>
+</MarcEdit_frmConstantData>
 <MarcEdit_frmControlNumb>
-<lb_prefix>نمبر سابقہ:</lb_prefix><lb_digit>عدد شروع کریں:</lb_digit><ck_autogenerate>نیا ریکارڈ میں داخل کریں</ck_autogenerate><button1>ٹھيک ہے</button1><button2>بند کریں</button2><lb_length>(سابقہ) منفی عدد لمبائی</lb_length><ckgenerate>حالیہ مسل میں پیدا</ckgenerate><ck_label>نشان زد کریں کی ریکارڈ تعداد</ck_label><label1>قطعہ/سبفیلڈ (مثال کے طور پر: 001، 949$ b)</label1><ck_repeat>ہمیشہ داخل کریں</ck_repeat><this>کنٹرول نمبر نکالیں</this></MarcEdit_frmControlNumb>
+<lb_prefix>نمبر سابقہ:</lb_prefix>
+<lb_digit>عدد شروع کریں:</lb_digit>
+<ck_autogenerate>نیا ریکارڈ میں داخل کریں</ck_autogenerate>
+<button1>ٹھيک ہے</button1>
+<button2>بند کریں</button2>
+<lb_length>(سابقہ) منفی عدد لمبائی</lb_length>
+<ckgenerate>حالیہ مسل میں پیدا</ckgenerate>
+<ck_label>نشان زد کریں کی ریکارڈ تعداد</ck_label>
+<label1>قطعہ/سبفیلڈ (مثال کے طور پر: 001، 949$ b)</label1>
+<ck_repeat>ہمیشہ داخل کریں</ck_repeat>
+<this>کنٹرول نمبر نکالیں</this>
+</MarcEdit_frmControlNumb>
 <MarcEdit_frmDedup>
-<ck_save>دادوپ اشیاء محفوظ کریں:</ck_save><ck_unique>منفرد آئٹم کو پرنٹ کریں</ck_unique><ck_remove>مثنی اشیاء حذف کریں</ck_remove><lbOptions>اختیارات:</lbOptions><label1>دادوپ پر:</label1><lb_Control>کنٹرول کا قطعہ:</lb_Control><cmdClose>بند کریں</cmdClose><cmdOK>عمل</cmdOK><btnCancel>منسوخ کریں</btnCancel><btnNext>اگلا</btnNext><label4>مسل محفوظ کریں:</label4><label3>Duplications سے میں درج ذیل مسلیں تلاش کریں:</label3><label2>ریکارڈ نقل کے آلے</label2><this>ریکارڈ نقل</this></MarcEdit_frmDedup>
+<ck_save>دادوپ اشیاء محفوظ کریں:</ck_save>
+<ck_unique>منفرد آئٹم کو پرنٹ کریں</ck_unique>
+<ck_remove>مثنی اشیاء حذف کریں</ck_remove>
+<lbOptions>اختیارات:</lbOptions>
+<label1>دادوپ پر:</label1>
+<lb_Control>کنٹرول کا قطعہ:</lb_Control>
+<cmdClose>بند کریں</cmdClose>
+<cmdOK>عمل</cmdOK>
+<btnCancel>منسوخ کریں</btnCancel>
+<btnNext>اگلا</btnNext>
+<label4>مسل محفوظ کریں:</label4>
+<label3>Duplications سے میں درج ذیل مسلیں تلاش کریں:</label3>
+<label2>ریکارڈ نقل کے آلے</label2>
+<this>ریکارڈ نقل</this>
+</MarcEdit_frmDedup>
 <MarcEdit_frmExportSettings>
-<label1>حصہ داری کے لیے مسلیں منتخب کریں:</label1><ckconfig>تشکیلی اختیارات</ckconfig><label2>صارف تشکیل ڈائریکٹری میں تمام کوائف برآمد کرتا ہے ۔  اس تشکیل کوائف، XSLT فعل فہرست، مآرکوالادیٹر کے قواعد اور Z39.50 ڈیٹا بیس فائلوں شامل ہیں ۔</label2><ckXSLT>XSLT افعال</ckXSLT><label3>وضاحتی XSLT سٹیلیشیٹ برآمد کریں
-</label3><ckMacros>تعریف شدہ میکرو اور مجموعہ کار</ckMacros><label4>تمام تعریف شدہ میکرو اور مجموعہ کار برآمد کریں...
-</label4><label5>تمام تعریف شدہ مآرکادیٹر مواد قسم کے سانچے برآمد کریں ۔</label5><ckTemplates>مآرکادیٹر وضاحتی سانچے</ckTemplates><cmdExport>برآمد کریں</cmdExport><cmdClose>بند کریں</cmdClose><this>برآمد کریں سیٹنگیں</this></MarcEdit_frmExportSettings>
+<label1>حصہ داری کے لیے مسلیں منتخب کریں:</label1>
+<ckconfig>تشکیلی اختیارات</ckconfig>
+<label2>صارف تشکیل ڈائریکٹری میں تمام کوائف برآمد کرتا ہے ۔  اس تشکیل کوائف شامل ہے، </label2>
+<ckXSLT>XSLT افعال</ckXSLT>
+<label3>وضاحتی XSLT سٹیلیشیٹ برآمد کریں
+</label3>
+<ckMacros>تعریف شدہ میکرو اور مجموعہ کار</ckMacros>
+<label4>تمام تعریف شدہ میکرو اور مجموعہ کار برآمد کریں...
+</label4>
+<label5>تمام تعریف شدہ مآرکادیٹر مواد قسم کے سانچے برآمد کریں ۔</label5>
+<ckTemplates>مآرکادیٹر وضاحتی سانچے</ckTemplates>
+<cmdExport>برآمد کریں</cmdExport>
+<cmdClose>بند کریں</cmdClose>
+<this>برآمد کریں سیٹنگیں</this>
+</MarcEdit_frmExportSettings>
 <MarcEdit_frmFindAllResults>
-<columnHeader2>عمل</columnHeader2><columnHeader1>متن پایا</columnHeader1><button1>بند کریں</button1><button2>صفحہ پر جست لگاتا ہے</button2><cmdFindUpdate>تلاش طلب کی تدوین کریں</cmdFindUpdate><lb_result_num>{search_string} پایا {#} گنا تھا.</lb_result_num><this>تمام نتائج تلاش</this></MarcEdit_frmFindAllResults>
+<columnHeader2>عمل</columnHeader2>
+<columnHeader1>متن پایا</columnHeader1>
+<button1>بند کریں</button1>
+<button2>صفحہ پر جست لگاتا ہے</button2>
+<cmdFindUpdate>تلاش طلب کی تدوین کریں</cmdFindUpdate>
+<lb_result_num>{search_string} پایا {#} گنا تھا.</lb_result_num>
+<this>تمام نتائج تلاش</this>
+</MarcEdit_frmFindAllResults>
 <MarcEdit_frmHarvestBatch>
-<label1>وضاحتی اواا پیش کار:</label1><label2>(Shift/shift + کنٹرول کثیر اشیا منتخب کرنے کے لیے استعمال کریں)</label2><ck_date>پچھلے ڈاؤن لوڈ، اتارنا سے فصل</ck_date><cmdCreate>محفوظ کریں</cmdCreate><button1>بند کریں</button1><this>بیچ فصل کام تخلیق کریں</this></MarcEdit_frmHarvestBatch>
+<label1>وضاحتی اواا پیش کار:</label1>
+<label2>(Shift/shift + کنٹرول کثیر اشیا منتخب کرنے کے لیے استعمال کریں)</label2>
+<ck_date>پچھلے ڈاؤن لوڈ، اتارنا سے فصل</ck_date>
+<cmdCreate>محفوظ کریں</cmdCreate>
+<button1>بند کریں</button1>
+<this>بیچ فصل کام تخلیق کریں</this>
+</MarcEdit_frmHarvestBatch>
 <MarcEdit_frmHex>
-<BytesGroup>بائٹ</BytesGroup><label5>بٹ</label5><label4>iso-8859-1</label4><label3>اعشاری</label3><label2>مسدس</label2><columnHeader1>پوزیشن</columnHeader1><columnHeader2>بائٹ</columnHeader2><columnHeader3>متن</columnHeader3><menuStrip1>menuStrip1</menuStrip1><menuItem1>مسل</menuItem1><openToolStripMenuItem>کھلا</openToolStripMenuItem><ExitProgram>خروج</ExitProgram><this>مآرکسپی</this></MarcEdit_frmHex>
+<BytesGroup>بائٹ</BytesGroup>
+<label5>بٹ</label5>
+<label4>iso-8859-1</label4>
+<label3>اعشاری</label3>
+<label2>مسدس</label2>
+<columnHeader1>پوزیشن</columnHeader1>
+<columnHeader2>بائٹ</columnHeader2>
+<columnHeader3>متن</columnHeader3>
+<menuStrip1>menuStrip1</menuStrip1>
+<menuItem1>مسل</menuItem1>
+<openToolStripMenuItem>کھلا</openToolStripMenuItem>
+<ExitProgram>خروج</ExitProgram>
+<this>مآرکسپی</this>
+</MarcEdit_frmHex>
 <MarcEdit_frmHTMLResults>
-<this>مآرکاداٹ کے نتائج دریچہ</this></MarcEdit_frmHTMLResults>
+<this>مآرکاداٹ کے نتائج دریچہ</this>
+</MarcEdit_frmHTMLResults>
 <MarcEdit_frmjoin_xml_func>
-<lb_Alias>فعل کا نام (لقب):</lb_Alias><label1>کے ساتھ ملاپ کریں:</label1><cmd_ok>محفوظ کریں</cmd_ok><cmd_close>بند کریں</cmd_close><this>XML کے افعال میں شامل</this></MarcEdit_frmjoin_xml_func>
+<lb_Alias>فعل کا نام (لقب):</lb_Alias>
+<label1>کے ساتھ ملاپ کریں:</label1>
+<cmd_ok>محفوظ کریں</cmd_ok>
+<cmd_close>بند کریں</cmd_close>
+<this>XML کے افعال میں شامل</this>
+</MarcEdit_frmjoin_xml_func>
 <MarcEdit_frmListTasks>
-<columnHeader1>نام</columnHeader1><columnHeader2>راستہ</columnHeader2><cmdOK>ٹھيک ہے</cmdOK><cmdClose>بند کریں</cmdClose><this>دستیاب مجموعہ کار</this></MarcEdit_frmListTasks>
+<columnHeader1>نام</columnHeader1>
+<columnHeader2>راستہ</columnHeader2>
+<cmdOK>ٹھيک ہے</cmdOK>
+<cmdClose>بند کریں</cmdClose>
+<this>دستیاب مجموعہ کار</this>
+</MarcEdit_frmListTasks>
 <MarcEdit_frmMain>
-<lnkResearch>مارکنی</lnkResearch><lnkUserDefined3>آلاتی خوانا کیٹلاگ SQL ایکسپلورر</lnkUserDefined3><lnkUserDefined1>تحدیدی متن مترجم</lnkUserDefined1><lnkMarcToolsStart>مارک کے اوزار</lnkMarcToolsStart><lnkUserDefined2>فصل اواا ریکارڈ</lnkUserDefined2><lnkUserDefined4>Z39.50/و وصول کار</lnkUserDefined4><startEditor>مآرکادیٹر</startEditor><menuStrip1>menuStrip1</menuStrip1><mnuFile>مسل</mnuFile><mnuFiletools>مارک کے اوزار</mnuFiletools><mnuFileToolsBatch>بیچ عمل ریکارڈ</mnuFileToolsBatch><mnuFileBreaker>مآرکبریکر</mnuFileBreaker><mnuFileMaker>مآرکماکر</mnuFileMaker><mnuFilemXML>مارک MARC21XML =&gt;</mnuFilemXML><mnuFileXMLm>مارک =&gt; MARC21XML</mnuFileXMLm><mnuFileEditor>مآرکادیٹر</mnuFileEditor><mnuFileIndividual_Record>انفرادی ریکارڈ ایڈیٹر</mnuFileIndividual_Record><mnuFileMARCSpy>آلاتی خوانا کیٹلاگ جاسوس</mnuFileMARCSpy><mnuFileShare>حصہ داری تشکیل سیٹنگیں</mnuFileShare><exportSettingsToolStripMenuItem>برآمد کریں سیٹنگیں</exportSettingsToolStripMenuItem><importSettingsToolStripMenuItem>درآمد کریں سیٹنگیں</importSettingsToolStripMenuItem><toolStripMenuItem7>مآرکاداٹ 32-بٹ کے موڈ میں پھر شروع کریں ۔</toolStripMenuItem7><mnuFileExit>خروج</mnuFileExit><mnuTools>فورم کے اوزار</mnuTools><mnuToolsSelect>آلاتی خوانا کیٹلاگ ریکارڈ منتخب کریں</mnuToolsSelect><mnuToolsDelete>منتخب ریکارڈ حذف کریں</mnuToolsDelete><mnuToolsExtract>اقتباس کا ریکارڈ منتخب</mnuToolsExtract><mnuExportGroup>برآمد کریں...</mnuExportGroup><mnuToolsTabbed>برآمد ٹیب تحدیدی ریکارڈ</mnuToolsTabbed><mnuToolsGateway>آلاتی خوانا کیٹلاگ ریکارڈ برآمد کریں</mnuToolsGateway><mnuToolsBatch>بیچ عمل ریکارڈ</mnuToolsBatch><mnuGenerateCallnumber>کال نمبر نکالیں</mnuGenerateCallnumber><toolStripMenuItem3>روزہ سرخیاں تخلیق</toolStripMenuItem3><mnuToolsDedup>مثنی ریکارڈ ڈھونڈیں</mnuToolsDedup><toolStripMenuItem6>اوکلک آپریشن</toolStripMenuItem6><updateWorldCatRecordHoldingsToolStripMenuItem>وورلڈکت ریکارڈ ہولڈنگ کی تازہ کاری کریں</updateWorldCatRecordHoldingsToolStripMenuItem><uploadBibliographRecordsToWorldCatToolStripMenuItem>وورلڈکت کے لئے ببلیوگراپہ ریکارڈ اپ لوڈ کریں</uploadBibliographRecordsToWorldCatToolStripMenuItem><toolStripMenuItem5>رد مددگار</toolStripMenuItem5><toolStripMenuItem8>مآرکومپاری</toolStripMenuItem8><mnuToolsJoin>مآرکجوان</mnuToolsJoin><mnuToolsSplit>مآرکسپلاٹ</mnuToolsSplit><mnutoolsmerge>ریکارڈ ضم کریں</mnutoolsmerge><mnuToolsPreferences>ترجیحات</mnuToolsPreferences><mnuAddins>اضافہ جات</mnuAddins><mnuAddLang>زبان مسلوں کی تدوین کریں</mnuAddLang><mnuAddinPluginManager>پلگ ان منیجر</mnuAddinPluginManager><mnuaddincdsisis>CDS-اسی .iso مارک ترجمہ =&gt;</mnuaddincdsisis><mnuAddinTranslator>تحدیدی متن مترجم</mnuAddinTranslator><mnuAddinTutorial>مقامی ٹیوٹوریل مینیجر</mnuAddinTutorial><mnuAddinValidator>مآرکوالادیٹر</mnuAddinValidator><mnuAddinZ39_50>مآرکاداٹ Z39.50/و وصول کار</mnuAddinZ39_50><mnuAddScriptWizard>مآرکاداٹ رسم الخط مددگار</mnuAddScriptWizard><mnuExplorer>آلاتی خوانا کیٹلاگ SQL ایکسپلورر</mnuExplorer><toolStripMenuItem4>اواا فسل کاٹنے کی مشین ٹولز</toolStripMenuItem4><harvestOAIRecordsToolStripMenuItem>فصل اواا ریکارڈ</harvestOAIRecordsToolStripMenuItem><batchHarvesterToolStripMenuItem>بیچ فسل کاٹنے کی مشین</batchHarvesterToolStripMenuItem><createBatchJobToolStripMenuItem>بیچ کا کام تخلیق کریں</createBatchJobToolStripMenuItem><runBatchHarvestToolStripMenuItem>بیچ فصل چلت کریں</runBatchHarvestToolStripMenuItem><mnuAddinURL>یو آر ایل کی توثیق کریں</mnuAddinURL><pluginsToolStripMenuItem>پلگ ان</pluginsToolStripMenuItem><mnuHelp>مدد</mnuHelp><mnuHelpContents>فہرست مشمولات اور مدد</mnuHelpContents><mnuHelpTutorials>منظر سبق ہے</mnuHelpTutorials><mnuHelpOnline>آن لائن مدد</mnuHelpOnline><mnuHelpList>مآرکاداٹ کی اطلاع کی فہرست میں شامل</mnuHelpList><mnuHelpError>تجاویز/نقص رپورٹ</mnuHelpError><mnuBlog>مآرکاداٹ بلاگ</mnuBlog><marcEditKnownIssuesToolStripMenuItem>مآرکاداٹ معلوم مسائل</marcEditKnownIssuesToolStripMenuItem><systemInfoToolStripMenuItem>نظام معلومات</systemInfoToolStripMenuItem><mnuHelpResetConfig>تشکیل کوائف پھر سیٹ کریں</mnuHelpResetConfig><mnuHelpDebugLoader>تازہ کاری کریں (ٹھیک کریں موڈ) ڈاؤن لوڈ، اتارنا</mnuHelpDebugLoader><updateMarcEditToolStripMenuItem>پڑتال برائے تازہ کاریاں</updateMarcEditToolStripMenuItem><toolStripMenuItem2>ایپلی کیشن تیز راہیں</toolStripMenuItem2><applicationDataPathToolStripMenuItem>ایپلی کیشن کوائف راہ</applicationDataPathToolStripMenuItem><xSLTDataPathToolStripMenuItem>XSLT کوائف راہ</xSLTDataPathToolStripMenuItem><languageDataPathToolStripMenuItem>زبان کوائف راہ</languageDataPathToolStripMenuItem><mnuHelpAboutGroup>کے بارے میں...</mnuHelpAboutGroup><mnuHelpAbout>مآرکاداٹ 6</mnuHelpAbout><aboutTheAuthorToolStripMenuItem>مصنف</aboutTheAuthorToolStripMenuItem><marcEditEULAToolStripMenuItem>مآرکاداٹ یولہ</marcEditEULAToolStripMenuItem><migrateDataToolStripMenuItem>مآرکاداٹ میں 6 XSLT کوائف منتقل کریں</migrateDataToolStripMenuItem><lb_AboutDesc>میں مآرکاداٹ پر 1999 میں کس طرح مارک کام کرتا ہے اور تاٹامی میں مجھے بہت باصلاحیت لائبریرین کی ایک بڑی تعداد کے ساتھ کام کر کے خوشی ہوئی ہے سیکھنے کے لئے ایک طریقہ کے طور پر کام کرنا شروع کیا ۔  مآرکاداٹ مجھے دیتا ہے انٹحٹ مآرکاداٹ ہو سکتا ہے آپ کے کام میں بھی مفید ہے ۔  اگر تھوڑا مزید جان کاری چاہتے ہیں تو مجھے یا دیکھ کے بارے میں وہاٹا ہوں تک، مجھے میرے بلاگ پر نظر یا مجھ پر ٹوئٹر پر عمل کرنے کے لئے آزاد محسوس کرتے ہیں ۔</lb_AboutDesc><label1>|</label1><lb_Authors>میرے بارے میں:</lb_Authors><lnkHomepage>http://marcedit.reeset.net</lnkHomepage><label5>URL:</label5><label2>اعترافات:</label2><lbMod>ترمیم:</lbMod><lbMailto>ٹیری ریز</lbMailto><lbAuthor>تخلیق کار:</lbAuthor><lbVersion>ورژن:</lbVersion><label3>|</label3><label4>مآرکاداٹ کے بارے میں</label4><lnkLinkIds>ربط شناختگر</lnkLinkIds><lnkJsonObject>جساون آبجیکٹ منظر کار</lnkJsonObject><lnkBibframe>بابفریمی ٹیسٹب</lnkBibframe><label7>|</label7><label8>مارکنی:</label8><this>مآرکاداٹ ٹیری ریز کی طرف سے</this></MarcEdit_frmMain>
+<lnkResearch>مارکنی</lnkResearch>
+<lnkUserDefined3>آلاتی خوانا کیٹلاگ SQL ایکسپلورر</lnkUserDefined3>
+<lnkUserDefined1>تحدیدی متن مترجم</lnkUserDefined1>
+<lnkMarcToolsStart>مارک کے اوزار</lnkMarcToolsStart>
+<lnkUserDefined2>فصل اواا ریکارڈ</lnkUserDefined2>
+<lnkUserDefined4>Z39.50/و وصول کار</lnkUserDefined4>
+<startEditor>مآرکادیٹر</startEditor>
+<menuStrip1>menuStrip1</menuStrip1>
+<mnuFile>مسل</mnuFile>
+<mnuFiletools>مارک کے اوزار</mnuFiletools>
+<mnuFileToolsBatch>بیچ عمل ریکارڈ</mnuFileToolsBatch>
+<mnuFileBreaker>مآرکبریکر</mnuFileBreaker>
+<mnuFileMaker>مآرکماکر</mnuFileMaker>
+<mnuFilemXML>مارک MARC21XML =&gt;</mnuFilemXML>
+<mnuFileXMLm>مارک =&gt; MARC21XML</mnuFileXMLm>
+<mnuFileEditor>مآرکادیٹر</mnuFileEditor>
+<mnuFileIndividual_Record>انفرادی ریکارڈ ایڈیٹر</mnuFileIndividual_Record>
+<mnuFileMARCSpy>آلاتی خوانا کیٹلاگ جاسوس</mnuFileMARCSpy>
+<mnuFileShare>حصہ داری تشکیل سیٹنگیں</mnuFileShare>
+<exportSettingsToolStripMenuItem>برآمد کریں سیٹنگیں</exportSettingsToolStripMenuItem>
+<importSettingsToolStripMenuItem>درآمد کریں سیٹنگیں</importSettingsToolStripMenuItem>
+<toolStripMenuItem7>مآرکاداٹ 32-بٹ کے موڈ میں پھر شروع کریں ۔</toolStripMenuItem7>
+<mnuFileExit>خروج</mnuFileExit>
+<mnuTools>فورم کے اوزار</mnuTools>
+<mnuToolsSelect>آلاتی خوانا کیٹلاگ ریکارڈ منتخب کریں</mnuToolsSelect>
+<mnuToolsDelete>منتخب ریکارڈ حذف کریں</mnuToolsDelete>
+<mnuToolsExtract>اقتباس کا ریکارڈ منتخب</mnuToolsExtract>
+<mnuExportGroup>برآمد کریں...</mnuExportGroup>
+<mnuToolsTabbed>برآمد ٹیب تحدیدی ریکارڈ</mnuToolsTabbed>
+<mnuToolsGateway>آلاتی خوانا کیٹلاگ ریکارڈ برآمد کریں</mnuToolsGateway>
+<mnuToolsBatch>بیچ عمل ریکارڈ</mnuToolsBatch>
+<mnuGenerateCallnumber>کال نمبر نکالیں</mnuGenerateCallnumber>
+<toolStripMenuItem3>روزہ سرخیاں تخلیق</toolStripMenuItem3>
+<mnuToolsDedup>مثنی ریکارڈ ڈھونڈیں</mnuToolsDedup>
+<toolStripMenuItem6>اوکلک آپریشن</toolStripMenuItem6>
+<updateWorldCatRecordHoldingsToolStripMenuItem>وورلڈکت ریکارڈ ہولڈنگ کی تازہ کاری کریں</updateWorldCatRecordHoldingsToolStripMenuItem>
+<uploadBibliographRecordsToWorldCatToolStripMenuItem>وورلڈکت کے لئے ببلیوگراپہ ریکارڈ اپ لوڈ کریں</uploadBibliographRecordsToWorldCatToolStripMenuItem>
+<toolStripMenuItem5>رد مددگار</toolStripMenuItem5>
+<toolStripMenuItem8>مآرکومپاری</toolStripMenuItem8>
+<mnuToolsJoin>مآرکجوان</mnuToolsJoin>
+<mnuToolsSplit>مآرکسپلاٹ</mnuToolsSplit>
+<mnutoolsmerge>ریکارڈ ضم کریں</mnutoolsmerge>
+<mnuToolsPreferences>ترجیحات</mnuToolsPreferences>
+<mnuAddins>اضافہ جات</mnuAddins>
+<mnuAddLang>زبان مسلوں کی تدوین کریں</mnuAddLang>
+<mnuAddinPluginManager>پلگ ان منیجر</mnuAddinPluginManager>
+<mnuaddincdsisis>CDS-اسی .iso مارک ترجمہ =&gt;</mnuaddincdsisis>
+<mnuAddinTranslator>تحدیدی متن مترجم</mnuAddinTranslator>
+<mnuAddinTutorial>مقامی ٹیوٹوریل مینیجر</mnuAddinTutorial>
+<mnuAddinValidator>مآرکوالادیٹر</mnuAddinValidator>
+<mnuAddinZ39_50>مآرکاداٹ Z39.50/و وصول کار</mnuAddinZ39_50>
+<mnuAddScriptWizard>مآرکاداٹ رسم الخط مددگار</mnuAddScriptWizard>
+<mnuExplorer>آلاتی خوانا کیٹلاگ SQL ایکسپلورر</mnuExplorer>
+<toolStripMenuItem4>اواا فسل کاٹنے کی مشین ٹولز</toolStripMenuItem4>
+<harvestOAIRecordsToolStripMenuItem>فصل اواا ریکارڈ</harvestOAIRecordsToolStripMenuItem>
+<batchHarvesterToolStripMenuItem>بیچ فسل کاٹنے کی مشین</batchHarvesterToolStripMenuItem>
+<createBatchJobToolStripMenuItem>بیچ کا کام تخلیق کریں</createBatchJobToolStripMenuItem>
+<runBatchHarvestToolStripMenuItem>بیچ فصل چلت کریں</runBatchHarvestToolStripMenuItem>
+<mnuAddinURL>یو آر ایل کی توثیق کریں</mnuAddinURL>
+<pluginsToolStripMenuItem>پلگ ان</pluginsToolStripMenuItem>
+<mnuHelp>مدد</mnuHelp>
+<mnuHelpContents>فہرست مشمولات اور مدد</mnuHelpContents>
+<mnuHelpTutorials>منظر سبق ہے</mnuHelpTutorials>
+<mnuHelpOnline>آن لائن مدد</mnuHelpOnline>
+<mnuHelpList>مآرکاداٹ کی اطلاع کی فہرست میں شامل</mnuHelpList>
+<mnuHelpError>تجاویز/نقص رپورٹ</mnuHelpError>
+<mnuBlog>مآرکاداٹ بلاگ</mnuBlog>
+<marcEditKnownIssuesToolStripMenuItem>مآرکاداٹ معلوم مسائل</marcEditKnownIssuesToolStripMenuItem>
+<systemInfoToolStripMenuItem>نظام معلومات</systemInfoToolStripMenuItem>
+<mnuHelpResetConfig>تشکیل کوائف پھر سیٹ کریں</mnuHelpResetConfig>
+<mnuHelpDebugLoader>تازہ کاری کریں (ٹھیک کریں موڈ) ڈاؤن لوڈ، اتارنا</mnuHelpDebugLoader>
+<updateMarcEditToolStripMenuItem>پڑتال برائے تازہ کاریاں</updateMarcEditToolStripMenuItem>
+<toolStripMenuItem2>ایپلی کیشن تیز راہیں</toolStripMenuItem2>
+<applicationDataPathToolStripMenuItem>ایپلی کیشن کوائف راہ</applicationDataPathToolStripMenuItem>
+<xSLTDataPathToolStripMenuItem>XSLT کوائف راہ</xSLTDataPathToolStripMenuItem>
+<languageDataPathToolStripMenuItem>زبان کوائف راہ</languageDataPathToolStripMenuItem>
+<mnuHelpAboutGroup>کے بارے میں...</mnuHelpAboutGroup>
+<mnuHelpAbout>مآرکاداٹ 6</mnuHelpAbout>
+<aboutTheAuthorToolStripMenuItem>مصنف</aboutTheAuthorToolStripMenuItem>
+<marcEditEULAToolStripMenuItem>مآرکاداٹ یولہ</marcEditEULAToolStripMenuItem>
+<migrateDataToolStripMenuItem>مآرکاداٹ میں 6 XSLT کوائف منتقل کریں</migrateDataToolStripMenuItem>
+<lb_AboutDesc>میں کام کرنے والے مآرکاداٹ پر 1999 میں مارک کیسے کام کرتا ہے کو جاننے کے لئے ایک طریقہ کے طور پر شروع کیا اور اس وقت میں مجھے بہت باصلاحیت لائبریرین کی ایک بڑی تعداد کے ساتھ کام کر کے خوشی ہوئی ہے ۔  مآرکاداٹ دیتا ہے مجھے کام کرنے کا موقع باتوں پر پرجوش کے بارے میں ہوں... یہ ایک اتکہ سکراٹچاس ۔  امید ہے کہ آپ کو مل جائے گا کہ مآرکاداٹ آپ کے کام میں بھی مفید ثابت ہو سکتے ہیں ۔  آپ میرے بارے میں زیادہ جانتے ہیں, یا کیا میں تک رہا ہوں دیکھنا چاہتے ہیں تو مجھے میرے بلاگ پر نظر یا مجھ پر ٹوئٹر پر عمل کرنے کے لئے آزاد محسوس کرتے ہیں ۔</lb_AboutDesc>
+<label1>|</label1>
+<lb_Authors>میرے بارے میں:</lb_Authors>
+<lnkHomepage>http://marcedit.reeset.net</lnkHomepage>
+<label5>URL:</label5>
+<label2>اعترافات:</label2>
+<lbMod>ترمیم:</lbMod>
+<lbMailto>ٹیری ریز</lbMailto>
+<lbAuthor>تخلیق کار:</lbAuthor>
+<lbVersion>ورژن:</lbVersion>
+<label3>|</label3>
+<label4>مآرکاداٹ کے بارے میں</label4>
+<lnkLinkIds>ربط شناختگر</lnkLinkIds>
+<lnkJsonObject>جساون آبجیکٹ منظر کار</lnkJsonObject>
+<lnkBibframe>بابفریمی ٹیسٹب</lnkBibframe>
+<label7>|</label7>
+<label8>مارکنی:</label8>
+<this>مآرکاداٹ ٹیری ریز کی طرف سے</this>
+</MarcEdit_frmMain>
 <MarcEdit_frmOAIHarvest>
-<lbTitle>فصل اواا کوائف</lbTitle><lbServer>پیش کار پتا:</lbServer><lbSet>نام سیٹ کریں:</lbSet><lbMetadata>مابعد کوائف قسم:</lbMetadata><cmdOK>ٹھيک ہے</cmdOK><cmdClose>بند کریں</cmdClose><ck_Raw>فصل خام ڈیٹا (مقامی مسل نظام کے لیے اواا کوائف محفوظ کریں)</ck_Raw><lbtoken>ریسمپشنٹکان:</lbtoken><lbGetRecord>گیٹریکورد:</lbGetRecord><label3>سیکنڈز ہے ۔</label3><lbTimeout>ٹائم آؤٹ:</lbTimeout><ck_Translate>آلاتی خوانا کیٹلاگ-8 کا ترجمہ کریں.</ck_Translate><label2>اختتام کریں:</label2><label1>شروع کریں:</label1><lbCrosswalk>کرعثسوالک راہ:</lbCrosswalk><lnkAdvanced>اعلی سیٹنگیں</lnkAdvanced><cmdSave>محفوظ کریں</cmdSave><this>مابعد کوائف فسل کاٹنے کی مشین</this></MarcEdit_frmOAIHarvest>
+<lbTitle>فصل اواا کوائف</lbTitle>
+<lbServer>پیش کار پتا:</lbServer>
+<lbSet>نام سیٹ کریں:</lbSet>
+<lbMetadata>مابعد کوائف قسم:</lbMetadata>
+<cmdOK>ٹھيک ہے</cmdOK>
+<cmdClose>بند کریں</cmdClose>
+<ck_Raw>فصل خام ڈیٹا (مقامی مسل نظام کے لیے اواا کوائف محفوظ کریں)</ck_Raw>
+<lbtoken>ریسمپشنٹکان:</lbtoken>
+<lbGetRecord>گیٹریکورد:</lbGetRecord>
+<label3>سیکنڈز ہے ۔</label3>
+<lbTimeout>ٹائم آؤٹ:</lbTimeout>
+<ck_Translate>آلاتی خوانا کیٹلاگ-8 کا ترجمہ کریں.</ck_Translate>
+<label2>اختتام کریں:</label2>
+<label1>شروع کریں:</label1>
+<lbCrosswalk>کرعثسوالک راہ:</lbCrosswalk>
+<lnkAdvanced>اعلی سیٹنگیں</lnkAdvanced>
+<cmdSave>محفوظ کریں</cmdSave>
+<this>مابعد کوائف فسل کاٹنے کی مشین</this>
+</MarcEdit_frmOAIHarvest>
 <MarcEdit_frmOCLCSearchWorldCat>
-<label1>تلاش وورلڈکت:</label1><cmbarg1>کلیدی الفاظ</cmbarg1><cmbconditional>اور</cmbconditional><cmdSearch>تلاش کریں</cmdSearch><cmdClose>بند کریں</cmdClose><label2>نتائج:</label2><col_oclcnum>اوکلک نمبر</col_oclcnum><col_title>عنوان</col_title><ck_LocalBib>مقامی ببلیوگراپہاک ریکارڈ موجود ہو ڈاؤن لوڈ، اتارنا</ck_LocalBib><lnkAll>تمام منتخب کریں</lnkAll><label3>|</label3><lnkNone>کوئی نہیں</lnkNone><this>تلاش اوکلک وورلڈکت</this></MarcEdit_frmOCLCSearchWorldCat>
+<label1>تلاش وورلڈکت:</label1>
+<cmbarg1>کلیدی الفاظ</cmbarg1>
+<cmbconditional>اور</cmbconditional>
+<cmdSearch>تلاش کریں</cmdSearch>
+<cmdClose>بند کریں</cmdClose>
+<label2>نتائج:</label2>
+<col_oclcnum>اوکلک نمبر</col_oclcnum>
+<col_title>عنوان</col_title>
+<ck_LocalBib>مقامی ببلیوگراپہاک ریکارڈ موجود ہو ڈاؤن لوڈ، اتارنا</ck_LocalBib>
+<lnkAll>تمام منتخب کریں</lnkAll>
+<label3>|</label3>
+<lnkNone>کوئی نہیں</lnkNone>
+<this>تلاش اوکلک وورلڈکت</this>
+</MarcEdit_frmOCLCSearchWorldCat>
 <MarcEdit_frmOCLCUpdateHoldings>
-<label1>آپ اوکلک وورلڈکت ہولڈنگ کی تازہ کاری کریں</label1><groupBox1>اختیارات</groupBox1><rdDeleteHoldings>ہولڈنگ حذف کریں</rdDeleteHoldings><rdAddHolding>ہولڈنگ کا ا ضافہ کریں</rdAddHolding><cmdProcess>عمل</cmdProcess><cmdClose>بند کریں</cmdClose><label2>ادارے کا کوڈ:</label2><label3>شجرہ کی درجہ بندی:</label3><cmb_schema>کانگریس دارالکتب</cmb_schema><ck_debug>معلومات ٹھیک چھاپیں</ck_debug><this>وورلڈکت ہولڈنگ کی تازہ کاری کریں</this></MarcEdit_frmOCLCUpdateHoldings>
+<label1>آپ اوکلک وورلڈکت ہولڈنگ کی تازہ کاری کریں</label1>
+<groupBox1>اختیارات</groupBox1>
+<rdDeleteHoldings>ہولڈنگ حذف کریں</rdDeleteHoldings>
+<rdAddHolding>ہولڈنگ کا ا ضافہ کریں</rdAddHolding>
+<cmdProcess>عمل</cmdProcess>
+<cmdClose>بند کریں</cmdClose>
+<label2>ادارے کا کوڈ:</label2>
+<label3>شجرہ کی درجہ بندی:</label3>
+<cmb_schema>کانگریس دارالکتب</cmb_schema>
+<ck_debug>معلومات ٹھیک چھاپیں</ck_debug>
+<this>وورلڈکت ہولڈنگ کی تازہ کاری کریں</this>
+</MarcEdit_frmOCLCUpdateHoldings>
 <MarcEdit_frmOCLCUpload2WorldCat>
-<cmb_schema>کانگریس دارالکتب</cmb_schema><label3>شجرہ کی درجہ بندی:</label3><label2>ادارے کا کوڈ:</label2><cmdClose>بند کریں</cmdClose><cmdProcess>عمل</cmdProcess><label4>ببلیوگراپہاک اوکلک کی تعداد والے ریکارڈ وورلڈکت میں تازہ کی جائے گی ۔  بغیر اوکلک نمبر ببلیوگراپہاک ریکارڈ وورلڈکت میں بنائی جائے گی ۔
-.</label4><label1>ضابطہ کا انعقاد:</label1><lnkGetHoldings>کوڈز حاصل</lnkGetHoldings><ckLocalBibData>مقامی ببلیوگراپہاک کے ریکارڈ کے طور پر عمل</ckLocalBibData><ck_deleterecords>ریکارڈوں کو حذف کریں</ck_deleterecords><this>وورلڈکت کی ریکارڈ اپ لوڈ کریں</this></MarcEdit_frmOCLCUpload2WorldCat>
+<cmb_schema>کانگریس دارالکتب</cmb_schema>
+<label3>شجرہ کی درجہ بندی:</label3>
+<label2>ادارے کا کوڈ:</label2>
+<cmdClose>بند کریں</cmdClose>
+<cmdProcess>عمل</cmdProcess>
+<label4>ببلیوگراپہاک اوکلک کی تعداد والے ریکارڈ وورلڈکت میں تازہ کی جائے گی ۔  ببلیوگراپہ </label4>
+<label1>ضابطہ کا انعقاد:</label1>
+<lnkGetHoldings>کوڈز حاصل</lnkGetHoldings>
+<ckLocalBibData>مقامی ببلیوگراپہاک کے ریکارڈ کے طور پر عمل</ckLocalBibData>
+<ck_deleterecords>ریکارڈوں کو حذف کریں</ck_deleterecords>
+<this>وورلڈکت کی ریکارڈ اپ لوڈ کریں</this>
+</MarcEdit_frmOCLCUpload2WorldCat>
 <MarcEdit_frmOptions>
-<cmd_options_ok>ٹھيک ہے</cmd_options_ok><cmd_options_cancel>بند کریں</cmd_options_cancel><cmd_options_apply>لگائیں</cmd_options_apply><lnkMainWindow>مین ونڈو</lnkMainWindow><lnkMarcEditor>مآرکادیٹر</lnkMarcEditor><lnkLanguage>زبان</lnkLanguage><lnkExport>برآمد کریں</lnkExport><lnkMarcEngine>مآرکانگنی</lnkMarcEngine><lnkUpdates>تازہ کاریاں</lnkUpdates><lnkFileAssociations>مسل وابستگیاں</lnkFileAssociations><lnkOther>دیگر</lnkOther><lnkILSIntegration>انہوں نے اسے انضمام</lnkILSIntegration><lnkOCLCAPI>اوکلک API انضمام</lnkOCLCAPI><label15>پروگرام طے شدہ سیٹ کریں</label15><ck_enhanced_editor_loading>درجہ افزوں صفحہ منیجمنٹ کا استعمال</ck_enhanced_editor_loading><ckRDATemplates>رد سانچے استعمال کریں</ckRDATemplates><ckCompileMarc8>MARC8 طور پر ریکارڈ مرتب کریں</ckCompileMarc8><cksaveutf8>ریکارڈ UTF8 کے طور پر مرتب کریں</cksaveutf8><ck_intellisense>انٹیللسانسی اہل بنائیں</ck_intellisense><label2>فی صفحہ ریکارڈ</label2><cmb_encoding>UTF8</cmb_encoding><lb_Encoding>طے شدہ ضابطہ بندی:</lb_Encoding><ck_nwindow>نئے دریچہ میں کھلی مسلیں</ck_nwindow><ck_append>نیا ریکارڈ ملائیں</ck_append><lb_psize>پیش منظر کا سائز:</lb_psize><ckUsePreview>پیش منظر موڈ استعمال کریں</ckUsePreview><cmd_editor_font_default>سیٹ طے شدہ</cmd_editor_font_default><cmd_editor_set_font>فانٹ سیٹ کریں</cmd_editor_set_font><lb_Editor_Font_Props>مآرکادیٹر فانٹ خواص سیٹ کریں:</lb_Editor_Font_Props><cmd_editor_template_default>سیٹ طے شدہ</cmd_editor_template_default><cmd_editor_modify>میں ترمیم کریں</cmd_editor_modify><lb_Current_Template>حالیہ سانچا:</lb_Current_Template><lb_Editor_Template>مآرکادیٹر کے سانچے مرتب کریں:</lb_Editor_Template><label9>* پروگرام پھر شروع * کی ضرورت ہے</label9><label8>پوائنٹ بڑا کریں ۔</label8><label4>فانٹ سائز:</label4><lb_Example>مثال کے طور پر متن</lb_Example><lb_lang_font>زبان فانٹ سیٹ کریں:</lb_lang_font><lb_Set_Lang>زبان پیک سیٹ کریں:</lb_Set_Lang><ck_export_output>رسید (گرفت انہوں نے اسے آؤٹ پٹ) برآمد کریں</ck_export_output><lb_TCP_Timeout>ٹائم آؤٹ:</lb_TCP_Timeout><lb_TCP_Port>دہانہ:</lb_TCP_Port><lb_TCP_Host>میزبان پتا:</lb_TCP_Host><lb_TCPIP_Props>Tcp/ip خواص:</lb_TCPIP_Props><ck_marc21>MARC21 کی شکل میں ریکارڈ</ck_marc21><ck_marcxml_sax>مقامی اختیار (غیر XSLT عمل) استعمال کریں</ck_marcxml_sax><groupBox2>XSLT انجن</groupBox2><rd_Saxon>SAXON.NET</rd_Saxon><rd_MSXML>لیے MSXML</rd_MSXML><groupBox1>یونی کوڈ معمول پر لانے</groupBox1><ckC>مستند تجزیہ (C)</ckC><ckKD>مطابقت تجزیہ (کد)</ckKD><ck_Diacritics>شوشوں میں افطار کرتے وقت استعمال کریں ۔</ck_Diacritics><lb_Diacritics>عمومی اختیارات:</lb_Diacritics><lb_Engine_XML_Options>XML اختیارات:</lb_Engine_XML_Options><ck_engine_namespace>نام جگہ استعمال کریں</ck_engine_namespace><lb_Global_XSLT_Path>مارکامل XSLT:</lb_Global_XSLT_Path><ckDetectProxy>نظام پراکسی سیٹنگیں استعمال کریں</ckDetectProxy><ck_Update_Validator>خود بخود Validator تازہ کاریوں کے لیے پڑتال کریں</ck_Update_Validator><label3>آپ اس وقت کام کرنے کے لئے ایک ڈومین کے لیے اس کا تعلق ہونا چاہیے ۔</label3><groupBox4>صارف کی معلومات:</groupBox4><lb_domain>عمل داری:</lb_domain><label6>پاس ورڈ:</label6><label5>صارف کا نام:</label5><ckUpdates>خود بخود تازہ کاریوں کے لیے پڑتال کریں</ckUpdates><groupBox5>سیٹ کریں مسل وابستگیاں</groupBox5><cmd_file_assoc_view>منظر قسم</cmd_file_assoc_view><cmd_file_assoc_delete>قسم کو خارج کریں</cmd_file_assoc_delete><cmd_file_assoc_save>قسم محفوظ کریں</cmd_file_assoc_save><rd_file_assoc_editor>مآرکادیٹر</rd_file_assoc_editor><rd_file_assoc_maker>مآرکماکر</rd_file_assoc_maker><rd_file_assoc_breaker>مآرکبریکر</rd_file_assoc_breaker><label7>شریک (*.                      ) مسل قسم کے ساتھ:</label7><ck_mrk8_editor>مآرکادیٹر کے ساتھ ایسوسی ایٹ (*.mrk8) مسلیں</ck_mrk8_editor><ck_mrk_editor>مآرکادیٹر کے ساتھ ایسوسی ایٹ (*.mrk) مسلیں</ck_mrk_editor><ck_mrc>مآرکبریکر کے ساتھ ایسوسی ایٹ (*.mrc) مسلیں</ck_mrc><label26>کام پوشہ:</label26><label25>نیٹ ورک پوشے از:</label25><ck_allow_z3950>Z39.50 افعال اہل بنائیں</ck_allow_z3950><label1>کنٹرول نمبر ٹیگ:</label1><lbCall>ٹیگ کے نمبر پر کال کریں:</lbCall><lb_mono>ٹاب مونو راہ:</lb_mono><lb_Author>مصنف ٹیگ:</lb_Author><lb_title>عنوان ٹیگ:</lb_title><lb_temp>عارضی راہ سیٹ کریں:</lb_temp><ck_rss>آر ایس ایس فیڈ کا مطالعہ</ck_rss><ck_ignore_ssl>SSL سرٹیفکیٹ غلطیاں نظرانداز کریں</ck_ignore_ssl><lnk_ils_delete>حذف کریں</lnk_ils_delete><label14>|</label14><lnk_ils_z3950_edit>تدوین کریں</lnk_ils_z3950_edit><ck_ils_z3950>Z39.50 سیٹنگیں استعمال کریں</ck_ils_z3950><ck_ils_enable>انہوں نے اسے اختیارات اہل بنائیں</ck_ils_enable><label13>میزبان نام:</label13><label12>پاس ورڈ:</label12><label11>صارف کا نام:</label11><label10>نظام منتخب کریں:</label10><lnkGetCodes>رموز کا انعقاد حاصل کریں</lnkGetCodes><label24>ضابطہ کا انعقاد:</label24><cmb_schema>کانگریس دارالکتب</cmb_schema><label22>شجرہ کی درجہ بندی:</label22><label23>ادارے کا کوڈ:</label23><ckshow>متن نمایش کریں</ckshow><cmdValidateKeys>کلید جواز دیں</cmdValidateKeys><linkLabel1>درخواست/انتظام چلانے کا ایک اوکلک کلید (اوکلک کو جوڑتا ہے)</linkLabel1><label21>اوکلک API کلید سیٹنگیں</label21><label20>پرانسپالادن</label20><label19>پرانکاپالاد</label19><label18>خفیہ کلید (مابعد کوائف API کلید کے ساتھ جوڑا)</label18><label17>اوکلک مابعد کوائف API کلید</label17><label16>اوکلک تلاش API کلید</label16><this>مآرکاداٹ ترجیحات</this></MarcEdit_frmOptions>
+<cmd_options_ok>ٹھيک ہے</cmd_options_ok>
+<cmd_options_cancel>بند کریں</cmd_options_cancel>
+<cmd_options_apply>لگائیں</cmd_options_apply>
+<lnkMainWindow>مین ونڈو</lnkMainWindow>
+<lnkMarcEditor>مآرکادیٹر</lnkMarcEditor>
+<lnkLanguage>زبان</lnkLanguage>
+<lnkExport>برآمد کریں</lnkExport>
+<lnkMarcEngine>مآرکانگنی</lnkMarcEngine>
+<lnkUpdates>تازہ کاریاں</lnkUpdates>
+<lnkFileAssociations>مسل وابستگیاں</lnkFileAssociations>
+<lnkOther>دیگر</lnkOther>
+<lnkILSIntegration>انہوں نے اسے انضمام</lnkILSIntegration>
+<lnkOCLCAPI>اوکلک API انضمام</lnkOCLCAPI>
+<label15>پروگرام طے شدہ سیٹ کریں</label15>
+<ck_enhanced_editor_loading>درجہ افزوں صفحہ منیجمنٹ کا استعمال</ck_enhanced_editor_loading>
+<ckRDATemplates>رد سانچے استعمال کریں</ckRDATemplates>
+<ckCompileMarc8>MARC8 طور پر ریکارڈ مرتب کریں</ckCompileMarc8>
+<cksaveutf8>ریکارڈ UTF8 کے طور پر مرتب کریں</cksaveutf8>
+<ck_intellisense>انٹیللسانسی اہل بنائیں</ck_intellisense>
+<label2>فی صفحہ ریکارڈ</label2>
+<cmb_encoding>UTF8</cmb_encoding>
+<lb_Encoding>طے شدہ ضابطہ بندی:</lb_Encoding>
+<ck_nwindow>نئے دریچہ میں کھلی مسلیں</ck_nwindow>
+<ck_append>نیا ریکارڈ ملائیں</ck_append>
+<lb_psize>پیش منظر کا سائز:</lb_psize>
+<ckUsePreview>پیش منظر موڈ استعمال کریں</ckUsePreview>
+<cmd_editor_font_default>سیٹ طے شدہ</cmd_editor_font_default>
+<cmd_editor_set_font>فانٹ سیٹ کریں</cmd_editor_set_font>
+<lb_Editor_Font_Props>مآرکادیٹر فانٹ خواص سیٹ کریں:</lb_Editor_Font_Props>
+<cmd_editor_template_default>سیٹ طے شدہ</cmd_editor_template_default>
+<cmd_editor_modify>میں ترمیم کریں</cmd_editor_modify>
+<lb_Current_Template>حالیہ سانچا:</lb_Current_Template>
+<lb_Editor_Template>مآرکادیٹر کے سانچے مرتب کریں:</lb_Editor_Template>
+<label9>* پروگرام پھر شروع * کی ضرورت ہے</label9>
+<label8>پوائنٹ بڑا کریں ۔</label8>
+<label4>فانٹ سائز:</label4>
+<lb_Example>مثال کے طور پر متن</lb_Example>
+<lb_lang_font>زبان فانٹ سیٹ کریں:</lb_lang_font>
+<lb_Set_Lang>زبان پیک سیٹ کریں:</lb_Set_Lang>
+<ck_export_output>رسید (گرفت انہوں نے اسے آؤٹ پٹ) برآمد کریں</ck_export_output>
+<lb_TCP_Timeout>ٹائم آؤٹ:</lb_TCP_Timeout>
+<lb_TCP_Port>دہانہ:</lb_TCP_Port>
+<lb_TCP_Host>میزبان پتا:</lb_TCP_Host>
+<lb_TCPIP_Props>Tcp/ip خواص:</lb_TCPIP_Props>
+<ck_marc21>MARC21 کی شکل میں ریکارڈ</ck_marc21>
+<ck_marcxml_sax>مقامی اختیار (غیر XSLT عمل) استعمال کریں</ck_marcxml_sax>
+<groupBox2>XSLT انجن</groupBox2>
+<rd_Saxon>SAXON.NET</rd_Saxon>
+<rd_MSXML>لیے MSXML</rd_MSXML>
+<groupBox1>یونی کوڈ معمول پر لانے</groupBox1>
+<ckC>مستند تجزیہ (C)</ckC>
+<ckKD>مطابقت تجزیہ (کد)</ckKD>
+<ck_Diacritics>شوشوں میں افطار کرتے وقت استعمال کریں ۔</ck_Diacritics>
+<lb_Diacritics>عمومی اختیارات:</lb_Diacritics>
+<lb_Engine_XML_Options>XML اختیارات:</lb_Engine_XML_Options>
+<ck_engine_namespace>نام جگہ استعمال کریں</ck_engine_namespace>
+<lb_Global_XSLT_Path>مارکامل XSLT:</lb_Global_XSLT_Path>
+<ckDetectProxy>نظام پراکسی سیٹنگیں استعمال کریں</ckDetectProxy>
+<ck_Update_Validator>خود بخود Validator تازہ کاریوں کے لیے پڑتال کریں</ck_Update_Validator>
+<label3>آپ اس وقت کام کرنے کے لئے ایک ڈومین کے لیے اس کا تعلق ہونا چاہیے ۔</label3>
+<groupBox4>صارف کی معلومات:</groupBox4>
+<lb_domain>عمل داری:</lb_domain>
+<label6>پاس ورڈ:</label6>
+<label5>صارف کا نام:</label5>
+<ckUpdates>خود بخود تازہ کاریوں کے لیے پڑتال کریں</ckUpdates>
+<groupBox5>سیٹ کریں مسل وابستگیاں</groupBox5>
+<cmd_file_assoc_view>منظر قسم</cmd_file_assoc_view>
+<cmd_file_assoc_delete>قسم کو خارج کریں</cmd_file_assoc_delete>
+<cmd_file_assoc_save>قسم محفوظ کریں</cmd_file_assoc_save>
+<rd_file_assoc_editor>مآرکادیٹر</rd_file_assoc_editor>
+<rd_file_assoc_maker>مآرکماکر</rd_file_assoc_maker>
+<rd_file_assoc_breaker>مآرکبریکر</rd_file_assoc_breaker>
+<label7>شریک (*.                      ) مسل قسم کے ساتھ:</label7>
+<ck_mrk8_editor>مآرکادیٹر کے ساتھ ایسوسی ایٹ (*.mrk8) مسلیں</ck_mrk8_editor>
+<ck_mrk_editor>مآرکادیٹر کے ساتھ ایسوسی ایٹ (*.mrk) مسلیں</ck_mrk_editor>
+<ck_mrc>مآرکبریکر کے ساتھ ایسوسی ایٹ (*.mrc) مسلیں</ck_mrc>
+<label26>کام پوشہ:</label26>
+<label25>نیٹ ورک پوشے از:</label25>
+<ck_allow_z3950>Z39.50 افعال اہل بنائیں</ck_allow_z3950>
+<label1>کنٹرول نمبر ٹیگ:</label1>
+<lbCall>ٹیگ کے نمبر پر کال کریں:</lbCall>
+<lb_mono>ٹاب مونو راہ:</lb_mono>
+<lb_Author>مصنف ٹیگ:</lb_Author>
+<lb_title>عنوان ٹیگ:</lb_title>
+<lb_temp>عارضی راہ سیٹ کریں:</lb_temp>
+<ck_rss>آر ایس ایس فیڈ کا مطالعہ</ck_rss>
+<ck_ignore_ssl>SSL سرٹیفکیٹ غلطیاں نظرانداز کریں</ck_ignore_ssl>
+<lnk_ils_delete>حذف کریں</lnk_ils_delete>
+<label14>|</label14>
+<lnk_ils_z3950_edit>تدوین کریں</lnk_ils_z3950_edit>
+<ck_ils_z3950>Z39.50 سیٹنگیں استعمال کریں</ck_ils_z3950>
+<ck_ils_enable>انہوں نے اسے اختیارات اہل بنائیں</ck_ils_enable>
+<label13>میزبان نام:</label13>
+<label12>پاس ورڈ:</label12>
+<label11>صارف کا نام:</label11>
+<label10>نظام منتخب کریں:</label10>
+<lnkGetCodes>رموز کا انعقاد حاصل کریں</lnkGetCodes>
+<label24>ضابطہ کا انعقاد:</label24>
+<cmb_schema>کانگریس دارالکتب</cmb_schema>
+<label22>شجرہ کی درجہ بندی:</label22>
+<label23>ادارے کا کوڈ:</label23>
+<ckshow>متن نمایش کریں</ckshow>
+<cmdValidateKeys>کلید جواز دیں</cmdValidateKeys>
+<linkLabel1>درخواست/انتظام چلانے کا ایک اوکلک کلید (اوکلک کو جوڑتا ہے)</linkLabel1>
+<label21>اوکلک API کلید سیٹنگیں</label21>
+<label20>پرانسپالادن</label20>
+<label19>پرانکاپالاد</label19>
+<label18>خفیہ کلید (مابعد کوائف API کلید کے ساتھ جوڑا)</label18>
+<label17>اوکلک مابعد کوائف API کلید</label17>
+<label16>اوکلک تلاش API کلید</label16>
+<this>مآرکاداٹ ترجیحات</this>
+</MarcEdit_frmOptions>
 <MarcEdit_frmPluginManager>
-<label1>دستیاب پلگ ان:</label1><ch1>پلگ ان کا نام</ch1><ch2>یو آر ایل</ch2><c3>فائل کا سائز</c3><cmddownload>ڈاؤن لوڈ، اتارنا</cmddownload><cmdClose>بند کریں</cmdClose><columnHeader1>حذف کریں؟</columnHeader1><columnHeader2>پلگ ان کا نام</columnHeader2><columnHeader3>صنف نام</columnHeader3><label2>پلگ ان تنصیب کیا گیا ہے:</label2><cmdRemove>ہٹانا</cmdRemove><c4>ورژن نمبر:</c4><columnHeader4>ورژن نمبر:</columnHeader4><this>پلگ ان منیجر</this></MarcEdit_frmPluginManager>
+<label1>دستیاب پلگ ان:</label1>
+<ch1>پلگ ان کا نام</ch1>
+<ch2>یو آر ایل</ch2>
+<c3>فائل کا سائز</c3>
+<cmddownload>ڈاؤن لوڈ، اتارنا</cmddownload>
+<cmdClose>بند کریں</cmdClose>
+<columnHeader1>حذف کریں؟</columnHeader1>
+<columnHeader2>پلگ ان کا نام</columnHeader2>
+<columnHeader3>صنف نام</columnHeader3>
+<label2>پلگ ان تنصیب کیا گیا ہے:</label2>
+<cmdRemove>ہٹانا</cmdRemove>
+<c4>ورژن نمبر:</c4>
+<columnHeader4>ورژن نمبر:</columnHeader4>
+<this>پلگ ان منیجر</this>
+</MarcEdit_frmPluginManager>
 <MarcEdit_frmQueryLite>
-<ck_batch>بیچ کی تلاش</ck_batch><lbdbtitle>label2</lbdbtitle><groupBox3>کے نتائج</groupBox3><lnkDownload>تمام اشیاء ڈاؤن لوڈ کریں</lnkDownload><lnkClearResults>نتائج کو صاف کریں</lnkClearResults><lnkGetNext>اگلا {حد سے متجاوز ہو</lnkGetNext><col1>پوزیشن</col1><col2>عنوان</col2><groupBox1>اختیارات</groupBox1><lb_encoding_single>پیش کار کریکٹر سیٹ کریں</lb_encoding_single><cmd_encoding>MARC8</cmd_encoding><ckUnicode>یونی کوڈ باز گیر کریں</ckUnicode><rdEditDB>کوائفیہ منتخب کریں</rdEditDB><rdEditSettings>سیٹنگوں کی تدوین کریں</rdEditSettings><lbSearchb>تلاش کریں:</lbSearchb><lbSearch>کوائفیہ طلب:</lbSearch><MCol3>شناخت</MCol3><MCol1>نام</MCol1><MCol2>قسم</MCol2><lb_PModifyTitle>کوائفیہ منتخب کریں:</lb_PModifyTitle><downloadSelectedItemsToolStripMenuItem>منتخب اشیا ڈاؤن لوڈ کریں</downloadSelectedItemsToolStripMenuItem><this>Z39.50 کی گرفتاری</this></MarcEdit_frmQueryLite>
+<ck_batch>بیچ کی تلاش</ck_batch>
+<lbdbtitle>label2</lbdbtitle>
+<groupBox3>کے نتائج</groupBox3>
+<lnkDownload>تمام اشیاء ڈاؤن لوڈ کریں</lnkDownload>
+<lnkClearResults>نتائج کو صاف کریں</lnkClearResults>
+<lnkGetNext>اگلا {حد سے متجاوز ہو</lnkGetNext>
+<col1>پوزیشن</col1>
+<col2>عنوان</col2>
+<groupBox1>اختیارات</groupBox1>
+<lb_encoding_single>پیش کار کریکٹر سیٹ کریں</lb_encoding_single>
+<cmd_encoding>MARC8</cmd_encoding>
+<ckUnicode>یونی کوڈ باز گیر کریں</ckUnicode>
+<rdEditDB>کوائفیہ منتخب کریں</rdEditDB>
+<rdEditSettings>سیٹنگوں کی تدوین کریں</rdEditSettings>
+<lbSearchb>تلاش کریں:</lbSearchb>
+<lbSearch>کوائفیہ طلب:</lbSearch>
+<MCol3>شناخت</MCol3>
+<MCol1>نام</MCol1>
+<MCol2>قسم</MCol2>
+<lb_PModifyTitle>کوائفیہ منتخب کریں:</lb_PModifyTitle>
+<downloadSelectedItemsToolStripMenuItem>منتخب اشیا ڈاؤن لوڈ کریں</downloadSelectedItemsToolStripMenuItem>
+<this>Z39.50 کی گرفتاری</this>
+</MarcEdit_frmQueryLite>
 <MarcEdit_frmRDA>
-<ck_040>040 - میں ترمیم کریں $erda کا ا ضافہ کریں</ck_040><ck_qualifyinginfo>کوالیفائنگ معلومات (015/020/024/027)</ck_qualifyinginfo><label5>|</label5><lnkEdit>فہرست تدوین کریں</lnkEdit><ck_dgmd>گمد حذف کریں</ck_dgmd><ckAbbrev>مخفف وسیع</ckAbbrev><ckgmd>گمد کی تخلیق</ckgmd><ck264>260/264 کا اندازہ</ck264><ck381>381 - شامل دیگر</ck381><ck380>380 – کا ا ضافہ کریں کام کی شکل</ck380><ck347>347 - ا ضافہ کریں ڈیجیٹل خصوصیات</ck347><ck346>346 - ا ضافہ کریں ویڈیو خصوصیات</ck346><ck345>345 ۔ ۔ پراوج کا اضافہ کریں ۔ خصوصیات</ck345><ck344>344 – کا ا ضافہ کریں آواز خصوصیات</ck344><ck337>337 - ا ضافہ کریں میڈیا قسم
-338 - ا ضافہ کریں کیریئر قسم</ck337><ck336>336 - ا ضافہ کریں مشمول قسم</ck336><cmdProcess>ٹھيک ہے</cmdProcess><cmdClose>بند کریں</cmdClose><label1>ماخذ:</label1><label2>نام مسل فلم:</label2><lnkAll>تمام</lnkAll><label3>منتخب کریں:</label3><label4>|</label4><lnkNone>کوئی نہیں</lnkNone><ck_signs>ہمیشہ استعمال ©، ℗ علامتیں</ck_signs><this>رد مددگار</this></MarcEdit_frmRDA>
+<ck_040>040 - میں ترمیم کریں $erda کا ا ضافہ کریں</ck_040>
+<ck_qualifyinginfo>کوالیفائنگ معلومات (015/020/024/027)</ck_qualifyinginfo>
+<label5>|</label5>
+<lnkEdit>فہرست تدوین کریں</lnkEdit>
+<ck_dgmd>گمد حذف کریں</ck_dgmd>
+<ckAbbrev>مخفف وسیع</ckAbbrev>
+<ckgmd>گمد کی تخلیق</ckgmd>
+<ck264>260/264 کا اندازہ</ck264>
+<ck381>381 - شامل دیگر</ck381>
+<ck380>380 – کا ا ضافہ کریں کام کی شکل</ck380>
+<ck347>347 - ا ضافہ کریں ڈیجیٹل خصوصیات</ck347>
+<ck346>346 - ا ضافہ کریں ویڈیو خصوصیات</ck346>
+<ck345>345 ۔ ۔ پراوج کا اضافہ کریں ۔ خصوصیات</ck345>
+<ck344>344 – کا ا ضافہ کریں آواز خصوصیات</ck344>
+<ck337>337 - ا ضافہ کریں میڈیا قسم
+338 - ا ضافہ کریں کیریئر قسم</ck337>
+<ck336>336 - ا ضافہ کریں مشمول قسم</ck336>
+<cmdProcess>ٹھيک ہے</cmdProcess>
+<cmdClose>بند کریں</cmdClose>
+<label1>ماخذ:</label1>
+<label2>نام مسل فلم:</label2>
+<lnkAll>تمام</lnkAll>
+<label3>منتخب کریں:</label3>
+<label4>|</label4>
+<lnkNone>کوئی نہیں</lnkNone>
+<ck_signs>ہمیشہ استعمال ©، ℗ علامتیں</ck_signs>
+<this>رد مددگار</this>
+</MarcEdit_frmRDA>
 <MarcEdit_frmResults>
-<cmd_Close>بند کریں</cmd_Close><rEdit></rEdit><this>کے نتائج</this></MarcEdit_frmResults>
+<cmd_Close>بند کریں</cmd_Close>
+<rEdit></rEdit>
+<this>کے نتائج</this>
+</MarcEdit_frmResults>
 <MarcEdit_frmRobertCompare>
-<lnkHome>گھر</lnkHome><label5>اس وقت انہوں نے ابھی تک خطاب ڈاکٹر کمانے کے لئے کرتے تھے روبرٹکومپاری اصل میں ڈاکٹر رابرٹ اللیٹ، کے ذہن سے حامِلہ تھی ۔  میں بہت ہی مخصوص صارف کی ضروریات کو پورا کرنے کے لیے پروگرام بہت ہی شاذ و نادر ہی تخلیق کر سکتا ہوں ۔  میں نے ہمیشہ نقطہ نظر ہونا چاہیے کہ ٹول گانرالازبلی، مآرکاداٹ کے ساتھ لیا ہے اور زیادہ تر، ایک مخصوص منصوبے کے ساتھ وابستہ نہیں ۔  روبرٹکومپاری مختلف تھا ۔  آلے اپنی پی ایچ ڈی سکالرز theses پر، اور اس کے بعد صرف تکمیل کے لئے وسیع تر استعمال گانرالیز، مسٹر Ellett'sresearch کی معاونت کے لئے بنایا گیا تھا ۔ 
-اس کورس کو چلانے کے لیے لگتا تھا ۔  یہ باب میوف کا کورس کو ٹٹولنا وقفوں گا کچھ نہ کچھ تھا، پروگرام سمجھنا کوئی پیچیدہ تھا اور اس کے لئے کنورٹنگویل بدل گئی ہے گزشتہ سال جب باب نے وفات سے پوچھ دوستوں کے بغیر ہے ۔  مجھے بوب کو بہت پسند آئی – وہ اممیاسرابلیباک تھا...مجھے میرے دوست کی یاد کے لئے کچھ کرنا چاہتے تھے ۔  یہ بہت زیادہ وقت لیا کے مقابلے میں، غیر حاضری، امید نے روبرٹکومپاری مآرکاداٹ میں اس طرح کیا گیا ہے ۔  مجھے امید ہے کہ دوستوں یہ اسیفولہس کے طور پر میرے دوست تلاش کر سکتے ہیں ۔   شکریہ باب ہے ۔
-– پروف</label5><label4>روبرٹکومپاری کے بارے میں</label4><label3>|</label3><lnkAbout>روبرٹکومپاری کے بارے میں</lnkAbout><cmdClose>بند کریں</cmdClose><cmdExecute>سرانجام دیں ۔</cmdExecute><label1>مسل محفوظ کریں:</label1><label6>مسلوں کا آپس میں موازنہ:</label6><label2>مآرکومپاری مارک مسلوں کے درمیان اختلافات کا تعین کرنے کے لئے ایک خصوصی آلہ ہے ۔  تیپروگرام استعمال کرنے کے لیے ریکارڈ کا ایک سیٹ کے ورژن کا موازنہ کرنے کے لیے دو مارک مسلیں منتخب کریں ۔  ہسٹوریاوف آلے کے بارے میں مزید معلومات، یا کس طرح اس کا نام حاصل کے لئے، براہ مہربانی متعلق صفحہ دیکھیں ۔</label2><this>مآرکومپاری/روبرٹکومپاری</this></MarcEdit_frmRobertCompare>
+<lnkHome>گھر</lnkHome>
+<label5>اس وقت انہوں نے ابھی تک خطاب ڈاکٹر کمانے کے لئے کرتے تھے روبرٹکومپاری اصل میں ڈاکٹر رابرٹ اللیٹ، کے ذہن سے حامِلہ تھی ۔  میں بہت ہی مخصوص صارف کی ضروریات کو پورا کرنے کے لیے پروگرام بہت ہی شاذ و نادر ہی تخلیق کر سکتا ہوں ۔  میں نے ہمیشہ نقطہ نظر ہونا چاہیے کہ ٹول گانرالازبلی، مآرکاداٹ کے ساتھ لیا ہے اور زیادہ تر، ایک مخصوص منصوبے کے ساتھ وابستہ نہیں ۔  روبرٹکومپاری مختلف تھا ۔  آلے اپنے پی ایچ ڈی سکالرز theses پر، اور اس کے بعد صرف تکمیل کے لئے وسیع تر استعمال گانرالیز، مسٹر اللیٹ کی تحقیق کی تائید کے لئے بنایا گیا تھا ۔ 
+ جب میں مآرکاداٹ سے 4. x 5. x کودیباسی کو منتقل کر دیا، کیونکہ یہ اس کورس کو چلانے کے لیے جب یہ لگتا تھا مجھے اس ایپلی کیشن گرا دیا ۔  یہ باب وقفوں مجھ پر کبھی کبھار بوری گا کے بارے میں کچھ نہ کچھ تھا – مجھے لگتا ہے کہ وہ کھیلتا رہتا روبرٹکومپاری کے تصور کو پسند کرتے ہیں ۔ بلاشبہ کے طور پر، پروگرام سمجھنا کوئی پیچیدہ تھا اور اس کے لئے پوچھ دوستوں کے بغیر, کوڈ سے قومی اسمبلی C# کو بدلنے شروع کیا ایک خوبصورت کھڑی ہے ۔
+ ٹھیک ہے، جو گزشتہ سال جب باب انتقال تبدیل کر دیا گیا ۔  مجھے بوب کو بہت پسند آئی ۔ ۔ وہ امیاسرابل کے ساتھ ساتھ حاصل کرنے کے لئے آسان اور مہربان تھے ۔  اپنے انتقال کے بعد، میں نے فیصلہ کیا میں روبرٹکومپاری کو واپس لانے کے لئے چاہتا تھا...مجھے میرے دوست کی یاد کے لئے کچھ کرنا چاہتے تھے ۔  اس کے مقابلے میں، میں ایک اقدام، ملازمت میں تبدیلی اور ضابطہ کی پیچیدگی کی وجہ سے امید نے بہت زیادہ وقت لیا ہے ۔  بہر حال، ایک توسیع غیر حاضری کے بعد روبرٹکومپاری مآرکاداٹ میں اس طرح کیا گیا ہے ۔  مجھے امید ہے کہ دوستوں نے اسے میرے دوست کے طور پر طور پر مفید تلاش کر سکتے ہیں ۔   شکریہ باب ہے ۔
+– پروف</label5>
+<label4>روبرٹکومپاری کے بارے میں</label4>
+<label3>|</label3>
+<lnkAbout>روبرٹکومپاری کے بارے میں</lnkAbout>
+<cmdClose>بند کریں</cmdClose>
+<cmdExecute>سرانجام دیں ۔</cmdExecute>
+<label1>مسل محفوظ کریں:</label1>
+<label6>مسلوں کا آپس میں موازنہ:</label6>
+<label2>مآرکومپاری مارک مسلوں کے درمیان اختلافات کا تعین کرنے کے لئے ایک خصوصی آلہ ہے ۔  اس پروگرام کو استعمال کرنے کے لئے ریکارڈ کا ایک سیٹ کے ورژنوں کا موازنہ کریں کے لیے دو مارک مسلیں منتخب کریں ۔  مزید معلومات کے آلے، یا کس طرح اس کا نام حاصل کے لئے تاریخ کے بارے میں، براہ مہربانی متعلق صفحہ دیکھیں ۔</label2>
+<this>مآرکومپاری/روبرٹکومپاری</this>
+</MarcEdit_frmRobertCompare>
 <MarcEdit_frmScript>
-<ColumnHeader2>لکیر</ColumnHeader2><btnOk>مرتب کریں</btnOk><ColumnHeader1>نقص</ColumnHeader1><btnCancel>بند کریں</btnCancel><this>نوشتہ تدوین کریں</this></MarcEdit_frmScript>
+<ColumnHeader2>لکیر</ColumnHeader2>
+<btnOk>مرتب کریں</btnOk>
+<ColumnHeader1>نقص</ColumnHeader1>
+<btnCancel>بند کریں</btnCancel>
+<this>نوشتہ تدوین کریں</this>
+</MarcEdit_frmScript>
 <MarcEdit_frmSearchXML>
-<cName>کرعثسوالک کے نام</cName><cAuthor>کی طرف سے عرض کرنے لگے</cAuthor><cModified>آخری بار ترمیم</cModified><label1>نتائج:</label1><cmdDownload>ڈاؤن لوڈ، اتارنا</cmdDownload><cmdCancel>منسوخ کریں</cmdCancel><cmdView>منظر</cmdView><lnkViewAll>تمام کرعثسوالکس منظر</lnkViewAll><this>XSLT کرعثسوالک تلاش کے نتائج</this></MarcEdit_frmSearchXML>
+<cName>کرعثسوالک کے نام</cName>
+<cAuthor>کی طرف سے عرض کرنے لگے</cAuthor>
+<cModified>آخری بار ترمیم</cModified>
+<label1>نتائج:</label1>
+<cmdDownload>ڈاؤن لوڈ، اتارنا</cmdDownload>
+<cmdCancel>منسوخ کریں</cmdCancel>
+<cmdView>منظر</cmdView>
+<lnkViewAll>تمام کرعثسوالکس منظر</lnkViewAll>
+<this>XSLT کرعثسوالک تلاش کے نتائج</this>
+</MarcEdit_frmSearchXML>
 <MarcEdit_frmSelectMARCRecords>
-<columnHeader1>ریکارڈ تعداد</columnHeader1><columnHeader2>قطعہ دکھائیں</columnHeader2><selectItemsToolStripMenuItem>اشیا منتخب کریں</selectItemsToolStripMenuItem><cmdImport>مسل درآمد کریں</cmdImport><cmdfDelete>منتخب حذف کریں</cmdfDelete><cmdExport>منتخب کردہ برآمد</cmdExport><cmdExit>خروج</cmdExit><lb_Search>تلاش کریں:</lb_Search><lb_DisplayField>قطعہ دکھائیں:</lb_DisplayField><lb_SourceFile>ماخذ آلاتی خوانا کیٹلاگ مسل:</lb_SourceFile><ckSource>ماخذ میں ترمیم شدہ ریکارڈ دیں</ckSource><ck_retain>پڑتال شدہ اشیا برقرار رکھنے</ck_retain><cmd_Generate>رپورٹ تیار</cmd_Generate><ck_find_all>تمام ریکارڈ کوائف کی تلاش</ck_find_all><ck_use_regex>تعبیرات کا استعمال کرتے</ck_use_regex><this>MarcEdit.NET: منتخب مارک ریکارڈوں میں ترمیم کریں</this></MarcEdit_frmSelectMARCRecords>
+<columnHeader1>ریکارڈ تعداد</columnHeader1>
+<columnHeader2>قطعہ دکھائیں</columnHeader2>
+<selectItemsToolStripMenuItem>اشیا منتخب کریں</selectItemsToolStripMenuItem>
+<cmdImport>مسل درآمد کریں</cmdImport>
+<cmdfDelete>منتخب حذف کریں</cmdfDelete>
+<cmdExport>منتخب کردہ برآمد</cmdExport>
+<cmdExit>خروج</cmdExit>
+<lb_Search>تلاش کریں:</lb_Search>
+<lb_DisplayField>قطعہ دکھائیں:</lb_DisplayField>
+<lb_SourceFile>ماخذ آلاتی خوانا کیٹلاگ مسل:</lb_SourceFile>
+<ckSource>ماخذ میں ترمیم شدہ ریکارڈ دیں</ckSource>
+<ck_retain>پڑتال شدہ اشیا برقرار رکھنے</ck_retain>
+<cmd_Generate>رپورٹ تیار</cmd_Generate>
+<ck_find_all>تمام ریکارڈ کوائف کی تلاش</ck_find_all>
+<ck_use_regex>تعبیرات کا استعمال کرتے</ck_use_regex>
+<this>MarcEdit.NET: منتخب مارک ریکارڈوں میں ترمیم کریں</this>
+</MarcEdit_frmSelectMARCRecords>
 <MarcEdit_frmSort>
-<lb_title>چھانٹی سے خارج ہونے کے لیے قطعات منتخب کریں</lb_title><lb_fields>چھانٹیں قطعات:</lb_fields><lbExclude>قطعات خارج کریں:</lbExclude><cmd_OK>ٹھيک ہے</cmd_OK><cmd_Close>بند کریں</cmd_Close><this>مخصوص چھانٹ مددگار</this></MarcEdit_frmSort>
+<lb_title>چھانٹی سے خارج ہونے کے لیے قطعات منتخب کریں</lb_title>
+<lb_fields>چھانٹیں قطعات:</lb_fields>
+<lbExclude>قطعات خارج کریں:</lbExclude>
+<cmd_OK>ٹھيک ہے</cmd_OK>
+<cmd_Close>بند کریں</cmd_Close>
+<this>مخصوص چھانٹ مددگار</this>
+</MarcEdit_frmSort>
 <MarcEdit_frmSpecial_Formats>
-<lb_title>CDS-اسی مارک ترجمہ =&gt;</lb_title><groupBox1>صارف ان پٹ</groupBox1><lb_output>آؤٹ پٹ مسل:</lb_output><lb_input>ان پٹ مسل:</lb_input><groupBox2>اختیارات:</groupBox2><rd_advanced>اعلی ترجمہ</rd_advanced><rd_simple>سادہ ترجمہ</rd_simple><lb_subfield>سبفیلڈ نشان انداز</lb_subfield><cmd_Ok>ٹھيک ہے</cmd_Ok><cmd_Close>بند کریں</cmd_Close><this>CDS-اسی .iso مارک ترجمہ =&gt;</this></MarcEdit_frmSpecial_Formats>
+<lb_title>CDS-اسی مارک ترجمہ =&gt;</lb_title>
+<groupBox1>صارف ان پٹ</groupBox1>
+<lb_output>آؤٹ پٹ مسل:</lb_output>
+<lb_input>ان پٹ مسل:</lb_input>
+<groupBox2>اختیارات:</groupBox2>
+<rd_advanced>اعلی ترجمہ</rd_advanced>
+<rd_simple>سادہ ترجمہ</rd_simple>
+<lb_subfield>سبفیلڈ نشان انداز</lb_subfield>
+<cmd_Ok>ٹھيک ہے</cmd_Ok>
+<cmd_Close>بند کریں</cmd_Close>
+<this>CDS-اسی .iso مارک ترجمہ =&gt;</this>
+</MarcEdit_frmSpecial_Formats>
 <MarcEdit_frmSpecific_Options>
-<lb_title>اختیارات:</lb_title><lnkLoad>قطعہ نقشہ کاری لوڈ</lnkLoad><ck_indicators>اشارے کا ا ضافہ کریں</ck_indicators><ckLDR>صحیح لڈرس</ckLDR><ck_subfield>اہم سبفیلڈ کا ا ضافہ کریں</ck_subfield><cmdOK>ٹھيک ہے</cmdOK><cmdClose>بند کریں</cmdClose><this>اعلی اختیارات</this></MarcEdit_frmSpecific_Options>
+<lb_title>اختیارات:</lb_title>
+<lnkLoad>قطعہ نقشہ کاری لوڈ</lnkLoad>
+<ck_indicators>اشارے کا ا ضافہ کریں</ck_indicators>
+<ckLDR>صحیح لڈرس</ckLDR>
+<ck_subfield>اہم سبفیلڈ کا ا ضافہ کریں</ck_subfield>
+<cmdOK>ٹھيک ہے</cmdOK>
+<cmdClose>بند کریں</cmdClose>
+<this>اعلی اختیارات</this>
+</MarcEdit_frmSpecific_Options>
 <MarcEdit_frmStatus>
-<lbCaption>label1</lbCaption><cmdCancel>منسوخ کریں</cmdCancel></MarcEdit_frmStatus>
+<lbCaption>label1</lbCaption>
+<cmdCancel>منسوخ کریں</cmdCancel>
+</MarcEdit_frmStatus>
 <MarcEdit_frmSymbols>
-<Label1>خاص کریکٹر:</Label1><_CharC_0>A</_CharC_0><_CharC_1>A</_CharC_1><_CharC_2>A</_CharC_2><_CharC_3>A</_CharC_3><_CharC_4>A</_CharC_4><_CharC_5>A</_CharC_5><_CharC_6>A</_CharC_6><_CharC_7>A</_CharC_7><_CharC_8>A</_CharC_8><_CharC_9>A</_CharC_9><_CharC_10>A</_CharC_10><_CharC_11>A</_CharC_11><_CharC_12>A</_CharC_12><_CharC_13>A</_CharC_13><_CharC_14>A</_CharC_14><_CharC_15>A</_CharC_15><_CharC_16>A</_CharC_16><_CharC_17>A</_CharC_17><_CharC_18>A</_CharC_18><_CharC_19>A</_CharC_19><_CharC_20>A</_CharC_20><_CharC_21>A</_CharC_21><_CharC_22>A</_CharC_22><_CharC_23>A</_CharC_23><_CharC_24>A</_CharC_24><_CharC_25>A</_CharC_25><_CharC_26>A</_CharC_26><_CharC_27>A</_CharC_27><_CharC_28>A</_CharC_28><_CharC_29>A</_CharC_29><_CharC_30>A</_CharC_30><_CharC_31>A</_CharC_31><_CharC_32>A</_CharC_32><_CharC_33>A</_CharC_33><_CharC_34>A</_CharC_34><_CharC_35>A</_CharC_35><_CharC_36>A</_CharC_36><_CharC_37>A</_CharC_37><_CharC_38>A</_CharC_38><_CharC_39>A</_CharC_39><_CharC_40>A</_CharC_40><_CharC_41>A</_CharC_41><_CharC_42>A</_CharC_42><_CharC_43>A</_CharC_43><_CharC_44>A</_CharC_44><_CharC_45>A</_CharC_45><_CharC_46>A</_CharC_46><_CharC_47>A</_CharC_47><_CharC_48>A</_CharC_48><_CharC_49>A</_CharC_49><_CharC_50>A</_CharC_50><_CharC_51>A</_CharC_51><_CharC_52>A</_CharC_52><_CharC_53>A</_CharC_53><_CharC_54>A</_CharC_54><_CharC_55>A</_CharC_55><_CharC_56>A</_CharC_56><_CharC_57>A</_CharC_57><_CharC_58>A</_CharC_58><_CharC_59>A</_CharC_59><_CharC_60>A</_CharC_60><_CharC_61>A</_CharC_61><_CharC_62>A</_CharC_62><_CharC_63>A</_CharC_63><_CharC_64>A</_CharC_64><_CharC_65>A</_CharC_65><_CharC_66>A</_CharC_66><_CharC_67>A</_CharC_67><_CharC_68>A</_CharC_68><_CharC_69>A</_CharC_69><_CharC_70>A</_CharC_70><_CharC_71>A</_CharC_71><_CharC_72>A</_CharC_72><_CharC_73>A</_CharC_73><_CharC_74>A</_CharC_74><_CharC_75>A</_CharC_75><_CharC_76>A</_CharC_76><_CharC_77>A</_CharC_77><_CharC_78>A</_CharC_78><_CharC_79>A</_CharC_79><_CharC_80>A</_CharC_80><_CharC_81>A</_CharC_81><_CharC_82>A</_CharC_82><_CharC_83>A</_CharC_83><_CharC_84>A</_CharC_84><_CharC_85>A</_CharC_85><_CharC_86>A</_CharC_86><_CharC_87>A</_CharC_87><_CharC_88>A</_CharC_88><_CharC_89>A</_CharC_89><_CharC_90>A</_CharC_90><_CharC_91>A</_CharC_91><_CharC_92>A</_CharC_92><_CharC_93>A</_CharC_93><_CharC_94>A</_CharC_94><_CharC_95>A</_CharC_95><_CharC_96>A</_CharC_96><_CharC_97>A</_CharC_97><_CharC_98>A</_CharC_98><_CharC_99>A</_CharC_99><_CharC_100>A</_CharC_100><_CharC_101>A</_CharC_101><_CharC_102>A</_CharC_102><_CharC_103>A</_CharC_103><_CharC_104>A</_CharC_104><_CharC_105>A</_CharC_105><_CharC_106>A</_CharC_106><_CharC_107>A</_CharC_107><_CharC_108>A</_CharC_108><_CharC_109>A</_CharC_109><_CharC_110>A</_CharC_110><_CharC_111>A</_CharC_111><_CharC_112>A</_CharC_112><_CharC_113>A</_CharC_113><_CharC_114>A</_CharC_114><_CharC_115>A</_CharC_115><_CharC_116>A</_CharC_116><_CharC_117>A</_CharC_117><_CharC_118>A</_CharC_118><_CharC_119>A</_CharC_119><_CharC_120>A</_CharC_120><_CharC_121>A</_CharC_121><_CharC_122>A</_CharC_122><_CharC_123>A</_CharC_123><_CharC_124>A</_CharC_124><_CharC_125>A</_CharC_125><_CharC_126>A</_CharC_126><_CharC_127>A</_CharC_127><_CharC_128>A</_CharC_128><_CharC_129>A</_CharC_129><_CharC_130>A</_CharC_130><_CharC_131>A</_CharC_131><_CharC_132>A</_CharC_132><_CharC_133>A</_CharC_133><_CharC_134>A</_CharC_134><_CharC_135>A</_CharC_135><_CharC_136>A</_CharC_136><_CharC_137>A</_CharC_137><_CharC_138>A</_CharC_138><_CharC_139>A</_CharC_139><_CharC_140>A</_CharC_140><_CharC_141>A</_CharC_141><_CharC_142>A</_CharC_142><_CharC_143>A</_CharC_143><_CharC_144>A</_CharC_144><_CharC_145>A</_CharC_145><_CharC_146>A</_CharC_146><_CharC_147>A</_CharC_147><_CharC_148>A</_CharC_148><_CharC_154>A</_CharC_154><_CharC_155>A</_CharC_155><_CharC_160>A</_CharC_160><_CharC_161>A</_CharC_161><_CharC_162>A</_CharC_162><_CharC_163>A</_CharC_163><_CharC_164>A</_CharC_164><_CharC_165>A</_CharC_165><_CharC_166>A</_CharC_166><_CharC_149>A</_CharC_149><_CharC_150>A</_CharC_150><_CharC_151>A</_CharC_151><_CharC_152>A</_CharC_152><_CharC_153>A</_CharC_153><_CharC_156>A</_CharC_156><_CharC_157>A</_CharC_157><_CharC_158>A</_CharC_158><_CharC_159>A</_CharC_159><_CharC_167>A</_CharC_167><_CharC_168>A</_CharC_168><_CharC_169>A</_CharC_169><_CharC_170>A</_CharC_170><_CharC_171>A</_CharC_171><_CharC_172>A</_CharC_172><_CharC_173>A</_CharC_173><_CharC_174>A</_CharC_174><_CharC_175>A</_CharC_175><_CharC_176>A</_CharC_176><_CharC_177>A</_CharC_177><_CharC_178>A</_CharC_178><_CharC_179>A</_CharC_179><_CharC_180>A</_CharC_180><_CharC_181>A</_CharC_181><_CharC_182>A</_CharC_182><_CharC_183>A</_CharC_183><_CharC_184>A</_CharC_184><_CharC_185>A</_CharC_185><_CharC_186>A</_CharC_186><_CharC_187>A</_CharC_187><_CharC_188>A</_CharC_188><_CharC_189>A</_CharC_189><_CharC_190>A</_CharC_190><_CharC_191>A</_CharC_191><_CharC_192>A</_CharC_192><_CharC_193>A</_CharC_193><_CharC_194>A</_CharC_194><_CharC_195>A</_CharC_195><_CharC_196>A</_CharC_196><_CharC_197>A</_CharC_197><_CharC_198>A</_CharC_198><_CharC_199>A</_CharC_199><_CharC_200>A</_CharC_200><_CharC_201>A</_CharC_201><_CharC_202>A</_CharC_202><_CharC_203>A</_CharC_203><_CharC_204>A</_CharC_204><_CharC_205>A</_CharC_205><_CharC_206>A</_CharC_206><_CharC_207>A</_CharC_207><_CharC_208>A</_CharC_208><_CharC_209>A</_CharC_209><_CharC_210>A</_CharC_210><_CharC_211>A</_CharC_211><_CharC_212>A</_CharC_212><_CharC_213>A</_CharC_213><_CharC_214>A</_CharC_214><_CharC_215>A</_CharC_215><_CharC_216>A</_CharC_216><_CharC_217>A</_CharC_217><_CharC_218>A</_CharC_218><_CharC_219>A</_CharC_219><_CharC_220>A</_CharC_220><_CharC_221>A</_CharC_221><_CharC_222>A</_CharC_222><_CharC_223>A</_CharC_223><_CharC_224>A</_CharC_224><_CharC_225>A</_CharC_225><_CharC_226>A</_CharC_226><_CharC_227>A</_CharC_227><_CharC_228>A</_CharC_228><_CharC_229>A</_CharC_229><_CharC_230>A</_CharC_230><_CharC_231>A</_CharC_231><_CharC_232>A</_CharC_232><_CharC_233>A</_CharC_233><_CharC_234>A</_CharC_234><_CharC_235>A</_CharC_235><_CharC_236>A</_CharC_236><_CharC_237>A</_CharC_237><_CharC_238>A</_CharC_238><_CharC_239>A</_CharC_239><_CharC_240>A</_CharC_240><_CharC_241>A</_CharC_241><_CharC_242>A</_CharC_242><_CharC_243>A</_CharC_243><_CharC_244>A</_CharC_244><_CharC_245>A</_CharC_245><_CharC_246>A</_CharC_246><_CharC_247>A</_CharC_247><_CharC_248>A</_CharC_248><_CharC_249>A</_CharC_249><_CharC_250>A</_CharC_250><_CharC_251>A</_CharC_251><_CharC_252>A</_CharC_252><_CharC_253>A</_CharC_253><_CharC_254>A</_CharC_254><_CharC_255>A</_CharC_255><cmd_Insert>داخل کریں</cmd_Insert><cmdClose>بند کریں</cmdClose><this>آلاتی خوانا کیٹلاگ-8 على حرف کا مجموعہ</this></MarcEdit_frmSymbols>
+<Label1>خاص کریکٹر:</Label1>
+<_CharC_0>A</_CharC_0>
+<_CharC_1>A</_CharC_1>
+<_CharC_2>A</_CharC_2>
+<_CharC_3>A</_CharC_3>
+<_CharC_4>A</_CharC_4>
+<_CharC_5>A</_CharC_5>
+<_CharC_6>A</_CharC_6>
+<_CharC_7>A</_CharC_7>
+<_CharC_8>A</_CharC_8>
+<_CharC_9>A</_CharC_9>
+<_CharC_10>A</_CharC_10>
+<_CharC_11>A</_CharC_11>
+<_CharC_12>A</_CharC_12>
+<_CharC_13>A</_CharC_13>
+<_CharC_14>A</_CharC_14>
+<_CharC_15>A</_CharC_15>
+<_CharC_16>A</_CharC_16>
+<_CharC_17>A</_CharC_17>
+<_CharC_18>A</_CharC_18>
+<_CharC_19>A</_CharC_19>
+<_CharC_20>A</_CharC_20>
+<_CharC_21>A</_CharC_21>
+<_CharC_22>A</_CharC_22>
+<_CharC_23>A</_CharC_23>
+<_CharC_24>A</_CharC_24>
+<_CharC_25>A</_CharC_25>
+<_CharC_26>A</_CharC_26>
+<_CharC_27>A</_CharC_27>
+<_CharC_28>A</_CharC_28>
+<_CharC_29>A</_CharC_29>
+<_CharC_30>A</_CharC_30>
+<_CharC_31>A</_CharC_31>
+<_CharC_32>A</_CharC_32>
+<_CharC_33>A</_CharC_33>
+<_CharC_34>A</_CharC_34>
+<_CharC_35>A</_CharC_35>
+<_CharC_36>A</_CharC_36>
+<_CharC_37>A</_CharC_37>
+<_CharC_38>A</_CharC_38>
+<_CharC_39>A</_CharC_39>
+<_CharC_40>A</_CharC_40>
+<_CharC_41>A</_CharC_41>
+<_CharC_42>A</_CharC_42>
+<_CharC_43>A</_CharC_43>
+<_CharC_44>A</_CharC_44>
+<_CharC_45>A</_CharC_45>
+<_CharC_46>A</_CharC_46>
+<_CharC_47>A</_CharC_47>
+<_CharC_48>A</_CharC_48>
+<_CharC_49>A</_CharC_49>
+<_CharC_50>A</_CharC_50>
+<_CharC_51>A</_CharC_51>
+<_CharC_52>A</_CharC_52>
+<_CharC_53>A</_CharC_53>
+<_CharC_54>A</_CharC_54>
+<_CharC_55>A</_CharC_55>
+<_CharC_56>A</_CharC_56>
+<_CharC_57>A</_CharC_57>
+<_CharC_58>A</_CharC_58>
+<_CharC_59>A</_CharC_59>
+<_CharC_60>A</_CharC_60>
+<_CharC_61>A</_CharC_61>
+<_CharC_62>A</_CharC_62>
+<_CharC_63>A</_CharC_63>
+<_CharC_64>A</_CharC_64>
+<_CharC_65>A</_CharC_65>
+<_CharC_66>A</_CharC_66>
+<_CharC_67>A</_CharC_67>
+<_CharC_68>A</_CharC_68>
+<_CharC_69>A</_CharC_69>
+<_CharC_70>A</_CharC_70>
+<_CharC_71>A</_CharC_71>
+<_CharC_72>A</_CharC_72>
+<_CharC_73>A</_CharC_73>
+<_CharC_74>A</_CharC_74>
+<_CharC_75>A</_CharC_75>
+<_CharC_76>A</_CharC_76>
+<_CharC_77>A</_CharC_77>
+<_CharC_78>A</_CharC_78>
+<_CharC_79>A</_CharC_79>
+<_CharC_80>A</_CharC_80>
+<_CharC_81>A</_CharC_81>
+<_CharC_82>A</_CharC_82>
+<_CharC_83>A</_CharC_83>
+<_CharC_84>A</_CharC_84>
+<_CharC_85>A</_CharC_85>
+<_CharC_86>A</_CharC_86>
+<_CharC_87>A</_CharC_87>
+<_CharC_88>A</_CharC_88>
+<_CharC_89>A</_CharC_89>
+<_CharC_90>A</_CharC_90>
+<_CharC_91>A</_CharC_91>
+<_CharC_92>A</_CharC_92>
+<_CharC_93>A</_CharC_93>
+<_CharC_94>A</_CharC_94>
+<_CharC_95>A</_CharC_95>
+<_CharC_96>A</_CharC_96>
+<_CharC_97>A</_CharC_97>
+<_CharC_98>A</_CharC_98>
+<_CharC_99>A</_CharC_99>
+<_CharC_100>A</_CharC_100>
+<_CharC_101>A</_CharC_101>
+<_CharC_102>A</_CharC_102>
+<_CharC_103>A</_CharC_103>
+<_CharC_104>A</_CharC_104>
+<_CharC_105>A</_CharC_105>
+<_CharC_106>A</_CharC_106>
+<_CharC_107>A</_CharC_107>
+<_CharC_108>A</_CharC_108>
+<_CharC_109>A</_CharC_109>
+<_CharC_110>A</_CharC_110>
+<_CharC_111>A</_CharC_111>
+<_CharC_112>A</_CharC_112>
+<_CharC_113>A</_CharC_113>
+<_CharC_114>A</_CharC_114>
+<_CharC_115>A</_CharC_115>
+<_CharC_116>A</_CharC_116>
+<_CharC_117>A</_CharC_117>
+<_CharC_118>A</_CharC_118>
+<_CharC_119>A</_CharC_119>
+<_CharC_120>A</_CharC_120>
+<_CharC_121>A</_CharC_121>
+<_CharC_122>A</_CharC_122>
+<_CharC_123>A</_CharC_123>
+<_CharC_124>A</_CharC_124>
+<_CharC_125>A</_CharC_125>
+<_CharC_126>A</_CharC_126>
+<_CharC_127>A</_CharC_127>
+<_CharC_128>A</_CharC_128>
+<_CharC_129>A</_CharC_129>
+<_CharC_130>A</_CharC_130>
+<_CharC_131>A</_CharC_131>
+<_CharC_132>A</_CharC_132>
+<_CharC_133>A</_CharC_133>
+<_CharC_134>A</_CharC_134>
+<_CharC_135>A</_CharC_135>
+<_CharC_136>A</_CharC_136>
+<_CharC_137>A</_CharC_137>
+<_CharC_138>A</_CharC_138>
+<_CharC_139>A</_CharC_139>
+<_CharC_140>A</_CharC_140>
+<_CharC_141>A</_CharC_141>
+<_CharC_142>A</_CharC_142>
+<_CharC_143>A</_CharC_143>
+<_CharC_144>A</_CharC_144>
+<_CharC_145>A</_CharC_145>
+<_CharC_146>A</_CharC_146>
+<_CharC_147>A</_CharC_147>
+<_CharC_148>A</_CharC_148>
+<_CharC_154>A</_CharC_154>
+<_CharC_155>A</_CharC_155>
+<_CharC_160>A</_CharC_160>
+<_CharC_161>A</_CharC_161>
+<_CharC_162>A</_CharC_162>
+<_CharC_163>A</_CharC_163>
+<_CharC_164>A</_CharC_164>
+<_CharC_165>A</_CharC_165>
+<_CharC_166>A</_CharC_166>
+<_CharC_149>A</_CharC_149>
+<_CharC_150>A</_CharC_150>
+<_CharC_151>A</_CharC_151>
+<_CharC_152>A</_CharC_152>
+<_CharC_153>A</_CharC_153>
+<_CharC_156>A</_CharC_156>
+<_CharC_157>A</_CharC_157>
+<_CharC_158>A</_CharC_158>
+<_CharC_159>A</_CharC_159>
+<_CharC_167>A</_CharC_167>
+<_CharC_168>A</_CharC_168>
+<_CharC_169>A</_CharC_169>
+<_CharC_170>A</_CharC_170>
+<_CharC_171>A</_CharC_171>
+<_CharC_172>A</_CharC_172>
+<_CharC_173>A</_CharC_173>
+<_CharC_174>A</_CharC_174>
+<_CharC_175>A</_CharC_175>
+<_CharC_176>A</_CharC_176>
+<_CharC_177>A</_CharC_177>
+<_CharC_178>A</_CharC_178>
+<_CharC_179>A</_CharC_179>
+<_CharC_180>A</_CharC_180>
+<_CharC_181>A</_CharC_181>
+<_CharC_182>A</_CharC_182>
+<_CharC_183>A</_CharC_183>
+<_CharC_184>A</_CharC_184>
+<_CharC_185>A</_CharC_185>
+<_CharC_186>A</_CharC_186>
+<_CharC_187>A</_CharC_187>
+<_CharC_188>A</_CharC_188>
+<_CharC_189>A</_CharC_189>
+<_CharC_190>A</_CharC_190>
+<_CharC_191>A</_CharC_191>
+<_CharC_192>A</_CharC_192>
+<_CharC_193>A</_CharC_193>
+<_CharC_194>A</_CharC_194>
+<_CharC_195>A</_CharC_195>
+<_CharC_196>A</_CharC_196>
+<_CharC_197>A</_CharC_197>
+<_CharC_198>A</_CharC_198>
+<_CharC_199>A</_CharC_199>
+<_CharC_200>A</_CharC_200>
+<_CharC_201>A</_CharC_201>
+<_CharC_202>A</_CharC_202>
+<_CharC_203>A</_CharC_203>
+<_CharC_204>A</_CharC_204>
+<_CharC_205>A</_CharC_205>
+<_CharC_206>A</_CharC_206>
+<_CharC_207>A</_CharC_207>
+<_CharC_208>A</_CharC_208>
+<_CharC_209>A</_CharC_209>
+<_CharC_210>A</_CharC_210>
+<_CharC_211>A</_CharC_211>
+<_CharC_212>A</_CharC_212>
+<_CharC_213>A</_CharC_213>
+<_CharC_214>A</_CharC_214>
+<_CharC_215>A</_CharC_215>
+<_CharC_216>A</_CharC_216>
+<_CharC_217>A</_CharC_217>
+<_CharC_218>A</_CharC_218>
+<_CharC_219>A</_CharC_219>
+<_CharC_220>A</_CharC_220>
+<_CharC_221>A</_CharC_221>
+<_CharC_222>A</_CharC_222>
+<_CharC_223>A</_CharC_223>
+<_CharC_224>A</_CharC_224>
+<_CharC_225>A</_CharC_225>
+<_CharC_226>A</_CharC_226>
+<_CharC_227>A</_CharC_227>
+<_CharC_228>A</_CharC_228>
+<_CharC_229>A</_CharC_229>
+<_CharC_230>A</_CharC_230>
+<_CharC_231>A</_CharC_231>
+<_CharC_232>A</_CharC_232>
+<_CharC_233>A</_CharC_233>
+<_CharC_234>A</_CharC_234>
+<_CharC_235>A</_CharC_235>
+<_CharC_236>A</_CharC_236>
+<_CharC_237>A</_CharC_237>
+<_CharC_238>A</_CharC_238>
+<_CharC_239>A</_CharC_239>
+<_CharC_240>A</_CharC_240>
+<_CharC_241>A</_CharC_241>
+<_CharC_242>A</_CharC_242>
+<_CharC_243>A</_CharC_243>
+<_CharC_244>A</_CharC_244>
+<_CharC_245>A</_CharC_245>
+<_CharC_246>A</_CharC_246>
+<_CharC_247>A</_CharC_247>
+<_CharC_248>A</_CharC_248>
+<_CharC_249>A</_CharC_249>
+<_CharC_250>A</_CharC_250>
+<_CharC_251>A</_CharC_251>
+<_CharC_252>A</_CharC_252>
+<_CharC_253>A</_CharC_253>
+<_CharC_254>A</_CharC_254>
+<_CharC_255>A</_CharC_255>
+<cmd_Insert>داخل کریں</cmd_Insert>
+<cmdClose>بند کریں</cmdClose>
+<this>آلاتی خوانا کیٹلاگ-8 على حرف کا مجموعہ</this>
+</MarcEdit_frmSymbols>
 <MarcEdit_frmTaskEditor>
-<lbTaskName>ٹاسک فہرست نام:</lbTaskName><addDeleteFieldTaskToolStripMenuItem>ٹاسک کو خارج قطعہ کا ا ضافہ کریں</addDeleteFieldTaskToolStripMenuItem><addEditSubfieldTaskToolStripMenuItem>تدوین سبفیلڈ کام اضافہ کریں</addEditSubfieldTaskToolStripMenuItem><addToolStripMenuItem>تدوین اشارے کام اضافہ کریں</addToolStripMenuItem><cmdSave>محفوظ کریں</cmdSave><addNewFieldTaskToolStripMenuItem>قطعہ کے نئے کام کا اضافہ</addNewFieldTaskToolStripMenuItem><cmdClose>بند کریں</cmdClose><addReplaceAllTaskToolStripMenuItem>سب کام بدل کا ا ضافہ کریں</addReplaceAllTaskToolStripMenuItem><mnuEditTaskFieldEdit>قطعہ تدوین کام اضافہ کریں</mnuEditTaskFieldEdit><addSwapFieldTaskToolStripMenuItem>تبادلہ فیلڈ کام کا ا ضافہ کریں</addSwapFieldTaskToolStripMenuItem><addCopyFieldTaskToolStripMenuItem>نقل قطعہ کام اضافہ کریں</addCopyFieldTaskToolStripMenuItem><addTaskListToolStripMenuItem>ٹاسک فہرست کا ا ضافہ کریں</addTaskListToolStripMenuItem><addRDAHelperToolStripMenuItem>رد مددگار کا ا ضافہ کریں</addRDAHelperToolStripMenuItem><lbTasks>مجموعہ کار:</lbTasks><label1>اعمال:</label1><label2>تصریح:</label2><this>ٹاسک فہرست تدوین کریں</this></MarcEdit_frmTaskEditor>
+<lbTaskName>ٹاسک فہرست نام:</lbTaskName>
+<addDeleteFieldTaskToolStripMenuItem>ٹاسک کو خارج قطعہ کا ا ضافہ کریں</addDeleteFieldTaskToolStripMenuItem>
+<addEditSubfieldTaskToolStripMenuItem>تدوین سبفیلڈ کام اضافہ کریں</addEditSubfieldTaskToolStripMenuItem>
+<addToolStripMenuItem>تدوین اشارے کام اضافہ کریں</addToolStripMenuItem>
+<cmdSave>محفوظ کریں</cmdSave>
+<addNewFieldTaskToolStripMenuItem>قطعہ کے نئے کام کا اضافہ</addNewFieldTaskToolStripMenuItem>
+<cmdClose>بند کریں</cmdClose>
+<addReplaceAllTaskToolStripMenuItem>سب کام بدل کا ا ضافہ کریں</addReplaceAllTaskToolStripMenuItem>
+<mnuEditTaskFieldEdit>قطعہ تدوین کام اضافہ کریں</mnuEditTaskFieldEdit>
+<addSwapFieldTaskToolStripMenuItem>تبادلہ فیلڈ کام کا ا ضافہ کریں</addSwapFieldTaskToolStripMenuItem>
+<addCopyFieldTaskToolStripMenuItem>نقل قطعہ کام اضافہ کریں</addCopyFieldTaskToolStripMenuItem>
+<addTaskListToolStripMenuItem>ٹاسک فہرست کا ا ضافہ کریں</addTaskListToolStripMenuItem>
+<addRDAHelperToolStripMenuItem>رد مددگار کا ا ضافہ کریں</addRDAHelperToolStripMenuItem>
+<lbTasks>مجموعہ کار:</lbTasks>
+<label1>اعمال:</label1>
+<label2>تصریح:</label2>
+<this>ٹاسک فہرست تدوین کریں</this>
+</MarcEdit_frmTaskEditor>
 <MarcEdit_frmTaskManager>
-<columnHeader1>نام</columnHeader1><columnHeader2>راستہ</columnHeader2><columnHeader3>تیز راہ</columnHeader3><cmdClose>بند کریں</cmdClose><lnkNew>نئی فہرست کام تخلیق کریں</lnkNew><lbMacro>کام کی فہرست:</lbMacro><lnkCloneTask>کلون کے موجودہ فہرست کام</lnkCloneTask><groupBox1>کام کے اعمال</groupBox1><lnk_import_task>درآمد کریں کام</lnk_import_task><lnkRename>ٹاسک فہرست کو نیا نام دیں</lnkRename><groupBox2>موجودہ کاموں کا انتظام کریں</groupBox2><lnk_export_task>منتخب کام کو برآمد کریں</lnk_export_task><lnkKey>اہم تفویض اختیار کی</lnkKey><lnkEdit>منتخب کام فہرست تدوین کریں</lnkEdit><lnkDelete>منتخب کام فہرست حذف کریں</lnkDelete><columnHeader4>تصریح</columnHeader4><this>کام مینیجر</this></MarcEdit_frmTaskManager>
+<columnHeader1>نام</columnHeader1>
+<columnHeader2>راستہ</columnHeader2>
+<columnHeader3>تیز راہ</columnHeader3>
+<cmdClose>بند کریں</cmdClose>
+<lnkNew>نئی فہرست کام تخلیق کریں</lnkNew>
+<lbMacro>کام کی فہرست:</lbMacro>
+<lnkCloneTask>کلون کے موجودہ فہرست کام</lnkCloneTask>
+<groupBox1>کام کے اعمال</groupBox1>
+<lnk_import_task>درآمد کریں کام</lnk_import_task>
+<lnkRename>ٹاسک فہرست کو نیا نام دیں</lnkRename>
+<groupBox2>موجودہ کاموں کا انتظام کریں</groupBox2>
+<lnk_export_task>منتخب کام کو برآمد کریں</lnk_export_task>
+<lnkKey>اہم تفویض اختیار کی</lnkKey>
+<lnkEdit>منتخب کام فہرست تدوین کریں</lnkEdit>
+<lnkDelete>منتخب کام فہرست حذف کریں</lnkDelete>
+<columnHeader4>تصریح</columnHeader4>
+<this>کام مینیجر</this>
+</MarcEdit_frmTaskManager>
 <MarcEdit_frmTools>
-<lb_OutputFile>آؤٹ پٹ مسل:</lb_OutputFile><lb_InputFile>ان پٹ مسل:</lb_InputFile><cmdCancel>بند کریں</cmdCancel><cmdEdit>ریکارڈوں کی تدوین کریں</cmdEdit><cmdExecute>سرانجام دیں ۔</cmdExecute><lb_Results>نتائج:</lb_Results><groupBox2>افعال</groupBox2><ck_Marc8>آلاتی خوانا کیٹلاگ-8 کا ترجمہ کریں.</ck_Marc8><ck_UTF8>UTF8 کرنے کا ترجمہ کریں.</ck_UTF8><toolStrip1>toolStrip1</toolStrip1><toolOpen>مسل کھولیں</toolOpen><toolSave>مسل محفوظ کریں</toolSave><toolExport>ریکارڈ برآمد</toolExport><toolHelp>مدد</toolHelp><menuStrip1>menuStrip1</menuStrip1><mnuFile>مسل</mnuFile><mnuFileMain>مین ونڈو کو واپس جانے</mnuFileMain><mnuFileOpen>کھلا</mnuFileOpen><mnuFileSave>محفوظ کریں</mnuFileSave><mnuFileExit>خروج</mnuFileExit><mnuTools>فورم کے اوزار</mnuTools><mnuBatchProcessing>بیچ عمل ریکارڈ</mnuBatchProcessing><mnuToolsXML>XML فعل فہرست تدوین کریں</mnuToolsXML><mnuToolsEncoding>کریکٹر کے تبدیلی کے اوزار</mnuToolsEncoding><mnuToolsUTF8>MARC8 =&gt; UTF8 بدلی</mnuToolsUTF8><mnuToolsMARC8>MARC8 بدلی =&gt; UTF8</mnuToolsMARC8><otherConversionsToolStripMenuItem>دیگر تحویل</otherConversionsToolStripMenuItem><mnutoolsValidator>مآرکوالادیٹر</mnutoolsValidator><mnutoolsjoin>مآرکجوان</mnutoolsjoin><mnutoolssplit>مآرکسپلاٹ</mnutoolssplit><mnuToolsExport>آلاتی خوانا کیٹلاگ ریکارڈ برآمد</mnuToolsExport><mnuToolsExtract>اقتباس کا ریکارڈ منتخب</mnuToolsExtract><mnuHelp>مدد</mnuHelp><mnuHelpContents>سیاق و سباق اور مشعر</mnuHelpContents><mnuHelpError>تجاویز/نقص رپورٹ</mnuHelpError><this>مارک کے اوزار</this></MarcEdit_frmTools>
+<lb_OutputFile>آؤٹ پٹ مسل:</lb_OutputFile>
+<lb_InputFile>ان پٹ مسل:</lb_InputFile>
+<cmdCancel>بند کریں</cmdCancel>
+<cmdEdit>ریکارڈوں کی تدوین کریں</cmdEdit>
+<cmdExecute>سرانجام دیں ۔</cmdExecute>
+<lb_Results>نتائج:</lb_Results>
+<groupBox2>افعال</groupBox2>
+<ck_Marc8>آلاتی خوانا کیٹلاگ-8 کا ترجمہ کریں.</ck_Marc8>
+<ck_UTF8>UTF8 کرنے کا ترجمہ کریں.</ck_UTF8>
+<toolStrip1>toolStrip1</toolStrip1>
+<toolOpen>مسل کھولیں</toolOpen>
+<toolSave>مسل محفوظ کریں</toolSave>
+<toolExport>ریکارڈ برآمد</toolExport>
+<toolHelp>مدد</toolHelp>
+<menuStrip1>menuStrip1</menuStrip1>
+<mnuFile>مسل</mnuFile>
+<mnuFileMain>مین ونڈو کو واپس جانے</mnuFileMain>
+<mnuFileOpen>کھلا</mnuFileOpen>
+<mnuFileSave>محفوظ کریں</mnuFileSave>
+<mnuFileExit>خروج</mnuFileExit>
+<mnuTools>فورم کے اوزار</mnuTools>
+<mnuBatchProcessing>بیچ عمل ریکارڈ</mnuBatchProcessing>
+<mnuToolsXML>XML فعل فہرست تدوین کریں</mnuToolsXML>
+<mnuToolsEncoding>کریکٹر کے تبدیلی کے اوزار</mnuToolsEncoding>
+<mnuToolsUTF8>MARC8 =&gt; UTF8 بدلی</mnuToolsUTF8>
+<mnuToolsMARC8>MARC8 بدلی =&gt; UTF8</mnuToolsMARC8>
+<otherConversionsToolStripMenuItem>دیگر تحویل</otherConversionsToolStripMenuItem>
+<mnutoolsValidator>مآرکوالادیٹر</mnutoolsValidator>
+<mnutoolsjoin>مآرکجوان</mnutoolsjoin>
+<mnutoolssplit>مآرکسپلاٹ</mnutoolssplit>
+<mnuToolsExport>آلاتی خوانا کیٹلاگ ریکارڈ برآمد</mnuToolsExport>
+<mnuToolsExtract>اقتباس کا ریکارڈ منتخب</mnuToolsExtract>
+<mnuHelp>مدد</mnuHelp>
+<mnuHelpContents>سیاق و سباق اور مشعر</mnuHelpContents>
+<mnuHelpError>تجاویز/نقص رپورٹ</mnuHelpError>
+<this>مارک کے اوزار</this>
+</MarcEdit_frmTools>
 <MarcEdit_frmTutorialManager>
-<lbAdd>سبق کا ا ضافہ کریں:</lbAdd><lbTitle>عنوان:</lbTitle><lbDescription>تصریح:</lbDescription><lburl>URL:</lburl><lbModified>ترمیم:</lbModified><lbTutorial>مقامی سبق ہے:</lbTutorial><lnkAdd>ا ضافہ/ترمیم کریں</lnkAdd><lnkDelete>حذف کریں</lnkDelete><lnkClose>بند کریں</lnkClose><this>مقامی ٹیوٹوریل مینیجر</this></MarcEdit_frmTutorialManager>
+<lbAdd>سبق کا ا ضافہ کریں:</lbAdd>
+<lbTitle>عنوان:</lbTitle>
+<lbDescription>تصریح:</lbDescription>
+<lburl>URL:</lburl>
+<lbModified>ترمیم:</lbModified>
+<lbTutorial>مقامی سبق ہے:</lbTutorial>
+<lnkAdd>ا ضافہ/ترمیم کریں</lnkAdd>
+<lnkDelete>حذف کریں</lnkDelete>
+<lnkClose>بند کریں</lnkClose>
+<this>مقامی ٹیوٹوریل مینیجر</this>
+</MarcEdit_frmTutorialManager>
 <MarcEdit_frmUpdate>
-<label1>تازہ کاری کریں نوٹ:</label1><cmd_Update>تازہ کاری کریں</cmd_Update><cmd_Cancel>منسوخ کریں</cmd_Cancel><this>مآرکاداٹ کی تازہ کاری کریں</this></MarcEdit_frmUpdate>
+<label1>تازہ کاری کریں نوٹ:</label1>
+<cmd_Update>تازہ کاری کریں</cmd_Update>
+<cmd_Cancel>منسوخ کریں</cmd_Cancel>
+<this>مآرکاداٹ کی تازہ کاری کریں</this>
+</MarcEdit_frmUpdate>
 <MarcEdit_frmUtilities>
-<lnk_Merge_Records>ریکارڈ ضم کریں</lnk_Merge_Records><linkLabel1>بیچ عمل آلاتی خوانا کیٹلاگ ریکارڈ</linkLabel1><lnkMARC8toUTF8>کریکٹر تحویل</lnkMARC8toUTF8><lnkSplit>مآرکسپلاٹ</lnkSplit><lnkJoin>مآرکجوان</lnkJoin><lnkExport>برآمد ٹیب تحدیدی ریکارڈ</lnkExport><cmbfinal>MARC8</cmbfinal><lb_final>آخری ضابطہ بندی:</lb_final><cmd_encoding>MARC8</cmd_encoding><lb_encoding>اصل ضابطہ بندی:</lb_encoding><lb_UTF8_Header>کریکٹر تحویل</lb_UTF8_Header><cmdCancel>بند کریں</cmdCancel><cmdOK>عمل</cmdOK><lb_UTF8_Dest>مقصود مسل:</lb_UTF8_Dest><lb_UTF8_Source>ماخذ مسل:</lb_UTF8_Source><ck_limit_split># مسلیں:</ck_limit_split><lb_Split_Records>ریکارڈ فی مسل:</lb_Split_Records><cmdSplitClose>بند کریں</cmdSplitClose><cmdSplitProcess>عمل</cmdSplitProcess><lb_Split_Folder>مقصود پوشہ:</lb_Split_Folder><lb_Split_Source>ماخذ مسل:</lb_Split_Source><lb_Split_Header>مآرکسپلاٹ کی افادیت</lb_Split_Header><lnkJoinedFiles>شمولیت اختیار مسلیں نمایش کریں</lnkJoinedFiles><label19>فائل کی اقسام:</label19><ck_JoinIndividual>انفرادی مسلوں میں شامل</ck_JoinIndividual><cmdJoinCancel>بند کریں</cmdJoinCancel><cmdJoinProcess>عمل</cmdJoinProcess><lb_Join_Files>ملاپ کریں کے لیے مسلیں:</lb_Join_Files><lb_Join_Source>مقصود مسل:</lb_Join_Source><lb_Join_Header>مآرکجوان کی افادیت</lb_Join_Header><lb_Tab_Header>برآمد ٹیب تحدیدی ریکارڈ</lb_Tab_Header><cmb_sec_del></cmb_sec_del><label18>قطعہ تحدید کار میں</label18><lbdelimiter>قطعہ تحدید کار منتخب کریں</lbdelimiter><cmdTClose2>بند کریں</cmdTClose2><cmdTNext>اگلے &gt;&gt;</cmdTNext><label1>مرحلہ 1: راہیں مسل سیٹ کریں</label1><mnuLoad>لوڈ سیٹنگیں</mnuLoad><menuItem2>-</menuItem2><mnusave>سیٹنگیں محفوظ کریں</mnusave><menuItem1>-</menuItem1><menuItem3>سیٹنگیں صاف کریں</menuItem3><lb_Operation>فعل:</lb_Operation><cmdBClose>بند کریں</cmdBClose><cmdBProcess>عمل</cmdBProcess><lb_Extensions>فائل کی اقسام:</lb_Extensions><lb_BSource>ماخذ ڈائریکٹری:</lb_BSource><lbBTitle>بیچ عمل آلاتی خوانا کیٹلاگ ریکارڈ</lbBTitle><ck_normalize>قطعہ کوائف نااہل کریں</ck_normalize><cmd_tab2_back>پیٹھ</cmd_tab2_back><lnkSettings>سیٹنگیں...</lnkSettings><lnkDeleteField>قطعہ حذف کریں</lnkDeleteField><lnkAddField>قطعہ کا ا ضافہ کریں</lnkAddField><label14>سبفیلڈ:</label14><label11>قطعہ:</label11><cmdTClose>بند کریں</cmdTClose><cmdTExport>برآمد کریں</cmdTExport><label2>مرحلہ 2: قطعات/سبفیلڈس برآمد پر واضح کریں</label2><label3>برآمد ٹیب تحدیدی ریکارڈ</label3><ck_merge_to_source>وسیلہ میں ضم کریں</ck_merge_to_source><label17>مسل محفوظ کریں:</label17><label16>ماخذ کیٹیلاگ کر رہا ہے ۔</label16><ck_SameFile>عمل ماخذ مسل</ck_SameFile><cmd_merge_cancel>منسوخ کریں</cmd_merge_cancel><cmd_merge_next>اگلا =&gt;</cmd_merge_next><lb_merge_title>کوائف کے ریکارڈ ضم کریں</lb_merge_title><ck_merge_repeatable>ریپیتبلی ہے</ck_merge_repeatable><lb_id>ریکارڈ کے شناخت کنندہ:</lb_id><lb_merge>مسل ضم کریں:</lb_merge><lb_source>ماخذ مسل:</lb_source><cmd_merge_cancel_2>منسوخ کریں</cmd_merge_cancel_2><cmd_merge_next_2>اگلا =&gt;</cmd_merge_next_2><cmd_merge_back_2>&lt; واپس =</cmd_merge_back_2><label4>جو چاہو انجام دینے کے لیے آپریشن کے لیے بہترین تصریح آپشن کا انتخاب کریں ۔</label4><lb_merge_title_2>ضم ریکارڈ کوائف: مرحلہ 2</lb_merge_title_2><groupBox2>مسل اختیارات ضم کریں</groupBox2><rd_merge_overlay>ضم کریں اور تمام کوائف پوشش</rd_merge_overlay><rd_merge_delimited>تحدیدی کوائف ضم کریں</rd_merge_delimited><rd_merge_selected>منتخب قطعات ضم کریں</rd_merge_selected><rd_merge_all>تمام منفرد کوائف ضم کریں</rd_merge_all><button1>منسوخ کریں</button1><cmd_merge_select_fields_next>اگلا =&gt;</cmd_merge_select_fields_next><cmd_merge_select_fields_back>&lt; واپس =</cmd_merge_select_fields_back><groupBox3>اختیارات میں ترمیم کریں</groupBox3><label10>کرنا</label10><label12>سبفیلڈس</label12><label9>کرنا</label9><label8>اشارے</label8><label7>ضم قطعات:</label7><label6>قطعہ منتخب کریں:</label6><label5>ضم ریکارڈ کوائف: قطعات منتخب کریں</label5><ck_Repeatable>ریپیتبلی سبفیلڈ</ck_Repeatable><ck_sort>قطعات نہیں چھانٹ</ck_sort><P3_cmd_Cancel>منسوخ کریں</P3_cmd_Cancel><P3_cmd_finish>تکمیل</P3_cmd_finish><P3_ck_save_args>سا نچہ محفوظ کریں</P3_ck_save_args><button4>لوڈ سانچا</button4><P3_cmd_Apply>لگائیں</P3_cmd_Apply><P3_lb_args>دلائل</P3_lb_args><P3_lb_punct>اصطلاح ہے ۔ رموز اوقاف:</P3_lb_punct><P3_txt_indicators>\\\\</P3_txt_indicators><P3_lb_indicators>اشارے:</P3_lb_indicators><P3_mapto>میپ کریں:</P3_mapto><P3_lb_select>منتخب کریں:</P3_lb_select><button5>بند کریں</button5><label15>مسلیں ضم کی جا چکی ہے ۔  نتائج {merge_results_file} میں واقع ہے ۔</label15><label13>ضم مکمل</label13><this>عثلٹیس مکالمہ</this></MarcEdit_frmUtilities>
+<lnk_Merge_Records>ریکارڈ ضم کریں</lnk_Merge_Records>
+<linkLabel1>بیچ عمل آلاتی خوانا کیٹلاگ ریکارڈ</linkLabel1>
+<lnkMARC8toUTF8>کریکٹر تحویل</lnkMARC8toUTF8>
+<lnkSplit>مآرکسپلاٹ</lnkSplit>
+<lnkJoin>مآرکجوان</lnkJoin>
+<lnkExport>برآمد ٹیب تحدیدی ریکارڈ</lnkExport>
+<cmbfinal>MARC8</cmbfinal>
+<lb_final>آخری ضابطہ بندی:</lb_final>
+<cmd_encoding>MARC8</cmd_encoding>
+<lb_encoding>اصل ضابطہ بندی:</lb_encoding>
+<lb_UTF8_Header>کریکٹر تحویل</lb_UTF8_Header>
+<cmdCancel>بند کریں</cmdCancel>
+<cmdOK>عمل</cmdOK>
+<lb_UTF8_Dest>مقصود مسل:</lb_UTF8_Dest>
+<lb_UTF8_Source>ماخذ مسل:</lb_UTF8_Source>
+<ck_limit_split># مسلیں:</ck_limit_split>
+<lb_Split_Records>ریکارڈ فی مسل:</lb_Split_Records>
+<cmdSplitClose>بند کریں</cmdSplitClose>
+<cmdSplitProcess>عمل</cmdSplitProcess>
+<lb_Split_Folder>مقصود پوشہ:</lb_Split_Folder>
+<lb_Split_Source>ماخذ مسل:</lb_Split_Source>
+<lb_Split_Header>مآرکسپلاٹ کی افادیت</lb_Split_Header>
+<lnkJoinedFiles>شمولیت اختیار مسلیں نمایش کریں</lnkJoinedFiles>
+<label19>فائل کی اقسام:</label19>
+<ck_JoinIndividual>انفرادی مسلوں میں شامل</ck_JoinIndividual>
+<cmdJoinCancel>بند کریں</cmdJoinCancel>
+<cmdJoinProcess>عمل</cmdJoinProcess>
+<lb_Join_Files>ملاپ کریں کے لیے مسلیں:</lb_Join_Files>
+<lb_Join_Source>مقصود مسل:</lb_Join_Source>
+<lb_Join_Header>مآرکجوان کی افادیت</lb_Join_Header>
+<lb_Tab_Header>برآمد ٹیب تحدیدی ریکارڈ</lb_Tab_Header>
+<cmb_sec_del></cmb_sec_del>
+<label18>قطعہ تحدید کار میں</label18>
+<lbdelimiter>قطعہ تحدید کار منتخب کریں</lbdelimiter>
+<cmdTClose2>بند کریں</cmdTClose2>
+<cmdTNext>اگلے &gt;&gt;</cmdTNext>
+<label1>مرحلہ 1: راہیں مسل سیٹ کریں</label1>
+<mnuLoad>لوڈ سیٹنگیں</mnuLoad>
+<menuItem2>-</menuItem2>
+<mnusave>سیٹنگیں محفوظ کریں</mnusave>
+<menuItem1>-</menuItem1>
+<menuItem3>سیٹنگیں صاف کریں</menuItem3>
+<lb_Operation>فعل:</lb_Operation>
+<cmdBClose>بند کریں</cmdBClose>
+<cmdBProcess>عمل</cmdBProcess>
+<lb_Extensions>فائل کی اقسام:</lb_Extensions>
+<lb_BSource>ماخذ ڈائریکٹری:</lb_BSource>
+<lbBTitle>بیچ عمل آلاتی خوانا کیٹلاگ ریکارڈ</lbBTitle>
+<ck_normalize>قطعہ کوائف نااہل کریں</ck_normalize>
+<cmd_tab2_back>پیٹھ</cmd_tab2_back>
+<lnkSettings>سیٹنگیں...</lnkSettings>
+<lnkDeleteField>قطعہ حذف کریں</lnkDeleteField>
+<lnkAddField>قطعہ کا ا ضافہ کریں</lnkAddField>
+<label14>سبفیلڈ:</label14>
+<label11>قطعہ:</label11>
+<cmdTClose>بند کریں</cmdTClose>
+<cmdTExport>برآمد کریں</cmdTExport>
+<label2>مرحلہ 2: قطعات/سبفیلڈس برآمد پر واضح کریں</label2>
+<label3>برآمد ٹیب تحدیدی ریکارڈ</label3>
+<ck_merge_to_source>وسیلہ میں ضم کریں</ck_merge_to_source>
+<label17>مسل محفوظ کریں:</label17>
+<label16>ماخذ کیٹیلاگ کر رہا ہے ۔</label16>
+<ck_SameFile>عمل ماخذ مسل</ck_SameFile>
+<cmd_merge_cancel>منسوخ کریں</cmd_merge_cancel>
+<cmd_merge_next>اگلا =&gt;</cmd_merge_next>
+<lb_merge_title>کوائف کے ریکارڈ ضم کریں</lb_merge_title>
+<ck_merge_repeatable>ریپیتبلی ہے</ck_merge_repeatable>
+<lb_id>ریکارڈ کے شناخت کنندہ:</lb_id>
+<lb_merge>مسل ضم کریں:</lb_merge>
+<lb_source>ماخذ مسل:</lb_source>
+<cmd_merge_cancel_2>منسوخ کریں</cmd_merge_cancel_2>
+<cmd_merge_next_2>اگلا =&gt;</cmd_merge_next_2>
+<cmd_merge_back_2>&lt; واپس =</cmd_merge_back_2>
+<label4>جو چاہو انجام دینے کے لیے آپریشن کے لیے بہترین تصریح آپشن کا انتخاب کریں ۔</label4>
+<lb_merge_title_2>ضم ریکارڈ کوائف: مرحلہ 2</lb_merge_title_2>
+<groupBox2>مسل اختیارات ضم کریں</groupBox2>
+<rd_merge_overlay>ضم کریں اور تمام کوائف پوشش</rd_merge_overlay>
+<rd_merge_delimited>تحدیدی کوائف ضم کریں</rd_merge_delimited>
+<rd_merge_selected>منتخب قطعات ضم کریں</rd_merge_selected>
+<rd_merge_all>تمام منفرد کوائف ضم کریں</rd_merge_all>
+<button1>منسوخ کریں</button1>
+<cmd_merge_select_fields_next>اگلا =&gt;</cmd_merge_select_fields_next>
+<cmd_merge_select_fields_back>&lt; واپس =</cmd_merge_select_fields_back>
+<groupBox3>اختیارات میں ترمیم کریں</groupBox3>
+<label10>کرنا</label10>
+<label12>سبفیلڈس</label12>
+<label9>کرنا</label9>
+<label8>اشارے</label8>
+<label7>ضم قطعات:</label7>
+<label6>قطعہ منتخب کریں:</label6>
+<label5>ضم ریکارڈ کوائف: قطعات منتخب کریں</label5>
+<ck_Repeatable>ریپیتبلی سبفیلڈ</ck_Repeatable>
+<ck_sort>قطعات نہیں چھانٹ</ck_sort>
+<P3_cmd_Cancel>منسوخ کریں</P3_cmd_Cancel>
+<P3_cmd_finish>تکمیل</P3_cmd_finish>
+<P3_ck_save_args>سا نچہ محفوظ کریں</P3_ck_save_args>
+<button4>لوڈ سانچا</button4>
+<P3_cmd_Apply>لگائیں</P3_cmd_Apply>
+<P3_lb_args>دلائل</P3_lb_args>
+<P3_lb_punct>اصطلاح ہے ۔ رموز اوقاف:</P3_lb_punct>
+<P3_txt_indicators>\\\\</P3_txt_indicators>
+<P3_lb_indicators>اشارے:</P3_lb_indicators>
+<P3_mapto>میپ کریں:</P3_mapto>
+<P3_lb_select>منتخب کریں:</P3_lb_select>
+<button5>بند کریں</button5>
+<label15>مسلیں ضم کی جا چکی ہے ۔  نتائج {merge_results_file} میں واقع ہے ۔</label15>
+<label13>ضم مکمل</label13>
+<this>عثلٹیس مکالمہ</this>
+</MarcEdit_frmUtilities>
 <MarcEdit_frmvalidator>
-<lb_Source>ماخذ مسل:</lb_Source><lb_Rules>قواعد مسل:</lb_Rules><cmd_Ok>ٹھيک ہے</cmd_Ok><cmd_close>بند کریں</cmd_close><groupBox1>اختیارات</groupBox1><optIdentify>ناجائز ریکارڈ کی شناخت</optIdentify><opt_remove>ناجائز ریکارڈ کو ہٹانے</opt_remove><opt_validate>ریکارڈ (طے شدہ) کا جواز دیں</opt_validate><this>مآرکوالادیٹر</this></MarcEdit_frmvalidator>
+<lb_Source>ماخذ مسل:</lb_Source>
+<lb_Rules>قواعد مسل:</lb_Rules>
+<cmd_Ok>ٹھيک ہے</cmd_Ok>
+<cmd_close>بند کریں</cmd_close>
+<groupBox1>اختیارات</groupBox1>
+<optIdentify>ناجائز ریکارڈ کی شناخت</optIdentify>
+<opt_remove>ناجائز ریکارڈ کو ہٹانے</opt_remove>
+<opt_validate>ریکارڈ (طے شدہ) کا جواز دیں</opt_validate>
+<this>مآرکوالادیٹر</this>
+</MarcEdit_frmvalidator>
 <MarcEdit_frmVURL>
-<cmd_Ok>ٹھيک ہے</cmd_Ok><cmdCancel>بند کریں</cmdCancel><groupBox1>رپورٹ کے اختیارات:</groupBox1><lb_MARC_Title>عنوان:</lb_MARC_Title><lbReport>رپورٹ قسم:</lbReport><lb_XSLT>XSLT مسل:</lb_XSLT><lb_Dest>آؤٹ پٹ مسل:</lb_Dest><lb_MARC>ان پٹ مسل:</lb_MARC><lb_Fields>قطعات:</lb_Fields><this>URL کی توثیق کریں</this></MarcEdit_frmVURL>
+<cmd_Ok>ٹھيک ہے</cmd_Ok>
+<cmdCancel>بند کریں</cmdCancel>
+<groupBox1>رپورٹ کے اختیارات:</groupBox1>
+<lb_MARC_Title>عنوان:</lb_MARC_Title>
+<lbReport>رپورٹ قسم:</lbReport>
+<lb_XSLT>XSLT مسل:</lb_XSLT>
+<lb_Dest>آؤٹ پٹ مسل:</lb_Dest>
+<lb_MARC>ان پٹ مسل:</lb_MARC>
+<lb_Fields>قطعات:</lb_Fields>
+<this>URL کی توثیق کریں</this>
+</MarcEdit_frmVURL>
 <MarcEdit_frmXMLTreeView>
-<cmdSave>لگائیں</cmdSave><cmdClose>بند کریں</cmdClose><lb_file>مسل منتخب کریں:</lb_file><ck_backup>پشتارہ سے بحال</ck_backup><this>مآرکاداٹ زبان مسل تدوین کار</this></MarcEdit_frmXMLTreeView>
+<cmdSave>لگائیں</cmdSave>
+<cmdClose>بند کریں</cmdClose>
+<lb_file>مسل منتخب کریں:</lb_file>
+<ck_backup>پشتارہ سے بحال</ck_backup>
+<this>مآرکاداٹ زبان مسل تدوین کار</this>
+</MarcEdit_frmXMLTreeView>
 <MarcEdit_frm_FASTHeadings>
-<lnkClassify>روزہ اوکلک کی سروس کے بارے میں</lnkClassify><label1>اوکلک کی فاسٹ ویب خدمت کا استعمال اس خدمت کرتا ہے ۔  روزہ ریکوممانداٹاونسری ایک خصوصی مارک ریکارڈ کے بارے میں اس ویب خدمت معلومات بھیج رہا ہے کی طرف سے بنائی ہے ۔  OCLC'swebservice واپس مآرکاداٹ کے لئے ایک موضوع کے ساتھ سب سے زیادہ قریبی وابستہ روزہ سرخیاں واپس کرے گا ۔</label1><ck_conditional_fast>جب کوئی موضوع سرخیاں موجود ہیں روزہ سرخیاں کا ا ضافہ کریں</ck_conditional_fast><ck_always_fast>ہمیشہ روزہ سرخیاں کا ا ضافہ کریں</ck_always_fast><label8>موضوع سرخیاں:</label8><button1>عمل</button1><cmd_Close>بند کریں</cmd_Close><this>روزہ سرخیاں تخلیق</this></MarcEdit_frm_FASTHeadings>
+<lnkClassify>روزہ اوکلک کی سروس کے بارے میں</lnkClassify>
+<label1>اوکلک کی فاسٹ ویب خدمت کا استعمال اس خدمت کرتا ہے ۔  روزہ سفارشات ایک خصوصی مارک ریکارڈ کے بارے میں اس ویب خدمت معلومات بھیج رہا ہے کی طرف سے پیدا ہوتے ہیں ۔  اوکلک کی ویب خدمت واپس مآرکاداٹ کے لئے ایک موضوع کے ساتھ سب سے زیادہ قریبی وابستہ روزہ سرخیاں واپس کرے گا ۔</label1>
+<ck_conditional_fast>جب کوئی موضوع سرخیاں موجود ہیں روزہ سرخیاں کا ا ضافہ کریں</ck_conditional_fast>
+<ck_always_fast>ہمیشہ روزہ سرخیاں کا ا ضافہ کریں</ck_always_fast>
+<label8>موضوع سرخیاں:</label8>
+<button1>عمل</button1>
+<cmd_Close>بند کریں</cmd_Close>
+<this>روزہ سرخیاں تخلیق</this>
+</MarcEdit_frm_FASTHeadings>
 <MarcEdit_frm_merge_options>
-<cmd_save>محفوظ کریں</cmd_save><cmd_close>بند کریں</cmd_close><ck_1xxa>$a: اصل اندراج</ck_1xxa><ck_245p>$p: پوائنٹ بڑا کریں/سائٹ کے کام کا نام</ck_245p><ck_245n>$n: پوائنٹ بڑا کریں/سائٹ کے کام کی تعداد</ck_245n><ck_245c>$c: ریسپانسابلاٹی کا بیان</ck_245c><ck_245b>$b: عنوان کے باقی</ck_245b><ck_245a>$a: عنوان</ck_245a><ck_lang>زبان (مؤقف: 35-37)</ck_lang><ck_dates>تاریخوں (مؤقف: 7-14)</ck_dates><ck_p7>بلول (پوزیشن 7)</ck_p7><ck_p6>قسم (پوزیشن 6)</ck_p6><label6>کنٹرول نمبر</label6><ck_form>فارم (مؤقف: 23)</ck_form><ck_245_h>$h: جنرل مواد عہدہ</ck_245_h><label5>متفرق قطعات:</label5><label4>قطعہ 245:</label4><label3>مصنف (1xx) قطعہ</label3><label2>008 مؤقف</label2><label1>لڈر پوزیشن</label1><this>ضم کریں اختیارات</this></MarcEdit_frm_merge_options>
+<cmd_save>محفوظ کریں</cmd_save>
+<cmd_close>بند کریں</cmd_close>
+<ck_1xxa>$a: اصل اندراج</ck_1xxa>
+<ck_245p>$p: پوائنٹ بڑا کریں/سائٹ کے کام کا نام</ck_245p>
+<ck_245n>$n: پوائنٹ بڑا کریں/سائٹ کے کام کی تعداد</ck_245n>
+<ck_245c>$c: ریسپانسابلاٹی کا بیان</ck_245c>
+<ck_245b>$b: عنوان کے باقی</ck_245b>
+<ck_245a>$a: عنوان</ck_245a>
+<ck_lang>زبان (مؤقف: 35-37)</ck_lang>
+<ck_dates>تاریخوں (مؤقف: 7-14)</ck_dates>
+<ck_p7>بلول (پوزیشن 7)</ck_p7>
+<ck_p6>قسم (پوزیشن 6)</ck_p6>
+<label6>کنٹرول نمبر</label6>
+<ck_form>فارم (مؤقف: 23)</ck_form>
+<ck_245_h>$h: جنرل مواد عہدہ</ck_245_h>
+<label5>متفرق قطعات:</label5>
+<label4>قطعہ 245:</label4>
+<label3>مصنف (1xx) قطعہ</label3>
+<label2>008 مؤقف</label2>
+<label1>لڈر پوزیشن</label1>
+<this>ضم کریں اختیارات</this>
+</MarcEdit_frm_merge_options>
 <MarcEdit_frm_z3950_preferences>
-<tabDBProps>خواص کوائفیہ</tabDBProps><ck_Paused>توقف (6 سیکنڈز) زیر کریں</ck_Paused><label1>کوائفیہ:</label1><ck_Show>ڈیٹا بیس کی نمایش کریں</ck_Show><lbPassword>پاس ورڈ:</lbPassword><lbUsername>صارف کا نام:</lbUsername><lbSyntax>نحو:</lbSyntax><lbPort>دہانہ:</lbPort><lbHost>میزبان:</lbHost><lbname>نام:</lbname><tabDBAdvanced>اعلی خواص</tabDBAdvanced><label4>(سیکنڈ) میں ٹائم آؤٹ:</label4><label2>عنصر سیٹ:</label2><label3>دیگر اختیارات:</label3><lnkftp>http://www.loc.gov/z3950/agency/defns/bib1.html</lnkftp><lbInfo>مزید معلومات:</lbInfo><lbISBN>ٹیلی اسسن:</lbISBN><lbSubject>موضوع:</lbSubject><lbTitle>عنوان:</lbTitle><lbAuthor>تخلیق کار:</lbAuthor><lbadvTitle>Z39.50 وصف 4: ڈھانچہ</lbadvTitle><cmdSave>محفوظ کریں</cmdSave><cmdClose>بند کریں</cmdClose><this>خواص کوائفیہ</this></MarcEdit_frm_z3950_preferences>
+<tabDBProps>خواص کوائفیہ</tabDBProps>
+<ck_Paused>توقف (6 سیکنڈز) زیر کریں</ck_Paused>
+<label1>کوائفیہ:</label1>
+<ck_Show>ڈیٹا بیس کی نمایش کریں</ck_Show>
+<lbPassword>پاس ورڈ:</lbPassword>
+<lbUsername>صارف کا نام:</lbUsername>
+<lbSyntax>نحو:</lbSyntax>
+<lbPort>دہانہ:</lbPort>
+<lbHost>میزبان:</lbHost>
+<lbname>نام:</lbname>
+<tabDBAdvanced>اعلی خواص</tabDBAdvanced>
+<label4>(سیکنڈ) میں ٹائم آؤٹ:</label4>
+<label2>عنصر سیٹ:</label2>
+<label3>دیگر اختیارات:</label3>
+<lnkftp>http://www.loc.gov/z3950/agency/defns/bib1.html</lnkftp>
+<lbInfo>مزید معلومات:</lbInfo>
+<lbISBN>ٹیلی اسسن:</lbISBN>
+<lbSubject>موضوع:</lbSubject>
+<lbTitle>عنوان:</lbTitle>
+<lbAuthor>تخلیق کار:</lbAuthor>
+<lbadvTitle>Z39.50 وصف 4: ڈھانچہ</lbadvTitle>
+<cmdSave>محفوظ کریں</cmdSave>
+<cmdClose>بند کریں</cmdClose>
+<this>خواص کوائفیہ</this>
+</MarcEdit_frm_z3950_preferences>
 <MarcEdit_meEditor>
-<lnkLoadAll>لوڈ پوری مسل</lnkLoadAll><lb_bytes>{loaded_bytes} {file_bytes} کے بائٹ لوڈ نہیں کیا گیا ہے ۔</lb_bytes><tbar1>toolStrip1</tbar1><tbNew>نیا ریکارڈ</tbNew><mnuCNewWindow>اوپن نیا دریچہ</mnuCNewWindow><ContextAuthority>اتھارٹی</ContextAuthority><ContextAuthorityName>نام</ContextAuthorityName><ContextAuthoritySubject>موضوع</ContextAuthoritySubject><cBook>کتاب</cBook><cSerial>سیریل</cSerial><cVisualMat>بصری مواد</cVisualMat><cMaps>کارٹوگراپہاک ریسورس</cMaps><cSoundRec>آواز ریکارڈ کاری</cSoundRec><cScore>اسکور</cScore><cElectMat>الیکٹرانک وسیلہ</cElectMat><cMixedMat>مخلوط مواد</cMixedMat><tbOpen>مسل کھولیں</tbOpen><tbSave>مسل محفوظ کریں</tbSave><tbPrint>مسل نہیں چھاپ</tbPrint><tbCompile>ریکارڈ مرتب کریں</tbCompile><tbCut>کاٹ</tbCut><tbCopy>نقل</tbCopy><tbPaste>جوڑیں</tbPaste><tbALA>MARC8 على حرف کا مجموعہ</tbALA><tbDelete>حذف کریں</tbDelete><tbFind>تلاش کریں</tbFind><tbZ39_50>Z39.50/و وصول کار</tbZ39_50><tbHelp>مدد</tbHelp><mnuObj>menuStrip1</mnuObj><mnuFile>مسل</mnuFile><mnuFileMain>مین ونڈو کو واپس جانے</mnuFileMain><mnuFileNew>نیا</mnuFileNew><mnuFileNewWindow>اوپن نیا دریچہ</mnuFileNewWindow><mnuFileNewDefault>طے شدہ</mnuFileNewDefault><mnuFileNewAuthority>اتھارٹی</mnuFileNewAuthority><mnuFileNewAuthorityName>نام</mnuFileNewAuthorityName><mnuFileNewAuthoritySubject>موضوع</mnuFileNewAuthoritySubject><mnuFileNewBook>کتاب</mnuFileNewBook><mnuFileNewSerial>سیریل</mnuFileNewSerial><mnuFileVisualMat>بصری مواد</mnuFileVisualMat><mnuFileNewMap>کارٹوگراپہاک ریسورس</mnuFileNewMap><mnuFileNewSound>آواز ریکارڈ کاری</mnuFileNewSound><mnuFileNewScore>اسکور</mnuFileNewScore><mnuFileNewER>الیکٹرانک وسیلہ</mnuFileNewER><mnuFileNewMix>مخلوط مواد</mnuFileNewMix><mnuFileOpen>کھلا</mnuFileOpen><mnuFileRecent>حالیہ مسلیں</mnuFileRecent><mnunone10>کوئی نہیں</mnunone10><mnunone9>کوئی نہیں</mnunone9><mnunone8>کوئی نہیں</mnunone8><mnunone7>کوئی نہیں</mnunone7><mnunone6>کوئی نہیں</mnunone6><mnunone5>کوئی نہیں</mnunone5><mnunone4>کوئی نہیں</mnunone4><mnunone3>کوئی نہیں</mnunone3><mnunone2>کوئی نہیں</mnunone2><mnunone1>کوئی نہیں</mnunone1><mnuFileClearHistory>سابقات صاف کریں</mnuFileClearHistory><mnuFileClearList>حالیہ مسلیں صاف کریں</mnuFileClearList><clearEditReplaceHistoryToolStripMenuItem>تدوین/بدل سابقات صاف کریں</clearEditReplaceHistoryToolStripMenuItem><mnuFileClose>بند کریں</mnuFileClose><mnuFileSave>محفوظ کریں</mnuFileSave><mnuFileSaveAs>محفوظ کریں بطور...</mnuFileSaveAs><mnuFilePrint>پرنٹ کریں</mnuFilePrint><FileSelectIndividualMake>انفرادی Record(s) بنانے کے لئے منتخب کریں</FileSelectIndividualMake><mnuFileCompile>مسل میں مارک مرتب کریں</mnuFileCompile><mnuFileExit>خروج</mnuFileExit><mnuEdit>تدوین کریں</mnuEdit><mnuEditUndo>کالعدم کریں</mnuEditUndo><mnuEditRedo>اعادہ کریں</mnuEditRedo><mnuEditSpecialUndo>خصوصی کالعدم کریں</mnuEditSpecialUndo><mnuEditCut>کاٹ</mnuEditCut><mnuEditCopy>نقل</mnuEditCopy><mnuEditPaste>جوڑیں</mnuEditPaste><mnuEditDupLines>مثنی لائنیں</mnuEditDupLines><mnuEditClear>واضح</mnuEditClear><mnuEditFind>تلاش کریں</mnuEditFind><mnuEditReplace>بدل دیں</mnuEditReplace><toolStripMenuItem28>تیز راہیں تدوین کریں</toolStripMenuItem28><changeCaseToolStripMenuItem>حالت حرف تبدیل کریں</changeCaseToolStripMenuItem><lowerCaseToolStripMenuItem>لوئر کیس</lowerCaseToolStripMenuItem><upperCaseToolStripMenuItem>بڑے حرف</upperCaseToolStripMenuItem><sentenceCaseToolStripMenuItem>عنوان حالت حروف</sentenceCaseToolStripMenuItem><initialCaseToolStripMenuItem>ابتدائی کیس</initialCaseToolStripMenuItem><capitalizeInitialCharacterToolStripMenuItem>ابتدائی حرف بڑا کریں</capitalizeInitialCharacterToolStripMenuItem><fieldEditsToolStripMenuItem>قطعہ تدوین کرتا ہے ۔</fieldEditsToolStripMenuItem><findRecordsMissingFieldToolStripMenuItem>ریکارڈ قطعہ غائب کی تلاش</findRecordsMissingFieldToolStripMenuItem><swapTitleToolStripMenuItem>عنوان کا مبادلہ کریں</swapTitleToolStripMenuItem><mnuEditJumpTo>کے لئے جائیں...</mnuEditJumpTo><jumpToRecordToolStripMenuItem>کے لئے جائیں...ریکارڈ</jumpToRecordToolStripMenuItem><jumpToPageToolStripMenuItem>کے لئے جائیں...صفحہ</jumpToPageToolStripMenuItem><mnuEditControl>واحد کنٹرول نمبر داخل کریں</mnuEditControl><mnuEdit006>داخل تدوین 006</mnuEdit006><mnuEdit006Edit>تدوین کریں</mnuEdit006Edit><mnuEdit006Book>کتاب</mnuEdit006Book><mnuEdit006Serial>مسلسل وسیلہ</mnuEdit006Serial><mnuEdit006Map>کارٹوگراپہاک ریسورس</mnuEdit006Map><mnuEdit006Sound>آواز ریکارڈ کاری</mnuEdit006Sound><mnuEdit006Score>اسکور</mnuEdit006Score><mnuEdit006ER>الیکٹرانک وسیلہ</mnuEdit006ER><mnuEdit006Visual>بصری مواد</mnuEdit006Visual><mnuEdit006Mixed>مخلوط مواد</mnuEdit006Mixed><mnuEdit008>داخل تدوین 008</mnuEdit008><mnuEdit008Edit>تدوین کریں</mnuEdit008Edit><mnuEdit008Book>کتاب</mnuEdit008Book><mnuEdit008Serial>مسلسل وسیلہ</mnuEdit008Serial><mnuEdit008Map>کارٹوگراپہاک ریسورس</mnuEdit008Map><mnuEdit008Sound>آواز ریکارڈ کاری</mnuEdit008Sound><mnuEdit008Score>اسکور</mnuEdit008Score><mnuEdit008ER>الیکٹرانک وسیلہ</mnuEdit008ER><mnuEdit008Visual>بصری مواد</mnuEdit008Visual><mnuEdit008Mixed>مخلوط مواد</mnuEdit008Mixed><toolStripMenuItem27>تختہ تراشہ مشمولات بدلنا</toolStripMenuItem27><mnuEditConverttoUTF8>آلاتی خوانا کیٹلاگ-8 UTF-8</mnuEditConverttoUTF8><mnuEditConvertoMarc8>آلاتی خوانا کیٹلاگ-8 کو UTF-8</mnuEditConvertoMarc8><mnuEditALA>آلاتی خوانا کیٹلاگ-8 على حرف کا مجموعہ</mnuEditALA><mnuEditUTF8CharacterMap>UTF-8 کریکٹر نقشہ</mnuEditUTF8CharacterMap><mnuEditSelectAll>تمام منتخب کریں</mnuEditSelectAll><mnuEditWrap>لفظ کو لفاف</mnuEditWrap><mnuEditRTL>دائیں بائیں کرنے کے لئے دکھائیں</mnuEditRTL><mnuEditInfo>مارک کی معلومات</mnuEditInfo><mnuEditInfoOCLC>اوکلک مارک مدد</mnuEditInfoOCLC><mnuEditInfoLC>کانگریس مارک مدد کی امریکی لائبریری</mnuEditInfoLC><mnuFont>فانٹ</mnuFont><mnuFontFont>فانٹ...</mnuFontFont><mnuFontColor>رنگ...</mnuFontColor><mnuReports>رپورٹوں</mnuReports><mnuReportsField>میدان کا شمار</mnuReportsField><tlReportsMaterialReport>مواد کی قسم کی رپورٹ</tlReportsMaterialReport><generateReportToolStripMenuItem>رپورٹ تیار</generateReportToolStripMenuItem><findBookToolStripMenuItem>ریکارڈ کی قسم کی طرف سے تلاش کریں</findBookToolStripMenuItem><booksToolStripMenuItem>کتابیں</booksToolStripMenuItem><toolStripMenuItem32>کمپیوٹر مسلیں</toolStripMenuItem32><continuingResourcesToolStripMenuItem>مسلسل وسائل</continuingResourcesToolStripMenuItem><mapsToolStripMenuItem>نقشہ جات</mapsToolStripMenuItem><mixedMaterialsToolStripMenuItem>مخلوط مواد</mixedMaterialsToolStripMenuItem><scoresToolStripMenuItem>سکور</scoresToolStripMenuItem><soundRecordingsToolStripMenuItem>آواز کی ریکارڈنگ</soundRecordingsToolStripMenuItem><visualMaterialsToolStripMenuItem>بصری مواد</visualMaterialsToolStripMenuItem><mARCValidatorToolStripMenuItem>مآرکوالادیٹر</mARCValidatorToolStripMenuItem><mnuTools>فورم کے اوزار</mnuTools><mnuToolsCalculator>ست کیلکولیٹر</mnuToolsCalculator><mnuToolsCallNum>کال نمبر نکالیں</mnuToolsCallNum><mnuToolsControlNumber>کنٹرول نمبر نکالیں</mnuToolsControlNumber><mnuToolsRDAHelpers>رد مددگار</mnuToolsRDAHelpers><mnuToolsEditConstant>مسلسل کوائف تدوین کریں</mnuToolsEditConstant><mnuToolsAssigned>تفویض کردہ مسلسل کوائف</mnuToolsAssigned><mnuConstant1>1) غیر وضاحتی سلک</mnuConstant1><mnuConstant2>2) غیر وضاحتی سلک</mnuConstant2><mnuConstant3>3) غیر وضاحتی سلک</mnuConstant3><mnuConstant4>4) غیر وضاحتی سلک</mnuConstant4><mnuConstant5>5) غیر وضاحتی سلک</mnuConstant5><mnuConstant6>6) غیر وضاحتی سلک</mnuConstant6><mnuConstant7>7) غیر وضاحتی سلک</mnuConstant7><mnuConstant8>8) غیر وضاحتی سلک</mnuConstant8><mnuConstant9>9) غیر وضاحتی سلک</mnuConstant9><mnuConstant10>10) غیر وضاحتی سلک</mnuConstant10><mnutoolmanageAutomate>کام کا انتظام کریں</mnutoolmanageAutomate><mnutoolassignTasks>تفویض کردہ مجموعہ کار</mnutoolassignTasks><mnuDefTask>فی الحال دستیاب مجموعہ کار</mnuDefTask><task1>1) غیر وضاحتی کام</task1><task2>2) غیر وضاحتی کام</task2><task3>3) غیر وضاحتی کام</task3><task4>4) غیر وضاحتی کام</task4><task5>5) غیر وضاحتی کام</task5><task6>6) غیر وضاحتی کام</task6><task7>7) غیر وضاحتی کام</task7><task8>8) غیر وضاحتی کام</task8><task9>9) غیر وضاحتی کام</task9><task10>10) غیر وضاحتی کام</task10><mnuToolsZ3950>Z39.50/و اختیارات</mnuToolsZ3950><marcEditZ3950SRUClientToolStripMenuItem>مآرکاداٹ Z39.50/و وصول کار</marcEditZ3950SRUClientToolStripMenuItem><importRecordToolStripMenuItem>Z39.50 درآمد ریکارڈ</importRecordToolStripMenuItem><uploadEditedRecordToolStripMenuItem>Z39.50 ریکارڈ اپ لوڈ کریں</uploadEditedRecordToolStripMenuItem><toolz3950delete>Z39.50 ریکارڈ حذف کریں</toolz3950delete><z3950UpdateHoldingsToolStripMenuItem>Z39.50 اپ ڈیٹ ہولڈنگ</z3950UpdateHoldingsToolStripMenuItem><mnuToolsValidate>آلاتی خوانا کیٹلاگ ریکارڈ کا جواز دیں</mnuToolsValidate><mnuToolsDedup>ریکارڈ نقل</mnuToolsDedup><mnuToolsOAI>فصل اواا کے</mnuToolsOAI><mnutoolsurl>آلاتی خوانا کیٹلاگ URL سے نکالیں ۔</mnutoolsurl><toolStripMenuItem3>نااہل کریں...</toolStripMenuItem3><normalizeLCRecordToolStripMenuItem>LC ریکارڈ نااہل کریں</normalizeLCRecordToolStripMenuItem><normalizeMicrolifRecordsToolStripMenuItem>ماکرولاف کے ریکارڈ کو نااہل کریں</normalizeMicrolifRecordsToolStripMenuItem><mnuToolsRemoveEmpty>خالی قطعات/سبفیلڈس ہٹانا</mnuToolsRemoveEmpty><mnuToolsAdd>قطعہ ا ضافہ/حذف</mnuToolsAdd><toolStripMenuItem26>نقل قطعہ</toolStripMenuItem26><mnuToolsEditField>کوائف قطعہ تدوین کریں</mnuToolsEditField><mnuToolsIndicator>اشارے کوائف تدوین کریں</mnuToolsIndicator><mnuToolsSubfield>سبفیلڈ کوائف تدوین کریں</mnuToolsSubfield><mnuToolsSortby>چھانٹیں بمطابق...</mnuToolsSortby><mnuToolsCustomSort>مخصوص چھانٹ</mnuToolsCustomSort><mnuToolsSortControl>چھانٹیں بمطابق کنٹرول نمبر</mnuToolsSortControl><mnuToolsSortbyTitle>چھانٹیں بمطابق عنوان</mnuToolsSortbyTitle><mnuToolsSortAuthor>چھانٹیں بمطابق تخلیق کار</mnuToolsSortAuthor><mnuToolsSortByCall>چھانٹیں بمطابق فون نمبر</mnuToolsSortByCall><mnuToolsSort2>چھانٹیں 0xx قطعات</mnuToolsSort2><mnuToolsSort>تمام قطعات نہیں چھانٹ</mnuToolsSort><mnuToolsSwap>کوائف قطعہ کا مبادلہ کریں</mnuToolsSwap><mnuToolsOptions>ترجیحات</mnuToolsOptions><mnu_ILS>انہوں نے اسے [نام]</mnu_ILS><mnu_ils_search>تلاش کریں</mnu_ils_search><updateCreateToolStripMenuItem>تازہ کاری کریں/بنائیں</updateCreateToolStripMenuItem><mnuOCLC>اوکلک وورلڈکت</mnuOCLC><toolStripMenuItem31>تلاش وورلڈکت</toolStripMenuItem31><mnuOCLCLocalBibData>مقامی ببلیوگراپہاک کوائف کا ا ضافہ کریں/حذف کریں/تازہ کاری کریں</mnuOCLCLocalBibData><createUpdateToolStripMenuItem>ببلیوگراپہاک کوائف تخلیق کریں/تازہ کاری کریں</createUpdateToolStripMenuItem><deleteHoldingsToolStripMenuItem>ہولڈنگ کی تازہ کاری کریں</deleteHoldingsToolStripMenuItem><pluginsToolStripMenuItem>پلگ ان</pluginsToolStripMenuItem><mnuHelp>مدد</mnuHelp><mnuHelpContents>فہرست مشمولات اور مدد</mnuHelpContents><label1>فی صفحہ ریکارڈ</label1><lblPage>صفحات</lblPage><btnPre>&lt;</btnPre><btnNext>&gt;</btnNext><btnLast>&gt;&gt;</btnLast><btnFirst>&lt;&lt;</btnFirst><this>مآرکادیٹر</this></MarcEdit_meEditor>
+<lnkLoadAll>لوڈ پوری مسل</lnkLoadAll>
+<lb_bytes>{loaded_bytes} {file_bytes} کے بائٹ لوڈ نہیں کیا گیا ہے ۔</lb_bytes>
+<tbar1>toolStrip1</tbar1>
+<tbNew>نیا ریکارڈ</tbNew>
+<mnuCNewWindow>اوپن نیا دریچہ</mnuCNewWindow>
+<ContextAuthority>اتھارٹی</ContextAuthority>
+<ContextAuthorityName>نام</ContextAuthorityName>
+<ContextAuthoritySubject>موضوع</ContextAuthoritySubject>
+<cBook>کتاب</cBook>
+<cSerial>سیریل</cSerial>
+<cVisualMat>بصری مواد</cVisualMat>
+<cMaps>کارٹوگراپہاک ریسورس</cMaps>
+<cSoundRec>آواز ریکارڈ کاری</cSoundRec>
+<cScore>اسکور</cScore>
+<cElectMat>الیکٹرانک وسیلہ</cElectMat>
+<cMixedMat>مخلوط مواد</cMixedMat>
+<tbOpen>مسل کھولیں</tbOpen>
+<tbSave>مسل محفوظ کریں</tbSave>
+<tbPrint>مسل نہیں چھاپ</tbPrint>
+<tbCompile>ریکارڈ مرتب کریں</tbCompile>
+<tbCut>کاٹ</tbCut>
+<tbCopy>نقل</tbCopy>
+<tbPaste>جوڑیں</tbPaste>
+<tbALA>MARC8 على حرف کا مجموعہ</tbALA>
+<tbDelete>حذف کریں</tbDelete>
+<tbFind>تلاش کریں</tbFind>
+<tbZ39_50>Z39.50/و وصول کار</tbZ39_50>
+<tbHelp>مدد</tbHelp>
+<mnuObj>menuStrip1</mnuObj>
+<mnuFile>مسل</mnuFile>
+<mnuFileMain>مین ونڈو کو واپس جانے</mnuFileMain>
+<mnuFileNew>نیا</mnuFileNew>
+<mnuFileNewWindow>اوپن نیا دریچہ</mnuFileNewWindow>
+<mnuFileNewDefault>طے شدہ</mnuFileNewDefault>
+<mnuFileNewAuthority>اتھارٹی</mnuFileNewAuthority>
+<mnuFileNewAuthorityName>نام</mnuFileNewAuthorityName>
+<mnuFileNewAuthoritySubject>موضوع</mnuFileNewAuthoritySubject>
+<mnuFileNewBook>کتاب</mnuFileNewBook>
+<mnuFileNewSerial>سیریل</mnuFileNewSerial>
+<mnuFileVisualMat>بصری مواد</mnuFileVisualMat>
+<mnuFileNewMap>کارٹوگراپہاک ریسورس</mnuFileNewMap>
+<mnuFileNewSound>آواز ریکارڈ کاری</mnuFileNewSound>
+<mnuFileNewScore>اسکور</mnuFileNewScore>
+<mnuFileNewER>الیکٹرانک وسیلہ</mnuFileNewER>
+<mnuFileNewMix>مخلوط مواد</mnuFileNewMix>
+<mnuFileOpen>کھلا</mnuFileOpen>
+<mnuFileRecent>حالیہ مسلیں</mnuFileRecent>
+<mnunone10>کوئی نہیں</mnunone10>
+<mnunone9>کوئی نہیں</mnunone9>
+<mnunone8>کوئی نہیں</mnunone8>
+<mnunone7>کوئی نہیں</mnunone7>
+<mnunone6>کوئی نہیں</mnunone6>
+<mnunone5>کوئی نہیں</mnunone5>
+<mnunone4>کوئی نہیں</mnunone4>
+<mnunone3>کوئی نہیں</mnunone3>
+<mnunone2>کوئی نہیں</mnunone2>
+<mnunone1>کوئی نہیں</mnunone1>
+<mnuFileClearHistory>سابقات صاف کریں</mnuFileClearHistory>
+<mnuFileClearList>حالیہ مسلیں صاف کریں</mnuFileClearList>
+<clearEditReplaceHistoryToolStripMenuItem>تدوین/بدل سابقات صاف کریں</clearEditReplaceHistoryToolStripMenuItem>
+<mnuFileClose>بند کریں</mnuFileClose>
+<mnuFileSave>محفوظ کریں</mnuFileSave>
+<mnuFileSaveAs>محفوظ کریں بطور...</mnuFileSaveAs>
+<mnuFilePrint>پرنٹ کریں</mnuFilePrint>
+<FileSelectIndividualMake>انفرادی Record(s) بنانے کے لئے منتخب کریں</FileSelectIndividualMake>
+<mnuFileCompile>مسل میں مارک مرتب کریں</mnuFileCompile>
+<mnuFileExit>خروج</mnuFileExit>
+<mnuEdit>تدوین کریں</mnuEdit>
+<mnuEditUndo>کالعدم کریں</mnuEditUndo>
+<mnuEditRedo>اعادہ کریں</mnuEditRedo>
+<mnuEditSpecialUndo>خصوصی کالعدم کریں</mnuEditSpecialUndo>
+<mnuEditCut>کاٹ</mnuEditCut>
+<mnuEditCopy>نقل</mnuEditCopy>
+<mnuEditPaste>جوڑیں</mnuEditPaste>
+<mnuEditDupLines>مثنی لائنیں</mnuEditDupLines>
+<mnuEditClear>واضح</mnuEditClear>
+<mnuEditFind>تلاش کریں</mnuEditFind>
+<mnuEditReplace>بدل دیں</mnuEditReplace>
+<toolStripMenuItem28>تیز راہیں تدوین کریں</toolStripMenuItem28>
+<changeCaseToolStripMenuItem>حالت حرف تبدیل کریں</changeCaseToolStripMenuItem>
+<lowerCaseToolStripMenuItem>لوئر کیس</lowerCaseToolStripMenuItem>
+<upperCaseToolStripMenuItem>بڑے حرف</upperCaseToolStripMenuItem>
+<sentenceCaseToolStripMenuItem>عنوان حالت حروف</sentenceCaseToolStripMenuItem>
+<initialCaseToolStripMenuItem>ابتدائی کیس</initialCaseToolStripMenuItem>
+<capitalizeInitialCharacterToolStripMenuItem>ابتدائی حرف بڑا کریں</capitalizeInitialCharacterToolStripMenuItem>
+<fieldEditsToolStripMenuItem>قطعہ تدوین کرتا ہے ۔</fieldEditsToolStripMenuItem>
+<findRecordsMissingFieldToolStripMenuItem>ریکارڈ قطعہ غائب کی تلاش</findRecordsMissingFieldToolStripMenuItem>
+<swapTitleToolStripMenuItem>عنوان کا مبادلہ کریں</swapTitleToolStripMenuItem>
+<mnuEditJumpTo>کے لئے جائیں...</mnuEditJumpTo>
+<jumpToRecordToolStripMenuItem>کے لئے جائیں...ریکارڈ</jumpToRecordToolStripMenuItem>
+<jumpToPageToolStripMenuItem>کے لئے جائیں...صفحہ</jumpToPageToolStripMenuItem>
+<mnuEditControl>واحد کنٹرول نمبر داخل کریں</mnuEditControl>
+<mnuEdit006>داخل تدوین 006</mnuEdit006>
+<mnuEdit006Edit>تدوین کریں</mnuEdit006Edit>
+<mnuEdit006Book>کتاب</mnuEdit006Book>
+<mnuEdit006Serial>مسلسل وسیلہ</mnuEdit006Serial>
+<mnuEdit006Map>کارٹوگراپہاک ریسورس</mnuEdit006Map>
+<mnuEdit006Sound>آواز ریکارڈ کاری</mnuEdit006Sound>
+<mnuEdit006Score>اسکور</mnuEdit006Score>
+<mnuEdit006ER>الیکٹرانک وسیلہ</mnuEdit006ER>
+<mnuEdit006Visual>بصری مواد</mnuEdit006Visual>
+<mnuEdit006Mixed>مخلوط مواد</mnuEdit006Mixed>
+<mnuEdit008>داخل تدوین 008</mnuEdit008>
+<mnuEdit008Edit>تدوین کریں</mnuEdit008Edit>
+<mnuEdit008Book>کتاب</mnuEdit008Book>
+<mnuEdit008Serial>مسلسل وسیلہ</mnuEdit008Serial>
+<mnuEdit008Map>کارٹوگراپہاک ریسورس</mnuEdit008Map>
+<mnuEdit008Sound>آواز ریکارڈ کاری</mnuEdit008Sound>
+<mnuEdit008Score>اسکور</mnuEdit008Score>
+<mnuEdit008ER>الیکٹرانک وسیلہ</mnuEdit008ER>
+<mnuEdit008Visual>بصری مواد</mnuEdit008Visual>
+<mnuEdit008Mixed>مخلوط مواد</mnuEdit008Mixed>
+<toolStripMenuItem27>تختہ تراشہ مشمولات بدلنا</toolStripMenuItem27>
+<mnuEditConverttoUTF8>آلاتی خوانا کیٹلاگ-8 UTF-8</mnuEditConverttoUTF8>
+<mnuEditConvertoMarc8>آلاتی خوانا کیٹلاگ-8 کو UTF-8</mnuEditConvertoMarc8>
+<mnuEditALA>آلاتی خوانا کیٹلاگ-8 على حرف کا مجموعہ</mnuEditALA>
+<mnuEditUTF8CharacterMap>UTF-8 کریکٹر نقشہ</mnuEditUTF8CharacterMap>
+<mnuEditSelectAll>تمام منتخب کریں</mnuEditSelectAll>
+<mnuEditWrap>لفظ کو لفاف</mnuEditWrap>
+<mnuEditRTL>دائیں بائیں کرنے کے لئے دکھائیں</mnuEditRTL>
+<mnuEditInfo>مارک کی معلومات</mnuEditInfo>
+<mnuEditInfoOCLC>اوکلک مارک مدد</mnuEditInfoOCLC>
+<mnuEditInfoLC>کانگریس مارک مدد کی امریکی لائبریری</mnuEditInfoLC>
+<mnuFont>فانٹ</mnuFont>
+<mnuFontFont>فانٹ...</mnuFontFont>
+<mnuFontColor>رنگ...</mnuFontColor>
+<mnuReports>رپورٹوں</mnuReports>
+<mnuReportsField>میدان کا شمار</mnuReportsField>
+<tlReportsMaterialReport>مواد کی قسم کی رپورٹ</tlReportsMaterialReport>
+<generateReportToolStripMenuItem>رپورٹ تیار</generateReportToolStripMenuItem>
+<findBookToolStripMenuItem>ریکارڈ کی قسم کی طرف سے تلاش کریں</findBookToolStripMenuItem>
+<booksToolStripMenuItem>کتابیں</booksToolStripMenuItem>
+<toolStripMenuItem32>کمپیوٹر مسلیں</toolStripMenuItem32>
+<continuingResourcesToolStripMenuItem>مسلسل وسائل</continuingResourcesToolStripMenuItem>
+<mapsToolStripMenuItem>نقشہ جات</mapsToolStripMenuItem>
+<mixedMaterialsToolStripMenuItem>مخلوط مواد</mixedMaterialsToolStripMenuItem>
+<scoresToolStripMenuItem>سکور</scoresToolStripMenuItem>
+<soundRecordingsToolStripMenuItem>آواز کی ریکارڈنگ</soundRecordingsToolStripMenuItem>
+<visualMaterialsToolStripMenuItem>بصری مواد</visualMaterialsToolStripMenuItem>
+<mARCValidatorToolStripMenuItem>مآرکوالادیٹر</mARCValidatorToolStripMenuItem>
+<mnuTools>فورم کے اوزار</mnuTools>
+<mnuToolsCalculator>ست کیلکولیٹر</mnuToolsCalculator>
+<mnuToolsCallNum>کال نمبر نکالیں</mnuToolsCallNum>
+<mnuToolsControlNumber>کنٹرول نمبر نکالیں</mnuToolsControlNumber>
+<mnuToolsRDAHelpers>رد مددگار</mnuToolsRDAHelpers>
+<mnuToolsEditConstant>مسلسل کوائف تدوین کریں</mnuToolsEditConstant>
+<mnuToolsAssigned>تفویض کردہ مسلسل کوائف</mnuToolsAssigned>
+<mnuConstant1>1) غیر وضاحتی سلک</mnuConstant1>
+<mnuConstant2>2) غیر وضاحتی سلک</mnuConstant2>
+<mnuConstant3>3) غیر وضاحتی سلک</mnuConstant3>
+<mnuConstant4>4) غیر وضاحتی سلک</mnuConstant4>
+<mnuConstant5>5) غیر وضاحتی سلک</mnuConstant5>
+<mnuConstant6>6) غیر وضاحتی سلک</mnuConstant6>
+<mnuConstant7>7) غیر وضاحتی سلک</mnuConstant7>
+<mnuConstant8>8) غیر وضاحتی سلک</mnuConstant8>
+<mnuConstant9>9) غیر وضاحتی سلک</mnuConstant9>
+<mnuConstant10>10) غیر وضاحتی سلک</mnuConstant10>
+<mnutoolmanageAutomate>کام کا انتظام کریں</mnutoolmanageAutomate>
+<mnutoolassignTasks>تفویض کردہ مجموعہ کار</mnutoolassignTasks>
+<mnuDefTask>فی الحال دستیاب مجموعہ کار</mnuDefTask>
+<task1>1) غیر وضاحتی کام</task1>
+<task2>2) غیر وضاحتی کام</task2>
+<task3>3) غیر وضاحتی کام</task3>
+<task4>4) غیر وضاحتی کام</task4>
+<task5>5) غیر وضاحتی کام</task5>
+<task6>6) غیر وضاحتی کام</task6>
+<task7>7) غیر وضاحتی کام</task7>
+<task8>8) غیر وضاحتی کام</task8>
+<task9>9) غیر وضاحتی کام</task9>
+<task10>10) غیر وضاحتی کام</task10>
+<mnuToolsZ3950>Z39.50/و اختیارات</mnuToolsZ3950>
+<marcEditZ3950SRUClientToolStripMenuItem>مآرکاداٹ Z39.50/و وصول کار</marcEditZ3950SRUClientToolStripMenuItem>
+<importRecordToolStripMenuItem>Z39.50 درآمد ریکارڈ</importRecordToolStripMenuItem>
+<uploadEditedRecordToolStripMenuItem>Z39.50 ریکارڈ اپ لوڈ کریں</uploadEditedRecordToolStripMenuItem>
+<toolz3950delete>Z39.50 ریکارڈ حذف کریں</toolz3950delete>
+<z3950UpdateHoldingsToolStripMenuItem>Z39.50 اپ ڈیٹ ہولڈنگ</z3950UpdateHoldingsToolStripMenuItem>
+<mnuToolsValidate>آلاتی خوانا کیٹلاگ ریکارڈ کا جواز دیں</mnuToolsValidate>
+<mnuToolsDedup>ریکارڈ نقل</mnuToolsDedup>
+<mnuToolsOAI>فصل اواا کے</mnuToolsOAI>
+<mnutoolsurl>آلاتی خوانا کیٹلاگ URL سے نکالیں ۔</mnutoolsurl>
+<toolStripMenuItem3>نااہل کریں...</toolStripMenuItem3>
+<normalizeLCRecordToolStripMenuItem>LC ریکارڈ نااہل کریں</normalizeLCRecordToolStripMenuItem>
+<normalizeMicrolifRecordsToolStripMenuItem>ماکرولاف کے ریکارڈ کو نااہل کریں</normalizeMicrolifRecordsToolStripMenuItem>
+<mnuToolsRemoveEmpty>خالی قطعات/سبفیلڈس ہٹانا</mnuToolsRemoveEmpty>
+<mnuToolsAdd>قطعہ ا ضافہ/حذف</mnuToolsAdd>
+<toolStripMenuItem26>نقل قطعہ</toolStripMenuItem26>
+<mnuToolsEditField>کوائف قطعہ تدوین کریں</mnuToolsEditField>
+<mnuToolsIndicator>اشارے کوائف تدوین کریں</mnuToolsIndicator>
+<mnuToolsSubfield>سبفیلڈ کوائف تدوین کریں</mnuToolsSubfield>
+<mnuToolsSortby>چھانٹیں بمطابق...</mnuToolsSortby>
+<mnuToolsCustomSort>مخصوص چھانٹ</mnuToolsCustomSort>
+<mnuToolsSortControl>چھانٹیں بمطابق کنٹرول نمبر</mnuToolsSortControl>
+<mnuToolsSortbyTitle>چھانٹیں بمطابق عنوان</mnuToolsSortbyTitle>
+<mnuToolsSortAuthor>چھانٹیں بمطابق تخلیق کار</mnuToolsSortAuthor>
+<mnuToolsSortByCall>چھانٹیں بمطابق فون نمبر</mnuToolsSortByCall>
+<mnuToolsSort2>چھانٹیں 0xx قطعات</mnuToolsSort2>
+<mnuToolsSort>تمام قطعات نہیں چھانٹ</mnuToolsSort>
+<mnuToolsSwap>کوائف قطعہ کا مبادلہ کریں</mnuToolsSwap>
+<mnuToolsOptions>ترجیحات</mnuToolsOptions>
+<mnu_ILS>انہوں نے اسے [نام]</mnu_ILS>
+<mnu_ils_search>تلاش کریں</mnu_ils_search>
+<updateCreateToolStripMenuItem>تازہ کاری کریں/بنائیں</updateCreateToolStripMenuItem>
+<mnuOCLC>اوکلک وورلڈکت</mnuOCLC>
+<toolStripMenuItem31>تلاش وورلڈکت</toolStripMenuItem31>
+<mnuOCLCLocalBibData>مقامی ببلیوگراپہاک کوائف کا ا ضافہ کریں/حذف کریں/تازہ کاری کریں</mnuOCLCLocalBibData>
+<createUpdateToolStripMenuItem>ببلیوگراپہاک کوائف تخلیق کریں/تازہ کاری کریں</createUpdateToolStripMenuItem>
+<deleteHoldingsToolStripMenuItem>ہولڈنگ کی تازہ کاری کریں</deleteHoldingsToolStripMenuItem>
+<pluginsToolStripMenuItem>پلگ ان</pluginsToolStripMenuItem>
+<mnuHelp>مدد</mnuHelp>
+<mnuHelpContents>فہرست مشمولات اور مدد</mnuHelpContents>
+<label1>فی صفحہ ریکارڈ</label1>
+<lblPage>صفحات</lblPage>
+<btnPre>&lt;</btnPre>
+<btnNext>&gt;</btnNext>
+<btnLast>&gt;&gt;</btnLast>
+<btnFirst>&lt;&lt;</btnFirst>
+<this>مآرکادیٹر</this>
+</MarcEdit_meEditor>
 <MarcEdit_oclc_agree>
-<lb_text>کوائف جواز دہی خدمات ہیں ان کی خدمات کا استعمال کرنے اوکلک کی ٹیرمالوجی Services.In کا حکم کے ذریعے، آپ کی پیروی کریں اور شرائط پر عمل کی طرف سے کرنے پر رضامند کرنا چاہیئے بشرطیکہ نکال اوکلک کی طرف سے استعمال اور وفاداری ان سروسز کے بارے میں قائم اندکونداٹانس ۔</lb_text><label1>اوکلک کے معاہدے کی لنک:</label1><lnk_Terms>استعمال کی شرائط دیکھیں</lnk_Terms><cmd_Agree>ميں مانتی ہوں</cmd_Agree><cmd_disagree>میں اخلتلاف کرتے تھے</cmd_disagree><this>اوکلک معاہدہ</this></MarcEdit_oclc_agree>
+<lb_text>کوائف جواز دہی کی خدمات کے ذریعے اوکلک کے ٹیرمالوجی خدمات فراہم کی جاتی ہیں ۔ ان کی خدمات کا استعمال کرنے کے لیے، آپ کی پیروی کریں اور شرائط پر عمل کی طرف سے کرنے پر رضامند ہوگا و ضوابط کی طرف سے اوکلک کے استعمال اور وفاداری ان سروسز کے بارے میں متعین ہے ۔</lb_text>
+<label1>اوکلک کے معاہدے کی لنک:</label1>
+<lnk_Terms>استعمال کی شرائط دیکھیں</lnk_Terms>
+<cmd_Agree>ميں مانتی ہوں</cmd_Agree>
+<cmd_disagree>میں اخلتلاف کرتے تھے</cmd_disagree>
+<this>اوکلک معاہدہ</this>
+</MarcEdit_oclc_agree>
 <MarcEdit_xml_console>
-<lb_Defined_Functions>تعریف شدہ دالہ:</lb_Defined_Functions><cmd_Add>ا ضافہ کریں</cmd_Add><cmdDelete>حذف کریں</cmdDelete><cmdModify>میں ترمیم کریں</cmdModify><cmdClose>بند کریں</cmdClose><cmdSearch>تلاش کریں</cmdSearch><joinItemsToolStripMenuItem>کے ساتھ ملاپ کریں</joinItemsToolStripMenuItem><this>XML افعال کی تدوین کریں</this></MarcEdit_xml_console>
+<lb_Defined_Functions>تعریف شدہ دالہ:</lb_Defined_Functions>
+<cmd_Add>ا ضافہ کریں</cmd_Add>
+<cmdDelete>حذف کریں</cmdDelete>
+<cmdModify>میں ترمیم کریں</cmdModify>
+<cmdClose>بند کریں</cmdClose>
+<cmdSearch>تلاش کریں</cmdSearch>
+<joinItemsToolStripMenuItem>کے ساتھ ملاپ کریں</joinItemsToolStripMenuItem>
+<this>XML افعال کی تدوین کریں</this>
+</MarcEdit_xml_console>
 <MarcEdit_xml_functions>
-<lb_GenInfo>عمومی معلومات:</lb_GenInfo><lb_Alias>فعل کا نام (لقب):</lb_Alias><lb_XSLTPath>XSLT قرطاس طرز راہ:</lb_XSLTPath><lb_FormatInfo>وضع معلومات:</lb_FormatInfo><lb_Final>آخری وضع:</lb_Final><lb_Origin>اصل وضع:</lb_Origin><ck_orig_MARC>مارک</ck_orig_MARC><ck_orig_MARCXML>مارکامل</ck_orig_MARCXML><ck_orig_Other>دیگر</ck_orig_Other><ck_fin_Other>دیگر</ck_fin_Other><ck_fin_MARCXML>مارکامل</ck_fin_MARCXML><ck_fin_MARC>مارک</ck_fin_MARC><cmdOK>ٹھيک ہے</cmdOK><cmdClose>بند کریں</cmdClose><ck_Marc8>آلاتی خوانا کیٹلاگ-8 کو بدلیں</ck_Marc8><ck_remote>بعید ہستیوں کو حل</ck_remote><gp_XSLT>XSLT انجن</gp_XSLT><opt_default>طے شدہ</opt_default><opt_saxon>سیکسن</opt_saxon><opt_msxml>لیے MSXML</opt_msxml><this>XML افعال کی تدوین کریں</this></MarcEdit_xml_functions>
+<lb_GenInfo>عمومی معلومات:</lb_GenInfo>
+<lb_Alias>فعل کا نام (لقب):</lb_Alias>
+<lb_XSLTPath>XSLT قرطاس طرز راہ:</lb_XSLTPath>
+<lb_FormatInfo>وضع معلومات:</lb_FormatInfo>
+<lb_Final>آخری وضع:</lb_Final>
+<lb_Origin>اصل وضع:</lb_Origin>
+<ck_orig_MARC>مارک</ck_orig_MARC>
+<ck_orig_MARCXML>مارکامل</ck_orig_MARCXML>
+<ck_orig_Other>دیگر</ck_orig_Other>
+<ck_fin_Other>دیگر</ck_fin_Other>
+<ck_fin_MARCXML>مارکامل</ck_fin_MARCXML>
+<ck_fin_MARC>مارک</ck_fin_MARC>
+<cmdOK>ٹھيک ہے</cmdOK>
+<cmdClose>بند کریں</cmdClose>
+<ck_Marc8>آلاتی خوانا کیٹلاگ-8 کو بدلیں</ck_Marc8>
+<ck_remote>بعید ہستیوں کو حل</ck_remote>
+<gp_XSLT>XSLT انجن</gp_XSLT>
+<opt_default>طے شدہ</opt_default>
+<opt_saxon>سیکسن</opt_saxon>
+<opt_msxml>لیے MSXML</opt_msxml>
+<this>XML افعال کی تدوین کریں</this>
+</MarcEdit_xml_functions>
 <marc_sql_explorer_frmMain>
-<tabPage1>کوائف لوڈ</tabPage1><ckexpanded>توسیعی جدول شجرہ استعمال کریں</ckexpanded><ckloadDB>ایس کیو ایل کا استعمال</ckloadDB><ckMysql>ایس کیو ایل کا استعمال</ckMysql><lnkmysqlOptions>ایس کیو ایل کے اختیارات</lnkmysqlOptions><cmdCancelP>منسوخ کریں</cmdCancelP><cmdProcessMARC>عمل</cmdProcessMARC><cmdLoadDB>بوجھ</cmdLoadDB><label5>کوائفیہ مسل:</label5><label6>موجودہ ڈیٹا بیس فائل لوڈ کریں</label6><label3>کوائفیہ مسل:</label3><label2>آلاتی خوانا کیٹلاگ مسل:</label2><label1>عمل کاری سے قبل از مارک ڈیٹا</label1><tabPage2>ڈیٹا بیس ڈھانچے</tabPage2><cname>نام</cname><cObject>آبجیکٹ</cObject><cSchema>شجرہ</cSchema><tabPage3>SQL سرانجام دیں ۔</tabPage3><label8>کوائف واپس</label8><label7>طلبی نتائج</label7><cmdExportD>کوائف برآمد کریں</cmdExportD><cmdExcecuteQ>طلب کے نفاذ پذیر</cmdExcecuteQ><label4>SQL سلک</label4><cmdClose>بند کریں</cmdClose><this>آلاتی خوانا کیٹلاگ SQL ایکسپلورر</this></marc_sql_explorer_frmMain>
+<tabPage1>کوائف لوڈ</tabPage1>
+<ckexpanded>توسیعی جدول شجرہ استعمال کریں</ckexpanded>
+<ckloadDB>ایس کیو ایل کا استعمال</ckloadDB>
+<ckMysql>ایس کیو ایل کا استعمال</ckMysql>
+<lnkmysqlOptions>ایس کیو ایل کے اختیارات</lnkmysqlOptions>
+<cmdCancelP>منسوخ کریں</cmdCancelP>
+<cmdProcessMARC>عمل</cmdProcessMARC>
+<cmdLoadDB>بوجھ</cmdLoadDB>
+<label5>کوائفیہ مسل:</label5>
+<label6>موجودہ ڈیٹا بیس فائل لوڈ کریں</label6>
+<label3>کوائفیہ مسل:</label3>
+<label2>آلاتی خوانا کیٹلاگ مسل:</label2>
+<label1>عمل کاری سے قبل از مارک ڈیٹا</label1>
+<tabPage2>ڈیٹا بیس ڈھانچے</tabPage2>
+<cname>نام</cname>
+<cObject>آبجیکٹ</cObject>
+<cSchema>شجرہ</cSchema>
+<tabPage3>SQL سرانجام دیں ۔</tabPage3>
+<label8>کوائف واپس</label8>
+<label7>طلبی نتائج</label7>
+<cmdExportD>کوائف برآمد کریں</cmdExportD>
+<cmdExcecuteQ>طلب کے نفاذ پذیر</cmdExcecuteQ>
+<label4>SQL سلک</label4>
+<cmdClose>بند کریں</cmdClose>
+<this>آلاتی خوانا کیٹلاگ SQL ایکسپلورر</this>
+</marc_sql_explorer_frmMain>
 <marc_sql_explorer_frmOptions>
-<label1>کوائفیہ پیش کار:</label1><label2>صارف کا نام:</label2><label3>پاس ورڈ:</label3><cmdSave>محفوظ کریں</cmdSave><cmdClose>بند کریں</cmdClose><this>ایس کیو ایل کے اختیارات:</this></marc_sql_explorer_frmOptions>
+<label1>کوائفیہ پیش کار:</label1>
+<label2>صارف کا نام:</label2>
+<label3>پاس ورڈ:</label3>
+<cmdSave>محفوظ کریں</cmdSave>
+<cmdClose>بند کریں</cmdClose>
+<this>ایس کیو ایل کے اختیارات:</this>
+</marc_sql_explorer_frmOptions>
 <me_tabbed_frmldr>
-<label1>لڈر</label1><cmd_OK>ٹھيک ہے</cmd_OK><cmd_Close>بند کریں</cmd_Close><checkBox1>یونامآرک</checkBox1><this>لڈر/008 تدوین کریں</this></me_tabbed_frmldr>
+<label1>لڈر</label1>
+<cmd_OK>ٹھيک ہے</cmd_OK>
+<cmd_Close>بند کریں</cmd_Close>
+<checkBox1>یونامآرک</checkBox1>
+<this>لڈر/008 تدوین کریں</this>
+</me_tabbed_frmldr>
 <me_tabbed_frmMain>
-<groupBox4>اختیارات</groupBox4><ck_unicode>انکوڈ UTF-8</ck_unicode><linkLabel1>لڈر/008 تدوین کریں</linkLabel1><groupBox3>تحدید کار اقدار</groupBox3><P2_lb_Other>کردار:</P2_lb_Other><P2_lb_Delimiter>تحدید کار:</P2_lb_Delimiter><P2_txt_qualifier>کوالیفائنگ</P2_txt_qualifier><lbSheet>ایکسل شیٹ کا نام:</lbSheet><P2_cmd_Cancel>منسوخ کریں</P2_cmd_Cancel><P2_cmd_Next>اگلا</P2_cmd_Next><P2_lb_output>آؤٹ پٹ مسل:</P2_lb_output><P2_Import>ماخذ مسل:</P2_Import><groupBox2>دلائل</groupBox2><lnkAuto>خود پیدا</lnkAuto><ck_filing_characters>عام ننفالانگ کے ڈیٹا کا حساب کریں</ck_filing_characters><ck_sort>قطعات نہیں چھانٹ</ck_sort><P3_ck_save_args>سا نچہ محفوظ کریں</P3_ck_save_args><button2>لوڈ سانچا</button2><toolStripMenuItem2>شے کی تدوین کریں</toolStripMenuItem2><deleteItemsToolStripMenuItem>اشیا حذف کریں</deleteItemsToolStripMenuItem><joinItemsToolStripMenuItem>اشیاء میں شامل</joinItemsToolStripMenuItem><label1>کوائف سنیپشاٹ</label1><groupBox1>سیٹنگیں</groupBox1><ck_Repeatable>ریپیتبلی سبفیلڈ</ck_Repeatable><P3_ck_constant>مسلسل کوائف</P3_ck_constant><P3_cmd_Apply>دلیل کا ا ضافہ کریں</P3_cmd_Apply><P3_lb_punct>اصطلاح ہے ۔ رموز اوقاف:</P3_lb_punct><P3_txt_indicators>\\\\</P3_txt_indicators><P3_lb_indicators>اشارے:</P3_lb_indicators><P3_mapto>میپ کریں:</P3_mapto><P3_lb_select>منتخب کریں:</P3_lb_select><P3_cmd_Cancel>منسوخ کریں</P3_cmd_Cancel><P3_cmd_finish>تکمیل</P3_cmd_finish><this>مآرکاداٹ تحدیدی متن مترجم</this></me_tabbed_frmMain>
+<groupBox4>اختیارات</groupBox4>
+<ck_unicode>انکوڈ UTF-8</ck_unicode>
+<linkLabel1>لڈر/008 تدوین کریں</linkLabel1>
+<groupBox3>تحدید کار اقدار</groupBox3>
+<P2_lb_Other>کردار:</P2_lb_Other>
+<P2_lb_Delimiter>تحدید کار:</P2_lb_Delimiter>
+<P2_txt_qualifier>کوالیفائنگ</P2_txt_qualifier>
+<lbSheet>ایکسل شیٹ کا نام:</lbSheet>
+<P2_cmd_Cancel>منسوخ کریں</P2_cmd_Cancel>
+<P2_cmd_Next>اگلا</P2_cmd_Next>
+<P2_lb_output>آؤٹ پٹ مسل:</P2_lb_output>
+<P2_Import>ماخذ مسل:</P2_Import>
+<groupBox2>دلائل</groupBox2>
+<lnkAuto>خود پیدا</lnkAuto>
+<ck_filing_characters>عام ننفالانگ کے ڈیٹا کا حساب کریں</ck_filing_characters>
+<ck_sort>قطعات نہیں چھانٹ</ck_sort>
+<P3_ck_save_args>سا نچہ محفوظ کریں</P3_ck_save_args>
+<button2>لوڈ سانچا</button2>
+<toolStripMenuItem2>شے کی تدوین کریں</toolStripMenuItem2>
+<deleteItemsToolStripMenuItem>اشیا حذف کریں</deleteItemsToolStripMenuItem>
+<joinItemsToolStripMenuItem>اشیاء میں شامل</joinItemsToolStripMenuItem>
+<label1>کوائف سنیپشاٹ</label1>
+<groupBox1>سیٹنگیں</groupBox1>
+<ck_Repeatable>ریپیتبلی سبفیلڈ</ck_Repeatable>
+<P3_ck_constant>مسلسل کوائف</P3_ck_constant>
+<P3_cmd_Apply>دلیل کا ا ضافہ کریں</P3_cmd_Apply>
+<P3_lb_punct>اصطلاح ہے ۔ رموز اوقاف:</P3_lb_punct>
+<P3_txt_indicators>\\\\</P3_txt_indicators>
+<P3_lb_indicators>اشارے:</P3_lb_indicators>
+<P3_mapto>میپ کریں:</P3_mapto>
+<P3_lb_select>منتخب کریں:</P3_lb_select>
+<P3_cmd_Cancel>منسوخ کریں</P3_cmd_Cancel>
+<P3_cmd_finish>تکمیل</P3_cmd_finish>
+<this>مآرکاداٹ تحدیدی متن مترجم</this>
+</me_tabbed_frmMain>
 <me_tabbed_frmStatus>
-<lbCaption>label1</lbCaption></me_tabbed_frmStatus>
+<lbCaption>label1</lbCaption>
+</me_tabbed_frmStatus>
 <mebatch_frmMain>
-<lnkAbout>وصول کار کے بارے میں</lnkAbout><lnkOptions>سیٹ کریں اختیارات</lnkOptions><lnkModify>ڈیٹا بیس میں ترمیم کریں</lnkModify><lnkBatch>بیچ موڈ</lnkBatch><lnkSingle>تلاش کریں موڈ</lnkSingle><lb_b_char>پیش کار کریکٹر سیٹ کریں</lb_b_char><cmb_b_encoding>MARC8</cmb_b_encoding><ck_b_unicode>یونی کوڈ باز گیر کریں</ck_b_unicode><Modify>میں ترمیم کریں</Modify><Database>مقامی کوائفیہ منتخب کریں</Database><rd_custom>اپنی مرضی کے مطابق</rd_custom><rd_title>تلاش کا عنوان/مصنف</rd_title><rd_issn>تلاش ٹیلی/اسسن</rd_issn><label1>تلاش کی اقسام</label1><lbBDest>مقصود مسل:</lbBDest><lbBSource>ماخذ مسل:</lbBSource><lbBTitle>بیچ کی تلاش کی سہولت</lbBTitle><lbStartrec>سترٹریکورد</lbStartrec><lnkGetNext>اگلا {حد سے متجاوز ہو</lnkGetNext><lbMaxRecs>مکسممریکوردس</lbMaxRecs><lnkClearResults>نتائج کو صاف کریں</lnkClearResults><groupBox3>کے نتائج</groupBox3><col1>شناخت</col1><col2>عنوان</col2><col3>کوائفیہ</col3><mnuGroupDisplay>ڈسپلے کا ریکارڈ منتخب</mnuGroupDisplay><mnuGroupDownload>ڈاؤن لوڈ، اتارنا ریکارڈ منتخب</mnuGroupDownload><mnuDownloadAll>تمام ریکارڈ ڈاؤن لوڈ، اتارنا</mnuDownloadAll><groupBox1>اختیارات</groupBox1><lb_encoding_single>پیش کار کریکٹر سیٹ کریں</lb_encoding_single><cmd_encoding>MARC8</cmd_encoding><ckUnicode>یونی کوڈ باز گیر کریں</ckUnicode><rdEditDB>کوائفیہ منتخب کریں</rdEditDB><rdEditSettings>سیٹنگوں کی تدوین کریں</rdEditSettings><lbSearchb>تلاش کریں:</lbSearchb><lbSearch>کوائفیہ طلب:</lbSearch><ck_automatic>خود بخود سیٹنگیں کھوج لگائیں</ck_automatic><lbProxy>پراکسی:</lbProxy><lbExample>نمونہ کے نتائج:</lbExample><button2>بند کریں</button2><button1>ٹھيک ہے</button1><lbSaveFile>مسل محفوظ کریں:</lbSaveFile><lbLimit>حد:</lbLimit><lbTitleOption>عنوان:</lbTitleOption><lbSetupTitle>اختیارات دکھائیں</lbSetupTitle><lnkSelectList>وسیلہ منتخب کریں</lnkSelectList><lnkMClose>بند کریں</lnkMClose><lnkMDelete>کوائفیہ حذف کریں</lnkMDelete><lnkMModify>کوائفیہ میں ترمیم کریں</lnkMModify><lbmOptions>اختیارات:</lbmOptions><lnkMAdd>کوائفیہ کا ا ضافہ کریں</lnkMAdd><MCol3>شناخت</MCol3><MCol1>نام</MCol1><MCol2>قسم</MCol2><lb_PModifyTitle>کوائفیہ منتخب کریں:</lb_PModifyTitle><aboutbox>richTextBox1</aboutbox><importFromMasterListToolStripMenuItem>ماسٹر فہرست سے درآمد کریں</importFromMasterListToolStripMenuItem><addNewZ3950ServerToolStripMenuItem>Z39.50 کے نیا پیش کار ا ضافہ کریں</addNewZ3950ServerToolStripMenuItem><addSRUServerToolStripMenuItem>و سرور کا ا ضافہ کریں</addSRUServerToolStripMenuItem><this>مآرکاداٹ Z39.50 وصول کار</this></mebatch_frmMain>
+<lnkAbout>وصول کار کے بارے میں</lnkAbout>
+<lnkOptions>سیٹ کریں اختیارات</lnkOptions>
+<lnkModify>ڈیٹا بیس میں ترمیم کریں</lnkModify>
+<lnkBatch>بیچ موڈ</lnkBatch>
+<lnkSingle>تلاش کریں موڈ</lnkSingle>
+<lb_b_char>پیش کار کریکٹر سیٹ کریں</lb_b_char>
+<cmb_b_encoding>MARC8</cmb_b_encoding>
+<ck_b_unicode>یونی کوڈ باز گیر کریں</ck_b_unicode>
+<Modify>میں ترمیم کریں</Modify>
+<Database>مقامی کوائفیہ منتخب کریں</Database>
+<rd_custom>اپنی مرضی کے مطابق</rd_custom>
+<rd_title>تلاش کا عنوان/مصنف</rd_title>
+<rd_issn>تلاش ٹیلی/اسسن</rd_issn>
+<label1>تلاش کی اقسام</label1>
+<lbBDest>مقصود مسل:</lbBDest>
+<lbBSource>ماخذ مسل:</lbBSource>
+<lbBTitle>بیچ کی تلاش کی سہولت</lbBTitle>
+<lbStartrec>سترٹریکورد</lbStartrec>
+<lnkGetNext>اگلا {حد سے متجاوز ہو</lnkGetNext>
+<lbMaxRecs>مکسممریکوردس</lbMaxRecs>
+<lnkClearResults>نتائج کو صاف کریں</lnkClearResults>
+<groupBox3>کے نتائج</groupBox3>
+<col1>شناخت</col1>
+<col2>عنوان</col2>
+<col3>کوائفیہ</col3>
+<mnuGroupDisplay>ڈسپلے کا ریکارڈ منتخب</mnuGroupDisplay>
+<mnuGroupDownload>ڈاؤن لوڈ، اتارنا ریکارڈ منتخب</mnuGroupDownload>
+<mnuDownloadAll>تمام ریکارڈ ڈاؤن لوڈ، اتارنا</mnuDownloadAll>
+<groupBox1>اختیارات</groupBox1>
+<lb_encoding_single>پیش کار کریکٹر سیٹ کریں</lb_encoding_single>
+<cmd_encoding>MARC8</cmd_encoding>
+<ckUnicode>یونی کوڈ باز گیر کریں</ckUnicode>
+<rdEditDB>کوائفیہ منتخب کریں</rdEditDB>
+<rdEditSettings>سیٹنگوں کی تدوین کریں</rdEditSettings>
+<lbSearchb>تلاش کریں:</lbSearchb>
+<lbSearch>کوائفیہ طلب:</lbSearch>
+<ck_automatic>خود بخود سیٹنگیں کھوج لگائیں</ck_automatic>
+<lbProxy>پراکسی:</lbProxy>
+<lbExample>نمونہ کے نتائج:</lbExample>
+<button2>بند کریں</button2>
+<button1>ٹھيک ہے</button1>
+<lbSaveFile>مسل محفوظ کریں:</lbSaveFile>
+<lbLimit>حد:</lbLimit>
+<lbTitleOption>عنوان:</lbTitleOption>
+<lbSetupTitle>اختیارات دکھائیں</lbSetupTitle>
+<lnkSelectList>وسیلہ منتخب کریں</lnkSelectList>
+<lnkMClose>بند کریں</lnkMClose>
+<lnkMDelete>کوائفیہ حذف کریں</lnkMDelete>
+<lnkMModify>کوائفیہ میں ترمیم کریں</lnkMModify>
+<lbmOptions>اختیارات:</lbmOptions>
+<lnkMAdd>کوائفیہ کا ا ضافہ کریں</lnkMAdd>
+<MCol3>شناخت</MCol3>
+<MCol1>نام</MCol1>
+<MCol2>قسم</MCol2>
+<lb_PModifyTitle>کوائفیہ منتخب کریں:</lb_PModifyTitle>
+<aboutbox>richTextBox1</aboutbox>
+<importFromMasterListToolStripMenuItem>ماسٹر فہرست سے درآمد کریں</importFromMasterListToolStripMenuItem>
+<addNewZ3950ServerToolStripMenuItem>Z39.50 کے نیا پیش کار ا ضافہ کریں</addNewZ3950ServerToolStripMenuItem>
+<addSRUServerToolStripMenuItem>و سرور کا ا ضافہ کریں</addSRUServerToolStripMenuItem>
+<this>مآرکاداٹ Z39.50 وصول کار</this>
+</mebatch_frmMain>
 <mebatch_frmOverwrite>
-<cmdAppend>الحاق کریں</cmdAppend><cmdOverwrite>اوپر تحریر کریں</cmdOverwrite><cmdClose>بند کریں</cmdClose><label1>برآمد کریں مسل موجود ہے ۔  آپ اوپر تحریر کریں یا حالیہ مسل سے الحاق کرنا چاہتے ہیں ۔</label1><this>مسل موجود ہے</this></mebatch_frmOverwrite>
+<cmdAppend>الحاق کریں</cmdAppend>
+<cmdOverwrite>اوپر تحریر کریں</cmdOverwrite>
+<cmdClose>بند کریں</cmdClose>
+<label1>برآمد کریں مسل موجود ہے ۔  آپ اوپر تحریر کریں یا حالیہ مسل سے الحاق کرنا چاہتے ہیں ۔</label1>
+<this>مسل موجود ہے</this>
+</mebatch_frmOverwrite>
 <mebatch_frmProperties>
-<tabDBProps>خواص کوائفیہ</tabDBProps><ck_Paused>توقف (6 سیکنڈز) زیر کریں</ck_Paused><label1>کوائفیہ:</label1><ck_Show>ڈیٹا بیس کی نمایش کریں</ck_Show><lbPassword>پاس ورڈ:</lbPassword><lbUsername>صارف کا نام:</lbUsername><lbSyntax>نحو:</lbSyntax><lbPort>دہانہ:</lbPort><lbHost>میزبان:</lbHost><lbname>نام:</lbname><tabDBAdvanced>اعلی خواص</tabDBAdvanced><label4>(سیکنڈ) میں ٹائم آؤٹ:</label4><label2>عنصر سیٹ:</label2><label3>دیگر اختیارات:</label3><lnkftp>http://www.loc.gov/z3950/agency/defns/bib1.html</lnkftp><lbInfo>مزید معلومات:</lbInfo><lbISBN>ٹیلی اسسن:</lbISBN><lbSubject>موضوع:</lbSubject><lbTitle>عنوان:</lbTitle><lbAuthor>تخلیق کار:</lbAuthor><lbadvTitle>Z39.50 وصف 4: ڈھانچہ</lbadvTitle><cmdSave>محفوظ کریں</cmdSave><cmdClose>بند کریں</cmdClose><this>خواص کوائفیہ</this></mebatch_frmProperties>
+<tabDBProps>خواص کوائفیہ</tabDBProps>
+<ck_Paused>توقف (6 سیکنڈز) زیر کریں</ck_Paused>
+<label1>کوائفیہ:</label1>
+<ck_Show>ڈیٹا بیس کی نمایش کریں</ck_Show>
+<lbPassword>پاس ورڈ:</lbPassword>
+<lbUsername>صارف کا نام:</lbUsername>
+<lbSyntax>نحو:</lbSyntax>
+<lbPort>دہانہ:</lbPort>
+<lbHost>میزبان:</lbHost>
+<lbname>نام:</lbname>
+<tabDBAdvanced>اعلی خواص</tabDBAdvanced>
+<label4>(سیکنڈ) میں ٹائم آؤٹ:</label4>
+<label2>عنصر سیٹ:</label2>
+<label3>دیگر اختیارات:</label3>
+<lnkftp>http://www.loc.gov/z3950/agency/defns/bib1.html</lnkftp>
+<lbInfo>مزید معلومات:</lbInfo>
+<lbISBN>ٹیلی اسسن:</lbISBN>
+<lbSubject>موضوع:</lbSubject>
+<lbTitle>عنوان:</lbTitle>
+<lbAuthor>تخلیق کار:</lbAuthor>
+<lbadvTitle>Z39.50 وصف 4: ڈھانچہ</lbadvTitle>
+<cmdSave>محفوظ کریں</cmdSave>
+<cmdClose>بند کریں</cmdClose>
+<this>خواص کوائفیہ</this>
+</mebatch_frmProperties>
 <mebatch_frmRecord>
-<lnkDownload>ریکارڈ ڈاؤن لوڈ، اتارنا</lnkDownload><lnkClose>بند کریں</lnkClose><lbSave>مسل محفوظ کریں:</lbSave><ck_Append>الحاق کریں</ck_Append><this>آلاتی خوانا کیٹلاگ ریکارڈ منظر</this></mebatch_frmRecord>
+<lnkDownload>ریکارڈ ڈاؤن لوڈ، اتارنا</lnkDownload>
+<lnkClose>بند کریں</lnkClose>
+<lbSave>مسل محفوظ کریں:</lbSave>
+<ck_Append>الحاق کریں</ck_Append>
+<this>آلاتی خوانا کیٹلاگ ریکارڈ منظر</this>
+</mebatch_frmRecord>
 <mebatch_frmresults>
-<cmd_close>بند کریں</cmd_close></mebatch_frmresults>
+<cmd_close>بند کریں</cmd_close>
+</mebatch_frmresults>
 <mebatch_frmStatus>
-<lbCaption>label1</lbCaption><this>حالت</this></mebatch_frmStatus>
+<lbCaption>label1</lbCaption>
+<this>حالت</this>
+</mebatch_frmStatus>
 <mebatch_SRUProps>
-<lbSRUTitle>خواص کوائفیہ:</lbSRUTitle><label1>URL:</label1><lbMetadata>مابعد کوائف شجرہ:</lbMetadata><lbName>نام:</lbName><cmdSave>محفوظ کریں</cmdSave><cmdClose>بند کریں</cmdClose><lbVersion>ورژن:</lbVersion><label2>تلاش پروفائل:</label2><label3>اضافی پیرامیٹر</label3><this>و خواص</this></mebatch_SRUProps>
+<lbSRUTitle>خواص کوائفیہ:</lbSRUTitle>
+<label1>URL:</label1>
+<lbMetadata>مابعد کوائف شجرہ:</lbMetadata>
+<lbName>نام:</lbName>
+<cmdSave>محفوظ کریں</cmdSave>
+<cmdClose>بند کریں</cmdClose>
+<lbVersion>ورژن:</lbVersion>
+<label2>تلاش پروفائل:</label2>
+<label3>اضافی پیرامیٹر</label3>
+<this>و خواص</this>
+</mebatch_SRUProps>
 </marcedit>

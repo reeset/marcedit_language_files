@@ -1,139 +1,1837 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <marcedit language="">
 <MarcEdit_Field_Count>
-<mnuExtract>Извлечение записей</mnuExtract><cmenuClipboard>Копировать в буфер</cmenuClipboard><cmenuSubfields>Количество дополнительных полей</cmenuSubfields><menuItem3>-</menuItem3><cmenuHelp>Справка</cmenuHelp><cmd_OK>Закрыть</cmd_OK><cmd_Report>Создать отчет</cmd_Report><lb_ReportStyle>Стиль отчета:</lb_ReportStyle><opt_tab>Вкладка с разделителями отчет</opt_tab><opt_xml>XML-отчет</opt_xml><opt_html>Отчет в формате HTML</opt_html><this>Поле Count</this></MarcEdit_Field_Count>
+<mnuExtract>Извлечение записей</mnuExtract>
+<cmenuClipboard>Копировать в буфер</cmenuClipboard>
+<cmenuSubfields>Количество дополнительных полей</cmenuSubfields>
+<menuItem3>-</menuItem3>
+<cmenuHelp>Справка</cmenuHelp>
+<cmd_OK>Закрыть</cmd_OK>
+<cmd_Report>Создать отчет</cmd_Report>
+<lb_ReportStyle>Стиль отчета:</lb_ReportStyle>
+<opt_tab>Вкладка с разделителями отчет</opt_tab>
+<opt_xml>XML-отчет</opt_xml>
+<opt_html>Отчет в формате HTML</opt_html>
+<this>Поле Count</this>
+</MarcEdit_Field_Count>
 <MarcEdit_FindReplace>
-<tbFind>Найти</tbFind><btn_findall>Найти все</btn_findall><groupBox1>Параметры поиска:</groupBox1><ck_f_whole_word>Найти только слово целиком</ck_f_whole_word><ck_find_regex>Использование регулярных выражений</ck_find_regex><ck_f_match_case>Учитывать регистр</ck_f_match_case><lbPreview>Найти только Поиск загруженных данных в режиме предварительного просмотра.</lbPreview><cmdFClose>Закрыть</cmdFClose><cmdFFind>Найти</cmdFFind><lb_FindWhat>Найти то, что:</lb_FindWhat><tbReplace>Заменить</tbReplace><cmd_R_Close>Закрыть</cmd_R_Close><cmd_R_All>Заменить все</cmd_R_All><cmd_R_Replace>Заменить</cmd_R_Replace><groupBox2>Параметры поиска:</groupBox2><ck_R_RegExp>Использование регулярных выражений</ck_R_RegExp><ck_R_Case>Учитывать регистр</ck_R_Case><lb_ReplaceWith>Замените:</lb_ReplaceWith><lb_R_FindWhat>Найти то, что:</lb_R_FindWhat><groupBox3>Направление:</groupBox3><rd_up>Вверх</rd_up><rd_down>Вниз</rd_down><this>Найти и заменить:</this></MarcEdit_FindReplace>
+<tbFind>Найти</tbFind>
+<groupBox3>Направление:</groupBox3>
+<rd_down>Вниз</rd_down>
+<rd_up>Вверх</rd_up>
+<btn_findall>Найти все</btn_findall>
+<groupBox1>Параметры поиска:</groupBox1>
+<ck_f_whole_word>Найти только слово целиком</ck_f_whole_word>
+<ck_find_regex>Использование регулярных выражений</ck_find_regex>
+<ck_f_match_case>Учитывать регистр</ck_f_match_case>
+<lbPreview>Найти только Поиск загруженных данных в режиме предварительного просмотра.</lbPreview>
+<cmdFClose>Закрыть</cmdFClose>
+<cmdFFind>Найти</cmdFFind>
+<lb_FindWhat>Найти то, что:</lb_FindWhat>
+<tbReplace>Заменить</tbReplace>
+<cmd_R_Close>Закрыть</cmd_R_Close>
+<cmd_R_All>Заменить все</cmd_R_All>
+<cmd_R_Replace>Заменить</cmd_R_Replace>
+<groupBox2>Параметры поиска:</groupBox2>
+<ck_R_RegExp>Использование регулярных выражений</ck_R_RegExp>
+<ck_R_Case>Учитывать регистр</ck_R_Case>
+<lb_ReplaceWith>Замените:</lb_ReplaceWith>
+<lb_R_FindWhat>Найти то, что:</lb_R_FindWhat>
+<this>Найти и заменить:</this>
+</MarcEdit_FindReplace>
 <MarcEdit_frm008>
-<label11>Тип: книга</label11><lbbTitle>006/008 опции:</lbbTitle><lnkbBiog>Biog:</lnkbBiog><lnkbLitF>LitF:</lnkbLitF><lnkbIndx>INDX:</lnkbIndx><lnkbFest>Фестиваль:</lnkbFest><lnkbConf>Conf:</lnkbConf><lnkbGPub>GPub:</lnkbGPub><lnkbCont>Продолжение:</lnkbCont><lnkbForm>Форма:</lnkbForm><lnkbAudn>Audn:</lnkbAudn><lnkbIlls>Бед:</lnkbIlls><lnkbType>Тип:</lnkbType><label12>Тип: Электронный ресурс</label12><label5>006/008 опции:</label5><lnkcFile>Файл:</lnkcFile><lnkcGPub>GPub:</lnkcGPub><lnkcAudn>Audn:</lnkcAudn><lnkcType>Тип:</lnkcType><label2>,</label2><lnkbDates>Даты проведения:</lnkbDates><lnkbDtSt>Лучший:</lnkbDtSt><lnkbCtry>Ctry:</lnkbCtry><lnkbLang>Lang:</lnkbLang><lnkbMRec>MRec:</lnkbMRec><label1>008 опции:</label1><label13>Тип: карта</label13><label3>006/008 опции:</label3><lnkmSpFm>SpFm:</lnkmSpFm><lnkmIndx>INDX:</lnkmIndx><lnkmForm>Форма:</lnkmForm><lnkmGPub>GPub:</lnkmGPub><lnkmCrTp>СКТР:</lnkmCrTp><lnkmProj>Proj:</lnkmProj><lnkmRelf>Релф:</lnkmRelf><lnkmType>Тип:</lnkmType><label14>Тип: Смешанные материалы</label14><label4>006/008 опции:</label4><lnkmmForm>Форма:</lnkmmForm><lnkmmType>Тип:</lnkmmType><label15>Тип: Оценка</label15><label6>006/008 опции:</label6><lnkscLTxt>LTxt:</lnkscLTxt><lnkscAccM>АСЧМ:</lnkscAccM><lnkscForm>Форма:</lnkscForm><lnkscAudn>Audn:</lnkscAudn><lnkscFMus>FMus:</lnkscFMus><lnkscComp>Комп:</lnkscComp><lnkscType>Тип:</lnkscType><label10>Тип: Продолжая ресурс</label10><lnkslEntW>EntW:</lnkslEntW><lnkslS_L>S/L:</lnkslS_L><label7>006/008 опции:</label7><lnkslAlph>Альфа:</lnkslAlph><lnkslConf>Conf:</lnkslConf><lnkslGPub>GPub:</lnkslGPub><lnkslCont>Продолжение:</lnkslCont><lnkslForm>Форма:</lnkslForm><lnkslOrig>Ориг.:</lnkslOrig><lnkslSrTp>Спок:</lnkslSrTp><lnkslISSN>ISSN:</lnkslISSN><lnkslRegl>Regl:</lnkslRegl><lnkslFreq>Частота:</lnkslFreq><lnkslType>Тип:</lnkslType><label16>Тип: Звуковая запись</label16><label8>006/008 опции:</label8><lnksdLTxt>LTxt:</lnksdLTxt><lnksdAccM>АСЧМ:</lnksdAccM><lnksdForm>Форма:</lnksdForm><lnksdAudn>Audn:</lnksdAudn><lnksdFMus>FMus:</lnksdFMus><lnksdComp>Комп:</lnksdComp><lnksdType>Тип:</lnksdType><label17>Тип: Визуальные материалы</label17><label9>006/008 опции:</label9><lnkvmTech>Техник:</lnkvmTech><lnkvmTMat>Томатный:</lnkvmTMat><lnkvmForm>Форма:</lnkvmForm><lnkvmGPub>GPub:</lnkvmGPub><lnkvmAudn>Audn:</lnkvmAudn><lnkvmTime>Время:</lnkvmTime><lnkvmType>Тип:</lnkvmType><cmd_Ok>Хорошо</cmd_Ok><cmd_Close>Закрыть</cmd_Close><lnkSrce>Srce:</lnkSrce><linkLabel1>Форма:</linkLabel1><this>006/008</this></MarcEdit_frm008>
+<label11>Тип: книга</label11>
+<lbbTitle>006/008 опции:</lbbTitle>
+<lnkbBiog>Biog:</lnkbBiog>
+<lnkbLitF>LitF:</lnkbLitF>
+<lnkbIndx>INDX:</lnkbIndx>
+<lnkbFest>Фестиваль:</lnkbFest>
+<lnkbConf>Conf:</lnkbConf>
+<lnkbGPub>GPub:</lnkbGPub>
+<lnkbCont>Продолжение:</lnkbCont>
+<lnkbForm>Форма:</lnkbForm>
+<lnkbAudn>Audn:</lnkbAudn>
+<lnkbIlls>Бед:</lnkbIlls>
+<lnkbType>Тип:</lnkbType>
+<label12>Тип: Электронный ресурс</label12>
+<label5>006/008 опции:</label5>
+<lnkcFile>Файл:</lnkcFile>
+<lnkcGPub>GPub:</lnkcGPub>
+<lnkcAudn>Audn:</lnkcAudn>
+<lnkcType>Тип:</lnkcType>
+<label2>,</label2>
+<lnkbDates>Даты проведения:</lnkbDates>
+<lnkbDtSt>Лучший:</lnkbDtSt>
+<lnkbCtry>Ctry:</lnkbCtry>
+<lnkbLang>Lang:</lnkbLang>
+<lnkbMRec>MRec:</lnkbMRec>
+<label1>008 опции:</label1>
+<label13>Тип: карта</label13>
+<label3>006/008 опции:</label3>
+<lnkmSpFm>SpFm:</lnkmSpFm>
+<lnkmIndx>INDX:</lnkmIndx>
+<lnkmForm>Форма:</lnkmForm>
+<lnkmGPub>GPub:</lnkmGPub>
+<lnkmCrTp>СКТР:</lnkmCrTp>
+<lnkmProj>Proj:</lnkmProj>
+<lnkmRelf>Релф:</lnkmRelf>
+<lnkmType>Тип:</lnkmType>
+<label14>Тип: Смешанные материалы</label14>
+<label4>006/008 опции:</label4>
+<lnkmmForm>Форма:</lnkmmForm>
+<lnkmmType>Тип:</lnkmmType>
+<label15>Тип: Оценка</label15>
+<label6>006/008 опции:</label6>
+<lnkscLTxt>LTxt:</lnkscLTxt>
+<lnkscAccM>АСЧМ:</lnkscAccM>
+<lnkscForm>Форма:</lnkscForm>
+<lnkscAudn>Audn:</lnkscAudn>
+<lnkscFMus>FMus:</lnkscFMus>
+<lnkscComp>Комп:</lnkscComp>
+<lnkscType>Тип:</lnkscType>
+<label10>Тип: Продолжая ресурс</label10>
+<lnkslEntW>EntW:</lnkslEntW>
+<lnkslS_L>S/L:</lnkslS_L>
+<label7>006/008 опции:</label7>
+<lnkslAlph>Альфа:</lnkslAlph>
+<lnkslConf>Conf:</lnkslConf>
+<lnkslGPub>GPub:</lnkslGPub>
+<lnkslCont>Продолжение:</lnkslCont>
+<lnkslForm>Форма:</lnkslForm>
+<lnkslOrig>Ориг.:</lnkslOrig>
+<lnkslSrTp>Спок:</lnkslSrTp>
+<lnkslISSN>ISSN:</lnkslISSN>
+<lnkslRegl>Regl:</lnkslRegl>
+<lnkslFreq>Частота:</lnkslFreq>
+<lnkslType>Тип:</lnkslType>
+<label16>Тип: Звуковая запись</label16>
+<label8>006/008 опции:</label8>
+<lnksdLTxt>LTxt:</lnksdLTxt>
+<lnksdAccM>АСЧМ:</lnksdAccM>
+<lnksdForm>Форма:</lnksdForm>
+<lnksdAudn>Audn:</lnksdAudn>
+<lnksdFMus>FMus:</lnksdFMus>
+<lnksdComp>Комп:</lnksdComp>
+<lnksdType>Тип:</lnksdType>
+<label17>Тип: Визуальные материалы</label17>
+<label9>006/008 опции:</label9>
+<lnkvmTech>Техник:</lnkvmTech>
+<lnkvmTMat>Томатный:</lnkvmTMat>
+<lnkvmForm>Форма:</lnkvmForm>
+<lnkvmGPub>GPub:</lnkvmGPub>
+<lnkvmAudn>Audn:</lnkvmAudn>
+<lnkvmTime>Время:</lnkvmTime>
+<lnkvmType>Тип:</lnkvmType>
+<cmd_Ok>Хорошо</cmd_Ok>
+<cmd_Close>Закрыть</cmd_Close>
+<lnkSrce>Srce:</lnkSrce>
+<linkLabel1>Форма:</linkLabel1>
+<this>006/008</this>
+</MarcEdit_frm008>
 <MarcEdit_frmBatchEdit>
-<lnk_Edit_Fields>Редактирование полей</lnk_Edit_Fields><lnkCopy>Копирование данных поля</lnkCopy><lnkSwapFields>Замена полей</lnkSwapFields><lnkIndicators>Изменить показатели</lnkIndicators><lnkSubfield>Редактирование дополнительных полей данных</lnkSubfield><lnkAddDelete>Добавление и удаление полей</lnkAddDelete><label1>Найти то, что:</label1><cmd_A_Close>Закрыть</cmd_A_Close><cmd_A_Add>Добавить поле</cmd_A_Add><cmd_A_Delete>Удалить поле</cmd_A_Delete><groupBox1>Параметры:</groupBox1><ck_delete_batch>Процесс пакетной операции</ck_delete_batch><ck_AddIfPresent>Добавьте поле, если присутствует</ck_AddIfPresent><ck_RemoveIfNot>Удалить, если поле данных не соответствует</ck_RemoveIfNot><ck_last>Вставьте последний</ck_last><ck_dedup>Удаление повторяющихся данных</ck_dedup><ck_A_regular_Expression>Использовать регулярное выражение</ck_A_regular_Expression><ck_A_not_present>Добавить поле только, если не присутствует</ck_A_not_present><ck_A_Insert>Вставить перед</ck_A_Insert><ck_A_Case>Учитывать регистр</ck_A_Case><label3>Поля данных:</label3><lb_A_Field>Поле:</lb_A_Field><lb_A_Title>Добавление или удаление поля утилита</lb_A_Title><cmd_Sub_Close>Закрыть</cmd_Sub_Close><cmd_Sub_Remove>Удалить текст</cmd_Sub_Remove><cmd_Sub_Replace>Заменить текст</cmd_Sub_Replace><groupBox2>Параметры поиска:</groupBox2><ck_edit_subfield_delete_subfield>Удаление подполе</ck_edit_subfield_delete_subfield><ck_move_subfield>Перемещение данных в подполе</ck_move_subfield><ck_Reg_Express>Использовать регулярное выражение</ck_Reg_Express><ck_Sub_Case>Учитывать регистр</ck_Sub_Case><ck_Sub_New>Новые подполе только</ck_Sub_New><ck_Sub_NotPresent>Добавление дополнительных полей, если не присутствует</ck_Sub_NotPresent><label8>Замените:</label8><label7>Поля данных:</label7><label6>Дополнительных полей:</label6><label5>Поле:</label5><lb_Sub_Title>Редактировать Subfield утилита</lb_Sub_Title><cmd_I_Close>Закрыть</cmd_I_Close><cmd_I_Replace>Заменить</cmd_I_Replace><lb_Ind_Replace>Заменить показатели</lb_Ind_Replace><label12>Поля данных:</label12><label11>Индикаторы</label11><label10>Поле:</label10><lb_Ind_Title>Изменить показатель утилиты</lb_Ind_Title><ck_swap_expression>Рассматривать как регулярное выражение</ck_swap_expression><label4>Найти:</label4><cmd_Swap_Close>Закрыть</cmd_Swap_Close><cmd_Swap_Process>Процесс</cmd_Swap_Process><groupBox3>Параметры поиска</groupBox3><ck_swap_once_per>Процесс одно поле на своп</ck_swap_once_per><ck_swap_sort>Сортировка изменения поля</ck_swap_sort><ck_Swap_Override>Добавить в существующие/создать новый</ck_Swap_Override><ck_Swap_Add>Добавить к существующему полю</ck_Swap_Add><ck_Swap_Copy>Скопировать источник</ck_Swap_Copy><label20>Изменение данных:</label20><label22>Подполей</label22><label23>Индикаторы</label23><label24>Поле</label24><label19>Исходные данные:</label19><label18>Найти:</label18><label17>Подполей</label17><label16>Индикаторы</label16><label15>Поле</label15><lb_Swap_Title>Утилита области подкачки</lb_Swap_Title><label14>Дополнительных полей:</label14><lbFindInField>Найти в поле</lbFindInField><groupBox4>Параметры</groupBox4><ck_copy_delete>Удалить исходное поле</ck_copy_delete><label2>Конечное поле:</label2><cmdCopyClose>Закрыть</cmdCopyClose><cmdCopy>Копия</cmdCopy><label9>Поле источника:</label9><label13>Копирование данных поля</label13><label26>Должность:</label26><label21>Замените:</label21><label25>Найти:</label25><groupBox5>Параметры</groupBox5><ck_editfield_match_case>Учитывать регистр</ck_editfield_match_case><ck_UserRegularExpressions>Использование регулярных выражений</ck_UserRegularExpressions><cmdFieldEdit_Close>Закрыть</cmdFieldEdit_Close><cmdEditField_Process>Процесс</cmdEditField_Process><label27>Поле:</label27><label28>Редактирование поля данных</label28><this>Инструменты для редактирования пакетный MarcEdit.NET</this></MarcEdit_frmBatchEdit>
+<lnk_Edit_Fields>Редактирование полей</lnk_Edit_Fields>
+<lnkCopy>Копирование данных поля</lnkCopy>
+<lnkSwapFields>Замена полей</lnkSwapFields>
+<lnkIndicators>Изменить показатели</lnkIndicators>
+<lnkSubfield>Редактирование дополнительных полей данных</lnkSubfield>
+<lnkAddDelete>Добавление и удаление полей</lnkAddDelete>
+<label1>Найти то, что:</label1>
+<cmd_A_Close>Закрыть</cmd_A_Close>
+<cmd_A_Add>Добавить поле</cmd_A_Add>
+<cmd_A_Delete>Удалить поле</cmd_A_Delete>
+<groupBox1>Параметры:</groupBox1>
+<ck_delete_batch>Процесс пакетной операции</ck_delete_batch>
+<ck_AddIfPresent>Добавьте поле, если присутствует</ck_AddIfPresent>
+<ck_RemoveIfNot>Удалить, если поле данных не соответствует</ck_RemoveIfNot>
+<ck_last>Вставьте последний</ck_last>
+<ck_dedup>Удаление повторяющихся данных</ck_dedup>
+<ck_A_regular_Expression>Использовать регулярное выражение</ck_A_regular_Expression>
+<ck_A_not_present>Добавить поле только, если не присутствует</ck_A_not_present>
+<ck_A_Insert>Вставить перед</ck_A_Insert>
+<ck_A_Case>Учитывать регистр</ck_A_Case>
+<label3>Поля данных:</label3>
+<lb_A_Field>Поле:</lb_A_Field>
+<lb_A_Title>Добавление или удаление поля утилита</lb_A_Title>
+<cmd_Sub_Close>Закрыть</cmd_Sub_Close>
+<cmd_Sub_Remove>Удалить текст</cmd_Sub_Remove>
+<cmd_Sub_Replace>Заменить текст</cmd_Sub_Replace>
+<groupBox2>Параметры поиска:</groupBox2>
+<ck_edit_subfield_delete_subfield>Удаление подполе</ck_edit_subfield_delete_subfield>
+<ck_move_subfield>Перемещение данных в подполе</ck_move_subfield>
+<ck_Reg_Express>Использовать регулярное выражение</ck_Reg_Express>
+<ck_Sub_Case>Учитывать регистр</ck_Sub_Case>
+<ck_Sub_New>Новые подполе только</ck_Sub_New>
+<ck_Sub_NotPresent>Добавление дополнительных полей, если не присутствует</ck_Sub_NotPresent>
+<label8>Замените:</label8>
+<label7>Поля данных:</label7>
+<label6>Дополнительных полей:</label6>
+<label5>Поле:</label5>
+<lb_Sub_Title>Редактировать Subfield утилита</lb_Sub_Title>
+<cmd_I_Close>Закрыть</cmd_I_Close>
+<cmd_I_Replace>Заменить</cmd_I_Replace>
+<lb_Ind_Replace>Заменить показатели</lb_Ind_Replace>
+<label12>Поля данных:</label12>
+<label11>Индикаторы</label11>
+<label10>Поле:</label10>
+<lb_Ind_Title>Изменить показатель утилиты</lb_Ind_Title>
+<ck_swap_expression>Рассматривать как регулярное выражение</ck_swap_expression>
+<label4>Найти:</label4>
+<cmd_Swap_Close>Закрыть</cmd_Swap_Close>
+<cmd_Swap_Process>Процесс</cmd_Swap_Process>
+<groupBox3>Параметры поиска</groupBox3>
+<ck_swap_once_per>Процесс одно поле на своп</ck_swap_once_per>
+<ck_swap_sort>Сортировка изменения поля</ck_swap_sort>
+<ck_Swap_Override>Добавить в существующие/создать новый</ck_Swap_Override>
+<ck_Swap_Add>Добавить к существующему полю</ck_Swap_Add>
+<ck_Swap_Copy>Скопировать источник</ck_Swap_Copy>
+<label20>Изменение данных:</label20>
+<label22>Подполей</label22>
+<label23>Индикаторы</label23>
+<label24>Поле</label24>
+<label19>Исходные данные:</label19>
+<label18>Найти:</label18>
+<label17>Подполей</label17>
+<label16>Индикаторы</label16>
+<label15>Поле</label15>
+<lb_Swap_Title>Утилита области подкачки</lb_Swap_Title>
+<label14>Дополнительных полей:</label14>
+<lbFindInField>Найти в поле</lbFindInField>
+<groupBox4>Параметры</groupBox4>
+<ck_copy_delete>Удалить исходное поле</ck_copy_delete>
+<label2>Конечное поле:</label2>
+<cmdCopyClose>Закрыть</cmdCopyClose>
+<cmdCopy>Копия</cmdCopy>
+<label9>Поле источника:</label9>
+<label13>Копирование данных поля</label13>
+<label26>Должность:</label26>
+<label21>Замените:</label21>
+<label25>Найти:</label25>
+<groupBox5>Параметры</groupBox5>
+<ck_editfield_match_case>Учитывать регистр</ck_editfield_match_case>
+<ck_UserRegularExpressions>Использование регулярных выражений</ck_UserRegularExpressions>
+<cmdFieldEdit_Close>Закрыть</cmdFieldEdit_Close>
+<cmdEditField_Process>Процесс</cmdEditField_Process>
+<label27>Поле:</label27>
+<label28>Редактирование поля данных</label28>
+<this>Инструменты для редактирования пакетный MarcEdit.NET</this>
+</MarcEdit_frmBatchEdit>
 <MarcEdit_frmBibframe>
-<cmdProcess>Процесс</cmdProcess><cmdClose>Закрыть</cmdClose><label1>Стенд BibFrame является простой в использовании утилита, предназначенная для разрешить метаданных специалистов возможность моделировать свои данные с помощью BibFrame концепций.</label1><label2>Исходный файл:</label2><label3>Сохраните файл:</label3><label4>Сериализация данных:</label4><cmbSerialization>RDFXML</cmbSerialization><label5>Пути XQuery:</label5><xqueryPath>http://marcedit.reeset.NET/Software/XQuery/modules/</xqueryPath><label6>BaseURI:</label6><lnkEditXQuery>Редактировать</lnkEditXQuery><label7>Тип файла:</label7><this>BibFrame стенд</this></MarcEdit_frmBibframe>
+<cmdProcess>Процесс</cmdProcess>
+<cmdClose>Закрыть</cmdClose>
+<label1>Стенд BibFrame является простой в использовании утилита, позволяющая метаданных специаль </label1>
+<label2>Исходный файл:</label2>
+<label3>Сохраните файл:</label3>
+<label4>Сериализация данных:</label4>
+<cmbSerialization>RDFXML</cmbSerialization>
+<label5>Пути XQuery:</label5>
+<xqueryPath>http://marcedit.reeset.NET/Software/XQuery/modules/</xqueryPath>
+<label6>BaseURI:</label6>
+<lnkEditXQuery>Редактировать</lnkEditXQuery>
+<label7>Тип файла:</label7>
+<this>BibFrame стенд</this>
+</MarcEdit_frmBibframe>
 <MarcEdit_frmBuildLinks>
-<label3>Сохраните файл:</label3><label2>Исходный файл:</label2><label1>Средство связанных данных была разработана для Организация цикла через набор точек доступа andresolve Марк записи в 1xx, 6xx и 7xx данных элементов для их конечные связанных данных.</label1><cmdProcess>Процесс</cmdProcess><cmdCancel>Отмена</cmdCancel><groupBox1>Услуги ID</groupBox1><ck_loc>Библиотека Конгресса США (id.loc.gov)</ck_loc><ck_viaf>OCLC БИБЛИОИНФОРМАЦИЯ</ck_viaf><this>Строить связанные записи</this></MarcEdit_frmBuildLinks>
+<label3>Сохраните файл:</label3>
+<label2>Исходный файл:</label2>
+<label1>Средство связанных данных был разработан для перебора набора записей, Марк и решимость точек доступа в 1xx, 6xx и элементы данных 7xx их связанных dat конечными точками.</label1>
+<cmdProcess>Процесс</cmdProcess>
+<cmdCancel>Отмена</cmdCancel>
+<groupBox1>Услуги ID</groupBox1>
+<ck_loc>Библиотека Конгресса США (id.loc.gov)</ck_loc>
+<ck_viaf>OCLC БИБЛИОИНФОРМАЦИЯ</ck_viaf>
+<this>Строить связанные записи</this>
+</MarcEdit_frmBuildLinks>
 <MarcEdit_frmCatalogCalculator>
-<lnkFind>Найти</lnkFind><lbResults>Результаты:</lbResults><lnkCatalog>Kyle Банерджи каталог калькулятор</lnkCatalog><cmdClose>Закрыть</cmdClose><label1>LC фрезы</label1><this>Каталогизация калькулятор</this></MarcEdit_frmCatalogCalculator>
+<lnkFind>Найти</lnkFind>
+<lbResults>Результаты:</lbResults>
+<lnkCatalog>Kyle Банерджи каталог калькулятор</lnkCatalog>
+<cmdClose>Закрыть</cmdClose>
+<label1>LC фрезы</label1>
+<this>Каталогизация калькулятор</this>
+</MarcEdit_frmCatalogCalculator>
 <MarcEdit_frmClassify>
-<label1>Эта служба использует OCLC классифицировать веб-службы.  Классификация recommendationsare, порожденных отправки OCLC контрольный номер из записи.  OCLC в webservice будет возвращать обратно toMarcEdit LC или Дьюи десятичной классификации, чаще всего связанные с этой записью.</label1><lnkClassify>О OCLC классифицировать услуги</lnkClassify><label2>Вставки инструкции:</label2><ck_all>Добавить все записи</ck_all><ck_single>Добавить к выбранной записи</ck_single><ck_lc>Библиотека Конгресса США</ck_lc><ck_dewey>Дьюи десятичной</ck_dewey><label3>Классификации:</label3><cmdProcess>Классифицировать</cmdProcess><cmdClose>Закрыть</cmdClose><label5>Вставить, если не присутствуют следующие поля (пример: 050, 060, 090; 092)</label5><label4>Вставьте сгенерированный классификаций в следующее поле:</label4><label7>Параметры:</label7><ck_cutters>Расчет фрезы и даты</ck_cutters><ck_use_z>Использовать для наложения подполе z</ck_use_z><ck_DateMod>Добавить флаг к Дата</ck_DateMod><ck_omit_serial>Опустить Дата для сериалов</ck_omit_serial><ck_omit_integrated>Опустить Дата для комплексных ресурсов</ck_omit_integrated><ck_omit>Добавить дату исключения</ck_omit><label8>Предметных рубрик:</label8><ck_always_fast>Всегда добавляйте быстро заголовки</ck_always_fast><ck_conditional_fast>Добавить быстро заголовки, когда без предметных рубрик присутствуют</ck_conditional_fast><label6>Индикаторы:</label6><this>Создание классификации</this></MarcEdit_frmClassify>
+<label1>Эта служба использует OCLC классифицировать веб-службы.  Отправив OCLC контрольный номер из записи создаются классификации рекомендации.  OCLC в webservice вернется обратно к MarcEdit, LC или Дьюи десятичной классификации чаще всего связанные с этой записью.</label1>
+<lnkClassify>О OCLC классифицировать услуги</lnkClassify>
+<label2>Вставки инструкции:</label2>
+<ck_all>Добавить все записи</ck_all>
+<ck_single>Добавить к выбранной записи</ck_single>
+<ck_lc>Библиотека Конгресса США</ck_lc>
+<ck_dewey>Дьюи десятичной</ck_dewey>
+<label3>Классификации:</label3>
+<cmdProcess>Классифицировать</cmdProcess>
+<cmdClose>Закрыть</cmdClose>
+<label5>Вставить, если не присутствуют следующие поля (пример: 050, 060, 090; 092)</label5>
+<label4>Вставьте сгенерированный классификаций в следующее поле:</label4>
+<label7>Параметры:</label7>
+<ck_cutters>Расчет фрезы и даты</ck_cutters>
+<ck_use_z>Использовать для наложения подполе z</ck_use_z>
+<ck_DateMod>Добавить флаг к Дата</ck_DateMod>
+<ck_omit_serial>Опустить Дата для сериалов</ck_omit_serial>
+<ck_omit_integrated>Опустить Дата для комплексных ресурсов</ck_omit_integrated>
+<ck_omit>Добавить дату исключения</ck_omit>
+<label8>Предметных рубрик:</label8>
+<ck_always_fast>Всегда добавляйте быстро заголовки</ck_always_fast>
+<ck_conditional_fast>Добавить быстро заголовки, когда без предметных рубрик присутствуют</ck_conditional_fast>
+<label6>Индикаторы:</label6>
+<this>Создание классификации</this>
+</MarcEdit_frmClassify>
 <MarcEdit_frmConstantData>
-<columnHeader1>Постоянные данные</columnHeader1><columnHeader3>Ярлык</columnHeader3><cmdClose>Закрыть</cmdClose><lnkKey>Назначение ключа</lnkKey><lnkEdit>Изменить выбранную строку</lnkEdit><lnkDelete>Удалить выбранные строки</lnkDelete><lnkNew>Создание новой строки</lnkNew><lbActions>Действия:</lbActions><lbMacro>Постоянные данные:</lbMacro><this>Измените постоянных данных</this></MarcEdit_frmConstantData>
+<columnHeader1>Постоянные данные</columnHeader1>
+<columnHeader3>Ярлык</columnHeader3>
+<cmdClose>Закрыть</cmdClose>
+<lnkKey>Назначение ключа</lnkKey>
+<lnkEdit>Изменить выбранную строку</lnkEdit>
+<lnkDelete>Удалить выбранные строки</lnkDelete>
+<lnkNew>Создание новой строки</lnkNew>
+<lbActions>Действия:</lbActions>
+<lbMacro>Постоянные данные:</lbMacro>
+<this>Измените постоянных данных</this>
+</MarcEdit_frmConstantData>
 <MarcEdit_frmControlNumb>
-<lb_prefix>Префикс номера:</lb_prefix><lb_digit>Начало цифра:</lb_digit><ck_autogenerate>Вставка новых записей</ck_autogenerate><button1>Хорошо</button1><button2>Закрыть</button2><lb_length>Длина цифр (минус префикс)</lb_length><ckgenerate>Создание в текущем файле</ckgenerate><ck_label>Марк запись чисел</ck_label><label1>Поле/подполе (например: 001, 949$ b)</label1><ck_repeat>Всегда вставляйте</ck_repeat><this>Создание управления чисел</this></MarcEdit_frmControlNumb>
+<lb_prefix>Префикс номера:</lb_prefix>
+<lb_digit>Начало цифра:</lb_digit>
+<ck_autogenerate>Вставка новых записей</ck_autogenerate>
+<button1>Хорошо</button1>
+<button2>Закрыть</button2>
+<lb_length>Длина цифр (минус префикс)</lb_length>
+<ckgenerate>Создание в текущем файле</ckgenerate>
+<ck_label>Марк запись чисел</ck_label>
+<label1>Поле/подполе (например: 001, 949$ b)</label1>
+<ck_repeat>Всегда вставляйте</ck_repeat>
+<this>Создание управления чисел</this>
+</MarcEdit_frmControlNumb>
 <MarcEdit_frmDedup>
-<ck_save>Сохраните Dedup элементов:</ck_save><ck_unique>Печать уникальных предметов</ck_unique><ck_remove>Удалить повторяющиеся элементы</ck_remove><lbOptions>Параметры:</lbOptions><label1>Dedup на:</label1><lb_Control>Поле элемента управления:</lb_Control><cmdClose>Закрыть</cmdClose><cmdOK>Процесс</cmdOK><btnCancel>Отмена</btnCancel><btnNext>Следующая</btnNext><label4>Сохраните файл:</label4><label3>Найти дублирования из следующих файлов:</label3><label2>Средство записи дедупликации</label2><this>Запись дедупликации</this></MarcEdit_frmDedup>
+<ck_save>Сохраните Dedup элементов:</ck_save>
+<ck_unique>Печать уникальных предметов</ck_unique>
+<ck_remove>Удалить повторяющиеся элементы</ck_remove>
+<lbOptions>Параметры:</lbOptions>
+<label1>Dedup на:</label1>
+<lb_Control>Поле элемента управления:</lb_Control>
+<cmdClose>Закрыть</cmdClose>
+<cmdOK>Процесс</cmdOK>
+<btnCancel>Отмена</btnCancel>
+<btnNext>Следующая</btnNext>
+<label4>Сохраните файл:</label4>
+<label3>Найти дублирования из следующих файлов:</label3>
+<label2>Средство записи дедупликации</label2>
+<this>Запись дедупликации</this>
+</MarcEdit_frmDedup>
 <MarcEdit_frmExportSettings>
-<label1>Выберите файлы в папку:</label1><ckconfig>Параметры конфигурации</ckconfig><label2>Экспортирует все данные в папке конфигурации пользователя.  Это включает в себя данные конфигурации, список функций XSLT, marcvalidator правила и файлы базы данных Z39.50.</label2><ckXSLT>Функций XSLT</ckXSLT><label3>Экспорт определенных таблиц стилей XSLT
-</label3><ckMacros>Определяемые макросы и задачи</ckMacros><label4>Экспорт всех определенных макросов и задачи...
-</label4><label5>Экспорт всех определенных шаблонов типа материала MarcEditor.</label5><ckTemplates>Определенные MarcEditor шаблоны</ckTemplates><cmdExport>Экспорт</cmdExport><cmdClose>Закрыть</cmdClose><this>Параметры экспорта</this></MarcEdit_frmExportSettings>
+<label1>Выберите файлы в папку:</label1>
+<ckconfig>Параметры конфигурации</ckconfig>
+<label2>Экспортирует все данные в папке конфигурации пользователя.  Это включает в себя данные конфигурации, </label2>
+<ckXSLT>Функций XSLT</ckXSLT>
+<label3>Экспорт определенных таблиц стилей XSLT
+</label3>
+<ckMacros>Определяемые макросы и задачи</ckMacros>
+<label4>Экспорт всех определенных макросов и задачи...
+</label4>
+<label5>Экспорт всех определенных шаблонов типа материала MarcEditor.</label5>
+<ckTemplates>Определенные MarcEditor шаблоны</ckTemplates>
+<cmdExport>Экспорт</cmdExport>
+<cmdClose>Закрыть</cmdClose>
+<this>Параметры экспорта</this>
+</MarcEdit_frmExportSettings>
 <MarcEdit_frmFindAllResults>
-<columnHeader2>Действия</columnHeader2><columnHeader1>Найденный текст</columnHeader1><button1>Закрыть</button1><button2>Перейти к странице</button2><cmdFindUpdate>Редактировать запрос поиска</cmdFindUpdate><lb_result_num>раз найдено {#} {search_string}.</lb_result_num><this>Найти все результаты</this></MarcEdit_frmFindAllResults>
+<columnHeader2>Действия</columnHeader2>
+<columnHeader1>Найденный текст</columnHeader1>
+<button1>Закрыть</button1>
+<button2>Перейти к странице</button2>
+<cmdFindUpdate>Редактировать запрос поиска</cmdFindUpdate>
+<lb_result_num>раз найдено {#} {search_string}.</lb_result_num>
+<this>Найти все результаты</this>
+</MarcEdit_frmFindAllResults>
 <MarcEdit_frmHarvestBatch>
-<label1>OAI на определенные серверы:</label1><label2>(Для выбора нескольких элементов используйте shift/shift + управления)</label2><ck_date>Урожай с последней загрузки</ck_date><cmdCreate>Сохранить</cmdCreate><button1>Закрыть</button1><this>Создайте задание урожай</this></MarcEdit_frmHarvestBatch>
+<label1>OAI на определенные серверы:</label1>
+<label2>(Для выбора нескольких элементов используйте shift/shift + управления)</label2>
+<ck_date>Урожай с последней загрузки</ck_date>
+<cmdCreate>Сохранить</cmdCreate>
+<button1>Закрыть</button1>
+<this>Создайте задание урожай</this>
+</MarcEdit_frmHarvestBatch>
 <MarcEdit_frmHex>
-<BytesGroup>Байт</BytesGroup><label5>Бит</label5><label4>ISO-8859-1</label4><label3>Десятичное</label3><label2>Hex</label2><columnHeader1>Позиция</columnHeader1><columnHeader2>Байт</columnHeader2><columnHeader3>Текст</columnHeader3><menuStrip1>menuStrip1</menuStrip1><menuItem1>Файл</menuItem1><openToolStripMenuItem>Открытые</openToolStripMenuItem><ExitProgram>Выход</ExitProgram><this>MARCSpy</this></MarcEdit_frmHex>
+<BytesGroup>Байт</BytesGroup>
+<label5>Бит</label5>
+<label4>ISO-8859-1</label4>
+<label3>Десятичное</label3>
+<label2>Hex</label2>
+<columnHeader1>Позиция</columnHeader1>
+<columnHeader2>Байт</columnHeader2>
+<columnHeader3>Текст</columnHeader3>
+<menuStrip1>menuStrip1</menuStrip1>
+<menuItem1>Файл</menuItem1>
+<openToolStripMenuItem>Открытые</openToolStripMenuItem>
+<ExitProgram>Выход</ExitProgram>
+<this>MARCSpy</this>
+</MarcEdit_frmHex>
 <MarcEdit_frmHTMLResults>
-<this>Окно результатов MarcEdit</this></MarcEdit_frmHTMLResults>
+<this>Окно результатов MarcEdit</this>
+</MarcEdit_frmHTMLResults>
 <MarcEdit_frmjoin_xml_func>
-<lb_Alias>Имя функции (псевдоним):</lb_Alias><label1>Присоединяйтесь к с:</label1><cmd_ok>Сохранить</cmd_ok><cmd_close>Закрыть</cmd_close><this>Присоединяйтесь к функции XML</this></MarcEdit_frmjoin_xml_func>
+<lb_Alias>Имя функции (псевдоним):</lb_Alias>
+<label1>Присоединяйтесь к с:</label1>
+<cmd_ok>Сохранить</cmd_ok>
+<cmd_close>Закрыть</cmd_close>
+<this>Присоединяйтесь к функции XML</this>
+</MarcEdit_frmjoin_xml_func>
 <MarcEdit_frmListTasks>
-<columnHeader1>Имя</columnHeader1><columnHeader2>Путь</columnHeader2><cmdOK>Хорошо</cmdOK><cmdClose>Закрыть</cmdClose><this>Доступные задачи</this></MarcEdit_frmListTasks>
+<columnHeader1>Имя</columnHeader1>
+<columnHeader2>Путь</columnHeader2>
+<cmdOK>Хорошо</cmdOK>
+<cmdClose>Закрыть</cmdClose>
+<this>Доступные задачи</this>
+</MarcEdit_frmListTasks>
 <MarcEdit_frmMain>
-<lnkResearch>MARCNext</lnkResearch><lnkUserDefined3>MARC SQL Explorer</lnkUserDefined3><lnkUserDefined1>Переводчик текста с разделителями</lnkUserDefined1><lnkMarcToolsStart>Марк инструменты</lnkMarcToolsStart><lnkUserDefined2>Урожай OAI записей</lnkUserDefined2><lnkUserDefined4>Клиент Z39.50/SRU</lnkUserDefined4><startEditor>MarcEditor</startEditor><menuStrip1>menuStrip1</menuStrip1><mnuFile>Файл</mnuFile><mnuFiletools>Марк инструменты</mnuFiletools><mnuFileToolsBatch>Пакетный процесс записи</mnuFileToolsBatch><mnuFileBreaker>MarcBreaker</mnuFileBreaker><mnuFileMaker>MarcMaker</mnuFileMaker><mnuFilemXML>МАРК =&gt; MARC21XML</mnuFilemXML><mnuFileXMLm>MARC21XML =&gt; МАРК</mnuFileXMLm><mnuFileEditor>MarcEditor</mnuFileEditor><mnuFileIndividual_Record>Индивидуальные записи редактор</mnuFileIndividual_Record><mnuFileMARCSpy>Марк шпион</mnuFileMARCSpy><mnuFileShare>Общие параметры конфигурации</mnuFileShare><exportSettingsToolStripMenuItem>Параметры экспорта</exportSettingsToolStripMenuItem><importSettingsToolStripMenuItem>Параметры импорта</importSettingsToolStripMenuItem><toolStripMenuItem7>Перезагрузите MarcEdit в 32-битном режиме</toolStripMenuItem7><mnuFileExit>Выход</mnuFileExit><mnuTools>Инструменты</mnuTools><mnuToolsSelect>Выберите MARC записи</mnuToolsSelect><mnuToolsDelete>Удалить выбранные записи</mnuToolsDelete><mnuToolsExtract>Извлечение выбранных записей</mnuToolsExtract><mnuExportGroup>Экспорт...</mnuExportGroup><mnuToolsTabbed>Экспорт вкладки с разделителями записей</mnuToolsTabbed><mnuToolsGateway>Экспорт MARC записи</mnuToolsGateway><mnuToolsBatch>Пакетный процесс записи</mnuToolsBatch><mnuGenerateCallnumber>Создание вызова чисел</mnuGenerateCallnumber><toolStripMenuItem3>Генерировать быстрый заголовки</toolStripMenuItem3><mnuToolsDedup>Поиск повторяющихся записей</mnuToolsDedup><toolStripMenuItem6>OCLC операции</toolStripMenuItem6><updateWorldCatRecordHoldingsToolStripMenuItem>Обновление записи WorldCat Holdings</updateWorldCatRecordHoldingsToolStripMenuItem><uploadBibliographRecordsToWorldCatToolStripMenuItem>Загрузить библиограф записи WorldCat</uploadBibliographRecordsToWorldCatToolStripMenuItem><toolStripMenuItem5>Помощник RDA</toolStripMenuItem5><toolStripMenuItem8>MARCCompare</toolStripMenuItem8><mnuToolsJoin>MARCJoin</mnuToolsJoin><mnuToolsSplit>MARCSplit</mnuToolsSplit><mnutoolsmerge>Слияние записей</mnutoolsmerge><mnuToolsPreferences>Предпочтения</mnuToolsPreferences><mnuAddins>Добавить ins</mnuAddins><mnuAddLang>Правка языковых файлов</mnuAddLang><mnuAddinPluginManager>Менеджер плагинов</mnuAddinPluginManager><mnuaddincdsisis>CDS ISIS .iso =&gt; Марк перевод</mnuaddincdsisis><mnuAddinTranslator>Переводчик текста с разделителями</mnuAddinTranslator><mnuAddinTutorial>Местное руководство менеджер</mnuAddinTutorial><mnuAddinValidator>MARCValidator</mnuAddinValidator><mnuAddinZ39_50>Клиент MarcEdit Z39.50/SRU</mnuAddinZ39_50><mnuAddScriptWizard>Мастер сценариев MarcEdit</mnuAddScriptWizard><mnuExplorer>MARC SQL Explorer</mnuExplorer><toolStripMenuItem4>OAI комбайн инструменты</toolStripMenuItem4><harvestOAIRecordsToolStripMenuItem>Урожай OAI записей</harvestOAIRecordsToolStripMenuItem><batchHarvesterToolStripMenuItem>Пакетный комбайн</batchHarvesterToolStripMenuItem><createBatchJobToolStripMenuItem>Создать задание</createBatchJobToolStripMenuItem><runBatchHarvestToolStripMenuItem>Запуск пакетного урожай</runBatchHarvestToolStripMenuItem><mnuAddinURL>Проверьте URL-адреса</mnuAddinURL><pluginsToolStripMenuItem>Подключаемые модули</pluginsToolStripMenuItem><mnuHelp>Справка</mnuHelp><mnuHelpContents>Содержание и помощь</mnuHelpContents><mnuHelpTutorials>Мнение руководства</mnuHelpTutorials><mnuHelpOnline>Онлайн Справка</mnuHelpOnline><mnuHelpList>Присоединяйтесь к MarcEdit список уведомлений</mnuHelpList><mnuHelpError>Предложения/ошибка отчет</mnuHelpError><mnuBlog>MarcEdit блог</mnuBlog><marcEditKnownIssuesToolStripMenuItem>MarcEdit известные проблемы</marcEditKnownIssuesToolStripMenuItem><systemInfoToolStripMenuItem>Информация о системе</systemInfoToolStripMenuItem><mnuHelpResetConfig>Сброс данных конфигурации</mnuHelpResetConfig><mnuHelpDebugLoader>Скачать обновление (режим отладки)</mnuHelpDebugLoader><updateMarcEditToolStripMenuItem>Проверить наличие обновлений</updateMarcEditToolStripMenuItem><toolStripMenuItem2>Ярлыки приложений</toolStripMenuItem2><applicationDataPathToolStripMenuItem>Путь к данным приложения</applicationDataPathToolStripMenuItem><xSLTDataPathToolStripMenuItem>Путь данных XSLT</xSLTDataPathToolStripMenuItem><languageDataPathToolStripMenuItem>Путь данных языка</languageDataPathToolStripMenuItem><mnuHelpAboutGroup>О...</mnuHelpAboutGroup><mnuHelpAbout>MarcEdit 6</mnuHelpAbout><aboutTheAuthorToolStripMenuItem>Автор</aboutTheAuthorToolStripMenuItem><marcEditEULAToolStripMenuItem>MarcEdit EULA</marcEditEULAToolStripMenuItem><migrateDataToolStripMenuItem>Перенос данных XSLT в MarcEdit 6</migrateDataToolStripMenuItem><lb_AboutDesc>Я начал работать на MarcEdit в 1999 году как способ узнать, как Марк работает и в thattime, я имел удовольствие работать с рядом очень талантливый библиотекарей.  MarcEdit дает мне anthat MarcEdit может быть полезным в вашей работе, а также.  Если вы хотите узнать немного больше обо мне, или просмотреть whatI am до, не стесняйтесь искать меня в моем блоге или следовать за мной на Twitter.</lb_AboutDesc><label1>|</label1><lb_Authors>Обо мне:</lb_Authors><lnkHomepage>http://marcedit.reeset.NET</lnkHomepage><label5>URL-АДРЕС:</label5><label2>Благодарность:</label2><lbMod>Изменение:</lbMod><lbMailto>Терри Риз</lbMailto><lbAuthor>Автор:</lbAuthor><lbVersion>Версия:</lbVersion><label3>|</label3><label4>О MarcEdit</label4><lnkLinkIds>Ссылки идентификаторов</lnkLinkIds><lnkJsonObject>Просмотр объектов JSON</lnkJsonObject><lnkBibframe>BibFrame стенд</lnkBibframe><label7>|</label7><label8>MARCNext:</label8><this>MarcEdit Терри Риз</this></MarcEdit_frmMain>
+<lnkResearch>MARCNext</lnkResearch>
+<lnkUserDefined3>MARC SQL Explorer</lnkUserDefined3>
+<lnkUserDefined1>Переводчик текста с разделителями</lnkUserDefined1>
+<lnkMarcToolsStart>Марк инструменты</lnkMarcToolsStart>
+<lnkUserDefined2>Урожай OAI записей</lnkUserDefined2>
+<lnkUserDefined4>Клиент Z39.50/SRU</lnkUserDefined4>
+<startEditor>MarcEditor</startEditor>
+<menuStrip1>menuStrip1</menuStrip1>
+<mnuFile>Файл</mnuFile>
+<mnuFiletools>Марк инструменты</mnuFiletools>
+<mnuFileToolsBatch>Пакетный процесс записи</mnuFileToolsBatch>
+<mnuFileBreaker>MarcBreaker</mnuFileBreaker>
+<mnuFileMaker>MarcMaker</mnuFileMaker>
+<mnuFilemXML>МАРК =&gt; MARC21XML</mnuFilemXML>
+<mnuFileXMLm>MARC21XML =&gt; МАРК</mnuFileXMLm>
+<mnuFileEditor>MarcEditor</mnuFileEditor>
+<mnuFileIndividual_Record>Индивидуальные записи редактор</mnuFileIndividual_Record>
+<mnuFileMARCSpy>Марк шпион</mnuFileMARCSpy>
+<mnuFileShare>Общие параметры конфигурации</mnuFileShare>
+<exportSettingsToolStripMenuItem>Параметры экспорта</exportSettingsToolStripMenuItem>
+<importSettingsToolStripMenuItem>Параметры импорта</importSettingsToolStripMenuItem>
+<toolStripMenuItem7>Перезагрузите MarcEdit в 32-битном режиме</toolStripMenuItem7>
+<mnuFileExit>Выход</mnuFileExit>
+<mnuTools>Инструменты</mnuTools>
+<mnuToolsSelect>Выберите MARC записи</mnuToolsSelect>
+<mnuToolsDelete>Удалить выбранные записи</mnuToolsDelete>
+<mnuToolsExtract>Извлечение выбранных записей</mnuToolsExtract>
+<mnuExportGroup>Экспорт...</mnuExportGroup>
+<mnuToolsTabbed>Экспорт вкладки с разделителями записей</mnuToolsTabbed>
+<mnuToolsGateway>Экспорт MARC записи</mnuToolsGateway>
+<mnuToolsBatch>Пакетный процесс записи</mnuToolsBatch>
+<mnuGenerateCallnumber>Создание вызова чисел</mnuGenerateCallnumber>
+<toolStripMenuItem3>Генерировать быстрый заголовки</toolStripMenuItem3>
+<mnuToolsDedup>Поиск повторяющихся записей</mnuToolsDedup>
+<toolStripMenuItem6>OCLC операции</toolStripMenuItem6>
+<updateWorldCatRecordHoldingsToolStripMenuItem>Обновление записи WorldCat Holdings</updateWorldCatRecordHoldingsToolStripMenuItem>
+<uploadBibliographRecordsToWorldCatToolStripMenuItem>Загрузить библиограф записи WorldCat</uploadBibliographRecordsToWorldCatToolStripMenuItem>
+<toolStripMenuItem5>Помощник RDA</toolStripMenuItem5>
+<toolStripMenuItem8>MARCCompare</toolStripMenuItem8>
+<mnuToolsJoin>MARCJoin</mnuToolsJoin>
+<mnuToolsSplit>MARCSplit</mnuToolsSplit>
+<mnutoolsmerge>Слияние записей</mnutoolsmerge>
+<mnuToolsPreferences>Предпочтения</mnuToolsPreferences>
+<mnuAddins>Добавить ins</mnuAddins>
+<mnuAddLang>Правка языковых файлов</mnuAddLang>
+<mnuAddinPluginManager>Менеджер плагинов</mnuAddinPluginManager>
+<mnuaddincdsisis>CDS ISIS .iso =&gt; Марк перевод</mnuaddincdsisis>
+<mnuAddinTranslator>Переводчик текста с разделителями</mnuAddinTranslator>
+<mnuAddinTutorial>Местное руководство менеджер</mnuAddinTutorial>
+<mnuAddinValidator>MARCValidator</mnuAddinValidator>
+<mnuAddinZ39_50>Клиент MarcEdit Z39.50/SRU</mnuAddinZ39_50>
+<mnuAddScriptWizard>Мастер сценариев MarcEdit</mnuAddScriptWizard>
+<mnuExplorer>MARC SQL Explorer</mnuExplorer>
+<toolStripMenuItem4>OAI комбайн инструменты</toolStripMenuItem4>
+<harvestOAIRecordsToolStripMenuItem>Урожай OAI записей</harvestOAIRecordsToolStripMenuItem>
+<batchHarvesterToolStripMenuItem>Пакетный комбайн</batchHarvesterToolStripMenuItem>
+<createBatchJobToolStripMenuItem>Создать задание</createBatchJobToolStripMenuItem>
+<runBatchHarvestToolStripMenuItem>Запуск пакетного урожай</runBatchHarvestToolStripMenuItem>
+<mnuAddinURL>Проверьте URL-адреса</mnuAddinURL>
+<pluginsToolStripMenuItem>Подключаемые модули</pluginsToolStripMenuItem>
+<mnuHelp>Справка</mnuHelp>
+<mnuHelpContents>Содержание и помощь</mnuHelpContents>
+<mnuHelpTutorials>Мнение руководства</mnuHelpTutorials>
+<mnuHelpOnline>Онлайн Справка</mnuHelpOnline>
+<mnuHelpList>Присоединяйтесь к MarcEdit список уведомлений</mnuHelpList>
+<mnuHelpError>Предложения/ошибка отчет</mnuHelpError>
+<mnuBlog>MarcEdit блог</mnuBlog>
+<marcEditKnownIssuesToolStripMenuItem>MarcEdit известные проблемы</marcEditKnownIssuesToolStripMenuItem>
+<systemInfoToolStripMenuItem>Информация о системе</systemInfoToolStripMenuItem>
+<mnuHelpResetConfig>Сброс данных конфигурации</mnuHelpResetConfig>
+<mnuHelpDebugLoader>Скачать обновление (режим отладки)</mnuHelpDebugLoader>
+<updateMarcEditToolStripMenuItem>Проверить наличие обновлений</updateMarcEditToolStripMenuItem>
+<toolStripMenuItem2>Ярлыки приложений</toolStripMenuItem2>
+<applicationDataPathToolStripMenuItem>Путь к данным приложения</applicationDataPathToolStripMenuItem>
+<xSLTDataPathToolStripMenuItem>Путь данных XSLT</xSLTDataPathToolStripMenuItem>
+<languageDataPathToolStripMenuItem>Путь данных языка</languageDataPathToolStripMenuItem>
+<mnuHelpAboutGroup>О...</mnuHelpAboutGroup>
+<mnuHelpAbout>MarcEdit 6</mnuHelpAbout>
+<aboutTheAuthorToolStripMenuItem>Автор</aboutTheAuthorToolStripMenuItem>
+<marcEditEULAToolStripMenuItem>MarcEdit EULA</marcEditEULAToolStripMenuItem>
+<migrateDataToolStripMenuItem>Перенос данных XSLT в MarcEdit 6</migrateDataToolStripMenuItem>
+<lb_AboutDesc>Я начал работать на MarcEdit в 1999 году как способ узнать, как работает Марк и в то время, я имел удовольствие работать с рядом очень талантливый библиотекарей.  MarcEdit дает мне возможность работать на вещи, которые я люблю... царапин зуд.  Надеюсь вы найдете, что MarcEdit может быть полезным в вашей работе, а также.  Если вы хотите узнать немного больше обо мне, или увидеть то, что я до, не стесняйтесь искать меня в моем блоге или следовать за мной на Twitter.</lb_AboutDesc>
+<label1>|</label1>
+<lb_Authors>Обо мне:</lb_Authors>
+<lnkHomepage>http://marcedit.reeset.NET</lnkHomepage>
+<label5>URL-АДРЕС:</label5>
+<label2>Благодарность:</label2>
+<lbMod>Изменение:</lbMod>
+<lbMailto>Терри Риз</lbMailto>
+<lbAuthor>Автор:</lbAuthor>
+<lbVersion>Версия:</lbVersion>
+<label3>|</label3>
+<label4>О MarcEdit</label4>
+<lnkLinkIds>Ссылки идентификаторов</lnkLinkIds>
+<lnkJsonObject>Просмотр объектов JSON</lnkJsonObject>
+<lnkBibframe>BibFrame стенд</lnkBibframe>
+<label7>|</label7>
+<label8>MARCNext:</label8>
+<this>MarcEdit Терри Риз</this>
+</MarcEdit_frmMain>
 <MarcEdit_frmOAIHarvest>
-<lbTitle>Урожай OAI данных</lbTitle><lbServer>Адрес сервера:</lbServer><lbSet>Имя набора:</lbSet><lbMetadata>Тип метаданных:</lbMetadata><cmdOK>Хорошо</cmdOK><cmdClose>Закрыть</cmdClose><ck_Raw>Сбор исходных данных (за исключением OAI данных в локальной файловой системе)</ck_Raw><lbtoken>ResumptionToken:</lbtoken><lbGetRecord>GetRecord:</lbGetRecord><label3>secs.</label3><lbTimeout>Время ожидания:</lbTimeout><ck_Translate>Перевести на Марк-8</ck_Translate><label2>Конец:</label2><label1>Начало:</label1><lbCrosswalk>Пешеходный путь:</lbCrosswalk><lnkAdvanced>Дополнительные параметры</lnkAdvanced><cmdSave>Сохранить</cmdSave><this>Комбайн метаданных</this></MarcEdit_frmOAIHarvest>
+<lbTitle>Урожай OAI данных</lbTitle>
+<lbServer>Адрес сервера:</lbServer>
+<lbSet>Имя набора:</lbSet>
+<lbMetadata>Тип метаданных:</lbMetadata>
+<cmdOK>Хорошо</cmdOK>
+<cmdClose>Закрыть</cmdClose>
+<ck_Raw>Сбор исходных данных (за исключением OAI данных в локальной файловой системе)</ck_Raw>
+<lbtoken>ResumptionToken:</lbtoken>
+<lbGetRecord>GetRecord:</lbGetRecord>
+<label3>secs.</label3>
+<lbTimeout>Время ожидания:</lbTimeout>
+<ck_Translate>Перевести на Марк-8</ck_Translate>
+<label2>Конец:</label2>
+<label1>Начало:</label1>
+<lbCrosswalk>Пешеходный путь:</lbCrosswalk>
+<lnkAdvanced>Дополнительные параметры</lnkAdvanced>
+<cmdSave>Сохранить</cmdSave>
+<this>Комбайн метаданных</this>
+</MarcEdit_frmOAIHarvest>
 <MarcEdit_frmOCLCSearchWorldCat>
-<label1>Поиск WorldCat:</label1><cmbarg1>ключевое слово</cmbarg1><cmbconditional>и</cmbconditional><cmdSearch>Поиск</cmdSearch><cmdClose>Закрыть</cmdClose><label2>Результаты:</label2><col_oclcnum>OCLC номер</col_oclcnum><col_title>Название</col_title><ck_LocalBib>Скачать местных библиографической записи, если присутствует</ck_LocalBib><lnkAll>Выбрать все</lnkAll><label3>|</label3><lnkNone>Нет</lnkNone><this>Поиск OCLC WorldCat</this></MarcEdit_frmOCLCSearchWorldCat>
+<label1>Поиск WorldCat:</label1>
+<cmbarg1>ключевое слово</cmbarg1>
+<cmbconditional>и</cmbconditional>
+<cmdSearch>Поиск</cmdSearch>
+<cmdClose>Закрыть</cmdClose>
+<label2>Результаты:</label2>
+<col_oclcnum>OCLC номер</col_oclcnum>
+<col_title>Название</col_title>
+<ck_LocalBib>Скачать местных библиографической записи, если присутствует</ck_LocalBib>
+<lnkAll>Выбрать все</lnkAll>
+<label3>|</label3>
+<lnkNone>Нет</lnkNone>
+<this>Поиск OCLC WorldCat</this>
+</MarcEdit_frmOCLCSearchWorldCat>
 <MarcEdit_frmOCLCUpdateHoldings>
-<label1>Обновить ваш OCLC WorldCat Holdings</label1><groupBox1>Параметры</groupBox1><rdDeleteHoldings>Удаление Holdings</rdDeleteHoldings><rdAddHolding>Добавить Holdings</rdAddHolding><cmdProcess>Процесс</cmdProcess><cmdClose>Закрыть</cmdClose><label2>Код заведения:</label2><label3>Схема классификации:</label3><cmb_schema>Библиотека Конгресса США</cmb_schema><ck_debug>Печать отладки информация</ck_debug><this>Обновление WorldCat Holdings</this></MarcEdit_frmOCLCUpdateHoldings>
+<label1>Обновить ваш OCLC WorldCat Holdings</label1>
+<groupBox1>Параметры</groupBox1>
+<rdDeleteHoldings>Удаление Holdings</rdDeleteHoldings>
+<rdAddHolding>Добавить Holdings</rdAddHolding>
+<cmdProcess>Процесс</cmdProcess>
+<cmdClose>Закрыть</cmdClose>
+<label2>Код заведения:</label2>
+<label3>Схема классификации:</label3>
+<cmb_schema>Библиотека Конгресса США</cmb_schema>
+<ck_debug>Печать отладки информация</ck_debug>
+<this>Обновление WorldCat Holdings</this>
+</MarcEdit_frmOCLCUpdateHoldings>
 <MarcEdit_frmOCLCUpload2WorldCat>
-<cmb_schema>Библиотека Конгресса США</cmb_schema><label3>Схема классификации:</label3><label2>Код заведения:</label2><cmdClose>Закрыть</cmdClose><cmdProcess>Процесс</cmdProcess><label4>Библиографические записи с OCLC цифры будут обновлены в WorldCat.  Библиографические записи без OCLC чисел будут создаваться в WorldCat.
-.</label4><label1>Холдинг код:</label1><lnkGetHoldings>Получить коды</lnkGetHoldings><ckLocalBibData>Процесс как местные библиографических записей</ckLocalBibData><ck_deleterecords>Удаление записей</ck_deleterecords><this>Загрузить записи WorldCat</this></MarcEdit_frmOCLCUpload2WorldCat>
+<cmb_schema>Библиотека Конгресса США</cmb_schema>
+<label3>Схема классификации:</label3>
+<label2>Код заведения:</label2>
+<cmdClose>Закрыть</cmdClose>
+<cmdProcess>Процесс</cmdProcess>
+<label4>Библиографические записи с OCLC цифры будут обновлены в WorldCat.  Библиограф </label4>
+<label1>Холдинг код:</label1>
+<lnkGetHoldings>Получить коды</lnkGetHoldings>
+<ckLocalBibData>Процесс как местные библиографических записей</ckLocalBibData>
+<ck_deleterecords>Удаление записей</ck_deleterecords>
+<this>Загрузить записи WorldCat</this>
+</MarcEdit_frmOCLCUpload2WorldCat>
 <MarcEdit_frmOptions>
-<cmd_options_ok>Хорошо</cmd_options_ok><cmd_options_cancel>Закрыть</cmd_options_cancel><cmd_options_apply>Применить</cmd_options_apply><lnkMainWindow>Главное окно</lnkMainWindow><lnkMarcEditor>MarcEditor</lnkMarcEditor><lnkLanguage>Язык</lnkLanguage><lnkExport>Экспорт</lnkExport><lnkMarcEngine>MARCEngine</lnkMarcEngine><lnkUpdates>Обновления</lnkUpdates><lnkFileAssociations>Ассоциации файлов</lnkFileAssociations><lnkOther>Другие</lnkOther><lnkILSIntegration>Интеграция ILS</lnkILSIntegration><lnkOCLCAPI>Интеграция API OCLC</lnkOCLCAPI><label15>Установить по умолчанию программ</label15><ck_enhanced_editor_loading>Использование улучшенного управления подкачки</ck_enhanced_editor_loading><ckRDATemplates>Использовать шаблоны RDA</ckRDATemplates><ckCompileMarc8>Компиляция записей как MARC8</ckCompileMarc8><cksaveutf8>Компиляция записей как UTF8</cksaveutf8><ck_intellisense>Включите Intellisense</ck_intellisense><label2>Записей на странице</label2><cmb_encoding>UTF8</cmb_encoding><lb_Encoding>Кодировка по умолчанию:</lb_Encoding><ck_nwindow>Открытые файлы в новом окне</ck_nwindow><ck_append>Добавление новых записей</ck_append><lb_psize>Размер превью:</lb_psize><ckUsePreview>Использовать режим предварительного просмотра</ckUsePreview><cmd_editor_font_default>Установить по умолчанию</cmd_editor_font_default><cmd_editor_set_font>Установить шрифт</cmd_editor_set_font><lb_Editor_Font_Props>Задать свойства шрифта MarcEditor:</lb_Editor_Font_Props><cmd_editor_template_default>Установить по умолчанию</cmd_editor_template_default><cmd_editor_modify>Изменить</cmd_editor_modify><lb_Current_Template>Текущий шаблон:</lb_Current_Template><lb_Editor_Template>Задайте шаблон MarcEditor:</lb_Editor_Template><label9>* Требует перезапуска программы *</label9><label8>PT.</label8><label4>Размер шрифта:</label4><lb_Example>Пример текста</lb_Example><lb_lang_font>Задать язык шрифта:</lb_lang_font><lb_Set_Lang>Установка языкового пакета:</lb_Set_Lang><ck_export_output>Экспортные поступления (захват ILS выход)</ck_export_output><lb_TCP_Timeout>Время ожидания:</lb_TCP_Timeout><lb_TCP_Port>Порт:</lb_TCP_Port><lb_TCP_Host>Адрес хоста:</lb_TCP_Host><lb_TCPIP_Props>TCP/IP-свойства:</lb_TCPIP_Props><ck_marc21>Записи в формате MARC21</ck_marc21><ck_marcxml_sax>Параметр использовать родной (процесс не XSLT)</ck_marcxml_sax><groupBox2>Двигатель XSLT</groupBox2><rd_Saxon>SAXON.NET</rd_Saxon><rd_MSXML>MSXML</rd_MSXML><groupBox1>Нормализация Юникода</groupBox1><ckC>Каноническое разложение (C)</ckC><ckKD>Декомпозиции совместимости (KD)</ckKD><ck_Diacritics>Использование диакритических знаков при разрыве</ck_Diacritics><lb_Diacritics>Общие параметры:</lb_Diacritics><lb_Engine_XML_Options>Параметры XML:</lb_Engine_XML_Options><ck_engine_namespace>Использование пространства имен</ck_engine_namespace><lb_Global_XSLT_Path>MARCXML XSLT:</lb_Global_XSLT_Path><ckDetectProxy>Использовать системные настройки прокси</ckDetectProxy><ck_Update_Validator>Автоматически проверять наличие обновлений Validator</ck_Update_Validator><label3>Вы должны принадлежать к домену для этого работать в это время.</label3><groupBox4>Информация пользователя:</groupBox4><lb_domain>Домен:</lb_domain><label6>Пароль:</label6><label5>Имя пользователя:</label5><ckUpdates>Автоматически проверять наличие обновлений</ckUpdates><groupBox5>Файл набора ассоциаций</groupBox5><cmd_file_assoc_view>Типы представлений</cmd_file_assoc_view><cmd_file_assoc_delete>Удалить тип</cmd_file_assoc_delete><cmd_file_assoc_save>Сохранить тип</cmd_file_assoc_save><rd_file_assoc_editor>MarcEditor</rd_file_assoc_editor><rd_file_assoc_maker>MarcMaker</rd_file_assoc_maker><rd_file_assoc_breaker>MarcBreaker</rd_file_assoc_breaker><label7>Связать (*.                      ) файла тип с:</label7><ck_mrk8_editor>Связать файлы (*.mrk8) с MarcEditor</ck_mrk8_editor><ck_mrk_editor>Связать файлы (*.mrk) с MarcEditor</ck_mrk_editor><ck_mrc>Связать файлы (*.mrc) с MarcBreaker</ck_mrc><label26>Целевая папка:</label26><label25>Сетевые папки:</label25><ck_allow_z3950>Включение функций Z39.50</ck_allow_z3950><label1>Номер тега элемента управления:</label1><lbCall>Тег номер вызова:</lbCall><lb_mono>МОНО путь:</lb_mono><lb_Author>Автор тег:</lb_Author><lb_title>Название метки:</lb_title><lb_temp>Установить временный путь:</lb_temp><ck_rss>Читать RSS канал</ck_rss><ck_ignore_ssl>Игнорировать ошибки сертификата SSL</ck_ignore_ssl><lnk_ils_delete>Удалить</lnk_ils_delete><label14>|</label14><lnk_ils_z3950_edit>Редактировать</lnk_ils_z3950_edit><ck_ils_z3950>Использовать параметры Z39.50</ck_ils_z3950><ck_ils_enable>Включить параметры ILS</ck_ils_enable><label13>Имя хоста:</label13><label12>Пароль:</label12><label11>Имя пользователя:</label11><label10>Выберите систему:</label10><lnkGetCodes>Получить Холдинг коды</lnkGetCodes><label24>Холдинг код:</label24><cmb_schema>Библиотека Конгресса США</cmb_schema><label22>Схема классификации:</label22><label23>Код заведения:</label23><ckshow>Показать текст</ckshow><cmdValidateKeys>Проверка ключей</cmdValidateKeys><linkLabel1>Запрос/Управление ключ OCLC (подключается к OCLC)</linkLabel1><label21>OCLC ключ API настройки</label21><label20>principalIDNS</label20><label19>principalID</label19><label18>Секретный ключ (в паре с ключа API метаданных)</label18><label17>OCLC ключ API метаданных</label17><label16>OCLC Поиск ключа API</label16><this>MarcEdit предпочтения</this></MarcEdit_frmOptions>
+<cmd_options_ok>Хорошо</cmd_options_ok>
+<cmd_options_cancel>Закрыть</cmd_options_cancel>
+<cmd_options_apply>Применить</cmd_options_apply>
+<lnkMainWindow>Главное окно</lnkMainWindow>
+<lnkMarcEditor>MarcEditor</lnkMarcEditor>
+<lnkLanguage>Язык</lnkLanguage>
+<lnkExport>Экспорт</lnkExport>
+<lnkMarcEngine>MARCEngine</lnkMarcEngine>
+<lnkUpdates>Обновления</lnkUpdates>
+<lnkFileAssociations>Ассоциации файлов</lnkFileAssociations>
+<lnkOther>Другие</lnkOther>
+<lnkILSIntegration>Интеграция ILS</lnkILSIntegration>
+<lnkOCLCAPI>Интеграция API OCLC</lnkOCLCAPI>
+<label15>Установить по умолчанию программ</label15>
+<ck_enhanced_editor_loading>Использование улучшенного управления подкачки</ck_enhanced_editor_loading>
+<ckRDATemplates>Использовать шаблоны RDA</ckRDATemplates>
+<ckCompileMarc8>Компиляция записей как MARC8</ckCompileMarc8>
+<cksaveutf8>Компиляция записей как UTF8</cksaveutf8>
+<ck_intellisense>Включите Intellisense</ck_intellisense>
+<label2>Записей на странице</label2>
+<cmb_encoding>UTF8</cmb_encoding>
+<lb_Encoding>Кодировка по умолчанию:</lb_Encoding>
+<ck_nwindow>Открытые файлы в новом окне</ck_nwindow>
+<ck_append>Добавление новых записей</ck_append>
+<lb_psize>Размер превью:</lb_psize>
+<ckUsePreview>Использовать режим предварительного просмотра</ckUsePreview>
+<cmd_editor_font_default>Установить по умолчанию</cmd_editor_font_default>
+<cmd_editor_set_font>Установить шрифт</cmd_editor_set_font>
+<lb_Editor_Font_Props>Задать свойства шрифта MarcEditor:</lb_Editor_Font_Props>
+<cmd_editor_template_default>Установить по умолчанию</cmd_editor_template_default>
+<cmd_editor_modify>Изменить</cmd_editor_modify>
+<lb_Current_Template>Текущий шаблон:</lb_Current_Template>
+<lb_Editor_Template>Задайте шаблон MarcEditor:</lb_Editor_Template>
+<label9>* Требует перезапуска программы *</label9>
+<label8>PT.</label8>
+<label4>Размер шрифта:</label4>
+<lb_Example>Пример текста</lb_Example>
+<lb_lang_font>Задать язык шрифта:</lb_lang_font>
+<lb_Set_Lang>Установка языкового пакета:</lb_Set_Lang>
+<ck_export_output>Экспортные поступления (захват ILS выход)</ck_export_output>
+<lb_TCP_Timeout>Время ожидания:</lb_TCP_Timeout>
+<lb_TCP_Port>Порт:</lb_TCP_Port>
+<lb_TCP_Host>Адрес хоста:</lb_TCP_Host>
+<lb_TCPIP_Props>TCP/IP-свойства:</lb_TCPIP_Props>
+<ck_marc21>Записи в формате MARC21</ck_marc21>
+<ck_marcxml_sax>Параметр использовать родной (процесс не XSLT)</ck_marcxml_sax>
+<groupBox2>Двигатель XSLT</groupBox2>
+<rd_Saxon>SAXON.NET</rd_Saxon>
+<rd_MSXML>MSXML</rd_MSXML>
+<groupBox1>Нормализация Юникода</groupBox1>
+<ckC>Каноническое разложение (C)</ckC>
+<ckKD>Декомпозиции совместимости (KD)</ckKD>
+<ck_Diacritics>Использование диакритических знаков при разрыве</ck_Diacritics>
+<lb_Diacritics>Общие параметры:</lb_Diacritics>
+<lb_Engine_XML_Options>Параметры XML:</lb_Engine_XML_Options>
+<ck_engine_namespace>Использование пространства имен</ck_engine_namespace>
+<lb_Global_XSLT_Path>MARCXML XSLT:</lb_Global_XSLT_Path>
+<ckDetectProxy>Использовать системные настройки прокси</ckDetectProxy>
+<ck_Update_Validator>Автоматически проверять наличие обновлений Validator</ck_Update_Validator>
+<label3>Вы должны принадлежать к домену для этого работать в это время.</label3>
+<groupBox4>Информация пользователя:</groupBox4>
+<lb_domain>Домен:</lb_domain>
+<label6>Пароль:</label6>
+<label5>Имя пользователя:</label5>
+<ckUpdates>Автоматически проверять наличие обновлений</ckUpdates>
+<groupBox5>Файл набора ассоциаций</groupBox5>
+<cmd_file_assoc_view>Типы представлений</cmd_file_assoc_view>
+<cmd_file_assoc_delete>Удалить тип</cmd_file_assoc_delete>
+<cmd_file_assoc_save>Сохранить тип</cmd_file_assoc_save>
+<rd_file_assoc_editor>MarcEditor</rd_file_assoc_editor>
+<rd_file_assoc_maker>MarcMaker</rd_file_assoc_maker>
+<rd_file_assoc_breaker>MarcBreaker</rd_file_assoc_breaker>
+<label7>Связать (*.                      ) файла тип с:</label7>
+<ck_mrk8_editor>Связать файлы (*.mrk8) с MarcEditor</ck_mrk8_editor>
+<ck_mrk_editor>Связать файлы (*.mrk) с MarcEditor</ck_mrk_editor>
+<ck_mrc>Связать файлы (*.mrc) с MarcBreaker</ck_mrc>
+<label26>Целевая папка:</label26>
+<label25>Сетевые папки:</label25>
+<ck_allow_z3950>Включение функций Z39.50</ck_allow_z3950>
+<label1>Номер тега элемента управления:</label1>
+<lbCall>Тег номер вызова:</lbCall>
+<lb_mono>МОНО путь:</lb_mono>
+<lb_Author>Автор тег:</lb_Author>
+<lb_title>Название метки:</lb_title>
+<lb_temp>Установить временный путь:</lb_temp>
+<ck_rss>Читать RSS канал</ck_rss>
+<ck_ignore_ssl>Игнорировать ошибки сертификата SSL</ck_ignore_ssl>
+<lnk_ils_delete>Удалить</lnk_ils_delete>
+<label14>|</label14>
+<lnk_ils_z3950_edit>Редактировать</lnk_ils_z3950_edit>
+<ck_ils_z3950>Использовать параметры Z39.50</ck_ils_z3950>
+<ck_ils_enable>Включить параметры ILS</ck_ils_enable>
+<label13>Имя хоста:</label13>
+<label12>Пароль:</label12>
+<label11>Имя пользователя:</label11>
+<label10>Выберите систему:</label10>
+<lnkGetCodes>Получить Холдинг коды</lnkGetCodes>
+<label24>Холдинг код:</label24>
+<cmb_schema>Библиотека Конгресса США</cmb_schema>
+<label22>Схема классификации:</label22>
+<label23>Код заведения:</label23>
+<ckshow>Показать текст</ckshow>
+<cmdValidateKeys>Проверка ключей</cmdValidateKeys>
+<linkLabel1>Запрос/Управление ключ OCLC (подключается к OCLC)</linkLabel1>
+<label21>OCLC ключ API настройки</label21>
+<label20>principalIDNS</label20>
+<label19>principalID</label19>
+<label18>Секретный ключ (в паре с ключа API метаданных)</label18>
+<label17>OCLC ключ API метаданных</label17>
+<label16>OCLC Поиск ключа API</label16>
+<this>MarcEdit предпочтения</this>
+</MarcEdit_frmOptions>
 <MarcEdit_frmPluginManager>
-<label1>Доступные плагины:</label1><ch1>Название плагина</ch1><ch2>URL-АДРЕС</ch2><c3>Размер файла</c3><cmddownload>Скачать</cmddownload><cmdClose>Закрыть</cmdClose><columnHeader1>Удалить?</columnHeader1><columnHeader2>Название плагина</columnHeader2><columnHeader3>Имя класса</columnHeader3><label2>Установленные плагины:</label2><cmdRemove>Удалить</cmdRemove><c4>Версия #:</c4><columnHeader4>Версия #:</columnHeader4><this>Менеджер плагинов</this></MarcEdit_frmPluginManager>
+<label1>Доступные плагины:</label1>
+<ch1>Название плагина</ch1>
+<ch2>URL-АДРЕС</ch2>
+<c3>Размер файла</c3>
+<cmddownload>Скачать</cmddownload>
+<cmdClose>Закрыть</cmdClose>
+<columnHeader1>Удалить?</columnHeader1>
+<columnHeader2>Название плагина</columnHeader2>
+<columnHeader3>Имя класса</columnHeader3>
+<label2>Установленные плагины:</label2>
+<cmdRemove>Удалить</cmdRemove>
+<c4>Версия #:</c4>
+<columnHeader4>Версия #:</columnHeader4>
+<this>Менеджер плагинов</this>
+</MarcEdit_frmPluginManager>
 <MarcEdit_frmQueryLite>
-<ck_batch>Пакетный Поиск</ck_batch><lbdbtitle>Label2</lbdbtitle><groupBox3>Результаты</groupBox3><lnkDownload>Загрузка всех элементов</lnkDownload><lnkClearResults>Очистить результаты</lnkClearResults><lnkGetNext>Получить следующий {предел}</lnkGetNext><col1>Позиция</col1><col2>Название</col2><groupBox1>Параметры</groupBox1><lb_encoding_single>Кодировка сервера</lb_encoding_single><cmd_encoding>MARC8</cmd_encoding><ckUnicode>Получить Юникода</ckUnicode><rdEditDB>Выбор базы данных</rdEditDB><rdEditSettings>Изменить параметры</rdEditSettings><lbSearchb>Поиск:</lbSearchb><lbSearch>Запрос базы данных:</lbSearch><MCol3>ID</MCol3><MCol1>Имя</MCol1><MCol2>Тип</MCol2><lb_PModifyTitle>Выберите базу данных:</lb_PModifyTitle><downloadSelectedItemsToolStripMenuItem>Загрузка выбранных элементов</downloadSelectedItemsToolStripMenuItem><this>Захват Z39.50</this></MarcEdit_frmQueryLite>
+<ck_batch>Пакетный Поиск</ck_batch>
+<lbdbtitle>Label2</lbdbtitle>
+<groupBox3>Результаты</groupBox3>
+<lnkDownload>Загрузка всех элементов</lnkDownload>
+<lnkClearResults>Очистить результаты</lnkClearResults>
+<lnkGetNext>Получить следующий {предел}</lnkGetNext>
+<col1>Позиция</col1>
+<col2>Название</col2>
+<groupBox1>Параметры</groupBox1>
+<lb_encoding_single>Кодировка сервера</lb_encoding_single>
+<cmd_encoding>MARC8</cmd_encoding>
+<ckUnicode>Получить Юникода</ckUnicode>
+<rdEditDB>Выбор базы данных</rdEditDB>
+<rdEditSettings>Изменить параметры</rdEditSettings>
+<lbSearchb>Поиск:</lbSearchb>
+<lbSearch>Запрос базы данных:</lbSearch>
+<MCol3>ID</MCol3>
+<MCol1>Имя</MCol1>
+<MCol2>Тип</MCol2>
+<lb_PModifyTitle>Выберите базу данных:</lb_PModifyTitle>
+<downloadSelectedItemsToolStripMenuItem>Загрузка выбранных элементов</downloadSelectedItemsToolStripMenuItem>
+<this>Захват Z39.50</this>
+</MarcEdit_frmQueryLite>
 <MarcEdit_frmRDA>
-<ck_040>Изменить 040--добавить $erda</ck_040><ck_qualifyinginfo>Отборочный информации (015/020/024/027)</ck_qualifyinginfo><label5>|</label5><lnkEdit>Редактирование списка</lnkEdit><ck_dgmd>Удаление GMD</ck_dgmd><ckAbbrev>Разверните аббревиатуры</ckAbbrev><ckgmd>Генерировать GMD</ckgmd><ck264>Оценить 260/264</ck264><ck381>Добавить 381--другие</ck381><ck380>Добавить 380--форма работы</ck380><ck347>Добавить 347--цифровые характеристики</ck347><ck346>Добавить 346--видео характеристики</ck346><ck345>Добавьте 345--Proj. Характеристики</ck345><ck344>Добавить 344--звуковые характеристики</ck344><ck337>Добавить 337--тип носителя
-Добавить 338--тип носителя</ck337><ck336>Добавить 336--тип содержимого</ck336><cmdProcess>Хорошо</cmdProcess><cmdClose>Закрыть</cmdClose><label1>Источник:</label1><label2>Пункт назначения:</label2><lnkAll>Все</lnkAll><label3>Выберите:</label3><label4>|</label4><lnkNone>Нет</lnkNone><ck_signs>Всегда используйте ©, ℗ символы</ck_signs><this>Помощник RDA</this></MarcEdit_frmRDA>
+<ck_040>Изменить 040--добавить $erda</ck_040>
+<ck_qualifyinginfo>Отборочный информации (015/020/024/027)</ck_qualifyinginfo>
+<label5>|</label5>
+<lnkEdit>Редактирование списка</lnkEdit>
+<ck_dgmd>Удаление GMD</ck_dgmd>
+<ckAbbrev>Разверните аббревиатуры</ckAbbrev>
+<ckgmd>Генерировать GMD</ckgmd>
+<ck264>Оценить 260/264</ck264>
+<ck381>Добавить 381--другие</ck381>
+<ck380>Добавить 380--форма работы</ck380>
+<ck347>Добавить 347--цифровые характеристики</ck347>
+<ck346>Добавить 346--видео характеристики</ck346>
+<ck345>Добавьте 345--Proj. Характеристики</ck345>
+<ck344>Добавить 344--звуковые характеристики</ck344>
+<ck337>Добавить 337--тип носителя
+Добавить 338--тип носителя</ck337>
+<ck336>Добавить 336--тип содержимого</ck336>
+<cmdProcess>Хорошо</cmdProcess>
+<cmdClose>Закрыть</cmdClose>
+<label1>Источник:</label1>
+<label2>Пункт назначения:</label2>
+<lnkAll>Все</lnkAll>
+<label3>Выберите:</label3>
+<label4>|</label4>
+<lnkNone>Нет</lnkNone>
+<ck_signs>Всегда используйте ©, ℗ символы</ck_signs>
+<this>Помощник RDA</this>
+</MarcEdit_frmRDA>
 <MarcEdit_frmResults>
-<cmd_Close>Закрыть</cmd_Close><rEdit></rEdit><this>Результаты</this></MarcEdit_frmResults>
+<cmd_Close>Закрыть</cmd_Close>
+<rEdit></rEdit>
+<this>Результаты</this>
+</MarcEdit_frmResults>
 <MarcEdit_frmRobertCompare>
-<lnkHome>Главная</lnkHome><label5>RobertCompare изначально был задуман в уме доктор Роберт Ellett, хотя в то время он еще заработать титул доктора.  Очень редко создают программы для удовлетворения потребностей весьма конкретных пользователей.  Я всегда принимал подход с MarcEdit, что инструменты должны быть обобщению и во многом, не привязаны к конкретному проекту.  RobertCompare была иной.  Инструмент был создан для поддержки г-н Ellett'sresearch на его кандидатских диссертаций и только после завершения, обобщены для широкого использования. 
-казалось, своим чередом.  Это было что-то Боб будет периодически тыкать по тому курсу, программа была очень сложно и без людей, просят за него, convertingWell, что изменилось в прошлом году, когда Боб скончался.  Я любил Боб много--он был immeasurablyback...Я хотел сделать что-то вспомнить мой друг.  Потребовалось гораздо больше времени, чем я надеялся, отсутствие, были вновь RobertCompare в MarcEdit.  Я надеюсь, что люди могут найти его как usefulas мой друг.   Спасибо Боб.
---TR</label5><label4>О RobertCompare</label4><label3>|</label3><lnkAbout>О RobertCompare</lnkAbout><cmdClose>Закрыть</cmdClose><cmdExecute>Выполнение</cmdExecute><label1>Сохраните файл:</label1><label6>Сравнение файлов:</label6><label2>MARCCompare-это специализированный инструмент для определения различий между файлами Марк.  Чтобы воспользоваться программой, выберите две файлы Марк для сравнения версий набора записей.  Для получения дополнительных сведений о средстве история, или как он получил это имя смотрите страницу About.</label2><this>MARCCompare/RobertCompare</this></MarcEdit_frmRobertCompare>
+<lnkHome>Главная</lnkHome>
+<label5>RobertCompare изначально был задуман в уме доктор Роберт Ellett, хотя в то время он еще заработать титул доктора.  Очень редко создают программы для удовлетворения потребностей весьма конкретных пользователей.  Я всегда принимал подход с MarcEdit, что инструменты должны быть обобщению и во многом, не привязаны к конкретному проекту.  RobertCompare была иной.  Инструмент был создан для поддержки исследований г-н Ellett на его кандидатских диссертаций и только после завершения, обобщены для широкого использования. 
+ Когда я переехал MarcEdit от 4.x в 5.x codebase, я упал это приложение, потому что казалось своим чередом.  Это было то, что Боб будет периодически тыкать в меня о иногда, я думаю, что он любил идею RobertCompare ногами вокруг. Конечно программа была очень сложно, и без людей, просят за него, преобразование кода из сборки C# был довольно крутым себя.
+ Ну все изменилось в прошлом году, когда Боб скончался.  Я любил Боб много--он был безмерно добр и легко получить вместе с.  После его кончины, я решил, что я хотел, чтобы вернуть RobertCompare...Я хотел сделать что-то вспомнить мой друг.  Потребовалось гораздо больше времени, чем я надеялся, отчасти из-за перемещения, смены работы и сложности кода.  Однако после длительного отсутствия, в MarcEdit был вновь RobertCompare.  Я надеюсь, что люди могут найти как полезны как мой друг.   Спасибо Боб.
+--TR</label5>
+<label4>О RobertCompare</label4>
+<label3>|</label3>
+<lnkAbout>О RobertCompare</lnkAbout>
+<cmdClose>Закрыть</cmdClose>
+<cmdExecute>Выполнение</cmdExecute>
+<label1>Сохраните файл:</label1>
+<label6>Сравнение файлов:</label6>
+<label2>MARCCompare-это специализированный инструмент для определения различий между файлами Марк.  Чтобы использовать программу, выберите две файлы Марк для сравнения версий набора записей.  Дополнительные сведения об истории инструмента, или как он получил это имя смотрите страницу About.</label2>
+<this>MARCCompare/RobertCompare</this>
+</MarcEdit_frmRobertCompare>
 <MarcEdit_frmScript>
-<ColumnHeader2>Линия</ColumnHeader2><btnOk>Компиляции</btnOk><ColumnHeader1>Ошибка</ColumnHeader1><btnCancel>Закрыть</btnCancel><this>Изменение сценария</this></MarcEdit_frmScript>
+<ColumnHeader2>Линия</ColumnHeader2>
+<btnOk>Компиляции</btnOk>
+<ColumnHeader1>Ошибка</ColumnHeader1>
+<btnCancel>Закрыть</btnCancel>
+<this>Изменение сценария</this>
+</MarcEdit_frmScript>
 <MarcEdit_frmSearchXML>
-<cName>Название пешеходного перехода</cName><cAuthor>Представленный</cAuthor><cModified>Дата последнего изменения</cModified><label1>Результаты:</label1><cmdDownload>Скачать</cmdDownload><cmdCancel>Отмена</cmdCancel><cmdView>Вид</cmdView><lnkViewAll>Посмотреть всех пешеходных переходов</lnkViewAll><this>Результаты поиска XSLT пешеходный переход</this></MarcEdit_frmSearchXML>
+<cName>Название пешеходного перехода</cName>
+<cAuthor>Представленный</cAuthor>
+<cModified>Дата последнего изменения</cModified>
+<label1>Результаты:</label1>
+<cmdDownload>Скачать</cmdDownload>
+<cmdCancel>Отмена</cmdCancel>
+<cmdView>Вид</cmdView>
+<lnkViewAll>Посмотреть всех пешеходных переходов</lnkViewAll>
+<this>Результаты поиска XSLT пешеходный переход</this>
+</MarcEdit_frmSearchXML>
 <MarcEdit_frmSelectMARCRecords>
-<columnHeader1>Номер записи</columnHeader1><columnHeader2>Отображение поля</columnHeader2><selectItemsToolStripMenuItem>Выбор элементов</selectItemsToolStripMenuItem><cmdImport>Импорт файла</cmdImport><cmdfDelete>Удалить выбранные</cmdfDelete><cmdExport>Экспорт выбранных</cmdExport><cmdExit>Выход</cmdExit><lb_Search>Поиск:</lb_Search><lb_DisplayField>Отображение поля:</lb_DisplayField><lb_SourceFile>Марк исходный файл:</lb_SourceFile><ckSource>Сохраните измененные записи в источнике</ckSource><ck_retain>Сохранить отмеченные элементы</ck_retain><cmd_Generate>Создать отчет</cmd_Generate><ck_find_all>Поиск всех записей данных</ck_find_all><ck_use_regex>Использование регулярных выражений</ck_use_regex><this>MarcEdit.NET: Изменить выбранный MARC записи</this></MarcEdit_frmSelectMARCRecords>
+<columnHeader1>Номер записи</columnHeader1>
+<columnHeader2>Отображение поля</columnHeader2>
+<selectItemsToolStripMenuItem>Выбор элементов</selectItemsToolStripMenuItem>
+<cmdImport>Импорт файла</cmdImport>
+<cmdfDelete>Удалить выбранные</cmdfDelete>
+<cmdExport>Экспорт выбранных</cmdExport>
+<cmdExit>Выход</cmdExit>
+<lb_Search>Поиск:</lb_Search>
+<lb_DisplayField>Отображение поля:</lb_DisplayField>
+<lb_SourceFile>Марк исходный файл:</lb_SourceFile>
+<ckSource>Сохраните измененные записи в источнике</ckSource>
+<ck_retain>Сохранить отмеченные элементы</ck_retain>
+<cmd_Generate>Создать отчет</cmd_Generate>
+<ck_find_all>Поиск всех записей данных</ck_find_all>
+<ck_use_regex>Использование регулярных выражений</ck_use_regex>
+<this>MarcEdit.NET: Изменить выбранный MARC записи</this>
+</MarcEdit_frmSelectMARCRecords>
 <MarcEdit_frmSort>
-<lb_title>Выберите поля, чтобы исключить из сортировки</lb_title><lb_fields>Поля сортировки:</lb_fields><lbExclude>Исключите поля:</lbExclude><cmd_OK>Хорошо</cmd_OK><cmd_Close>Закрыть</cmd_Close><this>Мастер сортировки</this></MarcEdit_frmSort>
+<lb_title>Выберите поля, чтобы исключить из сортировки</lb_title>
+<lb_fields>Поля сортировки:</lb_fields>
+<lbExclude>Исключите поля:</lbExclude>
+<cmd_OK>Хорошо</cmd_OK>
+<cmd_Close>Закрыть</cmd_Close>
+<this>Мастер сортировки</this>
+</MarcEdit_frmSort>
 <MarcEdit_frmSpecial_Formats>
-<lb_title>CDS ISIS =&gt; Марк перевод</lb_title><groupBox1>Ввода данных пользователем</groupBox1><lb_output>Выходной файл:</lb_output><lb_input>Входного файла:</lb_input><groupBox2>Параметры:</groupBox2><rd_advanced>Расширенный перевод</rd_advanced><rd_simple>Простой перевод</rd_simple><lb_subfield>Маркер подполе</lb_subfield><cmd_Ok>Хорошо</cmd_Ok><cmd_Close>Закрыть</cmd_Close><this>CDS ISIS .iso =&gt; Марк перевод</this></MarcEdit_frmSpecial_Formats>
+<lb_title>CDS ISIS =&gt; Марк перевод</lb_title>
+<groupBox1>Ввода данных пользователем</groupBox1>
+<lb_output>Выходной файл:</lb_output>
+<lb_input>Входного файла:</lb_input>
+<groupBox2>Параметры:</groupBox2>
+<rd_advanced>Расширенный перевод</rd_advanced>
+<rd_simple>Простой перевод</rd_simple>
+<lb_subfield>Маркер подполе</lb_subfield>
+<cmd_Ok>Хорошо</cmd_Ok>
+<cmd_Close>Закрыть</cmd_Close>
+<this>CDS ISIS .iso =&gt; Марк перевод</this>
+</MarcEdit_frmSpecial_Formats>
 <MarcEdit_frmSpecific_Options>
-<lb_title>Параметры:</lb_title><lnkLoad>Загрузить сопоставления полей</lnkLoad><ck_indicators>Добавление индикаторов</ck_indicators><ckLDR>Правильное LDRs</ckLDR><ck_subfield>Добавить ведущие подполе</ck_subfield><cmdOK>Хорошо</cmdOK><cmdClose>Закрыть</cmdClose><this>Дополнительные опции</this></MarcEdit_frmSpecific_Options>
+<lb_title>Параметры:</lb_title>
+<lnkLoad>Загрузить сопоставления полей</lnkLoad>
+<ck_indicators>Добавление индикаторов</ck_indicators>
+<ckLDR>Правильное LDRs</ckLDR>
+<ck_subfield>Добавить ведущие подполе</ck_subfield>
+<cmdOK>Хорошо</cmdOK>
+<cmdClose>Закрыть</cmdClose>
+<this>Дополнительные опции</this>
+</MarcEdit_frmSpecific_Options>
 <MarcEdit_frmStatus>
-<lbCaption>Label1</lbCaption><cmdCancel>Отмена</cmdCancel></MarcEdit_frmStatus>
+<lbCaption>Label1</lbCaption>
+<cmdCancel>Отмена</cmdCancel>
+</MarcEdit_frmStatus>
 <MarcEdit_frmSymbols>
-<Label1>Специальные символы:</Label1><_CharC_0>A</_CharC_0><_CharC_1>A</_CharC_1><_CharC_2>A</_CharC_2><_CharC_3>A</_CharC_3><_CharC_4>A</_CharC_4><_CharC_5>A</_CharC_5><_CharC_6>A</_CharC_6><_CharC_7>A</_CharC_7><_CharC_8>A</_CharC_8><_CharC_9>A</_CharC_9><_CharC_10>A</_CharC_10><_CharC_11>A</_CharC_11><_CharC_12>A</_CharC_12><_CharC_13>A</_CharC_13><_CharC_14>A</_CharC_14><_CharC_15>A</_CharC_15><_CharC_16>A</_CharC_16><_CharC_17>A</_CharC_17><_CharC_18>A</_CharC_18><_CharC_19>A</_CharC_19><_CharC_20>A</_CharC_20><_CharC_21>A</_CharC_21><_CharC_22>A</_CharC_22><_CharC_23>A</_CharC_23><_CharC_24>A</_CharC_24><_CharC_25>A</_CharC_25><_CharC_26>A</_CharC_26><_CharC_27>A</_CharC_27><_CharC_28>A</_CharC_28><_CharC_29>A</_CharC_29><_CharC_30>A</_CharC_30><_CharC_31>A</_CharC_31><_CharC_32>A</_CharC_32><_CharC_33>A</_CharC_33><_CharC_34>A</_CharC_34><_CharC_35>A</_CharC_35><_CharC_36>A</_CharC_36><_CharC_37>A</_CharC_37><_CharC_38>A</_CharC_38><_CharC_39>A</_CharC_39><_CharC_40>A</_CharC_40><_CharC_41>A</_CharC_41><_CharC_42>A</_CharC_42><_CharC_43>A</_CharC_43><_CharC_44>A</_CharC_44><_CharC_45>A</_CharC_45><_CharC_46>A</_CharC_46><_CharC_47>A</_CharC_47><_CharC_48>A</_CharC_48><_CharC_49>A</_CharC_49><_CharC_50>A</_CharC_50><_CharC_51>A</_CharC_51><_CharC_52>A</_CharC_52><_CharC_53>A</_CharC_53><_CharC_54>A</_CharC_54><_CharC_55>A</_CharC_55><_CharC_56>A</_CharC_56><_CharC_57>A</_CharC_57><_CharC_58>A</_CharC_58><_CharC_59>A</_CharC_59><_CharC_60>A</_CharC_60><_CharC_61>A</_CharC_61><_CharC_62>A</_CharC_62><_CharC_63>A</_CharC_63><_CharC_64>A</_CharC_64><_CharC_65>A</_CharC_65><_CharC_66>A</_CharC_66><_CharC_67>A</_CharC_67><_CharC_68>A</_CharC_68><_CharC_69>A</_CharC_69><_CharC_70>A</_CharC_70><_CharC_71>A</_CharC_71><_CharC_72>A</_CharC_72><_CharC_73>A</_CharC_73><_CharC_74>A</_CharC_74><_CharC_75>A</_CharC_75><_CharC_76>A</_CharC_76><_CharC_77>A</_CharC_77><_CharC_78>A</_CharC_78><_CharC_79>A</_CharC_79><_CharC_80>A</_CharC_80><_CharC_81>A</_CharC_81><_CharC_82>A</_CharC_82><_CharC_83>A</_CharC_83><_CharC_84>A</_CharC_84><_CharC_85>A</_CharC_85><_CharC_86>A</_CharC_86><_CharC_87>A</_CharC_87><_CharC_88>A</_CharC_88><_CharC_89>A</_CharC_89><_CharC_90>A</_CharC_90><_CharC_91>A</_CharC_91><_CharC_92>A</_CharC_92><_CharC_93>A</_CharC_93><_CharC_94>A</_CharC_94><_CharC_95>A</_CharC_95><_CharC_96>A</_CharC_96><_CharC_97>A</_CharC_97><_CharC_98>A</_CharC_98><_CharC_99>A</_CharC_99><_CharC_100>A</_CharC_100><_CharC_101>A</_CharC_101><_CharC_102>A</_CharC_102><_CharC_103>A</_CharC_103><_CharC_104>A</_CharC_104><_CharC_105>A</_CharC_105><_CharC_106>A</_CharC_106><_CharC_107>A</_CharC_107><_CharC_108>A</_CharC_108><_CharC_109>A</_CharC_109><_CharC_110>A</_CharC_110><_CharC_111>A</_CharC_111><_CharC_112>A</_CharC_112><_CharC_113>A</_CharC_113><_CharC_114>A</_CharC_114><_CharC_115>A</_CharC_115><_CharC_116>A</_CharC_116><_CharC_117>A</_CharC_117><_CharC_118>A</_CharC_118><_CharC_119>A</_CharC_119><_CharC_120>A</_CharC_120><_CharC_121>A</_CharC_121><_CharC_122>A</_CharC_122><_CharC_123>A</_CharC_123><_CharC_124>A</_CharC_124><_CharC_125>A</_CharC_125><_CharC_126>A</_CharC_126><_CharC_127>A</_CharC_127><_CharC_128>A</_CharC_128><_CharC_129>A</_CharC_129><_CharC_130>A</_CharC_130><_CharC_131>A</_CharC_131><_CharC_132>A</_CharC_132><_CharC_133>A</_CharC_133><_CharC_134>A</_CharC_134><_CharC_135>A</_CharC_135><_CharC_136>A</_CharC_136><_CharC_137>A</_CharC_137><_CharC_138>A</_CharC_138><_CharC_139>A</_CharC_139><_CharC_140>A</_CharC_140><_CharC_141>A</_CharC_141><_CharC_142>A</_CharC_142><_CharC_143>A</_CharC_143><_CharC_144>A</_CharC_144><_CharC_145>A</_CharC_145><_CharC_146>A</_CharC_146><_CharC_147>A</_CharC_147><_CharC_148>A</_CharC_148><_CharC_154>A</_CharC_154><_CharC_155>A</_CharC_155><_CharC_160>A</_CharC_160><_CharC_161>A</_CharC_161><_CharC_162>A</_CharC_162><_CharC_163>A</_CharC_163><_CharC_164>A</_CharC_164><_CharC_165>A</_CharC_165><_CharC_166>A</_CharC_166><_CharC_149>A</_CharC_149><_CharC_150>A</_CharC_150><_CharC_151>A</_CharC_151><_CharC_152>A</_CharC_152><_CharC_153>A</_CharC_153><_CharC_156>A</_CharC_156><_CharC_157>A</_CharC_157><_CharC_158>A</_CharC_158><_CharC_159>A</_CharC_159><_CharC_167>A</_CharC_167><_CharC_168>A</_CharC_168><_CharC_169>A</_CharC_169><_CharC_170>A</_CharC_170><_CharC_171>A</_CharC_171><_CharC_172>A</_CharC_172><_CharC_173>A</_CharC_173><_CharC_174>A</_CharC_174><_CharC_175>A</_CharC_175><_CharC_176>A</_CharC_176><_CharC_177>A</_CharC_177><_CharC_178>A</_CharC_178><_CharC_179>A</_CharC_179><_CharC_180>A</_CharC_180><_CharC_181>A</_CharC_181><_CharC_182>A</_CharC_182><_CharC_183>A</_CharC_183><_CharC_184>A</_CharC_184><_CharC_185>A</_CharC_185><_CharC_186>A</_CharC_186><_CharC_187>A</_CharC_187><_CharC_188>A</_CharC_188><_CharC_189>A</_CharC_189><_CharC_190>A</_CharC_190><_CharC_191>A</_CharC_191><_CharC_192>A</_CharC_192><_CharC_193>A</_CharC_193><_CharC_194>A</_CharC_194><_CharC_195>A</_CharC_195><_CharC_196>A</_CharC_196><_CharC_197>A</_CharC_197><_CharC_198>A</_CharC_198><_CharC_199>A</_CharC_199><_CharC_200>A</_CharC_200><_CharC_201>A</_CharC_201><_CharC_202>A</_CharC_202><_CharC_203>A</_CharC_203><_CharC_204>A</_CharC_204><_CharC_205>A</_CharC_205><_CharC_206>A</_CharC_206><_CharC_207>A</_CharC_207><_CharC_208>A</_CharC_208><_CharC_209>A</_CharC_209><_CharC_210>A</_CharC_210><_CharC_211>A</_CharC_211><_CharC_212>A</_CharC_212><_CharC_213>A</_CharC_213><_CharC_214>A</_CharC_214><_CharC_215>A</_CharC_215><_CharC_216>A</_CharC_216><_CharC_217>A</_CharC_217><_CharC_218>A</_CharC_218><_CharC_219>A</_CharC_219><_CharC_220>A</_CharC_220><_CharC_221>A</_CharC_221><_CharC_222>A</_CharC_222><_CharC_223>A</_CharC_223><_CharC_224>A</_CharC_224><_CharC_225>A</_CharC_225><_CharC_226>A</_CharC_226><_CharC_227>A</_CharC_227><_CharC_228>A</_CharC_228><_CharC_229>A</_CharC_229><_CharC_230>A</_CharC_230><_CharC_231>A</_CharC_231><_CharC_232>A</_CharC_232><_CharC_233>A</_CharC_233><_CharC_234>A</_CharC_234><_CharC_235>A</_CharC_235><_CharC_236>A</_CharC_236><_CharC_237>A</_CharC_237><_CharC_238>A</_CharC_238><_CharC_239>A</_CharC_239><_CharC_240>A</_CharC_240><_CharC_241>A</_CharC_241><_CharC_242>A</_CharC_242><_CharC_243>A</_CharC_243><_CharC_244>A</_CharC_244><_CharC_245>A</_CharC_245><_CharC_246>A</_CharC_246><_CharC_247>A</_CharC_247><_CharC_248>A</_CharC_248><_CharC_249>A</_CharC_249><_CharC_250>A</_CharC_250><_CharC_251>A</_CharC_251><_CharC_252>A</_CharC_252><_CharC_253>A</_CharC_253><_CharC_254>A</_CharC_254><_CharC_255>A</_CharC_255><cmd_Insert>Вставка</cmd_Insert><cmdClose>Закрыть</cmdClose><this>Марк-8 Ала Characterset</this></MarcEdit_frmSymbols>
+<Label1>Специальные символы:</Label1>
+<_CharC_0>A</_CharC_0>
+<_CharC_1>A</_CharC_1>
+<_CharC_2>A</_CharC_2>
+<_CharC_3>A</_CharC_3>
+<_CharC_4>A</_CharC_4>
+<_CharC_5>A</_CharC_5>
+<_CharC_6>A</_CharC_6>
+<_CharC_7>A</_CharC_7>
+<_CharC_8>A</_CharC_8>
+<_CharC_9>A</_CharC_9>
+<_CharC_10>A</_CharC_10>
+<_CharC_11>A</_CharC_11>
+<_CharC_12>A</_CharC_12>
+<_CharC_13>A</_CharC_13>
+<_CharC_14>A</_CharC_14>
+<_CharC_15>A</_CharC_15>
+<_CharC_16>A</_CharC_16>
+<_CharC_17>A</_CharC_17>
+<_CharC_18>A</_CharC_18>
+<_CharC_19>A</_CharC_19>
+<_CharC_20>A</_CharC_20>
+<_CharC_21>A</_CharC_21>
+<_CharC_22>A</_CharC_22>
+<_CharC_23>A</_CharC_23>
+<_CharC_24>A</_CharC_24>
+<_CharC_25>A</_CharC_25>
+<_CharC_26>A</_CharC_26>
+<_CharC_27>A</_CharC_27>
+<_CharC_28>A</_CharC_28>
+<_CharC_29>A</_CharC_29>
+<_CharC_30>A</_CharC_30>
+<_CharC_31>A</_CharC_31>
+<_CharC_32>A</_CharC_32>
+<_CharC_33>A</_CharC_33>
+<_CharC_34>A</_CharC_34>
+<_CharC_35>A</_CharC_35>
+<_CharC_36>A</_CharC_36>
+<_CharC_37>A</_CharC_37>
+<_CharC_38>A</_CharC_38>
+<_CharC_39>A</_CharC_39>
+<_CharC_40>A</_CharC_40>
+<_CharC_41>A</_CharC_41>
+<_CharC_42>A</_CharC_42>
+<_CharC_43>A</_CharC_43>
+<_CharC_44>A</_CharC_44>
+<_CharC_45>A</_CharC_45>
+<_CharC_46>A</_CharC_46>
+<_CharC_47>A</_CharC_47>
+<_CharC_48>A</_CharC_48>
+<_CharC_49>A</_CharC_49>
+<_CharC_50>A</_CharC_50>
+<_CharC_51>A</_CharC_51>
+<_CharC_52>A</_CharC_52>
+<_CharC_53>A</_CharC_53>
+<_CharC_54>A</_CharC_54>
+<_CharC_55>A</_CharC_55>
+<_CharC_56>A</_CharC_56>
+<_CharC_57>A</_CharC_57>
+<_CharC_58>A</_CharC_58>
+<_CharC_59>A</_CharC_59>
+<_CharC_60>A</_CharC_60>
+<_CharC_61>A</_CharC_61>
+<_CharC_62>A</_CharC_62>
+<_CharC_63>A</_CharC_63>
+<_CharC_64>A</_CharC_64>
+<_CharC_65>A</_CharC_65>
+<_CharC_66>A</_CharC_66>
+<_CharC_67>A</_CharC_67>
+<_CharC_68>A</_CharC_68>
+<_CharC_69>A</_CharC_69>
+<_CharC_70>A</_CharC_70>
+<_CharC_71>A</_CharC_71>
+<_CharC_72>A</_CharC_72>
+<_CharC_73>A</_CharC_73>
+<_CharC_74>A</_CharC_74>
+<_CharC_75>A</_CharC_75>
+<_CharC_76>A</_CharC_76>
+<_CharC_77>A</_CharC_77>
+<_CharC_78>A</_CharC_78>
+<_CharC_79>A</_CharC_79>
+<_CharC_80>A</_CharC_80>
+<_CharC_81>A</_CharC_81>
+<_CharC_82>A</_CharC_82>
+<_CharC_83>A</_CharC_83>
+<_CharC_84>A</_CharC_84>
+<_CharC_85>A</_CharC_85>
+<_CharC_86>A</_CharC_86>
+<_CharC_87>A</_CharC_87>
+<_CharC_88>A</_CharC_88>
+<_CharC_89>A</_CharC_89>
+<_CharC_90>A</_CharC_90>
+<_CharC_91>A</_CharC_91>
+<_CharC_92>A</_CharC_92>
+<_CharC_93>A</_CharC_93>
+<_CharC_94>A</_CharC_94>
+<_CharC_95>A</_CharC_95>
+<_CharC_96>A</_CharC_96>
+<_CharC_97>A</_CharC_97>
+<_CharC_98>A</_CharC_98>
+<_CharC_99>A</_CharC_99>
+<_CharC_100>A</_CharC_100>
+<_CharC_101>A</_CharC_101>
+<_CharC_102>A</_CharC_102>
+<_CharC_103>A</_CharC_103>
+<_CharC_104>A</_CharC_104>
+<_CharC_105>A</_CharC_105>
+<_CharC_106>A</_CharC_106>
+<_CharC_107>A</_CharC_107>
+<_CharC_108>A</_CharC_108>
+<_CharC_109>A</_CharC_109>
+<_CharC_110>A</_CharC_110>
+<_CharC_111>A</_CharC_111>
+<_CharC_112>A</_CharC_112>
+<_CharC_113>A</_CharC_113>
+<_CharC_114>A</_CharC_114>
+<_CharC_115>A</_CharC_115>
+<_CharC_116>A</_CharC_116>
+<_CharC_117>A</_CharC_117>
+<_CharC_118>A</_CharC_118>
+<_CharC_119>A</_CharC_119>
+<_CharC_120>A</_CharC_120>
+<_CharC_121>A</_CharC_121>
+<_CharC_122>A</_CharC_122>
+<_CharC_123>A</_CharC_123>
+<_CharC_124>A</_CharC_124>
+<_CharC_125>A</_CharC_125>
+<_CharC_126>A</_CharC_126>
+<_CharC_127>A</_CharC_127>
+<_CharC_128>A</_CharC_128>
+<_CharC_129>A</_CharC_129>
+<_CharC_130>A</_CharC_130>
+<_CharC_131>A</_CharC_131>
+<_CharC_132>A</_CharC_132>
+<_CharC_133>A</_CharC_133>
+<_CharC_134>A</_CharC_134>
+<_CharC_135>A</_CharC_135>
+<_CharC_136>A</_CharC_136>
+<_CharC_137>A</_CharC_137>
+<_CharC_138>A</_CharC_138>
+<_CharC_139>A</_CharC_139>
+<_CharC_140>A</_CharC_140>
+<_CharC_141>A</_CharC_141>
+<_CharC_142>A</_CharC_142>
+<_CharC_143>A</_CharC_143>
+<_CharC_144>A</_CharC_144>
+<_CharC_145>A</_CharC_145>
+<_CharC_146>A</_CharC_146>
+<_CharC_147>A</_CharC_147>
+<_CharC_148>A</_CharC_148>
+<_CharC_154>A</_CharC_154>
+<_CharC_155>A</_CharC_155>
+<_CharC_160>A</_CharC_160>
+<_CharC_161>A</_CharC_161>
+<_CharC_162>A</_CharC_162>
+<_CharC_163>A</_CharC_163>
+<_CharC_164>A</_CharC_164>
+<_CharC_165>A</_CharC_165>
+<_CharC_166>A</_CharC_166>
+<_CharC_149>A</_CharC_149>
+<_CharC_150>A</_CharC_150>
+<_CharC_151>A</_CharC_151>
+<_CharC_152>A</_CharC_152>
+<_CharC_153>A</_CharC_153>
+<_CharC_156>A</_CharC_156>
+<_CharC_157>A</_CharC_157>
+<_CharC_158>A</_CharC_158>
+<_CharC_159>A</_CharC_159>
+<_CharC_167>A</_CharC_167>
+<_CharC_168>A</_CharC_168>
+<_CharC_169>A</_CharC_169>
+<_CharC_170>A</_CharC_170>
+<_CharC_171>A</_CharC_171>
+<_CharC_172>A</_CharC_172>
+<_CharC_173>A</_CharC_173>
+<_CharC_174>A</_CharC_174>
+<_CharC_175>A</_CharC_175>
+<_CharC_176>A</_CharC_176>
+<_CharC_177>A</_CharC_177>
+<_CharC_178>A</_CharC_178>
+<_CharC_179>A</_CharC_179>
+<_CharC_180>A</_CharC_180>
+<_CharC_181>A</_CharC_181>
+<_CharC_182>A</_CharC_182>
+<_CharC_183>A</_CharC_183>
+<_CharC_184>A</_CharC_184>
+<_CharC_185>A</_CharC_185>
+<_CharC_186>A</_CharC_186>
+<_CharC_187>A</_CharC_187>
+<_CharC_188>A</_CharC_188>
+<_CharC_189>A</_CharC_189>
+<_CharC_190>A</_CharC_190>
+<_CharC_191>A</_CharC_191>
+<_CharC_192>A</_CharC_192>
+<_CharC_193>A</_CharC_193>
+<_CharC_194>A</_CharC_194>
+<_CharC_195>A</_CharC_195>
+<_CharC_196>A</_CharC_196>
+<_CharC_197>A</_CharC_197>
+<_CharC_198>A</_CharC_198>
+<_CharC_199>A</_CharC_199>
+<_CharC_200>A</_CharC_200>
+<_CharC_201>A</_CharC_201>
+<_CharC_202>A</_CharC_202>
+<_CharC_203>A</_CharC_203>
+<_CharC_204>A</_CharC_204>
+<_CharC_205>A</_CharC_205>
+<_CharC_206>A</_CharC_206>
+<_CharC_207>A</_CharC_207>
+<_CharC_208>A</_CharC_208>
+<_CharC_209>A</_CharC_209>
+<_CharC_210>A</_CharC_210>
+<_CharC_211>A</_CharC_211>
+<_CharC_212>A</_CharC_212>
+<_CharC_213>A</_CharC_213>
+<_CharC_214>A</_CharC_214>
+<_CharC_215>A</_CharC_215>
+<_CharC_216>A</_CharC_216>
+<_CharC_217>A</_CharC_217>
+<_CharC_218>A</_CharC_218>
+<_CharC_219>A</_CharC_219>
+<_CharC_220>A</_CharC_220>
+<_CharC_221>A</_CharC_221>
+<_CharC_222>A</_CharC_222>
+<_CharC_223>A</_CharC_223>
+<_CharC_224>A</_CharC_224>
+<_CharC_225>A</_CharC_225>
+<_CharC_226>A</_CharC_226>
+<_CharC_227>A</_CharC_227>
+<_CharC_228>A</_CharC_228>
+<_CharC_229>A</_CharC_229>
+<_CharC_230>A</_CharC_230>
+<_CharC_231>A</_CharC_231>
+<_CharC_232>A</_CharC_232>
+<_CharC_233>A</_CharC_233>
+<_CharC_234>A</_CharC_234>
+<_CharC_235>A</_CharC_235>
+<_CharC_236>A</_CharC_236>
+<_CharC_237>A</_CharC_237>
+<_CharC_238>A</_CharC_238>
+<_CharC_239>A</_CharC_239>
+<_CharC_240>A</_CharC_240>
+<_CharC_241>A</_CharC_241>
+<_CharC_242>A</_CharC_242>
+<_CharC_243>A</_CharC_243>
+<_CharC_244>A</_CharC_244>
+<_CharC_245>A</_CharC_245>
+<_CharC_246>A</_CharC_246>
+<_CharC_247>A</_CharC_247>
+<_CharC_248>A</_CharC_248>
+<_CharC_249>A</_CharC_249>
+<_CharC_250>A</_CharC_250>
+<_CharC_251>A</_CharC_251>
+<_CharC_252>A</_CharC_252>
+<_CharC_253>A</_CharC_253>
+<_CharC_254>A</_CharC_254>
+<_CharC_255>A</_CharC_255>
+<cmd_Insert>Вставка</cmd_Insert>
+<cmdClose>Закрыть</cmdClose>
+<this>Марк-8 Ала Characterset</this>
+</MarcEdit_frmSymbols>
 <MarcEdit_frmTaskEditor>
-<lbTaskName>Имя списка задач:</lbTaskName><addDeleteFieldTaskToolStripMenuItem>Добавьте поле задачи Delete</addDeleteFieldTaskToolStripMenuItem><addEditSubfieldTaskToolStripMenuItem>Добавить редактировать задачу подполе</addEditSubfieldTaskToolStripMenuItem><addToolStripMenuItem>Добавить задачу индикатор Edit</addToolStripMenuItem><cmdSave>Сохранить</cmdSave><addNewFieldTaskToolStripMenuItem>Добавление нового поля задачи</addNewFieldTaskToolStripMenuItem><cmdClose>Закрыть</cmdClose><addReplaceAllTaskToolStripMenuItem>Добавить заменить все задачи</addReplaceAllTaskToolStripMenuItem><mnuEditTaskFieldEdit>Добавление поля редактирования задачи</mnuEditTaskFieldEdit><addSwapFieldTaskToolStripMenuItem>Добавление поля задачи своп</addSwapFieldTaskToolStripMenuItem><addCopyFieldTaskToolStripMenuItem>Добавьте поле задачи Copy</addCopyFieldTaskToolStripMenuItem><addTaskListToolStripMenuItem>Добавить список задач</addTaskListToolStripMenuItem><addRDAHelperToolStripMenuItem>Добавление удаленного помощника</addRDAHelperToolStripMenuItem><lbTasks>Задачи:</lbTasks><label1>Действия:</label1><label2>Описание:</label2><this>Редактирование списка задач</this></MarcEdit_frmTaskEditor>
+<lbTaskName>Имя списка задач:</lbTaskName>
+<addDeleteFieldTaskToolStripMenuItem>Добавьте поле задачи Delete</addDeleteFieldTaskToolStripMenuItem>
+<addEditSubfieldTaskToolStripMenuItem>Добавить редактировать задачу подполе</addEditSubfieldTaskToolStripMenuItem>
+<addToolStripMenuItem>Добавить задачу индикатор Edit</addToolStripMenuItem>
+<cmdSave>Сохранить</cmdSave>
+<addNewFieldTaskToolStripMenuItem>Добавление нового поля задачи</addNewFieldTaskToolStripMenuItem>
+<cmdClose>Закрыть</cmdClose>
+<addReplaceAllTaskToolStripMenuItem>Добавить заменить все задачи</addReplaceAllTaskToolStripMenuItem>
+<mnuEditTaskFieldEdit>Добавление поля редактирования задачи</mnuEditTaskFieldEdit>
+<addSwapFieldTaskToolStripMenuItem>Добавление поля задачи своп</addSwapFieldTaskToolStripMenuItem>
+<addCopyFieldTaskToolStripMenuItem>Добавьте поле задачи Copy</addCopyFieldTaskToolStripMenuItem>
+<addTaskListToolStripMenuItem>Добавить список задач</addTaskListToolStripMenuItem>
+<addRDAHelperToolStripMenuItem>Добавление удаленного помощника</addRDAHelperToolStripMenuItem>
+<lbTasks>Задачи:</lbTasks>
+<label1>Действия:</label1>
+<label2>Описание:</label2>
+<this>Редактирование списка задач</this>
+</MarcEdit_frmTaskEditor>
 <MarcEdit_frmTaskManager>
-<columnHeader1>Имя</columnHeader1><columnHeader2>Путь</columnHeader2><columnHeader3>Ярлык</columnHeader3><cmdClose>Закрыть</cmdClose><lnkNew>Создайте новый список задач</lnkNew><lbMacro>Списки задач:</lbMacro><lnkCloneTask>Клон существующий список задач</lnkCloneTask><groupBox1>Действия задания</groupBox1><lnk_import_task>Задача импорта</lnk_import_task><lnkRename>Переименование списка задач</lnkRename><groupBox2>Управление существующими задачами</groupBox2><lnk_export_task>Экспорт выбранных задач</lnk_export_task><lnkKey>Назначение ключа</lnkKey><lnkEdit>Редактировать список выбранных задач</lnkEdit><lnkDelete>Удаление выделенного списка задач</lnkDelete><columnHeader4>Описание</columnHeader4><this>Диспетчер задач</this></MarcEdit_frmTaskManager>
+<columnHeader1>Имя</columnHeader1>
+<columnHeader2>Путь</columnHeader2>
+<columnHeader3>Ярлык</columnHeader3>
+<cmdClose>Закрыть</cmdClose>
+<lnkNew>Создайте новый список задач</lnkNew>
+<lbMacro>Списки задач:</lbMacro>
+<lnkCloneTask>Клон существующий список задач</lnkCloneTask>
+<groupBox1>Действия задания</groupBox1>
+<lnk_import_task>Задача импорта</lnk_import_task>
+<lnkRename>Переименование списка задач</lnkRename>
+<groupBox2>Управление существующими задачами</groupBox2>
+<lnk_export_task>Экспорт выбранных задач</lnk_export_task>
+<lnkKey>Назначение ключа</lnkKey>
+<lnkEdit>Редактировать список выбранных задач</lnkEdit>
+<lnkDelete>Удаление выделенного списка задач</lnkDelete>
+<columnHeader4>Описание</columnHeader4>
+<this>Диспетчер задач</this>
+</MarcEdit_frmTaskManager>
 <MarcEdit_frmTools>
-<lb_OutputFile>Выходной файл:</lb_OutputFile><lb_InputFile>Входного файла:</lb_InputFile><cmdCancel>Закрыть</cmdCancel><cmdEdit>Редактирование записей</cmdEdit><cmdExecute>Выполнение</cmdExecute><lb_Results>Результаты:</lb_Results><groupBox2>Функции</groupBox2><ck_Marc8>Перевести на Марк-8</ck_Marc8><ck_UTF8>Перевод в UTF8</ck_UTF8><toolStrip1>toolStrip1</toolStrip1><toolOpen>Открыть файл</toolOpen><toolSave>Сохранить файл</toolSave><toolExport>Экспорт записей</toolExport><toolHelp>Справка</toolHelp><menuStrip1>menuStrip1</menuStrip1><mnuFile>Файл</mnuFile><mnuFileMain>Вернуться в главное окно</mnuFileMain><mnuFileOpen>Открытые</mnuFileOpen><mnuFileSave>Сохранить</mnuFileSave><mnuFileExit>Выход</mnuFileExit><mnuTools>Инструменты</mnuTools><mnuBatchProcessing>Пакетный процесс записи</mnuBatchProcessing><mnuToolsXML>Редактирование списка функции XML</mnuToolsXML><mnuToolsEncoding>Инструменты преобразования символов</mnuToolsEncoding><mnuToolsUTF8>MARC8 =&gt; UTF8 преобразования</mnuToolsUTF8><mnuToolsMARC8>UTF8 =&gt; преобразование MARC8</mnuToolsMARC8><otherConversionsToolStripMenuItem>Другие преобразования</otherConversionsToolStripMenuItem><mnutoolsValidator>MARCValidator</mnutoolsValidator><mnutoolsjoin>MARCJoin</mnutoolsjoin><mnutoolssplit>MARCSplit</mnutoolssplit><mnuToolsExport>Экспорт MARC записи</mnuToolsExport><mnuToolsExtract>Извлечение выбранных записей</mnuToolsExtract><mnuHelp>Справка</mnuHelp><mnuHelpContents>Контекст и индекс</mnuHelpContents><mnuHelpError>Предложения/ошибка отчет</mnuHelpError><this>Марк инструменты</this></MarcEdit_frmTools>
+<lb_OutputFile>Выходной файл:</lb_OutputFile>
+<lb_InputFile>Входного файла:</lb_InputFile>
+<cmdCancel>Закрыть</cmdCancel>
+<cmdEdit>Редактирование записей</cmdEdit>
+<cmdExecute>Выполнение</cmdExecute>
+<lb_Results>Результаты:</lb_Results>
+<groupBox2>Функции</groupBox2>
+<ck_Marc8>Перевести на Марк-8</ck_Marc8>
+<ck_UTF8>Перевод в UTF8</ck_UTF8>
+<toolStrip1>toolStrip1</toolStrip1>
+<toolOpen>Открыть файл</toolOpen>
+<toolSave>Сохранить файл</toolSave>
+<toolExport>Экспорт записей</toolExport>
+<toolHelp>Справка</toolHelp>
+<menuStrip1>menuStrip1</menuStrip1>
+<mnuFile>Файл</mnuFile>
+<mnuFileMain>Вернуться в главное окно</mnuFileMain>
+<mnuFileOpen>Открытые</mnuFileOpen>
+<mnuFileSave>Сохранить</mnuFileSave>
+<mnuFileExit>Выход</mnuFileExit>
+<mnuTools>Инструменты</mnuTools>
+<mnuBatchProcessing>Пакетный процесс записи</mnuBatchProcessing>
+<mnuToolsXML>Редактирование списка функции XML</mnuToolsXML>
+<mnuToolsEncoding>Инструменты преобразования символов</mnuToolsEncoding>
+<mnuToolsUTF8>MARC8 =&gt; UTF8 преобразования</mnuToolsUTF8>
+<mnuToolsMARC8>UTF8 =&gt; преобразование MARC8</mnuToolsMARC8>
+<otherConversionsToolStripMenuItem>Другие преобразования</otherConversionsToolStripMenuItem>
+<mnutoolsValidator>MARCValidator</mnutoolsValidator>
+<mnutoolsjoin>MARCJoin</mnutoolsjoin>
+<mnutoolssplit>MARCSplit</mnutoolssplit>
+<mnuToolsExport>Экспорт MARC записи</mnuToolsExport>
+<mnuToolsExtract>Извлечение выбранных записей</mnuToolsExtract>
+<mnuHelp>Справка</mnuHelp>
+<mnuHelpContents>Контекст и индекс</mnuHelpContents>
+<mnuHelpError>Предложения/ошибка отчет</mnuHelpError>
+<this>Марк инструменты</this>
+</MarcEdit_frmTools>
 <MarcEdit_frmTutorialManager>
-<lbAdd>Добавьте учебники:</lbAdd><lbTitle>Название:</lbTitle><lbDescription>Описание:</lbDescription><lburl>URL-АДРЕС:</lburl><lbModified>Изменение:</lbModified><lbTutorial>Местные учебные пособия:</lbTutorial><lnkAdd>Добавить/изменить</lnkAdd><lnkDelete>Удалить</lnkDelete><lnkClose>Закрыть</lnkClose><this>Местное руководство менеджер</this></MarcEdit_frmTutorialManager>
+<lbAdd>Добавьте учебники:</lbAdd>
+<lbTitle>Название:</lbTitle>
+<lbDescription>Описание:</lbDescription>
+<lburl>URL-АДРЕС:</lburl>
+<lbModified>Изменение:</lbModified>
+<lbTutorial>Местные учебные пособия:</lbTutorial>
+<lnkAdd>Добавить/изменить</lnkAdd>
+<lnkDelete>Удалить</lnkDelete>
+<lnkClose>Закрыть</lnkClose>
+<this>Местное руководство менеджер</this>
+</MarcEdit_frmTutorialManager>
 <MarcEdit_frmUpdate>
-<label1>Обновление примечания:</label1><cmd_Update>Обновление</cmd_Update><cmd_Cancel>Отмена</cmd_Cancel><this>Обновление MarcEdit</this></MarcEdit_frmUpdate>
+<label1>Обновление примечания:</label1>
+<cmd_Update>Обновление</cmd_Update>
+<cmd_Cancel>Отмена</cmd_Cancel>
+<this>Обновление MarcEdit</this>
+</MarcEdit_frmUpdate>
 <MarcEdit_frmUtilities>
-<lnk_Merge_Records>Слияние записей</lnk_Merge_Records><linkLabel1>Пакетный процесс MARC записи</linkLabel1><lnkMARC8toUTF8>Преобразование символов</lnkMARC8toUTF8><lnkSplit>MARCSplit</lnkSplit><lnkJoin>MARCJoin</lnkJoin><lnkExport>Экспорт вкладки с разделителями записей</lnkExport><cmbfinal>MARC8</cmbfinal><lb_final>Окончательный кодирования:</lb_final><cmd_encoding>MARC8</cmd_encoding><lb_encoding>Оригинальная кодировка:</lb_encoding><lb_UTF8_Header>Преобразование символов</lb_UTF8_Header><cmdCancel>Закрыть</cmdCancel><cmdOK>Процесс</cmdOK><lb_UTF8_Dest>Конечный файл:</lb_UTF8_Dest><lb_UTF8_Source>Исходный файл:</lb_UTF8_Source><ck_limit_split>количество файлов:</ck_limit_split><lb_Split_Records>Записи в файл:</lb_Split_Records><cmdSplitClose>Закрыть</cmdSplitClose><cmdSplitProcess>Процесс</cmdSplitProcess><lb_Split_Folder>Папка назначения:</lb_Split_Folder><lb_Split_Source>Исходный файл:</lb_Split_Source><lb_Split_Header>Утилита MARCSplit</lb_Split_Header><lnkJoinedFiles>Отображение присоединенных файлов</lnkJoinedFiles><label19>Типы файлов:</label19><ck_JoinIndividual>Присоединяйтесь к отдельных файлов</ck_JoinIndividual><cmdJoinCancel>Закрыть</cmdJoinCancel><cmdJoinProcess>Процесс</cmdJoinProcess><lb_Join_Files>Файл(ы) для соединения:</lb_Join_Files><lb_Join_Source>Конечный файл:</lb_Join_Source><lb_Join_Header>Утилита MARCJoin</lb_Join_Header><lb_Tab_Header>Экспорт вкладки с разделителями записей</lb_Tab_Header><cmb_sec_del></cmb_sec_del><label18>В поле разделитель</label18><lbdelimiter>Выберите разделитель полей</lbdelimiter><cmdTClose2>Закрыть</cmdTClose2><cmdTNext>Следующая &gt;&gt;</cmdTNext><label1>Шаг 1: Установить пути файлов</label1><mnuLoad>Загрузить параметры</mnuLoad><menuItem2>-</menuItem2><mnusave>Сохранить настройки</mnusave><menuItem1>-</menuItem1><menuItem3>Очистить настройки</menuItem3><lb_Operation>Функция:</lb_Operation><cmdBClose>Закрыть</cmdBClose><cmdBProcess>Процесс</cmdBProcess><lb_Extensions>Типы файлов:</lb_Extensions><lb_BSource>Исходный каталог:</lb_BSource><lbBTitle>Пакетный процесс MARC записи</lbBTitle><ck_normalize>Нормализации данных поля</ck_normalize><cmd_tab2_back>Назад</cmd_tab2_back><lnkSettings>Параметры...</lnkSettings><lnkDeleteField>Удалить поле</lnkDeleteField><lnkAddField>Добавить поле</lnkAddField><label14>Дополнительных полей:</label14><label11>Поле:</label11><cmdTClose>Закрыть</cmdTClose><cmdTExport>Экспорт</cmdTExport><label2>Шаг 2: Определите поля/дополнительных полей для экспорта</label2><label3>Экспорт вкладки с разделителями записей</label3><ck_merge_to_source>Слияние в источник</ck_merge_to_source><label17>Сохраните файл:</label17><label16>Каталогизация источник</label16><ck_SameFile>Процесс исходного файла</ck_SameFile><cmd_merge_cancel>Отмена</cmd_merge_cancel><cmd_merge_next>Следующая =&gt;</cmd_merge_next><lb_merge_title>Слияние записи данных</lb_merge_title><ck_merge_repeatable>Повторяемость</ck_merge_repeatable><lb_id>Идентификатор записи:</lb_id><lb_merge>Слияние файлов:</lb_merge><lb_source>Исходный файл:</lb_source><cmd_merge_cancel_2>Отмена</cmd_merge_cancel_2><cmd_merge_next_2>Следующая =&gt;</cmd_merge_next_2><cmd_merge_back_2>&lt; = Обратно</cmd_merge_back_2><label4>Выберите вариант, который лучше всего описывает операцию, которую вы хотите выполнить.</label4><lb_merge_title_2>Слияние записи данных: Шаг 2</lb_merge_title_2><groupBox2>Файл параметры слияния</groupBox2><rd_merge_overlay>Слияние и наложить все данные</rd_merge_overlay><rd_merge_delimited>Слияние с разделителями данных</rd_merge_delimited><rd_merge_selected>Выбранные поля слияния</rd_merge_selected><rd_merge_all>Объединить все уникальные данные</rd_merge_all><button1>Отмена</button1><cmd_merge_select_fields_next>Следующая =&gt;</cmd_merge_select_fields_next><cmd_merge_select_fields_back>&lt; = Обратно</cmd_merge_select_fields_back><groupBox3>Изменить параметры</groupBox3><label10>Кому</label10><label12>Подполей</label12><label9>Кому</label9><label8>Индикаторы</label8><label7>Поля слияния:</label7><label6>Выберите поле:</label6><label5>Слияние данных и записи: Выберите поля</label5><ck_Repeatable>Повторяемые подполе</ck_Repeatable><ck_sort>Поля сортировки</ck_sort><P3_cmd_Cancel>Отмена</P3_cmd_Cancel><P3_cmd_finish>Отделка</P3_cmd_finish><P3_ck_save_args>Сохранить шаблон</P3_ck_save_args><button4>Загрузить шаблон</button4><P3_cmd_Apply>Применить</P3_cmd_Apply><P3_lb_args>Аргументы</P3_lb_args><P3_lb_punct>Срок. Знаки препинания:</P3_lb_punct><P3_txt_indicators>\\\\</P3_txt_indicators><P3_lb_indicators>Индикаторы:</P3_lb_indicators><P3_mapto>Карта для:</P3_mapto><P3_lb_select>Выберите:</P3_lb_select><button5>Закрыть</button5><label15>Файлы были объединены.  Результаты в {merge_results_file}.</label15><label13>Слияние завершено</label13><this>Коммунальные диалоговое окно</this></MarcEdit_frmUtilities>
+<lnk_Merge_Records>Слияние записей</lnk_Merge_Records>
+<linkLabel1>Пакетный процесс MARC записи</linkLabel1>
+<lnkMARC8toUTF8>Преобразование символов</lnkMARC8toUTF8>
+<lnkSplit>MARCSplit</lnkSplit>
+<lnkJoin>MARCJoin</lnkJoin>
+<lnkExport>Экспорт вкладки с разделителями записей</lnkExport>
+<cmbfinal>MARC8</cmbfinal>
+<lb_final>Окончательный кодирования:</lb_final>
+<cmd_encoding>MARC8</cmd_encoding>
+<lb_encoding>Оригинальная кодировка:</lb_encoding>
+<lb_UTF8_Header>Преобразование символов</lb_UTF8_Header>
+<cmdCancel>Закрыть</cmdCancel>
+<cmdOK>Процесс</cmdOK>
+<lb_UTF8_Dest>Конечный файл:</lb_UTF8_Dest>
+<lb_UTF8_Source>Исходный файл:</lb_UTF8_Source>
+<ck_limit_split>количество файлов:</ck_limit_split>
+<lb_Split_Records>Записи в файл:</lb_Split_Records>
+<cmdSplitClose>Закрыть</cmdSplitClose>
+<cmdSplitProcess>Процесс</cmdSplitProcess>
+<lb_Split_Folder>Папка назначения:</lb_Split_Folder>
+<lb_Split_Source>Исходный файл:</lb_Split_Source>
+<lb_Split_Header>Утилита MARCSplit</lb_Split_Header>
+<lnkJoinedFiles>Отображение присоединенных файлов</lnkJoinedFiles>
+<label19>Типы файлов:</label19>
+<ck_JoinIndividual>Присоединяйтесь к отдельных файлов</ck_JoinIndividual>
+<cmdJoinCancel>Закрыть</cmdJoinCancel>
+<cmdJoinProcess>Процесс</cmdJoinProcess>
+<lb_Join_Files>Файл(ы) для соединения:</lb_Join_Files>
+<lb_Join_Source>Конечный файл:</lb_Join_Source>
+<lb_Join_Header>Утилита MARCJoin</lb_Join_Header>
+<lb_Tab_Header>Экспорт вкладки с разделителями записей</lb_Tab_Header>
+<cmb_sec_del></cmb_sec_del>
+<label18>В поле разделитель</label18>
+<lbdelimiter>Выберите разделитель полей</lbdelimiter>
+<cmdTClose2>Закрыть</cmdTClose2>
+<cmdTNext>Следующая &gt;&gt;</cmdTNext>
+<label1>Шаг 1: Установить пути файлов</label1>
+<mnuLoad>Загрузить параметры</mnuLoad>
+<menuItem2>-</menuItem2>
+<mnusave>Сохранить настройки</mnusave>
+<menuItem1>-</menuItem1>
+<menuItem3>Очистить настройки</menuItem3>
+<lb_Operation>Функция:</lb_Operation>
+<cmdBClose>Закрыть</cmdBClose>
+<cmdBProcess>Процесс</cmdBProcess>
+<lb_Extensions>Типы файлов:</lb_Extensions>
+<lb_BSource>Исходный каталог:</lb_BSource>
+<lbBTitle>Пакетный процесс MARC записи</lbBTitle>
+<ck_normalize>Нормализации данных поля</ck_normalize>
+<cmd_tab2_back>Назад</cmd_tab2_back>
+<lnkSettings>Параметры...</lnkSettings>
+<lnkDeleteField>Удалить поле</lnkDeleteField>
+<lnkAddField>Добавить поле</lnkAddField>
+<label14>Дополнительных полей:</label14>
+<label11>Поле:</label11>
+<cmdTClose>Закрыть</cmdTClose>
+<cmdTExport>Экспорт</cmdTExport>
+<label2>Шаг 2: Определите поля/дополнительных полей для экспорта</label2>
+<label3>Экспорт вкладки с разделителями записей</label3>
+<ck_merge_to_source>Слияние в источник</ck_merge_to_source>
+<label17>Сохраните файл:</label17>
+<label16>Каталогизация источник</label16>
+<ck_SameFile>Процесс исходного файла</ck_SameFile>
+<cmd_merge_cancel>Отмена</cmd_merge_cancel>
+<cmd_merge_next>Следующая =&gt;</cmd_merge_next>
+<lb_merge_title>Слияние записи данных</lb_merge_title>
+<ck_merge_repeatable>Повторяемость</ck_merge_repeatable>
+<lb_id>Идентификатор записи:</lb_id>
+<lb_merge>Слияние файлов:</lb_merge>
+<lb_source>Исходный файл:</lb_source>
+<cmd_merge_cancel_2>Отмена</cmd_merge_cancel_2>
+<cmd_merge_next_2>Следующая =&gt;</cmd_merge_next_2>
+<cmd_merge_back_2>&lt; = Обратно</cmd_merge_back_2>
+<label4>Выберите вариант, который лучше всего описывает операцию, которую вы хотите выполнить.</label4>
+<lb_merge_title_2>Слияние записи данных: Шаг 2</lb_merge_title_2>
+<groupBox2>Файл параметры слияния</groupBox2>
+<rd_merge_overlay>Слияние и наложить все данные</rd_merge_overlay>
+<rd_merge_delimited>Слияние с разделителями данных</rd_merge_delimited>
+<rd_merge_selected>Выбранные поля слияния</rd_merge_selected>
+<rd_merge_all>Объединить все уникальные данные</rd_merge_all>
+<button1>Отмена</button1>
+<cmd_merge_select_fields_next>Следующая =&gt;</cmd_merge_select_fields_next>
+<cmd_merge_select_fields_back>&lt; = Обратно</cmd_merge_select_fields_back>
+<groupBox3>Изменить параметры</groupBox3>
+<label10>Кому</label10>
+<label12>Подполей</label12>
+<label9>Кому</label9>
+<label8>Индикаторы</label8>
+<label7>Поля слияния:</label7>
+<label6>Выберите поле:</label6>
+<label5>Слияние данных и записи: Выберите поля</label5>
+<ck_Repeatable>Повторяемые подполе</ck_Repeatable>
+<ck_sort>Поля сортировки</ck_sort>
+<P3_cmd_Cancel>Отмена</P3_cmd_Cancel>
+<P3_cmd_finish>Отделка</P3_cmd_finish>
+<P3_ck_save_args>Сохранить шаблон</P3_ck_save_args>
+<button4>Загрузить шаблон</button4>
+<P3_cmd_Apply>Применить</P3_cmd_Apply>
+<P3_lb_args>Аргументы</P3_lb_args>
+<P3_lb_punct>Срок. Знаки препинания:</P3_lb_punct>
+<P3_txt_indicators>\\\\</P3_txt_indicators>
+<P3_lb_indicators>Индикаторы:</P3_lb_indicators>
+<P3_mapto>Карта для:</P3_mapto>
+<P3_lb_select>Выберите:</P3_lb_select>
+<button5>Закрыть</button5>
+<label15>Файлы были объединены.  Результаты в {merge_results_file}.</label15>
+<label13>Слияние завершено</label13>
+<this>Коммунальные диалоговое окно</this>
+</MarcEdit_frmUtilities>
 <MarcEdit_frmvalidator>
-<lb_Source>Исходный файл:</lb_Source><lb_Rules>Файл правил:</lb_Rules><cmd_Ok>Хорошо</cmd_Ok><cmd_close>Закрыть</cmd_close><groupBox1>Параметры</groupBox1><optIdentify>Выявление недопустимых записей</optIdentify><opt_remove>Удалите недопустимые записи</opt_remove><opt_validate>Проверка записи (по умолчанию)</opt_validate><this>MARCValidator</this></MarcEdit_frmvalidator>
+<lb_Source>Исходный файл:</lb_Source>
+<lb_Rules>Файл правил:</lb_Rules>
+<cmd_Ok>Хорошо</cmd_Ok>
+<cmd_close>Закрыть</cmd_close>
+<groupBox1>Параметры</groupBox1>
+<optIdentify>Выявление недопустимых записей</optIdentify>
+<opt_remove>Удалите недопустимые записи</opt_remove>
+<opt_validate>Проверка записи (по умолчанию)</opt_validate>
+<this>MARCValidator</this>
+</MarcEdit_frmvalidator>
 <MarcEdit_frmVURL>
-<cmd_Ok>Хорошо</cmd_Ok><cmdCancel>Закрыть</cmdCancel><groupBox1>Параметры отчета:</groupBox1><lb_MARC_Title>Название:</lb_MARC_Title><lbReport>Тип отчета:</lbReport><lb_XSLT>XSLT-файл:</lb_XSLT><lb_Dest>Выходной файл:</lb_Dest><lb_MARC>Входного файла:</lb_MARC><lb_Fields>Поля:</lb_Fields><this>Проверьте URL-адрес</this></MarcEdit_frmVURL>
+<cmd_Ok>Хорошо</cmd_Ok>
+<cmdCancel>Закрыть</cmdCancel>
+<groupBox1>Параметры отчета:</groupBox1>
+<lb_MARC_Title>Название:</lb_MARC_Title>
+<lbReport>Тип отчета:</lbReport>
+<lb_XSLT>XSLT-файл:</lb_XSLT>
+<lb_Dest>Выходной файл:</lb_Dest>
+<lb_MARC>Входного файла:</lb_MARC>
+<lb_Fields>Поля:</lb_Fields>
+<this>Проверьте URL-адрес</this>
+</MarcEdit_frmVURL>
 <MarcEdit_frmXMLTreeView>
-<cmdSave>Применить</cmdSave><cmdClose>Закрыть</cmdClose><lb_file>Выберите файл:</lb_file><ck_backup>Восстановление из резервной копии</ck_backup><this>MarcEdit редактор языковых файлов</this></MarcEdit_frmXMLTreeView>
+<cmdSave>Применить</cmdSave>
+<cmdClose>Закрыть</cmdClose>
+<lb_file>Выберите файл:</lb_file>
+<ck_backup>Восстановление из резервной копии</ck_backup>
+<this>MarcEdit редактор языковых файлов</this>
+</MarcEdit_frmXMLTreeView>
 <MarcEdit_frm_FASTHeadings>
-<lnkClassify>О OCLC быстрое обслуживание</lnkClassify><label1>Эта служба использует OCLC быстрый веб-службы.  БЫСТРО recommendationsare, порожденных отправляет сведения о конкретной записи Марк webservice.  OCLC'swebservice будет возвращать обратно в MarcEdit быстро заголовки, наиболее тесно связанные с темой.</label1><ck_conditional_fast>Добавить быстро заголовки, когда без предметных рубрик присутствуют</ck_conditional_fast><ck_always_fast>Всегда добавляйте быстро заголовки</ck_always_fast><label8>Предметных рубрик:</label8><button1>Процесс</button1><cmd_Close>Закрыть</cmd_Close><this>Генерировать быстрый заголовки</this></MarcEdit_frm_FASTHeadings>
+<lnkClassify>О OCLC быстрое обслуживание</lnkClassify>
+<label1>Эта служба использует OCLC быстрый веб-службы.  Отправив webservice информация о конкретной Марк записи создаются быстро рекомендации.  OCLC в webservice вернется обратно в MarcEdit быстро заголовки, наиболее тесно связанные с темой.</label1>
+<ck_conditional_fast>Добавить быстро заголовки, когда без предметных рубрик присутствуют</ck_conditional_fast>
+<ck_always_fast>Всегда добавляйте быстро заголовки</ck_always_fast>
+<label8>Предметных рубрик:</label8>
+<button1>Процесс</button1>
+<cmd_Close>Закрыть</cmd_Close>
+<this>Генерировать быстрый заголовки</this>
+</MarcEdit_frm_FASTHeadings>
 <MarcEdit_frm_merge_options>
-<cmd_save>Сохранить</cmd_save><cmd_close>Закрыть</cmd_close><ck_1xxa>$a: Главный вход</ck_1xxa><ck_245p>$p: имя pt/сек работы</ck_245p><ck_245n>$n: количество pt/сек работы</ck_245n><ck_245c>$c: заявление ответственность</ck_245c><ck_245b>$b: оставшуюся часть названия</ck_245b><ck_245a>$a: название</ck_245a><ck_lang>Язык (позиции: 35-37)</ck_lang><ck_dates>Даты (позиции: 7-14)</ck_dates><ck_p7>BLvl (позиция 7)</ck_p7><ck_p6>Тип (позиция 6)</ck_p6><label6>Контрольные цифры</label6><ck_form>Форма (позиции: 23)</ck_form><ck_245_h>$h: материал общего назначения</ck_245_h><label5>Разное. поля:</label5><label4>Поле 245:</label4><label3>Поля автор (1xx)</label3><label2>008 позиции</label2><label1>Позиция LDR</label1><this>Параметры слияния</this></MarcEdit_frm_merge_options>
+<cmd_save>Сохранить</cmd_save>
+<cmd_close>Закрыть</cmd_close>
+<ck_1xxa>$a: Главный вход</ck_1xxa>
+<ck_245p>$p: имя pt/сек работы</ck_245p>
+<ck_245n>$n: количество pt/сек работы</ck_245n>
+<ck_245c>$c: заявление ответственность</ck_245c>
+<ck_245b>$b: оставшуюся часть названия</ck_245b>
+<ck_245a>$a: название</ck_245a>
+<ck_lang>Язык (позиции: 35-37)</ck_lang>
+<ck_dates>Даты (позиции: 7-14)</ck_dates>
+<ck_p7>BLvl (позиция 7)</ck_p7>
+<ck_p6>Тип (позиция 6)</ck_p6>
+<label6>Контрольные цифры</label6>
+<ck_form>Форма (позиции: 23)</ck_form>
+<ck_245_h>$h: материал общего назначения</ck_245_h>
+<label5>Разное. поля:</label5>
+<label4>Поле 245:</label4>
+<label3>Поля автор (1xx)</label3>
+<label2>008 позиции</label2>
+<label1>Позиция LDR</label1>
+<this>Параметры слияния</this>
+</MarcEdit_frm_merge_options>
 <MarcEdit_frm_z3950_preferences>
-<tabDBProps>Свойства базы данных</tabDBProps><ck_Paused>Переопределение паузы (6 сек.)</ck_Paused><label1>База данных:</label1><ck_Show>Показать базы данных</ck_Show><lbPassword>Пароль:</lbPassword><lbUsername>Имя пользователя:</lbUsername><lbSyntax>Синтаксис:</lbSyntax><lbPort>Порт:</lbPort><lbHost>Ведущий:</lbHost><lbname>Имя:</lbname><tabDBAdvanced>Дополнительные свойства</tabDBAdvanced><label4>Время ожидания (в секундах):</label4><label2>Набор элементов:</label2><label3>Другие варианты:</label3><lnkftp>http://www.loc.gov/z3950/Agency/defns/bib1.HTML</lnkftp><lbInfo>Дополнительная информация:</lbInfo><lbISBN>ISBN/ISSN:</lbISBN><lbSubject>Тема:</lbSubject><lbTitle>Название:</lbTitle><lbAuthor>Автор:</lbAuthor><lbadvTitle>Z39.50 атрибут 4: структура</lbadvTitle><cmdSave>Сохранить</cmdSave><cmdClose>Закрыть</cmdClose><this>Свойства базы данных</this></MarcEdit_frm_z3950_preferences>
+<tabDBProps>Свойства базы данных</tabDBProps>
+<ck_Paused>Переопределение паузы (6 сек.)</ck_Paused>
+<label1>База данных:</label1>
+<ck_Show>Показать базы данных</ck_Show>
+<lbPassword>Пароль:</lbPassword>
+<lbUsername>Имя пользователя:</lbUsername>
+<lbSyntax>Синтаксис:</lbSyntax>
+<lbPort>Порт:</lbPort>
+<lbHost>Ведущий:</lbHost>
+<lbname>Имя:</lbname>
+<tabDBAdvanced>Дополнительные свойства</tabDBAdvanced>
+<label4>Время ожидания (в секундах):</label4>
+<label2>Набор элементов:</label2>
+<label3>Другие варианты:</label3>
+<lnkftp>http://www.loc.gov/z3950/Agency/defns/bib1.HTML</lnkftp>
+<lbInfo>Дополнительная информация:</lbInfo>
+<lbISBN>ISBN/ISSN:</lbISBN>
+<lbSubject>Тема:</lbSubject>
+<lbTitle>Название:</lbTitle>
+<lbAuthor>Автор:</lbAuthor>
+<lbadvTitle>Z39.50 атрибут 4: структура</lbadvTitle>
+<cmdSave>Сохранить</cmdSave>
+<cmdClose>Закрыть</cmdClose>
+<this>Свойства базы данных</this>
+</MarcEdit_frm_z3950_preferences>
 <MarcEdit_meEditor>
-<lnkLoadAll>Загрузить весь файл</lnkLoadAll><lb_bytes>{loaded_bytes} из {file_bytes} загруженных байтов.</lb_bytes><tbar1>toolStrip1</tbar1><tbNew>Новый рекорд</tbNew><mnuCNewWindow>Открыть новое окно</mnuCNewWindow><ContextAuthority>Орган</ContextAuthority><ContextAuthorityName>Имя</ContextAuthorityName><ContextAuthoritySubject>Тема</ContextAuthoritySubject><cBook>Книга</cBook><cSerial>Последовательный</cSerial><cVisualMat>Визуальные материалы</cVisualMat><cMaps>Картографический ресурс</cMaps><cSoundRec>Запись звука</cSoundRec><cScore>Оценка</cScore><cElectMat>Электронный ресурс</cElectMat><cMixedMat>Смешанные материалы</cMixedMat><tbOpen>Открыть файл</tbOpen><tbSave>Сохранить файл</tbSave><tbPrint>Печать файла</tbPrint><tbCompile>Компиляция записей</tbCompile><tbCut>Вырезать</tbCut><tbCopy>Копия</tbCopy><tbPaste>Паста</tbPaste><tbALA>MARC8 Ала Characterset</tbALA><tbDelete>Удалить</tbDelete><tbFind>Найти</tbFind><tbZ39_50>Клиент Z39.50/SRU</tbZ39_50><tbHelp>Справка</tbHelp><mnuObj>menuStrip1</mnuObj><mnuFile>Файл</mnuFile><mnuFileMain>Вернуться в главное окно</mnuFileMain><mnuFileNew>Новые функции</mnuFileNew><mnuFileNewWindow>Открыть новое окно</mnuFileNewWindow><mnuFileNewDefault>по умолчанию</mnuFileNewDefault><mnuFileNewAuthority>Орган</mnuFileNewAuthority><mnuFileNewAuthorityName>Имя</mnuFileNewAuthorityName><mnuFileNewAuthoritySubject>Тема</mnuFileNewAuthoritySubject><mnuFileNewBook>Книга</mnuFileNewBook><mnuFileNewSerial>Последовательный</mnuFileNewSerial><mnuFileVisualMat>Визуальные материалы</mnuFileVisualMat><mnuFileNewMap>Картографический ресурс</mnuFileNewMap><mnuFileNewSound>Запись звука</mnuFileNewSound><mnuFileNewScore>Оценка</mnuFileNewScore><mnuFileNewER>Электронный ресурс</mnuFileNewER><mnuFileNewMix>Смешанные материалы</mnuFileNewMix><mnuFileOpen>Открытые</mnuFileOpen><mnuFileRecent>Последние файлы</mnuFileRecent><mnunone10>нет</mnunone10><mnunone9>нет</mnunone9><mnunone8>нет</mnunone8><mnunone7>нет</mnunone7><mnunone6>нет</mnunone6><mnunone5>нет</mnunone5><mnunone4>нет</mnunone4><mnunone3>нет</mnunone3><mnunone2>нет</mnunone2><mnunone1>нет</mnunone1><mnuFileClearHistory>Очистить историю</mnuFileClearHistory><mnuFileClearList>Очистить последних файлов</mnuFileClearList><clearEditReplaceHistoryToolStripMenuItem>Очистить историю Правка/заменить</clearEditReplaceHistoryToolStripMenuItem><mnuFileClose>Закрыть</mnuFileClose><mnuFileSave>Сохранить</mnuFileSave><mnuFileSaveAs>Сохранить как...</mnuFileSaveAs><mnuFilePrint>Печать</mnuFilePrint><FileSelectIndividualMake>Выбрать отдельные записи, чтобы сделать</FileSelectIndividualMake><mnuFileCompile>Компилировать файл в Марк</mnuFileCompile><mnuFileExit>Выход</mnuFileExit><mnuEdit>Редактировать</mnuEdit><mnuEditUndo>Отменить</mnuEditUndo><mnuEditRedo>Повторить</mnuEditRedo><mnuEditSpecialUndo>Специальные отменить</mnuEditSpecialUndo><mnuEditCut>Вырезать</mnuEditCut><mnuEditCopy>Копия</mnuEditCopy><mnuEditPaste>Паста</mnuEditPaste><mnuEditDupLines>Дублировать линии</mnuEditDupLines><mnuEditClear>Ясно</mnuEditClear><mnuEditFind>Найти</mnuEditFind><mnuEditReplace>Заменить</mnuEditReplace><toolStripMenuItem28>Редактирование ярлыков</toolStripMenuItem28><changeCaseToolStripMenuItem>Изменить регистр</changeCaseToolStripMenuItem><lowerCaseToolStripMenuItem>нижний регистр</lowerCaseToolStripMenuItem><upperCaseToolStripMenuItem>ВЕРХНИЙ РЕГИСТР</upperCaseToolStripMenuItem><sentenceCaseToolStripMenuItem>Название дела</sentenceCaseToolStripMenuItem><initialCaseToolStripMenuItem>Первоначальный случай</initialCaseToolStripMenuItem><capitalizeInitialCharacterToolStripMenuItem>Выгоду из исходного символа</capitalizeInitialCharacterToolStripMenuItem><fieldEditsToolStripMenuItem>Поле редактирования</fieldEditsToolStripMenuItem><findRecordsMissingFieldToolStripMenuItem>Найти записи, отсутствует поле</findRecordsMissingFieldToolStripMenuItem><swapTitleToolStripMenuItem>Поменять название</swapTitleToolStripMenuItem><mnuEditJumpTo>Перейти к...</mnuEditJumpTo><jumpToRecordToolStripMenuItem>Перейти к...Запись</jumpToRecordToolStripMenuItem><jumpToPageToolStripMenuItem>Перейти к...Страница</jumpToPageToolStripMenuItem><mnuEditControl>Вставьте один контрольный номер</mnuEditControl><mnuEdit006>Вставить/редактировать 006</mnuEdit006><mnuEdit006Edit>Редактировать</mnuEdit006Edit><mnuEdit006Book>Книга</mnuEdit006Book><mnuEdit006Serial>Продолжающиеся ресурс</mnuEdit006Serial><mnuEdit006Map>Картографический ресурс</mnuEdit006Map><mnuEdit006Sound>Запись звука</mnuEdit006Sound><mnuEdit006Score>Оценка</mnuEdit006Score><mnuEdit006ER>Электронный ресурс</mnuEdit006ER><mnuEdit006Visual>Визуальные материалы</mnuEdit006Visual><mnuEdit006Mixed>Смешанные материалы</mnuEdit006Mixed><mnuEdit008>Вставить/редактировать 008</mnuEdit008><mnuEdit008Edit>Редактировать</mnuEdit008Edit><mnuEdit008Book>Книга</mnuEdit008Book><mnuEdit008Serial>Продолжающиеся ресурс</mnuEdit008Serial><mnuEdit008Map>Картографический ресурс</mnuEdit008Map><mnuEdit008Sound>Запись звука</mnuEdit008Sound><mnuEdit008Score>Оценка</mnuEdit008Score><mnuEdit008ER>Электронный ресурс</mnuEdit008ER><mnuEdit008Visual>Визуальные материалы</mnuEdit008Visual><mnuEdit008Mixed>Смешанные материалы</mnuEdit008Mixed><toolStripMenuItem27>Преобразование содержимого буфера обмена</toolStripMenuItem27><mnuEditConverttoUTF8>Марк-8 UTF-8</mnuEditConverttoUTF8><mnuEditConvertoMarc8>UTF-8 Марк-8</mnuEditConvertoMarc8><mnuEditALA>Марк-8 Ала characterset</mnuEditALA><mnuEditUTF8CharacterMap>UTF-8 символов</mnuEditUTF8CharacterMap><mnuEditSelectAll>Выбрать все</mnuEditSelectAll><mnuEditWrap>Перенос слов</mnuEditWrap><mnuEditRTL>Отображение право налево</mnuEditRTL><mnuEditInfo>Марк информация</mnuEditInfo><mnuEditInfoOCLC>OCLC Марк помощь</mnuEditInfoOCLC><mnuEditInfoLC>США Библиотека Конгресса Марк помощь</mnuEditInfoLC><mnuFont>Шрифты</mnuFont><mnuFontFont>Шрифт...</mnuFontFont><mnuFontColor>Цвет...</mnuFontColor><mnuReports>Доклады</mnuReports><mnuReportsField>Поле Count</mnuReportsField><tlReportsMaterialReport>Тип материала доклада</tlReportsMaterialReport><generateReportToolStripMenuItem>Создать отчет</generateReportToolStripMenuItem><findBookToolStripMenuItem>Поиск записей по типу</findBookToolStripMenuItem><booksToolStripMenuItem>Книги</booksToolStripMenuItem><toolStripMenuItem32>Компьютерные файлы</toolStripMenuItem32><continuingResourcesToolStripMenuItem>Продолжающиеся ресурсы</continuingResourcesToolStripMenuItem><mapsToolStripMenuItem>Карты</mapsToolStripMenuItem><mixedMaterialsToolStripMenuItem>Смешанные материалы</mixedMaterialsToolStripMenuItem><scoresToolStripMenuItem>Баллы</scoresToolStripMenuItem><soundRecordingsToolStripMenuItem>Звукозаписи заседаний</soundRecordingsToolStripMenuItem><visualMaterialsToolStripMenuItem>Визуальные материалы</visualMaterialsToolStripMenuItem><mARCValidatorToolStripMenuItem>MARCValidator</mARCValidatorToolStripMenuItem><mnuTools>Инструменты</mnuTools><mnuToolsCalculator>Каталог калькулятор</mnuToolsCalculator><mnuToolsCallNum>Создание вызова чисел</mnuToolsCallNum><mnuToolsControlNumber>Создание управления чисел</mnuToolsControlNumber><mnuToolsRDAHelpers>Помощник RDA</mnuToolsRDAHelpers><mnuToolsEditConstant>Измените постоянных данных</mnuToolsEditConstant><mnuToolsAssigned>Постоянных данных</mnuToolsAssigned><mnuConstant1>1) определено строка</mnuConstant1><mnuConstant2>2) определено строка</mnuConstant2><mnuConstant3>3) неопределенной строки</mnuConstant3><mnuConstant4>4) определено строка</mnuConstant4><mnuConstant5>5) строка определено</mnuConstant5><mnuConstant6>6) определено строка</mnuConstant6><mnuConstant7>7) определено строка</mnuConstant7><mnuConstant8>8) определено строка</mnuConstant8><mnuConstant9>9) строка определено</mnuConstant9><mnuConstant10>10) строка определено</mnuConstant10><mnutoolmanageAutomate>Управление задачами</mnutoolmanageAutomate><mnutoolassignTasks>Поставленные задачи</mnutoolassignTasks><mnuDefTask>В настоящее время доступные задачи</mnuDefTask><task1>1) неопределенной задачи</task1><task2>2) неопределенной задачи</task2><task3>3) неопределенной задачи</task3><task4>4) неопределенной задачи</task4><task5>5) неопределенной задачи</task5><task6>6) неопределенной задачи</task6><task7>7) неопределенной задачи</task7><task8>8) определено задание</task8><task9>9) неопределенной задачи</task9><task10>10) неопределенной задачи</task10><mnuToolsZ3950>Параметры Z39.50/SRU</mnuToolsZ3950><marcEditZ3950SRUClientToolStripMenuItem>Клиент MarcEdit Z39.50/SRU</marcEditZ3950SRUClientToolStripMenuItem><importRecordToolStripMenuItem>Запись импорта Z39.50</importRecordToolStripMenuItem><uploadEditedRecordToolStripMenuItem>Z39.50 загрузить запись</uploadEditedRecordToolStripMenuItem><toolz3950delete>Z39.50 удалить запись</toolz3950delete><z3950UpdateHoldingsToolStripMenuItem>Z39.50 обновления запасов</z3950UpdateHoldingsToolStripMenuItem><mnuToolsValidate>Проверка записей Марк</mnuToolsValidate><mnuToolsDedup>Запись дедупликации</mnuToolsDedup><mnuToolsOAI>Урожай от OAI</mnuToolsOAI><mnutoolsurl>Генерировать Марк из URL-адреса</mnutoolsurl><toolStripMenuItem3>Нормализовать...</toolStripMenuItem3><normalizeLCRecordToolStripMenuItem>Нормализовать LC записей</normalizeLCRecordToolStripMenuItem><normalizeMicrolifRecordsToolStripMenuItem>Нормализовать Microlif записей</normalizeMicrolifRecordsToolStripMenuItem><mnuToolsRemoveEmpty>Удалить пустые поля/подотраслей</mnuToolsRemoveEmpty><mnuToolsAdd>Добавление и удаление полей</mnuToolsAdd><toolStripMenuItem26>Копирование поля</toolStripMenuItem26><mnuToolsEditField>Редактирование поля данных</mnuToolsEditField><mnuToolsIndicator>Редактирование данных индикатора</mnuToolsIndicator><mnuToolsSubfield>Редактирование дополнительных полей данных</mnuToolsSubfield><mnuToolsSortby>Сортировать по...</mnuToolsSortby><mnuToolsCustomSort>Пользовательская сортировка</mnuToolsCustomSort><mnuToolsSortControl>Сортировать по контрольный номер</mnuToolsSortControl><mnuToolsSortbyTitle>Сортировка по названию</mnuToolsSortbyTitle><mnuToolsSortAuthor>Сортировка по автору</mnuToolsSortAuthor><mnuToolsSortByCall>Сортировка по номеру вызова</mnuToolsSortByCall><mnuToolsSort2>Поля сортировки 0xx</mnuToolsSort2><mnuToolsSort>Сортировать все поля</mnuToolsSort><mnuToolsSwap>Поменять данные поля</mnuToolsSwap><mnuToolsOptions>Предпочтения</mnuToolsOptions><mnu_ILS>[ILS имя]</mnu_ILS><mnu_ils_search>Поиск</mnu_ils_search><updateCreateToolStripMenuItem>Обновление/создать</updateCreateToolStripMenuItem><mnuOCLC>OCLC WorldCat</mnuOCLC><toolStripMenuItem31>Поиск WorldCat</toolStripMenuItem31><mnuOCLCLocalBibData>Добавить/удалить/обновить локальные библиографические данные</mnuOCLCLocalBibData><createUpdateToolStripMenuItem>Создание/обновление библиографических данных</createUpdateToolStripMenuItem><deleteHoldingsToolStripMenuItem>Обновление Holdings</deleteHoldingsToolStripMenuItem><pluginsToolStripMenuItem>Подключаемые модули</pluginsToolStripMenuItem><mnuHelp>Справка</mnuHelp><mnuHelpContents>Содержание и помощь</mnuHelpContents><label1>Записей на странице</label1><lblPage>страниц</lblPage><btnPre>&lt;</btnPre><btnNext>&gt;</btnNext><btnLast>&gt;&gt;</btnLast><btnFirst>&lt;&lt;</btnFirst><this>MarcEditor</this></MarcEdit_meEditor>
+<lnkLoadAll>Загрузить весь файл</lnkLoadAll>
+<lb_bytes>{loaded_bytes} из {file_bytes} загруженных байтов.</lb_bytes>
+<tbar1>toolStrip1</tbar1>
+<tbNew>Новый рекорд</tbNew>
+<mnuCNewWindow>Открыть новое окно</mnuCNewWindow>
+<ContextAuthority>Орган</ContextAuthority>
+<ContextAuthorityName>Имя</ContextAuthorityName>
+<ContextAuthoritySubject>Тема</ContextAuthoritySubject>
+<cBook>Книга</cBook>
+<cSerial>Последовательный</cSerial>
+<cVisualMat>Визуальные материалы</cVisualMat>
+<cMaps>Картографический ресурс</cMaps>
+<cSoundRec>Запись звука</cSoundRec>
+<cScore>Оценка</cScore>
+<cElectMat>Электронный ресурс</cElectMat>
+<cMixedMat>Смешанные материалы</cMixedMat>
+<tbOpen>Открыть файл</tbOpen>
+<tbSave>Сохранить файл</tbSave>
+<tbPrint>Печать файла</tbPrint>
+<tbCompile>Компиляция записей</tbCompile>
+<tbCut>Вырезать</tbCut>
+<tbCopy>Копия</tbCopy>
+<tbPaste>Паста</tbPaste>
+<tbALA>MARC8 Ала Characterset</tbALA>
+<tbDelete>Удалить</tbDelete>
+<tbFind>Найти</tbFind>
+<tbZ39_50>Клиент Z39.50/SRU</tbZ39_50>
+<tbHelp>Справка</tbHelp>
+<mnuObj>menuStrip1</mnuObj>
+<mnuFile>Файл</mnuFile>
+<mnuFileMain>Вернуться в главное окно</mnuFileMain>
+<mnuFileNew>Новые функции</mnuFileNew>
+<mnuFileNewWindow>Открыть новое окно</mnuFileNewWindow>
+<mnuFileNewDefault>по умолчанию</mnuFileNewDefault>
+<mnuFileNewAuthority>Орган</mnuFileNewAuthority>
+<mnuFileNewAuthorityName>Имя</mnuFileNewAuthorityName>
+<mnuFileNewAuthoritySubject>Тема</mnuFileNewAuthoritySubject>
+<mnuFileNewBook>Книга</mnuFileNewBook>
+<mnuFileNewSerial>Последовательный</mnuFileNewSerial>
+<mnuFileVisualMat>Визуальные материалы</mnuFileVisualMat>
+<mnuFileNewMap>Картографический ресурс</mnuFileNewMap>
+<mnuFileNewSound>Запись звука</mnuFileNewSound>
+<mnuFileNewScore>Оценка</mnuFileNewScore>
+<mnuFileNewER>Электронный ресурс</mnuFileNewER>
+<mnuFileNewMix>Смешанные материалы</mnuFileNewMix>
+<mnuFileOpen>Открытые</mnuFileOpen>
+<mnuFileRecent>Последние файлы</mnuFileRecent>
+<mnunone10>нет</mnunone10>
+<mnunone9>нет</mnunone9>
+<mnunone8>нет</mnunone8>
+<mnunone7>нет</mnunone7>
+<mnunone6>нет</mnunone6>
+<mnunone5>нет</mnunone5>
+<mnunone4>нет</mnunone4>
+<mnunone3>нет</mnunone3>
+<mnunone2>нет</mnunone2>
+<mnunone1>нет</mnunone1>
+<mnuFileClearHistory>Очистить историю</mnuFileClearHistory>
+<mnuFileClearList>Очистить последних файлов</mnuFileClearList>
+<clearEditReplaceHistoryToolStripMenuItem>Очистить историю Правка/заменить</clearEditReplaceHistoryToolStripMenuItem>
+<mnuFileClose>Закрыть</mnuFileClose>
+<mnuFileSave>Сохранить</mnuFileSave>
+<mnuFileSaveAs>Сохранить как...</mnuFileSaveAs>
+<mnuFilePrint>Печать</mnuFilePrint>
+<FileSelectIndividualMake>Выбрать отдельные записи, чтобы сделать</FileSelectIndividualMake>
+<mnuFileCompile>Компилировать файл в Марк</mnuFileCompile>
+<mnuFileExit>Выход</mnuFileExit>
+<mnuEdit>Редактировать</mnuEdit>
+<mnuEditUndo>Отменить</mnuEditUndo>
+<mnuEditRedo>Повторить</mnuEditRedo>
+<mnuEditSpecialUndo>Специальные отменить</mnuEditSpecialUndo>
+<mnuEditCut>Вырезать</mnuEditCut>
+<mnuEditCopy>Копия</mnuEditCopy>
+<mnuEditPaste>Паста</mnuEditPaste>
+<mnuEditDupLines>Дублировать линии</mnuEditDupLines>
+<mnuEditClear>Ясно</mnuEditClear>
+<mnuEditFind>Найти</mnuEditFind>
+<mnuEditReplace>Заменить</mnuEditReplace>
+<toolStripMenuItem28>Редактирование ярлыков</toolStripMenuItem28>
+<changeCaseToolStripMenuItem>Изменить регистр</changeCaseToolStripMenuItem>
+<lowerCaseToolStripMenuItem>нижний регистр</lowerCaseToolStripMenuItem>
+<upperCaseToolStripMenuItem>ВЕРХНИЙ РЕГИСТР</upperCaseToolStripMenuItem>
+<sentenceCaseToolStripMenuItem>Название дела</sentenceCaseToolStripMenuItem>
+<initialCaseToolStripMenuItem>Первоначальный случай</initialCaseToolStripMenuItem>
+<capitalizeInitialCharacterToolStripMenuItem>Выгоду из исходного символа</capitalizeInitialCharacterToolStripMenuItem>
+<fieldEditsToolStripMenuItem>Поле редактирования</fieldEditsToolStripMenuItem>
+<findRecordsMissingFieldToolStripMenuItem>Найти записи, отсутствует поле</findRecordsMissingFieldToolStripMenuItem>
+<swapTitleToolStripMenuItem>Поменять название</swapTitleToolStripMenuItem>
+<mnuEditJumpTo>Перейти к...</mnuEditJumpTo>
+<jumpToRecordToolStripMenuItem>Перейти к...Запись</jumpToRecordToolStripMenuItem>
+<jumpToPageToolStripMenuItem>Перейти к...Страница</jumpToPageToolStripMenuItem>
+<mnuEditControl>Вставьте один контрольный номер</mnuEditControl>
+<mnuEdit006>Вставить/редактировать 006</mnuEdit006>
+<mnuEdit006Edit>Редактировать</mnuEdit006Edit>
+<mnuEdit006Book>Книга</mnuEdit006Book>
+<mnuEdit006Serial>Продолжающиеся ресурс</mnuEdit006Serial>
+<mnuEdit006Map>Картографический ресурс</mnuEdit006Map>
+<mnuEdit006Sound>Запись звука</mnuEdit006Sound>
+<mnuEdit006Score>Оценка</mnuEdit006Score>
+<mnuEdit006ER>Электронный ресурс</mnuEdit006ER>
+<mnuEdit006Visual>Визуальные материалы</mnuEdit006Visual>
+<mnuEdit006Mixed>Смешанные материалы</mnuEdit006Mixed>
+<mnuEdit008>Вставить/редактировать 008</mnuEdit008>
+<mnuEdit008Edit>Редактировать</mnuEdit008Edit>
+<mnuEdit008Book>Книга</mnuEdit008Book>
+<mnuEdit008Serial>Продолжающиеся ресурс</mnuEdit008Serial>
+<mnuEdit008Map>Картографический ресурс</mnuEdit008Map>
+<mnuEdit008Sound>Запись звука</mnuEdit008Sound>
+<mnuEdit008Score>Оценка</mnuEdit008Score>
+<mnuEdit008ER>Электронный ресурс</mnuEdit008ER>
+<mnuEdit008Visual>Визуальные материалы</mnuEdit008Visual>
+<mnuEdit008Mixed>Смешанные материалы</mnuEdit008Mixed>
+<toolStripMenuItem27>Преобразование содержимого буфера обмена</toolStripMenuItem27>
+<mnuEditConverttoUTF8>Марк-8 UTF-8</mnuEditConverttoUTF8>
+<mnuEditConvertoMarc8>UTF-8 Марк-8</mnuEditConvertoMarc8>
+<mnuEditALA>Марк-8 Ала characterset</mnuEditALA>
+<mnuEditUTF8CharacterMap>UTF-8 символов</mnuEditUTF8CharacterMap>
+<mnuEditSelectAll>Выбрать все</mnuEditSelectAll>
+<mnuEditWrap>Перенос слов</mnuEditWrap>
+<mnuEditRTL>Отображение право налево</mnuEditRTL>
+<mnuEditInfo>Марк информация</mnuEditInfo>
+<mnuEditInfoOCLC>OCLC Марк помощь</mnuEditInfoOCLC>
+<mnuEditInfoLC>США Библиотека Конгресса Марк помощь</mnuEditInfoLC>
+<mnuFont>Шрифты</mnuFont>
+<mnuFontFont>Шрифт...</mnuFontFont>
+<mnuFontColor>Цвет...</mnuFontColor>
+<mnuReports>Доклады</mnuReports>
+<mnuReportsField>Поле Count</mnuReportsField>
+<tlReportsMaterialReport>Тип материала доклада</tlReportsMaterialReport>
+<generateReportToolStripMenuItem>Создать отчет</generateReportToolStripMenuItem>
+<findBookToolStripMenuItem>Поиск записей по типу</findBookToolStripMenuItem>
+<booksToolStripMenuItem>Книги</booksToolStripMenuItem>
+<toolStripMenuItem32>Компьютерные файлы</toolStripMenuItem32>
+<continuingResourcesToolStripMenuItem>Продолжающиеся ресурсы</continuingResourcesToolStripMenuItem>
+<mapsToolStripMenuItem>Карты</mapsToolStripMenuItem>
+<mixedMaterialsToolStripMenuItem>Смешанные материалы</mixedMaterialsToolStripMenuItem>
+<scoresToolStripMenuItem>Баллы</scoresToolStripMenuItem>
+<soundRecordingsToolStripMenuItem>Звукозаписи заседаний</soundRecordingsToolStripMenuItem>
+<visualMaterialsToolStripMenuItem>Визуальные материалы</visualMaterialsToolStripMenuItem>
+<mARCValidatorToolStripMenuItem>MARCValidator</mARCValidatorToolStripMenuItem>
+<mnuTools>Инструменты</mnuTools>
+<mnuToolsCalculator>Каталог калькулятор</mnuToolsCalculator>
+<mnuToolsCallNum>Создание вызова чисел</mnuToolsCallNum>
+<mnuToolsControlNumber>Создание управления чисел</mnuToolsControlNumber>
+<mnuToolsRDAHelpers>Помощник RDA</mnuToolsRDAHelpers>
+<mnuToolsEditConstant>Измените постоянных данных</mnuToolsEditConstant>
+<mnuToolsAssigned>Постоянных данных</mnuToolsAssigned>
+<mnuConstant1>1) определено строка</mnuConstant1>
+<mnuConstant2>2) определено строка</mnuConstant2>
+<mnuConstant3>3) неопределенной строки</mnuConstant3>
+<mnuConstant4>4) определено строка</mnuConstant4>
+<mnuConstant5>5) строка определено</mnuConstant5>
+<mnuConstant6>6) определено строка</mnuConstant6>
+<mnuConstant7>7) определено строка</mnuConstant7>
+<mnuConstant8>8) определено строка</mnuConstant8>
+<mnuConstant9>9) строка определено</mnuConstant9>
+<mnuConstant10>10) строка определено</mnuConstant10>
+<mnutoolmanageAutomate>Управление задачами</mnutoolmanageAutomate>
+<mnutoolassignTasks>Поставленные задачи</mnutoolassignTasks>
+<mnuDefTask>В настоящее время доступные задачи</mnuDefTask>
+<task1>1) неопределенной задачи</task1>
+<task2>2) неопределенной задачи</task2>
+<task3>3) неопределенной задачи</task3>
+<task4>4) неопределенной задачи</task4>
+<task5>5) неопределенной задачи</task5>
+<task6>6) неопределенной задачи</task6>
+<task7>7) неопределенной задачи</task7>
+<task8>8) определено задание</task8>
+<task9>9) неопределенной задачи</task9>
+<task10>10) неопределенной задачи</task10>
+<mnuToolsZ3950>Параметры Z39.50/SRU</mnuToolsZ3950>
+<marcEditZ3950SRUClientToolStripMenuItem>Клиент MarcEdit Z39.50/SRU</marcEditZ3950SRUClientToolStripMenuItem>
+<importRecordToolStripMenuItem>Запись импорта Z39.50</importRecordToolStripMenuItem>
+<uploadEditedRecordToolStripMenuItem>Z39.50 загрузить запись</uploadEditedRecordToolStripMenuItem>
+<toolz3950delete>Z39.50 удалить запись</toolz3950delete>
+<z3950UpdateHoldingsToolStripMenuItem>Z39.50 обновления запасов</z3950UpdateHoldingsToolStripMenuItem>
+<mnuToolsValidate>Проверка записей Марк</mnuToolsValidate>
+<mnuToolsDedup>Запись дедупликации</mnuToolsDedup>
+<mnuToolsOAI>Урожай от OAI</mnuToolsOAI>
+<mnutoolsurl>Генерировать Марк из URL-адреса</mnutoolsurl>
+<toolStripMenuItem3>Нормализовать...</toolStripMenuItem3>
+<normalizeLCRecordToolStripMenuItem>Нормализовать LC записей</normalizeLCRecordToolStripMenuItem>
+<normalizeMicrolifRecordsToolStripMenuItem>Нормализовать Microlif записей</normalizeMicrolifRecordsToolStripMenuItem>
+<mnuToolsRemoveEmpty>Удалить пустые поля/подотраслей</mnuToolsRemoveEmpty>
+<mnuToolsAdd>Добавление и удаление полей</mnuToolsAdd>
+<toolStripMenuItem26>Копирование поля</toolStripMenuItem26>
+<mnuToolsEditField>Редактирование поля данных</mnuToolsEditField>
+<mnuToolsIndicator>Редактирование данных индикатора</mnuToolsIndicator>
+<mnuToolsSubfield>Редактирование дополнительных полей данных</mnuToolsSubfield>
+<mnuToolsSortby>Сортировать по...</mnuToolsSortby>
+<mnuToolsCustomSort>Пользовательская сортировка</mnuToolsCustomSort>
+<mnuToolsSortControl>Сортировать по контрольный номер</mnuToolsSortControl>
+<mnuToolsSortbyTitle>Сортировка по названию</mnuToolsSortbyTitle>
+<mnuToolsSortAuthor>Сортировка по автору</mnuToolsSortAuthor>
+<mnuToolsSortByCall>Сортировка по номеру вызова</mnuToolsSortByCall>
+<mnuToolsSort2>Поля сортировки 0xx</mnuToolsSort2>
+<mnuToolsSort>Сортировать все поля</mnuToolsSort>
+<mnuToolsSwap>Поменять данные поля</mnuToolsSwap>
+<mnuToolsOptions>Предпочтения</mnuToolsOptions>
+<mnu_ILS>[ILS имя]</mnu_ILS>
+<mnu_ils_search>Поиск</mnu_ils_search>
+<updateCreateToolStripMenuItem>Обновление/создать</updateCreateToolStripMenuItem>
+<mnuOCLC>OCLC WorldCat</mnuOCLC>
+<toolStripMenuItem31>Поиск WorldCat</toolStripMenuItem31>
+<mnuOCLCLocalBibData>Добавить/удалить/обновить локальные библиографические данные</mnuOCLCLocalBibData>
+<createUpdateToolStripMenuItem>Создание/обновление библиографических данных</createUpdateToolStripMenuItem>
+<deleteHoldingsToolStripMenuItem>Обновление Holdings</deleteHoldingsToolStripMenuItem>
+<pluginsToolStripMenuItem>Подключаемые модули</pluginsToolStripMenuItem>
+<mnuHelp>Справка</mnuHelp>
+<mnuHelpContents>Содержание и помощь</mnuHelpContents>
+<label1>Записей на странице</label1>
+<lblPage>страниц</lblPage>
+<btnPre>&lt;</btnPre>
+<btnNext>&gt;</btnNext>
+<btnLast>&gt;&gt;</btnLast>
+<btnFirst>&lt;&lt;</btnFirst>
+<this>MarcEditor</this>
+</MarcEdit_meEditor>
 <MarcEdit_oclc_agree>
-<lb_text>Данные проверки услуги предоставляются через OCLC в Termology Services.In того чтобы использовать эти службы, вы должны согласиться следовать и соблюдать условия иусловия установленных OCLC относительно использования и верности этих услуг.</lb_text><label1>OCLC соглашения ссылка:</label1><lnk_Terms>Просмотреть условия использования</lnk_Terms><cmd_Agree>Принимаю</cmd_Agree><cmd_disagree>Я не согласен</cmd_disagree><this>OCLC соглашение</this></MarcEdit_oclc_agree>
+<lb_text>Службы данных проверка предоставляются через OCLC в Termology услуг. Для того чтобы использовать эти службы, вы должны согласиться следовать и соблюдать условия и условия, изложенные в OCLC относительно использования и верности этих услуг.</lb_text>
+<label1>OCLC соглашения ссылка:</label1>
+<lnk_Terms>Просмотреть условия использования</lnk_Terms>
+<cmd_Agree>Принимаю</cmd_Agree>
+<cmd_disagree>Я не согласен</cmd_disagree>
+<this>OCLC соглашение</this>
+</MarcEdit_oclc_agree>
 <MarcEdit_xml_console>
-<lb_Defined_Functions>Определенные функции:</lb_Defined_Functions><cmd_Add>Добавить</cmd_Add><cmdDelete>Удалить</cmdDelete><cmdModify>Изменить</cmdModify><cmdClose>Закрыть</cmdClose><cmdSearch>Поиск</cmdSearch><joinItemsToolStripMenuItem>Присоединяйтесь к с</joinItemsToolStripMenuItem><this>Редактировать XML функций</this></MarcEdit_xml_console>
+<lb_Defined_Functions>Определенные функции:</lb_Defined_Functions>
+<cmd_Add>Добавить</cmd_Add>
+<cmdDelete>Удалить</cmdDelete>
+<cmdModify>Изменить</cmdModify>
+<cmdClose>Закрыть</cmdClose>
+<cmdSearch>Поиск</cmdSearch>
+<joinItemsToolStripMenuItem>Присоединяйтесь к с</joinItemsToolStripMenuItem>
+<this>Редактировать XML функций</this>
+</MarcEdit_xml_console>
 <MarcEdit_xml_functions>
-<lb_GenInfo>Общая информация:</lb_GenInfo><lb_Alias>Имя функции (псевдоним):</lb_Alias><lb_XSLTPath>Путь к таблице стилей XSLT:</lb_XSLTPath><lb_FormatInfo>Информация формат:</lb_FormatInfo><lb_Final>Окончательный формат:</lb_Final><lb_Origin>Исходный формат:</lb_Origin><ck_orig_MARC>МАРК</ck_orig_MARC><ck_orig_MARCXML>MARCXML</ck_orig_MARCXML><ck_orig_Other>Другие</ck_orig_Other><ck_fin_Other>Другие</ck_fin_Other><ck_fin_MARCXML>MARCXML</ck_fin_MARCXML><ck_fin_MARC>МАРК</ck_fin_MARC><cmdOK>Хорошо</cmdOK><cmdClose>Закрыть</cmdClose><ck_Marc8>Преобразовать в Марк-8</ck_Marc8><ck_remote>Разрешения удаленных сущностей</ck_remote><gp_XSLT>Двигатель XSLT</gp_XSLT><opt_default>По умолчанию</opt_default><opt_saxon>САКСОНСКИЙ</opt_saxon><opt_msxml>MSXML</opt_msxml><this>Редактировать XML функций</this></MarcEdit_xml_functions>
+<lb_GenInfo>Общая информация:</lb_GenInfo>
+<lb_Alias>Имя функции (псевдоним):</lb_Alias>
+<lb_XSLTPath>Путь к таблице стилей XSLT:</lb_XSLTPath>
+<lb_FormatInfo>Информация формат:</lb_FormatInfo>
+<lb_Final>Окончательный формат:</lb_Final>
+<lb_Origin>Исходный формат:</lb_Origin>
+<ck_orig_MARC>МАРК</ck_orig_MARC>
+<ck_orig_MARCXML>MARCXML</ck_orig_MARCXML>
+<ck_orig_Other>Другие</ck_orig_Other>
+<ck_fin_Other>Другие</ck_fin_Other>
+<ck_fin_MARCXML>MARCXML</ck_fin_MARCXML>
+<ck_fin_MARC>МАРК</ck_fin_MARC>
+<cmdOK>Хорошо</cmdOK>
+<cmdClose>Закрыть</cmdClose>
+<ck_Marc8>Преобразовать в Марк-8</ck_Marc8>
+<ck_remote>Разрешения удаленных сущностей</ck_remote>
+<gp_XSLT>Двигатель XSLT</gp_XSLT>
+<opt_default>По умолчанию</opt_default>
+<opt_saxon>САКСОНСКИЙ</opt_saxon>
+<opt_msxml>MSXML</opt_msxml>
+<this>Редактировать XML функций</this>
+</MarcEdit_xml_functions>
 <marc_sql_explorer_frmMain>
-<tabPage1>Загрузка данных</tabPage1><ckexpanded>Использовать схему расширенной таблицы</ckexpanded><ckloadDB>Использовать MySQL</ckloadDB><ckMysql>Использовать MySQL</ckMysql><lnkmysqlOptions>Параметры MySQL</lnkmysqlOptions><cmdCancelP>Отмена</cmdCancelP><cmdProcessMARC>Процесс</cmdProcessMARC><cmdLoadDB>Нагрузка</cmdLoadDB><label5>Файл базы данных:</label5><label6>Загрузка существующего файла базы данных</label6><label3>Файл базы данных:</label3><label2>Марк файл:</label2><label1>Предварительная обработка данных Марк</label1><tabPage2>Структура базы данных</tabPage2><cname>Имя</cname><cObject>Объект</cObject><cSchema>Схема</cSchema><tabPage3>Выполнить SQL</tabPage3><label8>Возвращаемые данные</label8><label7>Результаты запроса</label7><cmdExportD>Экспорт данных</cmdExportD><cmdExcecuteQ>Выполнить запрос</cmdExcecuteQ><label4>SQL-строка</label4><cmdClose>Закрыть</cmdClose><this>MARC SQL Explorer</this></marc_sql_explorer_frmMain>
+<tabPage1>Загрузка данных</tabPage1>
+<ckexpanded>Использовать схему расширенной таблицы</ckexpanded>
+<ckloadDB>Использовать MySQL</ckloadDB>
+<ckMysql>Использовать MySQL</ckMysql>
+<lnkmysqlOptions>Параметры MySQL</lnkmysqlOptions>
+<cmdCancelP>Отмена</cmdCancelP>
+<cmdProcessMARC>Процесс</cmdProcessMARC>
+<cmdLoadDB>Нагрузка</cmdLoadDB>
+<label5>Файл базы данных:</label5>
+<label6>Загрузка существующего файла базы данных</label6>
+<label3>Файл базы данных:</label3>
+<label2>Марк файл:</label2>
+<label1>Предварительная обработка данных Марк</label1>
+<tabPage2>Структура базы данных</tabPage2>
+<cname>Имя</cname>
+<cObject>Объект</cObject>
+<cSchema>Схема</cSchema>
+<tabPage3>Выполнить SQL</tabPage3>
+<label8>Возвращаемые данные</label8>
+<label7>Результаты запроса</label7>
+<cmdExportD>Экспорт данных</cmdExportD>
+<cmdExcecuteQ>Выполнить запрос</cmdExcecuteQ>
+<label4>SQL-строка</label4>
+<cmdClose>Закрыть</cmdClose>
+<this>MARC SQL Explorer</this>
+</marc_sql_explorer_frmMain>
 <marc_sql_explorer_frmOptions>
-<label1>Сервер базы данных:</label1><label2>Имя пользователя:</label2><label3>Пароль:</label3><cmdSave>Сохранить</cmdSave><cmdClose>Закрыть</cmdClose><this>Параметры MySQL:</this></marc_sql_explorer_frmOptions>
+<label1>Сервер базы данных:</label1>
+<label2>Имя пользователя:</label2>
+<label3>Пароль:</label3>
+<cmdSave>Сохранить</cmdSave>
+<cmdClose>Закрыть</cmdClose>
+<this>Параметры MySQL:</this>
+</marc_sql_explorer_frmOptions>
 <me_tabbed_frmldr>
-<label1>LDR</label1><cmd_OK>Хорошо</cmd_OK><cmd_Close>Закрыть</cmd_Close><checkBox1>UNIMARC</checkBox1><this>Редактировать LDR/008</this></me_tabbed_frmldr>
+<label1>LDR</label1>
+<cmd_OK>Хорошо</cmd_OK>
+<cmd_Close>Закрыть</cmd_Close>
+<checkBox1>UNIMARC</checkBox1>
+<this>Редактировать LDR/008</this>
+</me_tabbed_frmldr>
 <me_tabbed_frmMain>
-<groupBox4>Параметры</groupBox4><ck_unicode>В кодировке UTF-8</ck_unicode><linkLabel1>Редактировать LDR/008</linkLabel1><groupBox3>Разделитель значений</groupBox3><P2_lb_Other>Персонаж:</P2_lb_Other><P2_lb_Delimiter>Разделитель:</P2_lb_Delimiter><P2_txt_qualifier>Квалификатор</P2_txt_qualifier><lbSheet>Excel имя листа:</lbSheet><P2_cmd_Cancel>Отмена</P2_cmd_Cancel><P2_cmd_Next>Следующая</P2_cmd_Next><P2_lb_output>Выходной файл:</P2_lb_output><P2_Import>Исходный файл:</P2_Import><groupBox2>Аргументы</groupBox2><lnkAuto>Автоматическое создание</lnkAuto><ck_filing_characters>Расчет общих nonfiling данных</ck_filing_characters><ck_sort>Поля сортировки</ck_sort><P3_ck_save_args>Сохранить шаблон</P3_ck_save_args><button2>Загрузить шаблон</button2><toolStripMenuItem2>Изменить элемент</toolStripMenuItem2><deleteItemsToolStripMenuItem>Удаление элементов</deleteItemsToolStripMenuItem><joinItemsToolStripMenuItem>Присоединяйтесь к пунктам</joinItemsToolStripMenuItem><label1>Моментальный снимок данных</label1><groupBox1>Параметры</groupBox1><ck_Repeatable>Повторяемые подполе</ck_Repeatable><P3_ck_constant>Постоянные данные</P3_ck_constant><P3_cmd_Apply>Добавить аргумент</P3_cmd_Apply><P3_lb_punct>Срок. Знаки препинания:</P3_lb_punct><P3_txt_indicators>\\\\</P3_txt_indicators><P3_lb_indicators>Индикаторы:</P3_lb_indicators><P3_mapto>Карта для:</P3_mapto><P3_lb_select>Выберите:</P3_lb_select><P3_cmd_Cancel>Отмена</P3_cmd_Cancel><P3_cmd_finish>Отделка</P3_cmd_finish><this>Переводчик текста с разделителями MarcEdit</this></me_tabbed_frmMain>
+<groupBox4>Параметры</groupBox4>
+<ck_unicode>В кодировке UTF-8</ck_unicode>
+<linkLabel1>Редактировать LDR/008</linkLabel1>
+<groupBox3>Разделитель значений</groupBox3>
+<P2_lb_Other>Персонаж:</P2_lb_Other>
+<P2_lb_Delimiter>Разделитель:</P2_lb_Delimiter>
+<P2_txt_qualifier>Квалификатор</P2_txt_qualifier>
+<lbSheet>Excel имя листа:</lbSheet>
+<P2_cmd_Cancel>Отмена</P2_cmd_Cancel>
+<P2_cmd_Next>Следующая</P2_cmd_Next>
+<P2_lb_output>Выходной файл:</P2_lb_output>
+<P2_Import>Исходный файл:</P2_Import>
+<groupBox2>Аргументы</groupBox2>
+<lnkAuto>Автоматическое создание</lnkAuto>
+<ck_filing_characters>Расчет общих nonfiling данных</ck_filing_characters>
+<ck_sort>Поля сортировки</ck_sort>
+<P3_ck_save_args>Сохранить шаблон</P3_ck_save_args>
+<button2>Загрузить шаблон</button2>
+<toolStripMenuItem2>Изменить элемент</toolStripMenuItem2>
+<deleteItemsToolStripMenuItem>Удаление элементов</deleteItemsToolStripMenuItem>
+<joinItemsToolStripMenuItem>Присоединяйтесь к пунктам</joinItemsToolStripMenuItem>
+<label1>Моментальный снимок данных</label1>
+<groupBox1>Параметры</groupBox1>
+<ck_Repeatable>Повторяемые подполе</ck_Repeatable>
+<P3_ck_constant>Постоянные данные</P3_ck_constant>
+<P3_cmd_Apply>Добавить аргумент</P3_cmd_Apply>
+<P3_lb_punct>Срок. Знаки препинания:</P3_lb_punct>
+<P3_txt_indicators>\\\\</P3_txt_indicators>
+<P3_lb_indicators>Индикаторы:</P3_lb_indicators>
+<P3_mapto>Карта для:</P3_mapto>
+<P3_lb_select>Выберите:</P3_lb_select>
+<P3_cmd_Cancel>Отмена</P3_cmd_Cancel>
+<P3_cmd_finish>Отделка</P3_cmd_finish>
+<this>Переводчик текста с разделителями MarcEdit</this>
+</me_tabbed_frmMain>
 <me_tabbed_frmStatus>
-<lbCaption>Label1</lbCaption></me_tabbed_frmStatus>
+<lbCaption>Label1</lbCaption>
+</me_tabbed_frmStatus>
 <mebatch_frmMain>
-<lnkAbout>О клиенте</lnkAbout><lnkOptions>Параметры SET</lnkOptions><lnkModify>Изменение базы данных</lnkModify><lnkBatch>Пакетный режим</lnkBatch><lnkSingle>Режим поиска</lnkSingle><lb_b_char>Кодировка сервера</lb_b_char><cmb_b_encoding>MARC8</cmb_b_encoding><ck_b_unicode>Получить Юникода</ck_b_unicode><Modify>Изменить</Modify><Database>Выберите пункт Локальная база данных</Database><rd_custom>Пользовательские</rd_custom><rd_title>Поиск Название/Автор</rd_title><rd_issn>Поиск ISBN/ISSN</rd_issn><label1>Типы поиска</label1><lbBDest>Конечный файл:</lbBDest><lbBSource>Исходный файл:</lbBSource><lbBTitle>Утилита пакетного поиска</lbBTitle><lbStartrec>startRecord</lbStartrec><lnkGetNext>Получить следующий {предел}</lnkGetNext><lbMaxRecs>maximumRecords</lbMaxRecs><lnkClearResults>Очистить результаты</lnkClearResults><groupBox3>Результаты</groupBox3><col1>ID</col1><col2>Название</col2><col3>База данных</col3><mnuGroupDisplay>Отображение выбранных записей</mnuGroupDisplay><mnuGroupDownload>Скачать выбранные записи</mnuGroupDownload><mnuDownloadAll>Скачать все записи</mnuDownloadAll><groupBox1>Параметры</groupBox1><lb_encoding_single>Кодировка сервера</lb_encoding_single><cmd_encoding>MARC8</cmd_encoding><ckUnicode>Получить Юникода</ckUnicode><rdEditDB>Выбор базы данных</rdEditDB><rdEditSettings>Изменить параметры</rdEditSettings><lbSearchb>Поиск:</lbSearchb><lbSearch>Запрос базы данных:</lbSearch><ck_automatic>Автоматическое определение параметров</ck_automatic><lbProxy>Прокси:</lbProxy><lbExample>Образец результатов:</lbExample><button2>Закрыть</button2><button1>Хорошо</button1><lbSaveFile>Сохраните файл:</lbSaveFile><lbLimit>Ограничение:</lbLimit><lbTitleOption>Название:</lbTitleOption><lbSetupTitle>Параметры отображения</lbSetupTitle><lnkSelectList>Выберите ресурс</lnkSelectList><lnkMClose>Закрыть</lnkMClose><lnkMDelete>Удаление базы данных</lnkMDelete><lnkMModify>Изменения базы данных</lnkMModify><lbmOptions>Параметры:</lbmOptions><lnkMAdd>Добавление базы данных</lnkMAdd><MCol3>ID</MCol3><MCol1>Имя</MCol1><MCol2>Тип</MCol2><lb_PModifyTitle>Выберите базу данных:</lb_PModifyTitle><aboutbox>richTextBox1</aboutbox><importFromMasterListToolStripMenuItem>Импорт из главного списка</importFromMasterListToolStripMenuItem><addNewZ3950ServerToolStripMenuItem>Добавить новый сервер Z39.50</addNewZ3950ServerToolStripMenuItem><addSRUServerToolStripMenuItem>Добавление сервера SRU</addSRUServerToolStripMenuItem><this>MarcEdit клиентом Z39.50</this></mebatch_frmMain>
+<lnkAbout>О клиенте</lnkAbout>
+<lnkOptions>Параметры SET</lnkOptions>
+<lnkModify>Изменение базы данных</lnkModify>
+<lnkBatch>Пакетный режим</lnkBatch>
+<lnkSingle>Режим поиска</lnkSingle>
+<lb_b_char>Кодировка сервера</lb_b_char>
+<cmb_b_encoding>MARC8</cmb_b_encoding>
+<ck_b_unicode>Получить Юникода</ck_b_unicode>
+<Modify>Изменить</Modify>
+<Database>Выберите пункт Локальная база данных</Database>
+<rd_custom>Пользовательские</rd_custom>
+<rd_title>Поиск Название/Автор</rd_title>
+<rd_issn>Поиск ISBN/ISSN</rd_issn>
+<label1>Типы поиска</label1>
+<lbBDest>Конечный файл:</lbBDest>
+<lbBSource>Исходный файл:</lbBSource>
+<lbBTitle>Утилита пакетного поиска</lbBTitle>
+<lbStartrec>startRecord</lbStartrec>
+<lnkGetNext>Получить следующий {предел}</lnkGetNext>
+<lbMaxRecs>maximumRecords</lbMaxRecs>
+<lnkClearResults>Очистить результаты</lnkClearResults>
+<groupBox3>Результаты</groupBox3>
+<col1>ID</col1>
+<col2>Название</col2>
+<col3>База данных</col3>
+<mnuGroupDisplay>Отображение выбранных записей</mnuGroupDisplay>
+<mnuGroupDownload>Скачать выбранные записи</mnuGroupDownload>
+<mnuDownloadAll>Скачать все записи</mnuDownloadAll>
+<groupBox1>Параметры</groupBox1>
+<lb_encoding_single>Кодировка сервера</lb_encoding_single>
+<cmd_encoding>MARC8</cmd_encoding>
+<ckUnicode>Получить Юникода</ckUnicode>
+<rdEditDB>Выбор базы данных</rdEditDB>
+<rdEditSettings>Изменить параметры</rdEditSettings>
+<lbSearchb>Поиск:</lbSearchb>
+<lbSearch>Запрос базы данных:</lbSearch>
+<ck_automatic>Автоматическое определение параметров</ck_automatic>
+<lbProxy>Прокси:</lbProxy>
+<lbExample>Образец результатов:</lbExample>
+<button2>Закрыть</button2>
+<button1>Хорошо</button1>
+<lbSaveFile>Сохраните файл:</lbSaveFile>
+<lbLimit>Ограничение:</lbLimit>
+<lbTitleOption>Название:</lbTitleOption>
+<lbSetupTitle>Параметры отображения</lbSetupTitle>
+<lnkSelectList>Выберите ресурс</lnkSelectList>
+<lnkMClose>Закрыть</lnkMClose>
+<lnkMDelete>Удаление базы данных</lnkMDelete>
+<lnkMModify>Изменения базы данных</lnkMModify>
+<lbmOptions>Параметры:</lbmOptions>
+<lnkMAdd>Добавление базы данных</lnkMAdd>
+<MCol3>ID</MCol3>
+<MCol1>Имя</MCol1>
+<MCol2>Тип</MCol2>
+<lb_PModifyTitle>Выберите базу данных:</lb_PModifyTitle>
+<aboutbox>richTextBox1</aboutbox>
+<importFromMasterListToolStripMenuItem>Импорт из главного списка</importFromMasterListToolStripMenuItem>
+<addNewZ3950ServerToolStripMenuItem>Добавить новый сервер Z39.50</addNewZ3950ServerToolStripMenuItem>
+<addSRUServerToolStripMenuItem>Добавление сервера SRU</addSRUServerToolStripMenuItem>
+<this>MarcEdit клиентом Z39.50</this>
+</mebatch_frmMain>
 <mebatch_frmOverwrite>
-<cmdAppend>Добавить</cmdAppend><cmdOverwrite>Перезапись</cmdOverwrite><cmdClose>Закрыть</cmdClose><label1>Существует файл экспорта.  Вы хотите перезаписать или добавить текущий файл.</label1><this>Файл существует</this></mebatch_frmOverwrite>
+<cmdAppend>Добавить</cmdAppend>
+<cmdOverwrite>Перезапись</cmdOverwrite>
+<cmdClose>Закрыть</cmdClose>
+<label1>Существует файл экспорта.  Вы хотите перезаписать или добавить текущий файл.</label1>
+<this>Файл существует</this>
+</mebatch_frmOverwrite>
 <mebatch_frmProperties>
-<tabDBProps>Свойства базы данных</tabDBProps><ck_Paused>Переопределение паузы (6 сек.)</ck_Paused><label1>База данных:</label1><ck_Show>Показать базы данных</ck_Show><lbPassword>Пароль:</lbPassword><lbUsername>Имя пользователя:</lbUsername><lbSyntax>Синтаксис:</lbSyntax><lbPort>Порт:</lbPort><lbHost>Ведущий:</lbHost><lbname>Имя:</lbname><tabDBAdvanced>Дополнительные свойства</tabDBAdvanced><label4>Время ожидания (в секундах):</label4><label2>Набор элементов:</label2><label3>Другие варианты:</label3><lnkftp>http://www.loc.gov/z3950/Agency/defns/bib1.HTML</lnkftp><lbInfo>Дополнительная информация:</lbInfo><lbISBN>ISBN/ISSN:</lbISBN><lbSubject>Тема:</lbSubject><lbTitle>Название:</lbTitle><lbAuthor>Автор:</lbAuthor><lbadvTitle>Z39.50 атрибут 4: структура</lbadvTitle><cmdSave>Сохранить</cmdSave><cmdClose>Закрыть</cmdClose><this>Свойства базы данных</this></mebatch_frmProperties>
+<tabDBProps>Свойства базы данных</tabDBProps>
+<ck_Paused>Переопределение паузы (6 сек.)</ck_Paused>
+<label1>База данных:</label1>
+<ck_Show>Показать базы данных</ck_Show>
+<lbPassword>Пароль:</lbPassword>
+<lbUsername>Имя пользователя:</lbUsername>
+<lbSyntax>Синтаксис:</lbSyntax>
+<lbPort>Порт:</lbPort>
+<lbHost>Ведущий:</lbHost>
+<lbname>Имя:</lbname>
+<tabDBAdvanced>Дополнительные свойства</tabDBAdvanced>
+<label4>Время ожидания (в секундах):</label4>
+<label2>Набор элементов:</label2>
+<label3>Другие варианты:</label3>
+<lnkftp>http://www.loc.gov/z3950/Agency/defns/bib1.HTML</lnkftp>
+<lbInfo>Дополнительная информация:</lbInfo>
+<lbISBN>ISBN/ISSN:</lbISBN>
+<lbSubject>Тема:</lbSubject>
+<lbTitle>Название:</lbTitle>
+<lbAuthor>Автор:</lbAuthor>
+<lbadvTitle>Z39.50 атрибут 4: структура</lbadvTitle>
+<cmdSave>Сохранить</cmdSave>
+<cmdClose>Закрыть</cmdClose>
+<this>Свойства базы данных</this>
+</mebatch_frmProperties>
 <mebatch_frmRecord>
-<lnkDownload>Скачать запись</lnkDownload><lnkClose>Закрыть</lnkClose><lbSave>Сохраните файл:</lbSave><ck_Append>Добавить</ck_Append><this>Просмотреть записи Марк</this></mebatch_frmRecord>
+<lnkDownload>Скачать запись</lnkDownload>
+<lnkClose>Закрыть</lnkClose>
+<lbSave>Сохраните файл:</lbSave>
+<ck_Append>Добавить</ck_Append>
+<this>Просмотреть записи Марк</this>
+</mebatch_frmRecord>
 <mebatch_frmresults>
-<cmd_close>Закрыть</cmd_close></mebatch_frmresults>
+<cmd_close>Закрыть</cmd_close>
+</mebatch_frmresults>
 <mebatch_frmStatus>
-<lbCaption>Label1</lbCaption><this>Статус</this></mebatch_frmStatus>
+<lbCaption>Label1</lbCaption>
+<this>Статус</this>
+</mebatch_frmStatus>
 <mebatch_SRUProps>
-<lbSRUTitle>Свойства базы данных:</lbSRUTitle><label1>URL-АДРЕС:</label1><lbMetadata>Схема метаданных:</lbMetadata><lbName>Имя:</lbName><cmdSave>Сохранить</cmdSave><cmdClose>Закрыть</cmdClose><lbVersion>Версия:</lbVersion><label2>Профиль поиска:</label2><label3>Дополнительные параметры</label3><this>Свойства SRU</this></mebatch_SRUProps>
+<lbSRUTitle>Свойства базы данных:</lbSRUTitle>
+<label1>URL-АДРЕС:</label1>
+<lbMetadata>Схема метаданных:</lbMetadata>
+<lbName>Имя:</lbName>
+<cmdSave>Сохранить</cmdSave>
+<cmdClose>Закрыть</cmdClose>
+<lbVersion>Версия:</lbVersion>
+<label2>Профиль поиска:</label2>
+<label3>Дополнительные параметры</label3>
+<this>Свойства SRU</this>
+</mebatch_SRUProps>
 </marcedit>

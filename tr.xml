@@ -1,139 +1,1837 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <marcedit language="">
 <MarcEdit_Field_Count>
-<mnuExtract>Kayıtları ayıklamak</mnuExtract><cmenuClipboard>Panoya kopyala</cmenuClipboard><cmenuSubfields>Kont alt alanları</cmenuSubfields><menuItem3>-</menuItem3><cmenuHelp>Yardım</cmenuHelp><cmd_OK>Kapat</cmd_OK><cmd_Report>Raporu Oluştur</cmd_Report><lb_ReportStyle>Rapor stili:</lb_ReportStyle><opt_tab>Sınırlandırılmış raporu sekmesi</opt_tab><opt_xml>XML raporu</opt_xml><opt_html>HTML raporu</opt_html><this>Alan sayısı</this></MarcEdit_Field_Count>
+<mnuExtract>Kayıtları ayıklamak</mnuExtract>
+<cmenuClipboard>Panoya kopyala</cmenuClipboard>
+<cmenuSubfields>Kont alt alanları</cmenuSubfields>
+<menuItem3>-</menuItem3>
+<cmenuHelp>Yardım</cmenuHelp>
+<cmd_OK>Kapat</cmd_OK>
+<cmd_Report>Raporu Oluştur</cmd_Report>
+<lb_ReportStyle>Rapor stili:</lb_ReportStyle>
+<opt_tab>Sınırlandırılmış raporu sekmesi</opt_tab>
+<opt_xml>XML raporu</opt_xml>
+<opt_html>HTML raporu</opt_html>
+<this>Alan sayısı</this>
+</MarcEdit_Field_Count>
 <MarcEdit_FindReplace>
-<tbFind>Bul</tbFind><btn_findall>Tümünü Bul</btn_findall><groupBox1>Arama seçenekleri:</groupBox1><ck_f_whole_word>Yalnızca tam sözcükleri bul</ck_f_whole_word><ck_find_regex>Normal ifadeleri kullanma</ck_find_regex><ck_f_match_case>Büyük küçük harf duyarlı</ck_f_match_case><lbPreview>Yalnızca yüklenen veri aramaları önizleme modunda bulun.</lbPreview><cmdFClose>Kapat</cmdFClose><cmdFFind>Bul</cmdFFind><lb_FindWhat>Aranan:</lb_FindWhat><tbReplace>Değiştir</tbReplace><cmd_R_Close>Kapat</cmd_R_Close><cmd_R_All>Tümünü Değiştir</cmd_R_All><cmd_R_Replace>Değiştir</cmd_R_Replace><groupBox2>Arama seçenekleri:</groupBox2><ck_R_RegExp>Normal ifadeleri kullanma</ck_R_RegExp><ck_R_Case>Büyük küçük harf duyarlı</ck_R_Case><lb_ReplaceWith>İle değiştirin:</lb_ReplaceWith><lb_R_FindWhat>Aranan:</lb_R_FindWhat><groupBox3>Yön:</groupBox3><rd_up>Yukarı</rd_up><rd_down>Aşağı</rd_down><this>Bul ve Değiştir:</this></MarcEdit_FindReplace>
+<tbFind>Bul</tbFind>
+<groupBox3>Yön:</groupBox3>
+<rd_down>Aşağı</rd_down>
+<rd_up>Yukarı</rd_up>
+<btn_findall>Tümünü Bul</btn_findall>
+<groupBox1>Arama seçenekleri:</groupBox1>
+<ck_f_whole_word>Yalnızca tam sözcükleri bul</ck_f_whole_word>
+<ck_find_regex>Normal ifadeleri kullanma</ck_find_regex>
+<ck_f_match_case>Büyük küçük harf duyarlı</ck_f_match_case>
+<lbPreview>Yalnızca yüklenen veri aramaları önizleme modunda bulun.</lbPreview>
+<cmdFClose>Kapat</cmdFClose>
+<cmdFFind>Bul</cmdFFind>
+<lb_FindWhat>Aranan:</lb_FindWhat>
+<tbReplace>Değiştir</tbReplace>
+<cmd_R_Close>Kapat</cmd_R_Close>
+<cmd_R_All>Tümünü Değiştir</cmd_R_All>
+<cmd_R_Replace>Değiştir</cmd_R_Replace>
+<groupBox2>Arama seçenekleri:</groupBox2>
+<ck_R_RegExp>Normal ifadeleri kullanma</ck_R_RegExp>
+<ck_R_Case>Büyük küçük harf duyarlı</ck_R_Case>
+<lb_ReplaceWith>İle değiştirin:</lb_ReplaceWith>
+<lb_R_FindWhat>Aranan:</lb_R_FindWhat>
+<this>Bul ve Değiştir:</this>
+</MarcEdit_FindReplace>
 <MarcEdit_frm008>
-<label11>Türü: kitap</label11><lbbTitle>006/008 seçenekleri:</lbbTitle><lnkbBiog>Biog:</lnkbBiog><lnkbLitF>LitF:</lnkbLitF><lnkbIndx>Indx:</lnkbIndx><lnkbFest>Fest:</lnkbFest><lnkbConf>Conf:</lnkbConf><lnkbGPub>GPub:</lnkbGPub><lnkbCont>Devamı:</lnkbCont><lnkbForm>Formu:</lnkbForm><lnkbAudn>Audn:</lnkbAudn><lnkbIlls>Hastalıklar:</lnkbIlls><lnkbType>Türü:</lnkbType><label12>Türü: Elektronik kaynak</label12><label5>006/008 seçenekleri:</label5><lnkcFile>Dosya:</lnkcFile><lnkcGPub>GPub:</lnkcGPub><lnkcAudn>Audn:</lnkcAudn><lnkcType>Türü:</lnkcType><label2>,</label2><lnkbDates>Tarihler:</lnkbDates><lnkbDtSt>DtSt:</lnkbDtSt><lnkbCtry>CtrY:</lnkbCtry><lnkbLang>Lang:</lnkbLang><lnkbMRec>MRec:</lnkbMRec><label1>008 seçenekleri:</label1><label13>Türü: harita</label13><label3>006/008 seçenekleri:</label3><lnkmSpFm>SpFm:</lnkmSpFm><lnkmIndx>Indx:</lnkmIndx><lnkmForm>Formu:</lnkmForm><lnkmGPub>GPub:</lnkmGPub><lnkmCrTp>CrTp:</lnkmCrTp><lnkmProj>PROJ:</lnkmProj><lnkmRelf>Relf:</lnkmRelf><lnkmType>Türü:</lnkmType><label14>Tür: Karışık malzeme</label14><label4>006/008 seçenekleri:</label4><lnkmmForm>Formu:</lnkmmForm><lnkmmType>Türü:</lnkmmType><label15>Türü: skor</label15><label6>006/008 seçenekleri:</label6><lnkscLTxt>LTxt:</lnkscLTxt><lnkscAccM>AccM:</lnkscAccM><lnkscForm>Formu:</lnkscForm><lnkscAudn>Audn:</lnkscAudn><lnkscFMus>FMus:</lnkscFMus><lnkscComp>Comp:</lnkscComp><lnkscType>Türü:</lnkscType><label10>Türü: Kaynak devam</label10><lnkslEntW>EntW:</lnkslEntW><lnkslS_L>S/L:</lnkslS_L><label7>006/008 seçenekleri:</label7><lnkslAlph>Alph:</lnkslAlph><lnkslConf>Conf:</lnkslConf><lnkslGPub>GPub:</lnkslGPub><lnkslCont>Devamı:</lnkslCont><lnkslForm>Formu:</lnkslForm><lnkslOrig>ORJ:</lnkslOrig><lnkslSrTp>SrTp:</lnkslSrTp><lnkslISSN>ISSN:</lnkslISSN><lnkslRegl>Regl:</lnkslRegl><lnkslFreq>Frekans:</lnkslFreq><lnkslType>Türü:</lnkslType><label16>Türü: Ses kayıt</label16><label8>006/008 seçenekleri:</label8><lnksdLTxt>LTxt:</lnksdLTxt><lnksdAccM>AccM:</lnksdAccM><lnksdForm>Formu:</lnksdForm><lnksdAudn>Audn:</lnksdAudn><lnksdFMus>FMus:</lnksdFMus><lnksdComp>Comp:</lnksdComp><lnksdType>Türü:</lnksdType><label17>Türü: Görsel materyaller</label17><label9>006/008 seçenekleri:</label9><lnkvmTech>Teknik İnceleme:</lnkvmTech><lnkvmTMat>TMat:</lnkvmTMat><lnkvmForm>Formu:</lnkvmForm><lnkvmGPub>GPub:</lnkvmGPub><lnkvmAudn>Audn:</lnkvmAudn><lnkvmTime>Zaman:</lnkvmTime><lnkvmType>Türü:</lnkvmType><cmd_Ok>Tamam</cmd_Ok><cmd_Close>Kapat</cmd_Close><lnkSrce>Srce:</lnkSrce><linkLabel1>Formu:</linkLabel1><this>006/008</this></MarcEdit_frm008>
+<label11>Türü: kitap</label11>
+<lbbTitle>006/008 seçenekleri:</lbbTitle>
+<lnkbBiog>Biog:</lnkbBiog>
+<lnkbLitF>LitF:</lnkbLitF>
+<lnkbIndx>Indx:</lnkbIndx>
+<lnkbFest>Fest:</lnkbFest>
+<lnkbConf>Conf:</lnkbConf>
+<lnkbGPub>GPub:</lnkbGPub>
+<lnkbCont>Devamı:</lnkbCont>
+<lnkbForm>Formu:</lnkbForm>
+<lnkbAudn>Audn:</lnkbAudn>
+<lnkbIlls>Hastalıklar:</lnkbIlls>
+<lnkbType>Türü:</lnkbType>
+<label12>Türü: Elektronik kaynak</label12>
+<label5>006/008 seçenekleri:</label5>
+<lnkcFile>Dosya:</lnkcFile>
+<lnkcGPub>GPub:</lnkcGPub>
+<lnkcAudn>Audn:</lnkcAudn>
+<lnkcType>Türü:</lnkcType>
+<label2>,</label2>
+<lnkbDates>Tarihler:</lnkbDates>
+<lnkbDtSt>DtSt:</lnkbDtSt>
+<lnkbCtry>CtrY:</lnkbCtry>
+<lnkbLang>Lang:</lnkbLang>
+<lnkbMRec>MRec:</lnkbMRec>
+<label1>008 seçenekleri:</label1>
+<label13>Türü: harita</label13>
+<label3>006/008 seçenekleri:</label3>
+<lnkmSpFm>SpFm:</lnkmSpFm>
+<lnkmIndx>Indx:</lnkmIndx>
+<lnkmForm>Formu:</lnkmForm>
+<lnkmGPub>GPub:</lnkmGPub>
+<lnkmCrTp>CrTp:</lnkmCrTp>
+<lnkmProj>PROJ:</lnkmProj>
+<lnkmRelf>Relf:</lnkmRelf>
+<lnkmType>Türü:</lnkmType>
+<label14>Tür: Karışık malzeme</label14>
+<label4>006/008 seçenekleri:</label4>
+<lnkmmForm>Formu:</lnkmmForm>
+<lnkmmType>Türü:</lnkmmType>
+<label15>Türü: skor</label15>
+<label6>006/008 seçenekleri:</label6>
+<lnkscLTxt>LTxt:</lnkscLTxt>
+<lnkscAccM>AccM:</lnkscAccM>
+<lnkscForm>Formu:</lnkscForm>
+<lnkscAudn>Audn:</lnkscAudn>
+<lnkscFMus>FMus:</lnkscFMus>
+<lnkscComp>Comp:</lnkscComp>
+<lnkscType>Türü:</lnkscType>
+<label10>Türü: Kaynak devam</label10>
+<lnkslEntW>EntW:</lnkslEntW>
+<lnkslS_L>S/L:</lnkslS_L>
+<label7>006/008 seçenekleri:</label7>
+<lnkslAlph>Alph:</lnkslAlph>
+<lnkslConf>Conf:</lnkslConf>
+<lnkslGPub>GPub:</lnkslGPub>
+<lnkslCont>Devamı:</lnkslCont>
+<lnkslForm>Formu:</lnkslForm>
+<lnkslOrig>ORJ:</lnkslOrig>
+<lnkslSrTp>SrTp:</lnkslSrTp>
+<lnkslISSN>ISSN:</lnkslISSN>
+<lnkslRegl>Regl:</lnkslRegl>
+<lnkslFreq>Frekans:</lnkslFreq>
+<lnkslType>Türü:</lnkslType>
+<label16>Türü: Ses kayıt</label16>
+<label8>006/008 seçenekleri:</label8>
+<lnksdLTxt>LTxt:</lnksdLTxt>
+<lnksdAccM>AccM:</lnksdAccM>
+<lnksdForm>Formu:</lnksdForm>
+<lnksdAudn>Audn:</lnksdAudn>
+<lnksdFMus>FMus:</lnksdFMus>
+<lnksdComp>Comp:</lnksdComp>
+<lnksdType>Türü:</lnksdType>
+<label17>Türü: Görsel materyaller</label17>
+<label9>006/008 seçenekleri:</label9>
+<lnkvmTech>Teknik İnceleme:</lnkvmTech>
+<lnkvmTMat>TMat:</lnkvmTMat>
+<lnkvmForm>Formu:</lnkvmForm>
+<lnkvmGPub>GPub:</lnkvmGPub>
+<lnkvmAudn>Audn:</lnkvmAudn>
+<lnkvmTime>Zaman:</lnkvmTime>
+<lnkvmType>Türü:</lnkvmType>
+<cmd_Ok>Tamam</cmd_Ok>
+<cmd_Close>Kapat</cmd_Close>
+<lnkSrce>Srce:</lnkSrce>
+<linkLabel1>Formu:</linkLabel1>
+<this>006/008</this>
+</MarcEdit_frm008>
 <MarcEdit_frmBatchEdit>
-<lnk_Edit_Fields>Alanları Düzenle</lnk_Edit_Fields><lnkCopy>Alan veri kopyalama</lnkCopy><lnkSwapFields>Alanları Değiştir</lnkSwapFields><lnkIndicators>Göstergelerini düzenleme</lnkIndicators><lnkSubfield>Alt alan verileri düzenleme</lnkSubfield><lnkAddDelete>Alan Ekle/Sil</lnkAddDelete><label1>Aranan:</label1><cmd_A_Close>Kapat</cmd_A_Close><cmd_A_Add>Alan ekleme</cmd_A_Add><cmd_A_Delete>Alanı silme</cmd_A_Delete><groupBox1>Seçenekler:</groupBox1><ck_delete_batch>İşlem toplu iş iş işlemi</ck_delete_batch><ck_AddIfPresent>Alan ekleyin</ck_AddIfPresent><ck_RemoveIfNot>Alan verileri eşleşmiyor Kaldır</ck_RemoveIfNot><ck_last>Son ekleme</ck_last><ck_dedup>Yinelenen verileri Kaldır</ck_dedup><ck_A_regular_Expression>Normal ifade kullanma</ck_A_regular_Expression><ck_A_not_present>Yüklü değilse, yalnızca alan ekleme</ck_A_not_present><ck_A_Insert>Önce Ekle</ck_A_Insert><ck_A_Case>Büyük küçük harf duyarlı</ck_A_Case><label3>Alan verisi:</label3><lb_A_Field>Alanı:</lb_A_Field><lb_A_Title>Alan yardımcı Program Ekle/Sil</lb_A_Title><cmd_Sub_Close>Kapat</cmd_Sub_Close><cmd_Sub_Remove>Metin kaldırma</cmd_Sub_Remove><cmd_Sub_Replace>Metni Değiştir</cmd_Sub_Replace><groupBox2>Arama seçenekleri:</groupBox2><ck_edit_subfield_delete_subfield>Alt alan silme</ck_edit_subfield_delete_subfield><ck_move_subfield>Alt alan verilerini taşıma</ck_move_subfield><ck_Reg_Express>Normal ifade kullanma</ck_Reg_Express><ck_Sub_Case>Büyük küçük harf duyarlı</ck_Sub_Case><ck_Sub_New>Yeni Altalan yalnızca</ck_Sub_New><ck_Sub_NotPresent>Yüklü değilse, alt alan ekleme</ck_Sub_NotPresent><label8>İle değiştirin:</label8><label7>Alan verisi:</label7><label6>Alt alan:</label6><label5>Alanı:</label5><lb_Sub_Title>Alt alan yeni düzenleme</lb_Sub_Title><cmd_I_Close>Kapat</cmd_I_Close><cmd_I_Replace>Değiştir</cmd_I_Replace><lb_Ind_Replace>Göstergeleri ile değiştirin</lb_Ind_Replace><label12>Alan verisi:</label12><label11>Göstergeleri</label11><label10>Alanı:</label10><lb_Ind_Title>Gösterge yardımcı programları düzenlemek</lb_Ind_Title><ck_swap_expression>Düzenli ifade olarak tedavi</ck_swap_expression><label4>Bul:</label4><cmd_Swap_Close>Kapat</cmd_Swap_Close><cmd_Swap_Process>İşlem</cmd_Swap_Process><groupBox3>Arama seçenekleri</groupBox3><ck_swap_once_per>Değiş tokuş etmek her bir alanı işleme</ck_swap_once_per><ck_swap_sort>Sıralama alanı değiştirildi</ck_swap_sort><ck_Swap_Override>Mevcut oluştur/Yeni ekle</ck_Swap_Override><ck_Swap_Add>Varolan bir alana Ekle</ck_Swap_Add><ck_Swap_Copy>Kopyalama kaynağı</ck_Swap_Copy><label20>Değiştirilmiş verileri:</label20><label22>Alt alanlar</label22><label23>Göstergeleri</label23><label24>Alan</label24><label19>Özgün veri:</label19><label18>Bul:</label18><label17>Alt alanlar</label17><label16>Göstergeleri</label16><label15>Alan</label15><lb_Swap_Title>Takas alanı hizmet programı</lb_Swap_Title><label14>Alt alan:</label14><lbFindInField>Alanda bul</lbFindInField><groupBox4>Seçenekler</groupBox4><ck_copy_delete>Kaynak alanı silme</ck_copy_delete><label2>Hedef alan:</label2><cmdCopyClose>Kapat</cmdCopyClose><cmdCopy>Kopyala</cmdCopy><label9>Kaynak alan:</label9><label13>Alan veri kopyalama</label13><label26>Pozisyon:</label26><label21>Değiştir:</label21><label25>Bul:</label25><groupBox5>Seçenekler</groupBox5><ck_editfield_match_case>Büyük küçük harf duyarlı</ck_editfield_match_case><ck_UserRegularExpressions>Normal ifadeleri kullanma</ck_UserRegularExpressions><cmdFieldEdit_Close>Kapat</cmdFieldEdit_Close><cmdEditField_Process>İşlem</cmdEditField_Process><label27>Alanı:</label27><label28>Alan verilerini Düzenle</label28><this>MarcEdit.NET toplu düzenleme araçları</this></MarcEdit_frmBatchEdit>
+<lnk_Edit_Fields>Alanları Düzenle</lnk_Edit_Fields>
+<lnkCopy>Alan veri kopyalama</lnkCopy>
+<lnkSwapFields>Alanları Değiştir</lnkSwapFields>
+<lnkIndicators>Göstergelerini düzenleme</lnkIndicators>
+<lnkSubfield>Alt alan verileri düzenleme</lnkSubfield>
+<lnkAddDelete>Alan Ekle/Sil</lnkAddDelete>
+<label1>Aranan:</label1>
+<cmd_A_Close>Kapat</cmd_A_Close>
+<cmd_A_Add>Alan ekleme</cmd_A_Add>
+<cmd_A_Delete>Alanı silme</cmd_A_Delete>
+<groupBox1>Seçenekler:</groupBox1>
+<ck_delete_batch>İşlem toplu iş iş işlemi</ck_delete_batch>
+<ck_AddIfPresent>Alan ekleyin</ck_AddIfPresent>
+<ck_RemoveIfNot>Alan verileri eşleşmiyor Kaldır</ck_RemoveIfNot>
+<ck_last>Son ekleme</ck_last>
+<ck_dedup>Yinelenen verileri Kaldır</ck_dedup>
+<ck_A_regular_Expression>Normal ifade kullanma</ck_A_regular_Expression>
+<ck_A_not_present>Yüklü değilse, yalnızca alan ekleme</ck_A_not_present>
+<ck_A_Insert>Önce Ekle</ck_A_Insert>
+<ck_A_Case>Büyük küçük harf duyarlı</ck_A_Case>
+<label3>Alan verisi:</label3>
+<lb_A_Field>Alanı:</lb_A_Field>
+<lb_A_Title>Alan yardımcı Program Ekle/Sil</lb_A_Title>
+<cmd_Sub_Close>Kapat</cmd_Sub_Close>
+<cmd_Sub_Remove>Metin kaldırma</cmd_Sub_Remove>
+<cmd_Sub_Replace>Metni Değiştir</cmd_Sub_Replace>
+<groupBox2>Arama seçenekleri:</groupBox2>
+<ck_edit_subfield_delete_subfield>Alt alan silme</ck_edit_subfield_delete_subfield>
+<ck_move_subfield>Alt alan verilerini taşıma</ck_move_subfield>
+<ck_Reg_Express>Normal ifade kullanma</ck_Reg_Express>
+<ck_Sub_Case>Büyük küçük harf duyarlı</ck_Sub_Case>
+<ck_Sub_New>Yeni Altalan yalnızca</ck_Sub_New>
+<ck_Sub_NotPresent>Yüklü değilse, alt alan ekleme</ck_Sub_NotPresent>
+<label8>İle değiştirin:</label8>
+<label7>Alan verisi:</label7>
+<label6>Alt alan:</label6>
+<label5>Alanı:</label5>
+<lb_Sub_Title>Alt alan yeni düzenleme</lb_Sub_Title>
+<cmd_I_Close>Kapat</cmd_I_Close>
+<cmd_I_Replace>Değiştir</cmd_I_Replace>
+<lb_Ind_Replace>Göstergeleri ile değiştirin</lb_Ind_Replace>
+<label12>Alan verisi:</label12>
+<label11>Göstergeleri</label11>
+<label10>Alanı:</label10>
+<lb_Ind_Title>Gösterge yardımcı programları düzenlemek</lb_Ind_Title>
+<ck_swap_expression>Düzenli ifade olarak tedavi</ck_swap_expression>
+<label4>Bul:</label4>
+<cmd_Swap_Close>Kapat</cmd_Swap_Close>
+<cmd_Swap_Process>İşlem</cmd_Swap_Process>
+<groupBox3>Arama seçenekleri</groupBox3>
+<ck_swap_once_per>Değiş tokuş etmek her bir alanı işleme</ck_swap_once_per>
+<ck_swap_sort>Sıralama alanı değiştirildi</ck_swap_sort>
+<ck_Swap_Override>Mevcut oluştur/Yeni ekle</ck_Swap_Override>
+<ck_Swap_Add>Varolan bir alana Ekle</ck_Swap_Add>
+<ck_Swap_Copy>Kopyalama kaynağı</ck_Swap_Copy>
+<label20>Değiştirilmiş verileri:</label20>
+<label22>Alt alanlar</label22>
+<label23>Göstergeleri</label23>
+<label24>Alan</label24>
+<label19>Özgün veri:</label19>
+<label18>Bul:</label18>
+<label17>Alt alanlar</label17>
+<label16>Göstergeleri</label16>
+<label15>Alan</label15>
+<lb_Swap_Title>Takas alanı hizmet programı</lb_Swap_Title>
+<label14>Alt alan:</label14>
+<lbFindInField>Alanda bul</lbFindInField>
+<groupBox4>Seçenekler</groupBox4>
+<ck_copy_delete>Kaynak alanı silme</ck_copy_delete>
+<label2>Hedef alan:</label2>
+<cmdCopyClose>Kapat</cmdCopyClose>
+<cmdCopy>Kopyala</cmdCopy>
+<label9>Kaynak alan:</label9>
+<label13>Alan veri kopyalama</label13>
+<label26>Pozisyon:</label26>
+<label21>Değiştir:</label21>
+<label25>Bul:</label25>
+<groupBox5>Seçenekler</groupBox5>
+<ck_editfield_match_case>Büyük küçük harf duyarlı</ck_editfield_match_case>
+<ck_UserRegularExpressions>Normal ifadeleri kullanma</ck_UserRegularExpressions>
+<cmdFieldEdit_Close>Kapat</cmdFieldEdit_Close>
+<cmdEditField_Process>İşlem</cmdEditField_Process>
+<label27>Alanı:</label27>
+<label28>Alan verilerini Düzenle</label28>
+<this>MarcEdit.NET toplu düzenleme araçları</this>
+</MarcEdit_frmBatchEdit>
 <MarcEdit_frmBibframe>
-<cmdProcess>İşlem</cmdProcess><cmdClose>Kapat</cmdClose><label1>BibFrame Testbed, yardımcı meta veriler uzmanları BibFrame kavramları kullanarak kendi veri modelleme özelliği sağlamak için tasarlanmış kullanımı basittir.</label1><label2>Kaynak dosya:</label2><label3>Dosyayı kaydedin:</label3><label4>Veriler seri hale getirme:</label4><cmbSerialization>RDFXML</cmbSerialization><label5>XQuery yolu:</label5><xqueryPath>http://marcedit.reeset.NET/Software/XQuery/modules/</xqueryPath><label6>TabanURI:</label6><lnkEditXQuery>Düzenle</lnkEditXQuery><label7>Dosya türü:</label7><this>BibFrame TestBed</this></MarcEdit_frmBibframe>
+<cmdProcess>İşlem</cmdProcess>
+<cmdClose>Kapat</cmdClose>
+<label1>BibFrame Testbed, yardımcı meta veri specia izin vermek için tasarlanmış kullanımı basittir </label1>
+<label2>Kaynak dosya:</label2>
+<label3>Dosyayı kaydedin:</label3>
+<label4>Veriler seri hale getirme:</label4>
+<cmbSerialization>RDFXML</cmbSerialization>
+<label5>XQuery yolu:</label5>
+<xqueryPath>http://marcedit.reeset.NET/Software/XQuery/modules/</xqueryPath>
+<label6>TabanURI:</label6>
+<lnkEditXQuery>Düzenle</lnkEditXQuery>
+<label7>Dosya türü:</label7>
+<this>BibFrame TestBed</this>
+</MarcEdit_frmBibframe>
 <MarcEdit_frmBuildLinks>
-<label3>Dosyayı kaydedin:</label3><label2>Kaynak dosya:</label2><label1>Bağlantılı verileri aracı MARC kayıtları andresolve 1xx, 6xx ve onların bağlı veri endpoints 7xx veri öğelerine erişim noktaları kümesi aracılığıyla döngü için dizayn edilmiştir.</label1><cmdProcess>İşlem</cmdProcess><cmdCancel>İptal</cmdCancel><groupBox1>ID hizmetleri</groupBox1><ck_loc>ABD Kongre Kütüphanesi (id.loc.gov)</ck_loc><ck_viaf>OCLC VIAF</ck_viaf><this>İlişkili kayıtlar oluşturmak</this></MarcEdit_frmBuildLinks>
+<label3>Dosyayı kaydedin:</label3>
+<label2>Kaynak dosya:</label2>
+<label1>Bağlantılı verileri aracı, MARC kayıt kümesi döngü ve erişim noktaları 1xx, 6xx ve 7xx veri öğeleri için onların bağlı dat bir endpoints çözmek için tasarlanmıştır.</label1>
+<cmdProcess>İşlem</cmdProcess>
+<cmdCancel>İptal</cmdCancel>
+<groupBox1>ID hizmetleri</groupBox1>
+<ck_loc>ABD Kongre Kütüphanesi (id.loc.gov)</ck_loc>
+<ck_viaf>OCLC VIAF</ck_viaf>
+<this>İlişkili kayıtlar oluşturmak</this>
+</MarcEdit_frmBuildLinks>
 <MarcEdit_frmCatalogCalculator>
-<lnkFind>Bul</lnkFind><lbResults>Sonuçlar:</lbResults><lnkCatalog>Kyle Banerjee'nın katalog hesap makinesi</lnkCatalog><cmdClose>Kapat</cmdClose><label1>LC kesiciler</label1><this>Kataloglama hesap makinesi</this></MarcEdit_frmCatalogCalculator>
+<lnkFind>Bul</lnkFind>
+<lbResults>Sonuçlar:</lbResults>
+<lnkCatalog>Kyle Banerjee'nın katalog hesap makinesi</lnkCatalog>
+<cmdClose>Kapat</cmdClose>
+<label1>LC kesiciler</label1>
+<this>Kataloglama hesap makinesi</this>
+</MarcEdit_frmCatalogCalculator>
 <MarcEdit_frmClassify>
-<label1>Bu hizmet, OCLC's sınıflandırmak Web hizmetinden yapar.  Sınıflandırma recommendationsare kayıtlardan kontrol numarası OCLC göndererek oluşturulur.  OCLC'ın webservice Dewey ondalık veya LC sınıflama genellikle bu kayıtla ilişkili arka toMarcEdit döndürür.</label1><lnkClassify>OCLC's hizmeti sınıflandırmak</lnkClassify><label2>Ekleme yönergeleri:</label2><ck_all>Tüm kayıtlara ekleme</ck_all><ck_single>Seçili kayda eklemek</ck_single><ck_lc>Kongre Kütüphanesi</ck_lc><ck_dewey>Dewey Decimal</ck_dewey><label3>Sınıflandırma:</label3><cmdProcess>Sınıflandırmak</cmdProcess><cmdClose>Kapat</cmdClose><label5>Aşağıdaki alanları yoksa ekle (örnek: 050, 060, 090; 092)</label5><label4>Oluşturulan sınıflandırmalar aşağıdaki alana yerleştirin:</label4><label7>Seçenekler:</label7><ck_cutters>Kesiciler ve tarihleri hesaplama</ck_cutters><ck_use_z>Alt alan z eşleştirmek için kullan</ck_use_z><ck_DateMod>Bugüne kadar bayrak ekleme</ck_DateMod><ck_omit_serial>Tarih seri halinde için ihmal</ck_omit_serial><ck_omit_integrated>Tarih entegre kaynakları için ihmal</ck_omit_integrated><ck_omit>Tarihi istisnalar Ekle</ck_omit><label8>Konu başlıkları:</label8><ck_always_fast>Her zaman hızlı başlıkları ekle</ck_always_fast><ck_conditional_fast>Hiçbir konu başlıkları mevcut olduğunda hızlı başlıkları ekle</ck_conditional_fast><label6>Göstergeler:</label6><this>Sınıflandırma oluşturmak</this></MarcEdit_frmClassify>
+<label1>Bu hizmet, OCLC's sınıflandırmak Web hizmetinden yapar.  Sınıflandırma önerileri kayıtlardan kontrol numarası OCLC göndererek oluşturulur.  OCLC'ın webservice Dewey ondalık veya LC sınıflama, en çok bu kayıtla ilişkili MarcEdit geri dönecektir.</label1>
+<lnkClassify>OCLC's hizmeti sınıflandırmak</lnkClassify>
+<label2>Ekleme yönergeleri:</label2>
+<ck_all>Tüm kayıtlara ekleme</ck_all>
+<ck_single>Seçili kayda eklemek</ck_single>
+<ck_lc>Kongre Kütüphanesi</ck_lc>
+<ck_dewey>Dewey Decimal</ck_dewey>
+<label3>Sınıflandırma:</label3>
+<cmdProcess>Sınıflandırmak</cmdProcess>
+<cmdClose>Kapat</cmdClose>
+<label5>Aşağıdaki alanları yoksa ekle (örnek: 050, 060, 090; 092)</label5>
+<label4>Oluşturulan sınıflandırmalar aşağıdaki alana yerleştirin:</label4>
+<label7>Seçenekler:</label7>
+<ck_cutters>Kesiciler ve tarihleri hesaplama</ck_cutters>
+<ck_use_z>Alt alan z eşleştirmek için kullan</ck_use_z>
+<ck_DateMod>Bugüne kadar bayrak ekleme</ck_DateMod>
+<ck_omit_serial>Tarih seri halinde için ihmal</ck_omit_serial>
+<ck_omit_integrated>Tarih entegre kaynakları için ihmal</ck_omit_integrated>
+<ck_omit>Tarihi istisnalar Ekle</ck_omit>
+<label8>Konu başlıkları:</label8>
+<ck_always_fast>Her zaman hızlı başlıkları ekle</ck_always_fast>
+<ck_conditional_fast>Hiçbir konu başlıkları mevcut olduğunda hızlı başlıkları ekle</ck_conditional_fast>
+<label6>Göstergeler:</label6>
+<this>Sınıflandırma oluşturmak</this>
+</MarcEdit_frmClassify>
 <MarcEdit_frmConstantData>
-<columnHeader1>Sabit veri</columnHeader1><columnHeader3>Kısayol</columnHeader3><cmdClose>Kapat</cmdClose><lnkKey>Tuş atama</lnkKey><lnkEdit>Seçili dizeyi Düzenle</lnkEdit><lnkDelete>Seçili dizeyi silmek</lnkDelete><lnkNew>Yeni bir dize oluşturun</lnkNew><lbActions>Eylemler:</lbActions><lbMacro>Sabit veri:</lbMacro><this>Sürekli verileri düzenleme</this></MarcEdit_frmConstantData>
+<columnHeader1>Sabit veri</columnHeader1>
+<columnHeader3>Kısayol</columnHeader3>
+<cmdClose>Kapat</cmdClose>
+<lnkKey>Tuş atama</lnkKey>
+<lnkEdit>Seçili dizeyi Düzenle</lnkEdit>
+<lnkDelete>Seçili dizeyi silmek</lnkDelete>
+<lnkNew>Yeni bir dize oluşturun</lnkNew>
+<lbActions>Eylemler:</lbActions>
+<lbMacro>Sabit veri:</lbMacro>
+<this>Sürekli verileri düzenleme</this>
+</MarcEdit_frmConstantData>
 <MarcEdit_frmControlNumb>
-<lb_prefix>Sayı öneki:</lb_prefix><lb_digit>Basamak başlatın:</lb_digit><ck_autogenerate>Yeni kayıtlar ekleme</ck_autogenerate><button1>Tamam</button1><button2>Kapat</button2><lb_length>Basamak uzunluğu (eksi önek)</lb_length><ckgenerate>Geçerli dosya oluşturmak</ckgenerate><ck_label>Mark kayıt numaraları</ck_label><label1>Alan/alt alan (örnek: 001, 949$ b)</label1><ck_repeat>Her zaman Ekle</ck_repeat><this>Denetim numaraları oluşturmak</this></MarcEdit_frmControlNumb>
+<lb_prefix>Sayı öneki:</lb_prefix>
+<lb_digit>Basamak başlatın:</lb_digit>
+<ck_autogenerate>Yeni kayıtlar ekleme</ck_autogenerate>
+<button1>Tamam</button1>
+<button2>Kapat</button2>
+<lb_length>Basamak uzunluğu (eksi önek)</lb_length>
+<ckgenerate>Geçerli dosya oluşturmak</ckgenerate>
+<ck_label>Mark kayıt numaraları</ck_label>
+<label1>Alan/alt alan (örnek: 001, 949$ b)</label1>
+<ck_repeat>Her zaman Ekle</ck_repeat>
+<this>Denetim numaraları oluşturmak</this>
+</MarcEdit_frmControlNumb>
 <MarcEdit_frmDedup>
-<ck_save>Dedup maddelere kaydedin:</ck_save><ck_unique>Benzersiz öğeleri Yazdır</ck_unique><ck_remove>Yinelenen öğeleri kaldırma</ck_remove><lbOptions>Seçenekler:</lbOptions><label1>Dedup Tarih:</label1><lb_Control>Denetim alanı:</lb_Control><cmdClose>Kapat</cmdClose><cmdOK>İşlem</cmdOK><btnCancel>İptal</btnCancel><btnNext>Sonraki</btnNext><label4>Dosyayı kaydedin:</label4><label3>Mükerrer aşağıdaki dosyaları bulun:</label3><label2>Kayıt Deduplication aracı</label2><this>Kayıt Deduplication</this></MarcEdit_frmDedup>
+<ck_save>Dedup maddelere kaydedin:</ck_save>
+<ck_unique>Benzersiz öğeleri Yazdır</ck_unique>
+<ck_remove>Yinelenen öğeleri kaldırma</ck_remove>
+<lbOptions>Seçenekler:</lbOptions>
+<label1>Dedup Tarih:</label1>
+<lb_Control>Denetim alanı:</lb_Control>
+<cmdClose>Kapat</cmdClose>
+<cmdOK>İşlem</cmdOK>
+<btnCancel>İptal</btnCancel>
+<btnNext>Sonraki</btnNext>
+<label4>Dosyayı kaydedin:</label4>
+<label3>Mükerrer aşağıdaki dosyaları bulun:</label3>
+<label2>Kayıt Deduplication aracı</label2>
+<this>Kayıt Deduplication</this>
+</MarcEdit_frmDedup>
 <MarcEdit_frmExportSettings>
-<label1>Dosya paylaşımı seçin:</label1><ckconfig>Yapılandırma seçenekleri</ckconfig><label2>Kullanıcı yapılandırma dizinindeki tüm verileri verir.  Bu yapılandırma verileri, XSLT fonksiyon listesi, marcvalidator kuralları ve Z39.50 veritabanı dosyalarını içerir.</label2><ckXSLT>XSLT işlevleri</ckXSLT><label3>Tanımlanmış XSLT stil verme
-</label3><ckMacros>Tanımlı makrolar ve görevleri</ckMacros><label4>Tüm tanımlı makrolar ve görevler verme...
-</label4><label5>Tüm tanımlanmış MarcEditor malzeme tipi şablonları verme.</label5><ckTemplates>Tanımlanmış MarcEditor şablonları</ckTemplates><cmdExport>Dışa aktarma</cmdExport><cmdClose>Kapat</cmdClose><this>Dışa aktarma ayarları</this></MarcEdit_frmExportSettings>
+<label1>Dosya paylaşımı seçin:</label1>
+<ckconfig>Yapılandırma seçenekleri</ckconfig>
+<label2>Kullanıcı yapılandırma dizinindeki tüm verileri verir.  Bu yapılandırma verilerini içerir, </label2>
+<ckXSLT>XSLT işlevleri</ckXSLT>
+<label3>Tanımlanmış XSLT stil verme
+</label3>
+<ckMacros>Tanımlı makrolar ve görevleri</ckMacros>
+<label4>Tüm tanımlı makrolar ve görevler verme...
+</label4>
+<label5>Tüm tanımlanmış MarcEditor malzeme tipi şablonları verme.</label5>
+<ckTemplates>Tanımlanmış MarcEditor şablonları</ckTemplates>
+<cmdExport>Dışa aktarma</cmdExport>
+<cmdClose>Kapat</cmdClose>
+<this>Dışa aktarma ayarları</this>
+</MarcEdit_frmExportSettings>
 <MarcEdit_frmFindAllResults>
-<columnHeader2>Eylem</columnHeader2><columnHeader1>Bulunan metin</columnHeader1><button1>Kapat</button1><button2>Sayfasına gitmek</button2><cmdFindUpdate>Bul sorgusu Düzenle</cmdFindUpdate><lb_result_num>{search_string} {#} bulunan bir dönemdi.</lb_result_num><this>Tüm sonuçlar bul</this></MarcEdit_frmFindAllResults>
+<columnHeader2>Eylem</columnHeader2>
+<columnHeader1>Bulunan metin</columnHeader1>
+<button1>Kapat</button1>
+<button2>Sayfasına gitmek</button2>
+<cmdFindUpdate>Bul sorgusu Düzenle</cmdFindUpdate>
+<lb_result_num>{search_string} {#} bulunan bir dönemdi.</lb_result_num>
+<this>Tüm sonuçlar bul</this>
+</MarcEdit_frmFindAllResults>
 <MarcEdit_frmHarvestBatch>
-<label1>Tanımlanmış OAI sunucuları:</label1><label2>(Birden çok öğe seçmek için shift/shift + denetimi kullanın)</label2><ck_date>Son Indirilen hasat</ck_date><cmdCreate>Kaydet</cmdCreate><button1>Kapat</button1><this>Hasat toplu oluşturma</this></MarcEdit_frmHarvestBatch>
+<label1>Tanımlanmış OAI sunucuları:</label1>
+<label2>(Birden çok öğe seçmek için shift/shift + denetimi kullanın)</label2>
+<ck_date>Son Indirilen hasat</ck_date>
+<cmdCreate>Kaydet</cmdCreate>
+<button1>Kapat</button1>
+<this>Hasat toplu oluşturma</this>
+</MarcEdit_frmHarvestBatch>
 <MarcEdit_frmHex>
-<BytesGroup>Bayt sayısı</BytesGroup><label5>Bit</label5><label4>ISO-8859-1</label4><label3>Ondalık</label3><label2>Hex</label2><columnHeader1>Pozisyon</columnHeader1><columnHeader2>Bayt sayısı</columnHeader2><columnHeader3>Metin</columnHeader3><menuStrip1>menuStrip1</menuStrip1><menuItem1>Dosya</menuItem1><openToolStripMenuItem>Açık</openToolStripMenuItem><ExitProgram>Çıkış</ExitProgram><this>MARCSpy</this></MarcEdit_frmHex>
+<BytesGroup>Bayt sayısı</BytesGroup>
+<label5>Bit</label5>
+<label4>ISO-8859-1</label4>
+<label3>Ondalık</label3>
+<label2>Hex</label2>
+<columnHeader1>Pozisyon</columnHeader1>
+<columnHeader2>Bayt sayısı</columnHeader2>
+<columnHeader3>Metin</columnHeader3>
+<menuStrip1>menuStrip1</menuStrip1>
+<menuItem1>Dosya</menuItem1>
+<openToolStripMenuItem>Açık</openToolStripMenuItem>
+<ExitProgram>Çıkış</ExitProgram>
+<this>MARCSpy</this>
+</MarcEdit_frmHex>
 <MarcEdit_frmHTMLResults>
-<this>MarcEdit sonuçları penceresi</this></MarcEdit_frmHTMLResults>
+<this>MarcEdit sonuçları penceresi</this>
+</MarcEdit_frmHTMLResults>
 <MarcEdit_frmjoin_xml_func>
-<lb_Alias>Fonksiyonun adı (diğer ad):</lb_Alias><label1>Katılmak:</label1><cmd_ok>Kaydet</cmd_ok><cmd_close>Kapat</cmd_close><this>XML işlevleri katılın</this></MarcEdit_frmjoin_xml_func>
+<lb_Alias>Fonksiyonun adı (diğer ad):</lb_Alias>
+<label1>Katılmak:</label1>
+<cmd_ok>Kaydet</cmd_ok>
+<cmd_close>Kapat</cmd_close>
+<this>XML işlevleri katılın</this>
+</MarcEdit_frmjoin_xml_func>
 <MarcEdit_frmListTasks>
-<columnHeader1>Adı</columnHeader1><columnHeader2>Yol</columnHeader2><cmdOK>Tamam</cmdOK><cmdClose>Kapat</cmdClose><this>Kullanılabilir görevler</this></MarcEdit_frmListTasks>
+<columnHeader1>Adı</columnHeader1>
+<columnHeader2>Yol</columnHeader2>
+<cmdOK>Tamam</cmdOK>
+<cmdClose>Kapat</cmdClose>
+<this>Kullanılabilir görevler</this>
+</MarcEdit_frmListTasks>
 <MarcEdit_frmMain>
-<lnkResearch>MARCNext</lnkResearch><lnkUserDefined3>MARC SQL Explorer</lnkUserDefined3><lnkUserDefined1>Sınırlandırılmış Metin Çeviri</lnkUserDefined1><lnkMarcToolsStart>MARC araçları</lnkMarcToolsStart><lnkUserDefined2>Hasat OAI kayıtları</lnkUserDefined2><lnkUserDefined4>Z39.50/SRU istemci</lnkUserDefined4><startEditor>MarcEditor</startEditor><menuStrip1>menuStrip1</menuStrip1><mnuFile>Dosya</mnuFile><mnuFiletools>MARC araçları</mnuFiletools><mnuFileToolsBatch>Toplu işlem kayıtları</mnuFileToolsBatch><mnuFileBreaker>MarcBreaker</mnuFileBreaker><mnuFileMaker>MarcMaker</mnuFileMaker><mnuFilemXML>MARC MARC21XML =&gt;</mnuFilemXML><mnuFileXMLm>MARC =&gt; MARC21XML</mnuFileXMLm><mnuFileEditor>MarcEditor</mnuFileEditor><mnuFileIndividual_Record>Birey Kayıt Düzenleyicisi</mnuFileIndividual_Record><mnuFileMARCSpy>MARC casus</mnuFileMARCSpy><mnuFileShare>Yapılandırma ayarları</mnuFileShare><exportSettingsToolStripMenuItem>Dışa aktarma ayarları</exportSettingsToolStripMenuItem><importSettingsToolStripMenuItem>Alma ayarları</importSettingsToolStripMenuItem><toolStripMenuItem7>MarcEdit 32-bit modunda yeniden başlatın.</toolStripMenuItem7><mnuFileExit>Çıkış</mnuFileExit><mnuTools>Araçlar</mnuTools><mnuToolsSelect>MARC kayıtları seç</mnuToolsSelect><mnuToolsDelete>Seçili kayıtları silmek</mnuToolsDelete><mnuToolsExtract>Seçili kayıtları ayıklamak</mnuToolsExtract><mnuExportGroup>İhracat...</mnuExportGroup><mnuToolsTabbed>Dışa Aktar sekmesinde sınırlandırılmış kayıtları</mnuToolsTabbed><mnuToolsGateway>MARC kaydı verme</mnuToolsGateway><mnuToolsBatch>Toplu işlem kayıtları</mnuToolsBatch><mnuGenerateCallnumber>Telefon numaralarını oluşturması</mnuGenerateCallnumber><toolStripMenuItem3>HIZLI başlıklarını oluşturmak</toolStripMenuItem3><mnuToolsDedup>Yinelenen kayıtları bulma</mnuToolsDedup><toolStripMenuItem6>OCLC işlemleri</toolStripMenuItem6><updateWorldCatRecordHoldingsToolStripMenuItem>WorldCat kaydı Holdings Güncelleştir</updateWorldCatRecordHoldingsToolStripMenuItem><uploadBibliographRecordsToWorldCatToolStripMenuItem>Bibliograph kayıtları WorldCat için upload</uploadBibliographRecordsToWorldCatToolStripMenuItem><toolStripMenuItem5>BKİ yardımcı</toolStripMenuItem5><toolStripMenuItem8>MARCCompare</toolStripMenuItem8><mnuToolsJoin>MARCJoin</mnuToolsJoin><mnuToolsSplit>MARCSplit</mnuToolsSplit><mnutoolsmerge>Kayıtları birleştirme</mnutoolsmerge><mnuToolsPreferences>Tercihler</mnuToolsPreferences><mnuAddins>Eklentiler</mnuAddins><mnuAddLang>Dil dosyalarını düzenleme</mnuAddLang><mnuAddinPluginManager>Eklenti Yöneticisi</mnuAddinPluginManager><mnuaddincdsisis>CD-ISIS .iso MARC çeviri =&gt;</mnuaddincdsisis><mnuAddinTranslator>Sınırlandırılmış Metin Çeviri</mnuAddinTranslator><mnuAddinTutorial>Yerel eğitim Yöneticisi</mnuAddinTutorial><mnuAddinValidator>MARCValidator</mnuAddinValidator><mnuAddinZ39_50>MarcEdit Z39.50/SRU istemci</mnuAddinZ39_50><mnuAddScriptWizard>MarcEdit komut dosyası Sihirbazı</mnuAddScriptWizard><mnuExplorer>MARC SQL Explorer</mnuExplorer><toolStripMenuItem4>OAI hasat araçları</toolStripMenuItem4><harvestOAIRecordsToolStripMenuItem>Hasat OAI kayıtları</harvestOAIRecordsToolStripMenuItem><batchHarvesterToolStripMenuItem>Toplu hasat</batchHarvesterToolStripMenuItem><createBatchJobToolStripMenuItem>Toplu iş oluşturma</createBatchJobToolStripMenuItem><runBatchHarvestToolStripMenuItem>Toplu hasat çalıştırmak</runBatchHarvestToolStripMenuItem><mnuAddinURL>URL'leri doğrulamak</mnuAddinURL><pluginsToolStripMenuItem>Eklentileri</pluginsToolStripMenuItem><mnuHelp>Yardım</mnuHelp><mnuHelpContents>İçindekiler ve yardım</mnuHelpContents><mnuHelpTutorials>Görünüm Rehberler</mnuHelpTutorials><mnuHelpOnline>Çevrimiçi yardım</mnuHelpOnline><mnuHelpList>MarcEdit bildirim listesine katılın</mnuHelpList><mnuHelpError>Öneriler/hata raporu</mnuHelpError><mnuBlog>MarcEdit Blog</mnuBlog><marcEditKnownIssuesToolStripMenuItem>MarcEdit bilinen sorunlar</marcEditKnownIssuesToolStripMenuItem><systemInfoToolStripMenuItem>Sistem bilgisi</systemInfoToolStripMenuItem><mnuHelpResetConfig>Yapılandırma verilerini sıfırla</mnuHelpResetConfig><mnuHelpDebugLoader>Download güncelleştirmek (hata ayıklama modu)</mnuHelpDebugLoader><updateMarcEditToolStripMenuItem>Güncelleştirmeleri denetlemek için</updateMarcEditToolStripMenuItem><toolStripMenuItem2>Uygulama kısayolları</toolStripMenuItem2><applicationDataPathToolStripMenuItem>Uygulama veri yolu</applicationDataPathToolStripMenuItem><xSLTDataPathToolStripMenuItem>XSLT veri yolu</xSLTDataPathToolStripMenuItem><languageDataPathToolStripMenuItem>Dil veri yolu</languageDataPathToolStripMenuItem><mnuHelpAboutGroup>Hakkında...</mnuHelpAboutGroup><mnuHelpAbout>MarcEdit 6</mnuHelpAbout><aboutTheAuthorToolStripMenuItem>Yazar</aboutTheAuthorToolStripMenuItem><marcEditEULAToolStripMenuItem>MarcEdit EULA</marcEditEULAToolStripMenuItem><migrateDataToolStripMenuItem>6 MarcEdit XSLT verilerini geçirme</migrateDataToolStripMenuItem><lb_AboutDesc>Ne MARC işleri ve nasılşiştiğini içinde çok yetenekli kütüphaneciler, bir dizi ile çalışmak bir zevk oldu için bir yol olarak 1999 yılında MarcEdit üzerinde çalışmaya başladı.  MarcEdit bana verir şayet MarcEdit işinde de yararlı olabilir.  Biraz daha fazla bilgi almak isterseniz bana veya bkz: Ben de olduğum için beni üstünde benim blog bakmak veya heyecan beni izleyin.</lb_AboutDesc><label1>|</label1><lb_Authors>Hakkımda:</lb_Authors><lnkHomepage>http://marcedit.reeset.NET</lnkHomepage><label5>URL:</label5><label2>İlgili kaynaklar:</label2><lbMod>Değiştirilme tarihi:</lbMod><lbMailto>Terry Reese</lbMailto><lbAuthor>Yazar:</lbAuthor><lbVersion>Sürüm:</lbVersion><label3>|</label3><label4>MarcEdit hakkında</label4><lnkLinkIds>Link tanımlayıcıları</lnkLinkIds><lnkJsonObject>JSON nesnesi Görüntüleyici</lnkJsonObject><lnkBibframe>BibFrame Testbed</lnkBibframe><label7>|</label7><label8>MARCNext:</label8><this>Terry Reese tarafından MarcEdit</this></MarcEdit_frmMain>
+<lnkResearch>MARCNext</lnkResearch>
+<lnkUserDefined3>MARC SQL Explorer</lnkUserDefined3>
+<lnkUserDefined1>Sınırlandırılmış Metin Çeviri</lnkUserDefined1>
+<lnkMarcToolsStart>MARC araçları</lnkMarcToolsStart>
+<lnkUserDefined2>Hasat OAI kayıtları</lnkUserDefined2>
+<lnkUserDefined4>Z39.50/SRU istemci</lnkUserDefined4>
+<startEditor>MarcEditor</startEditor>
+<menuStrip1>menuStrip1</menuStrip1>
+<mnuFile>Dosya</mnuFile>
+<mnuFiletools>MARC araçları</mnuFiletools>
+<mnuFileToolsBatch>Toplu işlem kayıtları</mnuFileToolsBatch>
+<mnuFileBreaker>MarcBreaker</mnuFileBreaker>
+<mnuFileMaker>MarcMaker</mnuFileMaker>
+<mnuFilemXML>MARC MARC21XML =&gt;</mnuFilemXML>
+<mnuFileXMLm>MARC =&gt; MARC21XML</mnuFileXMLm>
+<mnuFileEditor>MarcEditor</mnuFileEditor>
+<mnuFileIndividual_Record>Birey Kayıt Düzenleyicisi</mnuFileIndividual_Record>
+<mnuFileMARCSpy>MARC casus</mnuFileMARCSpy>
+<mnuFileShare>Yapılandırma ayarları</mnuFileShare>
+<exportSettingsToolStripMenuItem>Dışa aktarma ayarları</exportSettingsToolStripMenuItem>
+<importSettingsToolStripMenuItem>Alma ayarları</importSettingsToolStripMenuItem>
+<toolStripMenuItem7>MarcEdit 32-bit modunda yeniden başlatın.</toolStripMenuItem7>
+<mnuFileExit>Çıkış</mnuFileExit>
+<mnuTools>Araçlar</mnuTools>
+<mnuToolsSelect>MARC kayıtları seç</mnuToolsSelect>
+<mnuToolsDelete>Seçili kayıtları silmek</mnuToolsDelete>
+<mnuToolsExtract>Seçili kayıtları ayıklamak</mnuToolsExtract>
+<mnuExportGroup>İhracat...</mnuExportGroup>
+<mnuToolsTabbed>Dışa Aktar sekmesinde sınırlandırılmış kayıtları</mnuToolsTabbed>
+<mnuToolsGateway>MARC kaydı verme</mnuToolsGateway>
+<mnuToolsBatch>Toplu işlem kayıtları</mnuToolsBatch>
+<mnuGenerateCallnumber>Telefon numaralarını oluşturması</mnuGenerateCallnumber>
+<toolStripMenuItem3>HIZLI başlıklarını oluşturmak</toolStripMenuItem3>
+<mnuToolsDedup>Yinelenen kayıtları bulma</mnuToolsDedup>
+<toolStripMenuItem6>OCLC işlemleri</toolStripMenuItem6>
+<updateWorldCatRecordHoldingsToolStripMenuItem>WorldCat kaydı Holdings Güncelleştir</updateWorldCatRecordHoldingsToolStripMenuItem>
+<uploadBibliographRecordsToWorldCatToolStripMenuItem>Bibliograph kayıtları WorldCat için upload</uploadBibliographRecordsToWorldCatToolStripMenuItem>
+<toolStripMenuItem5>BKİ yardımcı</toolStripMenuItem5>
+<toolStripMenuItem8>MARCCompare</toolStripMenuItem8>
+<mnuToolsJoin>MARCJoin</mnuToolsJoin>
+<mnuToolsSplit>MARCSplit</mnuToolsSplit>
+<mnutoolsmerge>Kayıtları birleştirme</mnutoolsmerge>
+<mnuToolsPreferences>Tercihler</mnuToolsPreferences>
+<mnuAddins>Eklentiler</mnuAddins>
+<mnuAddLang>Dil dosyalarını düzenleme</mnuAddLang>
+<mnuAddinPluginManager>Eklenti Yöneticisi</mnuAddinPluginManager>
+<mnuaddincdsisis>CD-ISIS .iso MARC çeviri =&gt;</mnuaddincdsisis>
+<mnuAddinTranslator>Sınırlandırılmış Metin Çeviri</mnuAddinTranslator>
+<mnuAddinTutorial>Yerel eğitim Yöneticisi</mnuAddinTutorial>
+<mnuAddinValidator>MARCValidator</mnuAddinValidator>
+<mnuAddinZ39_50>MarcEdit Z39.50/SRU istemci</mnuAddinZ39_50>
+<mnuAddScriptWizard>MarcEdit komut dosyası Sihirbazı</mnuAddScriptWizard>
+<mnuExplorer>MARC SQL Explorer</mnuExplorer>
+<toolStripMenuItem4>OAI hasat araçları</toolStripMenuItem4>
+<harvestOAIRecordsToolStripMenuItem>Hasat OAI kayıtları</harvestOAIRecordsToolStripMenuItem>
+<batchHarvesterToolStripMenuItem>Toplu hasat</batchHarvesterToolStripMenuItem>
+<createBatchJobToolStripMenuItem>Toplu iş oluşturma</createBatchJobToolStripMenuItem>
+<runBatchHarvestToolStripMenuItem>Toplu hasat çalıştırmak</runBatchHarvestToolStripMenuItem>
+<mnuAddinURL>URL'leri doğrulamak</mnuAddinURL>
+<pluginsToolStripMenuItem>Eklentileri</pluginsToolStripMenuItem>
+<mnuHelp>Yardım</mnuHelp>
+<mnuHelpContents>İçindekiler ve yardım</mnuHelpContents>
+<mnuHelpTutorials>Görünüm Rehberler</mnuHelpTutorials>
+<mnuHelpOnline>Çevrimiçi yardım</mnuHelpOnline>
+<mnuHelpList>MarcEdit bildirim listesine katılın</mnuHelpList>
+<mnuHelpError>Öneriler/hata raporu</mnuHelpError>
+<mnuBlog>MarcEdit Blog</mnuBlog>
+<marcEditKnownIssuesToolStripMenuItem>MarcEdit bilinen sorunlar</marcEditKnownIssuesToolStripMenuItem>
+<systemInfoToolStripMenuItem>Sistem bilgisi</systemInfoToolStripMenuItem>
+<mnuHelpResetConfig>Yapılandırma verilerini sıfırla</mnuHelpResetConfig>
+<mnuHelpDebugLoader>Download güncelleştirmek (hata ayıklama modu)</mnuHelpDebugLoader>
+<updateMarcEditToolStripMenuItem>Güncelleştirmeleri denetlemek için</updateMarcEditToolStripMenuItem>
+<toolStripMenuItem2>Uygulama kısayolları</toolStripMenuItem2>
+<applicationDataPathToolStripMenuItem>Uygulama veri yolu</applicationDataPathToolStripMenuItem>
+<xSLTDataPathToolStripMenuItem>XSLT veri yolu</xSLTDataPathToolStripMenuItem>
+<languageDataPathToolStripMenuItem>Dil veri yolu</languageDataPathToolStripMenuItem>
+<mnuHelpAboutGroup>Hakkında...</mnuHelpAboutGroup>
+<mnuHelpAbout>MarcEdit 6</mnuHelpAbout>
+<aboutTheAuthorToolStripMenuItem>Yazar</aboutTheAuthorToolStripMenuItem>
+<marcEditEULAToolStripMenuItem>MarcEdit EULA</marcEditEULAToolStripMenuItem>
+<migrateDataToolStripMenuItem>6 MarcEdit XSLT verilerini geçirme</migrateDataToolStripMenuItem>
+<lb_AboutDesc>MARC nasıl çalıştığını öğrenmek için bir yol olarak 1999 yılında MarcEdit üzerinde çalıştım ve bu süre içinde çok yetenekli kütüphaneciler, bir dizi ile çalışmak bir zevk oldu.  MarcEdit bana çalışma fırsatı veren hakkında tutkulu olduğum şeylere bir kaşıntı çizik.  Umarım, MarcEdit-ebilmek var olmak içinde senin iş de yararlı bulabilirsiniz.  Biraz daha benim hakkımda bilmek veya ne yaptığımı görmek istiyorum bana üstünde benim blog bak veya heyecan beni izleyin çekinmeyin.</lb_AboutDesc>
+<label1>|</label1>
+<lb_Authors>Hakkımda:</lb_Authors>
+<lnkHomepage>http://marcedit.reeset.NET</lnkHomepage>
+<label5>URL:</label5>
+<label2>İlgili kaynaklar:</label2>
+<lbMod>Değiştirilme tarihi:</lbMod>
+<lbMailto>Terry Reese</lbMailto>
+<lbAuthor>Yazar:</lbAuthor>
+<lbVersion>Sürüm:</lbVersion>
+<label3>|</label3>
+<label4>MarcEdit hakkında</label4>
+<lnkLinkIds>Link tanımlayıcıları</lnkLinkIds>
+<lnkJsonObject>JSON nesnesi Görüntüleyici</lnkJsonObject>
+<lnkBibframe>BibFrame Testbed</lnkBibframe>
+<label7>|</label7>
+<label8>MARCNext:</label8>
+<this>Terry Reese tarafından MarcEdit</this>
+</MarcEdit_frmMain>
 <MarcEdit_frmOAIHarvest>
-<lbTitle>Hasat OAI veri</lbTitle><lbServer>Sunucu adresi:</lbServer><lbSet>Küme adı:</lbSet><lbMetadata>Meta veri türü:</lbMetadata><cmdOK>Tamam</cmdOK><cmdClose>Kapat</cmdClose><ck_Raw>Hasat ham veri (OAI veri yerel dosya sistemine kaydetme)</ck_Raw><lbtoken>ResumptionToken:</lbtoken><lbGetRecord>GetRecord:</lbGetRecord><label3>saniye sürdü.</label3><lbTimeout>Zaman aşımı:</lbTimeout><ck_Translate>MARC-8'e çevirmek</ck_Translate><label2>Bitiş:</label2><label1>Başlangıç:</label1><lbCrosswalk>Yaya geçidi yolu:</lbCrosswalk><lnkAdvanced>Gelişmiş ayarlar</lnkAdvanced><cmdSave>Kaydet</cmdSave><this>Meta veriler hasat</this></MarcEdit_frmOAIHarvest>
+<lbTitle>Hasat OAI veri</lbTitle>
+<lbServer>Sunucu adresi:</lbServer>
+<lbSet>Küme adı:</lbSet>
+<lbMetadata>Meta veri türü:</lbMetadata>
+<cmdOK>Tamam</cmdOK>
+<cmdClose>Kapat</cmdClose>
+<ck_Raw>Hasat ham veri (OAI veri yerel dosya sistemine kaydetme)</ck_Raw>
+<lbtoken>ResumptionToken:</lbtoken>
+<lbGetRecord>GetRecord:</lbGetRecord>
+<label3>saniye sürdü.</label3>
+<lbTimeout>Zaman aşımı:</lbTimeout>
+<ck_Translate>MARC-8'e çevirmek</ck_Translate>
+<label2>Bitiş:</label2>
+<label1>Başlangıç:</label1>
+<lbCrosswalk>Yaya geçidi yolu:</lbCrosswalk>
+<lnkAdvanced>Gelişmiş ayarlar</lnkAdvanced>
+<cmdSave>Kaydet</cmdSave>
+<this>Meta veriler hasat</this>
+</MarcEdit_frmOAIHarvest>
 <MarcEdit_frmOCLCSearchWorldCat>
-<label1>Arama WorldCat:</label1><cmbarg1>anahtar kelime</cmbarg1><cmbconditional>ve</cmbconditional><cmdSearch>Arama</cmdSearch><cmdClose>Kapat</cmdClose><label2>Sonuçlar:</label2><col_oclcnum>OCLC numarası</col_oclcnum><col_title>Başlık</col_title><ck_LocalBib>Yerel bibliyografik kayıt download</ck_LocalBib><lnkAll>Tümünü Seç</lnkAll><label3>|</label3><lnkNone>Hiçbiri</lnkNone><this>Arama OCLC WorldCat</this></MarcEdit_frmOCLCSearchWorldCat>
+<label1>Arama WorldCat:</label1>
+<cmbarg1>anahtar kelime</cmbarg1>
+<cmbconditional>ve</cmbconditional>
+<cmdSearch>Arama</cmdSearch>
+<cmdClose>Kapat</cmdClose>
+<label2>Sonuçlar:</label2>
+<col_oclcnum>OCLC numarası</col_oclcnum>
+<col_title>Başlık</col_title>
+<ck_LocalBib>Yerel bibliyografik kayıt download</ck_LocalBib>
+<lnkAll>Tümünü Seç</lnkAll>
+<label3>|</label3>
+<lnkNone>Hiçbiri</lnkNone>
+<this>Arama OCLC WorldCat</this>
+</MarcEdit_frmOCLCSearchWorldCat>
 <MarcEdit_frmOCLCUpdateHoldings>
-<label1>OCLC WorldCat Holdings Güncelleştir</label1><groupBox1>Seçenekler</groupBox1><rdDeleteHoldings>Holdings Sil</rdDeleteHoldings><rdAddHolding>Holdings Ekle</rdAddHolding><cmdProcess>İşlem</cmdProcess><cmdClose>Kapat</cmdClose><label2>Kurum kodu:</label2><label3>Sınıflandırma şeması:</label3><cmb_schema>Kongre Kütüphanesi</cmb_schema><ck_debug>Bilgi: hata ayıklama yazdırma</ck_debug><this>Güncelleştirme WorldCat holdingler</this></MarcEdit_frmOCLCUpdateHoldings>
+<label1>OCLC WorldCat Holdings Güncelleştir</label1>
+<groupBox1>Seçenekler</groupBox1>
+<rdDeleteHoldings>Holdings Sil</rdDeleteHoldings>
+<rdAddHolding>Holdings Ekle</rdAddHolding>
+<cmdProcess>İşlem</cmdProcess>
+<cmdClose>Kapat</cmdClose>
+<label2>Kurum kodu:</label2>
+<label3>Sınıflandırma şeması:</label3>
+<cmb_schema>Kongre Kütüphanesi</cmb_schema>
+<ck_debug>Bilgi: hata ayıklama yazdırma</ck_debug>
+<this>Güncelleştirme WorldCat holdingler</this>
+</MarcEdit_frmOCLCUpdateHoldings>
 <MarcEdit_frmOCLCUpload2WorldCat>
-<cmb_schema>Kongre Kütüphanesi</cmb_schema><label3>Sınıflandırma şeması:</label3><label2>Kurum kodu:</label2><cmdClose>Kapat</cmdClose><cmdProcess>İşlem</cmdProcess><label4>OCLC sayılarla bibliyografik kayıtlarını WorldCat güncelleştirilecektir.  OCLC numarasız bibliyografik kayıt-ecek var olmak mahluk içinde WorldCat.
-.</label4><label1>Kod tutarak:</label1><lnkGetHoldings>Kodları</lnkGetHoldings><ckLocalBibData>İşlem yerel bibliyografik kayıt olarak</ckLocalBibData><ck_deleterecords>Kayıtları silme</ck_deleterecords><this>Kayıtları WorldCat için upload</this></MarcEdit_frmOCLCUpload2WorldCat>
+<cmb_schema>Kongre Kütüphanesi</cmb_schema>
+<label3>Sınıflandırma şeması:</label3>
+<label2>Kurum kodu:</label2>
+<cmdClose>Kapat</cmdClose>
+<cmdProcess>İşlem</cmdProcess>
+<label4>OCLC sayılarla bibliyografik kayıtlarını WorldCat güncelleştirilecektir.  Bibliograph </label4>
+<label1>Kod tutarak:</label1>
+<lnkGetHoldings>Kodları</lnkGetHoldings>
+<ckLocalBibData>İşlem yerel bibliyografik kayıt olarak</ckLocalBibData>
+<ck_deleterecords>Kayıtları silme</ck_deleterecords>
+<this>Kayıtları WorldCat için upload</this>
+</MarcEdit_frmOCLCUpload2WorldCat>
 <MarcEdit_frmOptions>
-<cmd_options_ok>Tamam</cmd_options_ok><cmd_options_cancel>Kapat</cmd_options_cancel><cmd_options_apply>Uygula</cmd_options_apply><lnkMainWindow>Ana pencere</lnkMainWindow><lnkMarcEditor>MarcEditor</lnkMarcEditor><lnkLanguage>Dil</lnkLanguage><lnkExport>Dışa aktarma</lnkExport><lnkMarcEngine>MARCEngine</lnkMarcEngine><lnkUpdates>Güncelleştirmeleri</lnkUpdates><lnkFileAssociations>Dosya ilişkileri</lnkFileAssociations><lnkOther>Diğer</lnkOther><lnkILSIntegration>ILS entegrasyon</lnkILSIntegration><lnkOCLCAPI>OCLC API entegrasyonu</lnkOCLCAPI><label15>Varsayılan Programlar</label15><ck_enhanced_editor_loading>Gelişmiş disk belleği Yönetimi'ni kullanın</ck_enhanced_editor_loading><ckRDATemplates>BKİ şablonları kullanma</ckRDATemplates><ckCompileMarc8>Kayıtları MARC8 derlemek</ckCompileMarc8><cksaveutf8>Kayıtları UTF8 derlemek</cksaveutf8><ck_intellisense>IntelliSense etkinleştir</ck_intellisense><label2>Sayfa başına kayıt sayısı</label2><cmb_encoding>UTF8</cmb_encoding><lb_Encoding>Varsayılan kodlama:</lb_Encoding><ck_nwindow>Yeni pencerede açık dosyaları</ck_nwindow><ck_append>Yeni kayıt ekleme</ck_append><lb_psize>Önizleme Boyutu:</lb_psize><ckUsePreview>Önizleme modunu kullanma</ckUsePreview><cmd_editor_font_default>Varsayılanlarını ayarlama</cmd_editor_font_default><cmd_editor_set_font>Ayarlanmış yazı tipi</cmd_editor_set_font><lb_Editor_Font_Props>MarcEditor yazı tipi özelliklerini ayarlayabilirsiniz:</lb_Editor_Font_Props><cmd_editor_template_default>Varsayılanlarını ayarlama</cmd_editor_template_default><cmd_editor_modify>Değiştirme</cmd_editor_modify><lb_Current_Template>Geçerli şablonu:</lb_Current_Template><lb_Editor_Template>MarcEditor şablonu ayarlayın:</lb_Editor_Template><label9>* Gerektirir programı yeniden *</label9><label8>PT.</label8><label4>Yazı tipi boyutu:</label4><lb_Example>Örnek metin</lb_Example><lb_lang_font>Dil yazı tipini ayarla:</lb_lang_font><lb_Set_Lang>Dil paketi ayarlayın:</lb_Set_Lang><ck_export_output>Makbuz (yakalama ILS çıktı) verme</ck_export_output><lb_TCP_Timeout>Zaman aşımı:</lb_TCP_Timeout><lb_TCP_Port>Bağlantı noktası:</lb_TCP_Port><lb_TCP_Host>Ana bilgisayar adresi:</lb_TCP_Host><lb_TCPIP_Props>TCP/IP özellikleri:</lb_TCPIP_Props><ck_marc21>Records MARC21 biçiminde</ck_marc21><ck_marcxml_sax>Yerli seçeneği (Non-XSLT işlem)</ck_marcxml_sax><groupBox2>XSLT motoru</groupBox2><rd_Saxon>SAXON.NET</rd_Saxon><rd_MSXML>MSXML</rd_MSXML><groupBox1>Unicode normalleştirme</groupBox1><ckC>Kurallı ayrışma (C)</ckC><ckKD>Uyumluluk ayrışma (KD)</ckKD><ck_Diacritics>Kırarak vurgu kullanın</ck_Diacritics><lb_Diacritics>Genel seçenekleri:</lb_Diacritics><lb_Engine_XML_Options>XML seçenekleri:</lb_Engine_XML_Options><ck_engine_namespace>Namespace kullanma</ck_engine_namespace><lb_Global_XSLT_Path>MARCXML XSLT:</lb_Global_XSLT_Path><ckDetectProxy>Sistem proxy ayarlarını kullan</ckDetectProxy><ck_Update_Validator>Validator güncelleştirmelerini otomatik olarak denetle</ck_Update_Validator><label3>Şu anda çalışmak için bu etki alanına ait olması gerekir.</label3><groupBox4>Kullanıcı bilgileri:</groupBox4><lb_domain>Etki alanı:</lb_domain><label6>Şifre:</label6><label5>Kullanıcı adı:</label5><ckUpdates>Güncelleştirmeleri otomatik olarak denetleme</ckUpdates><groupBox5>Küme dosya ilişkileri</groupBox5><cmd_file_assoc_view>Görünüm türleri</cmd_file_assoc_view><cmd_file_assoc_delete>Silme</cmd_file_assoc_delete><cmd_file_assoc_save>Kaydetme türü</cmd_file_assoc_save><rd_file_assoc_editor>MarcEditor</rd_file_assoc_editor><rd_file_assoc_maker>MarcMaker</rd_file_assoc_maker><rd_file_assoc_breaker>MarcBreaker</rd_file_assoc_breaker><label7>Associate (*.                      ) dosyası türü:</label7><ck_mrk8_editor>(*.Mrk8) dosyaları MarcEditor ile ilişkilendirme</ck_mrk8_editor><ck_mrk_editor>(*.Mrk) dosyaları MarcEditor ile ilişkilendirme</ck_mrk_editor><ck_mrc>(*.Mrc) dosyaları MarcBreaker ile ilişkilendirme</ck_mrc><label26>Görev klasörü:</label26><label25>Ağ klasörleri:</label25><ck_allow_z3950>Z39.50 işlevleri etkinleştir</ck_allow_z3950><label1>Kontrol numarası etiketi:</label1><lbCall>Yer numarası etiketi:</lbCall><lb_mono>MONO yolu:</lb_mono><lb_Author>Yazar etiketi:</lb_Author><lb_title>Başlık etiketi:</lb_title><lb_temp>Geçici yol ayarlayın:</lb_temp><ck_rss>Oku RSS beslemesi</ck_rss><ck_ignore_ssl>SSL sertifika hataları yoksay</ck_ignore_ssl><lnk_ils_delete>Sil</lnk_ils_delete><label14>|</label14><lnk_ils_z3950_edit>Düzenle</lnk_ils_z3950_edit><ck_ils_z3950>Z39.50 ayarlarını kullan</ck_ils_z3950><ck_ils_enable>ILS seçeneklerini etkinleştirme</ck_ils_enable><label13>Ana bilgisayar adı:</label13><label12>Şifre:</label12><label11>Kullanıcı adı:</label11><label10>Sistem seçin:</label10><lnkGetCodes>Kodları tutan elde</lnkGetCodes><label24>Kod tutarak:</label24><cmb_schema>Kongre Kütüphanesi</cmb_schema><label22>Sınıflandırma şeması:</label22><label23>Kurum kodu:</label23><ckshow>Metni göster</ckshow><cmdValidateKeys>Anahtar taşı sağlam temele oturtulmuş</cmdValidateKeys><linkLabel1>İstek/an OCLC anahtar (OCLC için bağlar) Yönet</linkLabel1><label21>OCLC API anahtarı ayarları</label21><label20>principalIDNS</label20><label19>PrincipalID</label19><label18>Gizli anahtar (meta veri API anahtarı ile eşleştirilmiş)</label18><label17>OCLC meta veri API anahtarı</label17><label16>OCLC arama API anahtarı</label16><this>MarcEdit tercihleri</this></MarcEdit_frmOptions>
+<cmd_options_ok>Tamam</cmd_options_ok>
+<cmd_options_cancel>Kapat</cmd_options_cancel>
+<cmd_options_apply>Uygula</cmd_options_apply>
+<lnkMainWindow>Ana pencere</lnkMainWindow>
+<lnkMarcEditor>MarcEditor</lnkMarcEditor>
+<lnkLanguage>Dil</lnkLanguage>
+<lnkExport>Dışa aktarma</lnkExport>
+<lnkMarcEngine>MARCEngine</lnkMarcEngine>
+<lnkUpdates>Güncelleştirmeleri</lnkUpdates>
+<lnkFileAssociations>Dosya ilişkileri</lnkFileAssociations>
+<lnkOther>Diğer</lnkOther>
+<lnkILSIntegration>ILS entegrasyon</lnkILSIntegration>
+<lnkOCLCAPI>OCLC API entegrasyonu</lnkOCLCAPI>
+<label15>Varsayılan Programlar</label15>
+<ck_enhanced_editor_loading>Gelişmiş disk belleği Yönetimi'ni kullanın</ck_enhanced_editor_loading>
+<ckRDATemplates>BKİ şablonları kullanma</ckRDATemplates>
+<ckCompileMarc8>Kayıtları MARC8 derlemek</ckCompileMarc8>
+<cksaveutf8>Kayıtları UTF8 derlemek</cksaveutf8>
+<ck_intellisense>IntelliSense etkinleştir</ck_intellisense>
+<label2>Sayfa başına kayıt sayısı</label2>
+<cmb_encoding>UTF8</cmb_encoding>
+<lb_Encoding>Varsayılan kodlama:</lb_Encoding>
+<ck_nwindow>Yeni pencerede açık dosyaları</ck_nwindow>
+<ck_append>Yeni kayıt ekleme</ck_append>
+<lb_psize>Önizleme Boyutu:</lb_psize>
+<ckUsePreview>Önizleme modunu kullanma</ckUsePreview>
+<cmd_editor_font_default>Varsayılanlarını ayarlama</cmd_editor_font_default>
+<cmd_editor_set_font>Ayarlanmış yazı tipi</cmd_editor_set_font>
+<lb_Editor_Font_Props>MarcEditor yazı tipi özelliklerini ayarlayabilirsiniz:</lb_Editor_Font_Props>
+<cmd_editor_template_default>Varsayılanlarını ayarlama</cmd_editor_template_default>
+<cmd_editor_modify>Değiştirme</cmd_editor_modify>
+<lb_Current_Template>Geçerli şablonu:</lb_Current_Template>
+<lb_Editor_Template>MarcEditor şablonu ayarlayın:</lb_Editor_Template>
+<label9>* Gerektirir programı yeniden *</label9>
+<label8>PT.</label8>
+<label4>Yazı tipi boyutu:</label4>
+<lb_Example>Örnek metin</lb_Example>
+<lb_lang_font>Dil yazı tipini ayarla:</lb_lang_font>
+<lb_Set_Lang>Dil paketi ayarlayın:</lb_Set_Lang>
+<ck_export_output>Makbuz (yakalama ILS çıktı) verme</ck_export_output>
+<lb_TCP_Timeout>Zaman aşımı:</lb_TCP_Timeout>
+<lb_TCP_Port>Bağlantı noktası:</lb_TCP_Port>
+<lb_TCP_Host>Ana bilgisayar adresi:</lb_TCP_Host>
+<lb_TCPIP_Props>TCP/IP özellikleri:</lb_TCPIP_Props>
+<ck_marc21>Records MARC21 biçiminde</ck_marc21>
+<ck_marcxml_sax>Yerli seçeneği (Non-XSLT işlem)</ck_marcxml_sax>
+<groupBox2>XSLT motoru</groupBox2>
+<rd_Saxon>SAXON.NET</rd_Saxon>
+<rd_MSXML>MSXML</rd_MSXML>
+<groupBox1>Unicode normalleştirme</groupBox1>
+<ckC>Kurallı ayrışma (C)</ckC>
+<ckKD>Uyumluluk ayrışma (KD)</ckKD>
+<ck_Diacritics>Kırarak vurgu kullanın</ck_Diacritics>
+<lb_Diacritics>Genel seçenekleri:</lb_Diacritics>
+<lb_Engine_XML_Options>XML seçenekleri:</lb_Engine_XML_Options>
+<ck_engine_namespace>Namespace kullanma</ck_engine_namespace>
+<lb_Global_XSLT_Path>MARCXML XSLT:</lb_Global_XSLT_Path>
+<ckDetectProxy>Sistem proxy ayarlarını kullan</ckDetectProxy>
+<ck_Update_Validator>Validator güncelleştirmelerini otomatik olarak denetle</ck_Update_Validator>
+<label3>Şu anda çalışmak için bu etki alanına ait olması gerekir.</label3>
+<groupBox4>Kullanıcı bilgileri:</groupBox4>
+<lb_domain>Etki alanı:</lb_domain>
+<label6>Şifre:</label6>
+<label5>Kullanıcı adı:</label5>
+<ckUpdates>Güncelleştirmeleri otomatik olarak denetleme</ckUpdates>
+<groupBox5>Küme dosya ilişkileri</groupBox5>
+<cmd_file_assoc_view>Görünüm türleri</cmd_file_assoc_view>
+<cmd_file_assoc_delete>Silme</cmd_file_assoc_delete>
+<cmd_file_assoc_save>Kaydetme türü</cmd_file_assoc_save>
+<rd_file_assoc_editor>MarcEditor</rd_file_assoc_editor>
+<rd_file_assoc_maker>MarcMaker</rd_file_assoc_maker>
+<rd_file_assoc_breaker>MarcBreaker</rd_file_assoc_breaker>
+<label7>Associate (*.                      ) dosyası türü:</label7>
+<ck_mrk8_editor>(*.Mrk8) dosyaları MarcEditor ile ilişkilendirme</ck_mrk8_editor>
+<ck_mrk_editor>(*.Mrk) dosyaları MarcEditor ile ilişkilendirme</ck_mrk_editor>
+<ck_mrc>(*.Mrc) dosyaları MarcBreaker ile ilişkilendirme</ck_mrc>
+<label26>Görev klasörü:</label26>
+<label25>Ağ klasörleri:</label25>
+<ck_allow_z3950>Z39.50 işlevleri etkinleştir</ck_allow_z3950>
+<label1>Kontrol numarası etiketi:</label1>
+<lbCall>Yer numarası etiketi:</lbCall>
+<lb_mono>MONO yolu:</lb_mono>
+<lb_Author>Yazar etiketi:</lb_Author>
+<lb_title>Başlık etiketi:</lb_title>
+<lb_temp>Geçici yol ayarlayın:</lb_temp>
+<ck_rss>Oku RSS beslemesi</ck_rss>
+<ck_ignore_ssl>SSL sertifika hataları yoksay</ck_ignore_ssl>
+<lnk_ils_delete>Sil</lnk_ils_delete>
+<label14>|</label14>
+<lnk_ils_z3950_edit>Düzenle</lnk_ils_z3950_edit>
+<ck_ils_z3950>Z39.50 ayarlarını kullan</ck_ils_z3950>
+<ck_ils_enable>ILS seçeneklerini etkinleştirme</ck_ils_enable>
+<label13>Ana bilgisayar adı:</label13>
+<label12>Şifre:</label12>
+<label11>Kullanıcı adı:</label11>
+<label10>Sistem seçin:</label10>
+<lnkGetCodes>Kodları tutan elde</lnkGetCodes>
+<label24>Kod tutarak:</label24>
+<cmb_schema>Kongre Kütüphanesi</cmb_schema>
+<label22>Sınıflandırma şeması:</label22>
+<label23>Kurum kodu:</label23>
+<ckshow>Metni göster</ckshow>
+<cmdValidateKeys>Anahtar taşı sağlam temele oturtulmuş</cmdValidateKeys>
+<linkLabel1>İstek/an OCLC anahtar (OCLC için bağlar) Yönet</linkLabel1>
+<label21>OCLC API anahtarı ayarları</label21>
+<label20>principalIDNS</label20>
+<label19>PrincipalID</label19>
+<label18>Gizli anahtar (meta veri API anahtarı ile eşleştirilmiş)</label18>
+<label17>OCLC meta veri API anahtarı</label17>
+<label16>OCLC arama API anahtarı</label16>
+<this>MarcEdit tercihleri</this>
+</MarcEdit_frmOptions>
 <MarcEdit_frmPluginManager>
-<label1>Kullanılabilir eklentiler:</label1><ch1>Eklenti adı</ch1><ch2>URL</ch2><c3>Dosya boyutu</c3><cmddownload>Download</cmddownload><cmdClose>Kapat</cmdClose><columnHeader1>Kaldırılsın mı?</columnHeader1><columnHeader2>Eklenti adı</columnHeader2><columnHeader3>Sınıf adı</columnHeader3><label2>Yüklü eklentiler:</label2><cmdRemove>Kaldır</cmdRemove><c4>Sürüm #:</c4><columnHeader4>Sürüm #:</columnHeader4><this>Eklenti Yöneticisi</this></MarcEdit_frmPluginManager>
+<label1>Kullanılabilir eklentiler:</label1>
+<ch1>Eklenti adı</ch1>
+<ch2>URL</ch2>
+<c3>Dosya boyutu</c3>
+<cmddownload>Download</cmddownload>
+<cmdClose>Kapat</cmdClose>
+<columnHeader1>Kaldırılsın mı?</columnHeader1>
+<columnHeader2>Eklenti adı</columnHeader2>
+<columnHeader3>Sınıf adı</columnHeader3>
+<label2>Yüklü eklentiler:</label2>
+<cmdRemove>Kaldır</cmdRemove>
+<c4>Sürüm #:</c4>
+<columnHeader4>Sürüm #:</columnHeader4>
+<this>Eklenti Yöneticisi</this>
+</MarcEdit_frmPluginManager>
 <MarcEdit_frmQueryLite>
-<ck_batch>Toplu iş arama</ck_batch><lbdbtitle>Label2</lbdbtitle><groupBox3>Sonuçları</groupBox3><lnkDownload>Tüm öğeleri yükleme</lnkDownload><lnkClearResults>Net sonuçlar</lnkClearResults><lnkGetNext>Sonraki {sınırı}</lnkGetNext><col1>Pozisyon</col1><col2>Başlık</col2><groupBox1>Seçenekler</groupBox1><lb_encoding_single>Sunucu karakter kümesi</lb_encoding_single><cmd_encoding>MARC8</cmd_encoding><ckUnicode>Unicode almak</ckUnicode><rdEditDB>Veritabanı Seç</rdEditDB><rdEditSettings>Ayarları Düzenle</rdEditSettings><lbSearchb>Arama:</lbSearchb><lbSearch>Sorgu veritabanı:</lbSearch><MCol3>KİMLİĞİ</MCol3><MCol1>Adı</MCol1><MCol2>Türü</MCol2><lb_PModifyTitle>Veritabanını seçin:</lb_PModifyTitle><downloadSelectedItemsToolStripMenuItem>Seçili öğeleri yükleme</downloadSelectedItemsToolStripMenuItem><this>Z39.50 yakalama</this></MarcEdit_frmQueryLite>
+<ck_batch>Toplu iş arama</ck_batch>
+<lbdbtitle>Label2</lbdbtitle>
+<groupBox3>Sonuçları</groupBox3>
+<lnkDownload>Tüm öğeleri yükleme</lnkDownload>
+<lnkClearResults>Net sonuçlar</lnkClearResults>
+<lnkGetNext>Sonraki {sınırı}</lnkGetNext>
+<col1>Pozisyon</col1>
+<col2>Başlık</col2>
+<groupBox1>Seçenekler</groupBox1>
+<lb_encoding_single>Sunucu karakter kümesi</lb_encoding_single>
+<cmd_encoding>MARC8</cmd_encoding>
+<ckUnicode>Unicode almak</ckUnicode>
+<rdEditDB>Veritabanı Seç</rdEditDB>
+<rdEditSettings>Ayarları Düzenle</rdEditSettings>
+<lbSearchb>Arama:</lbSearchb>
+<lbSearch>Sorgu veritabanı:</lbSearch>
+<MCol3>KİMLİĞİ</MCol3>
+<MCol1>Adı</MCol1>
+<MCol2>Türü</MCol2>
+<lb_PModifyTitle>Veritabanını seçin:</lb_PModifyTitle>
+<downloadSelectedItemsToolStripMenuItem>Seçili öğeleri yükleme</downloadSelectedItemsToolStripMenuItem>
+<this>Z39.50 yakalama</this>
+</MarcEdit_frmQueryLite>
 <MarcEdit_frmRDA>
-<ck_040>040--değiştirmek $erda Ekle</ck_040><ck_qualifyinginfo>Bilgi (015/020/024/027) Eleme</ck_qualifyinginfo><label5>|</label5><lnkEdit>Listeyi düzenleme</lnkEdit><ck_dgmd>GMD Sil</ck_dgmd><ckAbbrev>Kısaltmalar genişletin</ckAbbrev><ckgmd>GMD oluşturmak</ckgmd><ck264>260/264 değerlendirmek</ck264><ck381>381--eklemek diğer</ck381><ck380>380--ekleme Formu çalışma</ck380><ck347>347... eklemek Dijital özellikleri</ck347><ck346>346--Ekle Video özellikleri</ck346><ck345>345--Proj ekleyin. Özellikleri</ck345><ck344>344--Ekle Ses özellikleri</ck344><ck337>337--Ekle Medya türü
-338--Ekle Taşıyıcı türü</ck337><ck336>336--Ekle İçerik türü</ck336><cmdProcess>Tamam</cmdProcess><cmdClose>Kapat</cmdClose><label1>Kaynak:</label1><label2>Hedef:</label2><lnkAll>Tüm</lnkAll><label3>Seçin:</label3><label4>|</label4><lnkNone>Hiçbiri</lnkNone><ck_signs>Her zaman kullanma ©, ℗ sembolleri</ck_signs><this>BKİ yardımcı</this></MarcEdit_frmRDA>
+<ck_040>040--değiştirmek $erda Ekle</ck_040>
+<ck_qualifyinginfo>Bilgi (015/020/024/027) Eleme</ck_qualifyinginfo>
+<label5>|</label5>
+<lnkEdit>Listeyi düzenleme</lnkEdit>
+<ck_dgmd>GMD Sil</ck_dgmd>
+<ckAbbrev>Kısaltmalar genişletin</ckAbbrev>
+<ckgmd>GMD oluşturmak</ckgmd>
+<ck264>260/264 değerlendirmek</ck264>
+<ck381>381--eklemek diğer</ck381>
+<ck380>380--ekleme Formu çalışma</ck380>
+<ck347>347... eklemek Dijital özellikleri</ck347>
+<ck346>346--Ekle Video özellikleri</ck346>
+<ck345>345--Proj ekleyin. Özellikleri</ck345>
+<ck344>344--Ekle Ses özellikleri</ck344>
+<ck337>337--Ekle Medya türü
+338--Ekle Taşıyıcı türü</ck337>
+<ck336>336--Ekle İçerik türü</ck336>
+<cmdProcess>Tamam</cmdProcess>
+<cmdClose>Kapat</cmdClose>
+<label1>Kaynak:</label1>
+<label2>Hedef:</label2>
+<lnkAll>Tüm</lnkAll>
+<label3>Seçin:</label3>
+<label4>|</label4>
+<lnkNone>Hiçbiri</lnkNone>
+<ck_signs>Her zaman kullanma ©, ℗ sembolleri</ck_signs>
+<this>BKİ yardımcı</this>
+</MarcEdit_frmRDA>
 <MarcEdit_frmResults>
-<cmd_Close>Kapat</cmd_Close><rEdit></rEdit><this>Sonuçları</this></MarcEdit_frmResults>
+<cmd_Close>Kapat</cmd_Close>
+<rEdit></rEdit>
+<this>Sonuçları</this>
+</MarcEdit_frmResults>
 <MarcEdit_frmRobertCompare>
-<lnkHome>Ana sayfa</lnkHome><label5>O zaman o henüz Başlık doktor kazanmak olmasına rağmen RobertCompare Dr. Robert Ellett, aklını ilk olarak tasarlandı.  Programları belirli kullanıcı ihtiyaçlarını karşılamak için çok nadiren oluştururum.  Her zaman MarcEdit araçları, genelleştirilebilir bir yaklaşımla ele geçirdik ve büyük ölçüde, belirli bir projeye bağlı değil.  RobertCompare farklı.  Aracın yaptığı doktora tezleri ve yalnızca, daha geniş kullanım için Genelleştirilmiş tamamlanmasından sonra Bay Ellett'sresearch desteklemek için oluşturulmuştur. 
-onun ders çalışmaya gelmişti.  Bu Bob düzenli olarak bana sahasında poke bir şey, program son derece karmaşık ve olmadan istiyor, ne zaman Bob vefat etti geçen yıl değiştirildi convertingWell, millet.  Ben Bob çok sevdim..... immeasurablyback olduğunu...Arkadaşım hatırlatacak bir şey yapmak istedim.  Bu daha çok zaman aldı, devamsızlık, beklediğimden RobertCompare MarcEdit yeniden dahil.  Millet onu arkadaşım elmalı bulabilirsiniz umuyoruz.   Sağ ol Bob.
-TR--</label5><label4>RobertCompare hakkında</label4><label3>|</label3><lnkAbout>RobertCompare hakkında</lnkAbout><cmdClose>Kapat</cmdClose><cmdExecute>Yürütmek</cmdExecute><label1>Dosyayı kaydedin:</label1><label6>Dosyaları karşılaştırın:</label6><label2>MARCCompare MARC dosyalar arasındaki farkları belirlemek için özel bir aracı var.  Program kullanmak için bir kayıt kümesi sürümlerini karşılaştırmak için iki MARC dosyaları seçin.  Tarihinde aracı hakkında daha fazla bilgi için veya nasıl isim var, lütfen sayfa hakkında bakın.</label2><this>MARCCompare/RobertCompare</this></MarcEdit_frmRobertCompare>
+<lnkHome>Ana sayfa</lnkHome>
+<label5>O zaman o henüz Başlık doktor kazanmak olmasına rağmen RobertCompare Dr. Robert Ellett, aklını ilk olarak tasarlandı.  Programları belirli kullanıcı ihtiyaçlarını karşılamak için çok nadiren oluştururum.  Her zaman MarcEdit araçları, genelleştirilebilir bir yaklaşımla ele geçirdik ve büyük ölçüde, belirli bir projeye bağlı değil.  RobertCompare farklı.  Aracın yaptığı doktora tezleri ve yalnızca, daha geniş kullanım için Genelleştirilmiş tamamlanmasından sonra Bay Ellett'ın araştırmaları desteklemek için oluşturulmuştur. 
+ Ben MarcEdit 4.x 5.x codebase taşındı, akışına görünüyordu, çünkü bu uygulama düşürdüm.  Bu Bob düzenli olarak bana zaman zaman poke hakkında bir şey--sanırım fikri tekmeleme RobertCompare seviyordu. Tabii ki, program son derece karmaşık ve bunu isteyen millet kod derlemesinden C# dönüştürme üstlenilen bir güzel dik oldu.
+ Geçen yıl ne zaman Bob vefat değişti.  Bob çok hoşuma gitti, o çok nazik ve geçinmesi kolay idi.  Onun geçtikten sonra RobertCompare geri getirmek istedim karar verdi...Arkadaşım hatırlatacak bir şey yapmak istedim.  Bu, kısmen bir hareket, iş değişikliği ve kod karmaşıklığı nedeniyle beklediğimden çok daha fazla zaman almıştır.  Ancak, uzun bir aradan sonra RobertCompare MarcEdit tekrar takdim.  Umarım millet olarak arkadaşım olarak yararlı bulabilirsiniz.   Sağ ol Bob.
+TR--</label5>
+<label4>RobertCompare hakkında</label4>
+<label3>|</label3>
+<lnkAbout>RobertCompare hakkında</lnkAbout>
+<cmdClose>Kapat</cmdClose>
+<cmdExecute>Yürütmek</cmdExecute>
+<label1>Dosyayı kaydedin:</label1>
+<label6>Dosyaları karşılaştırın:</label6>
+<label2>MARCCompare MARC dosyalar arasındaki farkları belirlemek için özel bir aracı var.  Programı kullanmak için bir kayıt kümesi sürümlerini karşılaştırmak için iki MARC dosyaları seçin.  Aracı ya da başka bir şey nasıl bu ismin tarihi hakkında daha fazla bilgi için lütfen sayfa hakkında bkz.</label2>
+<this>MARCCompare/RobertCompare</this>
+</MarcEdit_frmRobertCompare>
 <MarcEdit_frmScript>
-<ColumnHeader2>Çizgi</ColumnHeader2><btnOk>Derleme</btnOk><ColumnHeader1>Hata</ColumnHeader1><btnCancel>Kapat</btnCancel><this>Komut dosyasını Düzenle</this></MarcEdit_frmScript>
+<ColumnHeader2>Çizgi</ColumnHeader2>
+<btnOk>Derleme</btnOk>
+<ColumnHeader1>Hata</ColumnHeader1>
+<btnCancel>Kapat</btnCancel>
+<this>Komut dosyasını Düzenle</this>
+</MarcEdit_frmScript>
 <MarcEdit_frmSearchXML>
-<cName>Yaya geçidi adı</cName><cAuthor>Tarafından gönderildi</cAuthor><cModified>Son değiştirilme tarihi</cModified><label1>Sonuçlar:</label1><cmdDownload>Download</cmdDownload><cmdCancel>İptal</cmdCancel><cmdView>Görünüm</cmdView><lnkViewAll>Bütün Crosswalks göster</lnkViewAll><this>XSLT yaya geçidi arama sonuçları</this></MarcEdit_frmSearchXML>
+<cName>Yaya geçidi adı</cName>
+<cAuthor>Tarafından gönderildi</cAuthor>
+<cModified>Son değiştirilme tarihi</cModified>
+<label1>Sonuçlar:</label1>
+<cmdDownload>Download</cmdDownload>
+<cmdCancel>İptal</cmdCancel>
+<cmdView>Görünüm</cmdView>
+<lnkViewAll>Bütün Crosswalks göster</lnkViewAll>
+<this>XSLT yaya geçidi arama sonuçları</this>
+</MarcEdit_frmSearchXML>
 <MarcEdit_frmSelectMARCRecords>
-<columnHeader1>Kayıt numarası</columnHeader1><columnHeader2>Görüntüleme alanı</columnHeader2><selectItemsToolStripMenuItem>Öğe seçme</selectItemsToolStripMenuItem><cmdImport>Alma dosyası</cmdImport><cmdfDelete>Sil seçili</cmdfDelete><cmdExport>Seçilen dışa aktarma</cmdExport><cmdExit>Çıkış</cmdExit><lb_Search>Arama:</lb_Search><lb_DisplayField>Görüntüleme alanı:</lb_DisplayField><lb_SourceFile>MARC dosya kaynağı:</lb_SourceFile><ckSource>Kaynağındaki değiştirilmiş kayıtlar yeniden kaydedin</ckSource><ck_retain>İşaretlenmiş öğeleri koru</ck_retain><cmd_Generate>Raporu Oluştur</cmd_Generate><ck_find_all>Tüm veri kaydı arama</ck_find_all><ck_use_regex>Normal ifadeleri kullanma</ck_use_regex><this>MarcEdit.NET: Seçilen MARC kayıtları değiştirme</this></MarcEdit_frmSelectMARCRecords>
+<columnHeader1>Kayıt numarası</columnHeader1>
+<columnHeader2>Görüntüleme alanı</columnHeader2>
+<selectItemsToolStripMenuItem>Öğe seçme</selectItemsToolStripMenuItem>
+<cmdImport>Alma dosyası</cmdImport>
+<cmdfDelete>Sil seçili</cmdfDelete>
+<cmdExport>Seçilen dışa aktarma</cmdExport>
+<cmdExit>Çıkış</cmdExit>
+<lb_Search>Arama:</lb_Search>
+<lb_DisplayField>Görüntüleme alanı:</lb_DisplayField>
+<lb_SourceFile>MARC dosya kaynağı:</lb_SourceFile>
+<ckSource>Kaynağındaki değiştirilmiş kayıtlar yeniden kaydedin</ckSource>
+<ck_retain>İşaretlenmiş öğeleri koru</ck_retain>
+<cmd_Generate>Raporu Oluştur</cmd_Generate>
+<ck_find_all>Tüm veri kaydı arama</ck_find_all>
+<ck_use_regex>Normal ifadeleri kullanma</ck_use_regex>
+<this>MarcEdit.NET: Seçilen MARC kayıtları değiştirme</this>
+</MarcEdit_frmSelectMARCRecords>
 <MarcEdit_frmSort>
-<lb_title>Sıralama dan çıkarılacak alanları seçin</lb_title><lb_fields>Sıralama alanları:</lb_fields><lbExclude>Alanları dışlayın:</lbExclude><cmd_OK>Tamam</cmd_OK><cmd_Close>Kapat</cmd_Close><this>Özel Sıralama Sihirbazı</this></MarcEdit_frmSort>
+<lb_title>Sıralama dan çıkarılacak alanları seçin</lb_title>
+<lb_fields>Sıralama alanları:</lb_fields>
+<lbExclude>Alanları dışlayın:</lbExclude>
+<cmd_OK>Tamam</cmd_OK>
+<cmd_Close>Kapat</cmd_Close>
+<this>Özel Sıralama Sihirbazı</this>
+</MarcEdit_frmSort>
 <MarcEdit_frmSpecial_Formats>
-<lb_title>CD-ISIS MARC çeviri =&gt;</lb_title><groupBox1>Kullanıcı girişi</groupBox1><lb_output>Çıkış dosyası:</lb_output><lb_input>Giriş dosyası:</lb_input><groupBox2>Seçenekler:</groupBox2><rd_advanced>Gelişmiş çeviri</rd_advanced><rd_simple>Basit çeviri</rd_simple><lb_subfield>Alt alanı işaretçisi</lb_subfield><cmd_Ok>Tamam</cmd_Ok><cmd_Close>Kapat</cmd_Close><this>CD-ISIS .iso MARC çeviri =&gt;</this></MarcEdit_frmSpecial_Formats>
+<lb_title>CD-ISIS MARC çeviri =&gt;</lb_title>
+<groupBox1>Kullanıcı girişi</groupBox1>
+<lb_output>Çıkış dosyası:</lb_output>
+<lb_input>Giriş dosyası:</lb_input>
+<groupBox2>Seçenekler:</groupBox2>
+<rd_advanced>Gelişmiş çeviri</rd_advanced>
+<rd_simple>Basit çeviri</rd_simple>
+<lb_subfield>Alt alanı işaretçisi</lb_subfield>
+<cmd_Ok>Tamam</cmd_Ok>
+<cmd_Close>Kapat</cmd_Close>
+<this>CD-ISIS .iso MARC çeviri =&gt;</this>
+</MarcEdit_frmSpecial_Formats>
 <MarcEdit_frmSpecific_Options>
-<lb_title>Seçenekler:</lb_title><lnkLoad>Yük alan eşlemeleri</lnkLoad><ck_indicators>Gösterge Ekle</ck_indicators><ckLDR>Doğru LDRs</ckLDR><ck_subfield>Önde gelen alt alan ekleme</ck_subfield><cmdOK>Tamam</cmdOK><cmdClose>Kapat</cmdClose><this>Gelişmiş Seçenekler</this></MarcEdit_frmSpecific_Options>
+<lb_title>Seçenekler:</lb_title>
+<lnkLoad>Yük alan eşlemeleri</lnkLoad>
+<ck_indicators>Gösterge Ekle</ck_indicators>
+<ckLDR>Doğru LDRs</ckLDR>
+<ck_subfield>Önde gelen alt alan ekleme</ck_subfield>
+<cmdOK>Tamam</cmdOK>
+<cmdClose>Kapat</cmdClose>
+<this>Gelişmiş Seçenekler</this>
+</MarcEdit_frmSpecific_Options>
 <MarcEdit_frmStatus>
-<lbCaption>Label1</lbCaption><cmdCancel>İptal</cmdCancel></MarcEdit_frmStatus>
+<lbCaption>Label1</lbCaption>
+<cmdCancel>İptal</cmdCancel>
+</MarcEdit_frmStatus>
 <MarcEdit_frmSymbols>
-<Label1>Özel karakterler:</Label1><_CharC_0>A</_CharC_0><_CharC_1>A</_CharC_1><_CharC_2>A</_CharC_2><_CharC_3>A</_CharC_3><_CharC_4>A</_CharC_4><_CharC_5>A</_CharC_5><_CharC_6>A</_CharC_6><_CharC_7>A</_CharC_7><_CharC_8>A</_CharC_8><_CharC_9>A</_CharC_9><_CharC_10>A</_CharC_10><_CharC_11>A</_CharC_11><_CharC_12>A</_CharC_12><_CharC_13>A</_CharC_13><_CharC_14>A</_CharC_14><_CharC_15>A</_CharC_15><_CharC_16>A</_CharC_16><_CharC_17>A</_CharC_17><_CharC_18>A</_CharC_18><_CharC_19>A</_CharC_19><_CharC_20>A</_CharC_20><_CharC_21>A</_CharC_21><_CharC_22>A</_CharC_22><_CharC_23>A</_CharC_23><_CharC_24>A</_CharC_24><_CharC_25>A</_CharC_25><_CharC_26>A</_CharC_26><_CharC_27>A</_CharC_27><_CharC_28>A</_CharC_28><_CharC_29>A</_CharC_29><_CharC_30>A</_CharC_30><_CharC_31>A</_CharC_31><_CharC_32>A</_CharC_32><_CharC_33>A</_CharC_33><_CharC_34>A</_CharC_34><_CharC_35>A</_CharC_35><_CharC_36>A</_CharC_36><_CharC_37>A</_CharC_37><_CharC_38>A</_CharC_38><_CharC_39>A</_CharC_39><_CharC_40>A</_CharC_40><_CharC_41>A</_CharC_41><_CharC_42>A</_CharC_42><_CharC_43>A</_CharC_43><_CharC_44>A</_CharC_44><_CharC_45>A</_CharC_45><_CharC_46>A</_CharC_46><_CharC_47>A</_CharC_47><_CharC_48>A</_CharC_48><_CharC_49>A</_CharC_49><_CharC_50>A</_CharC_50><_CharC_51>A</_CharC_51><_CharC_52>A</_CharC_52><_CharC_53>A</_CharC_53><_CharC_54>A</_CharC_54><_CharC_55>A</_CharC_55><_CharC_56>A</_CharC_56><_CharC_57>A</_CharC_57><_CharC_58>A</_CharC_58><_CharC_59>A</_CharC_59><_CharC_60>A</_CharC_60><_CharC_61>A</_CharC_61><_CharC_62>A</_CharC_62><_CharC_63>A</_CharC_63><_CharC_64>A</_CharC_64><_CharC_65>A</_CharC_65><_CharC_66>A</_CharC_66><_CharC_67>A</_CharC_67><_CharC_68>A</_CharC_68><_CharC_69>A</_CharC_69><_CharC_70>A</_CharC_70><_CharC_71>A</_CharC_71><_CharC_72>A</_CharC_72><_CharC_73>A</_CharC_73><_CharC_74>A</_CharC_74><_CharC_75>A</_CharC_75><_CharC_76>A</_CharC_76><_CharC_77>A</_CharC_77><_CharC_78>A</_CharC_78><_CharC_79>A</_CharC_79><_CharC_80>A</_CharC_80><_CharC_81>A</_CharC_81><_CharC_82>A</_CharC_82><_CharC_83>A</_CharC_83><_CharC_84>A</_CharC_84><_CharC_85>A</_CharC_85><_CharC_86>A</_CharC_86><_CharC_87>A</_CharC_87><_CharC_88>A</_CharC_88><_CharC_89>A</_CharC_89><_CharC_90>A</_CharC_90><_CharC_91>A</_CharC_91><_CharC_92>A</_CharC_92><_CharC_93>A</_CharC_93><_CharC_94>A</_CharC_94><_CharC_95>A</_CharC_95><_CharC_96>A</_CharC_96><_CharC_97>A</_CharC_97><_CharC_98>A</_CharC_98><_CharC_99>A</_CharC_99><_CharC_100>A</_CharC_100><_CharC_101>A</_CharC_101><_CharC_102>A</_CharC_102><_CharC_103>A</_CharC_103><_CharC_104>A</_CharC_104><_CharC_105>A</_CharC_105><_CharC_106>A</_CharC_106><_CharC_107>A</_CharC_107><_CharC_108>A</_CharC_108><_CharC_109>A</_CharC_109><_CharC_110>A</_CharC_110><_CharC_111>A</_CharC_111><_CharC_112>A</_CharC_112><_CharC_113>A</_CharC_113><_CharC_114>A</_CharC_114><_CharC_115>A</_CharC_115><_CharC_116>A</_CharC_116><_CharC_117>A</_CharC_117><_CharC_118>A</_CharC_118><_CharC_119>A</_CharC_119><_CharC_120>A</_CharC_120><_CharC_121>A</_CharC_121><_CharC_122>A</_CharC_122><_CharC_123>A</_CharC_123><_CharC_124>A</_CharC_124><_CharC_125>A</_CharC_125><_CharC_126>A</_CharC_126><_CharC_127>A</_CharC_127><_CharC_128>A</_CharC_128><_CharC_129>A</_CharC_129><_CharC_130>A</_CharC_130><_CharC_131>A</_CharC_131><_CharC_132>A</_CharC_132><_CharC_133>A</_CharC_133><_CharC_134>A</_CharC_134><_CharC_135>A</_CharC_135><_CharC_136>A</_CharC_136><_CharC_137>A</_CharC_137><_CharC_138>A</_CharC_138><_CharC_139>A</_CharC_139><_CharC_140>A</_CharC_140><_CharC_141>A</_CharC_141><_CharC_142>A</_CharC_142><_CharC_143>A</_CharC_143><_CharC_144>A</_CharC_144><_CharC_145>A</_CharC_145><_CharC_146>A</_CharC_146><_CharC_147>A</_CharC_147><_CharC_148>A</_CharC_148><_CharC_154>A</_CharC_154><_CharC_155>A</_CharC_155><_CharC_160>A</_CharC_160><_CharC_161>A</_CharC_161><_CharC_162>A</_CharC_162><_CharC_163>A</_CharC_163><_CharC_164>A</_CharC_164><_CharC_165>A</_CharC_165><_CharC_166>A</_CharC_166><_CharC_149>A</_CharC_149><_CharC_150>A</_CharC_150><_CharC_151>A</_CharC_151><_CharC_152>A</_CharC_152><_CharC_153>A</_CharC_153><_CharC_156>A</_CharC_156><_CharC_157>A</_CharC_157><_CharC_158>A</_CharC_158><_CharC_159>A</_CharC_159><_CharC_167>A</_CharC_167><_CharC_168>A</_CharC_168><_CharC_169>A</_CharC_169><_CharC_170>A</_CharC_170><_CharC_171>A</_CharC_171><_CharC_172>A</_CharC_172><_CharC_173>A</_CharC_173><_CharC_174>A</_CharC_174><_CharC_175>A</_CharC_175><_CharC_176>A</_CharC_176><_CharC_177>A</_CharC_177><_CharC_178>A</_CharC_178><_CharC_179>A</_CharC_179><_CharC_180>A</_CharC_180><_CharC_181>A</_CharC_181><_CharC_182>A</_CharC_182><_CharC_183>A</_CharC_183><_CharC_184>A</_CharC_184><_CharC_185>A</_CharC_185><_CharC_186>A</_CharC_186><_CharC_187>A</_CharC_187><_CharC_188>A</_CharC_188><_CharC_189>A</_CharC_189><_CharC_190>A</_CharC_190><_CharC_191>A</_CharC_191><_CharC_192>A</_CharC_192><_CharC_193>A</_CharC_193><_CharC_194>A</_CharC_194><_CharC_195>A</_CharC_195><_CharC_196>A</_CharC_196><_CharC_197>A</_CharC_197><_CharC_198>A</_CharC_198><_CharC_199>A</_CharC_199><_CharC_200>A</_CharC_200><_CharC_201>A</_CharC_201><_CharC_202>A</_CharC_202><_CharC_203>A</_CharC_203><_CharC_204>A</_CharC_204><_CharC_205>A</_CharC_205><_CharC_206>A</_CharC_206><_CharC_207>A</_CharC_207><_CharC_208>A</_CharC_208><_CharC_209>A</_CharC_209><_CharC_210>A</_CharC_210><_CharC_211>A</_CharC_211><_CharC_212>A</_CharC_212><_CharC_213>A</_CharC_213><_CharC_214>A</_CharC_214><_CharC_215>A</_CharC_215><_CharC_216>A</_CharC_216><_CharC_217>A</_CharC_217><_CharC_218>A</_CharC_218><_CharC_219>A</_CharC_219><_CharC_220>A</_CharC_220><_CharC_221>A</_CharC_221><_CharC_222>A</_CharC_222><_CharC_223>A</_CharC_223><_CharC_224>A</_CharC_224><_CharC_225>A</_CharC_225><_CharC_226>A</_CharC_226><_CharC_227>A</_CharC_227><_CharC_228>A</_CharC_228><_CharC_229>A</_CharC_229><_CharC_230>A</_CharC_230><_CharC_231>A</_CharC_231><_CharC_232>A</_CharC_232><_CharC_233>A</_CharC_233><_CharC_234>A</_CharC_234><_CharC_235>A</_CharC_235><_CharC_236>A</_CharC_236><_CharC_237>A</_CharC_237><_CharC_238>A</_CharC_238><_CharC_239>A</_CharC_239><_CharC_240>A</_CharC_240><_CharC_241>A</_CharC_241><_CharC_242>A</_CharC_242><_CharC_243>A</_CharC_243><_CharC_244>A</_CharC_244><_CharC_245>A</_CharC_245><_CharC_246>A</_CharC_246><_CharC_247>A</_CharC_247><_CharC_248>A</_CharC_248><_CharC_249>A</_CharC_249><_CharC_250>A</_CharC_250><_CharC_251>A</_CharC_251><_CharC_252>A</_CharC_252><_CharC_253>A</_CharC_253><_CharC_254>A</_CharC_254><_CharC_255>A</_CharC_255><cmd_Insert>Ekle</cmd_Insert><cmdClose>Kapat</cmdClose><this>MARC-8 ALA karakter kümesini</this></MarcEdit_frmSymbols>
+<Label1>Özel karakterler:</Label1>
+<_CharC_0>A</_CharC_0>
+<_CharC_1>A</_CharC_1>
+<_CharC_2>A</_CharC_2>
+<_CharC_3>A</_CharC_3>
+<_CharC_4>A</_CharC_4>
+<_CharC_5>A</_CharC_5>
+<_CharC_6>A</_CharC_6>
+<_CharC_7>A</_CharC_7>
+<_CharC_8>A</_CharC_8>
+<_CharC_9>A</_CharC_9>
+<_CharC_10>A</_CharC_10>
+<_CharC_11>A</_CharC_11>
+<_CharC_12>A</_CharC_12>
+<_CharC_13>A</_CharC_13>
+<_CharC_14>A</_CharC_14>
+<_CharC_15>A</_CharC_15>
+<_CharC_16>A</_CharC_16>
+<_CharC_17>A</_CharC_17>
+<_CharC_18>A</_CharC_18>
+<_CharC_19>A</_CharC_19>
+<_CharC_20>A</_CharC_20>
+<_CharC_21>A</_CharC_21>
+<_CharC_22>A</_CharC_22>
+<_CharC_23>A</_CharC_23>
+<_CharC_24>A</_CharC_24>
+<_CharC_25>A</_CharC_25>
+<_CharC_26>A</_CharC_26>
+<_CharC_27>A</_CharC_27>
+<_CharC_28>A</_CharC_28>
+<_CharC_29>A</_CharC_29>
+<_CharC_30>A</_CharC_30>
+<_CharC_31>A</_CharC_31>
+<_CharC_32>A</_CharC_32>
+<_CharC_33>A</_CharC_33>
+<_CharC_34>A</_CharC_34>
+<_CharC_35>A</_CharC_35>
+<_CharC_36>A</_CharC_36>
+<_CharC_37>A</_CharC_37>
+<_CharC_38>A</_CharC_38>
+<_CharC_39>A</_CharC_39>
+<_CharC_40>A</_CharC_40>
+<_CharC_41>A</_CharC_41>
+<_CharC_42>A</_CharC_42>
+<_CharC_43>A</_CharC_43>
+<_CharC_44>A</_CharC_44>
+<_CharC_45>A</_CharC_45>
+<_CharC_46>A</_CharC_46>
+<_CharC_47>A</_CharC_47>
+<_CharC_48>A</_CharC_48>
+<_CharC_49>A</_CharC_49>
+<_CharC_50>A</_CharC_50>
+<_CharC_51>A</_CharC_51>
+<_CharC_52>A</_CharC_52>
+<_CharC_53>A</_CharC_53>
+<_CharC_54>A</_CharC_54>
+<_CharC_55>A</_CharC_55>
+<_CharC_56>A</_CharC_56>
+<_CharC_57>A</_CharC_57>
+<_CharC_58>A</_CharC_58>
+<_CharC_59>A</_CharC_59>
+<_CharC_60>A</_CharC_60>
+<_CharC_61>A</_CharC_61>
+<_CharC_62>A</_CharC_62>
+<_CharC_63>A</_CharC_63>
+<_CharC_64>A</_CharC_64>
+<_CharC_65>A</_CharC_65>
+<_CharC_66>A</_CharC_66>
+<_CharC_67>A</_CharC_67>
+<_CharC_68>A</_CharC_68>
+<_CharC_69>A</_CharC_69>
+<_CharC_70>A</_CharC_70>
+<_CharC_71>A</_CharC_71>
+<_CharC_72>A</_CharC_72>
+<_CharC_73>A</_CharC_73>
+<_CharC_74>A</_CharC_74>
+<_CharC_75>A</_CharC_75>
+<_CharC_76>A</_CharC_76>
+<_CharC_77>A</_CharC_77>
+<_CharC_78>A</_CharC_78>
+<_CharC_79>A</_CharC_79>
+<_CharC_80>A</_CharC_80>
+<_CharC_81>A</_CharC_81>
+<_CharC_82>A</_CharC_82>
+<_CharC_83>A</_CharC_83>
+<_CharC_84>A</_CharC_84>
+<_CharC_85>A</_CharC_85>
+<_CharC_86>A</_CharC_86>
+<_CharC_87>A</_CharC_87>
+<_CharC_88>A</_CharC_88>
+<_CharC_89>A</_CharC_89>
+<_CharC_90>A</_CharC_90>
+<_CharC_91>A</_CharC_91>
+<_CharC_92>A</_CharC_92>
+<_CharC_93>A</_CharC_93>
+<_CharC_94>A</_CharC_94>
+<_CharC_95>A</_CharC_95>
+<_CharC_96>A</_CharC_96>
+<_CharC_97>A</_CharC_97>
+<_CharC_98>A</_CharC_98>
+<_CharC_99>A</_CharC_99>
+<_CharC_100>A</_CharC_100>
+<_CharC_101>A</_CharC_101>
+<_CharC_102>A</_CharC_102>
+<_CharC_103>A</_CharC_103>
+<_CharC_104>A</_CharC_104>
+<_CharC_105>A</_CharC_105>
+<_CharC_106>A</_CharC_106>
+<_CharC_107>A</_CharC_107>
+<_CharC_108>A</_CharC_108>
+<_CharC_109>A</_CharC_109>
+<_CharC_110>A</_CharC_110>
+<_CharC_111>A</_CharC_111>
+<_CharC_112>A</_CharC_112>
+<_CharC_113>A</_CharC_113>
+<_CharC_114>A</_CharC_114>
+<_CharC_115>A</_CharC_115>
+<_CharC_116>A</_CharC_116>
+<_CharC_117>A</_CharC_117>
+<_CharC_118>A</_CharC_118>
+<_CharC_119>A</_CharC_119>
+<_CharC_120>A</_CharC_120>
+<_CharC_121>A</_CharC_121>
+<_CharC_122>A</_CharC_122>
+<_CharC_123>A</_CharC_123>
+<_CharC_124>A</_CharC_124>
+<_CharC_125>A</_CharC_125>
+<_CharC_126>A</_CharC_126>
+<_CharC_127>A</_CharC_127>
+<_CharC_128>A</_CharC_128>
+<_CharC_129>A</_CharC_129>
+<_CharC_130>A</_CharC_130>
+<_CharC_131>A</_CharC_131>
+<_CharC_132>A</_CharC_132>
+<_CharC_133>A</_CharC_133>
+<_CharC_134>A</_CharC_134>
+<_CharC_135>A</_CharC_135>
+<_CharC_136>A</_CharC_136>
+<_CharC_137>A</_CharC_137>
+<_CharC_138>A</_CharC_138>
+<_CharC_139>A</_CharC_139>
+<_CharC_140>A</_CharC_140>
+<_CharC_141>A</_CharC_141>
+<_CharC_142>A</_CharC_142>
+<_CharC_143>A</_CharC_143>
+<_CharC_144>A</_CharC_144>
+<_CharC_145>A</_CharC_145>
+<_CharC_146>A</_CharC_146>
+<_CharC_147>A</_CharC_147>
+<_CharC_148>A</_CharC_148>
+<_CharC_154>A</_CharC_154>
+<_CharC_155>A</_CharC_155>
+<_CharC_160>A</_CharC_160>
+<_CharC_161>A</_CharC_161>
+<_CharC_162>A</_CharC_162>
+<_CharC_163>A</_CharC_163>
+<_CharC_164>A</_CharC_164>
+<_CharC_165>A</_CharC_165>
+<_CharC_166>A</_CharC_166>
+<_CharC_149>A</_CharC_149>
+<_CharC_150>A</_CharC_150>
+<_CharC_151>A</_CharC_151>
+<_CharC_152>A</_CharC_152>
+<_CharC_153>A</_CharC_153>
+<_CharC_156>A</_CharC_156>
+<_CharC_157>A</_CharC_157>
+<_CharC_158>A</_CharC_158>
+<_CharC_159>A</_CharC_159>
+<_CharC_167>A</_CharC_167>
+<_CharC_168>A</_CharC_168>
+<_CharC_169>A</_CharC_169>
+<_CharC_170>A</_CharC_170>
+<_CharC_171>A</_CharC_171>
+<_CharC_172>A</_CharC_172>
+<_CharC_173>A</_CharC_173>
+<_CharC_174>A</_CharC_174>
+<_CharC_175>A</_CharC_175>
+<_CharC_176>A</_CharC_176>
+<_CharC_177>A</_CharC_177>
+<_CharC_178>A</_CharC_178>
+<_CharC_179>A</_CharC_179>
+<_CharC_180>A</_CharC_180>
+<_CharC_181>A</_CharC_181>
+<_CharC_182>A</_CharC_182>
+<_CharC_183>A</_CharC_183>
+<_CharC_184>A</_CharC_184>
+<_CharC_185>A</_CharC_185>
+<_CharC_186>A</_CharC_186>
+<_CharC_187>A</_CharC_187>
+<_CharC_188>A</_CharC_188>
+<_CharC_189>A</_CharC_189>
+<_CharC_190>A</_CharC_190>
+<_CharC_191>A</_CharC_191>
+<_CharC_192>A</_CharC_192>
+<_CharC_193>A</_CharC_193>
+<_CharC_194>A</_CharC_194>
+<_CharC_195>A</_CharC_195>
+<_CharC_196>A</_CharC_196>
+<_CharC_197>A</_CharC_197>
+<_CharC_198>A</_CharC_198>
+<_CharC_199>A</_CharC_199>
+<_CharC_200>A</_CharC_200>
+<_CharC_201>A</_CharC_201>
+<_CharC_202>A</_CharC_202>
+<_CharC_203>A</_CharC_203>
+<_CharC_204>A</_CharC_204>
+<_CharC_205>A</_CharC_205>
+<_CharC_206>A</_CharC_206>
+<_CharC_207>A</_CharC_207>
+<_CharC_208>A</_CharC_208>
+<_CharC_209>A</_CharC_209>
+<_CharC_210>A</_CharC_210>
+<_CharC_211>A</_CharC_211>
+<_CharC_212>A</_CharC_212>
+<_CharC_213>A</_CharC_213>
+<_CharC_214>A</_CharC_214>
+<_CharC_215>A</_CharC_215>
+<_CharC_216>A</_CharC_216>
+<_CharC_217>A</_CharC_217>
+<_CharC_218>A</_CharC_218>
+<_CharC_219>A</_CharC_219>
+<_CharC_220>A</_CharC_220>
+<_CharC_221>A</_CharC_221>
+<_CharC_222>A</_CharC_222>
+<_CharC_223>A</_CharC_223>
+<_CharC_224>A</_CharC_224>
+<_CharC_225>A</_CharC_225>
+<_CharC_226>A</_CharC_226>
+<_CharC_227>A</_CharC_227>
+<_CharC_228>A</_CharC_228>
+<_CharC_229>A</_CharC_229>
+<_CharC_230>A</_CharC_230>
+<_CharC_231>A</_CharC_231>
+<_CharC_232>A</_CharC_232>
+<_CharC_233>A</_CharC_233>
+<_CharC_234>A</_CharC_234>
+<_CharC_235>A</_CharC_235>
+<_CharC_236>A</_CharC_236>
+<_CharC_237>A</_CharC_237>
+<_CharC_238>A</_CharC_238>
+<_CharC_239>A</_CharC_239>
+<_CharC_240>A</_CharC_240>
+<_CharC_241>A</_CharC_241>
+<_CharC_242>A</_CharC_242>
+<_CharC_243>A</_CharC_243>
+<_CharC_244>A</_CharC_244>
+<_CharC_245>A</_CharC_245>
+<_CharC_246>A</_CharC_246>
+<_CharC_247>A</_CharC_247>
+<_CharC_248>A</_CharC_248>
+<_CharC_249>A</_CharC_249>
+<_CharC_250>A</_CharC_250>
+<_CharC_251>A</_CharC_251>
+<_CharC_252>A</_CharC_252>
+<_CharC_253>A</_CharC_253>
+<_CharC_254>A</_CharC_254>
+<_CharC_255>A</_CharC_255>
+<cmd_Insert>Ekle</cmd_Insert>
+<cmdClose>Kapat</cmdClose>
+<this>MARC-8 ALA karakter kümesini</this>
+</MarcEdit_frmSymbols>
 <MarcEdit_frmTaskEditor>
-<lbTaskName>Görev listesi adı:</lbTaskName><addDeleteFieldTaskToolStripMenuItem>Sil alanı görev ekleme</addDeleteFieldTaskToolStripMenuItem><addEditSubfieldTaskToolStripMenuItem>Düzenle alt alan görev ekleme</addEditSubfieldTaskToolStripMenuItem><addToolStripMenuItem>Düzenleme göstergesi görev ekleme</addToolStripMenuItem><cmdSave>Kaydet</cmdSave><addNewFieldTaskToolStripMenuItem>Yeni alan görev ekleme</addNewFieldTaskToolStripMenuItem><cmdClose>Kapat</cmdClose><addReplaceAllTaskToolStripMenuItem>Tüm görev değiştir ekle</addReplaceAllTaskToolStripMenuItem><mnuEditTaskFieldEdit>Alanı düzenleme görevi Ekle</mnuEditTaskFieldEdit><addSwapFieldTaskToolStripMenuItem>Takas alanı görev ekleme</addSwapFieldTaskToolStripMenuItem><addCopyFieldTaskToolStripMenuItem>Kopyalama alanı görev ekleme</addCopyFieldTaskToolStripMenuItem><addTaskListToolStripMenuItem>Görev listesine ekle</addTaskListToolStripMenuItem><addRDAHelperToolStripMenuItem>BKİ yardımcı ekle</addRDAHelperToolStripMenuItem><lbTasks>Görevleri:</lbTasks><label1>Eylemler:</label1><label2>Açıklama:</label2><this>Görev listesini düzenle</this></MarcEdit_frmTaskEditor>
+<lbTaskName>Görev listesi adı:</lbTaskName>
+<addDeleteFieldTaskToolStripMenuItem>Sil alanı görev ekleme</addDeleteFieldTaskToolStripMenuItem>
+<addEditSubfieldTaskToolStripMenuItem>Düzenle alt alan görev ekleme</addEditSubfieldTaskToolStripMenuItem>
+<addToolStripMenuItem>Düzenleme göstergesi görev ekleme</addToolStripMenuItem>
+<cmdSave>Kaydet</cmdSave>
+<addNewFieldTaskToolStripMenuItem>Yeni alan görev ekleme</addNewFieldTaskToolStripMenuItem>
+<cmdClose>Kapat</cmdClose>
+<addReplaceAllTaskToolStripMenuItem>Tüm görev değiştir ekle</addReplaceAllTaskToolStripMenuItem>
+<mnuEditTaskFieldEdit>Alanı düzenleme görevi Ekle</mnuEditTaskFieldEdit>
+<addSwapFieldTaskToolStripMenuItem>Takas alanı görev ekleme</addSwapFieldTaskToolStripMenuItem>
+<addCopyFieldTaskToolStripMenuItem>Kopyalama alanı görev ekleme</addCopyFieldTaskToolStripMenuItem>
+<addTaskListToolStripMenuItem>Görev listesine ekle</addTaskListToolStripMenuItem>
+<addRDAHelperToolStripMenuItem>BKİ yardımcı ekle</addRDAHelperToolStripMenuItem>
+<lbTasks>Görevleri:</lbTasks>
+<label1>Eylemler:</label1>
+<label2>Açıklama:</label2>
+<this>Görev listesini düzenle</this>
+</MarcEdit_frmTaskEditor>
 <MarcEdit_frmTaskManager>
-<columnHeader1>Adı</columnHeader1><columnHeader2>Yol</columnHeader2><columnHeader3>Kısayol</columnHeader3><cmdClose>Kapat</cmdClose><lnkNew>Yeni bir görev listesi oluşturun</lnkNew><lbMacro>Görev listeleri:</lbMacro><lnkCloneTask>Varolan bir görev listesini clone</lnkCloneTask><groupBox1>Görev eylemleri</groupBox1><lnk_import_task>Alma görevi</lnk_import_task><lnkRename>Görev listesini yeniden adlandır</lnkRename><groupBox2>Varolan görevleri yönetme</groupBox2><lnk_export_task>Seçili görev vermek</lnk_export_task><lnkKey>Tuş atama</lnkKey><lnkEdit>Seçili görev listesini düzenle</lnkEdit><lnkDelete>Seçili görev listesini silme</lnkDelete><columnHeader4>Açıklama</columnHeader4><this>Görev Yöneticisi</this></MarcEdit_frmTaskManager>
+<columnHeader1>Adı</columnHeader1>
+<columnHeader2>Yol</columnHeader2>
+<columnHeader3>Kısayol</columnHeader3>
+<cmdClose>Kapat</cmdClose>
+<lnkNew>Yeni bir görev listesi oluşturun</lnkNew>
+<lbMacro>Görev listeleri:</lbMacro>
+<lnkCloneTask>Varolan bir görev listesini clone</lnkCloneTask>
+<groupBox1>Görev eylemleri</groupBox1>
+<lnk_import_task>Alma görevi</lnk_import_task>
+<lnkRename>Görev listesini yeniden adlandır</lnkRename>
+<groupBox2>Varolan görevleri yönetme</groupBox2>
+<lnk_export_task>Seçili görev vermek</lnk_export_task>
+<lnkKey>Tuş atama</lnkKey>
+<lnkEdit>Seçili görev listesini düzenle</lnkEdit>
+<lnkDelete>Seçili görev listesini silme</lnkDelete>
+<columnHeader4>Açıklama</columnHeader4>
+<this>Görev Yöneticisi</this>
+</MarcEdit_frmTaskManager>
 <MarcEdit_frmTools>
-<lb_OutputFile>Çıkış dosyası:</lb_OutputFile><lb_InputFile>Giriş dosyası:</lb_InputFile><cmdCancel>Kapat</cmdCancel><cmdEdit>Kayıtları düzenleme</cmdEdit><cmdExecute>Yürütmek</cmdExecute><lb_Results>Sonuçlar:</lb_Results><groupBox2>İşlevleri</groupBox2><ck_Marc8>MARC-8'e çevirmek</ck_Marc8><ck_UTF8>UTF8 için tercüme</ck_UTF8><toolStrip1>toolStrip1</toolStrip1><toolOpen>Dosya Aç</toolOpen><toolSave>Dosyayı kaydedin</toolSave><toolExport>Kayıtları verin</toolExport><toolHelp>Yardım</toolHelp><menuStrip1>menuStrip1</menuStrip1><mnuFile>Dosya</mnuFile><mnuFileMain>Ana penceresine geri dönün</mnuFileMain><mnuFileOpen>Açık</mnuFileOpen><mnuFileSave>Kaydet</mnuFileSave><mnuFileExit>Çıkış</mnuFileExit><mnuTools>Araçlar</mnuTools><mnuBatchProcessing>Toplu işlem kayıtları</mnuBatchProcessing><mnuToolsXML>XML işlev listesini düzenle</mnuToolsXML><mnuToolsEncoding>Karakter dönüştürme araçları</mnuToolsEncoding><mnuToolsUTF8>MARC8 UTF8 dönüşüm =&gt;</mnuToolsUTF8><mnuToolsMARC8>UTF8 MARC8 dönüşüm =&gt;</mnuToolsMARC8><otherConversionsToolStripMenuItem>Diğer dönüşümler</otherConversionsToolStripMenuItem><mnutoolsValidator>MARCValidator</mnutoolsValidator><mnutoolsjoin>MARCJoin</mnutoolsjoin><mnutoolssplit>MARCSplit</mnutoolssplit><mnuToolsExport>MARC kayıtları verin</mnuToolsExport><mnuToolsExtract>Seçili kayıtları ayıklamak</mnuToolsExtract><mnuHelp>Yardım</mnuHelp><mnuHelpContents>İçerik ve dizin</mnuHelpContents><mnuHelpError>Öneriler/hata raporu</mnuHelpError><this>MARC araçları</this></MarcEdit_frmTools>
+<lb_OutputFile>Çıkış dosyası:</lb_OutputFile>
+<lb_InputFile>Giriş dosyası:</lb_InputFile>
+<cmdCancel>Kapat</cmdCancel>
+<cmdEdit>Kayıtları düzenleme</cmdEdit>
+<cmdExecute>Yürütmek</cmdExecute>
+<lb_Results>Sonuçlar:</lb_Results>
+<groupBox2>İşlevleri</groupBox2>
+<ck_Marc8>MARC-8'e çevirmek</ck_Marc8>
+<ck_UTF8>UTF8 için tercüme</ck_UTF8>
+<toolStrip1>toolStrip1</toolStrip1>
+<toolOpen>Dosya Aç</toolOpen>
+<toolSave>Dosyayı kaydedin</toolSave>
+<toolExport>Kayıtları verin</toolExport>
+<toolHelp>Yardım</toolHelp>
+<menuStrip1>menuStrip1</menuStrip1>
+<mnuFile>Dosya</mnuFile>
+<mnuFileMain>Ana penceresine geri dönün</mnuFileMain>
+<mnuFileOpen>Açık</mnuFileOpen>
+<mnuFileSave>Kaydet</mnuFileSave>
+<mnuFileExit>Çıkış</mnuFileExit>
+<mnuTools>Araçlar</mnuTools>
+<mnuBatchProcessing>Toplu işlem kayıtları</mnuBatchProcessing>
+<mnuToolsXML>XML işlev listesini düzenle</mnuToolsXML>
+<mnuToolsEncoding>Karakter dönüştürme araçları</mnuToolsEncoding>
+<mnuToolsUTF8>MARC8 UTF8 dönüşüm =&gt;</mnuToolsUTF8>
+<mnuToolsMARC8>UTF8 MARC8 dönüşüm =&gt;</mnuToolsMARC8>
+<otherConversionsToolStripMenuItem>Diğer dönüşümler</otherConversionsToolStripMenuItem>
+<mnutoolsValidator>MARCValidator</mnutoolsValidator>
+<mnutoolsjoin>MARCJoin</mnutoolsjoin>
+<mnutoolssplit>MARCSplit</mnutoolssplit>
+<mnuToolsExport>MARC kayıtları verin</mnuToolsExport>
+<mnuToolsExtract>Seçili kayıtları ayıklamak</mnuToolsExtract>
+<mnuHelp>Yardım</mnuHelp>
+<mnuHelpContents>İçerik ve dizin</mnuHelpContents>
+<mnuHelpError>Öneriler/hata raporu</mnuHelpError>
+<this>MARC araçları</this>
+</MarcEdit_frmTools>
 <MarcEdit_frmTutorialManager>
-<lbAdd>Öğreticiler ekle:</lbAdd><lbTitle>Başlık:</lbTitle><lbDescription>Açıklama:</lbDescription><lburl>URL:</lburl><lbModified>Değiştirilme tarihi:</lbModified><lbTutorial>Yerel Rehberler:</lbTutorial><lnkAdd>Ekle/Değiştir</lnkAdd><lnkDelete>Sil</lnkDelete><lnkClose>Kapat</lnkClose><this>Yerel eğitim Yöneticisi</this></MarcEdit_frmTutorialManager>
+<lbAdd>Öğreticiler ekle:</lbAdd>
+<lbTitle>Başlık:</lbTitle>
+<lbDescription>Açıklama:</lbDescription>
+<lburl>URL:</lburl>
+<lbModified>Değiştirilme tarihi:</lbModified>
+<lbTutorial>Yerel Rehberler:</lbTutorial>
+<lnkAdd>Ekle/Değiştir</lnkAdd>
+<lnkDelete>Sil</lnkDelete>
+<lnkClose>Kapat</lnkClose>
+<this>Yerel eğitim Yöneticisi</this>
+</MarcEdit_frmTutorialManager>
 <MarcEdit_frmUpdate>
-<label1>Güncelleme notları:</label1><cmd_Update>Güncelleştirme</cmd_Update><cmd_Cancel>İptal</cmd_Cancel><this>Güncelleme MarcEdit</this></MarcEdit_frmUpdate>
+<label1>Güncelleme notları:</label1>
+<cmd_Update>Güncelleştirme</cmd_Update>
+<cmd_Cancel>İptal</cmd_Cancel>
+<this>Güncelleme MarcEdit</this>
+</MarcEdit_frmUpdate>
 <MarcEdit_frmUtilities>
-<lnk_Merge_Records>Kayıtları birleştirme</lnk_Merge_Records><linkLabel1>Toplu işlem MARC kayıtları</linkLabel1><lnkMARC8toUTF8>Bu kümeye karakter dönüşümleri</lnkMARC8toUTF8><lnkSplit>MARCSplit</lnkSplit><lnkJoin>MARCJoin</lnkJoin><lnkExport>Dışa Aktar sekmesinde sınırlandırılmış kayıtları</lnkExport><cmbfinal>MARC8</cmbfinal><lb_final>Son kodlama:</lb_final><cmd_encoding>MARC8</cmd_encoding><lb_encoding>Orijinal kodlama:</lb_encoding><lb_UTF8_Header>Bu kümeye karakter dönüşümleri</lb_UTF8_Header><cmdCancel>Kapat</cmdCancel><cmdOK>İşlem</cmdOK><lb_UTF8_Dest>Hedef dosya:</lb_UTF8_Dest><lb_UTF8_Source>Kaynak dosya:</lb_UTF8_Source><ck_limit_split># Dosya:</ck_limit_split><lb_Split_Records>Dosya başına kayıt sayısı:</lb_Split_Records><cmdSplitClose>Kapat</cmdSplitClose><cmdSplitProcess>İşlem</cmdSplitProcess><lb_Split_Folder>Hedef klasör:</lb_Split_Folder><lb_Split_Source>Kaynak dosya:</lb_Split_Source><lb_Split_Header>MARCSplit yardımcı programı</lb_Split_Header><lnkJoinedFiles>Birleştirilmiş dosyaları göster</lnkJoinedFiles><label19>Dosya türleri:</label19><ck_JoinIndividual>Tek tek dosyaları birleştirmek</ck_JoinIndividual><cmdJoinCancel>Kapat</cmdJoinCancel><cmdJoinProcess>İşlem</cmdJoinProcess><lb_Join_Files>Dosyaları birleştirmek için:</lb_Join_Files><lb_Join_Source>Hedef dosya:</lb_Join_Source><lb_Join_Header>MARCJoin yardımcı programı</lb_Join_Header><lb_Tab_Header>Dışa Aktar sekmesinde sınırlandırılmış kayıtları</lb_Tab_Header><cmb_sec_del></cmb_sec_del><label18>Alan sınırlayıcısı</label18><lbdelimiter>Alan ayırıcısını seçin</lbdelimiter><cmdTClose2>Kapat</cmdTClose2><cmdTNext>Sonraki &gt;&gt;</cmdTNext><label1>1. Adım: Dosya yollarını ayarlama</label1><mnuLoad>Yükleme ayarları</mnuLoad><menuItem2>-</menuItem2><mnusave>Ayarları Kaydet</mnusave><menuItem1>-</menuItem1><menuItem3>NET Ayarlar</menuItem3><lb_Operation>İşlev:</lb_Operation><cmdBClose>Kapat</cmdBClose><cmdBProcess>İşlem</cmdBProcess><lb_Extensions>Dosya türleri:</lb_Extensions><lb_BSource>Kaynak dizin:</lb_BSource><lbBTitle>Toplu işlem MARC kayıtları</lbBTitle><ck_normalize>Alan verileri normalleştirmek</ck_normalize><cmd_tab2_back>Geri</cmd_tab2_back><lnkSettings>Ayarlar...</lnkSettings><lnkDeleteField>Alanı silme</lnkDeleteField><lnkAddField>Alan ekleme</lnkAddField><label14>Alt alan:</label14><label11>Alanı:</label11><cmdTClose>Kapat</cmdTClose><cmdTExport>Dışa aktarma</cmdTExport><label2>2. Adım: Alanları/alt alanlar için ihracat tanımlayın.</label2><label3>Dışa Aktar sekmesinde sınırlandırılmış kayıtları</label3><ck_merge_to_source>Kaynak birleştirme</ck_merge_to_source><label17>Dosyayı kaydedin:</label17><label16>Kaynak kataloglama</label16><ck_SameFile>Kaynak dosyası işletilsin</ck_SameFile><cmd_merge_cancel>İptal</cmd_merge_cancel><cmd_merge_next>Sonraki =&gt;</cmd_merge_next><lb_merge_title>Veri birleştirme</lb_merge_title><ck_merge_repeatable>Yinelenebilir mi</ck_merge_repeatable><lb_id>Kayıt tanımlayıcısı:</lb_id><lb_merge>Dosya birleştirme:</lb_merge><lb_source>Kaynak dosya:</lb_source><cmd_merge_cancel_2>İptal</cmd_merge_cancel_2><cmd_merge_next_2>Sonraki =&gt;</cmd_merge_next_2><cmd_merge_back_2>&lt; Geri =</cmd_merge_back_2><label4>Gerçekleştirmek istediğiniz işlemi en iyi tanımlayan seçeneği seçin.</label4><lb_merge_title_2>Veri birleştirme: Adım 2</lb_merge_title_2><groupBox2>Dosya seçenekleri Birleştir</groupBox2><rd_merge_overlay>Birleştirme ve tüm veri yerleşimi</rd_merge_overlay><rd_merge_delimited>Sınırlandırılmış veri birleştirme</rd_merge_delimited><rd_merge_selected>Seçili alanları Birleştir</rd_merge_selected><rd_merge_all>Her benzersiz veri birleştirme</rd_merge_all><button1>İptal</button1><cmd_merge_select_fields_next>Sonraki =&gt;</cmd_merge_select_fields_next><cmd_merge_select_fields_back>&lt; Geri =</cmd_merge_select_fields_back><groupBox3>Seçenekleri değiştir</groupBox3><label10>Hedef</label10><label12>Alt alanlar</label12><label9>Hedef</label9><label8>Göstergeleri</label8><label7>Birleştirme alanları:</label7><label6>Alanı seçin:</label6><label5>Veri birleştirme: Alanları seçin</label5><ck_Repeatable>Yinelenebilir alt alan</ck_Repeatable><ck_sort>Sıralama alanları</ck_sort><P3_cmd_Cancel>İptal</P3_cmd_Cancel><P3_cmd_finish>Bitiş</P3_cmd_finish><P3_ck_save_args>Şablonu Kaydet</P3_ck_save_args><button4>Yükleme şablon</button4><P3_cmd_Apply>Uygula</P3_cmd_Apply><P3_lb_args>Bağımsız değişkenler</P3_lb_args><P3_lb_punct>Terim. Noktalama işaretleri:</P3_lb_punct><P3_txt_indicators>\\\\</P3_txt_indicators><P3_lb_indicators>Göstergeler:</P3_lb_indicators><P3_mapto>Eşleştirin:</P3_mapto><P3_lb_select>Seçin:</P3_lb_select><button5>Kapat</button5><label15>Dosyaları birleştirilmiş.  {Merge_results_file} içinde bulunan sonuçlar.</label15><label13>Birleştirme tamamlandı</label13><this>Utilties iletişim</this></MarcEdit_frmUtilities>
+<lnk_Merge_Records>Kayıtları birleştirme</lnk_Merge_Records>
+<linkLabel1>Toplu işlem MARC kayıtları</linkLabel1>
+<lnkMARC8toUTF8>Bu kümeye karakter dönüşümleri</lnkMARC8toUTF8>
+<lnkSplit>MARCSplit</lnkSplit>
+<lnkJoin>MARCJoin</lnkJoin>
+<lnkExport>Dışa Aktar sekmesinde sınırlandırılmış kayıtları</lnkExport>
+<cmbfinal>MARC8</cmbfinal>
+<lb_final>Son kodlama:</lb_final>
+<cmd_encoding>MARC8</cmd_encoding>
+<lb_encoding>Orijinal kodlama:</lb_encoding>
+<lb_UTF8_Header>Bu kümeye karakter dönüşümleri</lb_UTF8_Header>
+<cmdCancel>Kapat</cmdCancel>
+<cmdOK>İşlem</cmdOK>
+<lb_UTF8_Dest>Hedef dosya:</lb_UTF8_Dest>
+<lb_UTF8_Source>Kaynak dosya:</lb_UTF8_Source>
+<ck_limit_split># Dosya:</ck_limit_split>
+<lb_Split_Records>Dosya başına kayıt sayısı:</lb_Split_Records>
+<cmdSplitClose>Kapat</cmdSplitClose>
+<cmdSplitProcess>İşlem</cmdSplitProcess>
+<lb_Split_Folder>Hedef klasör:</lb_Split_Folder>
+<lb_Split_Source>Kaynak dosya:</lb_Split_Source>
+<lb_Split_Header>MARCSplit yardımcı programı</lb_Split_Header>
+<lnkJoinedFiles>Birleştirilmiş dosyaları göster</lnkJoinedFiles>
+<label19>Dosya türleri:</label19>
+<ck_JoinIndividual>Tek tek dosyaları birleştirmek</ck_JoinIndividual>
+<cmdJoinCancel>Kapat</cmdJoinCancel>
+<cmdJoinProcess>İşlem</cmdJoinProcess>
+<lb_Join_Files>Dosyaları birleştirmek için:</lb_Join_Files>
+<lb_Join_Source>Hedef dosya:</lb_Join_Source>
+<lb_Join_Header>MARCJoin yardımcı programı</lb_Join_Header>
+<lb_Tab_Header>Dışa Aktar sekmesinde sınırlandırılmış kayıtları</lb_Tab_Header>
+<cmb_sec_del></cmb_sec_del>
+<label18>Alan sınırlayıcısı</label18>
+<lbdelimiter>Alan ayırıcısını seçin</lbdelimiter>
+<cmdTClose2>Kapat</cmdTClose2>
+<cmdTNext>Sonraki &gt;&gt;</cmdTNext>
+<label1>1. Adım: Dosya yollarını ayarlama</label1>
+<mnuLoad>Yükleme ayarları</mnuLoad>
+<menuItem2>-</menuItem2>
+<mnusave>Ayarları Kaydet</mnusave>
+<menuItem1>-</menuItem1>
+<menuItem3>NET Ayarlar</menuItem3>
+<lb_Operation>İşlev:</lb_Operation>
+<cmdBClose>Kapat</cmdBClose>
+<cmdBProcess>İşlem</cmdBProcess>
+<lb_Extensions>Dosya türleri:</lb_Extensions>
+<lb_BSource>Kaynak dizin:</lb_BSource>
+<lbBTitle>Toplu işlem MARC kayıtları</lbBTitle>
+<ck_normalize>Alan verileri normalleştirmek</ck_normalize>
+<cmd_tab2_back>Geri</cmd_tab2_back>
+<lnkSettings>Ayarlar...</lnkSettings>
+<lnkDeleteField>Alanı silme</lnkDeleteField>
+<lnkAddField>Alan ekleme</lnkAddField>
+<label14>Alt alan:</label14>
+<label11>Alanı:</label11>
+<cmdTClose>Kapat</cmdTClose>
+<cmdTExport>Dışa aktarma</cmdTExport>
+<label2>2. Adım: Alanları/alt alanlar için ihracat tanımlayın.</label2>
+<label3>Dışa Aktar sekmesinde sınırlandırılmış kayıtları</label3>
+<ck_merge_to_source>Kaynak birleştirme</ck_merge_to_source>
+<label17>Dosyayı kaydedin:</label17>
+<label16>Kaynak kataloglama</label16>
+<ck_SameFile>Kaynak dosyası işletilsin</ck_SameFile>
+<cmd_merge_cancel>İptal</cmd_merge_cancel>
+<cmd_merge_next>Sonraki =&gt;</cmd_merge_next>
+<lb_merge_title>Veri birleştirme</lb_merge_title>
+<ck_merge_repeatable>Yinelenebilir mi</ck_merge_repeatable>
+<lb_id>Kayıt tanımlayıcısı:</lb_id>
+<lb_merge>Dosya birleştirme:</lb_merge>
+<lb_source>Kaynak dosya:</lb_source>
+<cmd_merge_cancel_2>İptal</cmd_merge_cancel_2>
+<cmd_merge_next_2>Sonraki =&gt;</cmd_merge_next_2>
+<cmd_merge_back_2>&lt; Geri =</cmd_merge_back_2>
+<label4>Gerçekleştirmek istediğiniz işlemi en iyi tanımlayan seçeneği seçin.</label4>
+<lb_merge_title_2>Veri birleştirme: Adım 2</lb_merge_title_2>
+<groupBox2>Dosya seçenekleri Birleştir</groupBox2>
+<rd_merge_overlay>Birleştirme ve tüm veri yerleşimi</rd_merge_overlay>
+<rd_merge_delimited>Sınırlandırılmış veri birleştirme</rd_merge_delimited>
+<rd_merge_selected>Seçili alanları Birleştir</rd_merge_selected>
+<rd_merge_all>Her benzersiz veri birleştirme</rd_merge_all>
+<button1>İptal</button1>
+<cmd_merge_select_fields_next>Sonraki =&gt;</cmd_merge_select_fields_next>
+<cmd_merge_select_fields_back>&lt; Geri =</cmd_merge_select_fields_back>
+<groupBox3>Seçenekleri değiştir</groupBox3>
+<label10>Hedef</label10>
+<label12>Alt alanlar</label12>
+<label9>Hedef</label9>
+<label8>Göstergeleri</label8>
+<label7>Birleştirme alanları:</label7>
+<label6>Alanı seçin:</label6>
+<label5>Veri birleştirme: Alanları seçin</label5>
+<ck_Repeatable>Yinelenebilir alt alan</ck_Repeatable>
+<ck_sort>Sıralama alanları</ck_sort>
+<P3_cmd_Cancel>İptal</P3_cmd_Cancel>
+<P3_cmd_finish>Bitiş</P3_cmd_finish>
+<P3_ck_save_args>Şablonu Kaydet</P3_ck_save_args>
+<button4>Yükleme şablon</button4>
+<P3_cmd_Apply>Uygula</P3_cmd_Apply>
+<P3_lb_args>Bağımsız değişkenler</P3_lb_args>
+<P3_lb_punct>Terim. Noktalama işaretleri:</P3_lb_punct>
+<P3_txt_indicators>\\\\</P3_txt_indicators>
+<P3_lb_indicators>Göstergeler:</P3_lb_indicators>
+<P3_mapto>Eşleştirin:</P3_mapto>
+<P3_lb_select>Seçin:</P3_lb_select>
+<button5>Kapat</button5>
+<label15>Dosyaları birleştirilmiş.  {Merge_results_file} içinde bulunan sonuçlar.</label15>
+<label13>Birleştirme tamamlandı</label13>
+<this>Utilties iletişim</this>
+</MarcEdit_frmUtilities>
 <MarcEdit_frmvalidator>
-<lb_Source>Kaynak dosya:</lb_Source><lb_Rules>Kurallar dosyası:</lb_Rules><cmd_Ok>Tamam</cmd_Ok><cmd_close>Kapat</cmd_close><groupBox1>Seçenekler</groupBox1><optIdentify>Geçersiz kayıtları tanımlamak</optIdentify><opt_remove>Geçersiz kayıt kaldırma</opt_remove><opt_validate>Rekor (varsayılan) doğrula</opt_validate><this>MARCValidator</this></MarcEdit_frmvalidator>
+<lb_Source>Kaynak dosya:</lb_Source>
+<lb_Rules>Kurallar dosyası:</lb_Rules>
+<cmd_Ok>Tamam</cmd_Ok>
+<cmd_close>Kapat</cmd_close>
+<groupBox1>Seçenekler</groupBox1>
+<optIdentify>Geçersiz kayıtları tanımlamak</optIdentify>
+<opt_remove>Geçersiz kayıt kaldırma</opt_remove>
+<opt_validate>Rekor (varsayılan) doğrula</opt_validate>
+<this>MARCValidator</this>
+</MarcEdit_frmvalidator>
 <MarcEdit_frmVURL>
-<cmd_Ok>Tamam</cmd_Ok><cmdCancel>Kapat</cmdCancel><groupBox1>Rapor seçenekleri:</groupBox1><lb_MARC_Title>Başlık:</lb_MARC_Title><lbReport>Rapor türü:</lbReport><lb_XSLT>XSLT dosyası:</lb_XSLT><lb_Dest>Çıkış dosyası:</lb_Dest><lb_MARC>Giriş dosyası:</lb_MARC><lb_Fields>Alanlar:</lb_Fields><this>URL'yi doğrulayın</this></MarcEdit_frmVURL>
+<cmd_Ok>Tamam</cmd_Ok>
+<cmdCancel>Kapat</cmdCancel>
+<groupBox1>Rapor seçenekleri:</groupBox1>
+<lb_MARC_Title>Başlık:</lb_MARC_Title>
+<lbReport>Rapor türü:</lbReport>
+<lb_XSLT>XSLT dosyası:</lb_XSLT>
+<lb_Dest>Çıkış dosyası:</lb_Dest>
+<lb_MARC>Giriş dosyası:</lb_MARC>
+<lb_Fields>Alanlar:</lb_Fields>
+<this>URL'yi doğrulayın</this>
+</MarcEdit_frmVURL>
 <MarcEdit_frmXMLTreeView>
-<cmdSave>Uygula</cmdSave><cmdClose>Kapat</cmdClose><lb_file>Dosyayı seçin:</lb_file><ck_backup>Yedekten geri yükleme</ck_backup><this>MarcEdit dil dosyası editörü</this></MarcEdit_frmXMLTreeView>
+<cmdSave>Uygula</cmdSave>
+<cmdClose>Kapat</cmdClose>
+<lb_file>Dosyayı seçin:</lb_file>
+<ck_backup>Yedekten geri yükleme</ck_backup>
+<this>MarcEdit dil dosyası editörü</this>
+</MarcEdit_frmXMLTreeView>
 <MarcEdit_frm_FASTHeadings>
-<lnkClassify>OCLC'ın hızlı hizmeti hakkında</lnkClassify><label1>Bu hizmet, OCLC's hızlı Web hizmetinden yapar.  HIZLI recommendationsare belli MARC kayıtları hakkında bu webservice bilgi göndererek oluşturulur.  OCLC'swebservice geri MarcEdit için en yakın bir konu ile ilgili hızlı başlıklarını döndürür.</label1><ck_conditional_fast>Hiçbir konu başlıkları mevcut olduğunda hızlı başlıkları ekle</ck_conditional_fast><ck_always_fast>Her zaman hızlı başlıkları ekle</ck_always_fast><label8>Konu başlıkları:</label8><button1>İşlem</button1><cmd_Close>Kapat</cmd_Close><this>HIZLI başlıklarını oluşturmak</this></MarcEdit_frm_FASTHeadings>
+<lnkClassify>OCLC'ın hızlı hizmeti hakkında</lnkClassify>
+<label1>Bu hizmet, OCLC's hızlı Web hizmetinden yapar.  HIZLI öneriler belli MARC kayıtları hakkında bu webservice bilgi göndererek oluşturulur.  OCLC'ın webservice geri MarcEdit için en yakın bir konu ile ilgili hızlı başlıklarını döndürür.</label1>
+<ck_conditional_fast>Hiçbir konu başlıkları mevcut olduğunda hızlı başlıkları ekle</ck_conditional_fast>
+<ck_always_fast>Her zaman hızlı başlıkları ekle</ck_always_fast>
+<label8>Konu başlıkları:</label8>
+<button1>İşlem</button1>
+<cmd_Close>Kapat</cmd_Close>
+<this>HIZLI başlıklarını oluşturmak</this>
+</MarcEdit_frm_FASTHeadings>
 <MarcEdit_frm_merge_options>
-<cmd_save>Kaydet</cmd_save><cmd_close>Kapat</cmd_close><ck_1xxa>$a: ana girişi</ck_1xxa><ck_245p>$p: pt/sn iş adı</ck_245p><ck_245n>$n: pt/sn iş sayısı</ck_245n><ck_245c>$c: sorumluluk beyanı</ck_245c><ck_245b>$b: başlık kalan</ck_245b><ck_245a>$a: başlık</ck_245a><ck_lang>Dil (pozisyonlar: 35-37)</ck_lang><ck_dates>Tarihler (pozisyonlar: 7-14)</ck_dates><ck_p7>BLvl (pozisyon 7)</ck_p7><ck_p6>Türü (pozisyon 6)</ck_p6><label6>Denetim numaraları</label6><ck_form>Form (pozisyonlar: 23)</ck_form><ck_245_h>$h: genel malzeme atama</ck_245_h><label5>Sair giderler alanlar:</label5><label4>245. alan:</label4><label3>Yazar (1xx) alanı</label3><label2>008 pozisyonlar</label2><label1>LDR konumu</label1><this>Birleştirme seçenekleri</this></MarcEdit_frm_merge_options>
+<cmd_save>Kaydet</cmd_save>
+<cmd_close>Kapat</cmd_close>
+<ck_1xxa>$a: ana girişi</ck_1xxa>
+<ck_245p>$p: pt/sn iş adı</ck_245p>
+<ck_245n>$n: pt/sn iş sayısı</ck_245n>
+<ck_245c>$c: sorumluluk beyanı</ck_245c>
+<ck_245b>$b: başlık kalan</ck_245b>
+<ck_245a>$a: başlık</ck_245a>
+<ck_lang>Dil (pozisyonlar: 35-37)</ck_lang>
+<ck_dates>Tarihler (pozisyonlar: 7-14)</ck_dates>
+<ck_p7>BLvl (pozisyon 7)</ck_p7>
+<ck_p6>Türü (pozisyon 6)</ck_p6>
+<label6>Denetim numaraları</label6>
+<ck_form>Form (pozisyonlar: 23)</ck_form>
+<ck_245_h>$h: genel malzeme atama</ck_245_h>
+<label5>Sair giderler alanlar:</label5>
+<label4>245. alan:</label4>
+<label3>Yazar (1xx) alanı</label3>
+<label2>008 pozisyonlar</label2>
+<label1>LDR konumu</label1>
+<this>Birleştirme seçenekleri</this>
+</MarcEdit_frm_merge_options>
 <MarcEdit_frm_z3950_preferences>
-<tabDBProps>Veritabanı özellikleri</tabDBProps><ck_Paused>Duraklat (6 saniye) geçersiz kıl</ck_Paused><label1>Veritabanı:</label1><ck_Show>Veritabanını göster</ck_Show><lbPassword>Şifre:</lbPassword><lbUsername>Kullanıcı adı:</lbUsername><lbSyntax>Sözdizimi:</lbSyntax><lbPort>Bağlantı noktası:</lbPort><lbHost>Ana bilgisayar:</lbHost><lbname>Adı:</lbname><tabDBAdvanced>Gelişmiş Özellikler</tabDBAdvanced><label4>Zaman aşımı (saniye):</label4><label2>Öğe kümesi:</label2><label3>Diğer seçenekler:</label3><lnkftp>http://www.Loc.gov/z3950/Agency/defns/bib1.html</lnkftp><lbInfo>Daha fazla bilgi:</lbInfo><lbISBN>ISBN/ISSN:</lbISBN><lbSubject>Konu:</lbSubject><lbTitle>Başlık:</lbTitle><lbAuthor>Yazar:</lbAuthor><lbadvTitle>Z39.50 öznitelik 4: yapısı</lbadvTitle><cmdSave>Kaydet</cmdSave><cmdClose>Kapat</cmdClose><this>Veritabanı özellikleri</this></MarcEdit_frm_z3950_preferences>
+<tabDBProps>Veritabanı özellikleri</tabDBProps>
+<ck_Paused>Duraklat (6 saniye) geçersiz kıl</ck_Paused>
+<label1>Veritabanı:</label1>
+<ck_Show>Veritabanını göster</ck_Show>
+<lbPassword>Şifre:</lbPassword>
+<lbUsername>Kullanıcı adı:</lbUsername>
+<lbSyntax>Sözdizimi:</lbSyntax>
+<lbPort>Bağlantı noktası:</lbPort>
+<lbHost>Ana bilgisayar:</lbHost>
+<lbname>Adı:</lbname>
+<tabDBAdvanced>Gelişmiş Özellikler</tabDBAdvanced>
+<label4>Zaman aşımı (saniye):</label4>
+<label2>Öğe kümesi:</label2>
+<label3>Diğer seçenekler:</label3>
+<lnkftp>http://www.Loc.gov/z3950/Agency/defns/bib1.html</lnkftp>
+<lbInfo>Daha fazla bilgi:</lbInfo>
+<lbISBN>ISBN/ISSN:</lbISBN>
+<lbSubject>Konu:</lbSubject>
+<lbTitle>Başlık:</lbTitle>
+<lbAuthor>Yazar:</lbAuthor>
+<lbadvTitle>Z39.50 öznitelik 4: yapısı</lbadvTitle>
+<cmdSave>Kaydet</cmdSave>
+<cmdClose>Kapat</cmdClose>
+<this>Veritabanı özellikleri</this>
+</MarcEdit_frm_z3950_preferences>
 <MarcEdit_meEditor>
-<lnkLoadAll>Yük tüm dosya</lnkLoadAll><lb_bytes>{loaded_bytes} {file_bytes} yüklenen bayt.</lb_bytes><tbar1>toolStrip1</tbar1><tbNew>Yeni kayıt</tbNew><mnuCNewWindow>Yeni bir pencere aç</mnuCNewWindow><ContextAuthority>Yetki</ContextAuthority><ContextAuthorityName>Adı</ContextAuthorityName><ContextAuthoritySubject>Konu</ContextAuthoritySubject><cBook>Kitap</cBook><cSerial>Seri</cSerial><cVisualMat>Görsel malzeme</cVisualMat><cMaps>Kartografik kaynak</cMaps><cSoundRec>Ses kayıt</cSoundRec><cScore>Puan</cScore><cElectMat>Elektronik kaynak</cElectMat><cMixedMat>Karışık malzeme</cMixedMat><tbOpen>Dosya Aç</tbOpen><tbSave>Dosyayı kaydedin</tbSave><tbPrint>Dosya yazdırma</tbPrint><tbCompile>Kayıtları derlemek</tbCompile><tbCut>Cut</tbCut><tbCopy>Kopyala</tbCopy><tbPaste>Yapıştır</tbPaste><tbALA>MARC8 ALA karakter kümesini</tbALA><tbDelete>Sil</tbDelete><tbFind>Bul</tbFind><tbZ39_50>Z39.50/SRU istemci</tbZ39_50><tbHelp>Yardım</tbHelp><mnuObj>menuStrip1</mnuObj><mnuFile>Dosya</mnuFile><mnuFileMain>Ana penceresine geri dönün</mnuFileMain><mnuFileNew>Yeni</mnuFileNew><mnuFileNewWindow>Yeni bir pencere aç</mnuFileNewWindow><mnuFileNewDefault>Varsayılan</mnuFileNewDefault><mnuFileNewAuthority>Yetki</mnuFileNewAuthority><mnuFileNewAuthorityName>Adı</mnuFileNewAuthorityName><mnuFileNewAuthoritySubject>Konu</mnuFileNewAuthoritySubject><mnuFileNewBook>Kitap</mnuFileNewBook><mnuFileNewSerial>Seri</mnuFileNewSerial><mnuFileVisualMat>Görsel malzeme</mnuFileVisualMat><mnuFileNewMap>Kartografik kaynak</mnuFileNewMap><mnuFileNewSound>Ses kayıt</mnuFileNewSound><mnuFileNewScore>Puan</mnuFileNewScore><mnuFileNewER>Elektronik kaynak</mnuFileNewER><mnuFileNewMix>Karışık malzeme</mnuFileNewMix><mnuFileOpen>Açık</mnuFileOpen><mnuFileRecent>Son kullanılan dosyalar</mnuFileRecent><mnunone10>hiçbiri</mnunone10><mnunone9>hiçbiri</mnunone9><mnunone8>hiçbiri</mnunone8><mnunone7>hiçbiri</mnunone7><mnunone6>hiçbiri</mnunone6><mnunone5>hiçbiri</mnunone5><mnunone4>hiçbiri</mnunone4><mnunone3>hiçbiri</mnunone3><mnunone2>hiçbiri</mnunone2><mnunone1>hiçbiri</mnunone1><mnuFileClearHistory>Geçmişi Sil</mnuFileClearHistory><mnuFileClearList>Açık yeni dosyalar</mnuFileClearList><clearEditReplaceHistoryToolStripMenuItem>EDIT/Replace geçmişini temizle</clearEditReplaceHistoryToolStripMenuItem><mnuFileClose>Kapat</mnuFileClose><mnuFileSave>Kaydet</mnuFileSave><mnuFileSaveAs>Farklı Kaydet...</mnuFileSaveAs><mnuFilePrint>Yazdır</mnuFilePrint><FileSelectIndividualMake>Bireysel kayıt(lar)-yapmak için seçin</FileSelectIndividualMake><mnuFileCompile>MARC dosya derlemek</mnuFileCompile><mnuFileExit>Çıkış</mnuFileExit><mnuEdit>Düzenle</mnuEdit><mnuEditUndo>Geri alma</mnuEditUndo><mnuEditRedo>Yinele</mnuEditRedo><mnuEditSpecialUndo>Özel geri alma</mnuEditSpecialUndo><mnuEditCut>Cut</mnuEditCut><mnuEditCopy>Kopyala</mnuEditCopy><mnuEditPaste>Yapıştır</mnuEditPaste><mnuEditDupLines>Yinelenen satırları</mnuEditDupLines><mnuEditClear>Açık</mnuEditClear><mnuEditFind>Bul</mnuEditFind><mnuEditReplace>Değiştir</mnuEditReplace><toolStripMenuItem28>Kısayolları Düzenle</toolStripMenuItem28><changeCaseToolStripMenuItem>Büyük/küçük</changeCaseToolStripMenuItem><lowerCaseToolStripMenuItem>küçük harf</lowerCaseToolStripMenuItem><upperCaseToolStripMenuItem>BÜYÜK HARF</upperCaseToolStripMenuItem><sentenceCaseToolStripMenuItem>İlk harfler büyük</sentenceCaseToolStripMenuItem><initialCaseToolStripMenuItem>İlk durum</initialCaseToolStripMenuItem><capitalizeInitialCharacterToolStripMenuItem>İlk karakter büyük harfe çevir</capitalizeInitialCharacterToolStripMenuItem><fieldEditsToolStripMenuItem>Alan düzenlemeleri</fieldEditsToolStripMenuItem><findRecordsMissingFieldToolStripMenuItem>Alan eksik kayıtları bulma</findRecordsMissingFieldToolStripMenuItem><swapTitleToolStripMenuItem>Başlık Değiştir</swapTitleToolStripMenuItem><mnuEditJumpTo>Atlamak...</mnuEditJumpTo><jumpToRecordToolStripMenuItem>Atlamak...Rekor</jumpToRecordToolStripMenuItem><jumpToPageToolStripMenuItem>Atlamak...Sayfa</jumpToPageToolStripMenuItem><mnuEditControl>Tek kontrol numarası ekle</mnuEditControl><mnuEdit006>Ekle/Düzenle 006</mnuEdit006><mnuEdit006Edit>Düzenle</mnuEdit006Edit><mnuEdit006Book>Kitap</mnuEdit006Book><mnuEdit006Serial>Devam eden kaynak</mnuEdit006Serial><mnuEdit006Map>Kartografik kaynak</mnuEdit006Map><mnuEdit006Sound>Ses kayıt</mnuEdit006Sound><mnuEdit006Score>Puan</mnuEdit006Score><mnuEdit006ER>Elektronik kaynak</mnuEdit006ER><mnuEdit006Visual>Görsel malzeme</mnuEdit006Visual><mnuEdit006Mixed>Karışık malzeme</mnuEdit006Mixed><mnuEdit008>Ekle/Düzenle 008</mnuEdit008><mnuEdit008Edit>Düzenle</mnuEdit008Edit><mnuEdit008Book>Kitap</mnuEdit008Book><mnuEdit008Serial>Devam eden kaynak</mnuEdit008Serial><mnuEdit008Map>Kartografik kaynak</mnuEdit008Map><mnuEdit008Sound>Ses kayıt</mnuEdit008Sound><mnuEdit008Score>Puan</mnuEdit008Score><mnuEdit008ER>Elektronik kaynak</mnuEdit008ER><mnuEdit008Visual>Görsel malzeme</mnuEdit008Visual><mnuEdit008Mixed>Karışık malzeme</mnuEdit008Mixed><toolStripMenuItem27>Pano içeriği dönüştürmek</toolStripMenuItem27><mnuEditConverttoUTF8>MARC-8, UTF-8</mnuEditConverttoUTF8><mnuEditConvertoMarc8>UTF-8-MARC-8</mnuEditConvertoMarc8><mnuEditALA>MARC-8 ALA karakter kümesini</mnuEditALA><mnuEditUTF8CharacterMap>UTF-8 karakter eşlem</mnuEditUTF8CharacterMap><mnuEditSelectAll>Tümünü Seç</mnuEditSelectAll><mnuEditWrap>Sözcük kaydırma</mnuEditWrap><mnuEditRTL>Sağdan sola görüntüle</mnuEditRTL><mnuEditInfo>MARC bilgi</mnuEditInfo><mnuEditInfoOCLC>OCLC MARC yardım</mnuEditInfoOCLC><mnuEditInfoLC>ABD Kongresi MARC yardım Kütüphanesi</mnuEditInfoLC><mnuFont>Yazı tipleri</mnuFont><mnuFontFont>Yazı tipi...</mnuFontFont><mnuFontColor>Renk...</mnuFontColor><mnuReports>Raporları</mnuReports><mnuReportsField>Alan sayısı</mnuReportsField><tlReportsMaterialReport>Malzeme türü rapor</tlReportsMaterialReport><generateReportToolStripMenuItem>Raporu Oluştur</generateReportToolStripMenuItem><findBookToolStripMenuItem>Türüne göre kayıtları bulma</findBookToolStripMenuItem><booksToolStripMenuItem>Kitaplar</booksToolStripMenuItem><toolStripMenuItem32>Bilgisayarınıza dosya</toolStripMenuItem32><continuingResourcesToolStripMenuItem>Devam eden kaynaklar</continuingResourcesToolStripMenuItem><mapsToolStripMenuItem>Haritalar</mapsToolStripMenuItem><mixedMaterialsToolStripMenuItem>Karışık malzeme</mixedMaterialsToolStripMenuItem><scoresToolStripMenuItem>Puanları</scoresToolStripMenuItem><soundRecordingsToolStripMenuItem>Ses kayıtları</soundRecordingsToolStripMenuItem><visualMaterialsToolStripMenuItem>Görsel materyaller</visualMaterialsToolStripMenuItem><mARCValidatorToolStripMenuItem>MARCValidator</mARCValidatorToolStripMenuItem><mnuTools>Araçlar</mnuTools><mnuToolsCalculator>Katalog hesap makinesi</mnuToolsCalculator><mnuToolsCallNum>Telefon numaralarını oluşturması</mnuToolsCallNum><mnuToolsControlNumber>Denetim numaraları oluşturmak</mnuToolsControlNumber><mnuToolsRDAHelpers>BKİ yardımcı</mnuToolsRDAHelpers><mnuToolsEditConstant>Sürekli verileri düzenleme</mnuToolsEditConstant><mnuToolsAssigned>Atanan sabit veri</mnuToolsAssigned><mnuConstant1>1) tanımlanmamış dize</mnuConstant1><mnuConstant2>2) tanımlanmamış dize</mnuConstant2><mnuConstant3>3) tanımlanmamış dize</mnuConstant3><mnuConstant4>4) tanımlanmamış dize</mnuConstant4><mnuConstant5>5) tanımlanmamış dize</mnuConstant5><mnuConstant6>6) tanımlanmamış dize</mnuConstant6><mnuConstant7>7) tanımlanmamış dize</mnuConstant7><mnuConstant8>8) tanımlanmamış dize</mnuConstant8><mnuConstant9>9) tanımlanmamış dize</mnuConstant9><mnuConstant10>10) tanımlanmamış dize</mnuConstant10><mnutoolmanageAutomate>Görevleri yönetme</mnutoolmanageAutomate><mnutoolassignTasks>Atanan görevler</mnutoolassignTasks><mnuDefTask>Şu anda mevcut görevler</mnuDefTask><task1>1) tanımlanmamış görev</task1><task2>2) tanımlanmamış görev</task2><task3>3) tanımlanmamış görev</task3><task4>4) tanımlanmamış görev</task4><task5>5) tanımlanmamış görev</task5><task6>6) tanımlanmamış görev</task6><task7>7) tanımlanmamış görev</task7><task8>8) tanımlanmamış görev</task8><task9>9) tanımlanmamış görev</task9><task10>10) tanımlanmamış görev</task10><mnuToolsZ3950>Z39.50/SRU seçenekleri</mnuToolsZ3950><marcEditZ3950SRUClientToolStripMenuItem>MarcEdit Z39.50/SRU istemci</marcEditZ3950SRUClientToolStripMenuItem><importRecordToolStripMenuItem>Z39.50 alma kaydını</importRecordToolStripMenuItem><uploadEditedRecordToolStripMenuItem>Z39.50 karşıya yükleme kaydı</uploadEditedRecordToolStripMenuItem><toolz3950delete>Z39.50 kaydını silme</toolz3950delete><z3950UpdateHoldingsToolStripMenuItem>Z39.50 güncelleştirme holdingler</z3950UpdateHoldingsToolStripMenuItem><mnuToolsValidate>MARC kayıtları doğrulamak</mnuToolsValidate><mnuToolsDedup>Kayıt Deduplication</mnuToolsDedup><mnuToolsOAI>OAI itibaren hasat</mnuToolsOAI><mnutoolsurl>MARC URL'den oluşturmak</mnutoolsurl><toolStripMenuItem3>Normale...</toolStripMenuItem3><normalizeLCRecordToolStripMenuItem>LC kayıtları normalize</normalizeLCRecordToolStripMenuItem><normalizeMicrolifRecordsToolStripMenuItem>Microlif kayıtları normalize</normalizeMicrolifRecordsToolStripMenuItem><mnuToolsRemoveEmpty>Boş alanları/alt alanları kaldır</mnuToolsRemoveEmpty><mnuToolsAdd>Alan Ekle/Sil</mnuToolsAdd><toolStripMenuItem26>Kopyalama alanı</toolStripMenuItem26><mnuToolsEditField>Alan verilerini Düzenle</mnuToolsEditField><mnuToolsIndicator>Gösterge verileri düzenleme</mnuToolsIndicator><mnuToolsSubfield>Alt alan verileri düzenleme</mnuToolsSubfield><mnuToolsSortby>Göre sırala...</mnuToolsSortby><mnuToolsCustomSort>Özel sıralama</mnuToolsCustomSort><mnuToolsSortControl>Kontrol numarası göre sırala</mnuToolsSortControl><mnuToolsSortbyTitle>Başlığa göre sırala</mnuToolsSortbyTitle><mnuToolsSortAuthor>Yazara göre sıralama</mnuToolsSortAuthor><mnuToolsSortByCall>Telefon numarasına göre sıralama</mnuToolsSortByCall><mnuToolsSort2>Sıralama 0xx alanları</mnuToolsSort2><mnuToolsSort>Tüm alanları sıralama</mnuToolsSort><mnuToolsSwap>Takas alanı verileri</mnuToolsSwap><mnuToolsOptions>Tercihler</mnuToolsOptions><mnu_ILS>[ILS adı]</mnu_ILS><mnu_ils_search>Arama</mnu_ils_search><updateCreateToolStripMenuItem>Güncelleştir/oluştur</updateCreateToolStripMenuItem><mnuOCLC>OCLC WorldCat</mnuOCLC><toolStripMenuItem31>Arama WorldCat</toolStripMenuItem31><mnuOCLCLocalBibData>Add/Delete/Update yerel bibliyografik veri</mnuOCLCLocalBibData><createUpdateToolStripMenuItem>Bibliyografik veri Oluştur/Güncelleştir</createUpdateToolStripMenuItem><deleteHoldingsToolStripMenuItem>Güncelleştirme holdingler</deleteHoldingsToolStripMenuItem><pluginsToolStripMenuItem>Eklentileri</pluginsToolStripMenuItem><mnuHelp>Yardım</mnuHelp><mnuHelpContents>İçindekiler ve yardım</mnuHelpContents><label1>Sayfa başına kayıt sayısı</label1><lblPage>sayfaları</lblPage><btnPre>&lt;</btnPre><btnNext>&gt;</btnNext><btnLast>&gt;&gt;</btnLast><btnFirst>&lt;&lt;</btnFirst><this>MarcEditor</this></MarcEdit_meEditor>
+<lnkLoadAll>Yük tüm dosya</lnkLoadAll>
+<lb_bytes>{loaded_bytes} {file_bytes} yüklenen bayt.</lb_bytes>
+<tbar1>toolStrip1</tbar1>
+<tbNew>Yeni kayıt</tbNew>
+<mnuCNewWindow>Yeni bir pencere aç</mnuCNewWindow>
+<ContextAuthority>Yetki</ContextAuthority>
+<ContextAuthorityName>Adı</ContextAuthorityName>
+<ContextAuthoritySubject>Konu</ContextAuthoritySubject>
+<cBook>Kitap</cBook>
+<cSerial>Seri</cSerial>
+<cVisualMat>Görsel malzeme</cVisualMat>
+<cMaps>Kartografik kaynak</cMaps>
+<cSoundRec>Ses kayıt</cSoundRec>
+<cScore>Puan</cScore>
+<cElectMat>Elektronik kaynak</cElectMat>
+<cMixedMat>Karışık malzeme</cMixedMat>
+<tbOpen>Dosya Aç</tbOpen>
+<tbSave>Dosyayı kaydedin</tbSave>
+<tbPrint>Dosya yazdırma</tbPrint>
+<tbCompile>Kayıtları derlemek</tbCompile>
+<tbCut>Cut</tbCut>
+<tbCopy>Kopyala</tbCopy>
+<tbPaste>Yapıştır</tbPaste>
+<tbALA>MARC8 ALA karakter kümesini</tbALA>
+<tbDelete>Sil</tbDelete>
+<tbFind>Bul</tbFind>
+<tbZ39_50>Z39.50/SRU istemci</tbZ39_50>
+<tbHelp>Yardım</tbHelp>
+<mnuObj>menuStrip1</mnuObj>
+<mnuFile>Dosya</mnuFile>
+<mnuFileMain>Ana penceresine geri dönün</mnuFileMain>
+<mnuFileNew>Yeni</mnuFileNew>
+<mnuFileNewWindow>Yeni bir pencere aç</mnuFileNewWindow>
+<mnuFileNewDefault>Varsayılan</mnuFileNewDefault>
+<mnuFileNewAuthority>Yetki</mnuFileNewAuthority>
+<mnuFileNewAuthorityName>Adı</mnuFileNewAuthorityName>
+<mnuFileNewAuthoritySubject>Konu</mnuFileNewAuthoritySubject>
+<mnuFileNewBook>Kitap</mnuFileNewBook>
+<mnuFileNewSerial>Seri</mnuFileNewSerial>
+<mnuFileVisualMat>Görsel malzeme</mnuFileVisualMat>
+<mnuFileNewMap>Kartografik kaynak</mnuFileNewMap>
+<mnuFileNewSound>Ses kayıt</mnuFileNewSound>
+<mnuFileNewScore>Puan</mnuFileNewScore>
+<mnuFileNewER>Elektronik kaynak</mnuFileNewER>
+<mnuFileNewMix>Karışık malzeme</mnuFileNewMix>
+<mnuFileOpen>Açık</mnuFileOpen>
+<mnuFileRecent>Son kullanılan dosyalar</mnuFileRecent>
+<mnunone10>hiçbiri</mnunone10>
+<mnunone9>hiçbiri</mnunone9>
+<mnunone8>hiçbiri</mnunone8>
+<mnunone7>hiçbiri</mnunone7>
+<mnunone6>hiçbiri</mnunone6>
+<mnunone5>hiçbiri</mnunone5>
+<mnunone4>hiçbiri</mnunone4>
+<mnunone3>hiçbiri</mnunone3>
+<mnunone2>hiçbiri</mnunone2>
+<mnunone1>hiçbiri</mnunone1>
+<mnuFileClearHistory>Geçmişi Sil</mnuFileClearHistory>
+<mnuFileClearList>Açık yeni dosyalar</mnuFileClearList>
+<clearEditReplaceHistoryToolStripMenuItem>EDIT/Replace geçmişini temizle</clearEditReplaceHistoryToolStripMenuItem>
+<mnuFileClose>Kapat</mnuFileClose>
+<mnuFileSave>Kaydet</mnuFileSave>
+<mnuFileSaveAs>Farklı Kaydet...</mnuFileSaveAs>
+<mnuFilePrint>Yazdır</mnuFilePrint>
+<FileSelectIndividualMake>Bireysel kayıt(lar)-yapmak için seçin</FileSelectIndividualMake>
+<mnuFileCompile>MARC dosya derlemek</mnuFileCompile>
+<mnuFileExit>Çıkış</mnuFileExit>
+<mnuEdit>Düzenle</mnuEdit>
+<mnuEditUndo>Geri alma</mnuEditUndo>
+<mnuEditRedo>Yinele</mnuEditRedo>
+<mnuEditSpecialUndo>Özel geri alma</mnuEditSpecialUndo>
+<mnuEditCut>Cut</mnuEditCut>
+<mnuEditCopy>Kopyala</mnuEditCopy>
+<mnuEditPaste>Yapıştır</mnuEditPaste>
+<mnuEditDupLines>Yinelenen satırları</mnuEditDupLines>
+<mnuEditClear>Açık</mnuEditClear>
+<mnuEditFind>Bul</mnuEditFind>
+<mnuEditReplace>Değiştir</mnuEditReplace>
+<toolStripMenuItem28>Kısayolları Düzenle</toolStripMenuItem28>
+<changeCaseToolStripMenuItem>Büyük/küçük</changeCaseToolStripMenuItem>
+<lowerCaseToolStripMenuItem>küçük harf</lowerCaseToolStripMenuItem>
+<upperCaseToolStripMenuItem>BÜYÜK HARF</upperCaseToolStripMenuItem>
+<sentenceCaseToolStripMenuItem>İlk harfler büyük</sentenceCaseToolStripMenuItem>
+<initialCaseToolStripMenuItem>İlk durum</initialCaseToolStripMenuItem>
+<capitalizeInitialCharacterToolStripMenuItem>İlk karakter büyük harfe çevir</capitalizeInitialCharacterToolStripMenuItem>
+<fieldEditsToolStripMenuItem>Alan düzenlemeleri</fieldEditsToolStripMenuItem>
+<findRecordsMissingFieldToolStripMenuItem>Alan eksik kayıtları bulma</findRecordsMissingFieldToolStripMenuItem>
+<swapTitleToolStripMenuItem>Başlık Değiştir</swapTitleToolStripMenuItem>
+<mnuEditJumpTo>Atlamak...</mnuEditJumpTo>
+<jumpToRecordToolStripMenuItem>Atlamak...Rekor</jumpToRecordToolStripMenuItem>
+<jumpToPageToolStripMenuItem>Atlamak...Sayfa</jumpToPageToolStripMenuItem>
+<mnuEditControl>Tek kontrol numarası ekle</mnuEditControl>
+<mnuEdit006>Ekle/Düzenle 006</mnuEdit006>
+<mnuEdit006Edit>Düzenle</mnuEdit006Edit>
+<mnuEdit006Book>Kitap</mnuEdit006Book>
+<mnuEdit006Serial>Devam eden kaynak</mnuEdit006Serial>
+<mnuEdit006Map>Kartografik kaynak</mnuEdit006Map>
+<mnuEdit006Sound>Ses kayıt</mnuEdit006Sound>
+<mnuEdit006Score>Puan</mnuEdit006Score>
+<mnuEdit006ER>Elektronik kaynak</mnuEdit006ER>
+<mnuEdit006Visual>Görsel malzeme</mnuEdit006Visual>
+<mnuEdit006Mixed>Karışık malzeme</mnuEdit006Mixed>
+<mnuEdit008>Ekle/Düzenle 008</mnuEdit008>
+<mnuEdit008Edit>Düzenle</mnuEdit008Edit>
+<mnuEdit008Book>Kitap</mnuEdit008Book>
+<mnuEdit008Serial>Devam eden kaynak</mnuEdit008Serial>
+<mnuEdit008Map>Kartografik kaynak</mnuEdit008Map>
+<mnuEdit008Sound>Ses kayıt</mnuEdit008Sound>
+<mnuEdit008Score>Puan</mnuEdit008Score>
+<mnuEdit008ER>Elektronik kaynak</mnuEdit008ER>
+<mnuEdit008Visual>Görsel malzeme</mnuEdit008Visual>
+<mnuEdit008Mixed>Karışık malzeme</mnuEdit008Mixed>
+<toolStripMenuItem27>Pano içeriği dönüştürmek</toolStripMenuItem27>
+<mnuEditConverttoUTF8>MARC-8, UTF-8</mnuEditConverttoUTF8>
+<mnuEditConvertoMarc8>UTF-8-MARC-8</mnuEditConvertoMarc8>
+<mnuEditALA>MARC-8 ALA karakter kümesini</mnuEditALA>
+<mnuEditUTF8CharacterMap>UTF-8 karakter eşlem</mnuEditUTF8CharacterMap>
+<mnuEditSelectAll>Tümünü Seç</mnuEditSelectAll>
+<mnuEditWrap>Sözcük kaydırma</mnuEditWrap>
+<mnuEditRTL>Sağdan sola görüntüle</mnuEditRTL>
+<mnuEditInfo>MARC bilgi</mnuEditInfo>
+<mnuEditInfoOCLC>OCLC MARC yardım</mnuEditInfoOCLC>
+<mnuEditInfoLC>ABD Kongresi MARC yardım Kütüphanesi</mnuEditInfoLC>
+<mnuFont>Yazı tipleri</mnuFont>
+<mnuFontFont>Yazı tipi...</mnuFontFont>
+<mnuFontColor>Renk...</mnuFontColor>
+<mnuReports>Raporları</mnuReports>
+<mnuReportsField>Alan sayısı</mnuReportsField>
+<tlReportsMaterialReport>Malzeme türü rapor</tlReportsMaterialReport>
+<generateReportToolStripMenuItem>Raporu Oluştur</generateReportToolStripMenuItem>
+<findBookToolStripMenuItem>Türüne göre kayıtları bulma</findBookToolStripMenuItem>
+<booksToolStripMenuItem>Kitaplar</booksToolStripMenuItem>
+<toolStripMenuItem32>Bilgisayarınıza dosya</toolStripMenuItem32>
+<continuingResourcesToolStripMenuItem>Devam eden kaynaklar</continuingResourcesToolStripMenuItem>
+<mapsToolStripMenuItem>Haritalar</mapsToolStripMenuItem>
+<mixedMaterialsToolStripMenuItem>Karışık malzeme</mixedMaterialsToolStripMenuItem>
+<scoresToolStripMenuItem>Puanları</scoresToolStripMenuItem>
+<soundRecordingsToolStripMenuItem>Ses kayıtları</soundRecordingsToolStripMenuItem>
+<visualMaterialsToolStripMenuItem>Görsel materyaller</visualMaterialsToolStripMenuItem>
+<mARCValidatorToolStripMenuItem>MARCValidator</mARCValidatorToolStripMenuItem>
+<mnuTools>Araçlar</mnuTools>
+<mnuToolsCalculator>Katalog hesap makinesi</mnuToolsCalculator>
+<mnuToolsCallNum>Telefon numaralarını oluşturması</mnuToolsCallNum>
+<mnuToolsControlNumber>Denetim numaraları oluşturmak</mnuToolsControlNumber>
+<mnuToolsRDAHelpers>BKİ yardımcı</mnuToolsRDAHelpers>
+<mnuToolsEditConstant>Sürekli verileri düzenleme</mnuToolsEditConstant>
+<mnuToolsAssigned>Atanan sabit veri</mnuToolsAssigned>
+<mnuConstant1>1) tanımlanmamış dize</mnuConstant1>
+<mnuConstant2>2) tanımlanmamış dize</mnuConstant2>
+<mnuConstant3>3) tanımlanmamış dize</mnuConstant3>
+<mnuConstant4>4) tanımlanmamış dize</mnuConstant4>
+<mnuConstant5>5) tanımlanmamış dize</mnuConstant5>
+<mnuConstant6>6) tanımlanmamış dize</mnuConstant6>
+<mnuConstant7>7) tanımlanmamış dize</mnuConstant7>
+<mnuConstant8>8) tanımlanmamış dize</mnuConstant8>
+<mnuConstant9>9) tanımlanmamış dize</mnuConstant9>
+<mnuConstant10>10) tanımlanmamış dize</mnuConstant10>
+<mnutoolmanageAutomate>Görevleri yönetme</mnutoolmanageAutomate>
+<mnutoolassignTasks>Atanan görevler</mnutoolassignTasks>
+<mnuDefTask>Şu anda mevcut görevler</mnuDefTask>
+<task1>1) tanımlanmamış görev</task1>
+<task2>2) tanımlanmamış görev</task2>
+<task3>3) tanımlanmamış görev</task3>
+<task4>4) tanımlanmamış görev</task4>
+<task5>5) tanımlanmamış görev</task5>
+<task6>6) tanımlanmamış görev</task6>
+<task7>7) tanımlanmamış görev</task7>
+<task8>8) tanımlanmamış görev</task8>
+<task9>9) tanımlanmamış görev</task9>
+<task10>10) tanımlanmamış görev</task10>
+<mnuToolsZ3950>Z39.50/SRU seçenekleri</mnuToolsZ3950>
+<marcEditZ3950SRUClientToolStripMenuItem>MarcEdit Z39.50/SRU istemci</marcEditZ3950SRUClientToolStripMenuItem>
+<importRecordToolStripMenuItem>Z39.50 alma kaydını</importRecordToolStripMenuItem>
+<uploadEditedRecordToolStripMenuItem>Z39.50 karşıya yükleme kaydı</uploadEditedRecordToolStripMenuItem>
+<toolz3950delete>Z39.50 kaydını silme</toolz3950delete>
+<z3950UpdateHoldingsToolStripMenuItem>Z39.50 güncelleştirme holdingler</z3950UpdateHoldingsToolStripMenuItem>
+<mnuToolsValidate>MARC kayıtları doğrulamak</mnuToolsValidate>
+<mnuToolsDedup>Kayıt Deduplication</mnuToolsDedup>
+<mnuToolsOAI>OAI itibaren hasat</mnuToolsOAI>
+<mnutoolsurl>MARC URL'den oluşturmak</mnutoolsurl>
+<toolStripMenuItem3>Normale...</toolStripMenuItem3>
+<normalizeLCRecordToolStripMenuItem>LC kayıtları normalize</normalizeLCRecordToolStripMenuItem>
+<normalizeMicrolifRecordsToolStripMenuItem>Microlif kayıtları normalize</normalizeMicrolifRecordsToolStripMenuItem>
+<mnuToolsRemoveEmpty>Boş alanları/alt alanları kaldır</mnuToolsRemoveEmpty>
+<mnuToolsAdd>Alan Ekle/Sil</mnuToolsAdd>
+<toolStripMenuItem26>Kopyalama alanı</toolStripMenuItem26>
+<mnuToolsEditField>Alan verilerini Düzenle</mnuToolsEditField>
+<mnuToolsIndicator>Gösterge verileri düzenleme</mnuToolsIndicator>
+<mnuToolsSubfield>Alt alan verileri düzenleme</mnuToolsSubfield>
+<mnuToolsSortby>Göre sırala...</mnuToolsSortby>
+<mnuToolsCustomSort>Özel sıralama</mnuToolsCustomSort>
+<mnuToolsSortControl>Kontrol numarası göre sırala</mnuToolsSortControl>
+<mnuToolsSortbyTitle>Başlığa göre sırala</mnuToolsSortbyTitle>
+<mnuToolsSortAuthor>Yazara göre sıralama</mnuToolsSortAuthor>
+<mnuToolsSortByCall>Telefon numarasına göre sıralama</mnuToolsSortByCall>
+<mnuToolsSort2>Sıralama 0xx alanları</mnuToolsSort2>
+<mnuToolsSort>Tüm alanları sıralama</mnuToolsSort>
+<mnuToolsSwap>Takas alanı verileri</mnuToolsSwap>
+<mnuToolsOptions>Tercihler</mnuToolsOptions>
+<mnu_ILS>[ILS adı]</mnu_ILS>
+<mnu_ils_search>Arama</mnu_ils_search>
+<updateCreateToolStripMenuItem>Güncelleştir/oluştur</updateCreateToolStripMenuItem>
+<mnuOCLC>OCLC WorldCat</mnuOCLC>
+<toolStripMenuItem31>Arama WorldCat</toolStripMenuItem31>
+<mnuOCLCLocalBibData>Add/Delete/Update yerel bibliyografik veri</mnuOCLCLocalBibData>
+<createUpdateToolStripMenuItem>Bibliyografik veri Oluştur/Güncelleştir</createUpdateToolStripMenuItem>
+<deleteHoldingsToolStripMenuItem>Güncelleştirme holdingler</deleteHoldingsToolStripMenuItem>
+<pluginsToolStripMenuItem>Eklentileri</pluginsToolStripMenuItem>
+<mnuHelp>Yardım</mnuHelp>
+<mnuHelpContents>İçindekiler ve yardım</mnuHelpContents>
+<label1>Sayfa başına kayıt sayısı</label1>
+<lblPage>sayfaları</lblPage>
+<btnPre>&lt;</btnPre>
+<btnNext>&gt;</btnNext>
+<btnLast>&gt;&gt;</btnLast>
+<btnFirst>&lt;&lt;</btnFirst>
+<this>MarcEditor</this>
+</MarcEdit_meEditor>
 <MarcEdit_oclc_agree>
-<lb_text>Veri doğrulama hizmet are OCLC'ın Termology Services.In sipariş doğru bu hizmetleri kullanmak, takip etmek ve şartlara uymayı kabul etmelidir sağlanan bu hizmetlerin kalitesini ve kullanım ile ilgili ileri OCLC tarafından belirlenen andconditions.</lb_text><label1>OCLC anlaşma Link:</label1><lnk_Terms>Kullanım koşullarını görüntüle</lnk_Terms><cmd_Agree>Kabul Ediyorum</cmd_Agree><cmd_disagree>Ben katılmıyorum</cmd_disagree><this>OCLC anlaşması</this></MarcEdit_oclc_agree>
+<lb_text>Veri doğrulama hizmetleri OCLC's Termology Hizmetleri aracılığıyla sağlanır. Bu hizmetleri kullanmak için izleyin ve hükümlerine uymak katılıyorum ve bu hizmetlerin kalitesini ve kullanım ile ilgili koşullar ileri OCLC tarafından belirlenir.</lb_text>
+<label1>OCLC anlaşma Link:</label1>
+<lnk_Terms>Kullanım koşullarını görüntüle</lnk_Terms>
+<cmd_Agree>Kabul Ediyorum</cmd_Agree>
+<cmd_disagree>Ben katılmıyorum</cmd_disagree>
+<this>OCLC anlaşması</this>
+</MarcEdit_oclc_agree>
 <MarcEdit_xml_console>
-<lb_Defined_Functions>Tanımlanmış işlevleri:</lb_Defined_Functions><cmd_Add>Ekle</cmd_Add><cmdDelete>Sil</cmdDelete><cmdModify>Değiştirme</cmdModify><cmdClose>Kapat</cmdClose><cmdSearch>Arama</cmdSearch><joinItemsToolStripMenuItem>İle katılmak</joinItemsToolStripMenuItem><this>XML işlevleri düzenlemek</this></MarcEdit_xml_console>
+<lb_Defined_Functions>Tanımlanmış işlevleri:</lb_Defined_Functions>
+<cmd_Add>Ekle</cmd_Add>
+<cmdDelete>Sil</cmdDelete>
+<cmdModify>Değiştirme</cmdModify>
+<cmdClose>Kapat</cmdClose>
+<cmdSearch>Arama</cmdSearch>
+<joinItemsToolStripMenuItem>İle katılmak</joinItemsToolStripMenuItem>
+<this>XML işlevleri düzenlemek</this>
+</MarcEdit_xml_console>
 <MarcEdit_xml_functions>
-<lb_GenInfo>Genel bilgiler:</lb_GenInfo><lb_Alias>Fonksiyonun adı (diğer ad):</lb_Alias><lb_XSLTPath>XSLT stil sayfası yolu:</lb_XSLTPath><lb_FormatInfo>Biçim bilgisi:</lb_FormatInfo><lb_Final>Son biçimi:</lb_Final><lb_Origin>Özgün biçimi:</lb_Origin><ck_orig_MARC>MARC</ck_orig_MARC><ck_orig_MARCXML>MARCXML</ck_orig_MARCXML><ck_orig_Other>Diğer</ck_orig_Other><ck_fin_Other>Diğer</ck_fin_Other><ck_fin_MARCXML>MARCXML</ck_fin_MARCXML><ck_fin_MARC>MARC</ck_fin_MARC><cmdOK>Tamam</cmdOK><cmdClose>Kapat</cmdClose><ck_Marc8>MARC-8'e dönüştürmek</ck_Marc8><ck_remote>Uzaktaki varlıklara gidermek</ck_remote><gp_XSLT>XSLT motoru</gp_XSLT><opt_default>Varsayılan</opt_default><opt_saxon>SAKSON</opt_saxon><opt_msxml>MSXML</opt_msxml><this>XML işlevleri düzenlemek</this></MarcEdit_xml_functions>
+<lb_GenInfo>Genel bilgiler:</lb_GenInfo>
+<lb_Alias>Fonksiyonun adı (diğer ad):</lb_Alias>
+<lb_XSLTPath>XSLT stil sayfası yolu:</lb_XSLTPath>
+<lb_FormatInfo>Biçim bilgisi:</lb_FormatInfo>
+<lb_Final>Son biçimi:</lb_Final>
+<lb_Origin>Özgün biçimi:</lb_Origin>
+<ck_orig_MARC>MARC</ck_orig_MARC>
+<ck_orig_MARCXML>MARCXML</ck_orig_MARCXML>
+<ck_orig_Other>Diğer</ck_orig_Other>
+<ck_fin_Other>Diğer</ck_fin_Other>
+<ck_fin_MARCXML>MARCXML</ck_fin_MARCXML>
+<ck_fin_MARC>MARC</ck_fin_MARC>
+<cmdOK>Tamam</cmdOK>
+<cmdClose>Kapat</cmdClose>
+<ck_Marc8>MARC-8'e dönüştürmek</ck_Marc8>
+<ck_remote>Uzaktaki varlıklara gidermek</ck_remote>
+<gp_XSLT>XSLT motoru</gp_XSLT>
+<opt_default>Varsayılan</opt_default>
+<opt_saxon>SAKSON</opt_saxon>
+<opt_msxml>MSXML</opt_msxml>
+<this>XML işlevleri düzenlemek</this>
+</MarcEdit_xml_functions>
 <marc_sql_explorer_frmMain>
-<tabPage1>Veri yüklenemedi</tabPage1><ckexpanded>Genişletilmiş tablo şema kullanın</ckexpanded><ckloadDB>MySQL kullanmak</ckloadDB><ckMysql>MySQL kullanmak</ckMysql><lnkmysqlOptions>MySQL seçenekleri</lnkmysqlOptions><cmdCancelP>İptal</cmdCancelP><cmdProcessMARC>İşlem</cmdProcessMARC><cmdLoadDB>Yük</cmdLoadDB><label5>Veritabanı dosyası:</label5><label6>Varolan veritabanı dosyası yüklenemedi</label6><label3>Veritabanı dosyası:</label3><label2>MARC dosyası:</label2><label1>MARC veri ön işlemden</label1><tabPage2>Veritabanı yapısı</tabPage2><cname>Adı</cname><cObject>Nesne</cObject><cSchema>Şema</cSchema><tabPage3>SQL Yürüt</tabPage3><label8>Döndürülen verileri</label8><label7>Sorgu sonuçları</label7><cmdExportD>Verileri verme</cmdExportD><cmdExcecuteQ>Sorgu yürütme</cmdExcecuteQ><label4>SQL dizesi</label4><cmdClose>Kapat</cmdClose><this>MARC SQL Explorer</this></marc_sql_explorer_frmMain>
+<tabPage1>Veri yüklenemedi</tabPage1>
+<ckexpanded>Genişletilmiş tablo şema kullanın</ckexpanded>
+<ckloadDB>MySQL kullanmak</ckloadDB>
+<ckMysql>MySQL kullanmak</ckMysql>
+<lnkmysqlOptions>MySQL seçenekleri</lnkmysqlOptions>
+<cmdCancelP>İptal</cmdCancelP>
+<cmdProcessMARC>İşlem</cmdProcessMARC>
+<cmdLoadDB>Yük</cmdLoadDB>
+<label5>Veritabanı dosyası:</label5>
+<label6>Varolan veritabanı dosyası yüklenemedi</label6>
+<label3>Veritabanı dosyası:</label3>
+<label2>MARC dosyası:</label2>
+<label1>MARC veri ön işlemden</label1>
+<tabPage2>Veritabanı yapısı</tabPage2>
+<cname>Adı</cname>
+<cObject>Nesne</cObject>
+<cSchema>Şema</cSchema>
+<tabPage3>SQL Yürüt</tabPage3>
+<label8>Döndürülen verileri</label8>
+<label7>Sorgu sonuçları</label7>
+<cmdExportD>Verileri verme</cmdExportD>
+<cmdExcecuteQ>Sorgu yürütme</cmdExcecuteQ>
+<label4>SQL dizesi</label4>
+<cmdClose>Kapat</cmdClose>
+<this>MARC SQL Explorer</this>
+</marc_sql_explorer_frmMain>
 <marc_sql_explorer_frmOptions>
-<label1>Veritabanı sunucusu:</label1><label2>Kullanıcı adı:</label2><label3>Şifre:</label3><cmdSave>Kaydet</cmdSave><cmdClose>Kapat</cmdClose><this>MySQL seçenekleri:</this></marc_sql_explorer_frmOptions>
+<label1>Veritabanı sunucusu:</label1>
+<label2>Kullanıcı adı:</label2>
+<label3>Şifre:</label3>
+<cmdSave>Kaydet</cmdSave>
+<cmdClose>Kapat</cmdClose>
+<this>MySQL seçenekleri:</this>
+</marc_sql_explorer_frmOptions>
 <me_tabbed_frmldr>
-<label1>LDR</label1><cmd_OK>Tamam</cmd_OK><cmd_Close>Kapat</cmd_Close><checkBox1>UNIMARC</checkBox1><this>LDR/008 Düzenle</this></me_tabbed_frmldr>
+<label1>LDR</label1>
+<cmd_OK>Tamam</cmd_OK>
+<cmd_Close>Kapat</cmd_Close>
+<checkBox1>UNIMARC</checkBox1>
+<this>LDR/008 Düzenle</this>
+</me_tabbed_frmldr>
 <me_tabbed_frmMain>
-<groupBox4>Seçenekler</groupBox4><ck_unicode>UTF-8 kodlu</ck_unicode><linkLabel1>LDR/008 Düzenle</linkLabel1><groupBox3>Sınırlayıcı değerler</groupBox3><P2_lb_Other>Karakteri:</P2_lb_Other><P2_lb_Delimiter>Sınırlayıcısı:</P2_lb_Delimiter><P2_txt_qualifier>Niteleyici</P2_txt_qualifier><lbSheet>Excel sayfa adı:</lbSheet><P2_cmd_Cancel>İptal</P2_cmd_Cancel><P2_cmd_Next>Sonraki</P2_cmd_Next><P2_lb_output>Çıkış dosyası:</P2_lb_output><P2_Import>Kaynak dosya:</P2_Import><groupBox2>Bağımsız değişkenler</groupBox2><lnkAuto>Otomatik olarak oluştur</lnkAuto><ck_filing_characters>Ortak nonfiling verileri hesaplama</ck_filing_characters><ck_sort>Sıralama alanları</ck_sort><P3_ck_save_args>Şablonu Kaydet</P3_ck_save_args><button2>Yükleme şablon</button2><toolStripMenuItem2>Öğeyi Düzenle</toolStripMenuItem2><deleteItemsToolStripMenuItem>Öğeleri silme</deleteItemsToolStripMenuItem><joinItemsToolStripMenuItem>Bileşen katılma</joinItemsToolStripMenuItem><label1>Veri anlık görüntü görüntü görüntü</label1><groupBox1>Ayarlar</groupBox1><ck_Repeatable>Yinelenebilir alt alan</ck_Repeatable><P3_ck_constant>Sabit veri</P3_ck_constant><P3_cmd_Apply>Bağımsız değişken Ekle</P3_cmd_Apply><P3_lb_punct>Terim. Noktalama işaretleri:</P3_lb_punct><P3_txt_indicators>\\\\</P3_txt_indicators><P3_lb_indicators>Göstergeler:</P3_lb_indicators><P3_mapto>Eşleştirin:</P3_mapto><P3_lb_select>Seçin:</P3_lb_select><P3_cmd_Cancel>İptal</P3_cmd_Cancel><P3_cmd_finish>Bitiş</P3_cmd_finish><this>MarcEdit sınırlandırılmış metin çeviri</this></me_tabbed_frmMain>
+<groupBox4>Seçenekler</groupBox4>
+<ck_unicode>UTF-8 kodlu</ck_unicode>
+<linkLabel1>LDR/008 Düzenle</linkLabel1>
+<groupBox3>Sınırlayıcı değerler</groupBox3>
+<P2_lb_Other>Karakteri:</P2_lb_Other>
+<P2_lb_Delimiter>Sınırlayıcısı:</P2_lb_Delimiter>
+<P2_txt_qualifier>Niteleyici</P2_txt_qualifier>
+<lbSheet>Excel sayfa adı:</lbSheet>
+<P2_cmd_Cancel>İptal</P2_cmd_Cancel>
+<P2_cmd_Next>Sonraki</P2_cmd_Next>
+<P2_lb_output>Çıkış dosyası:</P2_lb_output>
+<P2_Import>Kaynak dosya:</P2_Import>
+<groupBox2>Bağımsız değişkenler</groupBox2>
+<lnkAuto>Otomatik olarak oluştur</lnkAuto>
+<ck_filing_characters>Ortak nonfiling verileri hesaplama</ck_filing_characters>
+<ck_sort>Sıralama alanları</ck_sort>
+<P3_ck_save_args>Şablonu Kaydet</P3_ck_save_args>
+<button2>Yükleme şablon</button2>
+<toolStripMenuItem2>Öğeyi Düzenle</toolStripMenuItem2>
+<deleteItemsToolStripMenuItem>Öğeleri silme</deleteItemsToolStripMenuItem>
+<joinItemsToolStripMenuItem>Bileşen katılma</joinItemsToolStripMenuItem>
+<label1>Veri anlık görüntü görüntü görüntü</label1>
+<groupBox1>Ayarlar</groupBox1>
+<ck_Repeatable>Yinelenebilir alt alan</ck_Repeatable>
+<P3_ck_constant>Sabit veri</P3_ck_constant>
+<P3_cmd_Apply>Bağımsız değişken Ekle</P3_cmd_Apply>
+<P3_lb_punct>Terim. Noktalama işaretleri:</P3_lb_punct>
+<P3_txt_indicators>\\\\</P3_txt_indicators>
+<P3_lb_indicators>Göstergeler:</P3_lb_indicators>
+<P3_mapto>Eşleştirin:</P3_mapto>
+<P3_lb_select>Seçin:</P3_lb_select>
+<P3_cmd_Cancel>İptal</P3_cmd_Cancel>
+<P3_cmd_finish>Bitiş</P3_cmd_finish>
+<this>MarcEdit sınırlandırılmış metin çeviri</this>
+</me_tabbed_frmMain>
 <me_tabbed_frmStatus>
-<lbCaption>Label1</lbCaption></me_tabbed_frmStatus>
+<lbCaption>Label1</lbCaption>
+</me_tabbed_frmStatus>
 <mebatch_frmMain>
-<lnkAbout>İstemci hakkında</lnkAbout><lnkOptions>Küme seçenekleri</lnkOptions><lnkModify>Veritabanlarını değiştirme</lnkModify><lnkBatch>Toplu iş modu</lnkBatch><lnkSingle>Arama modu</lnkSingle><lb_b_char>Sunucu karakter kümesi</lb_b_char><cmb_b_encoding>MARC8</cmb_b_encoding><ck_b_unicode>Unicode almak</ck_b_unicode><Modify>Değiştirme</Modify><Database>Yerel veritabanı seçin</Database><rd_custom>Özel</rd_custom><rd_title>Ara başlık/yazar</rd_title><rd_issn>Arama ISBN/ISSN</rd_issn><label1>Arama türleri</label1><lbBDest>Hedef dosya:</lbBDest><lbBSource>Kaynak dosya:</lbBSource><lbBTitle>Toplu iş arama yardımcı programı</lbBTitle><lbStartrec>startRecord</lbStartrec><lnkGetNext>Sonraki {sınırı}</lnkGetNext><lbMaxRecs>maximumRecords</lbMaxRecs><lnkClearResults>Net sonuçlar</lnkClearResults><groupBox3>Sonuçları</groupBox3><col1>KİMLİĞİ</col1><col2>Başlık</col2><col3>Veritabanı</col3><mnuGroupDisplay>Seçili kayıtları görüntüle</mnuGroupDisplay><mnuGroupDownload>Seçili kayıtları indir</mnuGroupDownload><mnuDownloadAll>Tüm kayıtları indir</mnuDownloadAll><groupBox1>Seçenekler</groupBox1><lb_encoding_single>Sunucu karakter kümesi</lb_encoding_single><cmd_encoding>MARC8</cmd_encoding><ckUnicode>Unicode almak</ckUnicode><rdEditDB>Veritabanı Seç</rdEditDB><rdEditSettings>Ayarları Düzenle</rdEditSettings><lbSearchb>Arama:</lbSearchb><lbSearch>Sorgu veritabanı:</lbSearch><ck_automatic>Ayarları otomatik olarak algıla</ck_automatic><lbProxy>Proxy:</lbProxy><lbExample>Örnek Sonuç:</lbExample><button2>Kapat</button2><button1>Tamam</button1><lbSaveFile>Dosyayı kaydedin:</lbSaveFile><lbLimit>Sınırı:</lbLimit><lbTitleOption>Başlık:</lbTitleOption><lbSetupTitle>Görüntü seçenekleri</lbSetupTitle><lnkSelectList>Kaynak Seç</lnkSelectList><lnkMClose>Kapat</lnkMClose><lnkMDelete>Veritabanı silme</lnkMDelete><lnkMModify>Veritabanını değiştirme</lnkMModify><lbmOptions>Seçenekler:</lbmOptions><lnkMAdd>Veritabanı Ekle</lnkMAdd><MCol3>KİMLİĞİ</MCol3><MCol1>Adı</MCol1><MCol2>Türü</MCol2><lb_PModifyTitle>Veritabanını seçin:</lb_PModifyTitle><aboutbox>richTextBox1</aboutbox><importFromMasterListToolStripMenuItem>Ana listesi alma</importFromMasterListToolStripMenuItem><addNewZ3950ServerToolStripMenuItem>Yeni Z39.50 sunucusu ekleme</addNewZ3950ServerToolStripMenuItem><addSRUServerToolStripMenuItem>SRU sunucu ekle</addSRUServerToolStripMenuItem><this>MarcEdit Z39.50 istemci</this></mebatch_frmMain>
+<lnkAbout>İstemci hakkında</lnkAbout>
+<lnkOptions>Küme seçenekleri</lnkOptions>
+<lnkModify>Veritabanlarını değiştirme</lnkModify>
+<lnkBatch>Toplu iş modu</lnkBatch>
+<lnkSingle>Arama modu</lnkSingle>
+<lb_b_char>Sunucu karakter kümesi</lb_b_char>
+<cmb_b_encoding>MARC8</cmb_b_encoding>
+<ck_b_unicode>Unicode almak</ck_b_unicode>
+<Modify>Değiştirme</Modify>
+<Database>Yerel veritabanı seçin</Database>
+<rd_custom>Özel</rd_custom>
+<rd_title>Ara başlık/yazar</rd_title>
+<rd_issn>Arama ISBN/ISSN</rd_issn>
+<label1>Arama türleri</label1>
+<lbBDest>Hedef dosya:</lbBDest>
+<lbBSource>Kaynak dosya:</lbBSource>
+<lbBTitle>Toplu iş arama yardımcı programı</lbBTitle>
+<lbStartrec>startRecord</lbStartrec>
+<lnkGetNext>Sonraki {sınırı}</lnkGetNext>
+<lbMaxRecs>maximumRecords</lbMaxRecs>
+<lnkClearResults>Net sonuçlar</lnkClearResults>
+<groupBox3>Sonuçları</groupBox3>
+<col1>KİMLİĞİ</col1>
+<col2>Başlık</col2>
+<col3>Veritabanı</col3>
+<mnuGroupDisplay>Seçili kayıtları görüntüle</mnuGroupDisplay>
+<mnuGroupDownload>Seçili kayıtları indir</mnuGroupDownload>
+<mnuDownloadAll>Tüm kayıtları indir</mnuDownloadAll>
+<groupBox1>Seçenekler</groupBox1>
+<lb_encoding_single>Sunucu karakter kümesi</lb_encoding_single>
+<cmd_encoding>MARC8</cmd_encoding>
+<ckUnicode>Unicode almak</ckUnicode>
+<rdEditDB>Veritabanı Seç</rdEditDB>
+<rdEditSettings>Ayarları Düzenle</rdEditSettings>
+<lbSearchb>Arama:</lbSearchb>
+<lbSearch>Sorgu veritabanı:</lbSearch>
+<ck_automatic>Ayarları otomatik olarak algıla</ck_automatic>
+<lbProxy>Proxy:</lbProxy>
+<lbExample>Örnek Sonuç:</lbExample>
+<button2>Kapat</button2>
+<button1>Tamam</button1>
+<lbSaveFile>Dosyayı kaydedin:</lbSaveFile>
+<lbLimit>Sınırı:</lbLimit>
+<lbTitleOption>Başlık:</lbTitleOption>
+<lbSetupTitle>Görüntü seçenekleri</lbSetupTitle>
+<lnkSelectList>Kaynak Seç</lnkSelectList>
+<lnkMClose>Kapat</lnkMClose>
+<lnkMDelete>Veritabanı silme</lnkMDelete>
+<lnkMModify>Veritabanını değiştirme</lnkMModify>
+<lbmOptions>Seçenekler:</lbmOptions>
+<lnkMAdd>Veritabanı Ekle</lnkMAdd>
+<MCol3>KİMLİĞİ</MCol3>
+<MCol1>Adı</MCol1>
+<MCol2>Türü</MCol2>
+<lb_PModifyTitle>Veritabanını seçin:</lb_PModifyTitle>
+<aboutbox>richTextBox1</aboutbox>
+<importFromMasterListToolStripMenuItem>Ana listesi alma</importFromMasterListToolStripMenuItem>
+<addNewZ3950ServerToolStripMenuItem>Yeni Z39.50 sunucusu ekleme</addNewZ3950ServerToolStripMenuItem>
+<addSRUServerToolStripMenuItem>SRU sunucu ekle</addSRUServerToolStripMenuItem>
+<this>MarcEdit Z39.50 istemci</this>
+</mebatch_frmMain>
 <mebatch_frmOverwrite>
-<cmdAppend>Sonuna ekle</cmdAppend><cmdOverwrite>Üzerine yaz</cmdOverwrite><cmdClose>Kapat</cmdClose><label1>Verme dosyası var.  Üzerine yazma veya geçerli dosya eklemek istiyorum.</label1><this>Dosya var</this></mebatch_frmOverwrite>
+<cmdAppend>Sonuna ekle</cmdAppend>
+<cmdOverwrite>Üzerine yaz</cmdOverwrite>
+<cmdClose>Kapat</cmdClose>
+<label1>Verme dosyası var.  Üzerine yazma veya geçerli dosya eklemek istiyorum.</label1>
+<this>Dosya var</this>
+</mebatch_frmOverwrite>
 <mebatch_frmProperties>
-<tabDBProps>Veritabanı özellikleri</tabDBProps><ck_Paused>Duraklat (6 saniye) geçersiz kıl</ck_Paused><label1>Veritabanı:</label1><ck_Show>Veritabanını göster</ck_Show><lbPassword>Şifre:</lbPassword><lbUsername>Kullanıcı adı:</lbUsername><lbSyntax>Sözdizimi:</lbSyntax><lbPort>Bağlantı noktası:</lbPort><lbHost>Ana bilgisayar:</lbHost><lbname>Adı:</lbname><tabDBAdvanced>Gelişmiş Özellikler</tabDBAdvanced><label4>Zaman aşımı (saniye):</label4><label2>Öğe kümesi:</label2><label3>Diğer seçenekler:</label3><lnkftp>http://www.Loc.gov/z3950/Agency/defns/bib1.html</lnkftp><lbInfo>Daha fazla bilgi:</lbInfo><lbISBN>ISBN/ISSN:</lbISBN><lbSubject>Konu:</lbSubject><lbTitle>Başlık:</lbTitle><lbAuthor>Yazar:</lbAuthor><lbadvTitle>Z39.50 öznitelik 4: yapısı</lbadvTitle><cmdSave>Kaydet</cmdSave><cmdClose>Kapat</cmdClose><this>Veritabanı özellikleri</this></mebatch_frmProperties>
+<tabDBProps>Veritabanı özellikleri</tabDBProps>
+<ck_Paused>Duraklat (6 saniye) geçersiz kıl</ck_Paused>
+<label1>Veritabanı:</label1>
+<ck_Show>Veritabanını göster</ck_Show>
+<lbPassword>Şifre:</lbPassword>
+<lbUsername>Kullanıcı adı:</lbUsername>
+<lbSyntax>Sözdizimi:</lbSyntax>
+<lbPort>Bağlantı noktası:</lbPort>
+<lbHost>Ana bilgisayar:</lbHost>
+<lbname>Adı:</lbname>
+<tabDBAdvanced>Gelişmiş Özellikler</tabDBAdvanced>
+<label4>Zaman aşımı (saniye):</label4>
+<label2>Öğe kümesi:</label2>
+<label3>Diğer seçenekler:</label3>
+<lnkftp>http://www.Loc.gov/z3950/Agency/defns/bib1.html</lnkftp>
+<lbInfo>Daha fazla bilgi:</lbInfo>
+<lbISBN>ISBN/ISSN:</lbISBN>
+<lbSubject>Konu:</lbSubject>
+<lbTitle>Başlık:</lbTitle>
+<lbAuthor>Yazar:</lbAuthor>
+<lbadvTitle>Z39.50 öznitelik 4: yapısı</lbadvTitle>
+<cmdSave>Kaydet</cmdSave>
+<cmdClose>Kapat</cmdClose>
+<this>Veritabanı özellikleri</this>
+</mebatch_frmProperties>
 <mebatch_frmRecord>
-<lnkDownload>Kayıt download</lnkDownload><lnkClose>Kapat</lnkClose><lbSave>Dosyayı kaydedin:</lbSave><ck_Append>Sonuna ekle</ck_Append><this>MARC kaydı göster</this></mebatch_frmRecord>
+<lnkDownload>Kayıt download</lnkDownload>
+<lnkClose>Kapat</lnkClose>
+<lbSave>Dosyayı kaydedin:</lbSave>
+<ck_Append>Sonuna ekle</ck_Append>
+<this>MARC kaydı göster</this>
+</mebatch_frmRecord>
 <mebatch_frmresults>
-<cmd_close>Kapat</cmd_close></mebatch_frmresults>
+<cmd_close>Kapat</cmd_close>
+</mebatch_frmresults>
 <mebatch_frmStatus>
-<lbCaption>Label1</lbCaption><this>Durumu</this></mebatch_frmStatus>
+<lbCaption>Label1</lbCaption>
+<this>Durumu</this>
+</mebatch_frmStatus>
 <mebatch_SRUProps>
-<lbSRUTitle>Veritabanı özellikleri:</lbSRUTitle><label1>URL:</label1><lbMetadata>Meta veri şeması:</lbMetadata><lbName>Adı:</lbName><cmdSave>Kaydet</cmdSave><cmdClose>Kapat</cmdClose><lbVersion>Sürüm:</lbVersion><label2>Arama profili:</label2><label3>Ek parametreler</label3><this>SRU özellikleri</this></mebatch_SRUProps>
+<lbSRUTitle>Veritabanı özellikleri:</lbSRUTitle>
+<label1>URL:</label1>
+<lbMetadata>Meta veri şeması:</lbMetadata>
+<lbName>Adı:</lbName>
+<cmdSave>Kaydet</cmdSave>
+<cmdClose>Kapat</cmdClose>
+<lbVersion>Sürüm:</lbVersion>
+<label2>Arama profili:</label2>
+<label3>Ek parametreler</label3>
+<this>SRU özellikleri</this>
+</mebatch_SRUProps>
 </marcedit>
