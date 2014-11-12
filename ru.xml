@@ -237,8 +237,9 @@
 <cmdProcess>Процесс</cmdProcess>
 <cmdCancel>Отмена</cmdCancel>
 <groupBox1>Услуги ID</groupBox1>
-<ck_loc>Библиотека Конгресса США (id.loc.gov)</ck_loc>
 <ck_viaf>OCLC БИБЛИОИНФОРМАЦИЯ</ck_viaf>
+<ck_loc>Библиотека Конгресса США (id.loc.gov)</ck_loc>
+<ckAutodetect>Автоопределение предмет ID</ckAutodetect>
 <this>Строить связанные записи</this>
 </MarcEdit_frmBuildLinks>
 <MarcEdit_frmCatalogCalculator>
@@ -780,6 +781,7 @@
 <cmd_Generate>Создать отчет</cmd_Generate>
 <ck_find_all>Поиск всех записей данных</ck_find_all>
 <ck_use_regex>Использование регулярных выражений</ck_use_regex>
+<cmdRandomExport>Экспорт случайных</cmdRandomExport>
 <this>MarcEdit.NET: Изменить выбранный MARC записи</this>
 </MarcEdit_frmSelectMARCRecords>
 <MarcEdit_frmSort>
@@ -1306,13 +1308,6 @@
 <lb_Fields>Поля:</lb_Fields>
 <this>Проверьте URL-адрес</this>
 </MarcEdit_frmVURL>
-<MarcEdit_frmXMLTreeView>
-<cmdSave>Применить</cmdSave>
-<cmdClose>Закрыть</cmdClose>
-<lb_file>Выберите файл:</lb_file>
-<ck_backup>Восстановление из резервной копии</ck_backup>
-<this>MarcEdit редактор языковых файлов</this>
-</MarcEdit_frmXMLTreeView>
 <MarcEdit_frm_FASTHeadings>
 <lnkClassify>О OCLC быстрое обслуживание</lnkClassify>
 <label1>Эта служба использует OCLC быстрый веб-службы.  Отправив webservice информация о конкретной Марк записи создаются быстро рекомендации.  OCLC в webservice вернется обратно в MarcEdit быстро заголовки, наиболее тесно связанные с темой.</label1>

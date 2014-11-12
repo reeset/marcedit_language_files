@@ -237,8 +237,9 @@
 <cmdProcess>Processen</cmdProcess>
 <cmdCancel>Avbryt</cmdCancel>
 <groupBox1>ID-tjänster</groupBox1>
-<ck_loc>Amerikanska Library of Congress (id.loc.gov)</ck_loc>
 <ck_viaf>OCLC VIAF</ck_viaf>
+<ck_loc>Amerikanska Library of Congress (id.loc.gov)</ck_loc>
+<ckAutodetect>Autodetektera angående ID</ckAutodetect>
 <this>Bygga länkade poster</this>
 </MarcEdit_frmBuildLinks>
 <MarcEdit_frmCatalogCalculator>
@@ -780,6 +781,7 @@ Lägg till 338--transportör typ</ck337>
 <cmd_Generate>Generera rapport över</cmd_Generate>
 <ck_find_all>Sök alla uppgifter</ck_find_all>
 <ck_use_regex>Reguljära uttryck</ck_use_regex>
+<cmdRandomExport>Export slumpmässiga</cmdRandomExport>
 <this>MarcEdit.NET: Ändra valda MARC poster</this>
 </MarcEdit_frmSelectMARCRecords>
 <MarcEdit_frmSort>
@@ -1306,13 +1308,6 @@ Lägg till 338--transportör typ</ck337>
 <lb_Fields>Fält:</lb_Fields>
 <this>Kontrollera URL</this>
 </MarcEdit_frmVURL>
-<MarcEdit_frmXMLTreeView>
-<cmdSave>Tillämpa</cmdSave>
-<cmdClose>Stäng</cmdClose>
-<lb_file>Välj fil:</lb_file>
-<ck_backup>Återställ från säkerhetskopia</ck_backup>
-<this>MarcEdit språk arkivera redaktör</this>
-</MarcEdit_frmXMLTreeView>
 <MarcEdit_frm_FASTHeadings>
 <lnkClassify>Om OCLC: s snabb Service</lnkClassify>
 <label1>Denna tjänst använder sig av OCLC: s snabb webbtjänst.  SNABB rekommendationer genereras genom att skicka denna webservice information om en specifik MARC Record.  OCLC: s webservice kommer att återgå till MarcEdit snabb rubrikerna närmast associeras med ett ämne.</label1>

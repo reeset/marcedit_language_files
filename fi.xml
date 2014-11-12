@@ -237,8 +237,9 @@
 <cmdProcess>Prosessi</cmdProcess>
 <cmdCancel>Peruuta</cmdCancel>
 <groupBox1>ID palveluja</groupBox1>
-<ck_loc>Yhdysvaltain kongressin kirjasto (id.loc.gov)</ck_loc>
 <ck_viaf>OCLC: VIAF</ck_viaf>
+<ck_loc>Yhdysvaltain kongressin kirjasto (id.loc.gov)</ck_loc>
+<ckAutodetect>Tunnista Aihe tunnus</ckAutodetect>
 <this>Rakentaa linkitetyt tietueet</this>
 </MarcEdit_frmBuildLinks>
 <MarcEdit_frmCatalogCalculator>
@@ -780,6 +781,7 @@ Lisää 338--operaattorin tyyppi</ck337>
 <cmd_Generate>Luo raportti</cmd_Generate>
 <ck_find_all>Haku kaikki tietueen tiedot</ck_find_all>
 <ck_use_regex>Käytä säännöllisiä lausekkeita</ck_use_regex>
+<cmdRandomExport>Vienti satunnainen</cmdRandomExport>
 <this>MarcEdit.NET: Muokkaa valitun MARC-tietueista</this>
 </MarcEdit_frmSelectMARCRecords>
 <MarcEdit_frmSort>
@@ -1306,13 +1308,6 @@ Lisää 338--operaattorin tyyppi</ck337>
 <lb_Fields>Kentät:</lb_Fields>
 <this>Tarkista URL-osoite</this>
 </MarcEdit_frmVURL>
-<MarcEdit_frmXMLTreeView>
-<cmdSave>Sovelletaan</cmdSave>
-<cmdClose>Sulje</cmdClose>
-<lb_file>Valitse tiedosto:</lb_file>
-<ck_backup>Palauta varmuuskopiosta</ck_backup>
-<this>MarcEdit kieli tiedoston muokkaus</this>
-</MarcEdit_frmXMLTreeView>
 <MarcEdit_frm_FASTHeadings>
 <lnkClassify>Tietoja OCLC: n NOPEAA palvelua</lnkClassify>
 <label1>Tämä palvelu käyttää OCLC: n Nopea Web-palveluun.  Nopea suositukset luodaan lähettää webservice Tietoa MARC tietueeseen.  OCLC: n webservice palaa takaisin MarcEdit nopeasti otsikot läheisimmin aihe.</label1>

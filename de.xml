@@ -237,8 +237,9 @@
 <cmdProcess>Prozess</cmdProcess>
 <cmdCancel>Abbrechen</cmdCancel>
 <groupBox1>ID-Dienste</groupBox1>
-<ck_loc>US Library of Congress (id.loc.gov)</ck_loc>
 <ck_viaf>OCLC VIAF</ck_viaf>
+<ck_loc>US Library of Congress (id.loc.gov)</ck_loc>
+<ckAutodetect>"Automatische Erkennung" Thema-ID</ckAutodetect>
 <this>Verknüpfte Datensätze erstellen</this>
 </MarcEdit_frmBuildLinks>
 <MarcEdit_frmCatalogCalculator>
@@ -780,6 +781,7 @@ Hinzufügen von 338--Carrier-Typ</ck337>
 <cmd_Generate>Bericht generieren</cmd_Generate>
 <ck_find_all>Suche alle Daten des Datensatzes</ck_find_all>
 <ck_use_regex>Verwenden von regulären Ausdrücken</ck_use_regex>
+<cmdRandomExport>Export zufällige</cmdRandomExport>
 <this>MarcEdit.NET: Ausgewählte MARC-Datensätze ändern</this>
 </MarcEdit_frmSelectMARCRecords>
 <MarcEdit_frmSort>
@@ -1306,13 +1308,6 @@ Hinzufügen von 338--Carrier-Typ</ck337>
 <lb_Fields>Felder:</lb_Fields>
 <this>Überprüfen Sie die URL</this>
 </MarcEdit_frmVURL>
-<MarcEdit_frmXMLTreeView>
-<cmdSave>Gelten</cmdSave>
-<cmdClose>Schließen</cmdClose>
-<lb_file>Wählen Sie Datei:</lb_file>
-<ck_backup>Aus Sicherung wiederherstellen</ck_backup>
-<this>MarcEdit-Language-Datei-Editor</this>
-</MarcEdit_frmXMLTreeView>
 <MarcEdit_frm_FASTHeadings>
 <lnkClassify>Über OCLC's schnell Service</lnkClassify>
 <label1>Dieser Dienst nutzt OCLCs schnelle Web-Service.  SCHNELLE Empfehlungen entstehen durch das Senden dieser Webservice-Informationen über eine bestimmte MARC Record.  OCLC's Webservice kehren zurück zu MarcEdit die schnellen Überschriften, die am ehesten ein Thema zugeordnet.</label1>

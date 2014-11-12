@@ -237,8 +237,9 @@
 <cmdProcess>عمل</cmdProcess>
 <cmdCancel>منسوخ کریں</cmdCancel>
 <groupBox1>ID کی خدمات</groupBox1>
-<ck_loc>لائبریری کی کانگریس (id.loc.gov)</ck_loc>
 <ck_viaf>اوکلک ویاف</ck_viaf>
+<ck_loc>لائبریری کی کانگریس (id.loc.gov)</ck_loc>
+<ckAutodetect>خود کھوج موضوع شناخت</ckAutodetect>
 <this>مربوط ریکارڈ کی تعمیر</this>
 </MarcEdit_frmBuildLinks>
 <MarcEdit_frmCatalogCalculator>
@@ -780,6 +781,7 @@
 <cmd_Generate>رپورٹ تیار</cmd_Generate>
 <ck_find_all>تمام ریکارڈ کوائف کی تلاش</ck_find_all>
 <ck_use_regex>تعبیرات کا استعمال کرتے</ck_use_regex>
+<cmdRandomExport>بے ترتيب کی برآمد</cmdRandomExport>
 <this>MarcEdit.NET: منتخب مارک ریکارڈوں میں ترمیم کریں</this>
 </MarcEdit_frmSelectMARCRecords>
 <MarcEdit_frmSort>
@@ -1306,13 +1308,6 @@
 <lb_Fields>قطعات:</lb_Fields>
 <this>URL کی توثیق کریں</this>
 </MarcEdit_frmVURL>
-<MarcEdit_frmXMLTreeView>
-<cmdSave>لگائیں</cmdSave>
-<cmdClose>بند کریں</cmdClose>
-<lb_file>مسل منتخب کریں:</lb_file>
-<ck_backup>پشتارہ سے بحال</ck_backup>
-<this>مآرکاداٹ زبان مسل تدوین کار</this>
-</MarcEdit_frmXMLTreeView>
 <MarcEdit_frm_FASTHeadings>
 <lnkClassify>روزہ اوکلک کی سروس کے بارے میں</lnkClassify>
 <label1>اوکلک کی فاسٹ ویب خدمت کا استعمال اس خدمت کرتا ہے ۔  روزہ سفارشات ایک خصوصی مارک ریکارڈ کے بارے میں اس ویب خدمت معلومات بھیج رہا ہے کی طرف سے پیدا ہوتے ہیں ۔  اوکلک کی ویب خدمت واپس مآرکاداٹ کے لئے ایک موضوع کے ساتھ سب سے زیادہ قریبی وابستہ روزہ سرخیاں واپس کرے گا ۔</label1>

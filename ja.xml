@@ -237,8 +237,9 @@
 <cmdProcess>プロセス</cmdProcess>
 <cmdCancel>キャンセル</cmdCancel>
 <groupBox1>ID サービス</groupBox1>
-<ck_loc>米国議会図書館 (id.loc.gov)</ck_loc>
 <ck_viaf>OCLC リアルサウンド ／ リアル サウンド</ck_viaf>
+<ck_loc>米国議会図書館 (id.loc.gov)</ck_loc>
+<ckAutodetect>自動検出のサブジェクトの ID</ckAutodetect>
 <this>リンクされたレコードを構築します。</this>
 </MarcEdit_frmBuildLinks>
 <MarcEdit_frmCatalogCalculator>
@@ -774,6 +775,7 @@
 <cmd_Generate>レポートを生成します。</cmd_Generate>
 <ck_find_all>すべてのレコードのデータを検索します。</ck_find_all>
 <ck_use_regex>正規表現を使用</ck_use_regex>
+<cmdRandomExport>ランダムなエクスポート</cmdRandomExport>
 <this>MarcEdit.NET： 選択した MARC レコードを変更します。</this>
 </MarcEdit_frmSelectMARCRecords>
 <MarcEdit_frmSort>
@@ -1300,13 +1302,6 @@
 <lb_Fields>フィールド:</lb_Fields>
 <this>URL を確認してください。</this>
 </MarcEdit_frmVURL>
-<MarcEdit_frmXMLTreeView>
-<cmdSave>適用</cmdSave>
-<cmdClose>閉じる</cmdClose>
-<lb_file>ファイルを選択します。</lb_file>
-<ck_backup>バックアップからの復元します。</ck_backup>
-<this>MarcEdit 言語ファイル エディター</this>
-</MarcEdit_frmXMLTreeView>
 <MarcEdit_frm_FASTHeadings>
 <lnkClassify>OCLC の迅速なサービスについて</lnkClassify>
 <label1>このサービスは、OCLC の高速な Web サービスを使用します。高速の推奨事項がこの webservice マルクの特定のレコードに関する情報を送信することによって生成されます。OCLC の web サービスとトピックに最も密接に関連付けられている高速の見出し MarcEdit に戻されます。</label1>

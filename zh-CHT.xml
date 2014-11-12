@@ -237,8 +237,9 @@
 <cmdProcess>過程</cmdProcess>
 <cmdCancel>取消</cmdCancel>
 <groupBox1>ID 服務</groupBox1>
-<ck_loc>美國國會圖書館 (id.loc.gov)</ck_loc>
 <ck_viaf>OCLC VIAF</ck_viaf>
+<ck_loc>美國國會圖書館 (id.loc.gov)</ck_loc>
+<ckAutodetect>自動檢測主題 ID</ckAutodetect>
 <this>建立連結的記錄</this>
 </MarcEdit_frmBuildLinks>
 <MarcEdit_frmCatalogCalculator>
@@ -774,6 +775,7 @@
 <cmd_Generate>生成報告</cmd_Generate>
 <ck_find_all>搜索所有記錄資料</ck_find_all>
 <ck_use_regex>使用正則運算式</ck_use_regex>
+<cmdRandomExport>隨機的出口</cmdRandomExport>
 <this>MarcEdit.NET： 修改選定的 MARC 記錄</this>
 </MarcEdit_frmSelectMARCRecords>
 <MarcEdit_frmSort>
@@ -1300,13 +1302,6 @@
 <lb_Fields>欄位:</lb_Fields>
 <this>驗證 URL</this>
 </MarcEdit_frmVURL>
-<MarcEdit_frmXMLTreeView>
-<cmdSave>應用</cmdSave>
-<cmdClose>關閉</cmdClose>
-<lb_file>選擇檔：</lb_file>
-<ck_backup>從備份中還原</ck_backup>
-<this>MarcEdit 語言檔編輯器</this>
-</MarcEdit_frmXMLTreeView>
 <MarcEdit_frm_FASTHeadings>
 <lnkClassify>OCLC 的快速服務</lnkClassify>
 <label1>這項服務利用 OCLC 的快速的 Web 服務。快速的建議是由發送有關特定 MARC 記錄此 web 服務資訊生成的。OCLC 的 web 服務將返回到 MarcEdit 的快速的標題與主題關係最為密切。</label1>

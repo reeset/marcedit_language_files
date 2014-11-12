@@ -237,8 +237,9 @@
 <cmdProcess>Διαδικασία</cmdProcess>
 <cmdCancel>"Άκυρο"</cmdCancel>
 <groupBox1>ID υπηρεσίες</groupBox1>
-<ck_loc>Αμερικανική βιβλιοθήκη του Κογκρέσου (id.loc.gov)</ck_loc>
 <ck_viaf>OCLC VIAF</ck_viaf>
+<ck_loc>Αμερικανική βιβλιοθήκη του Κογκρέσου (id.loc.gov)</ck_loc>
+<ckAutodetect>Αυτόματος εντοπισμός θέμα ID</ckAutodetect>
 <this>Οικοδομήσουμε συνδεδεμένες καρτέλες</this>
 </MarcEdit_frmBuildLinks>
 <MarcEdit_frmCatalogCalculator>
@@ -780,6 +781,7 @@
 <cmd_Generate>Δημιουργία έκθεσης</cmd_Generate>
 <ck_find_all>Ψάξτε όλα τα δεδομένα εγγραφής</ck_find_all>
 <ck_use_regex>Χρησιμοποιούν τυπικές εκφράσεις</ck_use_regex>
+<cmdRandomExport>Εξαγωγή τυχαία</cmdRandomExport>
 <this>MarcEdit.NET: Τροποποιήσετε MARC επιλεγμένες εγγραφές</this>
 </MarcEdit_frmSelectMARCRecords>
 <MarcEdit_frmSort>
@@ -1306,13 +1308,6 @@
 <lb_Fields>Πεδία:</lb_Fields>
 <this>Επαληθεύστε τη διεύθυνση URL</this>
 </MarcEdit_frmVURL>
-<MarcEdit_frmXMLTreeView>
-<cmdSave>Ισχύουν</cmdSave>
-<cmdClose>Κλείσιμο</cmdClose>
-<lb_file>Επιλέξτε το αρχείο:</lb_file>
-<ck_backup>Επαναφορά από αντίγραφο ασφαλείας</ck_backup>
-<this>Πρόγραμμα επεξεργασίας αρχείων γλώσσα MarcEdit</this>
-</MarcEdit_frmXMLTreeView>
 <MarcEdit_frm_FASTHeadings>
 <lnkClassify>Για γρήγορη εξυπηρέτηση του OCLC</lnkClassify>
 <label1>Αυτή η υπηρεσία κάνει χρήση της της OCLC γρήγορη υπηρεσία Web.  ΓΡΉΓΟΡΗ συστάσεις δημιουργούνται από την αποστολή πληροφοριών σχετικά με μια συγκεκριμένη εγγραφή MARC webservice.  Του OCLC webservice θα επιστρέψει πίσω στο MarcEdit το γρήγορο επικεφαλίδες που συνδέονται στενότερα με ένα θέμα.</label1>

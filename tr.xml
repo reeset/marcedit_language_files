@@ -237,8 +237,9 @@
 <cmdProcess>İşlem</cmdProcess>
 <cmdCancel>İptal</cmdCancel>
 <groupBox1>ID hizmetleri</groupBox1>
-<ck_loc>ABD Kongre Kütüphanesi (id.loc.gov)</ck_loc>
 <ck_viaf>OCLC VIAF</ck_viaf>
+<ck_loc>ABD Kongre Kütüphanesi (id.loc.gov)</ck_loc>
+<ckAutodetect>Otomatik algıla konu kimliği</ckAutodetect>
 <this>İlişkili kayıtlar oluşturmak</this>
 </MarcEdit_frmBuildLinks>
 <MarcEdit_frmCatalogCalculator>
@@ -780,6 +781,7 @@ TR--</label5>
 <cmd_Generate>Raporu Oluştur</cmd_Generate>
 <ck_find_all>Tüm veri kaydı arama</ck_find_all>
 <ck_use_regex>Normal ifadeleri kullanma</ck_use_regex>
+<cmdRandomExport>İhracat rastgele</cmdRandomExport>
 <this>MarcEdit.NET: Seçilen MARC kayıtları değiştirme</this>
 </MarcEdit_frmSelectMARCRecords>
 <MarcEdit_frmSort>
@@ -1306,13 +1308,6 @@ TR--</label5>
 <lb_Fields>Alanlar:</lb_Fields>
 <this>URL'yi doğrulayın</this>
 </MarcEdit_frmVURL>
-<MarcEdit_frmXMLTreeView>
-<cmdSave>Uygula</cmdSave>
-<cmdClose>Kapat</cmdClose>
-<lb_file>Dosyayı seçin:</lb_file>
-<ck_backup>Yedekten geri yükleme</ck_backup>
-<this>MarcEdit dil dosyası editörü</this>
-</MarcEdit_frmXMLTreeView>
 <MarcEdit_frm_FASTHeadings>
 <lnkClassify>OCLC'ın hızlı hizmeti hakkında</lnkClassify>
 <label1>Bu hizmet, OCLC's hızlı Web hizmetinden yapar.  HIZLI öneriler belli MARC kayıtları hakkında bu webservice bilgi göndererek oluşturulur.  OCLC'ın webservice geri MarcEdit için en yakın bir konu ile ilgili hızlı başlıklarını döndürür.</label1>

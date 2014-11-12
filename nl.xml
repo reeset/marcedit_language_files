@@ -237,8 +237,9 @@
 <cmdProcess>Proces</cmdProcess>
 <cmdCancel>Annuleren</cmdCancel>
 <groupBox1>ID-Services</groupBox1>
-<ck_loc>U.S. Library of Congress (id.loc.gov)</ck_loc>
 <ck_viaf>OCLC VIAF</ck_viaf>
+<ck_loc>U.S. Library of Congress (id.loc.gov)</ck_loc>
+<ckAutodetect>AutoDetect onderwerp ID</ckAutodetect>
 <this>Bouwen van gekoppelde Records</this>
 </MarcEdit_frmBuildLinks>
 <MarcEdit_frmCatalogCalculator>
@@ -780,6 +781,7 @@ Toevoegen 338--vervoerder Type</ck337>
 <cmd_Generate>Rapport genereren</cmd_Generate>
 <ck_find_all>Alle gegevens van de Record zoeken</ck_find_all>
 <ck_use_regex>Reguliere expressies gebruiken</ck_use_regex>
+<cmdRandomExport>Export willekeurige</cmdRandomExport>
 <this>MarcEdit.NET: Geselecteerde MARC Records wijzigen</this>
 </MarcEdit_frmSelectMARCRecords>
 <MarcEdit_frmSort>
@@ -1306,13 +1308,6 @@ Toevoegen 338--vervoerder Type</ck337>
 <lb_Fields>Velden:</lb_Fields>
 <this>Controleer of de URL</this>
 </MarcEdit_frmVURL>
-<MarcEdit_frmXMLTreeView>
-<cmdSave>Toepassing</cmdSave>
-<cmdClose>Sluiten</cmdClose>
-<lb_file>Selecteer bestand:</lb_file>
-<ck_backup>Herstellen vanaf back-up</ck_backup>
-<this>MarcEdit taal bestand Editor</this>
-</MarcEdit_frmXMLTreeView>
 <MarcEdit_frm_FASTHeadings>
 <lnkClassify>Over de OCLC snelle Service</lnkClassify>
 <label1>Deze service maakt gebruik van OCLC van snelle Web Service.  SNELLE aanbevelingen worden gegenereerd door het versturen van deze webservice-informatie over een specifieke MARC Record.  OCLC de webservice keert terug naar MarcEdit de snelle koppen meest nauw gelieerd is met een onderwerp.</label1>
