@@ -15,7 +15,6 @@
 <this>Pole Liczba</this>
 </MarcEdit_Field_Count>
 <MarcEdit_FindReplace>
-<tbFind>Znajdź</tbFind>
 <groupBox3>Kierunek:</groupBox3>
 <rd_down>W dół</rd_down>
 <rd_up>Się</rd_up>
@@ -24,15 +23,19 @@
 <ck_f_whole_word>Znajdź tylko całe wyrazy</ck_f_whole_word>
 <ck_find_regex>Za pomocą wyrażeń regularnych</ck_find_regex>
 <ck_f_match_case>Uwzględnij wielkość liter</ck_f_match_case>
-<lbPreview>Znaleźć tylko wyszukiwania danych w trybie podglądu.</lbPreview>
 <cmdFClose>Zamknij</cmdFClose>
 <cmdFFind>Znajdź</cmdFFind>
 <lb_FindWhat>Znajdź:</lb_FindWhat>
-<tbReplace>Zamień</tbReplace>
+<cmdNav_Find>Znajdź</cmdNav_Find>
+<cmdReplaceNav>Zamień</cmdReplaceNav>
+<ckReplaceConditional>Znajdź i zamień można wykonać, jeśli...</ckReplaceConditional>
+<cmbCondOpt>REGEX</cmbCondOpt>
+<label1>Jeżeli:</label1>
 <cmd_R_Close>Zamknij</cmd_R_Close>
 <cmd_R_All>Zastąpić wszystkie</cmd_R_All>
 <cmd_R_Replace>Zamień</cmd_R_Replace>
 <groupBox2>Opcje wyszukiwania:</groupBox2>
+<ckFile>Użyj kryteriów zewnętrznych Szukaj i Zamień</ckFile>
 <ck_R_RegExp>Za pomocą wyrażeń regularnych</ck_R_RegExp>
 <ck_R_Case>Uwzględnij wielkość liter</ck_R_Case>
 <lb_ReplaceWith>Zamień na:</lb_ReplaceWith>
@@ -140,6 +143,7 @@
 <cmd_A_Add>Dodaj pole</cmd_A_Add>
 <cmd_A_Delete>Usuń pole</cmd_A_Delete>
 <groupBox1>Opcje:</groupBox1>
+<ck_A_addifnotduplicate>Dodaj pole tylko, jeśli nie duplikat</ck_A_addifnotduplicate>
 <ck_delete_batch>Proces partia pracy</ck_delete_batch>
 <ck_AddIfPresent>Dodaj pole, jeśli jest obecny</ck_AddIfPresent>
 <ck_RemoveIfNot>Usuń, jeżeli pole danych</ck_RemoveIfNot>
@@ -197,6 +201,7 @@
 <label14>Podpól:</label14>
 <lbFindInField>Znaleźć w dziedzinie</lbFindInField>
 <groupBox4>Opcje</groupBox4>
+<ck_copy_field_regex>Użyć wyrażeń regularnych</ck_copy_field_regex>
 <ck_copy_delete>Usuń pole źródłowe</ck_copy_delete>
 <label2>Pola docelowego:</label2>
 <cmdCopyClose>Zamknij</cmdCopyClose>
@@ -237,9 +242,14 @@
 <cmdProcess>Proces</cmdProcess>
 <cmdCancel>Anuluj</cmdCancel>
 <groupBox1>Identyfikator usługi</groupBox1>
+<ck3xxFields>Proces 3xx pola</ck3xxFields>
+<label4>OCLC numer:</label4>
+<ckWorkId>Osadzić OCLC pracy ID</ckWorkId>
+<cmb_viaf_index>LC (NACO)</cmb_viaf_index>
+<ckAutodetect>Automatyczne wykrywanie temat ID</ckAutodetect>
 <ck_viaf>OCLC VIAF</ck_viaf>
 <ck_loc>Biblioteka Kongresu USA (id.loc.gov)</ck_loc>
-<ckAutodetect>Automatyczne wykrywanie temat ID</ckAutodetect>
+<label5>Plik zasad:</label5>
 <this>Budować połączone rekordy</this>
 </MarcEdit_frmBuildLinks>
 <MarcEdit_frmCatalogCalculator>
@@ -250,30 +260,43 @@
 <label1>Frezy LC</label1>
 <this>Katalogowanie kalkulator</this>
 </MarcEdit_frmCatalogCalculator>
+<MarcEdit_frmCharacterDetection>
+<label1>Narzędzie do wykrywania postać używa procesu heuristical dać najlepsze przypuszczenie wypoc </label1>
+<cmdDetect>Wykryć</cmdDetect>
+<cmdClose>Zamknij</cmdClose>
+<label2>Wyniki:</label2>
+<ckDetailed>Pełne wyniki</ckDetailed>
+<this>Wykrywanie znaków</this>
+</MarcEdit_frmCharacterDetection>
 <MarcEdit_frmClassify>
 <label1>Ta usługa korzysta z OCLC klasyfikacji usługi sieci Web.  Zalecenia klasyfikacji są generowane przez wysłanie OCLC numer kontrolny rekordu.  OCLC webservice zwróci się powrót do MarcEdit klasyfikacji Dewey Decimal lub LC najczęściej skojarzonej z tym rekordem.</label1>
 <lnkClassify>O OCLC klasyfikacji usług</lnkClassify>
-<label2>Instrukcje wstawiania:</label2>
 <ck_all>Dodać do wszystkich rekordów</ck_all>
 <ck_single>Dodać do wybranego rekordu</ck_single>
 <ck_lc>Biblioteka Kongresu</ck_lc>
 <ck_dewey>Dewey Decimal</ck_dewey>
-<label3>Klasyfikacje:</label3>
 <cmdProcess>Klasyfikacji</cmdProcess>
 <cmdClose>Zamknij</cmdClose>
 <label5>Jeżeli nie występują następujące pola (przykład: 050; 060 090; 092)</label5>
 <label4>Wstawić generowane klasyfikacje w poniższe pole:</label4>
-<label7>Opcje:</label7>
 <ck_cutters>Obliczyć noże i daty</ck_cutters>
 <ck_use_z>Użyj parametru podpole z dopasowania</ck_use_z>
 <ck_DateMod>Dopisz flagę do tej pory</ck_DateMod>
 <ck_omit_serial>Pominięcie daty do seriali</ck_omit_serial>
 <ck_omit_integrated>Pominięcie daty dla zintegrowanego zasobów</ck_omit_integrated>
 <ck_omit>Dołącz datę wyjątki</ck_omit>
-<label8>Przedmiotem nagłówków:</label8>
 <ck_always_fast>Zawsze dodać szybki pozycje</ck_always_fast>
 <ck_conditional_fast>Dodać szybki pozycje, gdy nie temat nagłówki są obecne</ck_conditional_fast>
 <label6>Wskaźniki:</label6>
+<cmdInsert>Instrukcje wstawiania</cmdInsert>
+<cmdClassification>Klasyfikacje</cmdClassification>
+<cmdSubjects>Nagłówków tematów</cmdSubjects>
+<lnkClassification>Wybierz klasyfikację</lnkClassification>
+<lnkSubjects>Wybierz Opcje tematu</lnkSubjects>
+<lnkOptions>Ustawianie opcji</lnkOptions>
+<cmdOptions>Opcje</cmdOptions>
+<label2>Instrukcje wstawiania:</label2>
+<label3>Klasyfikacje:</label3>
 <this>Generowanie klasyfikacji</this>
 </MarcEdit_frmClassify>
 <MarcEdit_frmConstantData>
@@ -317,6 +340,17 @@
 <label2>Narzędzie nagrywania deduplikacji</label2>
 <this>Rekord deduplikacji</this>
 </MarcEdit_frmDedup>
+<MarcEdit_frmOpenRefine>
+<label1>Narzędzie to służy do przenoszenia danych między MARC lub MarcEdit w formacie mnemoniczny i OpenRef </label1>
+<label2>Plik źródłowy:</label2>
+<label3>Zapisz plik:</label3>
+<rdExport>Eksport do OpenRefine</rdExport>
+<rdImport>Import z OpenRefine</rdImport>
+<cmdProcess>Proces</cmdProcess>
+<cmdCancel>Zamknij</cmdCancel>
+<lbStatus>Status:</lbStatus>
+<this>Narzędzie transferu danych OpenRefine</this>
+</MarcEdit_frmOpenRefine>
 <MarcEdit_frmExportSettings>
 <label1>Wybierz pliki do udziału:</label1>
 <ckconfig>Opcje konfiguracyjne</ckconfig>
@@ -342,6 +376,19 @@
 <lb_result_num>{search_string} został znaleziony {#} razy.</lb_result_num>
 <this>Znajdź wszystkie wyniki</this>
 </MarcEdit_frmFindAllResults>
+<MarcEdit_frmGenerateCutters>
+<cmdProcess>Proces</cmdProcess>
+<cmdClose>Zamknij</cmdClose>
+<lbField>Wprowadź pole Liczba połączeń do oceny. (np. 090)</lbField>
+<groupBox1>Opcje</groupBox1>
+<rdTitle>Frez do zamówienia (2xx, 1xx)</rdTitle>
+<rdDefault>Frez do zamówienia (1xx, 2xx)</rdDefault>
+<groupBox2>Opcje</groupBox2>
+<rdMainEntry>Ocenić główne wejścia (1xx, 245)</rdMainEntry>
+<rdCustomField>Pole niestandardowe</rdCustomField>
+<label1>Znajdź:</label1>
+<this>Wygenerować frezów</this>
+</MarcEdit_frmGenerateCutters>
 <MarcEdit_frmHarvestBatch>
 <label1>OAI określonych serwerów:</label1>
 <label2>(Użyj shift/shift + sterowanie aby zaznaczyć wiele elementów)</label2>
@@ -407,20 +454,29 @@
 <toolStripMenuItem7>Odnawiać zapas towarów MarcEdit w trybie 32-bitowym</toolStripMenuItem7>
 <mnuFileExit>Wyjście</mnuFileExit>
 <mnuTools>Narzędzia</mnuTools>
-<mnuToolsSelect>Wybierz rekordy MARC</mnuToolsSelect>
-<mnuToolsDelete>Usuń zaznaczone rekordy</mnuToolsDelete>
-<mnuToolsExtract>Wyodrębnić wybrane rekordy</mnuToolsExtract>
 <mnuExportGroup>Eksportuj...</mnuExportGroup>
 <mnuToolsTabbed>Wywóz karcie rekordy rozdzielane</mnuToolsTabbed>
 <mnuToolsGateway>Eksport rekordu MARC</mnuToolsGateway>
+<mnuToolsSelect>Wybierz rekordy MARC</mnuToolsSelect>
+<mnuToolsDelete>Usuń zaznaczone rekordy</mnuToolsDelete>
+<mnuToolsExtract>Wyodrębnić wybrane rekordy</mnuToolsExtract>
 <mnuToolsBatch>Partia proces Records</mnuToolsBatch>
+<mnuToolsCharacterConversion>Narzędzia do konwersji znaków</mnuToolsCharacterConversion>
+<mnuToolCharacterConversionConversionTools>Konwersji znaków</mnuToolCharacterConversionConversionTools>
+<characterDetectionToolStripMenuItem>Wykrywanie znaków</characterDetectionToolStripMenuItem>
 <mnuGenerateCallnumber>Generowanie numerów</mnuGenerateCallnumber>
 <toolStripMenuItem3>Generowanie szybki pozycje</toolStripMenuItem3>
 <mnuToolsDedup>Znaleźć zduplikowane rekordy</mnuToolsDedup>
 <toolStripMenuItem6>OCLC operacji</toolStripMenuItem6>
+<oCLCRecordDownloaderToolStripMenuItem>OCLC rekordu Downloader</oCLCRecordDownloaderToolStripMenuItem>
 <updateWorldCatRecordHoldingsToolStripMenuItem>Aktualizacja rekordu WorldCat gospodarstw</updateWorldCatRecordHoldingsToolStripMenuItem>
 <uploadBibliographRecordsToWorldCatToolStripMenuItem>Wgrać WorldCat Bibliograph Records</uploadBibliographRecordsToWorldCatToolStripMenuItem>
+<openRefineToolStripMenuItem>OpenRefine</openRefineToolStripMenuItem>
+<mnuToolOpenRefineExport>Eksport</mnuToolOpenRefineExport>
+<mnuToolOpenRefineImport>Importu</mnuToolOpenRefineImport>
 <toolStripMenuItem5>RDA Helper</toolStripMenuItem5>
+<mnuToolsUnimarcTools>UNIMARC narzędzia</mnuToolsUnimarcTools>
+<mnuToolsValidateHeadings>Sprawdzanie poprawności nagłówków</mnuToolsValidateHeadings>
 <toolStripMenuItem8>MARCCompare</toolStripMenuItem8>
 <mnuToolsJoin>MARCJoin</mnuToolsJoin>
 <mnuToolsSplit>MARCSplit</mnuToolsSplit>
@@ -470,17 +526,20 @@
 <lnkHomepage>http://marcedit.reeset.net</lnkHomepage>
 <label5>ADRES URL:</label5>
 <label2>Podziękowania:</label2>
+<lb_modified>.</lb_modified>
 <lbMod>Zmodyfikowany:</lbMod>
 <lbMailto>Terry Reese</lbMailto>
 <lbAuthor>Autor:</lbAuthor>
 <lbVersion>Wersja:</lbVersion>
 <label3>|</label3>
 <label4>O MarcEdit</label4>
+<lnkSPARQL>SPARQL przeglądarki</lnkSPARQL>
 <lnkLinkIds>Identyfikatory link</lnkLinkIds>
 <lnkJsonObject>Podgląd obiektu JSON</lnkJsonObject>
 <lnkBibframe>BibFrame platforma testowa</lnkBibframe>
 <label7>|</label7>
 <label8>MARCNext:</label8>
+<mnuHelpDeleteTempFiles>Wyczyścić pliki tymczasowe</mnuHelpDeleteTempFiles>
 <this>MarcEdit przez Terry Reese</this>
 </MarcEdit_frmMain>
 <MarcEdit_frmOAIHarvest>
@@ -501,8 +560,16 @@
 <lbCrosswalk>Przejście dla pieszych ścieżkę:</lbCrosswalk>
 <lnkAdvanced>Ustawienia zaawansowane</lnkAdvanced>
 <cmdSave>Zapisz</cmdSave>
+<lnkDebug>Debugowania URL</lnkDebug>
 <this>Metadane kombajn</this>
 </MarcEdit_frmOAIHarvest>
+<MarcEdit_frmOCLCBulkDownload>
+<label1>Plik źródłowy OCLC liczb:</label1>
+<cmdDownload>Pobierz</cmdDownload>
+<cmdClose>Zamknij</cmdClose>
+<label2>Zapisz plik:</label2>
+<this>Zbiorcze pobieranie rekordów z OCLC</this>
+</MarcEdit_frmOCLCBulkDownload>
 <MarcEdit_frmOCLCSearchWorldCat>
 <label1>WorldCat Szukaj:</label1>
 <cmbarg1>słowo kluczowe</cmbarg1>
@@ -602,6 +669,7 @@
 <lb_Engine_XML_Options>Opcje XML:</lb_Engine_XML_Options>
 <ck_engine_namespace>Użyj Namespace</ck_engine_namespace>
 <lb_Global_XSLT_Path>MARCXML XSLT:</lb_Global_XSLT_Path>
+<labelAutoUpdateDisabled>Automatyczne aktualizacje zostały wyłączone przez administratora systemu</labelAutoUpdateDisabled>
 <ckDetectProxy>Użyj ustawień serwera proxy</ckDetectProxy>
 <ck_Update_Validator>Automatycznie sprawdzaj dostępność aktualizacji Validator</ck_Update_Validator>
 <label3>Użytkownik musi należeć do domeny do tego do pracy w tym czasie.</label3>
@@ -621,16 +689,12 @@
 <ck_mrk8_editor>Skojarzenia plików (*.mrk8) z MarcEditor</ck_mrk8_editor>
 <ck_mrk_editor>Skojarzenia plików (*.mrk) z MarcEditor</ck_mrk_editor>
 <ck_mrc>Skojarzenia plików (*.mrc) z MarcBreaker</ck_mrc>
-<label26>Folder zadań:</label26>
-<label25>Folderów sieciowych:</label25>
-<ck_allow_z3950>Włączanie funkcji Z39.50</ck_allow_z3950>
-<label1>Numer znacznika kontroli:</label1>
-<lbCall>Liczba połączeń Tag:</lbCall>
-<lb_mono>MONO ścieżka:</lb_mono>
-<lb_Author>Autor Tag:</lb_Author>
-<lb_title>Tytuł Tag:</lb_title>
-<lb_temp>Zestaw ścieżka tymczasowa:</lb_temp>
-<ck_rss>Czytaj źródła danych RSS</ck_rss>
+<label33>|</label33>
+<lnkSelectILS>Wybierz</lnkSelectILS>
+<lnkDeleteProfile>Usuń</lnkDeleteProfile>
+<label32>|</label32>
+<lnkAddProfile>Dodać</lnkAddProfile>
+<label31>Profile:</label31>
 <ck_ignore_ssl>Ignoruj błędy certyfikatów SSL</ck_ignore_ssl>
 <lnk_ils_delete>Usuń</lnk_ils_delete>
 <label14>|</label14>
@@ -655,6 +719,24 @@
 <label18>Klucz tajny (w połączeniu z klucz API metadane)</label18>
 <label17>Klucz API metadane OCLC</label17>
 <label16>Klucz API wyszukiwania OCLC</label16>
+<lnkFilePaths>Lokalizacje</lnkFilePaths>
+<label30>Ustaw domyślne MARC ścieżki narzędzia dysku:</label30>
+<label27>Ścieżki dostępu do pliku:</label27>
+<label26>Folder zadań:</label26>
+<label25>Folderów sieciowych:</label25>
+<lb_mono>MONO ścieżka:</lb_mono>
+<lb_temp>Zestaw ścieżka tymczasowa:</lb_temp>
+<ck_rss>Czytaj źródła danych RSS</ck_rss>
+<lb_title>Tytuł Tag:</lb_title>
+<lb_Author>Autor Tag:</lb_Author>
+<lbCall>Liczba połączeń Tag:</lbCall>
+<label1>Numer znacznika kontroli:</label1>
+<ck_allow_z3950>Włączanie funkcji Z39.50</ck_allow_z3950>
+<label28>Opcje pola:</label28>
+<label34>ISBN Tag:</label34>
+<ckSort880>880: Użyj pola łączącego dla sortowania</ckSort880>
+<ck880Infile>880 PlikWejściowy pola z pola par</ck880Infile>
+<label29>Opcje sortowania:</label29>
 <this>MarcEdit preferencje</this>
 </MarcEdit_frmOptions>
 <MarcEdit_frmPluginManager>
@@ -673,15 +755,28 @@
 <columnHeader4>Wersja #:</columnHeader4>
 <this>Plugin Manager</this>
 </MarcEdit_frmPluginManager>
+<MarcEdit_frmProxy>
+<label1>zasobów. GetString ("label1. Tekst")</label1>
+<label2>Wzór:</label2>
+<cmdProcess>Proces</cmdProcess>
+<cmdCancel>Anuluj</cmdCancel>
+<ckEscape>Danych z adresu URL</ckEscape>
+<ckAddNew>Zastąp istniejące pole</ckAddNew>
+<ck_addnewfield>Dodaj nowe pole, jeśli nie zainstalowane</ck_addnewfield>
+<ckAlwaysAdd>Dodać nowe pole</ckAlwaysAdd>
+<this>Tworzenie nowych pól</this>
+</MarcEdit_frmProxy>
 <MarcEdit_frmQueryLite>
+<label4>Limitu</label4>
+<lnkDownload>Pobierz wszystkie elementy</lnkDownload>
 <ck_batch>Szukaj partii</ck_batch>
 <lbdbtitle>Label2</lbdbtitle>
 <groupBox3>Wyniki</groupBox3>
-<lnkDownload>Pobierz wszystkie elementy</lnkDownload>
 <lnkClearResults>Wyczyść wyniki</lnkClearResults>
 <lnkGetNext>Się dalej {limitu}</lnkGetNext>
 <col1>Stanowisko</col1>
 <col2>Tytuł</col2>
+<downloadSelectedItemsToolStripMenuItem>Pobierz zaznaczone elementy</downloadSelectedItemsToolStripMenuItem>
 <groupBox1>Opcje</groupBox1>
 <lb_encoding_single>Zestaw znaków serwera</lb_encoding_single>
 <cmd_encoding>MARC8</cmd_encoding>
@@ -694,18 +789,20 @@
 <MCol1>Nazwa</MCol1>
 <MCol2>Typ</MCol2>
 <lb_PModifyTitle>Wybierz opcję bazy danych:</lb_PModifyTitle>
-<downloadSelectedItemsToolStripMenuItem>Pobierz zaznaczone elementy</downloadSelectedItemsToolStripMenuItem>
 <this>Z39.50 przechwytywania</this>
 </MarcEdit_frmQueryLite>
 <MarcEdit_frmRDA>
+<ck_502>Proces 502</ck_502>
+<label6>|</label6>
+<lnkEditFields>Edytowanie pól</lnkEditFields>
 <ck_040>Modyfikowanie 040 - dodać $erda</ck_040>
 <ck_qualifyinginfo>Kwalifikujących się informacje (015/020/024/027)</ck_qualifyinginfo>
-<label5>|</label5>
 <lnkEdit>Edytuj listę</lnkEdit>
 <ck_dgmd>Usuń GMD</ck_dgmd>
 <ckAbbrev>Rozwiń skróty</ckAbbrev>
 <ckgmd>Generowanie GMD</ckgmd>
 <ck264>Oceny 260/264</ck264>
+<ck_signs>Zawsze używaj ©, symboli ℗</ck_signs>
 <ck381>Dodać 381 - inne</ck381>
 <ck380>Dodać 380 - formą pracy</ck380>
 <ck347>Dodać 347 - cechy cyfrowych</ck347>
@@ -723,7 +820,7 @@ Dodać 338 - typ przewoźnika</ck337>
 <label3>Wybierz:</label3>
 <label4>|</label4>
 <lnkNone>Brak</lnkNone>
-<ck_signs>Zawsze używaj ©, symboli ℗</ck_signs>
+<label7>Status:</label7>
 <this>RDA Helper</this>
 </MarcEdit_frmRDA>
 <MarcEdit_frmResults>
@@ -740,11 +837,17 @@ Dodać 338 - typ przewoźnika</ck337>
 <label4>O RobertCompare</label4>
 <label3>|</label3>
 <lnkAbout>O RobertCompare</lnkAbout>
+<ckSort>Wstępne sortowanie plików</ckSort>
 <cmdClose>Zamknij</cmdClose>
 <cmdExecute>Wykonać</cmdExecute>
 <label1>Zapisz plik:</label1>
 <label6>Porównaj pliki:</label6>
 <label2>MARCCompare to specjalistyczne narzędzie do ustalania różnic między plikami MARC.  Za pomocą programu, wybierz dwa pliki MARC do porównywania wersji zestawu rekordów.  Aby uzyskać więcej informacji o historii narzędzie, lub jak to dostał swoją nazwę proszę zobaczyć o stronie.</label2>
+<lnkPreferences>Preferencje</lnkPreferences>
+<label7>|</label7>
+<lbSortField>Pole sortowania:</lbSortField>
+<lbdelete>Usunięcia:</lbdelete>
+<lbAddColor>Dodatki:</lbAddColor>
 <this>MARCCompare/RobertCompare</this>
 </MarcEdit_frmRobertCompare>
 <MarcEdit_frmScript>
@@ -754,6 +857,19 @@ Dodać 338 - typ przewoźnika</ck337>
 <btnCancel>Zamknij</btnCancel>
 <this>Edytuj skrypt</this>
 </MarcEdit_frmScript>
+<MarcEdit_frmSearchILSGeneric>
+<lnkNone>Brak</lnkNone>
+<lnkAll>Zaznacz wszystkie</lnkAll>
+<col_title>Tytuł</col_title>
+<col_id>IDENTYFIKATOR</col_id>
+<label3>|</label3>
+<label2>Wyniki:</label2>
+<cmdClose>Zamknij</cmdClose>
+<cmdSearch>Szukaj</cmdSearch>
+<cmbarg1>tytuł</cmbarg1>
+<label1>Szukaj w bazie danych:</label1>
+<this>Szukaj</this>
+</MarcEdit_frmSearchILSGeneric>
 <MarcEdit_frmSearchXML>
 <cName>Nazwa przejście dla pieszych</cName>
 <cAuthor>Dodano przez</cAuthor>
@@ -765,6 +881,10 @@ Dodać 338 - typ przewoźnika</ck337>
 <lnkViewAll>Zobacz wszystkich przejściach dla pieszych</lnkViewAll>
 <this>Wyniki wyszukiwania pieszych XSLT</this>
 </MarcEdit_frmSearchXML>
+<MarcEdit_frmSelectILS>
+<cmdSelect>Wybierz</cmdSelect>
+<this>Wybierz ILS</this>
+</MarcEdit_frmSelectILS>
 <MarcEdit_frmSelectMARCRecords>
 <columnHeader1>Numer rekordu</columnHeader1>
 <columnHeader2>Pole wyświetlania</columnHeader2>
@@ -782,6 +902,9 @@ Dodać 338 - typ przewoźnika</ck337>
 <ck_find_all>Szukaj wszystkich danych</ck_find_all>
 <ck_use_regex>Za pomocą wyrażeń regularnych</ck_use_regex>
 <cmdRandomExport>Wywóz losowe</cmdRandomExport>
+<lnkDoesNotMatch>Nie pasuje</lnkDoesNotMatch>
+<label1>|</label1>
+<lnkInvert>Odwracanie zaznaczenia</lnkInvert>
 <this>MarcEdit.NET: Modyfikowanie rekordów zaznaczonych MARC</this>
 </MarcEdit_frmSelectMARCRecords>
 <MarcEdit_frmSort>
@@ -792,6 +915,17 @@ Dodać 338 - typ przewoźnika</ck337>
 <cmd_Close>Zamknij</cmd_Close>
 <this>Sortowanie niestandardowe kreatora</this>
 </MarcEdit_frmSort>
+<MarcEdit_frmSPARQL_Browser>
+<lbsparql>SPARQL punktu końcowego:</lbsparql>
+<cmdQuery>Zapytanie</cmdQuery>
+<cmdClose>Zamknij</cmdClose>
+<lbQuery>SPARQL kwerendy:</lbQuery>
+<lbresults>Wyniki:</lbresults>
+<cklocal>Lokalny plik obciążenia</cklocal>
+<lbOutput>Wyjście:</lbOutput>
+<cmbOutput>XML</cmbOutput>
+<this>SPARQL przeglądarki</this>
+</MarcEdit_frmSPARQL_Browser>
 <MarcEdit_frmSpecial_Formats>
 <lb_title>CDS ISIS =&gt; MARC tłumaczenie</lb_title>
 <groupBox1>Dane wejściowe użytkownika</groupBox1>
@@ -1095,6 +1229,8 @@ Dodać 338 - typ przewoźnika</ck337>
 <addCopyFieldTaskToolStripMenuItem>Dodaj pole zadanie kopiowania</addCopyFieldTaskToolStripMenuItem>
 <addTaskListToolStripMenuItem>Dodaj listy zadań</addTaskListToolStripMenuItem>
 <addRDAHelperToolStripMenuItem>Dodać RDA Helper</addRDAHelperToolStripMenuItem>
+<addLinkedDataTaskToolStripMenuItem>Dodaj powiązane dane zadań</addLinkedDataTaskToolStripMenuItem>
+<addBuildNewFieldTaskToolStripMenuItem>Dodaj nowe pole zadania kompilacji</addBuildNewFieldTaskToolStripMenuItem>
 <lbTasks>Zadania:</lbTasks>
 <label1>Akcje:</label1>
 <label2>Opis:</label2>
@@ -1104,6 +1240,7 @@ Dodać 338 - typ przewoźnika</ck337>
 <columnHeader1>Nazwa</columnHeader1>
 <columnHeader2>Ścieżka</columnHeader2>
 <columnHeader3>Skrót</columnHeader3>
+<columnHeader4>Opis</columnHeader4>
 <cmdClose>Zamknij</cmdClose>
 <lnkNew>Tworzyć nowe listy zadań</lnkNew>
 <lbMacro>List zadań:</lbMacro>
@@ -1116,7 +1253,6 @@ Dodać 338 - typ przewoźnika</ck337>
 <lnkKey>Klucz przydziału</lnkKey>
 <lnkEdit>Edytuj listę wybranych zadań</lnkEdit>
 <lnkDelete>Usuń wybrane listy zadań</lnkDelete>
-<columnHeader4>Opis</columnHeader4>
 <this>Menedżer zadań</this>
 </MarcEdit_frmTaskManager>
 <MarcEdit_frmTools>
@@ -1129,32 +1265,18 @@ Dodać 338 - typ przewoźnika</ck337>
 <groupBox2>Funkcje</groupBox2>
 <ck_Marc8>Tłumaczenie do MARC-8</ck_Marc8>
 <ck_UTF8>Tłumaczenie na UTF8</ck_UTF8>
-<toolStrip1>toolStrip1</toolStrip1>
-<toolOpen>Otwórz plik</toolOpen>
-<toolSave>Zapisz plik</toolSave>
-<toolExport>Eksportowanie rekordów</toolExport>
-<toolHelp>Pomoc</toolHelp>
 <menuStrip1>menuStrip1</menuStrip1>
-<mnuFile>Plik</mnuFile>
-<mnuFileMain>Powrót do głównego okna</mnuFileMain>
-<mnuFileOpen>Otwarte</mnuFileOpen>
-<mnuFileSave>Zapisz</mnuFileSave>
-<mnuFileExit>Wyjście</mnuFileExit>
-<mnuTools>Narzędzia</mnuTools>
-<mnuBatchProcessing>Partia proces Records</mnuBatchProcessing>
-<mnuToolsXML>Edytuj listę funkcji XML</mnuToolsXML>
-<mnuToolsEncoding>Narzędzia konwersji znaków</mnuToolsEncoding>
-<mnuToolsUTF8>MARC8 =&gt; konwersji UTF8</mnuToolsUTF8>
-<mnuToolsMARC8>UTF8 =&gt; MARC8 konwersji</mnuToolsMARC8>
-<otherConversionsToolStripMenuItem>Innych konwersji</otherConversionsToolStripMenuItem>
-<mnutoolsValidator>MARCValidator</mnutoolsValidator>
-<mnutoolsjoin>MARCJoin</mnutoolsjoin>
-<mnutoolssplit>MARCSplit</mnutoolssplit>
-<mnuToolsExport>Eksportowanie rekordów MARC</mnuToolsExport>
-<mnuToolsExtract>Wyodrębnić wybrane rekordy</mnuToolsExtract>
-<mnuHelp>Pomoc</mnuHelp>
-<mnuHelpContents>Kontekst i indeks</mnuHelpContents>
-<mnuHelpError>Sugestie/błąd raport</mnuHelpError>
+<toolsToolStripMenuItem>Narzędzia</toolsToolStripMenuItem>
+<mnuToolsReturnToMainWindows>Powrócić do głównego okna</mnuToolsReturnToMainWindows>
+<editXMLFunctionListToolStripMenuItem>Edytuj listę funkcji XML</editXMLFunctionListToolStripMenuItem>
+<mARCValidatorToolStripMenuItem>MARCValidator</mARCValidatorToolStripMenuItem>
+<batchProcessFunctionToolStripMenuItem>Partia procesu rekordy</batchProcessFunctionToolStripMenuItem>
+<characterConversionToolsToolStripMenuItem>Narzędzia do konwersji znaków</characterConversionToolsToolStripMenuItem>
+<mARCCompareToolStripMenuItem>MARCCompare</mARCCompareToolStripMenuItem>
+<mARCJoinToolStripMenuItem>MARCJoin</mARCJoinToolStripMenuItem>
+<mARCSplitToolStripMenuItem>MARCSplit</mARCSplitToolStripMenuItem>
+<uNIMARCToolsToolStripMenuItem>UNIMARC narzędzia</uNIMARCToolsToolStripMenuItem>
+<helpToolStripMenuItem>Pomoc</helpToolStripMenuItem>
 <this>MARC narzędzia</this>
 </MarcEdit_frmTools>
 <MarcEdit_frmTutorialManager>
@@ -1169,6 +1291,19 @@ Dodać 338 - typ przewoźnika</ck337>
 <lnkClose>Zamknij</lnkClose>
 <this>Lokalne poradnik Menedżera</this>
 </MarcEdit_frmTutorialManager>
+<MarcEdit_frmUnimarc>
+<label1>MarcEdit zawiera zestaw narzędzi do konwersji UNIMARC lite waga.  Jeśli narzędzia te są interesujące dla Ciebie i chcesz pomóc, aby ich lepiej, proszę podać f eedback.
+
+</label1>
+<label2>Źródła</label2>
+<label3>Miejsca przeznaczenia</label3>
+<groupBox1>Opcje</groupBox1>
+<rdUNIMARC>UNIMARC =&gt; MARC21</rdUNIMARC>
+<rdMARC21>MARC21 =&gt; UNIMARC</rdMARC21>
+<cmdProcess>Proces</cmdProcess>
+<cmdClose>Zamknij</cmdClose>
+<this>UNIMARC narzędzia</this>
+</MarcEdit_frmUnimarc>
 <MarcEdit_frmUpdate>
 <label1>Uwagi aktualizacja:</label1>
 <cmd_Update>Aktualizacja</cmd_Update>
@@ -1198,6 +1333,8 @@ Dodać 338 - typ przewoźnika</ck337>
 <lb_Split_Folder>Folder docelowy:</lb_Split_Folder>
 <lb_Split_Source>Plik źródłowy:</lb_Split_Source>
 <lb_Split_Header>Narzędzie MARCSplit</lb_Split_Header>
+<ckJoinSubfolders>Uwzględnij podfoldery</ckJoinSubfolders>
+<cmdEditFile>Edytuj plik</cmdEditFile>
 <lnkJoinedFiles>Pokaż połączone pliki</lnkJoinedFiles>
 <label19>Typy plików:</label19>
 <ck_JoinIndividual>Dołącz do pojedynczych plików</ck_JoinIndividual>
@@ -1206,6 +1343,7 @@ Dodać 338 - typ przewoźnika</ck337>
 <lb_Join_Files>Pliki do łączyć:</lb_Join_Files>
 <lb_Join_Source>Plik docelowy:</lb_Join_Source>
 <lb_Join_Header>Narzędzie MARCJoin</lb_Join_Header>
+<lbJoinStatus>Status:</lbJoinStatus>
 <lb_Tab_Header>Wywóz karcie rekordy rozdzielane</lb_Tab_Header>
 <cmb_sec_del></cmb_sec_del>
 <label18>W polu Ogranicznik</label18>
@@ -1218,6 +1356,7 @@ Dodać 338 - typ przewoźnika</ck337>
 <mnusave>Zapisz ustawienia</mnusave>
 <menuItem1>-</menuItem1>
 <menuItem3>Wyczyść ustawienia</menuItem3>
+<ckBatchProcessSubfolders>Uwzględnij podfoldery</ckBatchProcessSubfolders>
 <lb_Operation>Funkcja:</lb_Operation>
 <cmdBClose>Zamknij</cmdBClose>
 <cmdBProcess>Proces</cmdBProcess>
@@ -1235,6 +1374,7 @@ Dodać 338 - typ przewoźnika</ck337>
 <cmdTExport>Eksport</cmdTExport>
 <label2>Krok 2: Definiowanie pól/pól podrzędnych do eksportu</label2>
 <label3>Wywóz karcie rekordy rozdzielane</label3>
+<ckIsUTF8>Zakodowane w Unicode</ckIsUTF8>
 <ck_merge_to_source>Scalenie źródła</ck_merge_to_source>
 <label17>Zapisz plik:</label17>
 <label16>Katalogowanie źródła</label16>
@@ -1246,45 +1386,37 @@ Dodać 338 - typ przewoźnika</ck337>
 <lb_id>Identyfikator rekordu:</lb_id>
 <lb_merge>Scalanie plików:</lb_merge>
 <lb_source>Plik źródłowy:</lb_source>
-<cmd_merge_cancel_2>Anuluj</cmd_merge_cancel_2>
-<cmd_merge_next_2>Następny =&gt;</cmd_merge_next_2>
-<cmd_merge_back_2>&lt; = Tył</cmd_merge_back_2>
 <label4>Wybierz opcję, która najlepiej opisuje działanie, które chcesz wykonać.</label4>
-<lb_merge_title_2>Scalanie danych: Krok 2</lb_merge_title_2>
-<groupBox2>Scalanie plików opcje</groupBox2>
-<rd_merge_overlay>Scalanie i nakładki wszystkich danych</rd_merge_overlay>
-<rd_merge_delimited>Scalanie danych rozdzielanych</rd_merge_delimited>
-<rd_merge_selected>Wybrane pola korespondencji seryjnej</rd_merge_selected>
-<rd_merge_all>Scalić wszystkie dane unikatowe</rd_merge_all>
+<ck_mergeUnique>Scalić unikaty</ck_mergeUnique>
 <button1>Anuluj</button1>
 <cmd_merge_select_fields_next>Następny =&gt;</cmd_merge_select_fields_next>
 <cmd_merge_select_fields_back>&lt; = Tył</cmd_merge_select_fields_back>
-<groupBox3>Modyfikowanie opcji</groupBox3>
-<label10>do</label10>
-<label12>Podpól</label12>
-<label9>do</label9>
-<label8>Wskaźniki</label8>
 <label7>Pola korespondencji seryjnej:</label7>
 <label6>Wybierz pole:</label6>
 <label5>Scalanie danych: Wybierz pola</label5>
-<ck_Repeatable>Powtarzalne podpól</ck_Repeatable>
-<ck_sort>Pola sortowania</ck_sort>
-<P3_cmd_Cancel>Anuluj</P3_cmd_Cancel>
-<P3_cmd_finish>Wykończenie</P3_cmd_finish>
-<P3_ck_save_args>Zapisz szablon</P3_ck_save_args>
-<button4>Wczytaj szablon</button4>
-<P3_cmd_Apply>Stosuje się</P3_cmd_Apply>
-<P3_lb_args>Argumenty</P3_lb_args>
-<P3_lb_punct>Termin. Znaki interpunkcyjne:</P3_lb_punct>
-<P3_txt_indicators>\\\\</P3_txt_indicators>
-<P3_lb_indicators>Wskaźniki:</P3_lb_indicators>
-<P3_mapto>Mapa do:</P3_mapto>
-<P3_lb_select>Wybierz:</P3_lb_select>
 <button5>Zamknij</button5>
 <label15>Pliki zostały scalone.  Wyniki w {merge_results_file}.</label15>
 <label13>Połączenie zakończone</label13>
 <this>Okno narzędzia</this>
 </MarcEdit_frmUtilities>
+<MarcEdit_frmValidateHeadings>
+<label1>Narzędzie sprawdzania poprawności nagłówków może służyć do sprawdzania poprawności 1xx, 6xx lub pól 7xx.  Th e Narzędzie wykorzystuje połączenie sieci web i usługi lokalne do określenia, jeśli headin g pojawia się w autoryzowanych pozycji.</label1>
+<ck_1xx>Autoryzować pola 1xx/7xx</ck_1xx>
+<ck_6xx>Autoryzować pola 6xx</ck_6xx>
+<cmdProcess>Proces</cmdProcess>
+<cmdClose>Zamknij</cmdClose>
+<label2>Źródło:</label2>
+<lbStatus>Status:</lbStatus>
+<cmdExtract>Wyciąg</cmdExtract>
+<ckdeletecache>Usunąć z lokalnej pamięci podręcznej</ckdeletecache>
+<lnkDelimited>Zapisz rozdzielany</lnkDelimited>
+<ckonlyA>Tylko proces podpole A</ckonlyA>
+<ckVariant>Automatyczne poprawianie wariantów</ckVariant>
+<ckGenerateBriefHeadings>Generują krótkie nazwy osobowej władze</ckGenerateBriefHeadings>
+<label3>Wygenerowany organy:</label3>
+<ckAddURIs>Osadzić identyfikatorów URI, gdy jest to możliwe</ckAddURIs>
+<this>Sprawdzanie poprawności nagłówków</this>
+</MarcEdit_frmValidateHeadings>
 <MarcEdit_frmvalidator>
 <lb_Source>Plik źródłowy:</lb_Source>
 <lb_Rules>Plik zasad:</lb_Rules>
@@ -1306,6 +1438,7 @@ Dodać 338 - typ przewoźnika</ck337>
 <lb_Dest>Plik wyjściowy:</lb_Dest>
 <lb_MARC>Plik wejściowy:</lb_MARC>
 <lb_Fields>Pola:</lb_Fields>
+<lbTimeout>Limit czasu (w sekundach)</lbTimeout>
 <this>Sprawdź, czy adres URL</this>
 </MarcEdit_frmVURL>
 <MarcEdit_frm_FASTHeadings>
@@ -1331,6 +1464,7 @@ Dodać 338 - typ przewoźnika</ck337>
 <ck_dates>Daty (pozycji: 7-14)</ck_dates>
 <ck_p7>BLvl (7 pozycji)</ck_p7>
 <ck_p6>Typ (6 pozycji)</ck_p6>
+<ck_001>001/019</ck_001>
 <label6>Liczby kontroli</label6>
 <ck_form>Formularz (pozycji: 23)</ck_form>
 <ck_245_h>$h: Materiały ogólne oznaczenie</ck_245_h>
@@ -1429,9 +1563,14 @@ Dodać 338 - typ przewoźnika</ck337>
 <mnuFileClearList>Wyczyść ostatnio używanych plików</mnuFileClearList>
 <clearEditReplaceHistoryToolStripMenuItem>Wyczyść historię edycji/Zamień</clearEditReplaceHistoryToolStripMenuItem>
 <mnuFileClose>Zamknij</mnuFileClose>
+<mnuFileExportData>Eksport dla...</mnuFileExportData>
+<openRefineExport>OpenRefine</openRefineExport>
+<mnuFileImportData>Importowanie z...</mnuFileImportData>
+<openRefineImport>OpenRefine</openRefineImport>
 <mnuFileSave>Zapisz</mnuFileSave>
 <mnuFileSaveAs>Zapisz jako...</mnuFileSaveAs>
 <mnuFilePrint>Drukuj</mnuFilePrint>
+<toolStripMenuItem34>Drukowanie rekordu na stronę</toolStripMenuItem34>
 <FileSelectIndividualMake>Wybierz poszczególnych rekordów do</FileSelectIndividualMake>
 <mnuFileCompile>Skompilować plik do MARC</mnuFileCompile>
 <mnuFileExit>Wyjście</mnuFileExit>
@@ -1455,7 +1594,12 @@ Dodać 338 - typ przewoźnika</ck337>
 <capitalizeInitialCharacterToolStripMenuItem>Wykorzystać pierwotny charakter</capitalizeInitialCharacterToolStripMenuItem>
 <fieldEditsToolStripMenuItem>Pole edycji</fieldEditsToolStripMenuItem>
 <findRecordsMissingFieldToolStripMenuItem>Znajdowanie rekordów, brak pola</findRecordsMissingFieldToolStripMenuItem>
+<toolStripMenuItem39>Znajdowanie rekordów z zduplikowane Tagi</toolStripMenuItem39>
+<toolStripMenuItem40>Znajdowanie rekordów z zduplikowane pola danych</toolStripMenuItem40>
+<mnuEditLimitFields>Ogranicz liczbę pól</mnuEditLimitFields>
 <swapTitleToolStripMenuItem>Zamiana tytuł</swapTitleToolStripMenuItem>
+<mathFunctionsToolStripMenuItem>Funkcje matematyczne</mathFunctionsToolStripMenuItem>
+<convertToDecimalDegreesToolStripMenuItem>W stopniach dziesiętnych</convertToDecimalDegreesToolStripMenuItem>
 <mnuEditJumpTo>Przejdź do...</mnuEditJumpTo>
 <jumpToRecordToolStripMenuItem>Przejdź do...Rekord</jumpToRecordToolStripMenuItem>
 <jumpToPageToolStripMenuItem>Przejdź do...Strona</jumpToPageToolStripMenuItem>
@@ -1488,9 +1632,6 @@ Dodać 338 - typ przewoźnika</ck337>
 <mnuEditSelectAll>Wybierz wszystkie</mnuEditSelectAll>
 <mnuEditWrap>Zawijanie wyrazów</mnuEditWrap>
 <mnuEditRTL>Wystawa prawy do lewego</mnuEditRTL>
-<mnuEditInfo>MARC Info</mnuEditInfo>
-<mnuEditInfoOCLC>OCLC MARC pomoc</mnuEditInfoOCLC>
-<mnuEditInfoLC>USA biblioteki Kongresu MARC pomocy</mnuEditInfoLC>
 <mnuFont>Czcionki</mnuFont>
 <mnuFontFont>Czcionki...</mnuFontFont>
 <mnuFontColor>Kolor...</mnuFontColor>
@@ -1508,10 +1649,18 @@ Dodać 338 - typ przewoźnika</ck337>
 <soundRecordingsToolStripMenuItem>Nagrań dźwiękowych</soundRecordingsToolStripMenuItem>
 <visualMaterialsToolStripMenuItem>Materiały wizualne</visualMaterialsToolStripMenuItem>
 <mARCValidatorToolStripMenuItem>MARCValidator</mARCValidatorToolStripMenuItem>
+<validateISBNSToolStripMenuItem>Sprawdź poprawność numeru ISBN</validateISBNSToolStripMenuItem>
+<validateISSNSToolStripMenuItem>Sprawdź poprawność ISSN</validateISSNSToolStripMenuItem>
+<validateHeadingsToolStripMenuItem>Sprawdzanie poprawności nagłówków</validateHeadingsToolStripMenuItem>
 <mnuTools>Narzędzia</mnuTools>
+<mnutoolCutters>Kutrowanie narzędzia</mnutoolCutters>
 <mnuToolsCalculator>«Katalog» kalkulator</mnuToolsCalculator>
+<generateCuttersToolStripMenuItem>Wygenerować frezów</generateCuttersToolStripMenuItem>
+<sanbornTable3CuttersToolStripMenuItem>Sanborn tabela 3 Frezy</sanbornTable3CuttersToolStripMenuItem>
 <mnuToolsCallNum>Generowanie numerów</mnuToolsCallNum>
 <mnuToolsControlNumber>Generowanie numerów kontrolnych</mnuToolsControlNumber>
+<toolStripMenuItem33>Połączone dane narzędzi</toolStripMenuItem33>
+<buildLinkedRecordsToolStripMenuItem>Budować połączone rekordy</buildLinkedRecordsToolStripMenuItem>
 <mnuToolsRDAHelpers>RDA Helper</mnuToolsRDAHelpers>
 <mnuToolsEditConstant>Edycja danych stała</mnuToolsEditConstant>
 <mnuToolsAssigned>Danych przypisane stałym</mnuToolsAssigned>
@@ -1526,7 +1675,7 @@ Dodać 338 - typ przewoźnika</ck337>
 <mnuConstant9>9) niezdefiniowany ciąg</mnuConstant9>
 <mnuConstant10>10) niezdefiniowany ciąg</mnuConstant10>
 <mnutoolmanageAutomate>Zarządzanie zadaniami</mnutoolmanageAutomate>
-<mnutoolassignTasks>Przydzielonych zadań</mnutoolassignTasks>
+<mnuToolsAssignedTasks>Przydzielonych zadań</mnuToolsAssignedTasks>
 <mnuDefTask>Obecnie dostępne zadania</mnuDefTask>
 <task1>1) zadanie niezdefiniowany</task1>
 <task2>2) zadanie niezdefiniowany</task2>
@@ -1538,6 +1687,16 @@ Dodać 338 - typ przewoźnika</ck337>
 <task8>8) zadanie niezdefiniowany</task8>
 <task9>9) zadanie niezdefiniowany</task9>
 <task10>10) zadanie niezdefiniowany</task10>
+<task11>11) zadanie niezdefiniowany</task11>
+<task12>12) zadanie niezdefiniowany</task12>
+<task13>13) zadanie niezdefiniowany</task13>
+<task14>14) zadanie niezdefiniowany</task14>
+<task15>15) zadanie niezdefiniowany</task15>
+<task16>16) zadanie niezdefiniowany</task16>
+<task17>17) zadanie niezdefiniowany</task17>
+<task18>18) niezdefiniowany zadania</task18>
+<task19>19) zadanie niezdefiniowany</task19>
+<task20>20) zadanie niezdefiniowany</task20>
 <mnuToolsZ3950>Opcje Z39.50/SRU</mnuToolsZ3950>
 <marcEditZ3950SRUClientToolStripMenuItem>MarcEdit Z39.50/SRU klienta</marcEditZ3950SRUClientToolStripMenuItem>
 <importRecordToolStripMenuItem>Rekord importu Z39.50</importRecordToolStripMenuItem>
@@ -1553,6 +1712,7 @@ Dodać 338 - typ przewoźnika</ck337>
 <normalizeMicrolifRecordsToolStripMenuItem>Normalizacji Microlif Records</normalizeMicrolifRecordsToolStripMenuItem>
 <mnuToolsRemoveEmpty>Usuń puste pola/podpól</mnuToolsRemoveEmpty>
 <mnuToolsAdd>Dodaj/Usuń pole</mnuToolsAdd>
+<mnuFieldEditsBuildProxy>Budować nowe pole</mnuFieldEditsBuildProxy>
 <toolStripMenuItem26>Pole kopia</toolStripMenuItem26>
 <mnuToolsEditField>Edytuj pole danych</mnuToolsEditField>
 <mnuToolsIndicator>Edycja danych wskaźnik</mnuToolsIndicator>
@@ -1578,6 +1738,10 @@ Dodać 338 - typ przewoźnika</ck337>
 <pluginsToolStripMenuItem>Plug iny</pluginsToolStripMenuItem>
 <mnuHelp>Pomoc</mnuHelp>
 <mnuHelpContents>Zawartość i pomoc</mnuHelpContents>
+<mnuEditInfo>MARC Info</mnuEditInfo>
+<mnuEditInfoOCLC>OCLC MARC pomoc</mnuEditInfoOCLC>
+<mnuHelpRDAToolkit>RDA Toolkit</mnuHelpRDAToolkit>
+<mnuEditInfoLC>USA biblioteki Kongresu MARC pomocy</mnuEditInfoLC>
 <label1>Zapisy na stronie</label1>
 <lblPage>stron</lblPage>
 <btnPre>&lt;</btnPre>
@@ -1627,206 +1791,4 @@ Dodać 338 - typ przewoźnika</ck337>
 <opt_msxml>MSXML</opt_msxml>
 <this>XML funkcje edycji</this>
 </MarcEdit_xml_functions>
-<marc_sql_explorer_frmMain>
-<tabPage1>Ładowania danych</tabPage1>
-<ckexpanded>Użyj schematu tabela rozwinięte</ckexpanded>
-<ckloadDB>Użyć MySQL</ckloadDB>
-<ckMysql>Użyć MySQL</ckMysql>
-<lnkmysqlOptions>Opcje MySQL</lnkmysqlOptions>
-<cmdCancelP>Anuluj</cmdCancelP>
-<cmdProcessMARC>Proces</cmdProcessMARC>
-<cmdLoadDB>Obciążenia</cmdLoadDB>
-<label5>Plik bazy danych:</label5>
-<label6>Załadować istniejący plik bazy danych</label6>
-<label3>Plik bazy danych:</label3>
-<label2>MARC pliku:</label2>
-<label1>Wstępnego przetwarzania danych MARC</label1>
-<tabPage2>Struktury bazy danych</tabPage2>
-<cname>Nazwa</cname>
-<cObject>Obiekt</cObject>
-<cSchema>Schemat</cSchema>
-<tabPage3>Wykonać SQL</tabPage3>
-<label8>Dane zwrócone</label8>
-<label7>Wyniki kwerendy</label7>
-<cmdExportD>Eksport danych</cmdExportD>
-<cmdExcecuteQ>Wykonać kwerendy</cmdExcecuteQ>
-<label4>Ciąg SQL</label4>
-<cmdClose>Zamknij</cmdClose>
-<this>MARC SQL Explorer</this>
-</marc_sql_explorer_frmMain>
-<marc_sql_explorer_frmOptions>
-<label1>Serwer bazy danych:</label1>
-<label2>Nazwa użytkownika:</label2>
-<label3>Hasło:</label3>
-<cmdSave>Zapisz</cmdSave>
-<cmdClose>Zamknij</cmdClose>
-<this>Opcje MySQL:</this>
-</marc_sql_explorer_frmOptions>
-<me_tabbed_frmldr>
-<label1>LDR</label1>
-<cmd_OK>Ok</cmd_OK>
-<cmd_Close>Zamknij</cmd_Close>
-<checkBox1>UNIMARC</checkBox1>
-<this>Edytuj LDR/008</this>
-</me_tabbed_frmldr>
-<me_tabbed_frmMain>
-<groupBox4>Opcje</groupBox4>
-<ck_unicode>Zakodowany w formacie UTF-8</ck_unicode>
-<linkLabel1>Edytuj LDR/008</linkLabel1>
-<groupBox3>Ogranicznik wartości</groupBox3>
-<P2_lb_Other>Charakter:</P2_lb_Other>
-<P2_lb_Delimiter>Ogranicznik:</P2_lb_Delimiter>
-<P2_txt_qualifier>Kwalifikator</P2_txt_qualifier>
-<lbSheet>Nazwa arkusza Excela:</lbSheet>
-<P2_cmd_Cancel>Anuluj</P2_cmd_Cancel>
-<P2_cmd_Next>Następny</P2_cmd_Next>
-<P2_lb_output>Plik wyjściowy:</P2_lb_output>
-<P2_Import>Plik źródłowy:</P2_Import>
-<groupBox2>Argumenty</groupBox2>
-<lnkAuto>Automatyczne generowanie</lnkAuto>
-<ck_filing_characters>Obliczyć wspólnych danych nonfiling</ck_filing_characters>
-<ck_sort>Pola sortowania</ck_sort>
-<P3_ck_save_args>Zapisz szablon</P3_ck_save_args>
-<button2>Wczytaj szablon</button2>
-<toolStripMenuItem2>Edytuj element</toolStripMenuItem2>
-<deleteItemsToolStripMenuItem>Usuwanie elementów</deleteItemsToolStripMenuItem>
-<joinItemsToolStripMenuItem>Dołącz do elementów</joinItemsToolStripMenuItem>
-<label1>Migawka danych</label1>
-<groupBox1>Ustawienia</groupBox1>
-<ck_Repeatable>Powtarzalne podpól</ck_Repeatable>
-<P3_ck_constant>Stałe dane</P3_ck_constant>
-<P3_cmd_Apply>Dodać Argument</P3_cmd_Apply>
-<P3_lb_punct>Termin. Znaki interpunkcyjne:</P3_lb_punct>
-<P3_txt_indicators>\\\\</P3_txt_indicators>
-<P3_lb_indicators>Wskaźniki:</P3_lb_indicators>
-<P3_mapto>Mapa do:</P3_mapto>
-<P3_lb_select>Wybierz:</P3_lb_select>
-<P3_cmd_Cancel>Anuluj</P3_cmd_Cancel>
-<P3_cmd_finish>Wykończenie</P3_cmd_finish>
-<this>MarcEdit tekstu rozdzielanego Tłumacz</this>
-</me_tabbed_frmMain>
-<me_tabbed_frmStatus>
-<lbCaption>Label1</lbCaption>
-</me_tabbed_frmStatus>
-<mebatch_frmMain>
-<lnkAbout>O klienta</lnkAbout>
-<lnkOptions>Ustaw opcje</lnkOptions>
-<lnkModify>Modyfikowanie baz danych</lnkModify>
-<lnkBatch>Tryb wsadowy</lnkBatch>
-<lnkSingle>Tryb wyszukiwania</lnkSingle>
-<lb_b_char>Zestaw znaków serwera</lb_b_char>
-<cmb_b_encoding>MARC8</cmb_b_encoding>
-<ck_b_unicode>Pobierania Unicode</ck_b_unicode>
-<Modify>Modyfikowanie</Modify>
-<Database>Wybierz lokalnej bazy danych</Database>
-<rd_custom>Niestandardowe</rd_custom>
-<rd_title>Szukaj tytuł/autor</rd_title>
-<rd_issn>Szukaj ISBN/ISSN</rd_issn>
-<label1>Rodzaj wyszukiwania</label1>
-<lbBDest>Plik docelowy:</lbBDest>
-<lbBSource>Plik źródłowy:</lbBSource>
-<lbBTitle>Partia Szukaj narzędzie</lbBTitle>
-<lbStartrec>startRecord</lbStartrec>
-<lnkGetNext>Się dalej {limitu}</lnkGetNext>
-<lbMaxRecs>maximumRecords</lbMaxRecs>
-<lnkClearResults>Wyczyść wyniki</lnkClearResults>
-<groupBox3>Wyniki</groupBox3>
-<col1>ID</col1>
-<col2>Tytuł</col2>
-<col3>Bazy danych</col3>
-<mnuGroupDisplay>Wyświetlanie wybranych rekordów</mnuGroupDisplay>
-<mnuGroupDownload>Pobierz zaznaczone rekordy</mnuGroupDownload>
-<mnuDownloadAll>Pobierz wszystkie rekordy</mnuDownloadAll>
-<groupBox1>Opcje</groupBox1>
-<lb_encoding_single>Zestaw znaków serwera</lb_encoding_single>
-<cmd_encoding>MARC8</cmd_encoding>
-<ckUnicode>Pobierania Unicode</ckUnicode>
-<rdEditDB>Wybierz opcję bazy danych</rdEditDB>
-<rdEditSettings>Edytuj ustawienia</rdEditSettings>
-<lbSearchb>Szukaj:</lbSearchb>
-<lbSearch>Kwerendy bazy danych:</lbSearch>
-<ck_automatic>Automatycznie wykryj ustawienia</ck_automatic>
-<lbProxy>Serwer proxy:</lbProxy>
-<lbExample>Przykładowe wyniki:</lbExample>
-<button2>Zamknij</button2>
-<button1>Ok</button1>
-<lbSaveFile>Zapisz plik:</lbSaveFile>
-<lbLimit>Ograniczenia:</lbLimit>
-<lbTitleOption>Tytuł:</lbTitleOption>
-<lbSetupTitle>Opcje wyświetlania</lbSetupTitle>
-<lnkSelectList>Wybierz zasób</lnkSelectList>
-<lnkMClose>Zamknij</lnkMClose>
-<lnkMDelete>Usuwanie bazy danych</lnkMDelete>
-<lnkMModify>Modyfikacji bazy danych</lnkMModify>
-<lbmOptions>Opcje:</lbmOptions>
-<lnkMAdd>Dodać bazy danych</lnkMAdd>
-<MCol3>ID</MCol3>
-<MCol1>Nazwa</MCol1>
-<MCol2>Typ</MCol2>
-<lb_PModifyTitle>Wybierz opcję bazy danych:</lb_PModifyTitle>
-<aboutbox>richTextBox1</aboutbox>
-<importFromMasterListToolStripMenuItem>Importowanie listy Master</importFromMasterListToolStripMenuItem>
-<addNewZ3950ServerToolStripMenuItem>Dodawanie nowego serwera Z39.50</addNewZ3950ServerToolStripMenuItem>
-<addSRUServerToolStripMenuItem>Dodaj serwer SRU</addSRUServerToolStripMenuItem>
-<this>MarcEdit Z39.50 klienta</this>
-</mebatch_frmMain>
-<mebatch_frmOverwrite>
-<cmdAppend>Dołącz</cmdAppend>
-<cmdOverwrite>Zastąpić</cmdOverwrite>
-<cmdClose>Zamknij</cmdClose>
-<label1>Eksportuj plik istnieje.  Czy chcesz zastąpić lub dołączyć bieżącego pliku.</label1>
-<this>Plik istnieje</this>
-</mebatch_frmOverwrite>
-<mebatch_frmProperties>
-<tabDBProps>Właściwości bazy danych</tabDBProps>
-<ck_Paused>Zastąpić pauza (6 sek.)</ck_Paused>
-<label1>Bazy danych:</label1>
-<ck_Show>Pokaż bazy danych</ck_Show>
-<lbPassword>Hasło:</lbPassword>
-<lbUsername>Nazwa użytkownika:</lbUsername>
-<lbSyntax>Składnia:</lbSyntax>
-<lbPort>Portu:</lbPort>
-<lbHost>Hosta:</lbHost>
-<lbname>Nazwa:</lbname>
-<tabDBAdvanced>Właściwości zaawansowane</tabDBAdvanced>
-<label4>Limit czasu (w sekundach):</label4>
-<label2>Zestaw elementów:</label2>
-<label3>Inne opcje:</label3>
-<lnkftp>http://www.Loc.gov/z3950/Agency/defns/bib1.html</lnkftp>
-<lbInfo>Więcej informacji:</lbInfo>
-<lbISBN>ISBN/ISSN:</lbISBN>
-<lbSubject>Temat:</lbSubject>
-<lbTitle>Tytuł:</lbTitle>
-<lbAuthor>Autor:</lbAuthor>
-<lbadvTitle>Atrybut Z39.50 4: struktura</lbadvTitle>
-<cmdSave>Zapisz</cmdSave>
-<cmdClose>Zamknij</cmdClose>
-<this>Właściwości bazy danych</this>
-</mebatch_frmProperties>
-<mebatch_frmRecord>
-<lnkDownload>Pobierz za darmo rekord</lnkDownload>
-<lnkClose>Zamknij</lnkClose>
-<lbSave>Zapisz plik:</lbSave>
-<ck_Append>Dołącz</ck_Append>
-<this>Wyświetlanie rekordu MARC</this>
-</mebatch_frmRecord>
-<mebatch_frmresults>
-<cmd_close>Zamknij</cmd_close>
-</mebatch_frmresults>
-<mebatch_frmStatus>
-<lbCaption>Label1</lbCaption>
-<this>Stan</this>
-</mebatch_frmStatus>
-<mebatch_SRUProps>
-<lbSRUTitle>Właściwości bazy danych:</lbSRUTitle>
-<label1>ADRES URL:</label1>
-<lbMetadata>Schematu metadanych:</lbMetadata>
-<lbName>Nazwa:</lbName>
-<cmdSave>Zapisz</cmdSave>
-<cmdClose>Zamknij</cmdClose>
-<lbVersion>Wersja:</lbVersion>
-<label2>Profil wyszukiwania:</label2>
-<label3>Dodatkowe parametry</label3>
-<this>Właściwości SRU</this>
-</mebatch_SRUProps>
 </marcedit>

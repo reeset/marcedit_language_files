@@ -15,7 +15,6 @@
 <this>フィールド数</this>
 </MarcEdit_Field_Count>
 <MarcEdit_FindReplace>
-<tbFind>検索</tbFind>
 <groupBox3>方向:</groupBox3>
 <rd_down>ダウン</rd_down>
 <rd_up>アップ</rd_up>
@@ -24,15 +23,19 @@
 <ck_f_whole_word>単語だけを検索します。</ck_f_whole_word>
 <ck_find_regex>正規表現を使用</ck_find_regex>
 <ck_f_match_case>大文字と小文字</ck_f_match_case>
-<lbPreview>プレビュー モードで読み込まれたデータを検索のみを見つけます。</lbPreview>
 <cmdFClose>閉じる</cmdFClose>
 <cmdFFind>検索</cmdFFind>
 <lb_FindWhat>検索する文字列します。</lb_FindWhat>
-<tbReplace>置換</tbReplace>
+<cmdNav_Find>検索</cmdNav_Find>
+<cmdReplaceNav>置換</cmdReplaceNav>
+<ckReplaceConditional>場合は、検索/置換を実行.</ckReplaceConditional>
+<cmbCondOpt>正規表現</cmbCondOpt>
+<label1>場合:</label1>
 <cmd_R_Close>閉じる</cmd_R_Close>
 <cmd_R_All>すべて置換します。</cmd_R_All>
 <cmd_R_Replace>置換</cmd_R_Replace>
 <groupBox2>検索オプション:</groupBox2>
+<ckFile>外部検索/置換条件を使用してください。</ckFile>
 <ck_R_RegExp>正規表現を使用</ck_R_RegExp>
 <ck_R_Case>大文字と小文字</ck_R_Case>
 <lb_ReplaceWith>を置き換えます。</lb_ReplaceWith>
@@ -140,6 +143,7 @@
 <cmd_A_Add>フィールドを追加します。</cmd_A_Add>
 <cmd_A_Delete>フィールドを削除します。</cmd_A_Delete>
 <groupBox1>オプション：</groupBox1>
+<ck_A_addifnotduplicate>重複していない場合のフィールドだけを追加します。</ck_A_addifnotduplicate>
 <ck_delete_batch>プロセスのバッチ操作</ck_delete_batch>
 <ck_AddIfPresent>存在する場合にフィールドを追加します。</ck_AddIfPresent>
 <ck_RemoveIfNot>フィールドのデータが一致しない場合を削除します。</ck_RemoveIfNot>
@@ -197,6 +201,7 @@
 <label14>サブフィールド:</label14>
 <lbFindInField>フィールド内検索します。</lbFindInField>
 <groupBox4>オプション</groupBox4>
+<ck_copy_field_regex>正規表現を使用</ck_copy_field_regex>
 <ck_copy_delete>ソース フィールドを削除します。</ck_copy_delete>
 <label2>変換先フィールド:</label2>
 <cmdCopyClose>閉じる</cmdCopyClose>
@@ -237,9 +242,14 @@
 <cmdProcess>プロセス</cmdProcess>
 <cmdCancel>キャンセル</cmdCancel>
 <groupBox1>ID サービス</groupBox1>
+<ck3xxFields>プロセス 3 xx フィールド</ck3xxFields>
+<label4>OCLC の数:</label4>
+<ckWorkId>OCLC の仕事 ID を埋め込む</ckWorkId>
+<cmb_viaf_index>LC (NACO)</cmb_viaf_index>
+<ckAutodetect>自動検出のサブジェクトの ID</ckAutodetect>
 <ck_viaf>OCLC リアルサウンド ／ リアル サウンド</ck_viaf>
 <ck_loc>米国議会図書館 (id.loc.gov)</ck_loc>
-<ckAutodetect>自動検出のサブジェクトの ID</ckAutodetect>
+<label5>規則ファイル:</label5>
 <this>リンクされたレコードを構築します。</this>
 </MarcEdit_frmBuildLinks>
 <MarcEdit_frmCatalogCalculator>
@@ -250,30 +260,43 @@
 <label1>LC カッター</label1>
 <this>電卓のカタログ</this>
 </MarcEdit_frmCatalogCalculator>
+<MarcEdit_frmCharacterDetection>
+<label1>文字検出ツールを使って最高の推測 rela を与える heuristical プロセス</label1>
+<cmdDetect>検出</cmdDetect>
+<cmdClose>閉じる</cmdClose>
+<label2>結果:</label2>
+<ckDetailed>詳細結果</ckDetailed>
+<this>文字の検出</this>
+</MarcEdit_frmCharacterDetection>
 <MarcEdit_frmClassify>
 <label1>このサービスは、OCLC の分類 Web サービスを使用します。分類の推奨事項は OCLC のレコードから制御番号を送ることによって生成されます。OCLC の web サービスと LC またはデューイ 10 進分類はほとんどの場合このレコードに関連付けられている MarcEdit に戻されます。</label1>
 <lnkClassify>OCLC のについて分類サービス</lnkClassify>
-<label2>挿入の指示:</label2>
 <ck_all>すべてのレコードを追加します。</ck_all>
 <ck_single>選択したレコードを追加します。</ck_single>
 <ck_lc>米国議会図書館</ck_lc>
 <ck_dewey>デューイ 10 進</ck_dewey>
-<label3>分類:</label3>
 <cmdProcess>分類</cmdProcess>
 <cmdClose>閉じる</cmdClose>
 <label5>挿入、次のフィールドが存在しない場合 (例: 092 090; 060 050）</label5>
 <label4>次のフィールドに生成された分類を挿入します。</label4>
-<label7>オプション：</label7>
 <ck_cutters>カッターと日付を計算します。</ck_cutters>
 <ck_use_z>一致するサブフィールド z を使用します。</ck_use_z>
 <ck_DateMod>日付にフラグを追加します。</ck_DateMod>
 <ck_omit_serial>雑誌のための日付を省略します。</ck_omit_serial>
 <ck_omit_integrated>統合リソースの日を省略します。</ck_omit_integrated>
 <ck_omit>例外の日付を追加します。</ck_omit>
-<label8>件名：</label8>
 <ck_always_fast>常に高速な見出しを追加します。</ck_always_fast>
 <ck_conditional_fast>サブジェクトの見出しが存在しないときに高速の見出しを追加します。</ck_conditional_fast>
 <label6>指標：</label6>
+<cmdInsert>挿入手順</cmdInsert>
+<cmdClassification>分類</cmdClassification>
+<cmdSubjects>件名の見出し</cmdSubjects>
+<lnkClassification>分類を選択します。</lnkClassification>
+<lnkSubjects>件名を選択します。</lnkSubjects>
+<lnkOptions>オプションを設定します。</lnkOptions>
+<cmdOptions>オプション</cmdOptions>
+<label2>挿入の指示:</label2>
+<label3>分類:</label3>
 <this>分類を生成します。</this>
 </MarcEdit_frmClassify>
 <MarcEdit_frmConstantData>
@@ -317,6 +340,17 @@
 <label2>レコードの重複ツール</label2>
 <this>レコードの重複除外</this>
 </MarcEdit_frmDedup>
+<MarcEdit_frmOpenRefine>
+<label1>このツールを使用して、ニーモニック形式と OpenRef のマルクまたは MarcEdit の間でデータを移動</label1>
+<label2>ソース ファイル:</label2>
+<label3>ファイルを保存します。</label3>
+<rdExport>OpenRefine にエクスポートします。</rdExport>
+<rdImport>OpenRefine からのインポート</rdImport>
+<cmdProcess>プロセス</cmdProcess>
+<cmdCancel>閉じる</cmdCancel>
+<lbStatus>ステータス:</lbStatus>
+<this>OpenRefine データ転送ツール</this>
+</MarcEdit_frmOpenRefine>
 <MarcEdit_frmExportSettings>
 <label1>共有するファイルを選択します。</label1>
 <ckconfig>構成オプション</ckconfig>
@@ -340,6 +374,19 @@
 <lb_result_num>{search_string} が {#} 回だった。</lb_result_num>
 <this>すべての結果を見つける</this>
 </MarcEdit_frmFindAllResults>
+<MarcEdit_frmGenerateCutters>
+<cmdProcess>プロセス</cmdProcess>
+<cmdClose>閉じる</cmdClose>
+<lbField>評価するための電話番号フィールドを入力します。(例: 090)</lbField>
+<groupBox1>オプション</groupBox1>
+<rdTitle>カッター順序 (2 xx, 1 xx)</rdTitle>
+<rdDefault>カッター順序 (1 xx, 2 xx)</rdDefault>
+<groupBox2>オプション</groupBox2>
+<rdMainEntry>メイン エントリ (1 xx、245) 評価します。</rdMainEntry>
+<rdCustomField>カスタム フィールド</rdCustomField>
+<label1>検索:</label1>
+<this>カッターを生成します。</this>
+</MarcEdit_frmGenerateCutters>
 <MarcEdit_frmHarvestBatch>
 <label1>定義された OAI サーバー:</label1>
 <label2>(複数のアイテムを選択するのにシフト/シフト + コントロールを使用)</label2>
@@ -405,20 +452,29 @@
 <toolStripMenuItem7>MarcEdit 32 ビット モードで再起動します</toolStripMenuItem7>
 <mnuFileExit>出口</mnuFileExit>
 <mnuTools>ツール</mnuTools>
-<mnuToolsSelect>MARC レコードを選択します。</mnuToolsSelect>
-<mnuToolsDelete>選択したレコードを削除します。</mnuToolsDelete>
-<mnuToolsExtract>選択したレコードを抽出します。</mnuToolsExtract>
 <mnuExportGroup>エクスポート.</mnuExportGroup>
 <mnuToolsTabbed>エクスポート タブ区切り記号付きレコード</mnuToolsTabbed>
 <mnuToolsGateway>MARC レコードをエクスポートします。</mnuToolsGateway>
+<mnuToolsSelect>MARC レコードを選択します。</mnuToolsSelect>
+<mnuToolsDelete>選択したレコードを削除します。</mnuToolsDelete>
+<mnuToolsExtract>選択したレコードを抽出します。</mnuToolsExtract>
 <mnuToolsBatch>バッチ プロセス レコード</mnuToolsBatch>
+<mnuToolsCharacterConversion>文字変換ツール</mnuToolsCharacterConversion>
+<mnuToolCharacterConversionConversionTools>文字変換</mnuToolCharacterConversionConversionTools>
+<characterDetectionToolStripMenuItem>文字の検出</characterDetectionToolStripMenuItem>
 <mnuGenerateCallnumber>電話番号を生成します。</mnuGenerateCallnumber>
 <toolStripMenuItem3>高速な見出しが生成されます。</toolStripMenuItem3>
 <mnuToolsDedup>重複するレコードを検索します。</mnuToolsDedup>
 <toolStripMenuItem6>OCLC の操作</toolStripMenuItem6>
+<oCLCRecordDownloaderToolStripMenuItem>OCLC レコード ダウンローダー</oCLCRecordDownloaderToolStripMenuItem>
 <updateWorldCatRecordHoldingsToolStripMenuItem>WorldCat の記録保有残高を更新します。</updateWorldCatRecordHoldingsToolStripMenuItem>
 <uploadBibliographRecordsToWorldCatToolStripMenuItem>Bibliograph レコード WorldCat をアップロードします。</uploadBibliographRecordsToWorldCatToolStripMenuItem>
+<openRefineToolStripMenuItem>OpenRefine</openRefineToolStripMenuItem>
+<mnuToolOpenRefineExport>エクスポート</mnuToolOpenRefineExport>
+<mnuToolOpenRefineImport>インポート</mnuToolOpenRefineImport>
 <toolStripMenuItem5>RDA ヘルパー</toolStripMenuItem5>
+<mnuToolsUnimarcTools>UNIMARC ツール</mnuToolsUnimarcTools>
+<mnuToolsValidateHeadings>見出しを検証します。</mnuToolsValidateHeadings>
 <toolStripMenuItem8>MARCCompare</toolStripMenuItem8>
 <mnuToolsJoin>MARCJoin</mnuToolsJoin>
 <mnuToolsSplit>MARCSplit</mnuToolsSplit>
@@ -468,17 +524,20 @@
 <lnkHomepage>http://marcedit.reeset.net</lnkHomepage>
 <label5>URL:</label5>
 <label2>謝辞:</label2>
+<lb_modified>.</lb_modified>
 <lbMod>変更。</lbMod>
 <lbMailto>テリー ・ リース</lbMailto>
 <lbAuthor>著者：</lbAuthor>
 <lbVersion>バージョン：</lbVersion>
 <label3>|</label3>
 <label4>MarcEdit について</label4>
+<lnkSPARQL>SPARQL ブラウザー</lnkSPARQL>
 <lnkLinkIds>リンク識別子</lnkLinkIds>
 <lnkJsonObject>JSON オブジェクト ビューアー</lnkJsonObject>
 <lnkBibframe>BibFrame テストベッド</lnkBibframe>
 <label7>|</label7>
 <label8>MARCNext:</label8>
+<mnuHelpDeleteTempFiles>一時ファイルを削除します。</mnuHelpDeleteTempFiles>
 <this>テリーのリースによって MarcEdit</this>
 </MarcEdit_frmMain>
 <MarcEdit_frmOAIHarvest>
@@ -499,8 +558,16 @@
 <lbCrosswalk>横断歩道のパス:</lbCrosswalk>
 <lnkAdvanced>高度な設定</lnkAdvanced>
 <cmdSave>保存</cmdSave>
+<lnkDebug>URL をデバッグします。</lnkDebug>
 <this>メタデータの収穫機</this>
 </MarcEdit_frmOAIHarvest>
+<MarcEdit_frmOCLCBulkDownload>
+<label1>OCLC の数字のソース ファイル:</label1>
+<cmdDownload>ダウンロード</cmdDownload>
+<cmdClose>閉じる</cmdClose>
+<label2>ファイルを保存します。</label2>
+<this>OCLC から一括ダウンロードが記録</this>
+</MarcEdit_frmOCLCBulkDownload>
 <MarcEdit_frmOCLCSearchWorldCat>
 <label1>検索 WorldCat:</label1>
 <cmbarg1>キーワード</cmbarg1>
@@ -600,6 +667,7 @@
 <lb_Engine_XML_Options>XML オプション:</lb_Engine_XML_Options>
 <ck_engine_namespace>Namespace を使用します。</ck_engine_namespace>
 <lb_Global_XSLT_Path>MARCXML XSLT:</lb_Global_XSLT_Path>
+<labelAutoUpdateDisabled>自動化された更新は、システム管理者によって無効にされています。</labelAutoUpdateDisabled>
 <ckDetectProxy>システムのプロキシ設定を使用します。</ckDetectProxy>
 <ck_Update_Validator>検証コントロールの更新を自動的にチェックします。</ck_Update_Validator>
 <label3>この時点で動作するようにこのドメインに属している必要があります。</label3>
@@ -619,16 +687,12 @@
 <ck_mrk8_editor>MarcEditor (*.mrk8) ファイルを関連付ける</ck_mrk8_editor>
 <ck_mrk_editor>MarcEditor (*.mrk) ファイルを関連付ける</ck_mrk_editor>
 <ck_mrc>MarcBreaker (*.mrc) ファイルを関連付ける</ck_mrc>
-<label26>タスク フォルダー:</label26>
-<label25>ネットワーク フォルダー:</label25>
-<ck_allow_z3950>Z39.50 機能を有効にします。</ck_allow_z3950>
-<label1>コントロール番号タグ:</label1>
-<lbCall>番号札を呼び出します。</lbCall>
-<lb_mono>モノラルのパス:</lb_mono>
-<lb_Author>Author タグ:</lb_Author>
-<lb_title>タイトルの札:</lb_title>
-<lb_temp>一時的なパスを設定します。</lb_temp>
-<ck_rss>RSS フィードを読む</ck_rss>
+<label33>|</label33>
+<lnkSelectILS>選択します。</lnkSelectILS>
+<lnkDeleteProfile>削除</lnkDeleteProfile>
+<label32>|</label32>
+<lnkAddProfile>追加</lnkAddProfile>
+<label31>プロファイル:</label31>
 <ck_ignore_ssl>SSL 証明書エラーを無視します。</ck_ignore_ssl>
 <lnk_ils_delete>削除</lnk_ils_delete>
 <label14>|</label14>
@@ -653,6 +717,24 @@
 <label18>秘密キー (メタデータ API キー ペア)</label18>
 <label17>OCLC のメタデータ API キー</label17>
 <label16>OCLC 検索 API キー</label16>
+<lnkFilePaths>場所</lnkFilePaths>
+<label30>マルク ツール ドライブの既定のパスを設定します。</label30>
+<label27>ファイル パス:</label27>
+<label26>タスク フォルダー:</label26>
+<label25>ネットワーク フォルダー:</label25>
+<lb_mono>モノラルのパス:</lb_mono>
+<lb_temp>一時的なパスを設定します。</lb_temp>
+<ck_rss>RSS フィードを読む</ck_rss>
+<lb_title>タイトルの札:</lb_title>
+<lb_Author>Author タグ:</lb_Author>
+<lbCall>番号札を呼び出します。</lbCall>
+<label1>コントロール番号タグ:</label1>
+<ck_allow_z3950>Z39.50 機能を有効にします。</ck_allow_z3950>
+<label28>フィールドのオプション:</label28>
+<label34>ISBN タグ:</label34>
+<ckSort880>880: 種のリンク フィールドを使用して</ckSort880>
+<ck880Infile>Infile 880 フィールド フィールドのペアを</ck880Infile>
+<label29>並べ替えオプション:</label29>
 <this>MarcEdit の設定</this>
 </MarcEdit_frmOptions>
 <MarcEdit_frmPluginManager>
@@ -671,15 +753,28 @@
 <columnHeader4>バージョン #。</columnHeader4>
 <this>プラグイン マネージャー</this>
 </MarcEdit_frmPluginManager>
+<MarcEdit_frmProxy>
+<label1>リソース。GetString ("label1。テキスト")</label1>
+<label2>パターン:</label2>
+<cmdProcess>プロセス</cmdProcess>
+<cmdCancel>キャンセル</cmdCancel>
+<ckEscape>URL からデータをエスケープします。</ckEscape>
+<ckAddNew>既存のフィールドを置き換える</ckAddNew>
+<ck_addnewfield>ない場合は、新しいフィールドを追加します。</ck_addnewfield>
+<ckAlwaysAdd>常に新しいフィールドを追加します。</ckAlwaysAdd>
+<this>新しいフィールドをビルドします。</this>
+</MarcEdit_frmProxy>
 <MarcEdit_frmQueryLite>
+<label4>制限</label4>
+<lnkDownload>すべてのアイテムをダウンロードします。</lnkDownload>
 <ck_batch>バッチ検索</ck_batch>
 <lbdbtitle>label2</lbdbtitle>
 <groupBox3>結果</groupBox3>
-<lnkDownload>すべてのアイテムをダウンロードします。</lnkDownload>
 <lnkClearResults>結果をクリア</lnkClearResults>
 <lnkGetNext>次へ {制限} を取得します。</lnkGetNext>
 <col1>位置</col1>
 <col2>タイトル</col2>
+<downloadSelectedItemsToolStripMenuItem>選択したアイテムをダウンロードします。</downloadSelectedItemsToolStripMenuItem>
 <groupBox1>オプション</groupBox1>
 <lb_encoding_single>サーバのキャラクタ セット</lb_encoding_single>
 <cmd_encoding>MARC8</cmd_encoding>
@@ -692,18 +787,20 @@
 <MCol1>名前</MCol1>
 <MCol2>タイプ</MCol2>
 <lb_PModifyTitle>データベースを選択します。</lb_PModifyTitle>
-<downloadSelectedItemsToolStripMenuItem>選択したアイテムをダウンロードします。</downloadSelectedItemsToolStripMenuItem>
 <this>Z39.50 キャプチャ</this>
 </MarcEdit_frmQueryLite>
 <MarcEdit_frmRDA>
+<ck_502>プロセス、502</ck_502>
+<label6>|</label6>
+<lnkEditFields>フィールドを編集します。</lnkEditFields>
 <ck_040>$erda 040 - を変更追加します。</ck_040>
 <ck_qualifyinginfo>限定情報 (015/020 024、027)</ck_qualifyinginfo>
-<label5>|</label5>
 <lnkEdit>リストを編集します。</lnkEdit>
 <ck_dgmd>GMD を削除します。</ck_dgmd>
 <ckAbbrev>略語を展開します。</ckAbbrev>
 <ckgmd>GMD を生成します。</ckgmd>
 <ck264>評価 260 264</ck264>
+<ck_signs>常に使用する ©、℗ シンボル</ck_signs>
 <ck381>381 - を追加他</ck381>
 <ck380>仕事のフォームの 380 - 追加</ck380>
 <ck347>347 - 追加デジタル特性</ck347>
@@ -720,7 +817,7 @@
 <label3>選択します。</label3>
 <label4>|</label4>
 <lnkNone>[なし]</lnkNone>
-<ck_signs>常に使用する ©、℗ シンボル</ck_signs>
+<label7>ステータス:</label7>
 <this>RDA ヘルパー</this>
 </MarcEdit_frmRDA>
 <MarcEdit_frmResults>
@@ -734,11 +831,17 @@
 <label4>RobertCompare について</label4>
 <label3>|</label3>
 <lnkAbout>RobertCompare について</lnkAbout>
+<ckSort>並べ替える前のファイル</ckSort>
 <cmdClose>閉じる</cmdClose>
 <cmdExecute>実行</cmdExecute>
 <label1>ファイルを保存します。</label1>
 <label6>ファイルを比較します。</label6>
 <label2>MARCCompare はマルク ファイル間の違いを決定するための特殊なツールです。プログラムを使用するには、レコードのセットのバージョンを比較する 2 つのマルク ファイルを選択します。ツール、またはその名前を得た方法の歴史の詳細については、についてのページを参照してください。</label2>
+<lnkPreferences>基本設定</lnkPreferences>
+<label7>|</label7>
+<lbSortField>フィールドを並べ替えます。</lbSortField>
+<lbdelete>削除:</lbdelete>
+<lbAddColor>追加:</lbAddColor>
 <this>MARCCompare/RobertCompare</this>
 </MarcEdit_frmRobertCompare>
 <MarcEdit_frmScript>
@@ -748,6 +851,19 @@
 <btnCancel>閉じる</btnCancel>
 <this>スクリプトを編集します。</this>
 </MarcEdit_frmScript>
+<MarcEdit_frmSearchILSGeneric>
+<lnkNone>どれも</lnkNone>
+<lnkAll>すべてを選択します。</lnkAll>
+<col_title>タイトル</col_title>
+<col_id>ID</col_id>
+<label3>|</label3>
+<label2>結果:</label2>
+<cmdClose>閉じる</cmdClose>
+<cmdSearch>検索</cmdSearch>
+<cmbarg1>タイトル</cmbarg1>
+<label1>検索データベース:</label1>
+<this>検索</this>
+</MarcEdit_frmSearchILSGeneric>
 <MarcEdit_frmSearchXML>
 <cName>横断歩道の名前</cName>
 <cAuthor>投稿</cAuthor>
@@ -759,6 +875,10 @@
 <lnkViewAll>すべての横断歩道を表示します。</lnkViewAll>
 <this>XSLT クロスウォークの検索結果</this>
 </MarcEdit_frmSearchXML>
+<MarcEdit_frmSelectILS>
+<cmdSelect>選択します。</cmdSelect>
+<this>ILS を選択します。</this>
+</MarcEdit_frmSelectILS>
 <MarcEdit_frmSelectMARCRecords>
 <columnHeader1>レコード番号</columnHeader1>
 <columnHeader2>表示フィールド</columnHeader2>
@@ -776,6 +896,9 @@
 <ck_find_all>すべてのレコードのデータを検索します。</ck_find_all>
 <ck_use_regex>正規表現を使用</ck_use_regex>
 <cmdRandomExport>ランダムなエクスポート</cmdRandomExport>
+<lnkDoesNotMatch>一致しません</lnkDoesNotMatch>
+<label1>|</label1>
+<lnkInvert>選択を反転します。</lnkInvert>
 <this>MarcEdit.NET： 選択した MARC レコードを変更します。</this>
 </MarcEdit_frmSelectMARCRecords>
 <MarcEdit_frmSort>
@@ -786,6 +909,17 @@
 <cmd_Close>閉じる</cmd_Close>
 <this>カスタム ソート ウィザード</this>
 </MarcEdit_frmSort>
+<MarcEdit_frmSPARQL_Browser>
+<lbsparql>SPARQL エンドポイント:</lbsparql>
+<cmdQuery>クエリ</cmdQuery>
+<cmdClose>閉じる</cmdClose>
+<lbQuery>SPARQL クエリ:</lbQuery>
+<lbresults>結果:</lbresults>
+<cklocal>ローカル ファイルの読み込み</cklocal>
+<lbOutput>出力:</lbOutput>
+<cmbOutput>XML</cmbOutput>
+<this>SPARQL ブラウザー</this>
+</MarcEdit_frmSPARQL_Browser>
 <MarcEdit_frmSpecial_Formats>
 <lb_title>マルク翻訳 =&gt; CD イシス</lb_title>
 <groupBox1>ユーザー入力</groupBox1>
@@ -1089,6 +1223,8 @@
 <addCopyFieldTaskToolStripMenuItem>コピー フィールドのタスクを追加します。</addCopyFieldTaskToolStripMenuItem>
 <addTaskListToolStripMenuItem>タスク リストに追加します。</addTaskListToolStripMenuItem>
 <addRDAHelperToolStripMenuItem>RDA ヘルパーを追加します。</addRDAHelperToolStripMenuItem>
+<addLinkedDataTaskToolStripMenuItem>リンクされているデータ タスクを追加します。</addLinkedDataTaskToolStripMenuItem>
+<addBuildNewFieldTaskToolStripMenuItem>ビルド新しいフィールド タスクを追加します。</addBuildNewFieldTaskToolStripMenuItem>
 <lbTasks>タスク:</lbTasks>
 <label1>アクション:</label1>
 <label2>説明/コントロール:</label2>
@@ -1098,6 +1234,7 @@
 <columnHeader1>名前</columnHeader1>
 <columnHeader2>パス</columnHeader2>
 <columnHeader3>ショートカット</columnHeader3>
+<columnHeader4>説明</columnHeader4>
 <cmdClose>閉じる</cmdClose>
 <lnkNew>新しいタスク リストを作成します。</lnkNew>
 <lbMacro>タスク ・ リスト：</lbMacro>
@@ -1110,7 +1247,6 @@
 <lnkKey>キーの割り当て</lnkKey>
 <lnkEdit>選択したタスクのリストを編集します。</lnkEdit>
 <lnkDelete>選択したタスクのリストを削除します。</lnkDelete>
-<columnHeader4>説明</columnHeader4>
 <this>タスク マネージャー</this>
 </MarcEdit_frmTaskManager>
 <MarcEdit_frmTools>
@@ -1123,32 +1259,18 @@
 <groupBox2>関数</groupBox2>
 <ck_Marc8>マルク 8 に翻訳します。</ck_Marc8>
 <ck_UTF8>UTF8 に変換します。</ck_UTF8>
-<toolStrip1>toolStrip1</toolStrip1>
-<toolOpen>ファイルを開く</toolOpen>
-<toolSave>ファイルを保存します。</toolSave>
-<toolExport>レコードをエクスポートします。</toolExport>
-<toolHelp>ヘルプ</toolHelp>
 <menuStrip1>menuStrip1</menuStrip1>
-<mnuFile>ファイル</mnuFile>
-<mnuFileMain>メイン ウィンドウに戻ります</mnuFileMain>
-<mnuFileOpen>オープン</mnuFileOpen>
-<mnuFileSave>保存</mnuFileSave>
-<mnuFileExit>出口</mnuFileExit>
-<mnuTools>ツール</mnuTools>
-<mnuBatchProcessing>バッチ プロセス レコード</mnuBatchProcessing>
-<mnuToolsXML>XML 機能のリストを編集します。</mnuToolsXML>
-<mnuToolsEncoding>文字変換ツール</mnuToolsEncoding>
-<mnuToolsUTF8>UTF8 変換 =&gt; MARC8</mnuToolsUTF8>
-<mnuToolsMARC8>UTF8 MARC8 変換 =&gt;</mnuToolsMARC8>
-<otherConversionsToolStripMenuItem>その他の変換</otherConversionsToolStripMenuItem>
-<mnutoolsValidator>MARCValidator</mnutoolsValidator>
-<mnutoolsjoin>MARCJoin</mnutoolsjoin>
-<mnutoolssplit>MARCSplit</mnutoolssplit>
-<mnuToolsExport>MARC レコードをエクスポートします。</mnuToolsExport>
-<mnuToolsExtract>選択したレコードを抽出します。</mnuToolsExtract>
-<mnuHelp>ヘルプ</mnuHelp>
-<mnuHelpContents>コンテキスト ・ インデックス</mnuHelpContents>
-<mnuHelpError>提案/エラー報告</mnuHelpError>
+<toolsToolStripMenuItem>ツール</toolsToolStripMenuItem>
+<mnuToolsReturnToMainWindows>メイン ウィンドウに戻る</mnuToolsReturnToMainWindows>
+<editXMLFunctionListToolStripMenuItem>XML 関数リストを編集します。</editXMLFunctionListToolStripMenuItem>
+<mARCValidatorToolStripMenuItem>MARCValidator</mARCValidatorToolStripMenuItem>
+<batchProcessFunctionToolStripMenuItem>バッチ プロセス レコード</batchProcessFunctionToolStripMenuItem>
+<characterConversionToolsToolStripMenuItem>文字変換ツール</characterConversionToolsToolStripMenuItem>
+<mARCCompareToolStripMenuItem>MARCCompare</mARCCompareToolStripMenuItem>
+<mARCJoinToolStripMenuItem>MARCJoin</mARCJoinToolStripMenuItem>
+<mARCSplitToolStripMenuItem>MARCSplit</mARCSplitToolStripMenuItem>
+<uNIMARCToolsToolStripMenuItem>UNIMARC ツール</uNIMARCToolsToolStripMenuItem>
+<helpToolStripMenuItem>ヘルプ</helpToolStripMenuItem>
 <this>マルク ・ ツール</this>
 </MarcEdit_frmTools>
 <MarcEdit_frmTutorialManager>
@@ -1163,6 +1285,19 @@
 <lnkClose>閉じる</lnkClose>
 <this>ローカル チュートリアル マネージャー</this>
 </MarcEdit_frmTutorialManager>
+<MarcEdit_frmUnimarc>
+<label1>MarcEdit は、ライト重量 UNIMARC 変換ツールのセットを提供します。 これらのツールはあなたに関心のある、それらを良くする手助けしたい場合は、f eedback を提供してください。
+
+</label1>
+<label2>ソース</label2>
+<label3>目的地</label3>
+<groupBox1>オプション</groupBox1>
+<rdUNIMARC>MARC21 = &gt; UNIMARC</rdUNIMARC>
+<rdMARC21>MARC21 UNIMARC = &gt;</rdMARC21>
+<cmdProcess>プロセス</cmdProcess>
+<cmdClose>閉じる</cmdClose>
+<this>UNIMARC ツール</this>
+</MarcEdit_frmUnimarc>
 <MarcEdit_frmUpdate>
 <label1>バージョンアップ時の注意:</label1>
 <cmd_Update>更新プログラム</cmd_Update>
@@ -1192,6 +1327,8 @@
 <lb_Split_Folder>コピー先フォルダー：</lb_Split_Folder>
 <lb_Split_Source>ソース ファイル:</lb_Split_Source>
 <lb_Split_Header>MARCSplit ユーティリティ</lb_Split_Header>
+<ckJoinSubfolders>サブフォルダーを含める</ckJoinSubfolders>
+<cmdEditFile>ファイルを編集します。</cmdEditFile>
 <lnkJoinedFiles>結合されたファイルを表示します。</lnkJoinedFiles>
 <label19>ファイルの種類:</label19>
 <ck_JoinIndividual>個々 のファイルを結合します。</ck_JoinIndividual>
@@ -1200,6 +1337,7 @@
 <lb_Join_Files>結合するファイル。</lb_Join_Files>
 <lb_Join_Source>宛先ファイル:</lb_Join_Source>
 <lb_Join_Header>MARCJoin ユーティリティ</lb_Join_Header>
+<lbJoinStatus>ステータス:</lbJoinStatus>
 <lb_Tab_Header>エクスポート タブ区切り記号付きレコード</lb_Tab_Header>
 <cmb_sec_del></cmb_sec_del>
 <label18>フィールドの区切り文字</label18>
@@ -1212,6 +1350,7 @@
 <mnusave>設定を保存します。</mnusave>
 <menuItem1>-</menuItem1>
 <menuItem3>設定のクリア</menuItem3>
+<ckBatchProcessSubfolders>サブフォルダーを含める</ckBatchProcessSubfolders>
 <lb_Operation>関数:</lb_Operation>
 <cmdBClose>閉じる</cmdBClose>
 <cmdBProcess>プロセス</cmdBProcess>
@@ -1229,6 +1368,7 @@
 <cmdTExport>エクスポート</cmdTExport>
 <label2>手順 2: エクスポートするフィールドのサブフィールドを定義します。</label2>
 <label3>エクスポート タブ区切り記号付きレコード</label3>
+<ckIsUTF8>Unicode でエンコード</ckIsUTF8>
 <ck_merge_to_source>ソースにマージします。</ck_merge_to_source>
 <label17>ファイルを保存します。</label17>
 <label16>ソースをカタログ</label16>
@@ -1240,45 +1380,37 @@
 <lb_id>レコードの識別子:</lb_id>
 <lb_merge>ファイルをマージします。</lb_merge>
 <lb_source>ソース ファイル:</lb_source>
-<cmd_merge_cancel_2>キャンセル</cmd_merge_cancel_2>
-<cmd_merge_next_2>=&gt; 次へ</cmd_merge_next_2>
-<cmd_merge_back_2>&lt; = バック</cmd_merge_back_2>
 <label4>実行したい操作を最もよく表しているオプションを選択します。</label4>
-<lb_merge_title_2>レコード データのマージ: ステップ 2</lb_merge_title_2>
-<groupBox2>マージ ファイル オプション</groupBox2>
-<rd_merge_overlay>マージ、すべてのデータをオーバーレイ</rd_merge_overlay>
-<rd_merge_delimited>区切られたデータをマージします。</rd_merge_delimited>
-<rd_merge_selected>選択したフィールドをマージします。</rd_merge_selected>
-<rd_merge_all>すべての一意なデータをマージします。</rd_merge_all>
+<ck_mergeUnique>ユニークなアイテムをマージします。</ck_mergeUnique>
 <button1>キャンセル</button1>
 <cmd_merge_select_fields_next>=&gt; 次へ</cmd_merge_select_fields_next>
 <cmd_merge_select_fields_back>&lt; = バック</cmd_merge_select_fields_back>
-<groupBox3>オプションを変更します。</groupBox3>
-<label10>宛先</label10>
-<label12>サブフィールド</label12>
-<label9>宛先</label9>
-<label8>指標</label8>
 <label7>差し込みフィールド。</label7>
 <label6>フィールドを選択します。</label6>
 <label5>レコード データのマージ: フィールドを選択します。</label5>
-<ck_Repeatable>繰り返し] サブフィールドのヘッダー</ck_Repeatable>
-<ck_sort>並べ替えフィールド</ck_sort>
-<P3_cmd_Cancel>キャンセル</P3_cmd_Cancel>
-<P3_cmd_finish>仕上げ</P3_cmd_finish>
-<P3_ck_save_args>テンプレートを保存します。</P3_ck_save_args>
-<button4>負荷テンプレート</button4>
-<P3_cmd_Apply>適用</P3_cmd_Apply>
-<P3_lb_args>引数</P3_lb_args>
-<P3_lb_punct>用語。句読点:</P3_lb_punct>
-<P3_txt_indicators>\\\\</P3_txt_indicators>
-<P3_lb_indicators>指標：</P3_lb_indicators>
-<P3_mapto>をマップされます。</P3_mapto>
-<P3_lb_select>選択します。</P3_lb_select>
 <button5>閉じる</button5>
 <label15>ファイルがマージされています。結果 {merge_results_file} に位置しています。</label15>
 <label13>マージが完了しました</label13>
 <this>ユーティリティのダイアログ</this>
 </MarcEdit_frmUtilities>
+<MarcEdit_frmValidateHeadings>
+<label1>見出し検証ツールは、1 xx、6 xx、または 7xx フィールドの検証に使用できます。 番目の電子ツールは、web と headin g が承認された見出しのかどうかを確認するローカル サービスの組み合わせを採用しています。</label1>
+<ck_1xx>1 xx/7xx フィールドを承認します。</ck_1xx>
+<ck_6xx>6 xx フィールドを承認します。</ck_6xx>
+<cmdProcess>プロセス</cmdProcess>
+<cmdClose>閉じる</cmdClose>
+<label2>ソース:</label2>
+<lbStatus>ステータス:</lbStatus>
+<cmdExtract>抽出</cmdExtract>
+<ckdeletecache>ローカルのキャッシュを削除します。</ckdeletecache>
+<lnkDelimited>区切りを保存します。</lnkDelimited>
+<ckonlyA>のみを処理する A] サブフィールドのヘッダー</ckonlyA>
+<ckVariant>自動的に正しいバリアント</ckVariant>
+<ckGenerateBriefHeadings>簡単な個人名当局を生成します。</ckGenerateBriefHeadings>
+<label3>生成された機関:</label3>
+<ckAddURIs>可能な場合は Uri を埋め込む</ckAddURIs>
+<this>見出しを検証します。</this>
+</MarcEdit_frmValidateHeadings>
 <MarcEdit_frmvalidator>
 <lb_Source>ソース ファイル:</lb_Source>
 <lb_Rules>規則ファイル:</lb_Rules>
@@ -1300,6 +1432,7 @@
 <lb_Dest>出力ファイル:</lb_Dest>
 <lb_MARC>入力ファイル:</lb_MARC>
 <lb_Fields>フィールド:</lb_Fields>
+<lbTimeout>タイムアウト (秒)</lbTimeout>
 <this>URL を確認してください。</this>
 </MarcEdit_frmVURL>
 <MarcEdit_frm_FASTHeadings>
@@ -1325,6 +1458,7 @@
 <ck_dates>日付 (位置: 7-14)</ck_dates>
 <ck_p7>BLvl (position 7)</ck_p7>
 <ck_p6>型 (6 位)</ck_p6>
+<ck_001>00/01/19</ck_001>
 <label6>制御番号</label6>
 <ck_form>フォーム (位置: 23)</ck_form>
 <ck_245_h>$h: 一般的な材料の指定</ck_245_h>
@@ -1423,9 +1557,14 @@
 <mnuFileClearList>最近使用したファイルをクリアします。</mnuFileClearList>
 <clearEditReplaceHistoryToolStripMenuItem>編集/置換の履歴をクリアします。</clearEditReplaceHistoryToolStripMenuItem>
 <mnuFileClose>閉じる</mnuFileClose>
+<mnuFileExportData>エクスポート.</mnuFileExportData>
+<openRefineExport>OpenRefine</openRefineExport>
+<mnuFileImportData>インポート.</mnuFileImportData>
+<openRefineImport>OpenRefine</openRefineImport>
 <mnuFileSave>保存</mnuFileSave>
 <mnuFileSaveAs>としてを保存.</mnuFileSaveAs>
 <mnuFilePrint>印刷</mnuFilePrint>
+<toolStripMenuItem34>1 ページあたりのレコードを印刷します。</toolStripMenuItem34>
 <FileSelectIndividualMake>個々 のレコードを選択します</FileSelectIndividualMake>
 <mnuFileCompile>マルクにファイルをコンパイルします。</mnuFileCompile>
 <mnuFileExit>出口</mnuFileExit>
@@ -1449,7 +1588,12 @@
 <capitalizeInitialCharacterToolStripMenuItem>最初の文字を大文字にします。</capitalizeInitialCharacterToolStripMenuItem>
 <fieldEditsToolStripMenuItem>フィールドの編集</fieldEditsToolStripMenuItem>
 <findRecordsMissingFieldToolStripMenuItem>不足しているフィールド レコードを検索します。</findRecordsMissingFieldToolStripMenuItem>
+<toolStripMenuItem39>重複するタグを持つレコードを検索します。</toolStripMenuItem39>
+<toolStripMenuItem40>重複するフィールド データを持つレコードを検索します。</toolStripMenuItem40>
+<mnuEditLimitFields>フィールドの数を制限</mnuEditLimitFields>
 <swapTitleToolStripMenuItem>スワップ タイトル</swapTitleToolStripMenuItem>
+<mathFunctionsToolStripMenuItem>数学関数</mathFunctionsToolStripMenuItem>
+<convertToDecimalDegreesToolStripMenuItem>10 進数の度に変換します。</convertToDecimalDegreesToolStripMenuItem>
 <mnuEditJumpTo>をジャンプ.</mnuEditJumpTo>
 <jumpToRecordToolStripMenuItem>をジャンプ.レコード</jumpToRecordToolStripMenuItem>
 <jumpToPageToolStripMenuItem>をジャンプ.ページ</jumpToPageToolStripMenuItem>
@@ -1482,9 +1626,6 @@
 <mnuEditSelectAll>すべてを選択します。</mnuEditSelectAll>
 <mnuEditWrap>ワード ラップ</mnuEditWrap>
 <mnuEditRTL>右から左へ表示します。</mnuEditRTL>
-<mnuEditInfo>マルク情報</mnuEditInfo>
-<mnuEditInfoOCLC>OCLC の MARC の助け</mnuEditInfoOCLC>
-<mnuEditInfoLC>米国議会の MARC の助けの図書館</mnuEditInfoLC>
 <mnuFont>フォント</mnuFont>
 <mnuFontFont>フォント.</mnuFontFont>
 <mnuFontColor>色。。。</mnuFontColor>
@@ -1502,10 +1643,18 @@
 <soundRecordingsToolStripMenuItem>サウンドの録音</soundRecordingsToolStripMenuItem>
 <visualMaterialsToolStripMenuItem>視覚資料</visualMaterialsToolStripMenuItem>
 <mARCValidatorToolStripMenuItem>MARCValidator</mARCValidatorToolStripMenuItem>
+<validateISBNSToolStripMenuItem>Isbn コードを検証します。</validateISBNSToolStripMenuItem>
+<validateISSNSToolStripMenuItem>ISSNS を検証します。</validateISSNSToolStripMenuItem>
+<validateHeadingsToolStripMenuItem>見出しを検証します。</validateHeadingsToolStripMenuItem>
 <mnuTools>ツール</mnuTools>
+<mnutoolCutters>Cuttering ツール</mnutoolCutters>
 <mnuToolsCalculator>カタログ電卓</mnuToolsCalculator>
+<generateCuttersToolStripMenuItem>カッターを生成します。</generateCuttersToolStripMenuItem>
+<sanbornTable3CuttersToolStripMenuItem>サンボーンの表 3 カッター</sanbornTable3CuttersToolStripMenuItem>
 <mnuToolsCallNum>電話番号を生成します。</mnuToolsCallNum>
 <mnuToolsControlNumber>制御番号を生成します。</mnuToolsControlNumber>
+<toolStripMenuItem33>リンクされているデータ ツール</toolStripMenuItem33>
+<buildLinkedRecordsToolStripMenuItem>リンクされたレコードを構築します。</buildLinkedRecordsToolStripMenuItem>
 <mnuToolsRDAHelpers>RDA ヘルパー</mnuToolsRDAHelpers>
 <mnuToolsEditConstant>定数のデータを編集します。</mnuToolsEditConstant>
 <mnuToolsAssigned>割り当て定数データ</mnuToolsAssigned>
@@ -1520,7 +1669,7 @@
 <mnuConstant9>9） 未定義の文字列</mnuConstant9>
 <mnuConstant10>10） 未定義の文字列</mnuConstant10>
 <mnutoolmanageAutomate>タスクを管理します。</mnutoolmanageAutomate>
-<mnutoolassignTasks>割り当てられたタスク</mnutoolassignTasks>
+<mnuToolsAssignedTasks>割り当てられているタスク</mnuToolsAssignedTasks>
 <mnuDefTask>現在利用可能なタスク</mnuDefTask>
 <task1>1） 未定義のタスク</task1>
 <task2>2） 未定義のタスク</task2>
@@ -1532,6 +1681,16 @@
 <task8>8） 未定義のタスク</task8>
 <task9>9） 未定義のタスク</task9>
 <task10>10） 未定義のタスク</task10>
+<task11>11) 未定義のタスク</task11>
+<task12>12) 未定義のタスク</task12>
+<task13>13) 未定義のタスク</task13>
+<task14>14) 未定義のタスク</task14>
+<task15>15) 未定義のタスク</task15>
+<task16>16) 未定義のタスク</task16>
+<task17>17) 未定義のタスク</task17>
+<task18>18) 未定義のタスク</task18>
+<task19>19) 未定義のタスク</task19>
+<task20>20) 未定義のタスク</task20>
 <mnuToolsZ3950>Z39.50/SRU オプション</mnuToolsZ3950>
 <marcEditZ3950SRUClientToolStripMenuItem>MarcEdit Z39.50/SRU クライアント</marcEditZ3950SRUClientToolStripMenuItem>
 <importRecordToolStripMenuItem>Z39.50 インポート レコード</importRecordToolStripMenuItem>
@@ -1547,6 +1706,7 @@
 <normalizeMicrolifRecordsToolStripMenuItem>Microlif レコードを正規化します。</normalizeMicrolifRecordsToolStripMenuItem>
 <mnuToolsRemoveEmpty>空のフィールド/サブフィールドを削除します。</mnuToolsRemoveEmpty>
 <mnuToolsAdd>フィールドの追加/削除</mnuToolsAdd>
+<mnuFieldEditsBuildProxy>新しいフィールドをビルドします。</mnuFieldEditsBuildProxy>
 <toolStripMenuItem26>コピー フィールド</toolStripMenuItem26>
 <mnuToolsEditField>フィールドのデータを編集します。</mnuToolsEditField>
 <mnuToolsIndicator>インジケーターのデータを編集します。</mnuToolsIndicator>
@@ -1572,6 +1732,10 @@
 <pluginsToolStripMenuItem>プラグイン</pluginsToolStripMenuItem>
 <mnuHelp>ヘルプ</mnuHelp>
 <mnuHelpContents>内容とヘルプ</mnuHelpContents>
+<mnuEditInfo>マルク情報</mnuEditInfo>
+<mnuEditInfoOCLC>OCLC の MARC の助け</mnuEditInfoOCLC>
+<mnuHelpRDAToolkit>RDA ツールキット</mnuHelpRDAToolkit>
+<mnuEditInfoLC>米国議会の MARC の助けの図書館</mnuEditInfoLC>
 <label1>1 ページあたりのレコード</label1>
 <lblPage>ページ</lblPage>
 <btnPre>&lt;</btnPre>
@@ -1621,206 +1785,4 @@
 <opt_msxml>MSXML</opt_msxml>
 <this>XML 機能を編集します。</this>
 </MarcEdit_xml_functions>
-<marc_sql_explorer_frmMain>
-<tabPage1>データの読み込み</tabPage1>
-<ckexpanded>拡張されたテーブルのスキーマを使用します。</ckexpanded>
-<ckloadDB>MySQL を使用します。</ckloadDB>
-<ckMysql>MySQL を使用します。</ckMysql>
-<lnkmysqlOptions>MySQL オプション</lnkmysqlOptions>
-<cmdCancelP>キャンセル</cmdCancelP>
-<cmdProcessMARC>プロセス</cmdProcessMARC>
-<cmdLoadDB>負荷</cmdLoadDB>
-<label5>データベース ファイル:</label5>
-<label6>既存のデータベース ファイルを読み込む</label6>
-<label3>データベース ファイル:</label3>
-<label2>マルク ファイル:</label2>
-<label1>MARC データ前処理します。</label1>
-<tabPage2>データベースの構造</tabPage2>
-<cname>名前</cname>
-<cObject>オブジェクト</cObject>
-<cSchema>スキーマ</cSchema>
-<tabPage3>SQL を実行します。</tabPage3>
-<label8>返されるデータ</label8>
-<label7>クエリの結果</label7>
-<cmdExportD>データのエクスポート</cmdExportD>
-<cmdExcecuteQ>クエリを実行します。</cmdExcecuteQ>
-<label4>SQL 文字列</label4>
-<cmdClose>閉じる</cmdClose>
-<this>マルク SQL エクスプ ローラー</this>
-</marc_sql_explorer_frmMain>
-<marc_sql_explorer_frmOptions>
-<label1>データベース サーバー:</label1>
-<label2>ユーザー名:</label2>
-<label3>パスワード:</label3>
-<cmdSave>保存</cmdSave>
-<cmdClose>閉じる</cmdClose>
-<this>MySQL のオプション:</this>
-</marc_sql_explorer_frmOptions>
-<me_tabbed_frmldr>
-<label1>LDR</label1>
-<cmd_OK>わかりました</cmd_OK>
-<cmd_Close>閉じる</cmd_Close>
-<checkBox1>UNIMARC</checkBox1>
-<this>LDR/008 を編集します。</this>
-</me_tabbed_frmldr>
-<me_tabbed_frmMain>
-<groupBox4>オプション</groupBox4>
-<ck_unicode>UTF-8 エンコード</ck_unicode>
-<linkLabel1>LDR/008 を編集します。</linkLabel1>
-<groupBox3>区切り記号の値</groupBox3>
-<P2_lb_Other>文字:</P2_lb_Other>
-<P2_lb_Delimiter>区切り記号:</P2_lb_Delimiter>
-<P2_txt_qualifier>修飾子</P2_txt_qualifier>
-<lbSheet>シート名をエクセル：</lbSheet>
-<P2_cmd_Cancel>キャンセル</P2_cmd_Cancel>
-<P2_cmd_Next>次</P2_cmd_Next>
-<P2_lb_output>出力ファイル:</P2_lb_output>
-<P2_Import>ソース ファイル:</P2_Import>
-<groupBox2>引数</groupBox2>
-<lnkAuto>自動生成します。</lnkAuto>
-<ck_filing_characters>一般的な nonfiling データを計算します。</ck_filing_characters>
-<ck_sort>並べ替えフィールド</ck_sort>
-<P3_ck_save_args>テンプレートを保存します。</P3_ck_save_args>
-<button2>負荷テンプレート</button2>
-<toolStripMenuItem2>アイテムを編集します。</toolStripMenuItem2>
-<deleteItemsToolStripMenuItem>アイテムを削除します。</deleteItemsToolStripMenuItem>
-<joinItemsToolStripMenuItem>項目に参加します。</joinItemsToolStripMenuItem>
-<label1>データのスナップショット</label1>
-<groupBox1>設定</groupBox1>
-<ck_Repeatable>繰り返し] サブフィールドのヘッダー</ck_Repeatable>
-<P3_ck_constant>定数データ</P3_ck_constant>
-<P3_cmd_Apply>引数を追加します。</P3_cmd_Apply>
-<P3_lb_punct>用語。句読点:</P3_lb_punct>
-<P3_txt_indicators>\\\\</P3_txt_indicators>
-<P3_lb_indicators>指標：</P3_lb_indicators>
-<P3_mapto>をマップされます。</P3_mapto>
-<P3_lb_select>選択します。</P3_lb_select>
-<P3_cmd_Cancel>キャンセル</P3_cmd_Cancel>
-<P3_cmd_finish>仕上げ</P3_cmd_finish>
-<this>MarcEdit 区切り記号付きテキスト翻訳</this>
-</me_tabbed_frmMain>
-<me_tabbed_frmStatus>
-<lbCaption>label1</lbCaption>
-</me_tabbed_frmStatus>
-<mebatch_frmMain>
-<lnkAbout>クライアントについて</lnkAbout>
-<lnkOptions>オプションの設定</lnkOptions>
-<lnkModify>データベースを変更します。</lnkModify>
-<lnkBatch>バッチ モード</lnkBatch>
-<lnkSingle>検索モード</lnkSingle>
-<lb_b_char>サーバのキャラクタ セット</lb_b_char>
-<cmb_b_encoding>MARC8</cmb_b_encoding>
-<ck_b_unicode>Unicode を取得します。</ck_b_unicode>
-<Modify>変更</Modify>
-<Database>ローカル データベースを選択します</Database>
-<rd_custom>カスタム</rd_custom>
-<rd_title>検索タイトル/著者</rd_title>
-<rd_issn>検索 ISBN/ISSN</rd_issn>
-<label1>検索の種類</label1>
-<lbBDest>宛先ファイル:</lbBDest>
-<lbBSource>ソース ファイル:</lbBSource>
-<lbBTitle>バッチ検索ユーティリティ</lbBTitle>
-<lbStartrec>startRecord</lbStartrec>
-<lnkGetNext>次へ {制限} を取得します。</lnkGetNext>
-<lbMaxRecs>最大レコード数</lbMaxRecs>
-<lnkClearResults>結果をクリア</lnkClearResults>
-<groupBox3>結果</groupBox3>
-<col1>ID</col1>
-<col2>タイトル</col2>
-<col3>データベース</col3>
-<mnuGroupDisplay>選択したレコードを表示します。</mnuGroupDisplay>
-<mnuGroupDownload>選択したレコードをダウンロードします。</mnuGroupDownload>
-<mnuDownloadAll>すべてのレコードをダウンロードします。</mnuDownloadAll>
-<groupBox1>オプション</groupBox1>
-<lb_encoding_single>サーバのキャラクタ セット</lb_encoding_single>
-<cmd_encoding>MARC8</cmd_encoding>
-<ckUnicode>Unicode を取得します。</ckUnicode>
-<rdEditDB>データベースを選択します</rdEditDB>
-<rdEditSettings>設定を編集します。</rdEditSettings>
-<lbSearchb>検索:</lbSearchb>
-<lbSearch>データベースのクエリ:</lbSearch>
-<ck_automatic>自動検出設定</ck_automatic>
-<lbProxy>プロキシ:</lbProxy>
-<lbExample>サンプルの結果:</lbExample>
-<button2>閉じる</button2>
-<button1>わかりました</button1>
-<lbSaveFile>ファイルを保存します。</lbSaveFile>
-<lbLimit>制限:</lbLimit>
-<lbTitleOption>タイトル:</lbTitleOption>
-<lbSetupTitle>表示オプション</lbSetupTitle>
-<lnkSelectList>リソースを選択します</lnkSelectList>
-<lnkMClose>閉じる</lnkMClose>
-<lnkMDelete>データベースを削除します。</lnkMDelete>
-<lnkMModify>データベースを変更します。</lnkMModify>
-<lbmOptions>オプション：</lbmOptions>
-<lnkMAdd>データベースを追加します。</lnkMAdd>
-<MCol3>ID</MCol3>
-<MCol1>名前</MCol1>
-<MCol2>タイプ</MCol2>
-<lb_PModifyTitle>データベースを選択します。</lb_PModifyTitle>
-<aboutbox>richTextBox1</aboutbox>
-<importFromMasterListToolStripMenuItem>マスター リストからのインポート</importFromMasterListToolStripMenuItem>
-<addNewZ3950ServerToolStripMenuItem>新しい Z39.50 サーバを追加します。</addNewZ3950ServerToolStripMenuItem>
-<addSRUServerToolStripMenuItem>SRU サーバを追加します。</addSRUServerToolStripMenuItem>
-<this>MarcEdit Z39.50 クライアント</this>
-</mebatch_frmMain>
-<mebatch_frmOverwrite>
-<cmdAppend>追加</cmdAppend>
-<cmdOverwrite>上書き</cmdOverwrite>
-<cmdClose>閉じる</cmdClose>
-<label1>エクスポート ファイルが存在します。日程を上書きしたり、現在のファイルを追加します。</label1>
-<this>ファイルが存在します。</this>
-</mebatch_frmOverwrite>
-<mebatch_frmProperties>
-<tabDBProps>データベースのプロパティ</tabDBProps>
-<ck_Paused>一時停止 (6 秒) を上書き</ck_Paused>
-<label1>データベース:</label1>
-<ck_Show>データベースを表示します。</ck_Show>
-<lbPassword>パスワード:</lbPassword>
-<lbUsername>ユーザー名:</lbUsername>
-<lbSyntax>構文:</lbSyntax>
-<lbPort>ポート:</lbPort>
-<lbHost>ホスト:</lbHost>
-<lbname>名前:</lbname>
-<tabDBAdvanced>高度なプロパティ</tabDBAdvanced>
-<label4>タイムアウト (秒):</label4>
-<label2>要素セット:</label2>
-<label3>その他のオプション:</label3>
-<lnkftp>http://www.loc.gov/z3950/agency/defns/bib1.html</lnkftp>
-<lbInfo>詳細情報:</lbInfo>
-<lbISBN>ISBN/ISSN:</lbISBN>
-<lbSubject>件名：</lbSubject>
-<lbTitle>タイトル:</lbTitle>
-<lbAuthor>著者：</lbAuthor>
-<lbadvTitle>Z39.50 属性 4: 構造</lbadvTitle>
-<cmdSave>保存</cmdSave>
-<cmdClose>閉じる</cmdClose>
-<this>データベースのプロパティ</this>
-</mebatch_frmProperties>
-<mebatch_frmRecord>
-<lnkDownload>レコードをダウンロードします。</lnkDownload>
-<lnkClose>閉じる</lnkClose>
-<lbSave>ファイルを保存します。</lbSave>
-<ck_Append>追加</ck_Append>
-<this>MARC レコードを表示します。</this>
-</mebatch_frmRecord>
-<mebatch_frmresults>
-<cmd_close>閉じる</cmd_close>
-</mebatch_frmresults>
-<mebatch_frmStatus>
-<lbCaption>label1</lbCaption>
-<this>ステータス</this>
-</mebatch_frmStatus>
-<mebatch_SRUProps>
-<lbSRUTitle>データベースのプロパティ:</lbSRUTitle>
-<label1>URL:</label1>
-<lbMetadata>メタデータ スキーマ:</lbMetadata>
-<lbName>名前:</lbName>
-<cmdSave>保存</cmdSave>
-<cmdClose>閉じる</cmdClose>
-<lbVersion>バージョン：</lbVersion>
-<label2>検索プロファイル:</label2>
-<label3>追加パラメーター</label3>
-<this>SRU プロパティ</this>
-</mebatch_SRUProps>
 </marcedit>

@@ -15,7 +15,6 @@
 <this>میدان کا شمار</this>
 </MarcEdit_Field_Count>
 <MarcEdit_FindReplace>
-<tbFind>تلاش کریں</tbFind>
 <groupBox3>سمت:</groupBox3>
 <rd_down>نیچے</rd_down>
 <rd_up>اپ</rd_up>
@@ -24,15 +23,19 @@
 <ck_f_whole_word>فقط پورا لفظ ڈھونڈیں</ck_f_whole_word>
 <ck_find_regex>تعبیرات کا استعمال کرتے</ck_find_regex>
 <ck_f_match_case>مشابہ حالت حروف</ck_f_match_case>
-<lbPreview>صرف تلاش لوڈ کوائف پیش منظر موڈ میں تلاش کریں ۔</lbPreview>
 <cmdFClose>بند کریں</cmdFClose>
 <cmdFFind>تلاش کریں</cmdFFind>
 <lb_FindWhat>کیا ڈھونڈیں:</lb_FindWhat>
-<tbReplace>بدل دیں</tbReplace>
+<cmdNav_Find>تلاش کریں</cmdNav_Find>
+<cmdReplaceNav>بدل دیں</cmdReplaceNav>
+<ckReplaceConditional>ڈھونڈیں/بدل دیں تو انجام...</ckReplaceConditional>
+<cmbCondOpt>رگ</cmbCondOpt>
+<label1>اگر:</label1>
 <cmd_R_Close>بند کریں</cmd_R_Close>
 <cmd_R_All>تمام بدل دیں</cmd_R_All>
 <cmd_R_Replace>بدل دیں</cmd_R_Replace>
 <groupBox2>اختیارات تلاش کریں:</groupBox2>
+<ckFile>خارجی تلاش/بدل کسوٹی استعمال کریں</ckFile>
 <ck_R_RegExp>تعبیرات کا استعمال کرتے</ck_R_RegExp>
 <ck_R_Case>مشابہ حالت حروف</ck_R_Case>
 <lb_ReplaceWith>بدلیں مع:</lb_ReplaceWith>
@@ -140,6 +143,7 @@
 <cmd_A_Add>قطعہ کا ا ضافہ کریں</cmd_A_Add>
 <cmd_A_Delete>قطعہ حذف کریں</cmd_A_Delete>
 <groupBox1>اختیارات:</groupBox1>
+<ck_A_addifnotduplicate>مثنی کی ورنہ فقط قطعہ کا ا ضافہ کریں</ck_A_addifnotduplicate>
 <ck_delete_batch>عمل کاری کے بیچ آپریشن</ck_delete_batch>
 <ck_AddIfPresent>اگر موجود ہو تو قطعہ ا ضافہ کریں</ck_AddIfPresent>
 <ck_RemoveIfNot>اگر کوائف قطعہ نہیں مشابہ ہٹائیں</ck_RemoveIfNot>
@@ -197,6 +201,7 @@
 <label14>سبفیلڈ:</label14>
 <lbFindInField>قطعہ میں ڈھونڈیں</lbFindInField>
 <groupBox4>اختیارات</groupBox4>
+<ck_copy_field_regex>تعبیرات کا استعمال کرتے</ck_copy_field_regex>
 <ck_copy_delete>ماخذ قطعہ حذف کریں</ck_copy_delete>
 <label2>مقصود قطعہ:</label2>
 <cmdCopyClose>بند کریں</cmdCopyClose>
@@ -237,9 +242,14 @@
 <cmdProcess>عمل</cmdProcess>
 <cmdCancel>منسوخ کریں</cmdCancel>
 <groupBox1>ID کی خدمات</groupBox1>
+<ck3xxFields>عمل 3xx قطعات</ck3xxFields>
+<label4>اوکلک نمبر:</label4>
+<ckWorkId>اوکلک کام شناخت شامل کریں</ckWorkId>
+<cmb_viaf_index>LC (نیکو)</cmb_viaf_index>
+<ckAutodetect>خود کھوج موضوع شناخت</ckAutodetect>
 <ck_viaf>اوکلک ویاف</ck_viaf>
 <ck_loc>لائبریری کی کانگریس (id.loc.gov)</ck_loc>
-<ckAutodetect>خود کھوج موضوع شناخت</ckAutodetect>
+<label5>قواعد مسل:</label5>
 <this>مربوط ریکارڈ کی تعمیر</this>
 </MarcEdit_frmBuildLinks>
 <MarcEdit_frmCatalogCalculator>
@@ -250,30 +260,43 @@
 <label1>LC کوٹارس</label1>
 <this>کیلکولیٹر کیٹیلاگ کر رہا ہے ۔</this>
 </MarcEdit_frmCatalogCalculator>
+<MarcEdit_frmCharacterDetection>
+<label1>کردار کا پتہ لگانے کا آلہ ایک بہترین اندازہ رالا دینے کے لئے ایک ہیورسٹاکال عمل استعمال کرتا ہے </label1>
+<cmdDetect>کھوج لگائیں</cmdDetect>
+<cmdClose>بند کریں</cmdClose>
+<label2>نتائج:</label2>
+<ckDetailed>مطول نتائج</ckDetailed>
+<this>کھوج کریکٹر</this>
+</MarcEdit_frmCharacterDetection>
 <MarcEdit_frmClassify>
 <label1>اوکلک کی درجہ بندی کرتے ویب سروس کا استعمال اس کی خدمت کرتا ہے ۔  درجہ بندی سفارشات اوکلک کنٹرول نمبر کے ریکارڈ سے بھیجنے کی طرف سے پیدا ہوتے ہیں ۔  اوکلک کی ویب خدمت مآرکاداٹ سے واپس دیوی اعشاری یا LC کی درجہ بندی میں اکثر یہ ریکارڈ کے ساتھ وابستہ لوٹ جائے گی ۔</label1>
 <lnkClassify>اوکلک کے بارے میں کی خدمت کی درجہ بندی کرتے</lnkClassify>
-<label2>شمول ہدایات:</label2>
 <ck_all>تمام ریکارڈ کرنے کا ا ضافہ کریں</ck_all>
 <ck_single>منتخب ریکارڈ کرنے کا ا ضافہ کریں</ck_single>
 <ck_lc>کانگریس دارالکتب</ck_lc>
 <ck_dewey>دیوی اعشاری</ck_dewey>
-<label3>درجہ بندی:</label3>
 <cmdProcess>درجہ بندی کرتے</cmdProcess>
 <cmdClose>بند کریں</cmdClose>
 <label5>اگر درج ذیل خانے موجود نہ ہوں تو داخل کریں (مثال کے طور پر: 050؛ 060؛ 090؛ 092)</label5>
 <label4>درجہ بندی کے نتیجے میں مندرجہ ذیل قطعہ داخل کریں:</label4>
-<label7>اختیارات:</label7>
 <ck_cutters>کوٹارس اور تواریخ کا حساب کریں</ck_cutters>
 <ck_use_z>مشابہ کے لیے استعمال سبفیلڈ z</ck_use_z>
 <ck_DateMod>پرچم تاریخ کو ملائیں</ck_DateMod>
 <ck_omit_serial>تاریخ سیریلز کے لئے ترک کریں</ck_omit_serial>
 <ck_omit_integrated>انٹیگریٹڈ وسائل کے لئے تاریخ کو ترک کریں</ck_omit_integrated>
 <ck_omit>تاریخ مستثنیات ملائیں</ck_omit>
-<label8>موضوع سرخیاں:</label8>
 <ck_always_fast>ہمیشہ روزہ سرخیاں کا ا ضافہ کریں</ck_always_fast>
 <ck_conditional_fast>جب کوئی موضوع سرخیاں موجود ہیں روزہ سرخیاں کا ا ضافہ کریں</ck_conditional_fast>
 <label6>اشارے:</label6>
+<cmdInsert>شمول ہدایات</cmdInsert>
+<cmdClassification>درجہ بندی</cmdClassification>
+<cmdSubjects>موضوع سرخیاں</cmdSubjects>
+<lnkClassification>درجہ بندی کا انتخاب کریں</lnkClassification>
+<lnkSubjects>موضوع کے اختیارات کا انتخاب کریں</lnkSubjects>
+<lnkOptions>سیٹ کریں اختیارات</lnkOptions>
+<cmdOptions>اختیارات</cmdOptions>
+<label2>شمول ہدایات:</label2>
+<label3>درجہ بندی:</label3>
 <this>تخلیق کی درجہ بندی</this>
 </MarcEdit_frmClassify>
 <MarcEdit_frmConstantData>
@@ -317,6 +340,17 @@
 <label2>ریکارڈ نقل کے آلے</label2>
 <this>ریکارڈ نقل</this>
 </MarcEdit_frmDedup>
+<MarcEdit_frmOpenRefine>
+<label1>اس ٹول Mnemonic وضع اور اوپانریف مارک یا مارکاداٹ کے مابین ڈیٹا منتقل کرنے کے لئے استعمال کریں </label1>
+<label2>ماخذ مسل:</label2>
+<label3>مسل محفوظ کریں:</label3>
+<rdExport>اوپانریفنی کے لیے برآمد کریں</rdExport>
+<rdImport>اوپانریفنی سے درآمد کریں</rdImport>
+<cmdProcess>عمل</cmdProcess>
+<cmdCancel>بند کریں</cmdCancel>
+<lbStatus>حالت:</lbStatus>
+<this>اوپانریفنی کوائف کی منتقلی کے آلے</this>
+</MarcEdit_frmOpenRefine>
 <MarcEdit_frmExportSettings>
 <label1>حصہ داری کے لیے مسلیں منتخب کریں:</label1>
 <ckconfig>تشکیلی اختیارات</ckconfig>
@@ -342,6 +376,19 @@
 <lb_result_num>{search_string} پایا {#} گنا تھا.</lb_result_num>
 <this>تمام نتائج تلاش</this>
 </MarcEdit_frmFindAllResults>
+<MarcEdit_frmGenerateCutters>
+<cmdProcess>عمل</cmdProcess>
+<cmdClose>بند کریں</cmdClose>
+<lbField>اندازہ لگانا کال نمبر قطعہ داخل کریں ۔ (آرک 090)</lbField>
+<groupBox1>اختیارات</groupBox1>
+<rdTitle>کٹر آرڈر (2xx، 1xx)</rdTitle>
+<rdDefault>کٹر آرڈر (1xx، 2xx)</rdDefault>
+<groupBox2>اختیارات</groupBox2>
+<rdMainEntry>بنیادی اندراج (1xx، 245) کا اندازہ</rdMainEntry>
+<rdCustomField>مخصوص قطعہ</rdCustomField>
+<label1>تلاش کریں:</label1>
+<this>کاٹنے والی مشینیں پیدا</this>
+</MarcEdit_frmGenerateCutters>
 <MarcEdit_frmHarvestBatch>
 <label1>وضاحتی اواا پیش کار:</label1>
 <label2>(Shift/shift + کنٹرول کثیر اشیا منتخب کرنے کے لیے استعمال کریں)</label2>
@@ -407,20 +454,29 @@
 <toolStripMenuItem7>مآرکاداٹ 32-بٹ کے موڈ میں پھر شروع کریں ۔</toolStripMenuItem7>
 <mnuFileExit>خروج</mnuFileExit>
 <mnuTools>فورم کے اوزار</mnuTools>
-<mnuToolsSelect>آلاتی خوانا کیٹلاگ ریکارڈ منتخب کریں</mnuToolsSelect>
-<mnuToolsDelete>منتخب ریکارڈ حذف کریں</mnuToolsDelete>
-<mnuToolsExtract>اقتباس کا ریکارڈ منتخب</mnuToolsExtract>
 <mnuExportGroup>برآمد کریں...</mnuExportGroup>
 <mnuToolsTabbed>برآمد ٹیب تحدیدی ریکارڈ</mnuToolsTabbed>
 <mnuToolsGateway>آلاتی خوانا کیٹلاگ ریکارڈ برآمد کریں</mnuToolsGateway>
+<mnuToolsSelect>آلاتی خوانا کیٹلاگ ریکارڈ منتخب کریں</mnuToolsSelect>
+<mnuToolsDelete>منتخب ریکارڈ حذف کریں</mnuToolsDelete>
+<mnuToolsExtract>اقتباس کا ریکارڈ منتخب</mnuToolsExtract>
 <mnuToolsBatch>بیچ عمل ریکارڈ</mnuToolsBatch>
+<mnuToolsCharacterConversion>کریکٹر کے تبدیلی کے اوزار</mnuToolsCharacterConversion>
+<mnuToolCharacterConversionConversionTools>کریکٹر تحویل</mnuToolCharacterConversionConversionTools>
+<characterDetectionToolStripMenuItem>کھوج کریکٹر</characterDetectionToolStripMenuItem>
 <mnuGenerateCallnumber>کال نمبر نکالیں</mnuGenerateCallnumber>
 <toolStripMenuItem3>روزہ سرخیاں تخلیق</toolStripMenuItem3>
 <mnuToolsDedup>مثنی ریکارڈ ڈھونڈیں</mnuToolsDedup>
 <toolStripMenuItem6>اوکلک آپریشن</toolStripMenuItem6>
+<oCLCRecordDownloaderToolStripMenuItem>اوکلک ریکارڈ ڈاؤنلوڈر</oCLCRecordDownloaderToolStripMenuItem>
 <updateWorldCatRecordHoldingsToolStripMenuItem>وورلڈکت ریکارڈ ہولڈنگ کی تازہ کاری کریں</updateWorldCatRecordHoldingsToolStripMenuItem>
 <uploadBibliographRecordsToWorldCatToolStripMenuItem>وورلڈکت کے لئے ببلیوگراپہ ریکارڈ اپ لوڈ کریں</uploadBibliographRecordsToWorldCatToolStripMenuItem>
+<openRefineToolStripMenuItem>اوپانریفنی</openRefineToolStripMenuItem>
+<mnuToolOpenRefineExport>برآمد کریں</mnuToolOpenRefineExport>
+<mnuToolOpenRefineImport>درآمد کریں</mnuToolOpenRefineImport>
 <toolStripMenuItem5>رد مددگار</toolStripMenuItem5>
+<mnuToolsUnimarcTools>یونامآرک فورم کے اوزار</mnuToolsUnimarcTools>
+<mnuToolsValidateHeadings>سرخیاں کا جواز دیں</mnuToolsValidateHeadings>
 <toolStripMenuItem8>مآرکومپاری</toolStripMenuItem8>
 <mnuToolsJoin>مآرکجوان</mnuToolsJoin>
 <mnuToolsSplit>مآرکسپلاٹ</mnuToolsSplit>
@@ -470,17 +526,20 @@
 <lnkHomepage>http://marcedit.reeset.net</lnkHomepage>
 <label5>URL:</label5>
 <label2>اعترافات:</label2>
+<lb_modified>.</lb_modified>
 <lbMod>ترمیم:</lbMod>
 <lbMailto>ٹیری ریز</lbMailto>
 <lbAuthor>تخلیق کار:</lbAuthor>
 <lbVersion>ورژن:</lbVersion>
 <label3>|</label3>
 <label4>مآرکاداٹ کے بارے میں</label4>
+<lnkSPARQL>سپآرقل براؤزر</lnkSPARQL>
 <lnkLinkIds>ربط شناختگر</lnkLinkIds>
 <lnkJsonObject>جساون آبجیکٹ منظر کار</lnkJsonObject>
 <lnkBibframe>بابفریمی ٹیسٹب</lnkBibframe>
 <label7>|</label7>
 <label8>مارکنی:</label8>
+<mnuHelpDeleteTempFiles>عارضی مسلیں صاف کریں</mnuHelpDeleteTempFiles>
 <this>مآرکاداٹ ٹیری ریز کی طرف سے</this>
 </MarcEdit_frmMain>
 <MarcEdit_frmOAIHarvest>
@@ -501,8 +560,16 @@
 <lbCrosswalk>کرعثسوالک راہ:</lbCrosswalk>
 <lnkAdvanced>اعلی سیٹنگیں</lnkAdvanced>
 <cmdSave>محفوظ کریں</cmdSave>
+<lnkDebug>یو آر ایل کو ٹھیک کریں</lnkDebug>
 <this>مابعد کوائف فسل کاٹنے کی مشین</this>
 </MarcEdit_frmOAIHarvest>
+<MarcEdit_frmOCLCBulkDownload>
+<label1>اوکلک کی تعداد کا ماخذ مسل:</label1>
+<cmdDownload>ڈاؤن لوڈ، اتارنا</cmdDownload>
+<cmdClose>بند کریں</cmdClose>
+<label2>مسل محفوظ کریں:</label2>
+<this>استعمال کنندگان کے بلک ڈاؤن لوڈ، اتارنا ریکارڈ اوکلک سے</this>
+</MarcEdit_frmOCLCBulkDownload>
 <MarcEdit_frmOCLCSearchWorldCat>
 <label1>تلاش وورلڈکت:</label1>
 <cmbarg1>کلیدی الفاظ</cmbarg1>
@@ -602,6 +669,7 @@
 <lb_Engine_XML_Options>XML اختیارات:</lb_Engine_XML_Options>
 <ck_engine_namespace>نام جگہ استعمال کریں</ck_engine_namespace>
 <lb_Global_XSLT_Path>مارکامل XSLT:</lb_Global_XSLT_Path>
+<labelAutoUpdateDisabled>خودکار تازہ کاریاں اپنے نظام اڈمانسٹریٹر کی طرف سے نااہل بنا دی گئی ہے</labelAutoUpdateDisabled>
 <ckDetectProxy>نظام پراکسی سیٹنگیں استعمال کریں</ckDetectProxy>
 <ck_Update_Validator>خود بخود Validator تازہ کاریوں کے لیے پڑتال کریں</ck_Update_Validator>
 <label3>آپ اس وقت کام کرنے کے لئے ایک ڈومین کے لیے اس کا تعلق ہونا چاہیے ۔</label3>
@@ -621,16 +689,12 @@
 <ck_mrk8_editor>مآرکادیٹر کے ساتھ ایسوسی ایٹ (*.mrk8) مسلیں</ck_mrk8_editor>
 <ck_mrk_editor>مآرکادیٹر کے ساتھ ایسوسی ایٹ (*.mrk) مسلیں</ck_mrk_editor>
 <ck_mrc>مآرکبریکر کے ساتھ ایسوسی ایٹ (*.mrc) مسلیں</ck_mrc>
-<label26>کام پوشہ:</label26>
-<label25>نیٹ ورک پوشے از:</label25>
-<ck_allow_z3950>Z39.50 افعال اہل بنائیں</ck_allow_z3950>
-<label1>کنٹرول نمبر ٹیگ:</label1>
-<lbCall>ٹیگ کے نمبر پر کال کریں:</lbCall>
-<lb_mono>ٹاب مونو راہ:</lb_mono>
-<lb_Author>مصنف ٹیگ:</lb_Author>
-<lb_title>عنوان ٹیگ:</lb_title>
-<lb_temp>عارضی راہ سیٹ کریں:</lb_temp>
-<ck_rss>آر ایس ایس فیڈ کا مطالعہ</ck_rss>
+<label33>|</label33>
+<lnkSelectILS>منتخب کریں</lnkSelectILS>
+<lnkDeleteProfile>حذف کریں</lnkDeleteProfile>
+<label32>|</label32>
+<lnkAddProfile>ا ضافہ کریں</lnkAddProfile>
+<label31>پروفائل:</label31>
 <ck_ignore_ssl>SSL سرٹیفکیٹ غلطیاں نظرانداز کریں</ck_ignore_ssl>
 <lnk_ils_delete>حذف کریں</lnk_ils_delete>
 <label14>|</label14>
@@ -655,6 +719,24 @@
 <label18>خفیہ کلید (مابعد کوائف API کلید کے ساتھ جوڑا)</label18>
 <label17>اوکلک مابعد کوائف API کلید</label17>
 <label16>اوکلک تلاش API کلید</label16>
+<lnkFilePaths>محل وقوع</lnkFilePaths>
+<label30>طے شدہ مارک ٹول ڈرائیو راہ سیٹ کریں:</label30>
+<label27>مسل راستے:</label27>
+<label26>کام پوشہ:</label26>
+<label25>نیٹ ورک پوشے از:</label25>
+<lb_mono>ٹاب مونو راہ:</lb_mono>
+<lb_temp>عارضی راہ سیٹ کریں:</lb_temp>
+<ck_rss>آر ایس ایس فیڈ کا مطالعہ</ck_rss>
+<lb_title>عنوان ٹیگ:</lb_title>
+<lb_Author>مصنف ٹیگ:</lb_Author>
+<lbCall>ٹیگ کے نمبر پر کال کریں:</lbCall>
+<label1>کنٹرول نمبر ٹیگ:</label1>
+<ck_allow_z3950>Z39.50 افعال اہل بنائیں</ck_allow_z3950>
+<label28>اختیارات قطعہ:</label28>
+<label34>اس ٹیگ:</label34>
+<ckSort880>880: لنک کرنے قطعہ قسم کے لئے استعمال کریں</ckSort880>
+<ck880Infile>قطعہ جوڑوں کے ساتھ انفلی 880 قطعات</ck880Infile>
+<label29>اختیارات چھانٹیں:</label29>
 <this>مآرکاداٹ ترجیحات</this>
 </MarcEdit_frmOptions>
 <MarcEdit_frmPluginManager>
@@ -673,15 +755,28 @@
 <columnHeader4>ورژن نمبر:</columnHeader4>
 <this>پلگ ان منیجر</this>
 </MarcEdit_frmPluginManager>
+<MarcEdit_frmProxy>
+<label1>وسائل ۔ گیٹسٹرانگ "(label1 ۔ متن")</label1>
+<label2>نمونہ:</label2>
+<cmdProcess>عمل</cmdProcess>
+<cmdCancel>منسوخ کریں</cmdCancel>
+<ckEscape>کوائف URL سے فرار</ckEscape>
+<ckAddNew>موجودہ نظام بدل دیں</ckAddNew>
+<ck_addnewfield>ایک نیا قطعہ کا ا ضافہ کریں اگر نہیں پیش</ck_addnewfield>
+<ckAlwaysAdd>ہمیشہ نیا قطعہ کا ا ضافہ کریں</ckAlwaysAdd>
+<this>نئے میدانوں کی تعمیر</this>
+</MarcEdit_frmProxy>
 <MarcEdit_frmQueryLite>
+<label4>حد</label4>
+<lnkDownload>تمام اشیاء ڈاؤن لوڈ کریں</lnkDownload>
 <ck_batch>بیچ کی تلاش</ck_batch>
 <lbdbtitle>label2</lbdbtitle>
 <groupBox3>کے نتائج</groupBox3>
-<lnkDownload>تمام اشیاء ڈاؤن لوڈ کریں</lnkDownload>
 <lnkClearResults>نتائج کو صاف کریں</lnkClearResults>
 <lnkGetNext>اگلا {حد سے متجاوز ہو</lnkGetNext>
 <col1>پوزیشن</col1>
 <col2>عنوان</col2>
+<downloadSelectedItemsToolStripMenuItem>منتخب اشیا ڈاؤن لوڈ کریں</downloadSelectedItemsToolStripMenuItem>
 <groupBox1>اختیارات</groupBox1>
 <lb_encoding_single>پیش کار کریکٹر سیٹ کریں</lb_encoding_single>
 <cmd_encoding>MARC8</cmd_encoding>
@@ -694,18 +789,20 @@
 <MCol1>نام</MCol1>
 <MCol2>قسم</MCol2>
 <lb_PModifyTitle>کوائفیہ منتخب کریں:</lb_PModifyTitle>
-<downloadSelectedItemsToolStripMenuItem>منتخب اشیا ڈاؤن لوڈ کریں</downloadSelectedItemsToolStripMenuItem>
 <this>Z39.50 کی گرفتاری</this>
 </MarcEdit_frmQueryLite>
 <MarcEdit_frmRDA>
+<ck_502>عمل 502</ck_502>
+<label6>|</label6>
+<lnkEditFields>قطعات کی تدوین کریں</lnkEditFields>
 <ck_040>040 - میں ترمیم کریں $erda کا ا ضافہ کریں</ck_040>
 <ck_qualifyinginfo>کوالیفائنگ معلومات (015/020/024/027)</ck_qualifyinginfo>
-<label5>|</label5>
 <lnkEdit>فہرست تدوین کریں</lnkEdit>
 <ck_dgmd>گمد حذف کریں</ck_dgmd>
 <ckAbbrev>مخفف وسیع</ckAbbrev>
 <ckgmd>گمد کی تخلیق</ckgmd>
 <ck264>260/264 کا اندازہ</ck264>
+<ck_signs>ہمیشہ استعمال ©، ℗ علامتیں</ck_signs>
 <ck381>381 - شامل دیگر</ck381>
 <ck380>380 – کا ا ضافہ کریں کام کی شکل</ck380>
 <ck347>347 - ا ضافہ کریں ڈیجیٹل خصوصیات</ck347>
@@ -723,7 +820,7 @@
 <label3>منتخب کریں:</label3>
 <label4>|</label4>
 <lnkNone>کوئی نہیں</lnkNone>
-<ck_signs>ہمیشہ استعمال ©، ℗ علامتیں</ck_signs>
+<label7>حالت:</label7>
 <this>رد مددگار</this>
 </MarcEdit_frmRDA>
 <MarcEdit_frmResults>
@@ -740,11 +837,17 @@
 <label4>روبرٹکومپاری کے بارے میں</label4>
 <label3>|</label3>
 <lnkAbout>روبرٹکومپاری کے بارے میں</lnkAbout>
+<ckSort>قبل از قسم مسلیں</ckSort>
 <cmdClose>بند کریں</cmdClose>
 <cmdExecute>سرانجام دیں ۔</cmdExecute>
 <label1>مسل محفوظ کریں:</label1>
 <label6>مسلوں کا آپس میں موازنہ:</label6>
 <label2>مآرکومپاری مارک مسلوں کے درمیان اختلافات کا تعین کرنے کے لئے ایک خصوصی آلہ ہے ۔  اس پروگرام کو استعمال کرنے کے لئے ریکارڈ کا ایک سیٹ کے ورژنوں کا موازنہ کریں کے لیے دو مارک مسلیں منتخب کریں ۔  مزید معلومات کے آلے، یا کس طرح اس کا نام حاصل کے لئے تاریخ کے بارے میں، براہ مہربانی متعلق صفحہ دیکھیں ۔</label2>
+<lnkPreferences>ترجیحات</lnkPreferences>
+<label7>|</label7>
+<lbSortField>چھانٹ قطعہ:</lbSortField>
+<lbdelete>حذف:</lbdelete>
+<lbAddColor>اضافہ:</lbAddColor>
 <this>مآرکومپاری/روبرٹکومپاری</this>
 </MarcEdit_frmRobertCompare>
 <MarcEdit_frmScript>
@@ -754,6 +857,19 @@
 <btnCancel>بند کریں</btnCancel>
 <this>نوشتہ تدوین کریں</this>
 </MarcEdit_frmScript>
+<MarcEdit_frmSearchILSGeneric>
+<lnkNone>کوئی نہیں</lnkNone>
+<lnkAll>تمام منتخب کریں</lnkAll>
+<col_title>عنوان</col_title>
+<col_id>شناخت</col_id>
+<label3>|</label3>
+<label2>نتائج:</label2>
+<cmdClose>بند کریں</cmdClose>
+<cmdSearch>تلاش کریں</cmdSearch>
+<cmbarg1>عنوان</cmbarg1>
+<label1>ڈیٹا بیس کی تلاش:</label1>
+<this>تلاش کریں</this>
+</MarcEdit_frmSearchILSGeneric>
 <MarcEdit_frmSearchXML>
 <cName>کرعثسوالک کے نام</cName>
 <cAuthor>کی طرف سے عرض کرنے لگے</cAuthor>
@@ -765,6 +881,10 @@
 <lnkViewAll>تمام کرعثسوالکس منظر</lnkViewAll>
 <this>XSLT کرعثسوالک تلاش کے نتائج</this>
 </MarcEdit_frmSearchXML>
+<MarcEdit_frmSelectILS>
+<cmdSelect>منتخب کریں</cmdSelect>
+<this>انہوں نے اسے منتخب کریں</this>
+</MarcEdit_frmSelectILS>
 <MarcEdit_frmSelectMARCRecords>
 <columnHeader1>ریکارڈ تعداد</columnHeader1>
 <columnHeader2>قطعہ دکھائیں</columnHeader2>
@@ -782,6 +902,9 @@
 <ck_find_all>تمام ریکارڈ کوائف کی تلاش</ck_find_all>
 <ck_use_regex>تعبیرات کا استعمال کرتے</ck_use_regex>
 <cmdRandomExport>بے ترتيب کی برآمد</cmdRandomExport>
+<lnkDoesNotMatch>مشابہ نہیں</lnkDoesNotMatch>
+<label1>|</label1>
+<lnkInvert>انتخاب الٹائیں</lnkInvert>
 <this>MarcEdit.NET: منتخب مارک ریکارڈوں میں ترمیم کریں</this>
 </MarcEdit_frmSelectMARCRecords>
 <MarcEdit_frmSort>
@@ -792,6 +915,17 @@
 <cmd_Close>بند کریں</cmd_Close>
 <this>مخصوص چھانٹ مددگار</this>
 </MarcEdit_frmSort>
+<MarcEdit_frmSPARQL_Browser>
+<lbsparql>سپآرقل نقطئہ اختتام:</lbsparql>
+<cmdQuery>طلب</cmdQuery>
+<cmdClose>بند کریں</cmdClose>
+<lbQuery>سپآرقل طلب:</lbQuery>
+<lbresults>نتائج:</lbresults>
+<cklocal>لوڈ مقامی مسل</cklocal>
+<lbOutput>آؤٹ پٹ:</lbOutput>
+<cmbOutput>XML</cmbOutput>
+<this>سپآرقل براؤزر</this>
+</MarcEdit_frmSPARQL_Browser>
 <MarcEdit_frmSpecial_Formats>
 <lb_title>CDS-اسی مارک ترجمہ =&gt;</lb_title>
 <groupBox1>صارف ان پٹ</groupBox1>
@@ -1095,6 +1229,8 @@
 <addCopyFieldTaskToolStripMenuItem>نقل قطعہ کام اضافہ کریں</addCopyFieldTaskToolStripMenuItem>
 <addTaskListToolStripMenuItem>ٹاسک فہرست کا ا ضافہ کریں</addTaskListToolStripMenuItem>
 <addRDAHelperToolStripMenuItem>رد مددگار کا ا ضافہ کریں</addRDAHelperToolStripMenuItem>
+<addLinkedDataTaskToolStripMenuItem>مربوط ڈیٹا کام اضافہ کریں</addLinkedDataTaskToolStripMenuItem>
+<addBuildNewFieldTaskToolStripMenuItem>تعمیر نیا کام قطعہ کا ا ضافہ کریں</addBuildNewFieldTaskToolStripMenuItem>
 <lbTasks>مجموعہ کار:</lbTasks>
 <label1>اعمال:</label1>
 <label2>تصریح:</label2>
@@ -1104,6 +1240,7 @@
 <columnHeader1>نام</columnHeader1>
 <columnHeader2>راستہ</columnHeader2>
 <columnHeader3>تیز راہ</columnHeader3>
+<columnHeader4>تصریح</columnHeader4>
 <cmdClose>بند کریں</cmdClose>
 <lnkNew>نئی فہرست کام تخلیق کریں</lnkNew>
 <lbMacro>کام کی فہرست:</lbMacro>
@@ -1116,7 +1253,6 @@
 <lnkKey>اہم تفویض اختیار کی</lnkKey>
 <lnkEdit>منتخب کام فہرست تدوین کریں</lnkEdit>
 <lnkDelete>منتخب کام فہرست حذف کریں</lnkDelete>
-<columnHeader4>تصریح</columnHeader4>
 <this>کام مینیجر</this>
 </MarcEdit_frmTaskManager>
 <MarcEdit_frmTools>
@@ -1129,32 +1265,18 @@
 <groupBox2>افعال</groupBox2>
 <ck_Marc8>آلاتی خوانا کیٹلاگ-8 کا ترجمہ کریں.</ck_Marc8>
 <ck_UTF8>UTF8 کرنے کا ترجمہ کریں.</ck_UTF8>
-<toolStrip1>toolStrip1</toolStrip1>
-<toolOpen>مسل کھولیں</toolOpen>
-<toolSave>مسل محفوظ کریں</toolSave>
-<toolExport>ریکارڈ برآمد</toolExport>
-<toolHelp>مدد</toolHelp>
 <menuStrip1>menuStrip1</menuStrip1>
-<mnuFile>مسل</mnuFile>
-<mnuFileMain>مین ونڈو کو واپس جانے</mnuFileMain>
-<mnuFileOpen>کھلا</mnuFileOpen>
-<mnuFileSave>محفوظ کریں</mnuFileSave>
-<mnuFileExit>خروج</mnuFileExit>
-<mnuTools>فورم کے اوزار</mnuTools>
-<mnuBatchProcessing>بیچ عمل ریکارڈ</mnuBatchProcessing>
-<mnuToolsXML>XML فعل فہرست تدوین کریں</mnuToolsXML>
-<mnuToolsEncoding>کریکٹر کے تبدیلی کے اوزار</mnuToolsEncoding>
-<mnuToolsUTF8>MARC8 =&gt; UTF8 بدلی</mnuToolsUTF8>
-<mnuToolsMARC8>MARC8 بدلی =&gt; UTF8</mnuToolsMARC8>
-<otherConversionsToolStripMenuItem>دیگر تحویل</otherConversionsToolStripMenuItem>
-<mnutoolsValidator>مآرکوالادیٹر</mnutoolsValidator>
-<mnutoolsjoin>مآرکجوان</mnutoolsjoin>
-<mnutoolssplit>مآرکسپلاٹ</mnutoolssplit>
-<mnuToolsExport>آلاتی خوانا کیٹلاگ ریکارڈ برآمد</mnuToolsExport>
-<mnuToolsExtract>اقتباس کا ریکارڈ منتخب</mnuToolsExtract>
-<mnuHelp>مدد</mnuHelp>
-<mnuHelpContents>سیاق و سباق اور مشعر</mnuHelpContents>
-<mnuHelpError>تجاویز/نقص رپورٹ</mnuHelpError>
+<toolsToolStripMenuItem>فورم کے اوزار</toolsToolStripMenuItem>
+<mnuToolsReturnToMainWindows>مین ونڈو کو واپس جانے</mnuToolsReturnToMainWindows>
+<editXMLFunctionListToolStripMenuItem>XML فعل فہرست تدوین کریں</editXMLFunctionListToolStripMenuItem>
+<mARCValidatorToolStripMenuItem>مآرکوالادیٹر</mARCValidatorToolStripMenuItem>
+<batchProcessFunctionToolStripMenuItem>بیچ عمل ریکارڈ</batchProcessFunctionToolStripMenuItem>
+<characterConversionToolsToolStripMenuItem>کریکٹر کے تبدیلی کے اوزار</characterConversionToolsToolStripMenuItem>
+<mARCCompareToolStripMenuItem>مآرکومپاری</mARCCompareToolStripMenuItem>
+<mARCJoinToolStripMenuItem>مارکجوان</mARCJoinToolStripMenuItem>
+<mARCSplitToolStripMenuItem>مآرکسپلاٹ</mARCSplitToolStripMenuItem>
+<uNIMARCToolsToolStripMenuItem>یونامآرک فورم کے اوزار</uNIMARCToolsToolStripMenuItem>
+<helpToolStripMenuItem>مدد</helpToolStripMenuItem>
 <this>مارک کے اوزار</this>
 </MarcEdit_frmTools>
 <MarcEdit_frmTutorialManager>
@@ -1169,6 +1291,19 @@
 <lnkClose>بند کریں</lnkClose>
 <this>مقامی ٹیوٹوریل مینیجر</this>
 </MarcEdit_frmTutorialManager>
+<MarcEdit_frmUnimarc>
+<label1>مآرکاداٹ لائٹ وزن یونامآرک بدلی ٹولز کا ایک سیٹ فراہم کرتا ہے ۔  اگر آپ کو سود کی یہ اوزار ہیں اور آپ انہیں بہتر بنانے میں مدد کرنا چاہتے ہیں، f ایدباکک مہیا کریں ۔
+
+</label1>
+<label2>ماخذ</label2>
+<label3>مقصود</label3>
+<groupBox1>اختیارات</groupBox1>
+<rdUNIMARC>یونامآرک MARC21 =&gt;</rdUNIMARC>
+<rdMARC21>MARC21 یونامآرک =&gt;</rdMARC21>
+<cmdProcess>عمل</cmdProcess>
+<cmdClose>بند کریں</cmdClose>
+<this>یونامآرک فورم کے اوزار</this>
+</MarcEdit_frmUnimarc>
 <MarcEdit_frmUpdate>
 <label1>تازہ کاری کریں نوٹ:</label1>
 <cmd_Update>تازہ کاری کریں</cmd_Update>
@@ -1198,6 +1333,8 @@
 <lb_Split_Folder>مقصود پوشہ:</lb_Split_Folder>
 <lb_Split_Source>ماخذ مسل:</lb_Split_Source>
 <lb_Split_Header>مآرکسپلاٹ کی افادیت</lb_Split_Header>
+<ckJoinSubfolders>ذیلی پوشے شامل کریں</ckJoinSubfolders>
+<cmdEditFile>مسل تدوین کریں</cmdEditFile>
 <lnkJoinedFiles>شمولیت اختیار مسلیں نمایش کریں</lnkJoinedFiles>
 <label19>فائل کی اقسام:</label19>
 <ck_JoinIndividual>انفرادی مسلوں میں شامل</ck_JoinIndividual>
@@ -1206,6 +1343,7 @@
 <lb_Join_Files>ملاپ کریں کے لیے مسلیں:</lb_Join_Files>
 <lb_Join_Source>مقصود مسل:</lb_Join_Source>
 <lb_Join_Header>مآرکجوان کی افادیت</lb_Join_Header>
+<lbJoinStatus>حالت:</lbJoinStatus>
 <lb_Tab_Header>برآمد ٹیب تحدیدی ریکارڈ</lb_Tab_Header>
 <cmb_sec_del></cmb_sec_del>
 <label18>قطعہ تحدید کار میں</label18>
@@ -1218,6 +1356,7 @@
 <mnusave>سیٹنگیں محفوظ کریں</mnusave>
 <menuItem1>-</menuItem1>
 <menuItem3>سیٹنگیں صاف کریں</menuItem3>
+<ckBatchProcessSubfolders>ذیلی پوشے شامل کریں</ckBatchProcessSubfolders>
 <lb_Operation>فعل:</lb_Operation>
 <cmdBClose>بند کریں</cmdBClose>
 <cmdBProcess>عمل</cmdBProcess>
@@ -1235,6 +1374,7 @@
 <cmdTExport>برآمد کریں</cmdTExport>
 <label2>مرحلہ 2: قطعات/سبفیلڈس برآمد پر واضح کریں</label2>
 <label3>برآمد ٹیب تحدیدی ریکارڈ</label3>
+<ckIsUTF8>یونیکوڈ کوڈ کی گئی</ckIsUTF8>
 <ck_merge_to_source>وسیلہ میں ضم کریں</ck_merge_to_source>
 <label17>مسل محفوظ کریں:</label17>
 <label16>ماخذ کیٹیلاگ کر رہا ہے ۔</label16>
@@ -1246,45 +1386,37 @@
 <lb_id>ریکارڈ کے شناخت کنندہ:</lb_id>
 <lb_merge>مسل ضم کریں:</lb_merge>
 <lb_source>ماخذ مسل:</lb_source>
-<cmd_merge_cancel_2>منسوخ کریں</cmd_merge_cancel_2>
-<cmd_merge_next_2>اگلا =&gt;</cmd_merge_next_2>
-<cmd_merge_back_2>&lt; واپس =</cmd_merge_back_2>
 <label4>جو چاہو انجام دینے کے لیے آپریشن کے لیے بہترین تصریح آپشن کا انتخاب کریں ۔</label4>
-<lb_merge_title_2>ضم ریکارڈ کوائف: مرحلہ 2</lb_merge_title_2>
-<groupBox2>مسل اختیارات ضم کریں</groupBox2>
-<rd_merge_overlay>ضم کریں اور تمام کوائف پوشش</rd_merge_overlay>
-<rd_merge_delimited>تحدیدی کوائف ضم کریں</rd_merge_delimited>
-<rd_merge_selected>منتخب قطعات ضم کریں</rd_merge_selected>
-<rd_merge_all>تمام منفرد کوائف ضم کریں</rd_merge_all>
+<ck_mergeUnique>انوکھی اشیا ضم کریں</ck_mergeUnique>
 <button1>منسوخ کریں</button1>
 <cmd_merge_select_fields_next>اگلا =&gt;</cmd_merge_select_fields_next>
 <cmd_merge_select_fields_back>&lt; واپس =</cmd_merge_select_fields_back>
-<groupBox3>اختیارات میں ترمیم کریں</groupBox3>
-<label10>کرنا</label10>
-<label12>سبفیلڈس</label12>
-<label9>کرنا</label9>
-<label8>اشارے</label8>
 <label7>ضم قطعات:</label7>
 <label6>قطعہ منتخب کریں:</label6>
 <label5>ضم ریکارڈ کوائف: قطعات منتخب کریں</label5>
-<ck_Repeatable>ریپیتبلی سبفیلڈ</ck_Repeatable>
-<ck_sort>قطعات نہیں چھانٹ</ck_sort>
-<P3_cmd_Cancel>منسوخ کریں</P3_cmd_Cancel>
-<P3_cmd_finish>تکمیل</P3_cmd_finish>
-<P3_ck_save_args>سا نچہ محفوظ کریں</P3_ck_save_args>
-<button4>لوڈ سانچا</button4>
-<P3_cmd_Apply>لگائیں</P3_cmd_Apply>
-<P3_lb_args>دلائل</P3_lb_args>
-<P3_lb_punct>اصطلاح ہے ۔ رموز اوقاف:</P3_lb_punct>
-<P3_txt_indicators>\\\\</P3_txt_indicators>
-<P3_lb_indicators>اشارے:</P3_lb_indicators>
-<P3_mapto>میپ کریں:</P3_mapto>
-<P3_lb_select>منتخب کریں:</P3_lb_select>
 <button5>بند کریں</button5>
 <label15>مسلیں ضم کی جا چکی ہے ۔  نتائج {merge_results_file} میں واقع ہے ۔</label15>
 <label13>ضم مکمل</label13>
 <this>عثلٹیس مکالمہ</this>
 </MarcEdit_frmUtilities>
+<MarcEdit_frmValidateHeadings>
+<label1>سرخیاں کی جواز دہی کے آلے 1xx، 6xx، یا 7xx خانوں کی توثیق کرنے کے لئے استعمال کیا جا سکتا ہے ۔  ویں یعنی آلے ویب اور اگر ایک ہیڈان جی ایک مجاز سرخی میں ظاہر ہوتا ہے کا تعین کے لیے مقامی خدمات کا ایک مجموعہ استعمال.</label1>
+<ck_1xx>1xx/7xx قطعات کی اجازت دینا</ck_1xx>
+<ck_6xx>6xx قطعہ کی اجازت دینا</ck_6xx>
+<cmdProcess>عمل</cmdProcess>
+<cmdClose>بند کریں</cmdClose>
+<label2>ماخذ:</label2>
+<lbStatus>حالت:</lbStatus>
+<cmdExtract>نچوڑ</cmdExtract>
+<ckdeletecache>مقامی کیسہ حذف کریں</ckdeletecache>
+<lnkDelimited>تحدیدی محفوظ کریں</lnkDelimited>
+<ckonlyA>صرف عمل سوبفیلڈ A</ckonlyA>
+<ckVariant>خود بخود صحیح متغیرات</ckVariant>
+<ckGenerateBriefHeadings>مختصر ذاتی نام حکام نے پیدا</ckGenerateBriefHeadings>
+<label3>پیدا حکام:</label3>
+<ckAddURIs>جب بھی ممکن ہو یوراس شامل کریں</ckAddURIs>
+<this>سرخیاں کا جواز دیں</this>
+</MarcEdit_frmValidateHeadings>
 <MarcEdit_frmvalidator>
 <lb_Source>ماخذ مسل:</lb_Source>
 <lb_Rules>قواعد مسل:</lb_Rules>
@@ -1306,6 +1438,7 @@
 <lb_Dest>آؤٹ پٹ مسل:</lb_Dest>
 <lb_MARC>ان پٹ مسل:</lb_MARC>
 <lb_Fields>قطعات:</lb_Fields>
+<lbTimeout>(سیکنڈ) میں تعطل وقت</lbTimeout>
 <this>URL کی توثیق کریں</this>
 </MarcEdit_frmVURL>
 <MarcEdit_frm_FASTHeadings>
@@ -1331,6 +1464,7 @@
 <ck_dates>تاریخوں (مؤقف: 7-14)</ck_dates>
 <ck_p7>بلول (پوزیشن 7)</ck_p7>
 <ck_p6>قسم (پوزیشن 6)</ck_p6>
+<ck_001>001/019</ck_001>
 <label6>کنٹرول نمبر</label6>
 <ck_form>فارم (مؤقف: 23)</ck_form>
 <ck_245_h>$h: جنرل مواد عہدہ</ck_245_h>
@@ -1429,9 +1563,14 @@
 <mnuFileClearList>حالیہ مسلیں صاف کریں</mnuFileClearList>
 <clearEditReplaceHistoryToolStripMenuItem>تدوین/بدل سابقات صاف کریں</clearEditReplaceHistoryToolStripMenuItem>
 <mnuFileClose>بند کریں</mnuFileClose>
+<mnuFileExportData>برآمد کرنے کے لیے...</mnuFileExportData>
+<openRefineExport>اوپانریفنی</openRefineExport>
+<mnuFileImportData>سے درآمد کریں...</mnuFileImportData>
+<openRefineImport>اوپانریفنی</openRefineImport>
 <mnuFileSave>محفوظ کریں</mnuFileSave>
 <mnuFileSaveAs>محفوظ کریں بطور...</mnuFileSaveAs>
 <mnuFilePrint>پرنٹ کریں</mnuFilePrint>
+<toolStripMenuItem34>ایک ریکارڈ فی صفحہ چھاپیں</toolStripMenuItem34>
 <FileSelectIndividualMake>انفرادی Record(s) بنانے کے لئے منتخب کریں</FileSelectIndividualMake>
 <mnuFileCompile>مسل میں مارک مرتب کریں</mnuFileCompile>
 <mnuFileExit>خروج</mnuFileExit>
@@ -1455,7 +1594,12 @@
 <capitalizeInitialCharacterToolStripMenuItem>ابتدائی حرف بڑا کریں</capitalizeInitialCharacterToolStripMenuItem>
 <fieldEditsToolStripMenuItem>قطعہ تدوین کرتا ہے ۔</fieldEditsToolStripMenuItem>
 <findRecordsMissingFieldToolStripMenuItem>ریکارڈ قطعہ غائب کی تلاش</findRecordsMissingFieldToolStripMenuItem>
+<toolStripMenuItem39>مثنی ٹیگز کے ساتھ کے ریکارڈ کی تلاش</toolStripMenuItem39>
+<toolStripMenuItem40>مثنی قطعہ کوائف کے ساتھ کے ریکارڈ کی تلاش</toolStripMenuItem40>
+<mnuEditLimitFields>قطعات کی تعداد محدود کریں</mnuEditLimitFields>
 <swapTitleToolStripMenuItem>عنوان کا مبادلہ کریں</swapTitleToolStripMenuItem>
+<mathFunctionsToolStripMenuItem>ریاضی کے افعال</mathFunctionsToolStripMenuItem>
+<convertToDecimalDegreesToolStripMenuItem>اعشاری درجے میں بدلیں</convertToDecimalDegreesToolStripMenuItem>
 <mnuEditJumpTo>کے لئے جائیں...</mnuEditJumpTo>
 <jumpToRecordToolStripMenuItem>کے لئے جائیں...ریکارڈ</jumpToRecordToolStripMenuItem>
 <jumpToPageToolStripMenuItem>کے لئے جائیں...صفحہ</jumpToPageToolStripMenuItem>
@@ -1488,9 +1632,6 @@
 <mnuEditSelectAll>تمام منتخب کریں</mnuEditSelectAll>
 <mnuEditWrap>لفظ کو لفاف</mnuEditWrap>
 <mnuEditRTL>دائیں بائیں کرنے کے لئے دکھائیں</mnuEditRTL>
-<mnuEditInfo>مارک کی معلومات</mnuEditInfo>
-<mnuEditInfoOCLC>اوکلک مارک مدد</mnuEditInfoOCLC>
-<mnuEditInfoLC>کانگریس مارک مدد کی امریکی لائبریری</mnuEditInfoLC>
 <mnuFont>فانٹ</mnuFont>
 <mnuFontFont>فانٹ...</mnuFontFont>
 <mnuFontColor>رنگ...</mnuFontColor>
@@ -1508,10 +1649,18 @@
 <soundRecordingsToolStripMenuItem>آواز کی ریکارڈنگ</soundRecordingsToolStripMenuItem>
 <visualMaterialsToolStripMenuItem>بصری مواد</visualMaterialsToolStripMenuItem>
 <mARCValidatorToolStripMenuItem>مآرکوالادیٹر</mARCValidatorToolStripMenuItem>
+<validateISBNSToolStripMenuItem>اسبنں کا جواز دیں</validateISBNSToolStripMenuItem>
+<validateISSNSToolStripMenuItem>اسسنس کا جواز دیں</validateISSNSToolStripMenuItem>
+<validateHeadingsToolStripMenuItem>سرخیاں کا جواز دیں</validateHeadingsToolStripMenuItem>
 <mnuTools>فورم کے اوزار</mnuTools>
+<mnutoolCutters>کوٹرانگ فورم کے اوزار</mnutoolCutters>
 <mnuToolsCalculator>ست کیلکولیٹر</mnuToolsCalculator>
+<generateCuttersToolStripMenuItem>کاٹنے والی مشینیں پیدا</generateCuttersToolStripMenuItem>
+<sanbornTable3CuttersToolStripMenuItem>سینبورن جدول 3 کاٹنے والی مشینیں</sanbornTable3CuttersToolStripMenuItem>
 <mnuToolsCallNum>کال نمبر نکالیں</mnuToolsCallNum>
 <mnuToolsControlNumber>کنٹرول نمبر نکالیں</mnuToolsControlNumber>
+<toolStripMenuItem33>مربوط ڈیٹا کے اوزار</toolStripMenuItem33>
+<buildLinkedRecordsToolStripMenuItem>مربوط ریکارڈ کی تعمیر</buildLinkedRecordsToolStripMenuItem>
 <mnuToolsRDAHelpers>رد مددگار</mnuToolsRDAHelpers>
 <mnuToolsEditConstant>مسلسل کوائف تدوین کریں</mnuToolsEditConstant>
 <mnuToolsAssigned>تفویض کردہ مسلسل کوائف</mnuToolsAssigned>
@@ -1526,7 +1675,7 @@
 <mnuConstant9>9) غیر وضاحتی سلک</mnuConstant9>
 <mnuConstant10>10) غیر وضاحتی سلک</mnuConstant10>
 <mnutoolmanageAutomate>کام کا انتظام کریں</mnutoolmanageAutomate>
-<mnutoolassignTasks>تفویض کردہ مجموعہ کار</mnutoolassignTasks>
+<mnuToolsAssignedTasks>تفویض کردہ مجموعہ کار</mnuToolsAssignedTasks>
 <mnuDefTask>فی الحال دستیاب مجموعہ کار</mnuDefTask>
 <task1>1) غیر وضاحتی کام</task1>
 <task2>2) غیر وضاحتی کام</task2>
@@ -1538,6 +1687,16 @@
 <task8>8) غیر وضاحتی کام</task8>
 <task9>9) غیر وضاحتی کام</task9>
 <task10>10) غیر وضاحتی کام</task10>
+<task11>11) غیر وضاحتی کام</task11>
+<task12>12) غیر وضاحتی کام</task12>
+<task13>13) غیر وضاحتی کام</task13>
+<task14>14) غیر وضاحتی کام</task14>
+<task15>15) غیر وضاحتی کام</task15>
+<task16>16) غیر وضاحتی کام</task16>
+<task17>17) غیر وضاحتی کام</task17>
+<task18>18) غیر وضاحتی کام</task18>
+<task19>19) غیر وضاحتی کام</task19>
+<task20>20) بے وضاحت کام</task20>
 <mnuToolsZ3950>Z39.50/و اختیارات</mnuToolsZ3950>
 <marcEditZ3950SRUClientToolStripMenuItem>مآرکاداٹ Z39.50/و وصول کار</marcEditZ3950SRUClientToolStripMenuItem>
 <importRecordToolStripMenuItem>Z39.50 درآمد ریکارڈ</importRecordToolStripMenuItem>
@@ -1553,6 +1712,7 @@
 <normalizeMicrolifRecordsToolStripMenuItem>ماکرولاف کے ریکارڈ کو نااہل کریں</normalizeMicrolifRecordsToolStripMenuItem>
 <mnuToolsRemoveEmpty>خالی قطعات/سبفیلڈس ہٹانا</mnuToolsRemoveEmpty>
 <mnuToolsAdd>قطعہ ا ضافہ/حذف</mnuToolsAdd>
+<mnuFieldEditsBuildProxy>نیا قطعہ کی تعمیر</mnuFieldEditsBuildProxy>
 <toolStripMenuItem26>نقل قطعہ</toolStripMenuItem26>
 <mnuToolsEditField>کوائف قطعہ تدوین کریں</mnuToolsEditField>
 <mnuToolsIndicator>اشارے کوائف تدوین کریں</mnuToolsIndicator>
@@ -1578,6 +1738,10 @@
 <pluginsToolStripMenuItem>پلگ ان</pluginsToolStripMenuItem>
 <mnuHelp>مدد</mnuHelp>
 <mnuHelpContents>فہرست مشمولات اور مدد</mnuHelpContents>
+<mnuEditInfo>مارک کی معلومات</mnuEditInfo>
+<mnuEditInfoOCLC>اوکلک مارک مدد</mnuEditInfoOCLC>
+<mnuHelpRDAToolkit>رد ٹول کٹ</mnuHelpRDAToolkit>
+<mnuEditInfoLC>کانگریس مارک مدد کی امریکی لائبریری</mnuEditInfoLC>
 <label1>فی صفحہ ریکارڈ</label1>
 <lblPage>صفحات</lblPage>
 <btnPre>&lt;</btnPre>
@@ -1627,206 +1791,4 @@
 <opt_msxml>لیے MSXML</opt_msxml>
 <this>XML افعال کی تدوین کریں</this>
 </MarcEdit_xml_functions>
-<marc_sql_explorer_frmMain>
-<tabPage1>کوائف لوڈ</tabPage1>
-<ckexpanded>توسیعی جدول شجرہ استعمال کریں</ckexpanded>
-<ckloadDB>ایس کیو ایل کا استعمال</ckloadDB>
-<ckMysql>ایس کیو ایل کا استعمال</ckMysql>
-<lnkmysqlOptions>ایس کیو ایل کے اختیارات</lnkmysqlOptions>
-<cmdCancelP>منسوخ کریں</cmdCancelP>
-<cmdProcessMARC>عمل</cmdProcessMARC>
-<cmdLoadDB>بوجھ</cmdLoadDB>
-<label5>کوائفیہ مسل:</label5>
-<label6>موجودہ ڈیٹا بیس فائل لوڈ کریں</label6>
-<label3>کوائفیہ مسل:</label3>
-<label2>آلاتی خوانا کیٹلاگ مسل:</label2>
-<label1>عمل کاری سے قبل از مارک ڈیٹا</label1>
-<tabPage2>ڈیٹا بیس ڈھانچے</tabPage2>
-<cname>نام</cname>
-<cObject>آبجیکٹ</cObject>
-<cSchema>شجرہ</cSchema>
-<tabPage3>SQL سرانجام دیں ۔</tabPage3>
-<label8>کوائف واپس</label8>
-<label7>طلبی نتائج</label7>
-<cmdExportD>کوائف برآمد کریں</cmdExportD>
-<cmdExcecuteQ>طلب کے نفاذ پذیر</cmdExcecuteQ>
-<label4>SQL سلک</label4>
-<cmdClose>بند کریں</cmdClose>
-<this>آلاتی خوانا کیٹلاگ SQL ایکسپلورر</this>
-</marc_sql_explorer_frmMain>
-<marc_sql_explorer_frmOptions>
-<label1>کوائفیہ پیش کار:</label1>
-<label2>صارف کا نام:</label2>
-<label3>پاس ورڈ:</label3>
-<cmdSave>محفوظ کریں</cmdSave>
-<cmdClose>بند کریں</cmdClose>
-<this>ایس کیو ایل کے اختیارات:</this>
-</marc_sql_explorer_frmOptions>
-<me_tabbed_frmldr>
-<label1>لڈر</label1>
-<cmd_OK>ٹھيک ہے</cmd_OK>
-<cmd_Close>بند کریں</cmd_Close>
-<checkBox1>یونامآرک</checkBox1>
-<this>لڈر/008 تدوین کریں</this>
-</me_tabbed_frmldr>
-<me_tabbed_frmMain>
-<groupBox4>اختیارات</groupBox4>
-<ck_unicode>انکوڈ UTF-8</ck_unicode>
-<linkLabel1>لڈر/008 تدوین کریں</linkLabel1>
-<groupBox3>تحدید کار اقدار</groupBox3>
-<P2_lb_Other>کردار:</P2_lb_Other>
-<P2_lb_Delimiter>تحدید کار:</P2_lb_Delimiter>
-<P2_txt_qualifier>کوالیفائنگ</P2_txt_qualifier>
-<lbSheet>ایکسل شیٹ کا نام:</lbSheet>
-<P2_cmd_Cancel>منسوخ کریں</P2_cmd_Cancel>
-<P2_cmd_Next>اگلا</P2_cmd_Next>
-<P2_lb_output>آؤٹ پٹ مسل:</P2_lb_output>
-<P2_Import>ماخذ مسل:</P2_Import>
-<groupBox2>دلائل</groupBox2>
-<lnkAuto>خود پیدا</lnkAuto>
-<ck_filing_characters>عام ننفالانگ کے ڈیٹا کا حساب کریں</ck_filing_characters>
-<ck_sort>قطعات نہیں چھانٹ</ck_sort>
-<P3_ck_save_args>سا نچہ محفوظ کریں</P3_ck_save_args>
-<button2>لوڈ سانچا</button2>
-<toolStripMenuItem2>شے کی تدوین کریں</toolStripMenuItem2>
-<deleteItemsToolStripMenuItem>اشیا حذف کریں</deleteItemsToolStripMenuItem>
-<joinItemsToolStripMenuItem>اشیاء میں شامل</joinItemsToolStripMenuItem>
-<label1>کوائف سنیپشاٹ</label1>
-<groupBox1>سیٹنگیں</groupBox1>
-<ck_Repeatable>ریپیتبلی سبفیلڈ</ck_Repeatable>
-<P3_ck_constant>مسلسل کوائف</P3_ck_constant>
-<P3_cmd_Apply>دلیل کا ا ضافہ کریں</P3_cmd_Apply>
-<P3_lb_punct>اصطلاح ہے ۔ رموز اوقاف:</P3_lb_punct>
-<P3_txt_indicators>\\\\</P3_txt_indicators>
-<P3_lb_indicators>اشارے:</P3_lb_indicators>
-<P3_mapto>میپ کریں:</P3_mapto>
-<P3_lb_select>منتخب کریں:</P3_lb_select>
-<P3_cmd_Cancel>منسوخ کریں</P3_cmd_Cancel>
-<P3_cmd_finish>تکمیل</P3_cmd_finish>
-<this>مآرکاداٹ تحدیدی متن مترجم</this>
-</me_tabbed_frmMain>
-<me_tabbed_frmStatus>
-<lbCaption>label1</lbCaption>
-</me_tabbed_frmStatus>
-<mebatch_frmMain>
-<lnkAbout>وصول کار کے بارے میں</lnkAbout>
-<lnkOptions>سیٹ کریں اختیارات</lnkOptions>
-<lnkModify>ڈیٹا بیس میں ترمیم کریں</lnkModify>
-<lnkBatch>بیچ موڈ</lnkBatch>
-<lnkSingle>تلاش کریں موڈ</lnkSingle>
-<lb_b_char>پیش کار کریکٹر سیٹ کریں</lb_b_char>
-<cmb_b_encoding>MARC8</cmb_b_encoding>
-<ck_b_unicode>یونی کوڈ باز گیر کریں</ck_b_unicode>
-<Modify>میں ترمیم کریں</Modify>
-<Database>مقامی کوائفیہ منتخب کریں</Database>
-<rd_custom>اپنی مرضی کے مطابق</rd_custom>
-<rd_title>تلاش کا عنوان/مصنف</rd_title>
-<rd_issn>تلاش ٹیلی/اسسن</rd_issn>
-<label1>تلاش کی اقسام</label1>
-<lbBDest>مقصود مسل:</lbBDest>
-<lbBSource>ماخذ مسل:</lbBSource>
-<lbBTitle>بیچ کی تلاش کی سہولت</lbBTitle>
-<lbStartrec>سترٹریکورد</lbStartrec>
-<lnkGetNext>اگلا {حد سے متجاوز ہو</lnkGetNext>
-<lbMaxRecs>مکسممریکوردس</lbMaxRecs>
-<lnkClearResults>نتائج کو صاف کریں</lnkClearResults>
-<groupBox3>کے نتائج</groupBox3>
-<col1>شناخت</col1>
-<col2>عنوان</col2>
-<col3>کوائفیہ</col3>
-<mnuGroupDisplay>ڈسپلے کا ریکارڈ منتخب</mnuGroupDisplay>
-<mnuGroupDownload>ڈاؤن لوڈ، اتارنا ریکارڈ منتخب</mnuGroupDownload>
-<mnuDownloadAll>تمام ریکارڈ ڈاؤن لوڈ، اتارنا</mnuDownloadAll>
-<groupBox1>اختیارات</groupBox1>
-<lb_encoding_single>پیش کار کریکٹر سیٹ کریں</lb_encoding_single>
-<cmd_encoding>MARC8</cmd_encoding>
-<ckUnicode>یونی کوڈ باز گیر کریں</ckUnicode>
-<rdEditDB>کوائفیہ منتخب کریں</rdEditDB>
-<rdEditSettings>سیٹنگوں کی تدوین کریں</rdEditSettings>
-<lbSearchb>تلاش کریں:</lbSearchb>
-<lbSearch>کوائفیہ طلب:</lbSearch>
-<ck_automatic>خود بخود سیٹنگیں کھوج لگائیں</ck_automatic>
-<lbProxy>پراکسی:</lbProxy>
-<lbExample>نمونہ کے نتائج:</lbExample>
-<button2>بند کریں</button2>
-<button1>ٹھيک ہے</button1>
-<lbSaveFile>مسل محفوظ کریں:</lbSaveFile>
-<lbLimit>حد:</lbLimit>
-<lbTitleOption>عنوان:</lbTitleOption>
-<lbSetupTitle>اختیارات دکھائیں</lbSetupTitle>
-<lnkSelectList>وسیلہ منتخب کریں</lnkSelectList>
-<lnkMClose>بند کریں</lnkMClose>
-<lnkMDelete>کوائفیہ حذف کریں</lnkMDelete>
-<lnkMModify>کوائفیہ میں ترمیم کریں</lnkMModify>
-<lbmOptions>اختیارات:</lbmOptions>
-<lnkMAdd>کوائفیہ کا ا ضافہ کریں</lnkMAdd>
-<MCol3>شناخت</MCol3>
-<MCol1>نام</MCol1>
-<MCol2>قسم</MCol2>
-<lb_PModifyTitle>کوائفیہ منتخب کریں:</lb_PModifyTitle>
-<aboutbox>richTextBox1</aboutbox>
-<importFromMasterListToolStripMenuItem>ماسٹر فہرست سے درآمد کریں</importFromMasterListToolStripMenuItem>
-<addNewZ3950ServerToolStripMenuItem>Z39.50 کے نیا پیش کار ا ضافہ کریں</addNewZ3950ServerToolStripMenuItem>
-<addSRUServerToolStripMenuItem>و سرور کا ا ضافہ کریں</addSRUServerToolStripMenuItem>
-<this>مآرکاداٹ Z39.50 وصول کار</this>
-</mebatch_frmMain>
-<mebatch_frmOverwrite>
-<cmdAppend>الحاق کریں</cmdAppend>
-<cmdOverwrite>اوپر تحریر کریں</cmdOverwrite>
-<cmdClose>بند کریں</cmdClose>
-<label1>برآمد کریں مسل موجود ہے ۔  آپ اوپر تحریر کریں یا حالیہ مسل سے الحاق کرنا چاہتے ہیں ۔</label1>
-<this>مسل موجود ہے</this>
-</mebatch_frmOverwrite>
-<mebatch_frmProperties>
-<tabDBProps>خواص کوائفیہ</tabDBProps>
-<ck_Paused>توقف (6 سیکنڈز) زیر کریں</ck_Paused>
-<label1>کوائفیہ:</label1>
-<ck_Show>ڈیٹا بیس کی نمایش کریں</ck_Show>
-<lbPassword>پاس ورڈ:</lbPassword>
-<lbUsername>صارف کا نام:</lbUsername>
-<lbSyntax>نحو:</lbSyntax>
-<lbPort>دہانہ:</lbPort>
-<lbHost>میزبان:</lbHost>
-<lbname>نام:</lbname>
-<tabDBAdvanced>اعلی خواص</tabDBAdvanced>
-<label4>(سیکنڈ) میں ٹائم آؤٹ:</label4>
-<label2>عنصر سیٹ:</label2>
-<label3>دیگر اختیارات:</label3>
-<lnkftp>http://www.loc.gov/z3950/agency/defns/bib1.html</lnkftp>
-<lbInfo>مزید معلومات:</lbInfo>
-<lbISBN>ٹیلی اسسن:</lbISBN>
-<lbSubject>موضوع:</lbSubject>
-<lbTitle>عنوان:</lbTitle>
-<lbAuthor>تخلیق کار:</lbAuthor>
-<lbadvTitle>Z39.50 وصف 4: ڈھانچہ</lbadvTitle>
-<cmdSave>محفوظ کریں</cmdSave>
-<cmdClose>بند کریں</cmdClose>
-<this>خواص کوائفیہ</this>
-</mebatch_frmProperties>
-<mebatch_frmRecord>
-<lnkDownload>ریکارڈ ڈاؤن لوڈ، اتارنا</lnkDownload>
-<lnkClose>بند کریں</lnkClose>
-<lbSave>مسل محفوظ کریں:</lbSave>
-<ck_Append>الحاق کریں</ck_Append>
-<this>آلاتی خوانا کیٹلاگ ریکارڈ منظر</this>
-</mebatch_frmRecord>
-<mebatch_frmresults>
-<cmd_close>بند کریں</cmd_close>
-</mebatch_frmresults>
-<mebatch_frmStatus>
-<lbCaption>label1</lbCaption>
-<this>حالت</this>
-</mebatch_frmStatus>
-<mebatch_SRUProps>
-<lbSRUTitle>خواص کوائفیہ:</lbSRUTitle>
-<label1>URL:</label1>
-<lbMetadata>مابعد کوائف شجرہ:</lbMetadata>
-<lbName>نام:</lbName>
-<cmdSave>محفوظ کریں</cmdSave>
-<cmdClose>بند کریں</cmdClose>
-<lbVersion>ورژن:</lbVersion>
-<label2>تلاش پروفائل:</label2>
-<label3>اضافی پیرامیٹر</label3>
-<this>و خواص</this>
-</mebatch_SRUProps>
 </marcedit>

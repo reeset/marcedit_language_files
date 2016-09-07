@@ -15,7 +15,6 @@
 <this>Fältet Count</this>
 </MarcEdit_Field_Count>
 <MarcEdit_FindReplace>
-<tbFind>Hitta</tbFind>
 <groupBox3>Riktning:</groupBox3>
 <rd_down>Ner</rd_down>
 <rd_up>Upp</rd_up>
@@ -24,15 +23,19 @@
 <ck_f_whole_word>Hitta hela ord</ck_f_whole_word>
 <ck_find_regex>Reguljära uttryck</ck_find_regex>
 <ck_f_match_case>Matcha gemener/VERSALER</ck_f_match_case>
-<lbPreview>Hitta endast sökningar inlästa data i förhandsgranskningsläge.</lbPreview>
 <cmdFClose>Stäng</cmdFClose>
 <cmdFFind>Hitta</cmdFFind>
 <lb_FindWhat>Hitta vad:</lb_FindWhat>
-<tbReplace>Ersätt</tbReplace>
+<cmdNav_Find>Hitta</cmdNav_Find>
+<cmdReplaceNav>Ersätta</cmdReplaceNav>
+<ckReplaceConditional>Utföra Sök/Ersätt om...</ckReplaceConditional>
+<cmbCondOpt>REGEX</cmbCondOpt>
+<label1>Om:</label1>
 <cmd_R_Close>Stäng</cmd_R_Close>
 <cmd_R_All>Ersätt alla</cmd_R_All>
 <cmd_R_Replace>Ersätt</cmd_R_Replace>
 <groupBox2>Sökalternativ:</groupBox2>
+<ckFile>Använda externa Sök/Ersätt kriterier</ckFile>
 <ck_R_RegExp>Reguljära uttryck</ck_R_RegExp>
 <ck_R_Case>Matcha gemener/VERSALER</ck_R_Case>
 <lb_ReplaceWith>Ersätt med:</lb_ReplaceWith>
@@ -140,6 +143,7 @@
 <cmd_A_Add>Lägg till fältet</cmd_A_Add>
 <cmd_A_Delete>Ta bort fält</cmd_A_Delete>
 <groupBox1>Alternativ:</groupBox1>
+<ck_A_addifnotduplicate>Lägg till fältet endast om inte en dubblett</ck_A_addifnotduplicate>
 <ck_delete_batch>Bearbeta satsvis</ck_delete_batch>
 <ck_AddIfPresent>Lägg till fältet om nuvarande</ck_AddIfPresent>
 <ck_RemoveIfNot>Ta bort om fältdata inte matchar</ck_RemoveIfNot>
@@ -197,6 +201,7 @@
 <label14>Delfältet:</label14>
 <lbFindInField>Hitta i fältet</lbFindInField>
 <groupBox4>Alternativ</groupBox4>
+<ck_copy_field_regex>Reguljära uttryck</ck_copy_field_regex>
 <ck_copy_delete>Ta bort källfält</ck_copy_delete>
 <label2>Målfältet:</label2>
 <cmdCopyClose>Stäng</cmdCopyClose>
@@ -237,9 +242,14 @@
 <cmdProcess>Processen</cmdProcess>
 <cmdCancel>Avbryt</cmdCancel>
 <groupBox1>ID-tjänster</groupBox1>
+<ck3xxFields>Processen 3xx fält</ck3xxFields>
+<label4>OCLC nummer:</label4>
+<ckWorkId>Bädda in OCLC arbets-ID</ckWorkId>
+<cmb_viaf_index>LC (NACO)</cmb_viaf_index>
+<ckAutodetect>Autodetektera angående ID</ckAutodetect>
 <ck_viaf>OCLC VIAF</ck_viaf>
 <ck_loc>Amerikanska Library of Congress (id.loc.gov)</ck_loc>
-<ckAutodetect>Autodetektera angående ID</ckAutodetect>
+<label5>Regelfilen:</label5>
 <this>Bygga länkade poster</this>
 </MarcEdit_frmBuildLinks>
 <MarcEdit_frmCatalogCalculator>
@@ -250,30 +260,43 @@
 <label1>LC fräsar</label1>
 <this>Katalogisering kalkylatorn</this>
 </MarcEdit_frmCatalogCalculator>
+<MarcEdit_frmCharacterDetection>
+<label1>Karaktär Detection Tool använder en heuristiska process för att ge en bästa gissning förbindelser </label1>
+<cmdDetect>Upptäcka</cmdDetect>
+<cmdClose>Stäng</cmdClose>
+<label2>Resultat:</label2>
+<ckDetailed>Verbose resultat</ckDetailed>
+<this>Karaktär upptäckt</this>
+</MarcEdit_frmCharacterDetection>
 <MarcEdit_frmClassify>
 <label1>Denna tjänst använder sig av OCLC: s klassificera webbtjänst.  Klassificering rekommendationer genereras genom att skicka OCLC ett kontrollnummer från posten.  OCLC: s webservice kommer att återgå till MarcEdit antingen Dewey Decimal eller LC klassificering oftast förknippas med denna post.</label1>
 <lnkClassify>Om OCLC: s klassificera Service</lnkClassify>
-<label2>Insättningspunkten instruktioner:</label2>
 <ck_all>Lägg till alla poster</ck_all>
 <ck_single>Lägg till valda posten</ck_single>
 <ck_lc>Library of Congress</ck_lc>
 <ck_dewey>Dewey Decimal</ck_dewey>
-<label3>Klassificeringar:</label3>
 <cmdProcess>Klassificera</cmdProcess>
 <cmdClose>Stäng</cmdClose>
 <label5>Om följande fält inte är närvarande (exempel: 050 060 090; 092)</label5>
 <label4>Infoga genererade klassificeringar i följande fält:</label4>
-<label7>Alternativ:</label7>
 <ck_cutters>Beräkna fräsar och datum</ck_cutters>
 <ck_use_z>Använda delfält z för att matcha</ck_use_z>
 <ck_DateMod>Lägg till flaggan till datum</ck_DateMod>
 <ck_omit_serial>Utelämna datum för serier</ck_omit_serial>
 <ck_omit_integrated>Utelämna datum för integrerad resurser</ck_omit_integrated>
 <ck_omit>Lägg till datum undantag</ck_omit>
-<label8>Ämnesord:</label8>
 <ck_always_fast>Alltid lägga till snabba rubriker</ck_always_fast>
 <ck_conditional_fast>Lägg till snabba rubriker när inga ämnesord är närvarande</ck_conditional_fast>
 <label6>Indikatorer:</label6>
+<cmdInsert>Insättningspunkten instruktioner</cmdInsert>
+<cmdClassification>Klassificeringar</cmdClassification>
+<cmdSubjects>Ämnesord</cmdSubjects>
+<lnkClassification>Välj klassificering</lnkClassification>
+<lnkSubjects>Välj alternativ för ämnet</lnkSubjects>
+<lnkOptions>Ange alternativ</lnkOptions>
+<cmdOptions>Alternativ</cmdOptions>
+<label2>Insättningspunkten instruktioner:</label2>
+<label3>Klassificeringar:</label3>
 <this>Generera klassificering</this>
 </MarcEdit_frmClassify>
 <MarcEdit_frmConstantData>
@@ -317,6 +340,17 @@
 <label2>Rekord Deduplication verktyg</label2>
 <this>Rekord Deduplication</this>
 </MarcEdit_frmDedup>
+<MarcEdit_frmOpenRefine>
+<label1>Använda verktyget för att flytta data mellan MARC eller Marcedit's Mnemonic Format och OpenRef </label1>
+<label2>Källfilen:</label2>
+<label3>Spara filen:</label3>
+<rdExport>Exportera till OpenRefine</rdExport>
+<rdImport>Importera från OpenRefine</rdImport>
+<cmdProcess>Processen</cmdProcess>
+<cmdCancel>Stäng</cmdCancel>
+<lbStatus>Status:</lbStatus>
+<this>OpenRefine Data överföringsverktyget</this>
+</MarcEdit_frmOpenRefine>
 <MarcEdit_frmExportSettings>
 <label1>Välj filer till resurs:</label1>
 <ckconfig>Konfigurationsalternativ</ckconfig>
@@ -342,6 +376,19 @@
 <lb_result_num>{search_string} var hittade {#} gånger.</lb_result_num>
 <this>Hitta alla resultat</this>
 </MarcEdit_frmFindAllResults>
+<MarcEdit_frmGenerateCutters>
+<cmdProcess>Processen</cmdProcess>
+<cmdClose>Stäng</cmdClose>
+<lbField>Ange fältet appellen numrerar att utvärdera. (ex. 090)</lbField>
+<groupBox1>Alternativ</groupBox1>
+<rdTitle>Skärare ordning (2xx, 1xx)</rdTitle>
+<rdDefault>Skärare ordning (1xx, 2xx)</rdDefault>
+<groupBox2>Alternativ</groupBox2>
+<rdMainEntry>Utvärdera huvudposten (1xx, 245)</rdMainEntry>
+<rdCustomField>Anpassat fält</rdCustomField>
+<label1>Hitta:</label1>
+<this>Generera fräsar</this>
+</MarcEdit_frmGenerateCutters>
 <MarcEdit_frmHarvestBatch>
 <label1>Definierade OAI-servrar:</label1>
 <label2>(Använd Skift/SKIFT + kontroll för att markera flera objekt)</label2>
@@ -407,20 +454,29 @@
 <toolStripMenuItem7>Starta om MarcEdit i 32-bitarsläge</toolStripMenuItem7>
 <mnuFileExit>Exit</mnuFileExit>
 <mnuTools>Verktyg</mnuTools>
-<mnuToolsSelect>Välj MARC poster</mnuToolsSelect>
-<mnuToolsDelete>Ta bort markerade poster</mnuToolsDelete>
-<mnuToolsExtract>Extrahera markerade poster</mnuToolsExtract>
 <mnuExportGroup>Exportera...</mnuExportGroup>
 <mnuToolsTabbed>Export Tab avgränsad poster</mnuToolsTabbed>
 <mnuToolsGateway>Exportera MARC post</mnuToolsGateway>
+<mnuToolsSelect>Välj MARC poster</mnuToolsSelect>
+<mnuToolsDelete>Ta bort markerade poster</mnuToolsDelete>
+<mnuToolsExtract>Extrahera markerade poster</mnuToolsExtract>
 <mnuToolsBatch>Batch Process poster</mnuToolsBatch>
+<mnuToolsCharacterConversion>Karaktär-konvertering verktyg</mnuToolsCharacterConversion>
+<mnuToolCharacterConversionConversionTools>Teckenkonvertering</mnuToolCharacterConversionConversionTools>
+<characterDetectionToolStripMenuItem>Karaktär upptäckt</characterDetectionToolStripMenuItem>
 <mnuGenerateCallnumber>Generera samtal nummer</mnuGenerateCallnumber>
 <toolStripMenuItem3>Generera snabba rubriker</toolStripMenuItem3>
 <mnuToolsDedup>Hitta dubblettposter</mnuToolsDedup>
 <toolStripMenuItem6>OCLC verksamhet</toolStripMenuItem6>
+<oCLCRecordDownloaderToolStripMenuItem>OCLC rekord Downloader</oCLCRecordDownloaderToolStripMenuItem>
 <updateWorldCatRecordHoldingsToolStripMenuItem>Uppdatera WorldCat post Holdings</updateWorldCatRecordHoldingsToolStripMenuItem>
 <uploadBibliographRecordsToWorldCatToolStripMenuItem>Ladda upp Bibliograph poster till WorldCat</uploadBibliographRecordsToWorldCatToolStripMenuItem>
+<openRefineToolStripMenuItem>OpenRefine</openRefineToolStripMenuItem>
+<mnuToolOpenRefineExport>Exportera</mnuToolOpenRefineExport>
+<mnuToolOpenRefineImport>Import</mnuToolOpenRefineImport>
 <toolStripMenuItem5>RDA Helper</toolStripMenuItem5>
+<mnuToolsUnimarcTools>UNIMARC verktyg</mnuToolsUnimarcTools>
+<mnuToolsValidateHeadings>Validera rubriker</mnuToolsValidateHeadings>
 <toolStripMenuItem8>MARCCompare</toolStripMenuItem8>
 <mnuToolsJoin>MARCJoin</mnuToolsJoin>
 <mnuToolsSplit>MARCSplit</mnuToolsSplit>
@@ -470,17 +526,20 @@
 <lnkHomepage>http://marcedit.reeset.net</lnkHomepage>
 <label5>URL:</label5>
 <label2>Tack:</label2>
+<lb_modified>.</lb_modified>
 <lbMod>Ändrad:</lbMod>
 <lbMailto>Terry Reese</lbMailto>
 <lbAuthor>Författare:</lbAuthor>
 <lbVersion>Version:</lbVersion>
 <label3>|</label3>
 <label4>Om MarcEdit</label4>
+<lnkSPARQL>SPARQL webbläsare</lnkSPARQL>
 <lnkLinkIds>Länk-ID</lnkLinkIds>
 <lnkJsonObject>JSON objekt Viewer</lnkJsonObject>
 <lnkBibframe>BibFrame testbädd</lnkBibframe>
 <label7>|</label7>
 <label8>MARCNext:</label8>
+<mnuHelpDeleteTempFiles>Rensa temporära filer</mnuHelpDeleteTempFiles>
 <this>MarcEdit av Terry Reese</this>
 </MarcEdit_frmMain>
 <MarcEdit_frmOAIHarvest>
@@ -501,8 +560,16 @@
 <lbCrosswalk>Övergångsställe sökväg:</lbCrosswalk>
 <lnkAdvanced>Avancerade inställningar</lnkAdvanced>
 <cmdSave>Spara</cmdSave>
+<lnkDebug>Felsöka URL</lnkDebug>
 <this>Metadata skördare</this>
 </MarcEdit_frmOAIHarvest>
+<MarcEdit_frmOCLCBulkDownload>
+<label1>Källfilen OCLC nummer:</label1>
+<cmdDownload>Hämta</cmdDownload>
+<cmdClose>Stäng</cmdClose>
+<label2>Spara filen:</label2>
+<this>Bulk hämta de poster från OCLC</this>
+</MarcEdit_frmOCLCBulkDownload>
 <MarcEdit_frmOCLCSearchWorldCat>
 <label1>Sök WorldCat:</label1>
 <cmbarg1>sökord</cmbarg1>
@@ -602,6 +669,7 @@
 <lb_Engine_XML_Options>XML-alternativ:</lb_Engine_XML_Options>
 <ck_engine_namespace>Använda Namespace</ck_engine_namespace>
 <lb_Global_XSLT_Path>MARCXML XSLT:</lb_Global_XSLT_Path>
+<labelAutoUpdateDisabled>Automatiska uppdateringar har inaktiverats av din system Administrator</labelAutoUpdateDisabled>
 <ckDetectProxy>Använda systemet proxy-inställningar</ckDetectProxy>
 <ck_Update_Validator>Automatisk Check för valideraren uppdateringar</ck_Update_Validator>
 <label3>Du måste tillhöra en domän för detta att arbeta vid denna tid.</label3>
@@ -621,16 +689,12 @@
 <ck_mrk8_editor>Associera (*.mrk8) filer med MarcEditor</ck_mrk8_editor>
 <ck_mrk_editor>Associera (*.mrk) filer med MarcEditor</ck_mrk_editor>
 <ck_mrc>Associera (*.mrc) filer med MarcBreaker</ck_mrc>
-<label26>Uppgifter-mappen:</label26>
-<label25>Nätverksmappar:</label25>
-<ck_allow_z3950>Aktivera Z39.50 funktioner</ck_allow_z3950>
-<label1>Kontroll nummer Tag:</label1>
-<lbCall>Appellen numrerar Tag:</lbCall>
-<lb_mono>MONO sökväg:</lb_mono>
-<lb_Author>Författare Tag:</lb_Author>
-<lb_title>Title-taggen:</lb_title>
-<lb_temp>Ange sökväg för temporära:</lb_temp>
-<ck_rss>Läsa RSS-flöde</ck_rss>
+<label33>|</label33>
+<lnkSelectILS>Välj</lnkSelectILS>
+<lnkDeleteProfile>Ta bort</lnkDeleteProfile>
+<label32>|</label32>
+<lnkAddProfile>Lägg till</lnkAddProfile>
+<label31>Profiler:</label31>
 <ck_ignore_ssl>Ignorera SSL certifikatfel</ck_ignore_ssl>
 <lnk_ils_delete>Ta bort</lnk_ils_delete>
 <label14>|</label14>
@@ -655,6 +719,24 @@
 <label18>Hemlig nyckel (ihopkopplade med Metadata API-nyckel)</label18>
 <label17>OCLC Metadata API-nyckel</label17>
 <label16>OCLC Search API-nyckel</label16>
+<lnkFilePaths>Platser</lnkFilePaths>
+<label30>Ställa in standard MARC verktyg enhetssökväg:</label30>
+<label27>-Sökvägar:</label27>
+<label26>Uppgifter-mappen:</label26>
+<label25>Nätverksmappar:</label25>
+<lb_mono>MONO sökväg:</lb_mono>
+<lb_temp>Ange sökväg för temporära:</lb_temp>
+<ck_rss>Läsa RSS-flöde</ck_rss>
+<lb_title>Title-taggen:</lb_title>
+<lb_Author>Författare Tag:</lb_Author>
+<lbCall>Appellen numrerar Tag:</lbCall>
+<label1>Kontroll nummer Tag:</label1>
+<ck_allow_z3950>Aktivera Z39.50 funktioner</ck_allow_z3950>
+<label28>Alternativ för fältet:</label28>
+<label34>ISBN Tag:</label34>
+<ckSort880>880: använda fält för sortering</ckSort880>
+<ck880Infile>INFILE 880 fält med fältet par</ck880Infile>
+<label29>Sorteringsalternativ:</label29>
 <this>MarcEdit inställningar</this>
 </MarcEdit_frmOptions>
 <MarcEdit_frmPluginManager>
@@ -673,15 +755,28 @@
 <columnHeader4>Version #:</columnHeader4>
 <this>Plugin Manager</this>
 </MarcEdit_frmPluginManager>
+<MarcEdit_frmProxy>
+<label1>resurser. GetString ("label1. Text")</label1>
+<label2>Mönster:</label2>
+<cmdProcess>Processen</cmdProcess>
+<cmdCancel>Avbryt</cmdCancel>
+<ckEscape>Escape data från URL</ckEscape>
+<ckAddNew>Ersätta befintligt fält</ckAddNew>
+<ck_addnewfield>Lägga till ett nytt fält om inte presentera</ck_addnewfield>
+<ckAlwaysAdd>Alltid lägga till nya fält</ckAlwaysAdd>
+<this>Bygga nya fält</this>
+</MarcEdit_frmProxy>
 <MarcEdit_frmQueryLite>
+<label4>Limit</label4>
+<lnkDownload>Hämta alla objekt</lnkDownload>
 <ck_batch>Batch Sök</ck_batch>
 <lbdbtitle>Label2</lbdbtitle>
 <groupBox3>Resultat</groupBox3>
-<lnkDownload>Hämta alla objekt</lnkDownload>
 <lnkClearResults>Tydliga resultat</lnkClearResults>
 <lnkGetNext>Få nästa {gränsen}</lnkGetNext>
 <col1>Position</col1>
 <col2>Titel</col2>
+<downloadSelectedItemsToolStripMenuItem>Hämta valda artiklar</downloadSelectedItemsToolStripMenuItem>
 <groupBox1>Alternativ</groupBox1>
 <lb_encoding_single>Server-teckenuppsättning</lb_encoding_single>
 <cmd_encoding>MARC8</cmd_encoding>
@@ -694,18 +789,20 @@
 <MCol1>Namn</MCol1>
 <MCol2>Typ</MCol2>
 <lb_PModifyTitle>Välj databas:</lb_PModifyTitle>
-<downloadSelectedItemsToolStripMenuItem>Hämta valda artiklar</downloadSelectedItemsToolStripMenuItem>
 <this>Z39.50 Capture</this>
 </MarcEdit_frmQueryLite>
 <MarcEdit_frmRDA>
+<ck_502>Processen av 502</ck_502>
+<label6>|</label6>
+<lnkEditFields>Redigera fält</lnkEditFields>
 <ck_040>Ändra 040--Lägg till $erda</ck_040>
 <ck_qualifyinginfo>Kvalificerade Information (015/020/024/027)</ck_qualifyinginfo>
-<label5>|</label5>
 <lnkEdit>Redigera lista</lnkEdit>
 <ck_dgmd>Ta bort GMD</ck_dgmd>
 <ckAbbrev>Utöka förkortningar</ckAbbrev>
 <ckgmd>Generera GMD</ckgmd>
 <ck264>Utvärdera 260/264</ck264>
+<ck_signs>Använd alltid ©, ℗ symboler</ck_signs>
 <ck381>Lägg till 381--andra</ck381>
 <ck380>Lägg till 380--Form av arbete</ck380>
 <ck347>Lägg till 347--Digital egenskaper</ck347>
@@ -723,7 +820,7 @@ Lägg till 338--transportör typ</ck337>
 <label3>Välj:</label3>
 <label4>|</label4>
 <lnkNone>Ingen</lnkNone>
-<ck_signs>Använd alltid ©, ℗ symboler</ck_signs>
+<label7>Status:</label7>
 <this>RDA Helper</this>
 </MarcEdit_frmRDA>
 <MarcEdit_frmResults>
@@ -740,11 +837,17 @@ Lägg till 338--transportör typ</ck337>
 <label4>Om RobertCompare</label4>
 <label3>|</label3>
 <lnkAbout>Om RobertCompare</lnkAbout>
+<ckSort>Sortera filer</ckSort>
 <cmdClose>Stäng</cmdClose>
 <cmdExecute>Utföra</cmdExecute>
 <label1>Spara filen:</label1>
 <label6>Jämföra filer:</label6>
 <label2>MARCCompare är ett specialverktyg för att bestämma skillnader mellan MARC filer.  För att använda programmet, välj två MARC filer att jämföra versioner av en uppsättning poster.  Mer information om historia av verktyget, eller hur det fick sitt namn, se sidan om.</label2>
+<lnkPreferences>Preferenser</lnkPreferences>
+<label7>|</label7>
+<lbSortField>Sortera fält:</lbSortField>
+<lbdelete>Borttagningar:</lbdelete>
+<lbAddColor>Tillägg:</lbAddColor>
 <this>MARCCompare/RobertCompare</this>
 </MarcEdit_frmRobertCompare>
 <MarcEdit_frmScript>
@@ -754,6 +857,19 @@ Lägg till 338--transportör typ</ck337>
 <btnCancel>Stäng</btnCancel>
 <this>Redigera skript</this>
 </MarcEdit_frmScript>
+<MarcEdit_frmSearchILSGeneric>
+<lnkNone>Ingen</lnkNone>
+<lnkAll>Markera alla</lnkAll>
+<col_title>Titel</col_title>
+<col_id>ID</col_id>
+<label3>|</label3>
+<label2>Resultat:</label2>
+<cmdClose>Stäng</cmdClose>
+<cmdSearch>Sök</cmdSearch>
+<cmbarg1>titel</cmbarg1>
+<label1>Sökdatabas:</label1>
+<this>Sök</this>
+</MarcEdit_frmSearchILSGeneric>
 <MarcEdit_frmSearchXML>
 <cName>Övergångsställe namn</cName>
 <cAuthor>Inskickad av</cAuthor>
@@ -765,6 +881,10 @@ Lägg till 338--transportör typ</ck337>
 <lnkViewAll>Visa alla Crosswalks</lnkViewAll>
 <this>XSLT-övergångsställe sökresultat</this>
 </MarcEdit_frmSearchXML>
+<MarcEdit_frmSelectILS>
+<cmdSelect>Välj</cmdSelect>
+<this>Välj ILS</this>
+</MarcEdit_frmSelectILS>
 <MarcEdit_frmSelectMARCRecords>
 <columnHeader1>Rekordmånga</columnHeader1>
 <columnHeader2>Visa fält</columnHeader2>
@@ -782,6 +902,9 @@ Lägg till 338--transportör typ</ck337>
 <ck_find_all>Sök alla uppgifter</ck_find_all>
 <ck_use_regex>Reguljära uttryck</ck_use_regex>
 <cmdRandomExport>Export slumpmässiga</cmdRandomExport>
+<lnkDoesNotMatch>Matchar inte</lnkDoesNotMatch>
+<label1>|</label1>
+<lnkInvert>Invertera markering</lnkInvert>
 <this>MarcEdit.NET: Ändra valda MARC poster</this>
 </MarcEdit_frmSelectMARCRecords>
 <MarcEdit_frmSort>
@@ -792,6 +915,17 @@ Lägg till 338--transportör typ</ck337>
 <cmd_Close>Stäng</cmd_Close>
 <this>Anpassad sortering guiden</this>
 </MarcEdit_frmSort>
+<MarcEdit_frmSPARQL_Browser>
+<lbsparql>SPARQL slutpunkt:</lbsparql>
+<cmdQuery>Fråga</cmdQuery>
+<cmdClose>Stäng</cmdClose>
+<lbQuery>SPARQL Query:</lbQuery>
+<lbresults>Resultat:</lbresults>
+<cklocal>Ladda lokala fil</cklocal>
+<lbOutput>Utgång:</lbOutput>
+<cmbOutput>XML</cmbOutput>
+<this>SPARQL webbläsare</this>
+</MarcEdit_frmSPARQL_Browser>
 <MarcEdit_frmSpecial_Formats>
 <lb_title>CD-skivor-ISIS =&gt; MARC Översättning</lb_title>
 <groupBox1>Användarindata</groupBox1>
@@ -1095,6 +1229,8 @@ Lägg till 338--transportör typ</ck337>
 <addCopyFieldTaskToolStripMenuItem>Lägga till kopia fältet aktivitet</addCopyFieldTaskToolStripMenuItem>
 <addTaskListToolStripMenuItem>Lägg till uppgiftslista</addTaskListToolStripMenuItem>
 <addRDAHelperToolStripMenuItem>Lägg till RDA Helper</addRDAHelperToolStripMenuItem>
+<addLinkedDataTaskToolStripMenuItem>Lägga till länkade Data uppgift</addLinkedDataTaskToolStripMenuItem>
+<addBuildNewFieldTaskToolStripMenuItem>Lägga till bygga ny fältet uppgift</addBuildNewFieldTaskToolStripMenuItem>
 <lbTasks>Arbetsuppgifter:</lbTasks>
 <label1>Åtgärder:</label1>
 <label2>Beskrivning/kontroller:</label2>
@@ -1104,6 +1240,7 @@ Lägg till 338--transportör typ</ck337>
 <columnHeader1>Namn</columnHeader1>
 <columnHeader2>Sökväg</columnHeader2>
 <columnHeader3>Genväg</columnHeader3>
+<columnHeader4>Beskrivning</columnHeader4>
 <cmdClose>Stäng</cmdClose>
 <lnkNew>Skapa ny aktivitetslista</lnkNew>
 <lbMacro>Uppgiftslistor:</lbMacro>
@@ -1116,7 +1253,6 @@ Lägg till 338--transportör typ</ck337>
 <lnkKey>Viktiga uppdrag</lnkKey>
 <lnkEdit>Redigera valda uppgiftslista</lnkEdit>
 <lnkDelete>Ta bort markerade uppgiftslista</lnkDelete>
-<columnHeader4>Beskrivning</columnHeader4>
 <this>Aktivitetshanteraren</this>
 </MarcEdit_frmTaskManager>
 <MarcEdit_frmTools>
@@ -1129,32 +1265,18 @@ Lägg till 338--transportör typ</ck337>
 <groupBox2>Funktioner</groupBox2>
 <ck_Marc8>Översätta till MARC-8</ck_Marc8>
 <ck_UTF8>Översätta till UTF8</ck_UTF8>
-<toolStrip1>toolStrip1</toolStrip1>
-<toolOpen>Öppna filen</toolOpen>
-<toolSave>Spara filen</toolSave>
-<toolExport>Exportera poster</toolExport>
-<toolHelp>Hjälp</toolHelp>
 <menuStrip1>menuStrip1</menuStrip1>
-<mnuFile>Fil</mnuFile>
-<mnuFileMain>Återgå till huvudfönstret</mnuFileMain>
-<mnuFileOpen>Öppna</mnuFileOpen>
-<mnuFileSave>Spara</mnuFileSave>
-<mnuFileExit>Exit</mnuFileExit>
-<mnuTools>Verktyg</mnuTools>
-<mnuBatchProcessing>Batch Process poster</mnuBatchProcessing>
-<mnuToolsXML>Redigera XML-funktionen lista</mnuToolsXML>
-<mnuToolsEncoding>Karaktär-konvertering verktyg</mnuToolsEncoding>
-<mnuToolsUTF8>MARC8 =&gt; UTF8 konvertering</mnuToolsUTF8>
-<mnuToolsMARC8>Utf8 =&gt; MARC8 omvandling</mnuToolsMARC8>
-<otherConversionsToolStripMenuItem>Andra omvandlingar</otherConversionsToolStripMenuItem>
-<mnutoolsValidator>MARCValidator</mnutoolsValidator>
-<mnutoolsjoin>MARCJoin</mnutoolsjoin>
-<mnutoolssplit>MARCSplit</mnutoolssplit>
-<mnuToolsExport>Exportera MARC poster</mnuToolsExport>
-<mnuToolsExtract>Extrahera markerade poster</mnuToolsExtract>
-<mnuHelp>Hjälp</mnuHelp>
-<mnuHelpContents>Sammanhang och Index</mnuHelpContents>
-<mnuHelpError>Förslag/felrapport</mnuHelpError>
+<toolsToolStripMenuItem>Verktyg</toolsToolStripMenuItem>
+<mnuToolsReturnToMainWindows>Återgå till huvudfönstret</mnuToolsReturnToMainWindows>
+<editXMLFunctionListToolStripMenuItem>Redigera XML-funktionen lista</editXMLFunctionListToolStripMenuItem>
+<mARCValidatorToolStripMenuItem>MARCValidator</mARCValidatorToolStripMenuItem>
+<batchProcessFunctionToolStripMenuItem>Batch Process poster</batchProcessFunctionToolStripMenuItem>
+<characterConversionToolsToolStripMenuItem>Karaktär-konvertering verktyg</characterConversionToolsToolStripMenuItem>
+<mARCCompareToolStripMenuItem>MARCCompare</mARCCompareToolStripMenuItem>
+<mARCJoinToolStripMenuItem>MARCJoin</mARCJoinToolStripMenuItem>
+<mARCSplitToolStripMenuItem>MARCSplit</mARCSplitToolStripMenuItem>
+<uNIMARCToolsToolStripMenuItem>UNIMARC verktyg</uNIMARCToolsToolStripMenuItem>
+<helpToolStripMenuItem>Hjälp</helpToolStripMenuItem>
 <this>MARC verktyg</this>
 </MarcEdit_frmTools>
 <MarcEdit_frmTutorialManager>
@@ -1169,6 +1291,19 @@ Lägg till 338--transportör typ</ck337>
 <lnkClose>Stäng</lnkClose>
 <this>Lokal handledning Manager</this>
 </MarcEdit_frmTutorialManager>
+<MarcEdit_frmUnimarc>
+<label1>MarcEdit innehåller en uppsättning av lite vikt UNIMARC konvertering verktyg.  Om dessa verktyg är av intresse för dig och du skulle vilja bidra till att göra dem bättre, ge f eedback.
+
+</label1>
+<label2>Källa</label2>
+<label3>Destination</label3>
+<groupBox1>Alternativ</groupBox1>
+<rdUNIMARC>UNIMARC =&gt; MARC21</rdUNIMARC>
+<rdMARC21>MARC21 =&gt; UNIMARC</rdMARC21>
+<cmdProcess>Processen</cmdProcess>
+<cmdClose>Stäng</cmdClose>
+<this>UNIMARC verktyg</this>
+</MarcEdit_frmUnimarc>
 <MarcEdit_frmUpdate>
 <label1>Uppdatera anteckningar:</label1>
 <cmd_Update>Uppdatering</cmd_Update>
@@ -1198,6 +1333,8 @@ Lägg till 338--transportör typ</ck337>
 <lb_Split_Folder>Målmappen:</lb_Split_Folder>
 <lb_Split_Source>Källfilen:</lb_Split_Source>
 <lb_Split_Header>MARCSplit verktyg</lb_Split_Header>
+<ckJoinSubfolders>Inkludera undermappar</ckJoinSubfolders>
+<cmdEditFile>Redigera filen</cmdEditFile>
 <lnkJoinedFiles>Visa kopplade filer</lnkJoinedFiles>
 <label19>Filtyper:</label19>
 <ck_JoinIndividual>Gå med enskilda filer</ck_JoinIndividual>
@@ -1206,6 +1343,7 @@ Lägg till 338--transportör typ</ck337>
 <lb_Join_Files>Fil(er) att gå med:</lb_Join_Files>
 <lb_Join_Source>Målfilen:</lb_Join_Source>
 <lb_Join_Header>MARCJoin verktyg</lb_Join_Header>
+<lbJoinStatus>Status:</lbJoinStatus>
 <lb_Tab_Header>Export Tab avgränsad poster</lb_Tab_Header>
 <cmb_sec_del></cmb_sec_del>
 <label18>I fältavgränsare</label18>
@@ -1218,6 +1356,7 @@ Lägg till 338--transportör typ</ck337>
 <mnusave>Spara inställningar</mnusave>
 <menuItem1>-</menuItem1>
 <menuItem3>Rensa inställningar</menuItem3>
+<ckBatchProcessSubfolders>Inkludera undermappar</ckBatchProcessSubfolders>
 <lb_Operation>Funktion:</lb_Operation>
 <cmdBClose>Stäng</cmdBClose>
 <cmdBProcess>Processen</cmdBProcess>
@@ -1235,6 +1374,7 @@ Lägg till 338--transportör typ</ck337>
 <cmdTExport>Exportera</cmdTExport>
 <label2>Steg 2: Definiera fält/delfält till Export</label2>
 <label3>Export Tab avgränsad poster</label3>
+<ckIsUTF8>Unicode-kodade</ckIsUTF8>
 <ck_merge_to_source>Koppla till källa</ck_merge_to_source>
 <label17>Spara filen:</label17>
 <label16>Katalogisering källa</label16>
@@ -1246,45 +1386,37 @@ Lägg till 338--transportör typ</ck337>
 <lb_id>Postidentifierare:</lb_id>
 <lb_merge>Sammanfoga filen:</lb_merge>
 <lb_source>Källfilen:</lb_source>
-<cmd_merge_cancel_2>Avbryt</cmd_merge_cancel_2>
-<cmd_merge_next_2>Nästa =&gt;</cmd_merge_next_2>
-<cmd_merge_back_2>&lt; = Tillbaka</cmd_merge_back_2>
 <label4>Välj det alternativ som bäst beskriver den operation som du vill utföra.</label4>
-<lb_merge_title_2>Kopplad datapost: Steg 2</lb_merge_title_2>
-<groupBox2>Slå ihop filen alternativ</groupBox2>
-<rd_merge_overlay>Sammanfoga och overlay alla data</rd_merge_overlay>
-<rd_merge_delimited>Kopplade avgränsade data</rd_merge_delimited>
-<rd_merge_selected>Sammanfoga markerade fält</rd_merge_selected>
-<rd_merge_all>Sammanfoga alla unika data</rd_merge_all>
+<ck_mergeUnique>Sammanfoga unika objekt</ck_mergeUnique>
 <button1>Avbryt</button1>
 <cmd_merge_select_fields_next>Nästa =&gt;</cmd_merge_select_fields_next>
 <cmd_merge_select_fields_back>&lt; = Tillbaka</cmd_merge_select_fields_back>
-<groupBox3>Ändra alternativ för</groupBox3>
-<label10>till</label10>
-<label12>Delfält</label12>
-<label9>till</label9>
-<label8>Indikatorer</label8>
 <label7>Kopplat fält:</label7>
 <label6>Välj fält:</label6>
 <label5>Kopplad datapost: Välj fält</label5>
-<ck_Repeatable>Repeterbara delfält</ck_Repeatable>
-<ck_sort>Sortera fält</ck_sort>
-<P3_cmd_Cancel>Avbryt</P3_cmd_Cancel>
-<P3_cmd_finish>Slutför</P3_cmd_finish>
-<P3_ck_save_args>Spara mall</P3_ck_save_args>
-<button4>Ladda mall</button4>
-<P3_cmd_Apply>Tillämpa</P3_cmd_Apply>
-<P3_lb_args>Argument</P3_lb_args>
-<P3_lb_punct>Termen. Skiljetecken:</P3_lb_punct>
-<P3_txt_indicators>\\\\</P3_txt_indicators>
-<P3_lb_indicators>Indikatorer:</P3_lb_indicators>
-<P3_mapto>Karta till:</P3_mapto>
-<P3_lb_select>Välj:</P3_lb_select>
 <button5>Stäng</button5>
 <label15>Filer har slagits samman.  Resultaten ligger i {merge_results_file}.</label15>
 <label13>Sammanfoga färdiga</label13>
 <this>Utilties dialogrutan</this>
 </MarcEdit_frmUtilities>
+<MarcEdit_frmValidateHeadings>
+<label1>Rubrikerna valideringsverktyget kan användas för att validera 1xx, 6xx eller 7xx fält.  Th e verktyget använder en kombination av webben och lokala tjänster för att avgöra om en headin g visas i en auktoriserad rubrik.</label1>
+<ck_1xx>Auktorisera 1xx/7xx fält</ck_1xx>
+<ck_6xx>Auktorisera 6xx fält</ck_6xx>
+<cmdProcess>Processen</cmdProcess>
+<cmdClose>Stäng</cmdClose>
+<label2>Källa:</label2>
+<lbStatus>Status:</lbStatus>
+<cmdExtract>Extrahera</cmdExtract>
+<ckdeletecache>Ta bort den lokala cachen</ckdeletecache>
+<lnkDelimited>Spara avgränsad</lnkDelimited>
+<ckonlyA>Endast behandla delfält A</ckonlyA>
+<ckVariant>Korrigera automatiskt varianter</ckVariant>
+<ckGenerateBriefHeadings>Generera en kort personlig namn myndigheterna</ckGenerateBriefHeadings>
+<label3>Genererade myndigheterna:</label3>
+<ckAddURIs>Bädda in URI: er när det är möjligt</ckAddURIs>
+<this>Validera rubriker</this>
+</MarcEdit_frmValidateHeadings>
 <MarcEdit_frmvalidator>
 <lb_Source>Källfilen:</lb_Source>
 <lb_Rules>Regelfilen:</lb_Rules>
@@ -1306,6 +1438,7 @@ Lägg till 338--transportör typ</ck337>
 <lb_Dest>Utdatafilen:</lb_Dest>
 <lb_MARC>Indatafil:</lb_MARC>
 <lb_Fields>Fält:</lb_Fields>
+<lbTimeout>Timeout (i sekunder)</lbTimeout>
 <this>Kontrollera URL</this>
 </MarcEdit_frmVURL>
 <MarcEdit_frm_FASTHeadings>
@@ -1331,6 +1464,7 @@ Lägg till 338--transportör typ</ck337>
 <ck_dates>Datum (positioner: 7-14)</ck_dates>
 <ck_p7>BLvl (position 7)</ck_p7>
 <ck_p6>Typ (position 6)</ck_p6>
+<ck_001>001/019</ck_001>
 <label6>Kontroll nummer</label6>
 <ck_form>Form (positioner: 23)</ck_form>
 <ck_245_h>$h: general Material beteckningen</ck_245_h>
@@ -1429,9 +1563,14 @@ Lägg till 338--transportör typ</ck337>
 <mnuFileClearList>Avmarkera senaste filer</mnuFileClearList>
 <clearEditReplaceHistoryToolStripMenuItem>Klar redigera/byta historia</clearEditReplaceHistoryToolStripMenuItem>
 <mnuFileClose>Stäng</mnuFileClose>
+<mnuFileExportData>Exportera för...</mnuFileExportData>
+<openRefineExport>OpenRefine</openRefineExport>
+<mnuFileImportData>Importera från...</mnuFileImportData>
+<openRefineImport>OpenRefine</openRefineImport>
 <mnuFileSave>Spara</mnuFileSave>
 <mnuFileSaveAs>Spara som...</mnuFileSaveAs>
 <mnuFilePrint>Skriv ut</mnuFilePrint>
+<toolStripMenuItem34>Skriva ut en post Per sida</toolStripMenuItem34>
 <FileSelectIndividualMake>Markera enskilda post(er) att göra</FileSelectIndividualMake>
 <mnuFileCompile>Kompilera filen till MARC</mnuFileCompile>
 <mnuFileExit>Exit</mnuFileExit>
@@ -1455,7 +1594,12 @@ Lägg till 338--transportör typ</ck337>
 <capitalizeInitialCharacterToolStripMenuItem>Kapitalisera ursprungliga karaktär</capitalizeInitialCharacterToolStripMenuItem>
 <fieldEditsToolStripMenuItem>Fältet redigeringar</fieldEditsToolStripMenuItem>
 <findRecordsMissingFieldToolStripMenuItem>Hitta poster saknas fältet</findRecordsMissingFieldToolStripMenuItem>
+<toolStripMenuItem39>Hitta poster med dubblettaggar</toolStripMenuItem39>
+<toolStripMenuItem40>Hitta poster med dubbla fältdata</toolStripMenuItem40>
+<mnuEditLimitFields>Begränsa antalet fält</mnuEditLimitFields>
 <swapTitleToolStripMenuItem>Byta titel</swapTitleToolStripMenuItem>
+<mathFunctionsToolStripMenuItem>Matematiska funktioner</mathFunctionsToolStripMenuItem>
+<convertToDecimalDegreesToolStripMenuItem>Konvertera till decimalgrader</convertToDecimalDegreesToolStripMenuItem>
 <mnuEditJumpTo>Hoppa till...</mnuEditJumpTo>
 <jumpToRecordToolStripMenuItem>Hoppa till...Posten</jumpToRecordToolStripMenuItem>
 <jumpToPageToolStripMenuItem>Hoppa till...Sida</jumpToPageToolStripMenuItem>
@@ -1488,9 +1632,6 @@ Lägg till 338--transportör typ</ck337>
 <mnuEditSelectAll>Markera alla</mnuEditSelectAll>
 <mnuEditWrap>Radbrytning</mnuEditWrap>
 <mnuEditRTL>Visa höger till vänster</mnuEditRTL>
-<mnuEditInfo>MARC information</mnuEditInfo>
-<mnuEditInfoOCLC>OCLC MARC hjälp</mnuEditInfoOCLC>
-<mnuEditInfoLC>Amerikanska Library of Congress MARC hjälp</mnuEditInfoLC>
 <mnuFont>Teckensnitt</mnuFont>
 <mnuFontFont>Teckensnitt...</mnuFontFont>
 <mnuFontColor>Färg...</mnuFontColor>
@@ -1508,10 +1649,18 @@ Lägg till 338--transportör typ</ck337>
 <soundRecordingsToolStripMenuItem>Ljudinspelningar</soundRecordingsToolStripMenuItem>
 <visualMaterialsToolStripMenuItem>Visuella material</visualMaterialsToolStripMenuItem>
 <mARCValidatorToolStripMenuItem>MARCValidator</mARCValidatorToolStripMenuItem>
+<validateISBNSToolStripMenuItem>Validera ISBN</validateISBNSToolStripMenuItem>
+<validateISSNSToolStripMenuItem>Validera ISSN</validateISSNSToolStripMenuItem>
+<validateHeadingsToolStripMenuItem>Validera rubriker</validateHeadingsToolStripMenuItem>
 <mnuTools>Verktyg</mnuTools>
+<mnutoolCutters>Cuttering verktyg</mnutoolCutters>
 <mnuToolsCalculator>Katalogen kalkylatorn</mnuToolsCalculator>
+<generateCuttersToolStripMenuItem>Generera fräsar</generateCuttersToolStripMenuItem>
+<sanbornTable3CuttersToolStripMenuItem>Sanborn tabell 3 fräsar</sanbornTable3CuttersToolStripMenuItem>
 <mnuToolsCallNum>Generera samtal nummer</mnuToolsCallNum>
 <mnuToolsControlNumber>Generera kontroll nummer</mnuToolsControlNumber>
+<toolStripMenuItem33>Länkade Dataverktyg</toolStripMenuItem33>
+<buildLinkedRecordsToolStripMenuItem>Skapa länkade poster</buildLinkedRecordsToolStripMenuItem>
 <mnuToolsRDAHelpers>RDA Helper</mnuToolsRDAHelpers>
 <mnuToolsEditConstant>Redigera konstant Data</mnuToolsEditConstant>
 <mnuToolsAssigned>Tilldelade konstant Data</mnuToolsAssigned>
@@ -1526,7 +1675,7 @@ Lägg till 338--transportör typ</ck337>
 <mnuConstant9>9) odefinierad sträng</mnuConstant9>
 <mnuConstant10>10) odefinierad sträng</mnuConstant10>
 <mnutoolmanageAutomate>Hantera uppgifter</mnutoolmanageAutomate>
-<mnutoolassignTasks>Tilldelade aktiviteter</mnutoolassignTasks>
+<mnuToolsAssignedTasks>Tilldelade aktiviteter</mnuToolsAssignedTasks>
 <mnuDefTask>För närvarande finns uppgifter</mnuDefTask>
 <task1>1) odefinierad uppgift</task1>
 <task2>2) odefinierad uppgift</task2>
@@ -1538,6 +1687,16 @@ Lägg till 338--transportör typ</ck337>
 <task8>8) odefinierad uppgift</task8>
 <task9>9) odefinierad uppgift</task9>
 <task10>10) odefinierad uppgift</task10>
+<task11>11) odefinierad uppgift</task11>
+<task12>12) odefinierad uppgift</task12>
+<task13>13) odefinierad uppgift</task13>
+<task14>14) odefinierad uppgift</task14>
+<task15>15) odefinierad uppgift</task15>
+<task16>16) odefinierad uppgift</task16>
+<task17>17) odefinierad uppgift</task17>
+<task18>18) odefinierad uppgift</task18>
+<task19>19) odefinierad uppgift</task19>
+<task20>20) odefinierad uppgift</task20>
 <mnuToolsZ3950>Z39.50/SRU alternativ</mnuToolsZ3950>
 <marcEditZ3950SRUClientToolStripMenuItem>MarcEdit Z39.50/SRU-klient</marcEditZ3950SRUClientToolStripMenuItem>
 <importRecordToolStripMenuItem>Z39.50 importpost</importRecordToolStripMenuItem>
@@ -1553,6 +1712,7 @@ Lägg till 338--transportör typ</ck337>
 <normalizeMicrolifRecordsToolStripMenuItem>Normalisera Microlif poster</normalizeMicrolifRecordsToolStripMenuItem>
 <mnuToolsRemoveEmpty>Ta bort tomma fält/delfält</mnuToolsRemoveEmpty>
 <mnuToolsAdd>Lägg till/ta bort fält</mnuToolsAdd>
+<mnuFieldEditsBuildProxy>Bygga nytt fält</mnuFieldEditsBuildProxy>
 <toolStripMenuItem26>Kopiera fältet</toolStripMenuItem26>
 <mnuToolsEditField>Redigera fältdata</mnuToolsEditField>
 <mnuToolsIndicator>Redigera indikator Data</mnuToolsIndicator>
@@ -1578,6 +1738,10 @@ Lägg till 338--transportör typ</ck337>
 <pluginsToolStripMenuItem>Plug-ins</pluginsToolStripMenuItem>
 <mnuHelp>Hjälp</mnuHelp>
 <mnuHelpContents>Innehåll och hjälp</mnuHelpContents>
+<mnuEditInfo>MARC information</mnuEditInfo>
+<mnuEditInfoOCLC>OCLC MARC hjälp</mnuEditInfoOCLC>
+<mnuHelpRDAToolkit>RDA Toolkit</mnuHelpRDAToolkit>
+<mnuEditInfoLC>Amerikanska Library of Congress MARC hjälp</mnuEditInfoLC>
 <label1>Poster per sida</label1>
 <lblPage>sidor</lblPage>
 <btnPre>&lt;</btnPre>
@@ -1627,206 +1791,4 @@ Lägg till 338--transportör typ</ck337>
 <opt_msxml>MSXML</opt_msxml>
 <this>Redigera XML-funktioner</this>
 </MarcEdit_xml_functions>
-<marc_sql_explorer_frmMain>
-<tabPage1>Läsa in Data</tabPage1>
-<ckexpanded>Använda utökade tabellschemat</ckexpanded>
-<ckloadDB>Använda MySQL</ckloadDB>
-<ckMysql>Använda MySQL</ckMysql>
-<lnkmysqlOptions>MySQL alternativ</lnkmysqlOptions>
-<cmdCancelP>Avbryt</cmdCancelP>
-<cmdProcessMARC>Processen</cmdProcessMARC>
-<cmdLoadDB>Belastning</cmdLoadDB>
-<label5>Databasfil:</label5>
-<label6>Ladda befintliga databasfilen</label6>
-<label3>Databasfil:</label3>
-<label2>MARC fil:</label2>
-<label1>Förbehandla MARC Data</label1>
-<tabPage2>Databasens struktur</tabPage2>
-<cname>Namn</cname>
-<cObject>Objekt</cObject>
-<cSchema>Schema</cSchema>
-<tabPage3>Köra SQL</tabPage3>
-<label8>Data som returneras</label8>
-<label7>Frågeresultatet</label7>
-<cmdExportD>Exportera Data</cmdExportD>
-<cmdExcecuteQ>Köra frågan</cmdExcecuteQ>
-<label4>SQL-strängen</label4>
-<cmdClose>Stäng</cmdClose>
-<this>MARC SQL Explorer</this>
-</marc_sql_explorer_frmMain>
-<marc_sql_explorer_frmOptions>
-<label1>Databas-Server:</label1>
-<label2>Användarnamn:</label2>
-<label3>Lösenord:</label3>
-<cmdSave>Spara</cmdSave>
-<cmdClose>Stäng</cmdClose>
-<this>Alternativ för MySQL:</this>
-</marc_sql_explorer_frmOptions>
-<me_tabbed_frmldr>
-<label1>LDR</label1>
-<cmd_OK>Okej</cmd_OK>
-<cmd_Close>Stäng</cmd_Close>
-<checkBox1>UNIMARC</checkBox1>
-<this>Redigera LDR/008</this>
-</me_tabbed_frmldr>
-<me_tabbed_frmMain>
-<groupBox4>Alternativ</groupBox4>
-<ck_unicode>Teckenkodningen UTF-8</ck_unicode>
-<linkLabel1>Redigera LDR/008</linkLabel1>
-<groupBox3>Avgränsare värden</groupBox3>
-<P2_lb_Other>Karaktär:</P2_lb_Other>
-<P2_lb_Delimiter>Avgränsare:</P2_lb_Delimiter>
-<P2_txt_qualifier>Kval</P2_txt_qualifier>
-<lbSheet>Excel kalkylbladets namn:</lbSheet>
-<P2_cmd_Cancel>Avbryt</P2_cmd_Cancel>
-<P2_cmd_Next>Nästa</P2_cmd_Next>
-<P2_lb_output>Utdatafilen:</P2_lb_output>
-<P2_Import>Källfilen:</P2_Import>
-<groupBox2>Argument</groupBox2>
-<lnkAuto>Generera automatiskt</lnkAuto>
-<ck_filing_characters>Beräkna gemensamma nonfiling data</ck_filing_characters>
-<ck_sort>Sortera fält</ck_sort>
-<P3_ck_save_args>Spara mall</P3_ck_save_args>
-<button2>Ladda mall</button2>
-<toolStripMenuItem2>Redigera objekt</toolStripMenuItem2>
-<deleteItemsToolStripMenuItem>Ta bort objekt</deleteItemsToolStripMenuItem>
-<joinItemsToolStripMenuItem>Gå med objekt</joinItemsToolStripMenuItem>
-<label1>Data Snapshot</label1>
-<groupBox1>Inställningar</groupBox1>
-<ck_Repeatable>Repeterbara delfält</ck_Repeatable>
-<P3_ck_constant>Konstant Data</P3_ck_constant>
-<P3_cmd_Apply>Lägg till Argument</P3_cmd_Apply>
-<P3_lb_punct>Termen. Skiljetecken:</P3_lb_punct>
-<P3_txt_indicators>\\\\</P3_txt_indicators>
-<P3_lb_indicators>Indikatorer:</P3_lb_indicators>
-<P3_mapto>Karta till:</P3_mapto>
-<P3_lb_select>Välj:</P3_lb_select>
-<P3_cmd_Cancel>Avbryt</P3_cmd_Cancel>
-<P3_cmd_finish>Slutför</P3_cmd_finish>
-<this>MarcEdit avgränsad Text översättare</this>
-</me_tabbed_frmMain>
-<me_tabbed_frmStatus>
-<lbCaption>Label1</lbCaption>
-</me_tabbed_frmStatus>
-<mebatch_frmMain>
-<lnkAbout>Om klienten</lnkAbout>
-<lnkOptions>Ange alternativ</lnkOptions>
-<lnkModify>Ändra databaser</lnkModify>
-<lnkBatch>Batch-läge</lnkBatch>
-<lnkSingle>Sökläge</lnkSingle>
-<lb_b_char>Server-teckenuppsättning</lb_b_char>
-<cmb_b_encoding>MARC8</cmb_b_encoding>
-<ck_b_unicode>Hämta Unicode</ck_b_unicode>
-<Modify>Ändra</Modify>
-<Database>Välj lokal databas</Database>
-<rd_custom>Anpassad</rd_custom>
-<rd_title>Sök Titel/författare</rd_title>
-<rd_issn>Sök ISBN/ISSN</rd_issn>
-<label1>Sök typer</label1>
-<lbBDest>Målfilen:</lbBDest>
-<lbBSource>Källfilen:</lbBSource>
-<lbBTitle>Batch sökfunktion</lbBTitle>
-<lbStartrec>startRecord</lbStartrec>
-<lnkGetNext>Få nästa {gränsen}</lnkGetNext>
-<lbMaxRecs>maximumRecords</lbMaxRecs>
-<lnkClearResults>Tydliga resultat</lnkClearResults>
-<groupBox3>Resultat</groupBox3>
-<col1>ID</col1>
-<col2>Titel</col2>
-<col3>Databas</col3>
-<mnuGroupDisplay>Visa markerade poster</mnuGroupDisplay>
-<mnuGroupDownload>Hämta valda poster</mnuGroupDownload>
-<mnuDownloadAll>Hämta alla poster</mnuDownloadAll>
-<groupBox1>Alternativ</groupBox1>
-<lb_encoding_single>Server-teckenuppsättning</lb_encoding_single>
-<cmd_encoding>MARC8</cmd_encoding>
-<ckUnicode>Hämta Unicode</ckUnicode>
-<rdEditDB>Välj databas</rdEditDB>
-<rdEditSettings>Redigera inställningar</rdEditSettings>
-<lbSearchb>Sök:</lbSearchb>
-<lbSearch>Fråga databas:</lbSearch>
-<ck_automatic>Automatisk identifiering av inställningar</ck_automatic>
-<lbProxy>Proxy:</lbProxy>
-<lbExample>Prov resultat:</lbExample>
-<button2>Stäng</button2>
-<button1>Okej</button1>
-<lbSaveFile>Spara filen:</lbSaveFile>
-<lbLimit>Gräns:</lbLimit>
-<lbTitleOption>Titel:</lbTitleOption>
-<lbSetupTitle>Visningsalternativ</lbSetupTitle>
-<lnkSelectList>Välj resurs</lnkSelectList>
-<lnkMClose>Stäng</lnkMClose>
-<lnkMDelete>Ta bort databasen</lnkMDelete>
-<lnkMModify>Ändra databasen</lnkMModify>
-<lbmOptions>Alternativ:</lbmOptions>
-<lnkMAdd>Lägg till databas</lnkMAdd>
-<MCol3>ID</MCol3>
-<MCol1>Namn</MCol1>
-<MCol2>Typ</MCol2>
-<lb_PModifyTitle>Välj databas:</lb_PModifyTitle>
-<aboutbox>richTextBox1</aboutbox>
-<importFromMasterListToolStripMenuItem>Importera från huvudlistan</importFromMasterListToolStripMenuItem>
-<addNewZ3950ServerToolStripMenuItem>Lägga till ny Z39.50 Server</addNewZ3950ServerToolStripMenuItem>
-<addSRUServerToolStripMenuItem>Lägg till SRU-Server</addSRUServerToolStripMenuItem>
-<this>MarcEdit Z39.50 klient</this>
-</mebatch_frmMain>
-<mebatch_frmOverwrite>
-<cmdAppend>Lägg till</cmdAppend>
-<cmdOverwrite>Skriva över</cmdOverwrite>
-<cmdClose>Stäng</cmdClose>
-<label1>Export-filen finns.  Vill du skriva över eller lägga till den aktuella filen.</label1>
-<this>Filen finns</this>
-</mebatch_frmOverwrite>
-<mebatch_frmProperties>
-<tabDBProps>Databasegenskaper</tabDBProps>
-<ck_Paused>Åsidosätta paus (6 sek)</ck_Paused>
-<label1>Databas:</label1>
-<ck_Show>Visa databas</ck_Show>
-<lbPassword>Lösenord:</lbPassword>
-<lbUsername>Användarnamn:</lbUsername>
-<lbSyntax>Syntax:</lbSyntax>
-<lbPort>Port:</lbPort>
-<lbHost>Värd:</lbHost>
-<lbname>Namn:</lbname>
-<tabDBAdvanced>Avancerade egenskaper</tabDBAdvanced>
-<label4>Timeout (i sekunder):</label4>
-<label2>Element Set:</label2>
-<label3>Andra alternativ:</label3>
-<lnkftp>http://www.Loc.gov/z3950/Agency/defns/bib1.html</lnkftp>
-<lbInfo>Mer information:</lbInfo>
-<lbISBN>ISBN/ISSN:</lbISBN>
-<lbSubject>Angående:</lbSubject>
-<lbTitle>Titel:</lbTitle>
-<lbAuthor>Författare:</lbAuthor>
-<lbadvTitle>Z39.50 attributet 4: struktur</lbadvTitle>
-<cmdSave>Spara</cmdSave>
-<cmdClose>Stäng</cmdClose>
-<this>Databasegenskaper</this>
-</mebatch_frmProperties>
-<mebatch_frmRecord>
-<lnkDownload>Hämta post</lnkDownload>
-<lnkClose>Stäng</lnkClose>
-<lbSave>Spara filen:</lbSave>
-<ck_Append>Lägg till</ck_Append>
-<this>Visa MARC posten</this>
-</mebatch_frmRecord>
-<mebatch_frmresults>
-<cmd_close>Stäng</cmd_close>
-</mebatch_frmresults>
-<mebatch_frmStatus>
-<lbCaption>Label1</lbCaption>
-<this>Status</this>
-</mebatch_frmStatus>
-<mebatch_SRUProps>
-<lbSRUTitle>Databasegenskaper:</lbSRUTitle>
-<label1>URL:</label1>
-<lbMetadata>Metadata-Schema:</lbMetadata>
-<lbName>Namn:</lbName>
-<cmdSave>Spara</cmdSave>
-<cmdClose>Stäng</cmdClose>
-<lbVersion>Version:</lbVersion>
-<label2>Sökprofil:</label2>
-<label3>Ytterligare parametrar</label3>
-<this>SRU egenskaper</this>
-</mebatch_SRUProps>
 </marcedit>

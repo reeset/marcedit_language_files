@@ -15,7 +15,6 @@
 <this>Cyfrif maes</this>
 </MarcEdit_Field_Count>
 <MarcEdit_FindReplace>
-<tbFind>Dod o hyd i</tbFind>
 <groupBox3>Cyfeiriad:</groupBox3>
 <rd_down>I lawr</rd_down>
 <rd_up>I fyny</rd_up>
@@ -24,15 +23,19 @@
 <ck_f_whole_word>Canfod gair cyfan yn unig</ck_f_whole_word>
 <ck_find_regex>Defnyddio mynegiadau rheolaidd</ck_find_regex>
 <ck_f_match_case>Achos cyfatebol</ck_f_match_case>
-<lbPreview>Canfod dim ond chwiliadau llwytho data mewn modd rhagolwg.</lbPreview>
 <cmdFClose>Gau</cmdFClose>
 <cmdFFind>Dod o hyd i</cmdFFind>
 <lb_FindWhat>Canfod beth:</lb_FindWhat>
-<tbReplace>Disodli'r</tbReplace>
+<cmdNav_Find>Dod o hyd i</cmdNav_Find>
+<cmdReplaceNav>Yn lle</cmdReplaceNav>
+<ckReplaceConditional>Perfformio yn dod o hyd i/lle os...</ckReplaceConditional>
+<cmbCondOpt>REGEX</cmbCondOpt>
+<label1>Os bydd:</label1>
 <cmd_R_Close>Gau</cmd_R_Close>
 <cmd_R_All>Newid pob un</cmd_R_All>
 <cmd_R_Replace>Disodli'r</cmd_R_Replace>
 <groupBox2>Dewisiadau chwilio:</groupBox2>
+<ckFile>Defnyddio meini prawf chwilio/newid allanol</ckFile>
 <ck_R_RegExp>Defnyddio mynegiadau rheolaidd</ck_R_RegExp>
 <ck_R_Case>Achos cyfatebol</ck_R_Case>
 <lb_ReplaceWith>Yn ei le:</lb_ReplaceWith>
@@ -140,6 +143,7 @@
 <cmd_A_Add>Ychwanegu maes</cmd_A_Add>
 <cmd_A_Delete>Dileu caeau</cmd_A_Delete>
 <groupBox1>Dewisiadau:</groupBox1>
+<ck_A_addifnotduplicate>Ychwanegu maes dim ond os nad yn ddyblyg</ck_A_addifnotduplicate>
 <ck_delete_batch>Gweithrediad y broses swp</ck_delete_batch>
 <ck_AddIfPresent>Ychwanegu maes os yn bresennol</ck_AddIfPresent>
 <ck_RemoveIfNot>Tynnwch os nad yw'n cyfateb data caeau</ck_RemoveIfNot>
@@ -197,6 +201,7 @@
 <label14>Is-faes:</label14>
 <lbFindInField>Canfod yn y maes</lbFindInField>
 <groupBox4>Opsiynau</groupBox4>
+<ck_copy_field_regex>Defnyddio mynegiannau rheolaidd</ck_copy_field_regex>
 <ck_copy_delete>Dileu caeau Ffynhonnell</ck_copy_delete>
 <label2>Cyrchfan y maes:</label2>
 <cmdCopyClose>Gau</cmdCopyClose>
@@ -237,9 +242,14 @@
 <cmdProcess>Broses</cmdProcess>
 <cmdCancel>Canslo</cmdCancel>
 <groupBox1>ID gwasanaethau</groupBox1>
+<ck3xxFields>Caeau 3xx broses</ck3xxFields>
+<label4>OCLC nifer:</label4>
+<ckWorkId>Ymgorffori gwaith OCLC ID</ckWorkId>
+<cmb_viaf_index>LC (NACO)</cmb_viaf_index>
+<ckAutodetect>Awto ganfod y pwnc ID</ckAutodetect>
 <ck_viaf>OCLC VIAF</ck_viaf>
 <ck_loc>Llyfrgell o Gyngres yr Unol Daleithiau (id.loc.gov)</ck_loc>
-<ckAutodetect>Awto ganfod y pwnc ID</ckAutodetect>
+<label5>Ffeil rheolau:</label5>
 <this>Adeiladu cofnodion cysylltiedig</this>
 </MarcEdit_frmBuildLinks>
 <MarcEdit_frmCatalogCalculator>
@@ -250,30 +260,43 @@
 <label1>Torwyr LC</label1>
 <this>Cyfrifiannell catalogio</this>
 </MarcEdit_frmCatalogCalculator>
+<MarcEdit_frmCharacterDetection>
+<label1>Mae'r offeryn datgelu cymeriad yn defnyddio proses heuristical i roi rela dyfaliad gorau </label1>
+<cmdDetect>Canfod</cmdDetect>
+<cmdClose>Cau</cmdClose>
+<label2>Canlyniadau:</label2>
+<ckDetailed>Canlyniadau amleiriog</ckDetailed>
+<this>Canfod nodweddion</this>
+</MarcEdit_frmCharacterDetection>
 <MarcEdit_frmClassify>
 <label1>Mae gwasanaeth hwn yn gwneud defnydd o'r gwasanaeth Gwe yn dosbarthu y OCLC.  Cynhyrchir dosbarthiad argymhellion gan OCLC yn anfon nifer rheolaeth o'r cofnod.  Bydd webservice y OCLC yn dychwelyd nôl i'r MarcEdit mwyaf aml dosbarthiad y Dewey degol neu LC sy'n gysylltiedig â'r cofnod hwn.</label1>
 <lnkClassify>Am y OCLC yn dosbarthu gwasanaeth</lnkClassify>
-<label2>Mewnosod cyfarwyddiadau:</label2>
 <ck_all>Ychwanegu at holl gofnodion</ck_all>
 <ck_single>Ychwanegu at y cofnod dan sylw</ck_single>
 <ck_lc>Llyfrgell y Gyngres</ck_lc>
 <ck_dewey>Dewey degol</ck_dewey>
-<label3>Dosbarthiadau:</label3>
 <cmdProcess>Dosbarthu</cmdProcess>
 <cmdClose>Gau</cmdClose>
 <label5>Ychwaneger os nad yw'r meysydd canlynol yn bresennol (enghraifft: 050; 060 090; 092)</label5>
 <label4>Mewnosod dosbarthiadau a gynhyrchir yn y maes canlynol:</label4>
-<label7>Dewisiadau:</label7>
 <ck_cutters>Gyfrifo thorwyr a dyddiadau</ck_cutters>
 <ck_use_z>Defnyddio z is-faes ar gyfer paru</ck_use_z>
 <ck_DateMod>Atodi faner hyd yn hyn</ck_DateMod>
 <ck_omit_serial>Hepgorer dyddiad ar gyfer dramâu</ck_omit_serial>
 <ck_omit_integrated>Hepgorer dyddiad ar gyfer adnoddau integredig</ck_omit_integrated>
 <ck_omit>Atodi eithriadau dyddiad</ck_omit>
-<label8>Penawdau pwnc:</label8>
 <ck_always_fast>Bob amser yn ychwanegu penawdau cyflym</ck_always_fast>
 <ck_conditional_fast>Ychwanegu penawdau cyflym pan fydd unrhyw benawdau pwnc yn bresennol</ck_conditional_fast>
 <label6>Dangosyddion:</label6>
+<cmdInsert>Mewnosod cyfarwyddiadau</cmdInsert>
+<cmdClassification>Dosbarthiadau</cmdClassification>
+<cmdSubjects>Penawdau pwnc</cmdSubjects>
+<lnkClassification>Dewis dosbarthiad</lnkClassification>
+<lnkSubjects>Dewis opsiynau pwnc</lnkSubjects>
+<lnkOptions>Dewisiadau gosod</lnkOptions>
+<cmdOptions>Opsiynau</cmdOptions>
+<label2>Mewnosod cyfarwyddiadau:</label2>
+<label3>Dosbarthiadau:</label3>
 <this>Gynhyrchu dosbarthiad</this>
 </MarcEdit_frmClassify>
 <MarcEdit_frmConstantData>
@@ -317,6 +340,17 @@
 <label2>Offeryn thwtio cofnod</label2>
 <this>Thwtio cofnod</this>
 </MarcEdit_frmDedup>
+<MarcEdit_frmOpenRefine>
+<label1>Defnyddio'r dull hwn i symud data rhwng MARC neu MarcEdit y cofrif fformat a OpenRef </label1>
+<label2>Ffeil darddu:</label2>
+<label3>Cadw'r ffeil:</label3>
+<rdExport>Allforio i OpenRefine</rdExport>
+<rdImport>Mewngludo o OpenRefine</rdImport>
+<cmdProcess>Broses</cmdProcess>
+<cmdCancel>Cau</cmdCancel>
+<lbStatus>Statws:</lbStatus>
+<this>Arf trosglwyddo OpenRefine Data</this>
+</MarcEdit_frmOpenRefine>
 <MarcEdit_frmExportSettings>
 <label1>Dewiswch ffeiliau i'w rhannu:</label1>
 <ckconfig>Dewisiadau ffurfweddu</ckconfig>
@@ -342,6 +376,19 @@
 <lb_result_num>{search_string} oedd amseroedd canfuwyd {#}.</lb_result_num>
 <this>Dod o hyd i'r holl ganlyniadau</this>
 </MarcEdit_frmFindAllResults>
+<MarcEdit_frmGenerateCutters>
+<cmdProcess>Broses</cmdProcess>
+<cmdClose>Cau</cmdClose>
+<lbField>Rhowch y maes rhif i werthuso. (e.e. 090)</lbField>
+<groupBox1>Opsiynau</groupBox1>
+<rdTitle>Torrwr Gorchymyn (2xx, 1xx)</rdTitle>
+<rdDefault>Torrwr Gorchymyn (1xx, 2xx)</rdDefault>
+<groupBox2>Opsiynau</groupBox2>
+<rdMainEntry>Gwerthuso prif mynediad (1xx, 245)</rdMainEntry>
+<rdCustomField>Maes personol</rdCustomField>
+<label1>I gael i:</label1>
+<this>Gynhyrchu torwyr</this>
+</MarcEdit_frmGenerateCutters>
 <MarcEdit_frmHarvestBatch>
 <label1>OAI diffiniedig weinyddion:</label1>
 <label2>(Defnyddio symudiad/shift + rheolaeth i ddewis eitemau lluosog)</label2>
@@ -407,20 +454,29 @@
 <toolStripMenuItem7>Ailgychwynnwch MarcEdit mewn modd 32-did</toolStripMenuItem7>
 <mnuFileExit>Ymadael</mnuFileExit>
 <mnuTools>Offer</mnuTools>
-<mnuToolsSelect>Dewiswch cofnodion MARC</mnuToolsSelect>
-<mnuToolsDelete>Dileu'r cofnodion dan sylw</mnuToolsDelete>
-<mnuToolsExtract>Dyfyniad dethol cofnodion</mnuToolsExtract>
 <mnuExportGroup>Allforio...</mnuExportGroup>
 <mnuToolsTabbed>Allforio Tab cofnodion atalnodau</mnuToolsTabbed>
 <mnuToolsGateway>Record MARC allforio</mnuToolsGateway>
+<mnuToolsSelect>Dewiswch cofnodion MARC</mnuToolsSelect>
+<mnuToolsDelete>Dileu'r cofnodion dan sylw</mnuToolsDelete>
+<mnuToolsExtract>Dyfyniad dethol cofnodion</mnuToolsExtract>
 <mnuToolsBatch>Cofnodion broses swp</mnuToolsBatch>
+<mnuToolsCharacterConversion>Offer trosi cymeriad</mnuToolsCharacterConversion>
+<mnuToolCharacterConversionConversionTools>Drosi cymeriad</mnuToolCharacterConversionConversionTools>
+<characterDetectionToolStripMenuItem>Canfod nodweddion</characterDetectionToolStripMenuItem>
 <mnuGenerateCallnumber>Gynhyrchu niferoedd alwad</mnuGenerateCallnumber>
 <toolStripMenuItem3>Creu penawdau cyflym</toolStripMenuItem3>
 <mnuToolsDedup>Canfod cofnodion dyblyg</mnuToolsDedup>
 <toolStripMenuItem6>OCLC gweithrediadau</toolStripMenuItem6>
+<oCLCRecordDownloaderToolStripMenuItem>OCLC Downloader Cofnod</oCLCRecordDownloaderToolStripMenuItem>
 <updateWorldCatRecordHoldingsToolStripMenuItem>Diweddaru'r cofnod WorldCat ddaliadau</updateWorldCatRecordHoldingsToolStripMenuItem>
 <uploadBibliographRecordsToWorldCatToolStripMenuItem>Lanlwytho cofnodion Bibliograph i WorldCat</uploadBibliographRecordsToWorldCatToolStripMenuItem>
+<openRefineToolStripMenuItem>OpenRefine</openRefineToolStripMenuItem>
+<mnuToolOpenRefineExport>Allforio</mnuToolOpenRefineExport>
+<mnuToolOpenRefineImport>Mewngludo</mnuToolOpenRefineImport>
 <toolStripMenuItem5>RDA helpwr</toolStripMenuItem5>
+<mnuToolsUnimarcTools>UNIMARC arfau</mnuToolsUnimarcTools>
+<mnuToolsValidateHeadings>Dilysu penawdau</mnuToolsValidateHeadings>
 <toolStripMenuItem8>MARCCompare</toolStripMenuItem8>
 <mnuToolsJoin>MARCJoin</mnuToolsJoin>
 <mnuToolsSplit>MARCSplit</mnuToolsSplit>
@@ -470,17 +526,20 @@
 <lnkHomepage>http://marcedit.reeset.net</lnkHomepage>
 <label5>URL:</label5>
 <label2>Cydnabyddiaethau:</label2>
+<lb_modified>.</lb_modified>
 <lbMod>Wedi'u haddasu:</lbMod>
 <lbMailto>Terry Reese</lbMailto>
 <lbAuthor>Awdur:</lbAuthor>
 <lbVersion>Fersiwn:</lbVersion>
 <label3>|</label3>
 <label4>Am MarcEdit</label4>
+<lnkSPARQL>SPARQL porwr</lnkSPARQL>
 <lnkLinkIds>Dynodwyr cyswllt</lnkLinkIds>
 <lnkJsonObject>Gwyliwr gwrthrych JSON</lnkJsonObject>
 <lnkBibframe>BibFrame brawf</lnkBibframe>
 <label7>|</label7>
 <label8>MARCNext:</label8>
+<mnuHelpDeleteTempFiles>Ffeiliau dros-dro yn glir</mnuHelpDeleteTempFiles>
 <this>MarcEdit gan Terry Reese</this>
 </MarcEdit_frmMain>
 <MarcEdit_frmOAIHarvest>
@@ -501,8 +560,16 @@
 <lbCrosswalk>Crosswalk llwybr:</lbCrosswalk>
 <lnkAdvanced>Mwy o osodiadau</lnkAdvanced>
 <cmdSave>Arbed</cmdSave>
+<lnkDebug>Difa chwilod URL</lnkDebug>
 <this>Cynaeafwr metadata</this>
 </MarcEdit_frmOAIHarvest>
+<MarcEdit_frmOCLCBulkDownload>
+<label1>Ffeil ffynhonnell OCLC rhifau:</label1>
+<cmdDownload>Llwytho i lawr</cmdDownload>
+<cmdClose>Cau</cmdClose>
+<label2>Cadw'r ffeil:</label2>
+<this>Cofnodion llwytho swmp o OCLC</this>
+</MarcEdit_frmOCLCBulkDownload>
 <MarcEdit_frmOCLCSearchWorldCat>
 <label1>WorldCat chwilio:</label1>
 <cmbarg1>allweddair</cmbarg1>
@@ -602,6 +669,7 @@
 <lb_Engine_XML_Options>XML dewisiadau:</lb_Engine_XML_Options>
 <ck_engine_namespace>Defnyddio Bwlchenw</ck_engine_namespace>
 <lb_Global_XSLT_Path>MARCXML XSLT:</lb_Global_XSLT_Path>
+<labelAutoUpdateDisabled>Mae diweddariadau awtomatig wedi'u hanalluogi gan eich system adminstrator</labelAutoUpdateDisabled>
 <ckDetectProxy>Defnyddio gosodiadau'r Dirprwy system</ckDetectProxy>
 <ck_Update_Validator>Chwilio am ddiweddariadau dilysydd yn awtomatig</ck_Update_Validator>
 <label3>Rhaid ydych yn perthyn i barth ar gyfer hyn i'r gwaith ar hyn o bryd.</label3>
@@ -621,16 +689,12 @@
 <ck_mrk8_editor>Ffeiliau (*.mrk8) yn cysylltu â'r MarcEditor</ck_mrk8_editor>
 <ck_mrk_editor>Ffeiliau (*.mrk) yn cysylltu â'r MarcEditor</ck_mrk_editor>
 <ck_mrc>Ffeiliau (*.mrc) yn cysylltu â'r MarcBreaker</ck_mrc>
-<label26>Ffolder y dasg:</label26>
-<label25>Ffolderi rhwydwaith:</label25>
-<ck_allow_z3950>Galluogi swyddogaethau 39.50</ck_allow_z3950>
-<label1>Rhif Tag rheoli:</label1>
-<lbCall>Galw Rhif Tag:</lbCall>
-<lb_mono>Llwybr MONO:</lb_mono>
-<lb_Author>Awdur Tag:</lb_Author>
-<lb_title>Teitl Tag:</lb_title>
-<lb_temp>Osod llwybr dros dro:</lb_temp>
-<ck_rss>Darllen porthiant RSS</ck_rss>
+<label33>|</label33>
+<lnkSelectILS>Dewiswch</lnkSelectILS>
+<lnkDeleteProfile>Dileu</lnkDeleteProfile>
+<label32>|</label32>
+<lnkAddProfile>Ychwanegu</lnkAddProfile>
+<label31>Proffiliau:</label31>
 <ck_ignore_ssl>Anwybyddu gwallau tystysgrifau SSL</ck_ignore_ssl>
 <lnk_ils_delete>Dileu</lnk_ils_delete>
 <label14>|</label14>
@@ -655,6 +719,24 @@
 <label18>Gyfrinach allweddol (mewn parau gyda allwedd API Metadata)</label18>
 <label17>Allwedd API Metadata OCLC</label17>
 <label16>Allwedd API chwilio OCLC</label16>
+<lnkFilePaths>Lleoliadau</lnkFilePaths>
+<label30>Gosod llwybr gyriant offer MARC diofyn:</label30>
+<label27>Llwybrau ffeiliau:</label27>
+<label26>Ffolder y dasg:</label26>
+<label25>Ffolderi rhwydwaith:</label25>
+<lb_mono>Llwybr MONO:</lb_mono>
+<lb_temp>Osod llwybr dros dro:</lb_temp>
+<ck_rss>Darllen porthiant RSS</ck_rss>
+<lb_title>Teitl Tag:</lb_title>
+<lb_Author>Awdur Tag:</lb_Author>
+<lbCall>Galw Rhif Tag:</lbCall>
+<label1>Rhif Tag rheoli:</label1>
+<ck_allow_z3950>Galluogi swyddogaethau 39.50</ck_allow_z3950>
+<label28>Maes opsiynau:</label28>
+<label34>ISBN Tag:</label34>
+<ckSort880>880: defnyddio gysylltu maes ar gyfer math</ckSort880>
+<ck880Infile>Caeau Infile 880 â maes parau</ck880Infile>
+<label29>Dewisiadau trefnu:</label29>
 <this>Dewisiadau MarcEdit</this>
 </MarcEdit_frmOptions>
 <MarcEdit_frmPluginManager>
@@ -673,15 +755,28 @@
 <columnHeader4>Fersiwn #:</columnHeader4>
 <this>Rheolwr ategyn wedi</this>
 </MarcEdit_frmPluginManager>
+<MarcEdit_frmProxy>
+<label1>adnoddau. GetString ("label1. Testun")</label1>
+<label2>Patrwm:</label2>
+<cmdProcess>Broses</cmdProcess>
+<cmdCancel>Canslo</cmdCancel>
+<ckEscape>Data dianc o'r URL</ckEscape>
+<ckAddNew>Disodli maes presennol</ckAddNew>
+<ck_addnewfield>Ychwanegu maes newydd os nad oedd ar gael</ck_addnewfield>
+<ckAlwaysAdd>Bob amser yn ychwanegu maes newydd</ckAlwaysAdd>
+<this>Adeiladu meysydd newydd</this>
+</MarcEdit_frmProxy>
 <MarcEdit_frmQueryLite>
+<label4>Terfyn</label4>
+<lnkDownload>Lawrlwytho'r holl eitemau</lnkDownload>
 <ck_batch>Chwilio swp</ck_batch>
 <lbdbtitle>label2</lbdbtitle>
 <groupBox3>Canlyniadau</groupBox3>
-<lnkDownload>Lawrlwytho'r holl eitemau</lnkDownload>
 <lnkClearResults>Canlyniadau clir</lnkClearResults>
 <lnkGetNext>Gael nesaf {terfyn}</lnkGetNext>
 <col1>Sefyllfa</col1>
 <col2>Teitl</col2>
+<downloadSelectedItemsToolStripMenuItem>Llwytho'r eitemau dan sylw</downloadSelectedItemsToolStripMenuItem>
 <groupBox1>Opsiynau</groupBox1>
 <lb_encoding_single>Set nodau gweinydd</lb_encoding_single>
 <cmd_encoding>MARC8</cmd_encoding>
@@ -694,18 +789,20 @@
 <MCol1>Enw</MCol1>
 <MCol2>Math</MCol2>
 <lb_PModifyTitle>Dewiswch gronfa ddata:</lb_PModifyTitle>
-<downloadSelectedItemsToolStripMenuItem>Llwytho'r eitemau dan sylw</downloadSelectedItemsToolStripMenuItem>
 <this>Cipio 39.50</this>
 </MarcEdit_frmQueryLite>
 <MarcEdit_frmRDA>
+<ck_502>Broses y 502</ck_502>
+<label6>|</label6>
+<lnkEditFields>Golygu caeau</lnkEditFields>
 <ck_040>Addasu 040--ychwanegu $erda</ck_040>
 <ck_qualifyinginfo>Cymhwyso gwybodaeth (015/020/024/027)</ck_qualifyinginfo>
-<label5>|</label5>
 <lnkEdit>Golygu rhestr</lnkEdit>
 <ck_dgmd>Dileu GMD</ck_dgmd>
 <ckAbbrev>Ehangu byrfoddau</ckAbbrev>
 <ckgmd>Gynhyrchu GMD</ckgmd>
 <ck264>Gwerthuso 260/264</ck264>
+<ck_signs>Bob amser yn defnyddio ©, symbolau ℗</ck_signs>
 <ck381>Ychwanegu 381--eraill</ck381>
 <ck380>Ychwanegu 380--ffurf gwaith</ck380>
 <ck347>Ychwanegu 347--nodweddion digidol sy '</ck347>
@@ -723,7 +820,7 @@ Ychwanegu 338--'r math o siopa</ck337>
 <label3>Dewiswch:</label3>
 <label4>|</label4>
 <lnkNone>Dim</lnkNone>
-<ck_signs>Bob amser yn defnyddio ©, symbolau ℗</ck_signs>
+<label7>Statws:</label7>
 <this>RDA helpwr</this>
 </MarcEdit_frmRDA>
 <MarcEdit_frmResults>
@@ -740,11 +837,17 @@ Ychwanegu 338--'r math o siopa</ck337>
 <label4>Am RobertCompare</label4>
 <label3>|</label3>
 <lnkAbout>Am RobertCompare</lnkAbout>
+<ckSort>Trefnu ffeiliau</ckSort>
 <cmdClose>Gau</cmdClose>
 <cmdExecute>Gweithredu</cmdExecute>
 <label1>Cadw'r ffeil:</label1>
 <label6>Cymharu ffeiliau:</label6>
 <label2>MARCCompare yn arf arbenigol ar gyfer penderfynu ar wahaniaethau rhwng ffeiliau MARC.  I ddefnyddio'r rhaglen, dewiswch ffeiliau dau MARC i gymharu fersiynau o set o gofnodion.  Am fwy o wybodaeth am hanes o'r offeryn, neu sut y sicrhaodd fod ei enw, gweler y dudalen am.</label2>
+<lnkPreferences>Dewisiadau</lnkPreferences>
+<label7>|</label7>
+<lbSortField>Maes trefnu:</lbSortField>
+<lbdelete>Dileu disgyblion:</lbdelete>
+<lbAddColor>Ychwanegiadau:</lbAddColor>
 <this>MARCCompare/RobertCompare</this>
 </MarcEdit_frmRobertCompare>
 <MarcEdit_frmScript>
@@ -754,6 +857,19 @@ Ychwanegu 338--'r math o siopa</ck337>
 <btnCancel>Gau</btnCancel>
 <this>Golygu sgript</this>
 </MarcEdit_frmScript>
+<MarcEdit_frmSearchILSGeneric>
+<lnkNone>Nid oes yr un</lnkNone>
+<lnkAll>Dewis y cyfan</lnkAll>
+<col_title>Teitl</col_title>
+<col_id>ID</col_id>
+<label3>|</label3>
+<label2>Canlyniadau:</label2>
+<cmdClose>Cau</cmdClose>
+<cmdSearch>Chwilio</cmdSearch>
+<cmbarg1>Teitl</cmbarg1>
+<label1>Chwilio cronfa ddata:</label1>
+<this>Chwilio</this>
+</MarcEdit_frmSearchILSGeneric>
 <MarcEdit_frmSearchXML>
 <cName>Enw crosswalk</cName>
 <cAuthor>Gyflwynwyd gan</cAuthor>
@@ -765,6 +881,10 @@ Ychwanegu 338--'r math o siopa</ck337>
 <lnkViewAll>Gweld pob Crosswalks</lnkViewAll>
 <this>Canlyniadau chwilio Crosswalk XSLT</this>
 </MarcEdit_frmSearchXML>
+<MarcEdit_frmSelectILS>
+<cmdSelect>Dewiswch</cmdSelect>
+<this>Dewiswch ILS</this>
+</MarcEdit_frmSelectILS>
 <MarcEdit_frmSelectMARCRecords>
 <columnHeader1>Nifer uchaf erioed</columnHeader1>
 <columnHeader2>Dangos maes</columnHeader2>
@@ -782,6 +902,9 @@ Ychwanegu 338--'r math o siopa</ck337>
 <ck_find_all>Chwilio pob cofnod data</ck_find_all>
 <ck_use_regex>Defnyddio mynegiadau rheolaidd</ck_use_regex>
 <cmdRandomExport>Allforio ar hap</cmdRandomExport>
+<lnkDoesNotMatch>Nid yw yn cyfateb</lnkDoesNotMatch>
+<label1>|</label1>
+<lnkInvert>Gwrth-droi'r dewis</lnkInvert>
 <this>MarcEdit.NET: Addasu cofnodion MARC dan sylw</this>
 </MarcEdit_frmSelectMARCRecords>
 <MarcEdit_frmSort>
@@ -792,6 +915,17 @@ Ychwanegu 338--'r math o siopa</ck337>
 <cmd_Close>Gau</cmd_Close>
 <this>Dewin math personol</this>
 </MarcEdit_frmSort>
+<MarcEdit_frmSPARQL_Browser>
+<lbsparql>SPARQL pwynt terfyn:</lbsparql>
+<cmdQuery>Ymholiad</cmdQuery>
+<cmdClose>Cau</cmdClose>
+<lbQuery>SPARQL ymholiad:</lbQuery>
+<lbresults>Canlyniadau:</lbresults>
+<cklocal>Llwytho ffeil lleol</cklocal>
+<lbOutput>Allbwn:</lbOutput>
+<cmbOutput>XML</cmbOutput>
+<this>SPARQL porwr</this>
+</MarcEdit_frmSPARQL_Browser>
 <MarcEdit_frmSpecial_Formats>
 <lb_title>CDS-ISIS =&gt; cyfieithu MARC</lb_title>
 <groupBox1>Mewnbwn defnyddwyr</groupBox1>
@@ -1095,6 +1229,8 @@ Ychwanegu 338--'r math o siopa</ck337>
 <addCopyFieldTaskToolStripMenuItem>Ychwanegu'r dasg maes copi</addCopyFieldTaskToolStripMenuItem>
 <addTaskListToolStripMenuItem>Ychwanegu rhestr tasgau</addTaskListToolStripMenuItem>
 <addRDAHelperToolStripMenuItem>Ychwanegu RDA helpwr</addRDAHelperToolStripMenuItem>
+<addLinkedDataTaskToolStripMenuItem>Ychwanegu tasg Data cysylltiedig</addLinkedDataTaskToolStripMenuItem>
+<addBuildNewFieldTaskToolStripMenuItem>Ychwanegu tasg maes newydd adeiladu</addBuildNewFieldTaskToolStripMenuItem>
 <lbTasks>Tasgau:</lbTasks>
 <label1>Camau gweithredu:</label1>
 <label2>Disgrifiad:</label2>
@@ -1104,6 +1240,7 @@ Ychwanegu 338--'r math o siopa</ck337>
 <columnHeader1>Enw</columnHeader1>
 <columnHeader2>Llwybr</columnHeader2>
 <columnHeader3>llwybr tarw</columnHeader3>
+<columnHeader4>Disgrifiad</columnHeader4>
 <cmdClose>Gau</cmdClose>
 <lnkNew>Creu rhestr tasg newydd</lnkNew>
 <lbMacro>Rhestrau tasgau:</lbMacro>
@@ -1116,7 +1253,6 @@ Ychwanegu 338--'r math o siopa</ck337>
 <lnkKey>Aseiniad allweddol</lnkKey>
 <lnkEdit>Golygu rhestr dasg dan sylw</lnkEdit>
 <lnkDelete>Dileu'r rhestr tasgau dan sylw</lnkDelete>
-<columnHeader4>Disgrifiad</columnHeader4>
 <this>Rheolwr Tasgau</this>
 </MarcEdit_frmTaskManager>
 <MarcEdit_frmTools>
@@ -1129,32 +1265,18 @@ Ychwanegu 338--'r math o siopa</ck337>
 <groupBox2>Swyddogaethau</groupBox2>
 <ck_Marc8>Cyfieithu i'r MARC-8</ck_Marc8>
 <ck_UTF8>Gyfieithu i UTF8</ck_UTF8>
-<toolStrip1>toolStrip1</toolStrip1>
-<toolOpen>Agor ffeil</toolOpen>
-<toolSave>Cadw'r ffeil</toolSave>
-<toolExport>Cofnodion allforio</toolExport>
-<toolHelp>Helpu</toolHelp>
 <menuStrip1>menuStrip1</menuStrip1>
-<mnuFile>Ffeil</mnuFile>
-<mnuFileMain>Dychwelyd i brif ffenestr</mnuFileMain>
-<mnuFileOpen>Agored</mnuFileOpen>
-<mnuFileSave>Arbed</mnuFileSave>
-<mnuFileExit>Ymadael</mnuFileExit>
-<mnuTools>Offer</mnuTools>
-<mnuBatchProcessing>Cofnodion broses swp</mnuBatchProcessing>
-<mnuToolsXML>Golygu XML swyddogaeth rhestr</mnuToolsXML>
-<mnuToolsEncoding>Offer trosi cymeriad</mnuToolsEncoding>
-<mnuToolsUTF8>MARC8 =&gt; UTF8 trosi</mnuToolsUTF8>
-<mnuToolsMARC8>UTF8 =&gt; MARC8 trosi</mnuToolsMARC8>
-<otherConversionsToolStripMenuItem>Addasiadau eraill</otherConversionsToolStripMenuItem>
-<mnutoolsValidator>MARCValidator</mnutoolsValidator>
-<mnutoolsjoin>MARCJoin</mnutoolsjoin>
-<mnutoolssplit>MARCSplit</mnutoolssplit>
-<mnuToolsExport>Cofnodion MARC allforio</mnuToolsExport>
-<mnuToolsExtract>Dyfyniad dethol cofnodion</mnuToolsExtract>
-<mnuHelp>Helpu</mnuHelp>
-<mnuHelpContents>Cyd-destun a'r Mynegai</mnuHelpContents>
-<mnuHelpError>Adroddiad awgrymiadau/gwall</mnuHelpError>
+<toolsToolStripMenuItem>Offer</toolsToolStripMenuItem>
+<mnuToolsReturnToMainWindows>Dychwelyd i brif ffenestr</mnuToolsReturnToMainWindows>
+<editXMLFunctionListToolStripMenuItem>Golygu'r rhestr swyddogaeth XML</editXMLFunctionListToolStripMenuItem>
+<mARCValidatorToolStripMenuItem>MARCValidator</mARCValidatorToolStripMenuItem>
+<batchProcessFunctionToolStripMenuItem>Cofnodion broses swp</batchProcessFunctionToolStripMenuItem>
+<characterConversionToolsToolStripMenuItem>Offer trosi cymeriad</characterConversionToolsToolStripMenuItem>
+<mARCCompareToolStripMenuItem>MARCCompare</mARCCompareToolStripMenuItem>
+<mARCJoinToolStripMenuItem>MARCJoin</mARCJoinToolStripMenuItem>
+<mARCSplitToolStripMenuItem>MARCSplit</mARCSplitToolStripMenuItem>
+<uNIMARCToolsToolStripMenuItem>UNIMARC arfau</uNIMARCToolsToolStripMenuItem>
+<helpToolStripMenuItem>Helpu i</helpToolStripMenuItem>
 <this>Offer MARC</this>
 </MarcEdit_frmTools>
 <MarcEdit_frmTutorialManager>
@@ -1169,6 +1291,19 @@ Ychwanegu 338--'r math o siopa</ck337>
 <lnkClose>Gau</lnkClose>
 <this>Rheolwr tiwtorial lleol</this>
 </MarcEdit_frmTutorialManager>
+<MarcEdit_frmUnimarc>
+<label1>Mae MarcEdit yn darparu set o offer trosi UNIMARC pwysau ysgafn.  Os yw'r dulliau hyn o ddiddordeb i chi a hoffech chi helpu i wneud yn well, rhowch f eedback.
+
+</label1>
+<label2>Ffynhonnell</label2>
+<label3>Cyrchfan</label3>
+<groupBox1>Opsiynau</groupBox1>
+<rdUNIMARC>UNIMARC =&gt; MARC21</rdUNIMARC>
+<rdMARC21>MARC21 =&gt; UNIMARC</rdMARC21>
+<cmdProcess>Broses</cmdProcess>
+<cmdClose>Cau</cmdClose>
+<this>UNIMARC arfau</this>
+</MarcEdit_frmUnimarc>
 <MarcEdit_frmUpdate>
 <label1>Diweddariad Nodiadau:</label1>
 <cmd_Update>Y wybodaeth ddiweddaraf</cmd_Update>
@@ -1198,6 +1333,8 @@ Ychwanegu 338--'r math o siopa</ck337>
 <lb_Split_Folder>Ffolder derbyn:</lb_Split_Folder>
 <lb_Split_Source>Ffeil Ffynhonnell:</lb_Split_Source>
 <lb_Split_Header>MARCSplit cyfleustodau</lb_Split_Header>
+<ckJoinSubfolders>Cynnwys isffolderi</ckJoinSubfolders>
+<cmdEditFile>Golygu ffeil</cmdEditFile>
 <lnkJoinedFiles>Dangos ffeiliau cydgysylltiedig</lnkJoinedFiles>
 <label19>Mathau o ffeil:</label19>
 <ck_JoinIndividual>Ymuno â ffeiliau unigol</ck_JoinIndividual>
@@ -1206,6 +1343,7 @@ Ychwanegu 338--'r math o siopa</ck337>
 <lb_Join_Files>Ffeil (iau) i ymuno â:</lb_Join_Files>
 <lb_Join_Source>Ffeil gyrchfan:</lb_Join_Source>
 <lb_Join_Header>MARCJoin cyfleustodau</lb_Join_Header>
+<lbJoinStatus>Statws:</lbJoinStatus>
 <lb_Tab_Header>Allforio Tab cofnodion atalnodau</lb_Tab_Header>
 <cmb_sec_del></cmb_sec_del>
 <label18>Yn y maes amffinydd</label18>
@@ -1218,6 +1356,7 @@ Ychwanegu 338--'r math o siopa</ck337>
 <mnusave>Cadw'r gosodiadau</mnusave>
 <menuItem1>-</menuItem1>
 <menuItem3>Gosodiadau clir</menuItem3>
+<ckBatchProcessSubfolders>Cynnwys isffolderi</ckBatchProcessSubfolders>
 <lb_Operation>Swyddogaeth:</lb_Operation>
 <cmdBClose>Gau</cmdBClose>
 <cmdBProcess>Broses</cmdBProcess>
@@ -1235,6 +1374,7 @@ Ychwanegu 338--'r math o siopa</ck337>
 <cmdTExport>Allforio</cmdTExport>
 <label2>Cam 2: Diffinio caeau/Subfields i allforio</label2>
 <label3>Allforio Tab cofnodion atalnodau</label3>
+<ckIsUTF8>Wedi'i hamgodio gydag Unicode</ckIsUTF8>
 <ck_merge_to_source>Uno yn ffynhonnell</ck_merge_to_source>
 <label17>Cadw'r ffeil:</label17>
 <label16>Catalogio Ffynhonnell</label16>
@@ -1246,45 +1386,37 @@ Ychwanegu 338--'r math o siopa</ck337>
 <lb_id>Rhif adnabod cofnod:</lb_id>
 <lb_merge>Uno ffeil:</lb_merge>
 <lb_source>Ffeil Ffynhonnell:</lb_source>
-<cmd_merge_cancel_2>Canslo</cmd_merge_cancel_2>
-<cmd_merge_next_2>Nesaf =&gt;</cmd_merge_next_2>
-<cmd_merge_back_2>&lt; = Cefn</cmd_merge_back_2>
 <label4>Dewiswch yr opsiwn sy'n disgrifio orau gweithrediad y dymunwch i berfformio.</label4>
-<lb_merge_title_2>Uno'r cofnodi Data: Cam 2</lb_merge_title_2>
-<groupBox2>Uno ffeil opsiynau</groupBox2>
-<rd_merge_overlay>Uno a troshaenu'r holl ddata</rd_merge_overlay>
-<rd_merge_delimited>Uno data atalnodau</rd_merge_delimited>
-<rd_merge_selected>Uno caeau dan sylw</rd_merge_selected>
-<rd_merge_all>Uno'r holl ddata unigryw</rd_merge_all>
+<ck_mergeUnique>Uno eitemau unigryw</ck_mergeUnique>
 <button1>Canslo</button1>
 <cmd_merge_select_fields_next>Nesaf =&gt;</cmd_merge_select_fields_next>
 <cmd_merge_select_fields_back>&lt; = Cefn</cmd_merge_select_fields_back>
-<groupBox3>Addasu dewisiadau</groupBox3>
-<label10>i</label10>
-<label12>Subfields</label12>
-<label9>i</label9>
-<label8>Dangosyddion</label8>
 <label7>Uno caeau:</label7>
 <label6>Dewiswch y maes:</label6>
 <label5>Uno'r cofnodi Data: Dewiswch caeau</label5>
-<ck_Repeatable>Is-faes amlroddadwy</ck_Repeatable>
-<ck_sort>Caeau math</ck_sort>
-<P3_cmd_Cancel>Canslo</P3_cmd_Cancel>
-<P3_cmd_finish>Gorffen</P3_cmd_finish>
-<P3_ck_save_args>Arbed templed</P3_ck_save_args>
-<button4>Templed llwyth</button4>
-<P3_cmd_Apply>Yn gymwys</P3_cmd_Apply>
-<P3_lb_args>Dadleuon</P3_lb_args>
-<P3_lb_punct>Tymor. Atalnodi:</P3_lb_punct>
-<P3_txt_indicators>\\\\</P3_txt_indicators>
-<P3_lb_indicators>Dangosyddion:</P3_lb_indicators>
-<P3_mapto>Mapio i:</P3_mapto>
-<P3_lb_select>Dewiswch:</P3_lb_select>
 <button5>Gau</button5>
 <label15>Ffeiliau wedi'u cyfuno.  Canlyniadau wedi'u lleoli mewn {merge_results_file}.</label15>
 <label13>Uno wedi'u cwblhau</label13>
 <this>Deialog Utilties</this>
 </MarcEdit_frmUtilities>
+<MarcEdit_frmValidateHeadings>
+<label1>Gellir defnyddio'r offeryn dilysu penawdau i ddilysu'r 1xx, 6xx, neu 7xx o gaeau.  Mae offeryn e fed yn defnyddio cyfuniad o we a gwasanaethau lleol er mwyn penderfynu os mae headin g yn ymddangos ym mhennawd awdurdodedig.</label1>
+<ck_1xx>Awdurdodi caeau 1xx/7xx</ck_1xx>
+<ck_6xx>Awdurdodi maes 6xx</ck_6xx>
+<cmdProcess>Broses</cmdProcess>
+<cmdClose>Cau</cmdClose>
+<label2>Ffynhonnell:</label2>
+<lbStatus>Statws:</lbStatus>
+<cmdExtract>Dyfyniad</cmdExtract>
+<ckdeletecache>Dileu storfa leol</ckdeletecache>
+<lnkDelimited>Cadw'r Delimited</lnkDelimited>
+<ckonlyA>Dim ond proses ffiltro'r A</ckonlyA>
+<ckVariant>Amrywiadau awtomatig gywir</ckVariant>
+<ckGenerateBriefHeadings>Creu awdurdodau enw personol byr</ckGenerateBriefHeadings>
+<label3>Awdurdodau a gynhyrchir:</label3>
+<ckAddURIs>Ymgorffori URIs pan fo hynny'n bosibl</ckAddURIs>
+<this>Dilysu penawdau</this>
+</MarcEdit_frmValidateHeadings>
 <MarcEdit_frmvalidator>
 <lb_Source>Ffeil Ffynhonnell:</lb_Source>
 <lb_Rules>Ffeil rheolau:</lb_Rules>
@@ -1306,6 +1438,7 @@ Ychwanegu 338--'r math o siopa</ck337>
 <lb_Dest>Ffeil allbynnu:</lb_Dest>
 <lb_MARC>Mewnbynnu ffeil:</lb_MARC>
 <lb_Fields>Caeau:</lb_Fields>
+<lbTimeout>Terfyn amser (mewn eiliadau)</lbTimeout>
 <this>Gwnewch yn siŵr URL</this>
 </MarcEdit_frmVURL>
 <MarcEdit_frm_FASTHeadings>
@@ -1331,6 +1464,7 @@ Ychwanegu 338--'r math o siopa</ck337>
 <ck_dates>Dyddiadau (swyddi: 7-14)</ck_dates>
 <ck_p7>BLvl (sefyllfa 7)</ck_p7>
 <ck_p6>Math (sefyllfa 6)</ck_p6>
+<ck_001>001/019</ck_001>
 <label6>Rheoli niferoedd</label6>
 <ck_form>Ffurflen (swyddi: 23)</ck_form>
 <ck_245_h>$h: dynodiad deunydd cyffredinol</ck_245_h>
@@ -1429,9 +1563,14 @@ Ychwanegu 338--'r math o siopa</ck337>
 <mnuFileClearList>Ffeiliau diweddar clir</mnuFileClearList>
 <clearEditReplaceHistoryToolStripMenuItem>Clirio hanes golygu/newid</clearEditReplaceHistoryToolStripMenuItem>
 <mnuFileClose>Gau</mnuFileClose>
+<mnuFileExportData>Allforio ar gyfer...</mnuFileExportData>
+<openRefineExport>OpenRefine</openRefineExport>
+<mnuFileImportData>Mewngludo o...</mnuFileImportData>
+<openRefineImport>OpenRefine</openRefineImport>
 <mnuFileSave>Arbed</mnuFileSave>
 <mnuFileSaveAs>Cadw fel...</mnuFileSaveAs>
 <mnuFilePrint>Print</mnuFilePrint>
+<toolStripMenuItem34>Argraffu'r cofnod fesul tudalen</toolStripMenuItem34>
 <FileSelectIndividualMake>Dewiswch Record(s) unigol i wneud</FileSelectIndividualMake>
 <mnuFileCompile>Llunio ffeil i mewn i'r MARC</mnuFileCompile>
 <mnuFileExit>Ymadael</mnuFileExit>
@@ -1455,7 +1594,12 @@ Ychwanegu 338--'r math o siopa</ck337>
 <capitalizeInitialCharacterToolStripMenuItem>Defnyddio nodweddion cychwynnol</capitalizeInitialCharacterToolStripMenuItem>
 <fieldEditsToolStripMenuItem>Golygu maes</fieldEditsToolStripMenuItem>
 <findRecordsMissingFieldToolStripMenuItem>Dod o hyd i gofnodion ar goll maes</findRecordsMissingFieldToolStripMenuItem>
+<toolStripMenuItem39>Dod o hyd i gofnodion dyblyg Tagiau</toolStripMenuItem39>
+<toolStripMenuItem40>Dod o hyd i gofnodion Data Caeau dyblyg</toolStripMenuItem40>
+<mnuEditLimitFields>Terfyn nifer o feysydd</mnuEditLimitFields>
 <swapTitleToolStripMenuItem>Teitl cyfnewidiad</swapTitleToolStripMenuItem>
+<mathFunctionsToolStripMenuItem>Swyddogaethau mathemateg</mathFunctionsToolStripMenuItem>
+<convertToDecimalDegreesToolStripMenuItem>Trosi i raddau degol</convertToDecimalDegreesToolStripMenuItem>
 <mnuEditJumpTo>Neidio i'r...</mnuEditJumpTo>
 <jumpToRecordToolStripMenuItem>Neidio i'r...Cofnod</jumpToRecordToolStripMenuItem>
 <jumpToPageToolStripMenuItem>Neidio i'r...Tudalen</jumpToPageToolStripMenuItem>
@@ -1488,9 +1632,6 @@ Ychwanegu 338--'r math o siopa</ck337>
 <mnuEditSelectAll>Dewis y cyfan</mnuEditSelectAll>
 <mnuEditWrap>Wrap gair</mnuEditWrap>
 <mnuEditRTL>Arddangos hawl i'r chwith</mnuEditRTL>
-<mnuEditInfo>MARC Info</mnuEditInfo>
-<mnuEditInfoOCLC>OCLC MARC Help</mnuEditInfoOCLC>
-<mnuEditInfoLC>Llyfrgell UD o Gyngres MARC Help</mnuEditInfoLC>
 <mnuFont>Ffontiau</mnuFont>
 <mnuFontFont>Ffont...</mnuFontFont>
 <mnuFontColor>Lliw...</mnuFontColor>
@@ -1508,10 +1649,18 @@ Ychwanegu 338--'r math o siopa</ck337>
 <soundRecordingsToolStripMenuItem>Recordiadau sain</soundRecordingsToolStripMenuItem>
 <visualMaterialsToolStripMenuItem>Deunyddiau gweledol</visualMaterialsToolStripMenuItem>
 <mARCValidatorToolStripMenuItem>MARCValidator</mARCValidatorToolStripMenuItem>
+<validateISBNSToolStripMenuItem>Ddilysu ISBNS</validateISBNSToolStripMenuItem>
+<validateISSNSToolStripMenuItem>Ddilysu ISSNS</validateISSNSToolStripMenuItem>
+<validateHeadingsToolStripMenuItem>Dilysu penawdau</validateHeadingsToolStripMenuItem>
 <mnuTools>Offer</mnuTools>
+<mnutoolCutters>Cuttering arfau</mnutoolCutters>
 <mnuToolsCalculator>Cyfrifiannell catalog</mnuToolsCalculator>
+<generateCuttersToolStripMenuItem>Gynhyrchu torwyr</generateCuttersToolStripMenuItem>
+<sanbornTable3CuttersToolStripMenuItem>Torwyr Tabl 3 Sanborn</sanbornTable3CuttersToolStripMenuItem>
 <mnuToolsCallNum>Gynhyrchu niferoedd alwad</mnuToolsCallNum>
 <mnuToolsControlNumber>Gynhyrchu niferoedd rheolaeth</mnuToolsControlNumber>
+<toolStripMenuItem33>Offer Data cysylltiedig</toolStripMenuItem33>
+<buildLinkedRecordsToolStripMenuItem>Adeiladu cofnodion cysylltiedig</buildLinkedRecordsToolStripMenuItem>
 <mnuToolsRDAHelpers>RDA helpwr</mnuToolsRDAHelpers>
 <mnuToolsEditConstant>Golygu Data cyson</mnuToolsEditConstant>
 <mnuToolsAssigned>Neilltuwyd Data cyson</mnuToolsAssigned>
@@ -1526,7 +1675,7 @@ Ychwanegu 338--'r math o siopa</ck337>
 <mnuConstant9>9) llinyn heb eu diffinio</mnuConstant9>
 <mnuConstant10>10) llinyn heb eu diffinio</mnuConstant10>
 <mnutoolmanageAutomate>Rheoli tasgau</mnutoolmanageAutomate>
-<mnutoolassignTasks>Tasgau penodedig</mnutoolassignTasks>
+<mnuToolsAssignedTasks>Tasgau a bennwyd</mnuToolsAssignedTasks>
 <mnuDefTask>Tasgau ar gael ar hyn o bryd</mnuDefTask>
 <task1>1) tasg heb eu diffinio</task1>
 <task2>2) tasg heb eu diffinio</task2>
@@ -1538,6 +1687,16 @@ Ychwanegu 338--'r math o siopa</ck337>
 <task8>8) tasg heb eu diffinio</task8>
 <task9>9) tasg heb eu diffinio</task9>
 <task10>10) tasg heb eu diffinio</task10>
+<task11>11) gorchwyl heb ei ddiffinio</task11>
+<task12>12) Tasg heb ei ddiffinio</task12>
+<task13>13) Tasg heb ei ddiffinio</task13>
+<task14>14) Tasg heb ei ddiffinio</task14>
+<task15>15) Tasg heb ei ddiffinio</task15>
+<task16>16) Tasg heb ei ddiffinio</task16>
+<task17>17) gorchwyl heb ei ddiffinio</task17>
+<task18>18) Tasg heb ei ddiffinio</task18>
+<task19>19) Tasg heb ei ddiffinio</task19>
+<task20>20) Tasg heb ei ddiffinio</task20>
 <mnuToolsZ3950>Opsiynau 39.50/SRU</mnuToolsZ3950>
 <marcEditZ3950SRUClientToolStripMenuItem>MarcEdit 39.50/SRU cleient</marcEditZ3950SRUClientToolStripMenuItem>
 <importRecordToolStripMenuItem>Z 39.50 fewnforio Record</importRecordToolStripMenuItem>
@@ -1553,6 +1712,7 @@ Ychwanegu 338--'r math o siopa</ck337>
 <normalizeMicrolifRecordsToolStripMenuItem>Normaleiddio cofnodion Microlif</normalizeMicrolifRecordsToolStripMenuItem>
 <mnuToolsRemoveEmpty>Dileu caeau/Subfields gwag</mnuToolsRemoveEmpty>
 <mnuToolsAdd>Ychwanegu/dileu caeau</mnuToolsAdd>
+<mnuFieldEditsBuildProxy>Adeiladu cae newydd</mnuFieldEditsBuildProxy>
 <toolStripMenuItem26>Cae copi</toolStripMenuItem26>
 <mnuToolsEditField>Golygu Data Caeau</mnuToolsEditField>
 <mnuToolsIndicator>Golygu Data dangosydd</mnuToolsIndicator>
@@ -1578,6 +1738,10 @@ Ychwanegu 338--'r math o siopa</ck337>
 <pluginsToolStripMenuItem>Ategion</pluginsToolStripMenuItem>
 <mnuHelp>Helpu</mnuHelp>
 <mnuHelpContents>Cynnwys a Help</mnuHelpContents>
+<mnuEditInfo>MARC Info</mnuEditInfo>
+<mnuEditInfoOCLC>OCLC MARC Help</mnuEditInfoOCLC>
+<mnuHelpRDAToolkit>Pecyn cymorth RDA</mnuHelpRDAToolkit>
+<mnuEditInfoLC>Llyfrgell UD o Gyngres MARC Help</mnuEditInfoLC>
 <label1>Cofnodion bob Tudalen</label1>
 <lblPage>tudalennau</lblPage>
 <btnPre>&lt;</btnPre>
@@ -1627,206 +1791,4 @@ Ychwanegu 338--'r math o siopa</ck337>
 <opt_msxml>MSXML</opt_msxml>
 <this>Golygu swyddogaethau XML</this>
 </MarcEdit_xml_functions>
-<marc_sql_explorer_frmMain>
-<tabPage1>Llwytho Data</tabPage1>
-<ckexpanded>Defnyddio Tabl estynedig sgema</ckexpanded>
-<ckloadDB>Defnyddio MySQL</ckloadDB>
-<ckMysql>Defnyddio MySQL</ckMysql>
-<lnkmysqlOptions>Opsiynau MySQL</lnkmysqlOptions>
-<cmdCancelP>Canslo</cmdCancelP>
-<cmdProcessMARC>Broses</cmdProcessMARC>
-<cmdLoadDB>Llwyth</cmdLoadDB>
-<label5>Ffeil ddata:</label5>
-<label6>Llwytho ffeil ddata presennol</label6>
-<label3>Ffeil ddata:</label3>
-<label2>MARC ffeil:</label2>
-<label1>Cyn prosesu MARC Data</label1>
-<tabPage2>Strwythur cronfa ddata</tabPage2>
-<cname>Enw</cname>
-<cObject>Gwrthrych</cObject>
-<cSchema>Sgema</cSchema>
-<tabPage3>Gweithredu SQL</tabPage3>
-<label8>Data sy'n dychwelyd</label8>
-<label7>Canlyniadau'r ymholiad</label7>
-<cmdExportD>Data allforio</cmdExportD>
-<cmdExcecuteQ>Gweithredu ymholiad</cmdExcecuteQ>
-<label4>Llinyn SQL</label4>
-<cmdClose>Gau</cmdClose>
-<this>Explorer MARC SQL</this>
-</marc_sql_explorer_frmMain>
-<marc_sql_explorer_frmOptions>
-<label1>Cronfa ddata gweinydd:</label1>
-<label2>Enw defnyddiwr:</label2>
-<label3>Cyfrinair:</label3>
-<cmdSave>Arbed</cmdSave>
-<cmdClose>Gau</cmdClose>
-<this>Dewisiadau MySQL:</this>
-</marc_sql_explorer_frmOptions>
-<me_tabbed_frmldr>
-<label1>LDR</label1>
-<cmd_OK>iawn</cmd_OK>
-<cmd_Close>Gau</cmd_Close>
-<checkBox1>UNIMARC</checkBox1>
-<this>Golygu LDR/008</this>
-</me_tabbed_frmldr>
-<me_tabbed_frmMain>
-<groupBox4>Opsiynau</groupBox4>
-<ck_unicode>UTF-8 hamgodio</ck_unicode>
-<linkLabel1>Golygu LDR/008</linkLabel1>
-<groupBox3>Gwerthoedd amffinydd</groupBox3>
-<P2_lb_Other>Cymeriad:</P2_lb_Other>
-<P2_lb_Delimiter>Amffinydd:</P2_lb_Delimiter>
-<P2_txt_qualifier>Gêm ragbrofol</P2_txt_qualifier>
-<lbSheet>Excel taflen enw:</lbSheet>
-<P2_cmd_Cancel>Canslo</P2_cmd_Cancel>
-<P2_cmd_Next>Nesaf</P2_cmd_Next>
-<P2_lb_output>Ffeil allbynnu:</P2_lb_output>
-<P2_Import>Ffeil Ffynhonnell:</P2_Import>
-<groupBox2>Dadleuon</groupBox2>
-<lnkAuto>Creu awto</lnkAuto>
-<ck_filing_characters>Gyfrifo data nonfiling cyffredin</ck_filing_characters>
-<ck_sort>Caeau math</ck_sort>
-<P3_ck_save_args>Arbed templed</P3_ck_save_args>
-<button2>Templed llwyth</button2>
-<toolStripMenuItem2>Olygu'r eitem</toolStripMenuItem2>
-<deleteItemsToolStripMenuItem>Dileu eitemau</deleteItemsToolStripMenuItem>
-<joinItemsToolStripMenuItem>Ymuno â eitemau</joinItemsToolStripMenuItem>
-<label1>Data cipolwg</label1>
-<groupBox1>Gosodiadau</groupBox1>
-<ck_Repeatable>Is-faes amlroddadwy</ck_Repeatable>
-<P3_ck_constant>Data cyson</P3_ck_constant>
-<P3_cmd_Apply>Ychwanegu'r ddadl</P3_cmd_Apply>
-<P3_lb_punct>Tymor. Atalnodi:</P3_lb_punct>
-<P3_txt_indicators>\\\\</P3_txt_indicators>
-<P3_lb_indicators>Dangosyddion:</P3_lb_indicators>
-<P3_mapto>Mapio i:</P3_mapto>
-<P3_lb_select>Dewiswch:</P3_lb_select>
-<P3_cmd_Cancel>Canslo</P3_cmd_Cancel>
-<P3_cmd_finish>Gorffen</P3_cmd_finish>
-<this>MarcEdit testun atalnodau cyfieithydd</this>
-</me_tabbed_frmMain>
-<me_tabbed_frmStatus>
-<lbCaption>label1</lbCaption>
-</me_tabbed_frmStatus>
-<mebatch_frmMain>
-<lnkAbout>Am cleient</lnkAbout>
-<lnkOptions>Dewisiadau gosod</lnkOptions>
-<lnkModify>Addasu cronfeydd data</lnkModify>
-<lnkBatch>Modd swp</lnkBatch>
-<lnkSingle>Modd chwilio</lnkSingle>
-<lb_b_char>Set nodau gweinydd</lb_b_char>
-<cmb_b_encoding>MARC8</cmb_b_encoding>
-<ck_b_unicode>Adalw Unicode</ck_b_unicode>
-<Modify>Addasu</Modify>
-<Database>Dewiswch gronfa ddata lleol</Database>
-<rd_custom>Defod</rd_custom>
-<rd_title>Chwilio TeitlAwdurAr</rd_title>
-<rd_issn>Chwiliad ISBN/ISSN</rd_issn>
-<label1>Chwilio mathau</label1>
-<lbBDest>Ffeil gyrchfan:</lbBDest>
-<lbBSource>Ffeil Ffynhonnell:</lbBSource>
-<lbBTitle>Cyfleustodau chwilio swp</lbBTitle>
-<lbStartrec>startRecord</lbStartrec>
-<lnkGetNext>Gael nesaf {terfyn}</lnkGetNext>
-<lbMaxRecs>maximumRecords</lbMaxRecs>
-<lnkClearResults>Canlyniadau clir</lnkClearResults>
-<groupBox3>Canlyniadau</groupBox3>
-<col1>ID</col1>
-<col2>Teitl</col2>
-<col3>Cronfa ddata</col3>
-<mnuGroupDisplay>Arddangos cofnodion dan sylw</mnuGroupDisplay>
-<mnuGroupDownload>Lawrlwytho'r cofnodion dan sylw</mnuGroupDownload>
-<mnuDownloadAll>Lawrlwytho'r holl gofnodion</mnuDownloadAll>
-<groupBox1>Opsiynau</groupBox1>
-<lb_encoding_single>Set nodau gweinydd</lb_encoding_single>
-<cmd_encoding>MARC8</cmd_encoding>
-<ckUnicode>Adalw Unicode</ckUnicode>
-<rdEditDB>Dewiswch cronfa ddata</rdEditDB>
-<rdEditSettings>Golygu gosodiadau</rdEditSettings>
-<lbSearchb>Chwilio:</lbSearchb>
-<lbSearch>Cronfa ddata ymholiad:</lbSearch>
-<ck_automatic>Canfod gosodiadau yn awtomatig</ck_automatic>
-<lbProxy>Procsi:</lbProxy>
-<lbExample>Canlyniadau sampl:</lbExample>
-<button2>Gau</button2>
-<button1>iawn</button1>
-<lbSaveFile>Cadw'r ffeil:</lbSaveFile>
-<lbLimit>Terfyn:</lbLimit>
-<lbTitleOption>Teitl:</lbTitleOption>
-<lbSetupTitle>Dangos dewisiadau</lbSetupTitle>
-<lnkSelectList>Dewiswch adnodd</lnkSelectList>
-<lnkMClose>Gau</lnkMClose>
-<lnkMDelete>Dileu'r gronfa ddata</lnkMDelete>
-<lnkMModify>Addasu cronfa ddata</lnkMModify>
-<lbmOptions>Dewisiadau:</lbmOptions>
-<lnkMAdd>Ychwanegu cronfa ddata</lnkMAdd>
-<MCol3>ID</MCol3>
-<MCol1>Enw</MCol1>
-<MCol2>Math</MCol2>
-<lb_PModifyTitle>Dewiswch gronfa ddata:</lb_PModifyTitle>
-<aboutbox>richTextBox1</aboutbox>
-<importFromMasterListToolStripMenuItem>Mewnforio o'r rhestr Meistr</importFromMasterListToolStripMenuItem>
-<addNewZ3950ServerToolStripMenuItem>Ychwanegu'r gweinydd 39.50 newydd</addNewZ3950ServerToolStripMenuItem>
-<addSRUServerToolStripMenuItem>Ychwanegu'r gweinydd SRU</addSRUServerToolStripMenuItem>
-<this>MarcEdit 39.50 cleient</this>
-</mebatch_frmMain>
-<mebatch_frmOverwrite>
-<cmdAppend>Atodi</cmdAppend>
-<cmdOverwrite>Ysgrifennu dros</cmdOverwrite>
-<cmdClose>Gau</cmdClose>
-<label1>Ffeil allforio yn bodoli.  Hoffech chi ysgrifennu dros neu atodi'r ffeil gyfredol.</label1>
-<this>Ffeil yn bodoli</this>
-</mebatch_frmOverwrite>
-<mebatch_frmProperties>
-<tabDBProps>Cronfa ddata eiddo</tabDBProps>
-<ck_Paused>Diystyru rhewi (6 eiliad.)</ck_Paused>
-<label1>Cronfa ddata:</label1>
-<ck_Show>Dangos cronfa ddata</ck_Show>
-<lbPassword>Cyfrinair:</lbPassword>
-<lbUsername>Enw defnyddiwr:</lbUsername>
-<lbSyntax>Cystrawennol:</lbSyntax>
-<lbPort>Porth:</lbPort>
-<lbHost>Lletyol:</lbHost>
-<lbname>Enw:</lbname>
-<tabDBAdvanced>Mwy o briodweddau</tabDBAdvanced>
-<label4>Terfyn amser (mewn eiliadau):</label4>
-<label2>Elfen Set:</label2>
-<label3>Dewisiadau eraill:</label3>
-<lnkftp>http://www.loc.gov/z3950/Agency/defns/bib1.html</lnkftp>
-<lbInfo>Mwy o wybodaeth:</lbInfo>
-<lbISBN>ISBN/ISSN:</lbISBN>
-<lbSubject>Pwnc:</lbSubject>
-<lbTitle>Teitl:</lbTitle>
-<lbAuthor>Awdur:</lbAuthor>
-<lbadvTitle>Priodoledd 39.50 4: strwythur</lbadvTitle>
-<cmdSave>Arbed</cmdSave>
-<cmdClose>Gau</cmdClose>
-<this>Cronfa ddata eiddo</this>
-</mebatch_frmProperties>
-<mebatch_frmRecord>
-<lnkDownload>Lawrlwytho cofnod</lnkDownload>
-<lnkClose>Gau</lnkClose>
-<lbSave>Cadw'r ffeil:</lbSave>
-<ck_Append>Atodi</ck_Append>
-<this>Edrych ar gofnod MARC</this>
-</mebatch_frmRecord>
-<mebatch_frmresults>
-<cmd_close>Gau</cmd_close>
-</mebatch_frmresults>
-<mebatch_frmStatus>
-<lbCaption>label1</lbCaption>
-<this>Statws</this>
-</mebatch_frmStatus>
-<mebatch_SRUProps>
-<lbSRUTitle>Cronfa ddata eiddo:</lbSRUTitle>
-<label1>URL:</label1>
-<lbMetadata>Metadata sgema:</lbMetadata>
-<lbName>Enw:</lbName>
-<cmdSave>Arbed</cmdSave>
-<cmdClose>Gau</cmdClose>
-<lbVersion>Fersiwn:</lbVersion>
-<label2>Proffil chwilio:</label2>
-<label3>Paramedrau ychwanegol</label3>
-<this>SRU eiddo</this>
-</mebatch_SRUProps>
 </marcedit>

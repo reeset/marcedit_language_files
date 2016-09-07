@@ -15,7 +15,6 @@
 <this>Πεδίο καταμέτρηση</this>
 </MarcEdit_Field_Count>
 <MarcEdit_FindReplace>
-<tbFind>Βρείτε</tbFind>
 <groupBox3>Σκηνοθεσία:</groupBox3>
 <rd_down>Κάτω</rd_down>
 <rd_up>Επάνω</rd_up>
@@ -24,15 +23,19 @@
 <ck_f_whole_word>Βρείτε μόνο ολόκληρες λέξεις</ck_f_whole_word>
 <ck_find_regex>Χρησιμοποιούν τυπικές εκφράσεις</ck_find_regex>
 <ck_f_match_case>Ταίριασμα πεζών-κεφαλαίων</ck_f_match_case>
-<lbPreview>Βρείτε μόνο αναζητήσεις φορτωμένο δεδομένα στον τρόπο λειτουργίας Προεπισκόπηση.</lbPreview>
 <cmdFClose>Κλείσιμο</cmdFClose>
 <cmdFFind>Βρείτε</cmdFFind>
 <lb_FindWhat>Εύρεση:</lb_FindWhat>
-<tbReplace>Αντικατάσταση</tbReplace>
+<cmdNav_Find>Βρείτε</cmdNav_Find>
+<cmdReplaceNav>Αντικατάσταση</cmdReplaceNav>
+<ckReplaceConditional>Εκτελέσει εύρεσης/αντικατάστασης, αν...</ckReplaceConditional>
+<cmbCondOpt>REGEX</cmbCondOpt>
+<label1>Εάν:</label1>
 <cmd_R_Close>Κλείσιμο</cmd_R_Close>
 <cmd_R_All>Αντικατάσταση όλων</cmd_R_All>
 <cmd_R_Replace>Αντικατάσταση</cmd_R_Replace>
 <groupBox2>Επιλογές αναζήτησης:</groupBox2>
+<ckFile>Χρήση εξωτερική αναζήτηση/αντικατάσταση κριτήρια</ckFile>
 <ck_R_RegExp>Χρησιμοποιούν τυπικές εκφράσεις</ck_R_RegExp>
 <ck_R_Case>Ταίριασμα πεζών-κεφαλαίων</ck_R_Case>
 <lb_ReplaceWith>Αντικατάσταση με:</lb_ReplaceWith>
@@ -140,6 +143,7 @@
 <cmd_A_Add>Προσθέστε το πεδίο</cmd_A_Add>
 <cmd_A_Delete>Διαγραφή πεδίου "</cmd_A_Delete>
 <groupBox1>Επιλογές:</groupBox1>
+<ck_A_addifnotduplicate>Προσθέστε το πεδίο μόνο αν δεν διπλότυπο</ck_A_addifnotduplicate>
 <ck_delete_batch>Διαδικασία τμηματικής</ck_delete_batch>
 <ck_AddIfPresent>Προσθέστε το πεδίο "αν υπάρχει</ck_AddIfPresent>
 <ck_RemoveIfNot>Αφαιρέσετε εάν δεν ταιριάζει με το πεδίο δεδομένων</ck_RemoveIfNot>
@@ -197,6 +201,7 @@
 <label14>Θεματική στην οποία ανήκει:</label14>
 <lbFindInField>Βρείτε στον τομέα</lbFindInField>
 <groupBox4>Επιλογές</groupBox4>
+<ck_copy_field_regex>Χρησιμοποιήσετε κανονικές εκφράσεις</ck_copy_field_regex>
 <ck_copy_delete>Διαγραφή πεδίου "πηγή"</ck_copy_delete>
 <label2>Πεδίο προορισμού:</label2>
 <cmdCopyClose>Κλείσιμο</cmdCopyClose>
@@ -237,9 +242,14 @@
 <cmdProcess>Διαδικασία</cmdProcess>
 <cmdCancel>"Άκυρο"</cmdCancel>
 <groupBox1>ID υπηρεσίες</groupBox1>
+<ck3xxFields>Διαδικασία 3xx πεδία</ck3xxFields>
+<label4>OCLC αριθμός:</label4>
+<ckWorkId>Ενσωματώσετε OCLC αναγνωριστικό εργασίας</ckWorkId>
+<cmb_viaf_index>LC (NACO)</cmb_viaf_index>
+<ckAutodetect>Αυτόματος εντοπισμός θέμα ID</ckAutodetect>
 <ck_viaf>OCLC VIAF</ck_viaf>
 <ck_loc>Αμερικανική βιβλιοθήκη του Κογκρέσου (id.loc.gov)</ck_loc>
-<ckAutodetect>Αυτόματος εντοπισμός θέμα ID</ckAutodetect>
+<label5>Αρχείο κανόνων:</label5>
 <this>Οικοδομήσουμε συνδεδεμένες καρτέλες</this>
 </MarcEdit_frmBuildLinks>
 <MarcEdit_frmCatalogCalculator>
@@ -250,30 +260,43 @@
 <label1>LC κόφτες</label1>
 <this>Καταλογογράφηση αριθμομηχανή</this>
 </MarcEdit_frmCatalogCalculator>
+<MarcEdit_frmCharacterDetection>
+<label1>Το εργαλείο εντοπισμού χαρακτήρα χρησιμοποιεί μια διαδικασία ευρετικές να δώσει μια καλύτερη εικασία σχέ </label1>
+<cmdDetect>Ανίχνευση</cmdDetect>
+<cmdClose>Κλείστε</cmdClose>
+<label2>Αποτελέσματα:</label2>
+<ckDetailed>Λεπτομερή αποτελέσματα</ckDetailed>
+<this>Ανίχνευση χαρακτήρα</this>
+</MarcEdit_frmCharacterDetection>
 <MarcEdit_frmClassify>
 <label1>Αυτή η υπηρεσία κάνει χρήση της υπηρεσίας Web ταξινόμηση του OCLC.  Ταξινόμηση συστάσεις δημιουργούνται από αποστολή OCLC ελέγχου αριθμού από την εγγραφή.  Του OCLC webservice θα επιστρέψει πίσω στο MarcEdit LC είτε Dewey δεκαδική ταξινόμηση πιο συχνά συνδέονται με αυτήν την εγγραφή.</label1>
 <lnkClassify>Για του OCLC ταξινομούν υπηρεσία</lnkClassify>
-<label2>Οδηγίες εισαγωγής:</label2>
 <ck_all>Προσθέστε σε όλα τα μητρώα</ck_all>
 <ck_single>Προσθέσετε σε επιλεγμένη καρτέλα</ck_single>
 <ck_lc>Βιβλιοθήκη του Κογκρέσου</ck_lc>
 <ck_dewey>Δεκαδικό σύστημα ταξινόμησης Dewey</ck_dewey>
-<label3>Ταξινομήσεις:</label3>
 <cmdProcess>Ταξινόμηση</cmdProcess>
 <cmdClose>Κλείσιμο</cmdClose>
 <label5>Εισάγετε αν δεν υπάρχουν τα ακόλουθα πεδία (παράδειγμα: 050, 060, 090, 092)</label5>
 <label4>Εισαγάγετε ταξινομήσεις που δημιουργείται στο παρακάτω πεδίο:</label4>
-<label7>Επιλογές:</label7>
 <ck_cutters>Υπολογισμός κόπτες και ημερομηνίες</ck_cutters>
 <ck_use_z>Χρησιμοποιήσετε άξονα z για το ταίριασμα</ck_use_z>
 <ck_DateMod>Προσάρτηση σημαία μέχρι σήμερα</ck_DateMod>
 <ck_omit_serial>Παραλείψετε ημερομηνία για σήριαλ</ck_omit_serial>
 <ck_omit_integrated>Παραλείψετε ημερομηνία για ενσωματωμένες πηγές</ck_omit_integrated>
 <ck_omit>Προσάρτηση εξαιρέσεις ημερομηνίας</ck_omit>
-<label8>Θεματικές επικεφαλίδες:</label8>
 <ck_always_fast>Πάντα να προσθέσετε γρήγορα επικεφαλίδες</ck_always_fast>
 <ck_conditional_fast>Προσθέστε γρήγορα επικεφαλίδες, όταν υπάρχουν δεν θεματικές επικεφαλίδες</ck_conditional_fast>
 <label6>Δείκτες:</label6>
+<cmdInsert>Οδηγίες εισαγωγής</cmdInsert>
+<cmdClassification>Ταξινομήσεις</cmdClassification>
+<cmdSubjects>Θεματικές επικεφαλίδες</cmdSubjects>
+<lnkClassification>Επιλέξτε το ταξινόμηση</lnkClassification>
+<lnkSubjects>Επιλέξτε Επιλογές θέμα</lnkSubjects>
+<lnkOptions>Ορισμός επιλογών</lnkOptions>
+<cmdOptions>Επιλογές</cmdOptions>
+<label2>Οδηγίες εισαγωγής:</label2>
+<label3>Ταξινομήσεις:</label3>
 <this>Δημιουργία ταξινόμηση</this>
 </MarcEdit_frmClassify>
 <MarcEdit_frmConstantData>
@@ -317,6 +340,17 @@
 <label2>Ρεκόρ Deduplication εργαλείο</label2>
 <this>Ρεκόρ Deduplication</this>
 </MarcEdit_frmDedup>
+<MarcEdit_frmOpenRefine>
+<label1>Χρησιμοποιήστε αυτό το εργαλείο για να μετακινήσετε δεδομένων μεταξύ MARC ή του MarcEdit μνημονική μορφή και OpenRef </label1>
+<label2>Αρχείο προέλευσης:</label2>
+<label3>Αποθηκεύστε το αρχείο:</label3>
+<rdExport>Εξαγωγή σε OpenRefine</rdExport>
+<rdImport>Εισαγωγή από OpenRefine</rdImport>
+<cmdProcess>Διαδικασία</cmdProcess>
+<cmdCancel>Κλείστε</cmdCancel>
+<lbStatus>Κατάσταση:</lbStatus>
+<this>Εργαλείο μεταφοράς δεδομένων OpenRefine</this>
+</MarcEdit_frmOpenRefine>
 <MarcEdit_frmExportSettings>
 <label1>Επιλέξτε τα αρχεία για κοινή χρήση:</label1>
 <ckconfig>Επιλογές ρύθμισης παραμέτρων</ckconfig>
@@ -342,6 +376,19 @@
 <lb_result_num>{search_string} ήταν βρέθηκαν {#} φορές.</lb_result_num>
 <this>Βρείτε όλα τα αποτελέσματα</this>
 </MarcEdit_frmFindAllResults>
+<MarcEdit_frmGenerateCutters>
+<cmdProcess>Διαδικασία</cmdProcess>
+<cmdClose>Κλείστε</cmdClose>
+<lbField>Συμπληρώστε το πεδίο αριθμός κλήσης για την αξιολόγηση. (π.χ. 090)</lbField>
+<groupBox1>Επιλογές</groupBox1>
+<rdTitle>Κόπτης σειρά (2xx, 1xx)</rdTitle>
+<rdDefault>Κόπτης παραγγελία (1xx, 2xx)</rdDefault>
+<groupBox2>Επιλογές</groupBox2>
+<rdMainEntry>Αξιολογήσει την κύρια καταχώρηση (1xx, 245)</rdMainEntry>
+<rdCustomField>Προσαρμοσμένο πεδίο</rdCustomField>
+<label1>Να βρείτε:</label1>
+<this>Δημιουργία κόφτες</this>
+</MarcEdit_frmGenerateCutters>
 <MarcEdit_frmHarvestBatch>
 <label1>OAI καθορισμένες διακομιστές:</label1>
 <label2>(Χρησιμοποιήστε shift/shift + ελέγχου για να επιλέξετε πολλά στοιχεία)</label2>
@@ -407,20 +454,29 @@
 <toolStripMenuItem7>Επανεκκίνηση MarcEdit σε λειτουργία 32 bit</toolStripMenuItem7>
 <mnuFileExit>Έξοδος</mnuFileExit>
 <mnuTools>Εργαλεία</mnuTools>
-<mnuToolsSelect>Επιλέξτε εγγραφές MARC</mnuToolsSelect>
-<mnuToolsDelete>Διαγραφή επιλεγμένων εγγραφών</mnuToolsDelete>
-<mnuToolsExtract>Εξαγάγετε επιλεγμένες εγγραφές</mnuToolsExtract>
 <mnuExportGroup>Εξαγωγή...</mnuExportGroup>
 <mnuToolsTabbed>Εξαγωγή καρτέλα οριοθετημένα αρχεία</mnuToolsTabbed>
 <mnuToolsGateway>Εξαγωγή MARC εγγραφή</mnuToolsGateway>
+<mnuToolsSelect>Επιλέξτε εγγραφές MARC</mnuToolsSelect>
+<mnuToolsDelete>Διαγραφή επιλεγμένων εγγραφών</mnuToolsDelete>
+<mnuToolsExtract>Εξαγάγετε επιλεγμένες εγγραφές</mnuToolsExtract>
 <mnuToolsBatch>Εγγραφές διαδικασία παρτίδα</mnuToolsBatch>
+<mnuToolsCharacterConversion>Εργαλεία μετατροπής χαρακτήρων</mnuToolsCharacterConversion>
+<mnuToolCharacterConversionConversionTools>Μετατροπές χαρακτήρων</mnuToolCharacterConversionConversionTools>
+<characterDetectionToolStripMenuItem>Ανίχνευση χαρακτήρα</characterDetectionToolStripMenuItem>
 <mnuGenerateCallnumber>Δημιουργία αριθμών κλήσης</mnuGenerateCallnumber>
 <toolStripMenuItem3>Δημιουργήσετε γρήγορη επικεφαλίδες</toolStripMenuItem3>
 <mnuToolsDedup>Βρείτε διπλότυπες εγγραφές</mnuToolsDedup>
 <toolStripMenuItem6>OCLC επιχειρήσεις</toolStripMenuItem6>
+<oCLCRecordDownloaderToolStripMenuItem>Ρεκόρ Downloader OCLC</oCLCRecordDownloaderToolStripMenuItem>
 <updateWorldCatRecordHoldingsToolStripMenuItem>Ενημέρωση WorldCat ρεκόρ συμμετοχών</updateWorldCatRecordHoldingsToolStripMenuItem>
 <uploadBibliographRecordsToWorldCatToolStripMenuItem>Ανεβάσετε αρχεία Bibliograph να WorldCat</uploadBibliographRecordsToWorldCatToolStripMenuItem>
+<openRefineToolStripMenuItem>OpenRefine</openRefineToolStripMenuItem>
+<mnuToolOpenRefineExport>Εξαγωγή</mnuToolOpenRefineExport>
+<mnuToolOpenRefineImport>Εισαγωγή</mnuToolOpenRefineImport>
 <toolStripMenuItem5>Βοηθός RDA</toolStripMenuItem5>
+<mnuToolsUnimarcTools>UNIMARC εργαλεία</mnuToolsUnimarcTools>
+<mnuToolsValidateHeadings>Επικύρωση επικεφαλίδες</mnuToolsValidateHeadings>
 <toolStripMenuItem8>MARCCompare</toolStripMenuItem8>
 <mnuToolsJoin>MARCJoin</mnuToolsJoin>
 <mnuToolsSplit>MARCSplit</mnuToolsSplit>
@@ -470,17 +526,20 @@
 <lnkHomepage>http://marcedit.reeset.net</lnkHomepage>
 <label5>URL:</label5>
 <label2>Ευχαριστίες:</label2>
+<lb_modified>.</lb_modified>
 <lbMod>Τροποποιηθεί:</lbMod>
 <lbMailto>Terry Reese</lbMailto>
 <lbAuthor>Συγγραφέας:</lbAuthor>
 <lbVersion>Έκδοση:</lbVersion>
 <label3>|</label3>
 <label4>Σχετικά με MarcEdit</label4>
+<lnkSPARQL>Μηχανή αναζήτησης SPARQL</lnkSPARQL>
 <lnkLinkIds>Αναγνωριστικά σύνδεση</lnkLinkIds>
 <lnkJsonObject>Θεατής αντικείμενο JSON</lnkJsonObject>
 <lnkBibframe>BibFrame κλίνη δοκιμών</lnkBibframe>
 <label7>|</label7>
 <label8>MARCNext:</label8>
+<mnuHelpDeleteTempFiles>Καταργήστε τα προσωρινά αρχεία</mnuHelpDeleteTempFiles>
 <this>MarcEdit από Terry Reese</this>
 </MarcEdit_frmMain>
 <MarcEdit_frmOAIHarvest>
@@ -501,8 +560,16 @@
 <lbCrosswalk>Διάβαση πεζών μονοπάτι:</lbCrosswalk>
 <lnkAdvanced>Ρυθμίσεις για προχωρημένους</lnkAdvanced>
 <cmdSave>Αποθήκευση</cmdSave>
+<lnkDebug>Τον εντοπισμό σφαλμάτων σε διεύθυνση URL</lnkDebug>
 <this>Θεριζοαλωνιστική μηχανή μετα-δεδομένα</this>
 </MarcEdit_frmOAIHarvest>
+<MarcEdit_frmOCLCBulkDownload>
+<label1>Αρχείο προέλευσης OCLC αριθμών:</label1>
+<cmdDownload>Λήψη</cmdDownload>
+<cmdClose>Κλείστε</cmdClose>
+<label2>Αποθηκεύστε το αρχείο:</label2>
+<this>Χύμα κατεβάσετε αρχεία από OCLC</this>
+</MarcEdit_frmOCLCBulkDownload>
 <MarcEdit_frmOCLCSearchWorldCat>
 <label1>Αναζήτηση WorldCat:</label1>
 <cmbarg1>λέξη-κλειδί</cmbarg1>
@@ -602,6 +669,7 @@
 <lb_Engine_XML_Options>Επιλογές XML:</lb_Engine_XML_Options>
 <ck_engine_namespace>Χρήση Namespace</ck_engine_namespace>
 <lb_Global_XSLT_Path>MARCXML XSLT:</lb_Global_XSLT_Path>
+<labelAutoUpdateDisabled>Αυτόματες ενημερώσεις έχουν απενεργοποιηθεί από το διαχειριστή του συστήματος σας</labelAutoUpdateDisabled>
 <ckDetectProxy>Χρησιμοποιήστε τις ρυθμίσεις διακομιστή μεσολάβησης του συστήματος</ckDetectProxy>
 <ck_Update_Validator>Ελέγξουν αυτόματα για ενημερώσεις Validator</ck_Update_Validator>
 <label3>Σας πρέπει να ανήκει σε έναν τομέα για αυτό στην εργασία αυτή τη στιγμή.</label3>
@@ -621,16 +689,12 @@
 <ck_mrk8_editor>Αναπληρωτής (*.mrk8) αρχεία με το MarcEditor</ck_mrk8_editor>
 <ck_mrk_editor>Αναπληρωτής (*.mrk) αρχεία με το MarcEditor</ck_mrk_editor>
 <ck_mrc>Αναπληρωτής (*.mrc) αρχεία με το MarcBreaker</ck_mrc>
-<label26>Φάκελο εργασιών:</label26>
-<label25>Φακέλους δικτύου:</label25>
-<ck_allow_z3950>Επιτρέψει Z39.50 λειτουργίες</ck_allow_z3950>
-<label1>Αριθμός ετικέτα ελέγχου:</label1>
-<lbCall>Ετικέτα αριθμός κλήσης:</lbCall>
-<lb_mono>ΜΟΝΟ διαδρομή:</lb_mono>
-<lb_Author>Συγγραφέας ετικέτα:</lb_Author>
-<lb_title>Ετικέττα τίτλου:</lb_title>
-<lb_temp>Ορισμός προσωρινής διαδρομής:</lb_temp>
-<ck_rss>Διαβάσει RSS Feed</ck_rss>
+<label33>|</label33>
+<lnkSelectILS>Επιλέξτε</lnkSelectILS>
+<lnkDeleteProfile>Διαγραφή</lnkDeleteProfile>
+<label32>|</label32>
+<lnkAddProfile>Προσθέστε</lnkAddProfile>
+<label31>Προφίλ:</label31>
 <ck_ignore_ssl>Αγνοούν σφάλματα πιστοποιητικών SSL</ck_ignore_ssl>
 <lnk_ils_delete>Διαγραφή</lnk_ils_delete>
 <label14>|</label14>
@@ -655,6 +719,24 @@
 <label18>Μυστικό κλειδί (σε συνδυασμό με μεταδεδομένα API κλειδί)</label18>
 <label17>OCLC μεταδεδομένα API κλειδί</label17>
 <label16>OCLC αναζήτησης API κλειδί</label16>
+<lnkFilePaths>Τοποθεσίες</lnkFilePaths>
+<label30>Ορισμός προεπιλεγμένης διαδρομής μονάδας δίσκου εργαλεία MARC:</label30>
+<label27>Διαδρομές αρχείων:</label27>
+<label26>Φάκελο εργασιών:</label26>
+<label25>Φακέλους δικτύου:</label25>
+<lb_mono>ΜΟΝΟ διαδρομή:</lb_mono>
+<lb_temp>Ορισμός προσωρινής διαδρομής:</lb_temp>
+<ck_rss>Διαβάσει RSS Feed</ck_rss>
+<lb_title>Ετικέττα τίτλου:</lb_title>
+<lb_Author>Συγγραφέας ετικέτα:</lb_Author>
+<lbCall>Ετικέτα αριθμός κλήσης:</lbCall>
+<label1>Αριθμός ετικέτα ελέγχου:</label1>
+<ck_allow_z3950>Επιτρέψει Z39.50 λειτουργίες</ck_allow_z3950>
+<label28>Επιλογές πεδίου:</label28>
+<label34>Ετικέτα ISBN:</label34>
+<ckSort880>880: Χρησιμοποιήστε σύνδεση πεδίο για το είδος</ckSort880>
+<ck880Infile>InFile 880 πεδία με πεδίο ζεύγη</ck880Infile>
+<label29>Επιλογές ταξινόμησης:</label29>
 <this>MarcEdit προτιμήσεις</this>
 </MarcEdit_frmOptions>
 <MarcEdit_frmPluginManager>
@@ -673,15 +755,28 @@
 <columnHeader4>Έκδοση #:</columnHeader4>
 <this>Διαχείριση προσθέτων</this>
 </MarcEdit_frmPluginManager>
+<MarcEdit_frmProxy>
+<label1>πόρους. GetString ("label1. Text»)</label1>
+<label2>Μοτίβο:</label2>
+<cmdProcess>Διαδικασία</cmdProcess>
+<cmdCancel>"Άκυρο"</cmdCancel>
+<ckEscape>Διαφυγής δεδομένα από URL</ckEscape>
+<ckAddNew>Αντικαταστήστε το υπάρχον πεδίο</ckAddNew>
+<ck_addnewfield>Προσθέσετε ένα νέο πεδίο εάν όχι το παρόν</ck_addnewfield>
+<ckAlwaysAdd>Πάντα Προσθήκη νέου πεδίου</ckAlwaysAdd>
+<this>Κατασκευή νέων πεδίων</this>
+</MarcEdit_frmProxy>
 <MarcEdit_frmQueryLite>
+<label4>Όριο</label4>
+<lnkDownload>Λήψη όλων των στοιχείων</lnkDownload>
 <ck_batch>Μαζική Αναζήτηση</ck_batch>
 <lbdbtitle>label2</lbdbtitle>
 <groupBox3>Αποτελέσματα</groupBox3>
-<lnkDownload>Λήψη όλων των στοιχείων</lnkDownload>
 <lnkClearResults>Σαφή αποτελέσματα</lnkClearResults>
 <lnkGetNext>Πάρει το επόμενο {όριο}</lnkGetNext>
 <col1>Θέση</col1>
 <col2>Τίτλος</col2>
+<downloadSelectedItemsToolStripMenuItem>Λήψη επιλεγμένων στοιχείων</downloadSelectedItemsToolStripMenuItem>
 <groupBox1>Επιλογές</groupBox1>
 <lb_encoding_single>Σύνολο χαρακτήρων του διακομιστή</lb_encoding_single>
 <cmd_encoding>MARC8</cmd_encoding>
@@ -694,18 +789,20 @@
 <MCol1>Όνομα</MCol1>
 <MCol2>Τύπος</MCol2>
 <lb_PModifyTitle>Επιλέξτε τη βάση δεδομένων:</lb_PModifyTitle>
-<downloadSelectedItemsToolStripMenuItem>Λήψη επιλεγμένων στοιχείων</downloadSelectedItemsToolStripMenuItem>
 <this>Σύλληψη Z39.50</this>
 </MarcEdit_frmQueryLite>
 <MarcEdit_frmRDA>
+<ck_502>Διαδικασία το 502</ck_502>
+<label6>|</label6>
+<lnkEditFields>Επεξεργαστείτε τα πεδία</lnkEditFields>
 <ck_040>Τροποποιήσετε 040--προσθέστε $erda</ck_040>
 <ck_qualifyinginfo>Κατατακτήριες πληροφορίες (015/020/024/027)</ck_qualifyinginfo>
-<label5>|</label5>
 <lnkEdit>Επεξεργασία λίστας</lnkEdit>
 <ck_dgmd>Διαγραφή GMD</ck_dgmd>
 <ckAbbrev>Επεκτείνετε τις βραχυγραφίες</ckAbbrev>
 <ckgmd>Δημιουργία GMD</ckgmd>
 <ck264>Αξιολογήσει 260/264</ck264>
+<ck_signs>Χρησιμοποιείτε πάντα ©, ℗ σύμβολα</ck_signs>
 <ck381>Προσθέστε 381--άλλες</ck381>
 <ck380>Προσθέστε 380--μορφή εργασίας</ck380>
 <ck347>Προσθέστε 347--ψηφιακή χαρακτηριστικά</ck347>
@@ -723,7 +820,7 @@
 <label3>Επιλέξτε:</label3>
 <label4>|</label4>
 <lnkNone>Κανένας</lnkNone>
-<ck_signs>Χρησιμοποιείτε πάντα ©, ℗ σύμβολα</ck_signs>
+<label7>Κατάσταση:</label7>
 <this>Βοηθός RDA</this>
 </MarcEdit_frmRDA>
 <MarcEdit_frmResults>
@@ -740,11 +837,17 @@
 <label4>Σχετικά με RobertCompare</label4>
 <label3>|</label3>
 <lnkAbout>Σχετικά με RobertCompare</lnkAbout>
+<ckSort>Προ-ταξινομήσετε αρχεία</ckSort>
 <cmdClose>Κλείσιμο</cmdClose>
 <cmdExecute>Εκτέλεση</cmdExecute>
 <label1>Αποθηκεύστε το αρχείο:</label1>
 <label6>Σύγκριση αρχείων:</label6>
 <label2>MARCCompare είναι ένα εξειδικευμένο εργαλείο για τον προσδιορισμό διαφορές μεταξύ MARC αρχεία.  Για να χρησιμοποιήσετε το πρόγραμμα, επιλέξτε δύο MARC αρχεία να συγκρίνετε τις εκδόσεις του ένα σύνολο εγγραφών.  Για περισσότερες πληροφορίες σχετικά με την ιστορία του εργαλείου, ή πώς πήρε το όνομα, ανατρέξτε στη σελίδα About.</label2>
+<lnkPreferences>Προτιμήσεις</lnkPreferences>
+<label7>|</label7>
+<lbSortField>Πεδίο ταξινόμησης:</lbSortField>
+<lbdelete>Διαγραφές:</lbdelete>
+<lbAddColor>Προσθήκες:</lbAddColor>
 <this>MARCCompare/RobertCompare</this>
 </MarcEdit_frmRobertCompare>
 <MarcEdit_frmScript>
@@ -754,6 +857,19 @@
 <btnCancel>Κλείσιμο</btnCancel>
 <this>Επεξεργασία δέσμης ενεργ.</this>
 </MarcEdit_frmScript>
+<MarcEdit_frmSearchILSGeneric>
+<lnkNone>Κανένας</lnkNone>
+<lnkAll>Επιλογή όλων</lnkAll>
+<col_title>Τίτλος</col_title>
+<col_id>ΑΝΑΓΝΩΡΙΣΤΙΚΌ</col_id>
+<label3>|</label3>
+<label2>Αποτελέσματα:</label2>
+<cmdClose>Κλείστε</cmdClose>
+<cmdSearch>Αναζήτηση</cmdSearch>
+<cmbarg1>Τίτλος</cmbarg1>
+<label1>Βάση δεδομένων Αναζήτηση:</label1>
+<this>Αναζήτηση</this>
+</MarcEdit_frmSearchILSGeneric>
 <MarcEdit_frmSearchXML>
 <cName>Όνομα διάβαση πεζών</cName>
 <cAuthor>Υποβλήθηκε από</cAuthor>
@@ -765,6 +881,10 @@
 <lnkViewAll>Δείτε όλες τις διαβάσεις</lnkViewAll>
 <this>Αποτελέσματα αναζήτησης διάβαση πεζών XSLT</this>
 </MarcEdit_frmSearchXML>
+<MarcEdit_frmSelectILS>
+<cmdSelect>Επιλέξτε</cmdSelect>
+<this>Επιλέξτε ILS</this>
+</MarcEdit_frmSelectILS>
 <MarcEdit_frmSelectMARCRecords>
 <columnHeader1>Αριθμός ρεκόρ</columnHeader1>
 <columnHeader2>Εμφανιζόμενο πεδίο</columnHeader2>
@@ -782,6 +902,9 @@
 <ck_find_all>Ψάξτε όλα τα δεδομένα εγγραφής</ck_find_all>
 <ck_use_regex>Χρησιμοποιούν τυπικές εκφράσεις</ck_use_regex>
 <cmdRandomExport>Εξαγωγή τυχαία</cmdRandomExport>
+<lnkDoesNotMatch>Δεν ταιριάζει με</lnkDoesNotMatch>
+<label1>|</label1>
+<lnkInvert>Οι επιλογές "Αντιστροφή"</lnkInvert>
 <this>MarcEdit.NET: Τροποποιήσετε MARC επιλεγμένες εγγραφές</this>
 </MarcEdit_frmSelectMARCRecords>
 <MarcEdit_frmSort>
@@ -792,6 +915,17 @@
 <cmd_Close>Κλείσιμο</cmd_Close>
 <this>ΠΡΟΣΑΡΜΟΣΜΕΝΗ ΤΑΞΙΝΟΜΗΣΗ οδηγός</this>
 </MarcEdit_frmSort>
+<MarcEdit_frmSPARQL_Browser>
+<lbsparql>SPARQL τελικού σημείου:</lbsparql>
+<cmdQuery>Ερώτημα</cmdQuery>
+<cmdClose>Κλείστε</cmdClose>
+<lbQuery>SPARQL Query:</lbQuery>
+<lbresults>Αποτελέσματα:</lbresults>
+<cklocal>Τοπικό αρχείο φορτίο</cklocal>
+<lbOutput>Έξοδος:</lbOutput>
+<cmbOutput>XML</cmbOutput>
+<this>Μηχανή αναζήτησης SPARQL</this>
+</MarcEdit_frmSPARQL_Browser>
 <MarcEdit_frmSpecial_Formats>
 <lb_title>CDS-ISIS =&gt; MARC μετάφραση</lb_title>
 <groupBox1>Εισαγωγή από το χρήστη</groupBox1>
@@ -1095,6 +1229,8 @@
 <addCopyFieldTaskToolStripMenuItem>Προσθέστε αντίγραφο πεδίου εργασιών</addCopyFieldTaskToolStripMenuItem>
 <addTaskListToolStripMenuItem>Προσθήκη λίστας εργασιών</addTaskListToolStripMenuItem>
 <addRDAHelperToolStripMenuItem>Add RDA Helper</addRDAHelperToolStripMenuItem>
+<addLinkedDataTaskToolStripMenuItem>Προσθέστε τα συνδεδεμένα δεδομένα εργασιών</addLinkedDataTaskToolStripMenuItem>
+<addBuildNewFieldTaskToolStripMenuItem>Προσθέστε νέα εργασία πεδίου Build</addBuildNewFieldTaskToolStripMenuItem>
 <lbTasks>Εργασίες:</lbTasks>
 <label1>Δράσεις:</label1>
 <label2>Περιγραφή/ελέγχους:</label2>
@@ -1104,6 +1240,7 @@
 <columnHeader1>Όνομα</columnHeader1>
 <columnHeader2>Διαδρομή</columnHeader2>
 <columnHeader3>Συντόμευση</columnHeader3>
+<columnHeader4>Περιγραφή</columnHeader4>
 <cmdClose>Κλείσιμο</cmdClose>
 <lnkNew>Δημιουργία νέας λίστας εργασιών</lnkNew>
 <lbMacro>Λίστες εργασιών:</lbMacro>
@@ -1116,7 +1253,6 @@
 <lnkKey>Αντιστοίχιση πλήκτρου</lnkKey>
 <lnkEdit>Επεξεργαστείτε τη λίστα επιλεγμένων εργασιών</lnkEdit>
 <lnkDelete>Διαγραφή επιλεγμένων λίστα εργασιών</lnkDelete>
-<columnHeader4>Περιγραφή</columnHeader4>
 <this>Διαχείριση εργασιών</this>
 </MarcEdit_frmTaskManager>
 <MarcEdit_frmTools>
@@ -1129,32 +1265,18 @@
 <groupBox2>Λειτουργίες</groupBox2>
 <ck_Marc8>Μεταφράσει σε MARC-8</ck_Marc8>
 <ck_UTF8>Μεταφράσει σε UTF8</ck_UTF8>
-<toolStrip1>λωρίδα Εργαλείων1</toolStrip1>
-<toolOpen>Άνοιγμα αρχείου</toolOpen>
-<toolSave>Αποθήκευση αρχείου</toolSave>
-<toolExport>Εξαγωγή εγγραφών</toolExport>
-<toolHelp>Βοήθεια</toolHelp>
 <menuStrip1>menuStrip1</menuStrip1>
-<mnuFile>Αρχείο</mnuFile>
-<mnuFileMain>Επιστροφή στο κύριο παράθυρο</mnuFileMain>
-<mnuFileOpen>Ανοικτή</mnuFileOpen>
-<mnuFileSave>Αποθήκευση</mnuFileSave>
-<mnuFileExit>Έξοδος</mnuFileExit>
-<mnuTools>Εργαλεία</mnuTools>
-<mnuBatchProcessing>Εγγραφές διαδικασία παρτίδα</mnuBatchProcessing>
-<mnuToolsXML>Επεξεργασία λίστας συνάρτηση XML</mnuToolsXML>
-<mnuToolsEncoding>Εργαλεία μετατροπής χαρακτήρων</mnuToolsEncoding>
-<mnuToolsUTF8>MARC8 =&gt; μετατροπής UTF8</mnuToolsUTF8>
-<mnuToolsMARC8>UTF8 =&gt; μετατροπής MARC8</mnuToolsMARC8>
-<otherConversionsToolStripMenuItem>Άλλες μετατροπές</otherConversionsToolStripMenuItem>
-<mnutoolsValidator>MARCValidator</mnutoolsValidator>
-<mnutoolsjoin>MARCJoin</mnutoolsjoin>
-<mnutoolssplit>MARCSplit</mnutoolssplit>
-<mnuToolsExport>Εξαγωγή εγγραφών MARC</mnuToolsExport>
-<mnuToolsExtract>Εξαγάγετε επιλεγμένες εγγραφές</mnuToolsExtract>
-<mnuHelp>Βοήθεια</mnuHelp>
-<mnuHelpContents>Πλαίσιο και δείκτης</mnuHelpContents>
-<mnuHelpError>Προτάσεις/σφάλμα έκθεση</mnuHelpError>
+<toolsToolStripMenuItem>Εργαλεία</toolsToolStripMenuItem>
+<mnuToolsReturnToMainWindows>Επιστρέψετε στο κύριο παράθυρο</mnuToolsReturnToMainWindows>
+<editXMLFunctionListToolStripMenuItem>Επεξεργασία XML κατάλογος συναρτήσεων</editXMLFunctionListToolStripMenuItem>
+<mARCValidatorToolStripMenuItem>MARCValidator</mARCValidatorToolStripMenuItem>
+<batchProcessFunctionToolStripMenuItem>Εγγραφές διαδικασία δέσμης</batchProcessFunctionToolStripMenuItem>
+<characterConversionToolsToolStripMenuItem>Εργαλεία μετατροπής χαρακτήρων</characterConversionToolsToolStripMenuItem>
+<mARCCompareToolStripMenuItem>MARCCompare</mARCCompareToolStripMenuItem>
+<mARCJoinToolStripMenuItem>MARCJoin</mARCJoinToolStripMenuItem>
+<mARCSplitToolStripMenuItem>MARCSplit</mARCSplitToolStripMenuItem>
+<uNIMARCToolsToolStripMenuItem>UNIMARC εργαλεία</uNIMARCToolsToolStripMenuItem>
+<helpToolStripMenuItem>Βοήθεια</helpToolStripMenuItem>
 <this>MARC εργαλεία</this>
 </MarcEdit_frmTools>
 <MarcEdit_frmTutorialManager>
@@ -1169,6 +1291,19 @@
 <lnkClose>Κλείσιμο</lnkClose>
 <this>Τοπικό σεμινάριο διευθυντής</this>
 </MarcEdit_frmTutorialManager>
+<MarcEdit_frmUnimarc>
+<label1>MarcEdit παρέχει ένα σύνολο εργαλείων μετατροπής UNIMARC lite-βάρος.  Εάν αυτά τα εργαλεία είναι ενδιαφέρον για εσάς και θα θέλατε να βοηθήσει να καταστήσει καλύτερα, καλείσθε να παράσχετε φ eedback.
+
+</label1>
+<label2>Πηγή</label2>
+<label3>Προορισμός</label3>
+<groupBox1>Επιλογές</groupBox1>
+<rdUNIMARC>UNIMARC =&gt; MARC21</rdUNIMARC>
+<rdMARC21>MARC21 =&gt; UNIMARC</rdMARC21>
+<cmdProcess>Διαδικασία</cmdProcess>
+<cmdClose>Κλείστε</cmdClose>
+<this>UNIMARC εργαλεία</this>
+</MarcEdit_frmUnimarc>
 <MarcEdit_frmUpdate>
 <label1>Ενημέρωση σημειώσεις:</label1>
 <cmd_Update>Ενημέρωση</cmd_Update>
@@ -1198,6 +1333,8 @@
 <lb_Split_Folder>Φάκελος προορισμού:</lb_Split_Folder>
 <lb_Split_Source>Αρχείο προέλευσης:</lb_Split_Source>
 <lb_Split_Header>Βοηθητικό πρόγραμμα MARCSplit</lb_Split_Header>
+<ckJoinSubfolders>Να περιλαμβάνονται υποφάκελοι</ckJoinSubfolders>
+<cmdEditFile>Επεξεργαστείτε το αρχείο</cmdEditFile>
 <lnkJoinedFiles>Εμφάνιση εντάχθηκαν αρχεία</lnkJoinedFiles>
 <label19>Τύποι αρχείου:</label19>
 <ck_JoinIndividual>Ενταχθούν μεμονωμένα αρχεία</ck_JoinIndividual>
@@ -1206,6 +1343,7 @@
 <lb_Join_Files>Αρχείο (ες) να συμμετάσχουν:</lb_Join_Files>
 <lb_Join_Source>Αρχείο προορισμού:</lb_Join_Source>
 <lb_Join_Header>Βοηθητικό πρόγραμμα MARCJoin</lb_Join_Header>
+<lbJoinStatus>Κατάσταση:</lbJoinStatus>
 <lb_Tab_Header>Εξαγωγή καρτέλα οριοθετημένα αρχεία</lb_Tab_Header>
 <cmb_sec_del></cmb_sec_del>
 <label18>Σε Οριοθέτης πεδίων</label18>
@@ -1218,6 +1356,7 @@
 <mnusave>Αποθηκεύσετε ρυθμίσεις</mnusave>
 <menuItem1>-</menuItem1>
 <menuItem3>ΔΙΑΓΡΑΦΗ ΡΥΘΜΙΣΕΩΝ</menuItem3>
+<ckBatchProcessSubfolders>Να περιλαμβάνονται υποφάκελοι</ckBatchProcessSubfolders>
 <lb_Operation>Λειτουργία:</lb_Operation>
 <cmdBClose>Κλείσιμο</cmdBClose>
 <cmdBProcess>Διαδικασία</cmdBProcess>
@@ -1235,6 +1374,7 @@
 <cmdTExport>Εξαγωγή</cmdTExport>
 <label2>Βήμα 2: Καθορίστε δευτερεύοντα πεδία/πεδία για εξαγωγή</label2>
 <label3>Εξαγωγή καρτέλα οριοθετημένα αρχεία</label3>
+<ckIsUTF8>Κωδικοποιημένα Unicode</ckIsUTF8>
 <ck_merge_to_source>Συγχώνευση σε πηγή</ck_merge_to_source>
 <label17>Αποθηκεύστε το αρχείο:</label17>
 <label16>Καταλογογράφηση πηγή</label16>
@@ -1246,45 +1386,37 @@
 <lb_id>Κωδικός αριθμός εγγραφής:</lb_id>
 <lb_merge>Συγχώνευση αρχείου:</lb_merge>
 <lb_source>Αρχείο προέλευσης:</lb_source>
-<cmd_merge_cancel_2>"Άκυρο"</cmd_merge_cancel_2>
-<cmd_merge_next_2>Στη συνέχεια =&gt;</cmd_merge_next_2>
-<cmd_merge_back_2>&lt; = Πίσω</cmd_merge_back_2>
 <label4>Επιλέξτε την επιλογή που περιγράφει καλύτερα τη λειτουργία που θέλετε να εκτελέσετε.</label4>
-<lb_merge_title_2>Συγχώνευση δεδομένων: Βήμα 2</lb_merge_title_2>
-<groupBox2>Συγχώνευση αρχείου επιλογές</groupBox2>
-<rd_merge_overlay>Συγχώνευση και επικάλυψη όλα τα δεδομένα</rd_merge_overlay>
-<rd_merge_delimited>Συγχώνευση οριοθετημένα δεδομένα</rd_merge_delimited>
-<rd_merge_selected>Επιλεγμένων πεδίων συγχώνευσης</rd_merge_selected>
-<rd_merge_all>Συγχώνευση όλων των μοναδικών στοιχείων</rd_merge_all>
+<ck_mergeUnique>Συγχώνευση μοναδικά αντικείμενα</ck_mergeUnique>
 <button1>"Άκυρο"</button1>
 <cmd_merge_select_fields_next>Στη συνέχεια =&gt;</cmd_merge_select_fields_next>
 <cmd_merge_select_fields_back>&lt; = Πίσω</cmd_merge_select_fields_back>
-<groupBox3>Τροποποιήστε τις επιλογές</groupBox3>
-<label10>να</label10>
-<label12>Δευτερεύοντα πεδία</label12>
-<label9>να</label9>
-<label8>Δείκτες</label8>
 <label7>Πεδίων συγχώνευσης:</label7>
 <label6>Επιλέξτε πεδίο:</label6>
 <label5>Συγχώνευση δεδομένων: Επιλογή πεδίων</label5>
-<ck_Repeatable>Επαναλαμβανόμενη δευτερεύον πεδίο</ck_Repeatable>
-<ck_sort>Πεδία ταξινόμησης</ck_sort>
-<P3_cmd_Cancel>"Άκυρο"</P3_cmd_Cancel>
-<P3_cmd_finish>Φινίρισμα</P3_cmd_finish>
-<P3_ck_save_args>Αποθήκευση προτύπου</P3_ck_save_args>
-<button4>Πρότυπο φορτίο</button4>
-<P3_cmd_Apply>Ισχύουν</P3_cmd_Apply>
-<P3_lb_args>Επιχειρήματα</P3_lb_args>
-<P3_lb_punct>Όρος. Στίξη:</P3_lb_punct>
-<P3_txt_indicators>\\\\</P3_txt_indicators>
-<P3_lb_indicators>Δείκτες:</P3_lb_indicators>
-<P3_mapto>Αντιστοίχιση σε:</P3_mapto>
-<P3_lb_select>Επιλέξτε:</P3_lb_select>
 <button5>Κλείσιμο</button5>
 <label15>Αρχεία έχουν συγχωνευτεί.  Αποτελέσματα στο {merge_results_file}.</label15>
 <label13>Συγχώνευσης ολοκληρώθηκε</label13>
 <this>Utilties διαλόγου</this>
 </MarcEdit_frmUtilities>
+<MarcEdit_frmValidateHeadings>
+<label1>Το εργαλείο επικύρωσης επικεφαλίδες μπορεί να χρησιμοποιηθεί για την επικύρωση 1xx, 6xx ή 7xx πεδία.  Ου ε εργαλείο χρησιμοποιεί ένα συνδυασμό web και τοπικές υπηρεσίες για να προσδιορίσετε εάν μια headin g εμφανίζεται σε ένα εξουσιοδοτημένο επικεφαλίδα.</label1>
+<ck_1xx>Επιτρέπουν 1xx/7xx πεδία</ck_1xx>
+<ck_6xx>Επιτρέπουν 6xx πεδίο</ck_6xx>
+<cmdProcess>Διαδικασία</cmdProcess>
+<cmdClose>Κλείστε</cmdClose>
+<label2>Πηγή:</label2>
+<lbStatus>Κατάσταση:</lbStatus>
+<cmdExtract>Εκχύλισμα</cmdExtract>
+<ckdeletecache>Διαγράψετε τη μνήμη Cache του τοπικού</ckdeletecache>
+<lnkDelimited>Αποθήκευση οριοθετημένο</lnkDelimited>
+<ckonlyA>Μόνο διαδικασία υποπεδίο A</ckonlyA>
+<ckVariant>Αυτόματη διόρθωση παραλλαγές</ckVariant>
+<ckGenerateBriefHeadings>Δημιουργία σύντομο προσωπικό όνομα αρχές</ckGenerateBriefHeadings>
+<label3>Αρχές που δημιουργήθηκε:</label3>
+<ckAddURIs>Ενσωματώσετε URIs όταν είναι δυνατό</ckAddURIs>
+<this>Επικύρωση επικεφαλίδες</this>
+</MarcEdit_frmValidateHeadings>
 <MarcEdit_frmvalidator>
 <lb_Source>Αρχείο προέλευσης:</lb_Source>
 <lb_Rules>Αρχείο κανόνων:</lb_Rules>
@@ -1306,6 +1438,7 @@
 <lb_Dest>Αρχείο εξόδου:</lb_Dest>
 <lb_MARC>Αρχείο εισόδου:</lb_MARC>
 <lb_Fields>Πεδία:</lb_Fields>
+<lbTimeout>Χρονικό όριο (σε δευτερόλεπτα)</lbTimeout>
 <this>Επαληθεύστε τη διεύθυνση URL</this>
 </MarcEdit_frmVURL>
 <MarcEdit_frm_FASTHeadings>
@@ -1331,6 +1464,7 @@
 <ck_dates>Ημερομηνίες (θέσεις: 7-14)</ck_dates>
 <ck_p7>BLvl (θέση 7)</ck_p7>
 <ck_p6>Τύπος (θέση 6)</ck_p6>
+<ck_001>001/019</ck_001>
 <label6>Αριθμούς ελέγχου</label6>
 <ck_form>Μορφή (θέσεις: 23)</ck_form>
 <ck_245_h>$h: υλικό γενική ονομασία</ck_245_h>
@@ -1429,9 +1563,14 @@
 <mnuFileClearList>Εκκαθάριση πρόσφατου αρχεία</mnuFileClearList>
 <clearEditReplaceHistoryToolStripMenuItem>Εκκαθάριση ιστορικού επεξεργασία/αντικατάσταση</clearEditReplaceHistoryToolStripMenuItem>
 <mnuFileClose>Κλείσιμο</mnuFileClose>
+<mnuFileExportData>Εξαγωγή για...</mnuFileExportData>
+<openRefineExport>OpenRefine</openRefineExport>
+<mnuFileImportData>Εισαγωγή από...</mnuFileImportData>
+<openRefineImport>OpenRefine</openRefineImport>
 <mnuFileSave>Αποθήκευση</mnuFileSave>
 <mnuFileSaveAs>Αποθήκευση ως...</mnuFileSaveAs>
 <mnuFilePrint>Εκτύπωση</mnuFilePrint>
+<toolStripMenuItem34>Εκτυπώσετε μια εγγραφή ανά σελίδα</toolStripMenuItem34>
 <FileSelectIndividualMake>Επιλέξτε μεμονωμένες εγγραφές για να</FileSelectIndividualMake>
 <mnuFileCompile>Μεταγλωττίστε το αρχείο σε MARC</mnuFileCompile>
 <mnuFileExit>Έξοδος</mnuFileExit>
@@ -1455,7 +1594,12 @@
 <capitalizeInitialCharacterToolStripMenuItem>Αρχικός χαρακτήρας σε κεφαλαία</capitalizeInitialCharacterToolStripMenuItem>
 <fieldEditsToolStripMenuItem>Πεδίο αλλαγές</fieldEditsToolStripMenuItem>
 <findRecordsMissingFieldToolStripMenuItem>Βρείτε τα αρχεία που λείπουν πεδίο</findRecordsMissingFieldToolStripMenuItem>
+<toolStripMenuItem39>Βρείτε εγγραφές με διπλές ετικέτες</toolStripMenuItem39>
+<toolStripMenuItem40>Βρείτε τις εγγραφές με την διπλότυπη τομέα δεδομένα</toolStripMenuItem40>
+<mnuEditLimitFields>Όριο στον αριθμό των πεδίων</mnuEditLimitFields>
 <swapTitleToolStripMenuItem>Swap τίτλος</swapTitleToolStripMenuItem>
+<mathFunctionsToolStripMenuItem>Λειτουργίες μαθηματικά</mathFunctionsToolStripMenuItem>
+<convertToDecimalDegreesToolStripMenuItem>Μετατρέψετε σε μοίρες δεκαδικά</convertToDecimalDegreesToolStripMenuItem>
 <mnuEditJumpTo>Άλμα για να...</mnuEditJumpTo>
 <jumpToRecordToolStripMenuItem>Άλμα για να...Εγγραφή</jumpToRecordToolStripMenuItem>
 <jumpToPageToolStripMenuItem>Άλμα για να...Σελίδα</jumpToPageToolStripMenuItem>
@@ -1488,9 +1632,6 @@
 <mnuEditSelectAll>Επιλογή όλων</mnuEditSelectAll>
 <mnuEditWrap>Αναδίπλωση λέξεων</mnuEditWrap>
 <mnuEditRTL>Επιδείξετε δεξιά προς αριστερά</mnuEditRTL>
-<mnuEditInfo>MARC πληροφορίες</mnuEditInfo>
-<mnuEditInfoOCLC>OCLC MARC βοήθεια</mnuEditInfoOCLC>
-<mnuEditInfoLC>ΗΠΑ βιβλιοθήκη του Κογκρέσου MARC βοήθεια</mnuEditInfoLC>
 <mnuFont>Γραμματοσειρές</mnuFont>
 <mnuFontFont>Γραμματοσειρά...</mnuFontFont>
 <mnuFontColor>Χρώμα...</mnuFontColor>
@@ -1508,10 +1649,18 @@
 <soundRecordingsToolStripMenuItem>Ηχητικές καταγραφές</soundRecordingsToolStripMenuItem>
 <visualMaterialsToolStripMenuItem>Οπτικά υλικά</visualMaterialsToolStripMenuItem>
 <mARCValidatorToolStripMenuItem>MARCValidator</mARCValidatorToolStripMenuItem>
+<validateISBNSToolStripMenuItem>Επικύρωση αριθμούς ISBN</validateISBNSToolStripMenuItem>
+<validateISSNSToolStripMenuItem>Επικύρωση ISSNS</validateISSNSToolStripMenuItem>
+<validateHeadingsToolStripMenuItem>Επικύρωση επικεφαλίδες</validateHeadingsToolStripMenuItem>
 <mnuTools>Εργαλεία</mnuTools>
+<mnutoolCutters>Cuttering εργαλεία</mnutoolCutters>
 <mnuToolsCalculator>Κατάλογος αριθμομηχανή</mnuToolsCalculator>
+<generateCuttersToolStripMenuItem>Δημιουργία κόφτες</generateCuttersToolStripMenuItem>
+<sanbornTable3CuttersToolStripMenuItem>Κόφτες Sanborn πίνακας 3</sanbornTable3CuttersToolStripMenuItem>
 <mnuToolsCallNum>Δημιουργία αριθμών κλήσης</mnuToolsCallNum>
 <mnuToolsControlNumber>Δημιουργία αριθμών ελέγχου</mnuToolsControlNumber>
+<toolStripMenuItem33>Συνδεδεμένα δεδομένα εργαλεία</toolStripMenuItem33>
+<buildLinkedRecordsToolStripMenuItem>Οικοδομήσουμε συνδεδεμένες καρτέλες</buildLinkedRecordsToolStripMenuItem>
 <mnuToolsRDAHelpers>Βοηθός RDA</mnuToolsRDAHelpers>
 <mnuToolsEditConstant>Επεξεργασία δεδομένων σταθερή</mnuToolsEditConstant>
 <mnuToolsAssigned>Αποδίδεται σταθερά δεδομένα</mnuToolsAssigned>
@@ -1526,7 +1675,7 @@
 <mnuConstant9>9) απροσδιόριστη συμβολοσειρά</mnuConstant9>
 <mnuConstant10>10) απροσδιόριστη συμβολοσειρά</mnuConstant10>
 <mnutoolmanageAutomate>Διαχείριση εργασιών</mnutoolmanageAutomate>
-<mnutoolassignTasks>Εργασίες που έχουν ανατεθεί</mnutoolassignTasks>
+<mnuToolsAssignedTasks>Εργασίες που έχουν ανατεθεί</mnuToolsAssignedTasks>
 <mnuDefTask>Επί του παρόντος διαθέσιμες εργασίες</mnuDefTask>
 <task1>1) απροσδιόριστη εργασιών</task1>
 <task2>2) απροσδιόριστη εργασιών</task2>
@@ -1538,6 +1687,16 @@
 <task8>8) απροσδιόριστη εργασιών</task8>
 <task9>9) απροσδιόριστη εργασιών</task9>
 <task10>10) απροσδιόριστη εργασιών</task10>
+<task11>11) δεν έχει οριστεί εργασιών</task11>
+<task12>12) εργασία δεν έχει οριστεί</task12>
+<task13>13) δεν έχει οριστεί εργασιών</task13>
+<task14>14) δεν έχει οριστεί εργασιών</task14>
+<task15>15) εργασία δεν έχει οριστεί</task15>
+<task16>16) απροσδιόριστη εργασιών</task16>
+<task17>17) δεν έχει οριστεί εργασιών</task17>
+<task18>18) δεν έχει οριστεί εργασιών</task18>
+<task19>19) απροσδιόριστη εργασιών</task19>
+<task20>20) εργασία δεν έχει οριστεί</task20>
 <mnuToolsZ3950>Επιλογές Z39.50/SRU</mnuToolsZ3950>
 <marcEditZ3950SRUClientToolStripMenuItem>MarcEdit Z39.50/SRU πελάτη</marcEditZ3950SRUClientToolStripMenuItem>
 <importRecordToolStripMenuItem>Η εισαγωγή καρτέλας Z39.50</importRecordToolStripMenuItem>
@@ -1553,6 +1712,7 @@
 <normalizeMicrolifRecordsToolStripMenuItem>Εξομαλύνει τις Microlif εγγραφές</normalizeMicrolifRecordsToolStripMenuItem>
 <mnuToolsRemoveEmpty>Αφαιρέστε τα κενά πεδία/δευτερεύοντα πεδία</mnuToolsRemoveEmpty>
 <mnuToolsAdd>Προσθήκη/Διαγραφή πεδίο</mnuToolsAdd>
+<mnuFieldEditsBuildProxy>Δημιουργία νέου πεδίου</mnuFieldEditsBuildProxy>
 <toolStripMenuItem26>Αντίγραφο πεδίο</toolStripMenuItem26>
 <mnuToolsEditField>Επεξεργασία δεδομένων πεδίου</mnuToolsEditField>
 <mnuToolsIndicator>Επεξεργαστείτε τα δεδομένα δείκτη</mnuToolsIndicator>
@@ -1578,6 +1738,10 @@
 <pluginsToolStripMenuItem>Plug-ins</pluginsToolStripMenuItem>
 <mnuHelp>Βοήθεια</mnuHelp>
 <mnuHelpContents>Περιεχόμενα και βοήθεια</mnuHelpContents>
+<mnuEditInfo>MARC πληροφορίες</mnuEditInfo>
+<mnuEditInfoOCLC>OCLC MARC βοήθεια</mnuEditInfoOCLC>
+<mnuHelpRDAToolkit>Κιτ εργαλείων RDA</mnuHelpRDAToolkit>
+<mnuEditInfoLC>ΗΠΑ βιβλιοθήκη του Κογκρέσου MARC βοήθεια</mnuEditInfoLC>
 <label1>Εγγραφών ανά σελίδα</label1>
 <lblPage>σελίδες</lblPage>
 <btnPre>&lt;</btnPre>
@@ -1627,206 +1791,4 @@
 <opt_msxml>MSXML</opt_msxml>
 <this>Επεξεργασία XML λειτουργίες</this>
 </MarcEdit_xml_functions>
-<marc_sql_explorer_frmMain>
-<tabPage1>Φορτίο δεδομένων</tabPage1>
-<ckexpanded>Χρήση τραπέζι σχήματος</ckexpanded>
-<ckloadDB>Χρήση MySQL</ckloadDB>
-<ckMysql>Χρήση MySQL</ckMysql>
-<lnkmysqlOptions>MySQL επιλογές</lnkmysqlOptions>
-<cmdCancelP>"Άκυρο"</cmdCancelP>
-<cmdProcessMARC>Διαδικασία</cmdProcessMARC>
-<cmdLoadDB>Φορτίο</cmdLoadDB>
-<label5>Αρχείο βάσης δεδομένων:</label5>
-<label6>Φορτώσει το υπάρχον αρχείο βάσης δεδομένων</label6>
-<label3>Αρχείο βάσης δεδομένων:</label3>
-<label2>MARC αρχείο:</label2>
-<label1>Προ-επεξεργασία δεδομένων MARC</label1>
-<tabPage2>Δομή βάσης δεδομένων</tabPage2>
-<cname>Όνομα</cname>
-<cObject>Αντικείμενο</cObject>
-<cSchema>Χρονοδιάγραμμα</cSchema>
-<tabPage3>Εκτελέσει SQL</tabPage3>
-<label8>Δεδομένα που επιστρέφονται</label8>
-<label7>Αποτελέσματα ερωτήματος</label7>
-<cmdExportD>Εξαγωγή δεδομένων</cmdExportD>
-<cmdExcecuteQ>Εκτέλεση ερωτήματος</cmdExcecuteQ>
-<label4>Συμβολοσειρά SQL</label4>
-<cmdClose>Κλείσιμο</cmdClose>
-<this>MARC SQL Explorer</this>
-</marc_sql_explorer_frmMain>
-<marc_sql_explorer_frmOptions>
-<label1>Διακομιστή βάσης δεδομένων:</label1>
-<label2>Όνομα χρήστη:</label2>
-<label3>Κωδικός πρόσβασης:</label3>
-<cmdSave>Αποθήκευση</cmdSave>
-<cmdClose>Κλείσιμο</cmdClose>
-<this>Επιλογές MySQL:</this>
-</marc_sql_explorer_frmOptions>
-<me_tabbed_frmldr>
-<label1>LDR</label1>
-<cmd_OK>Ok</cmd_OK>
-<cmd_Close>Κλείσιμο</cmd_Close>
-<checkBox1>UNIMARC</checkBox1>
-<this>Επεξεργαστείτε LDR/008</this>
-</me_tabbed_frmldr>
-<me_tabbed_frmMain>
-<groupBox4>Επιλογές</groupBox4>
-<ck_unicode>UTF-8 κωδικοποίηση</ck_unicode>
-<linkLabel1>Επεξεργαστείτε LDR/008</linkLabel1>
-<groupBox3>Οριοθέτης τιμές</groupBox3>
-<P2_lb_Other>Χαρακτήρας:</P2_lb_Other>
-<P2_lb_Delimiter>Οριοθέτης:</P2_lb_Delimiter>
-<P2_txt_qualifier>Προσδιοριστικό</P2_txt_qualifier>
-<lbSheet>Όνομα φύλλου του Excel:</lbSheet>
-<P2_cmd_Cancel>"Άκυρο"</P2_cmd_Cancel>
-<P2_cmd_Next>Επόμενη</P2_cmd_Next>
-<P2_lb_output>Αρχείο εξόδου:</P2_lb_output>
-<P2_Import>Αρχείο προέλευσης:</P2_Import>
-<groupBox2>Επιχειρήματα</groupBox2>
-<lnkAuto>Αυτόματη δημιουργία</lnkAuto>
-<ck_filing_characters>Υπολογίστε την κοινή nonfiling δεδομένων</ck_filing_characters>
-<ck_sort>Πεδία ταξινόμησης</ck_sort>
-<P3_ck_save_args>Αποθήκευση προτύπου</P3_ck_save_args>
-<button2>Πρότυπο φορτίο</button2>
-<toolStripMenuItem2>Επεξεργασία στοιχείου</toolStripMenuItem2>
-<deleteItemsToolStripMenuItem>Διαγραφή στοιχείων</deleteItemsToolStripMenuItem>
-<joinItemsToolStripMenuItem>Ενώσει στοιχεία</joinItemsToolStripMenuItem>
-<label1>Στιγμιότυπο των δεδομένων</label1>
-<groupBox1>Ρυθμίσεις</groupBox1>
-<ck_Repeatable>Επαναλαμβανόμενη δευτερεύον πεδίο</ck_Repeatable>
-<P3_ck_constant>Σταθερά δεδομένα</P3_ck_constant>
-<P3_cmd_Apply>Προσθέστε το επιχείρημα</P3_cmd_Apply>
-<P3_lb_punct>Όρος. Στίξη:</P3_lb_punct>
-<P3_txt_indicators>\\\\</P3_txt_indicators>
-<P3_lb_indicators>Δείκτες:</P3_lb_indicators>
-<P3_mapto>Αντιστοίχιση σε:</P3_mapto>
-<P3_lb_select>Επιλέξτε:</P3_lb_select>
-<P3_cmd_Cancel>"Άκυρο"</P3_cmd_Cancel>
-<P3_cmd_finish>Φινίρισμα</P3_cmd_finish>
-<this>MarcEdit οριοθετημένου κειμένου Μεταφραστής</this>
-</me_tabbed_frmMain>
-<me_tabbed_frmStatus>
-<lbCaption>Label1</lbCaption>
-</me_tabbed_frmStatus>
-<mebatch_frmMain>
-<lnkAbout>Σχετικά με τον πελάτη</lnkAbout>
-<lnkOptions>Ορισμός επιλογών</lnkOptions>
-<lnkModify>Τροποποίηση βάσεων δεδομένων</lnkModify>
-<lnkBatch>Δεσμίδες</lnkBatch>
-<lnkSingle>Λειτουργία αναζήτησης</lnkSingle>
-<lb_b_char>Σύνολο χαρακτήρων του διακομιστή</lb_b_char>
-<cmb_b_encoding>MARC8</cmb_b_encoding>
-<ck_b_unicode>Ανακτήσετε Unicode</ck_b_unicode>
-<Modify>Τροποποίηση</Modify>
-<Database>Επιλέξτε τοπική βάση δεδομένων</Database>
-<rd_custom>Προσαρμοσμένη</rd_custom>
-<rd_title>Αναζήτηση τίτλου/συγγραφέας</rd_title>
-<rd_issn>Αναζήτηση ISBN/ISSN</rd_issn>
-<label1>Αναζήτηση τύποι</label1>
-<lbBDest>Αρχείο προορισμού:</lbBDest>
-<lbBSource>Αρχείο προέλευσης:</lbBSource>
-<lbBTitle>Μαζική βοηθητικό πρόγραμμα αναζήτησης</lbBTitle>
-<lbStartrec>startRecord</lbStartrec>
-<lnkGetNext>Πάρει το επόμενο {όριο}</lnkGetNext>
-<lbMaxRecs>Μέγιστος αριθμός εγγραφών</lbMaxRecs>
-<lnkClearResults>Σαφή αποτελέσματα</lnkClearResults>
-<groupBox3>Αποτελέσματα</groupBox3>
-<col1>ID</col1>
-<col2>Τίτλος</col2>
-<col3>Βάση δεδομένων</col3>
-<mnuGroupDisplay>Επίδειξη επιλεγμένων εγγραφών</mnuGroupDisplay>
-<mnuGroupDownload>Λήψη επιλεγμένων εγγραφών</mnuGroupDownload>
-<mnuDownloadAll>Κατεβάστε όλα τα αρχεία</mnuDownloadAll>
-<groupBox1>Επιλογές</groupBox1>
-<lb_encoding_single>Σύνολο χαρακτήρων του διακομιστή</lb_encoding_single>
-<cmd_encoding>MARC8</cmd_encoding>
-<ckUnicode>Ανακτήσετε Unicode</ckUnicode>
-<rdEditDB>Επιλέξτε τη βάση δεδομένων</rdEditDB>
-<rdEditSettings>Επεξεργασία ρυθμίσεων</rdEditSettings>
-<lbSearchb>Αναζήτηση:</lbSearchb>
-<lbSearch>Ερώτημα βάσης δεδομένων:</lbSearch>
-<ck_automatic>Αυτόματος εντοπισμός των ρυθμίσεων</ck_automatic>
-<lbProxy>Διακομιστή μεσολάβησης:</lbProxy>
-<lbExample>Δείγμα αποτελέσματα:</lbExample>
-<button2>Κλείσιμο</button2>
-<button1>Ok</button1>
-<lbSaveFile>Αποθηκεύστε το αρχείο:</lbSaveFile>
-<lbLimit>Όριο:</lbLimit>
-<lbTitleOption>Τίτλος:</lbTitleOption>
-<lbSetupTitle>Επιλογές εμφάνισης</lbSetupTitle>
-<lnkSelectList>Επιλέξτε πόρος</lnkSelectList>
-<lnkMClose>Κλείσιμο</lnkMClose>
-<lnkMDelete>Διαγράψτε τη βάση δεδομένων</lnkMDelete>
-<lnkMModify>Τροποποίηση βάσης δεδομένων</lnkMModify>
-<lbmOptions>Επιλογές:</lbmOptions>
-<lnkMAdd>Προσθήκη βάσης δεδομένων</lnkMAdd>
-<MCol3>ID</MCol3>
-<MCol1>Όνομα</MCol1>
-<MCol2>Τύπος</MCol2>
-<lb_PModifyTitle>Επιλέξτε τη βάση δεδομένων:</lb_PModifyTitle>
-<aboutbox>richTextBox1</aboutbox>
-<importFromMasterListToolStripMenuItem>Εισαγωγή από τη λίστα κύριων</importFromMasterListToolStripMenuItem>
-<addNewZ3950ServerToolStripMenuItem>Προσθέστε νέο διακομιστή Z39.50</addNewZ3950ServerToolStripMenuItem>
-<addSRUServerToolStripMenuItem>Προσθήκη διακομιστή SRU</addSRUServerToolStripMenuItem>
-<this>MarcEdit πελάτη Z39.50</this>
-</mebatch_frmMain>
-<mebatch_frmOverwrite>
-<cmdAppend>Προσάρτηση</cmdAppend>
-<cmdOverwrite>Αντικαταστήσετε</cmdOverwrite>
-<cmdClose>Κλείσιμο</cmdClose>
-<label1>Υπάρχει το αρχείο εξαγωγής.  Θα θέλατε να αντικαταστήσετε ή να προσαρτήσετε το τρέχον αρχείο.</label1>
-<this>Υπάρχει αρχείο</this>
-</mebatch_frmOverwrite>
-<mebatch_frmProperties>
-<tabDBProps>Ιδιότητες βάσης δεδομένων</tabDBProps>
-<ck_Paused>Παράκαμψη παύση (6 δευτερόλεπτα)</ck_Paused>
-<label1>Βάση δεδομένων:</label1>
-<ck_Show>Προβολή βάσης δεδομένων</ck_Show>
-<lbPassword>Κωδικός πρόσβασης:</lbPassword>
-<lbUsername>Όνομα χρήστη:</lbUsername>
-<lbSyntax>Σύνταξη:</lbSyntax>
-<lbPort>Λιμάνι:</lbPort>
-<lbHost>Υποδοχής:</lbHost>
-<lbname>Όνομα:</lbname>
-<tabDBAdvanced>Ιδιότητες για προχωρημένους</tabDBAdvanced>
-<label4>Χρονικό όριο (σε δευτερόλεπτα):</label4>
-<label2>Σύνολο στοιχείου:</label2>
-<label3>Άλλες επιλογές:</label3>
-<lnkftp>http://www.LOC.gov/z3950/Agency/defns/BIB1.html</lnkftp>
-<lbInfo>Περισσότερες πληροφορίες:</lbInfo>
-<lbISBN>ISBN/ISSN:</lbISBN>
-<lbSubject>Θέμα:</lbSubject>
-<lbTitle>Τίτλος:</lbTitle>
-<lbAuthor>Συγγραφέας:</lbAuthor>
-<lbadvTitle>Χαρακτηριστικό Z39.50 4: δομή</lbadvTitle>
-<cmdSave>Αποθήκευση</cmdSave>
-<cmdClose>Κλείσιμο</cmdClose>
-<this>Ιδιότητες βάσης δεδομένων</this>
-</mebatch_frmProperties>
-<mebatch_frmRecord>
-<lnkDownload>Κατεβάσετε το αρχείο</lnkDownload>
-<lnkClose>Κλείσιμο</lnkClose>
-<lbSave>Αποθηκεύστε το αρχείο:</lbSave>
-<ck_Append>Προσάρτηση</ck_Append>
-<this>Προβάλετε MARC εγγραφή</this>
-</mebatch_frmRecord>
-<mebatch_frmresults>
-<cmd_close>Κλείσιμο</cmd_close>
-</mebatch_frmresults>
-<mebatch_frmStatus>
-<lbCaption>Label1</lbCaption>
-<this>Κατάσταση</this>
-</mebatch_frmStatus>
-<mebatch_SRUProps>
-<lbSRUTitle>Ιδιότητες βάσης δεδομένων:</lbSRUTitle>
-<label1>URL:</label1>
-<lbMetadata>Σχήμα μεταδεδομένων:</lbMetadata>
-<lbName>Όνομα:</lbName>
-<cmdSave>Αποθήκευση</cmdSave>
-<cmdClose>Κλείσιμο</cmdClose>
-<lbVersion>Έκδοση:</lbVersion>
-<label2>Αναζήτηση προφίλ:</label2>
-<label3>Πρόσθετες παράμετροι</label3>
-<this>Ιδιότητες SRU</this>
-</mebatch_SRUProps>
 </marcedit>
